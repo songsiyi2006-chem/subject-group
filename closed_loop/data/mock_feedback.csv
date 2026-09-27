@@ -1,0 +1,7 @@
+run_id,evidence_role,reaction_id,current_density_mA_cm2,electrolyte_concentration_M,temperature_K,yield_pct,prior_prediction_pct,substrate_smiles,partner_smiles,product_smiles,assay,operator,recorded_at,assay_file,assay_sha256,calibration_file,calibration_sha256,electrolysis_file,electrolysis_sha256
+mock-01,mock,unspecified_demo,8.0,0.05,298.15,58.5,62.0,,,,HPLC_label_only,,,,,,,,
+mock-02,mock,unspecified_demo,15.0,0.05,298.15,81.2,78.5,,,,HPLC_label_only,,,,,,,,
+mock-03,mock,unspecified_demo,10.0,0.15,313.15,69.4,71.0,,,,HPLC_label_only,,,,,,,,
+mock-04,mock,unspecified_demo,20.0,0.15,298.15,79.8,84.0,,,,HPLC_label_only,,,,,,,,
+mock-05,mock,unspecified_demo,25.0,0.2,323.15,51.2,55.0,,,,HPLC_label_only,,,,,,,,
+mock-06,mock,unspecified_demo,12.0,0.1,303.15,88.0,86.5,,,,HPLC_label_only,,,,,,,,

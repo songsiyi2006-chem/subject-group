@@ -1,0 +1,44 @@
+{
+  "base": {
+    "scale_mmol": 0.2,
+    "volume_mL": 6,
+    "substrate_mg": 44.655,
+    "substrate_M": 0.03333333333333333,
+    "substrate_MW": 223.275,
+    "electrolyte_M": 0.1,
+    "electrolyte_mmol": 0.6000000000000001,
+    "electrolyte_mg": 232.45800000000003,
+    "MeCN_mL": 4.800000000000001,
+    "HFIP_mL": 1.1999999999999997,
+    "current_density_mA_cm2": 12.5,
+    "area_cm2": 1.5,
+    "current_mA": 18.75,
+    "charge_F_per_mol": 2.2,
+    "charge_C": 42.45354520000001,
+    "duration_min": 37.73648462222223,
+    "max_product_mmol_at_2e": 0.22000000000000003,
+    "full_conversion_FE_ceiling_pct": 90.9090909090909
+  },
+  "sweep_rows": 81,
+  "partner_scenarios": 8,
+  "charge_quadrature_C": 42.45354520000001,
+  "charge_quadrature_absolute_error_C": 0.0,
+  "ready_for_wet_lab": false,
+  "missing": [
+    "Defined product and balanced transformation",
+    "Selected coupling partner and equivalents",
+    "Validated assay and response factor",
+    "Quench compatibility and preparation",
+    "Electrode geometry/area convention, gap, stirring and temperature",
+    "Solubility and isolation method"
+  ],
+  "findings": [
+    "Source coupling_partner_smiles is unused",
+    "Thioanisole is not thiophenol",
+    "Source solvent volumes do not respond to changed total volume",
+    "Source current density is an assumption, not a linked earlier optimum",
+    "Source ORCA input uses CPCM, not SMD",
+    "Source MAE is not cross-validation; labels are mock",
+    "Source acquisition is UCB, not EI"
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "date": "2026-09-28",
+  "evidence": "Executed arithmetic/model audit; source feedback is mock; no wet experiment or DFT execution",
+  "stoichiometry": {
+    "scale_mmol": 0.2,
+    "volume_mL": 6,
+    "substrate_mg": 44.655,
+    "substrate_M": 0.03333333333333333,
+    "substrate_MW": 223.275,
+    "electrolyte_M": 0.1,
+    "electrolyte_mmol": 0.6000000000000001,
+    "electrolyte_mg": 232.45800000000003,
+    "MeCN_mL": 4.800000000000001,
+    "HFIP_mL": 1.1999999999999997,
+    "current_density_mA_cm2": 12.5,
+    "area_cm2": 1.5,
+    "current_mA": 18.75,
+    "charge_F_per_mol": 2.2,
+    "charge_C": 42.45354520000001,
+    "duration_min": 37.73648462222223,
+    "max_product_mmol_at_2e": 0.22000000000000003,
+    "full_conversion_FE_ceiling_pct": 90.9090909090909
+  },
+  "GP_LOO": {
+    "original": {
+      "MAE_pp": 71.28198892677517,
+      "RMSE_pp": 72.46491734580678
+    },
+    "scaled_mle": {
+      "MAE_pp": 15.255953043471104,
+      "RMSE_pp": 17.14829061793715
+    },
+    "scaled_fixed": {
+      "MAE_pp": 14.015909181867178,
+      "RMSE_pp": 15.63918770186008
+    },
+    "mean_baseline": {
+      "MAE_pp": 13.979999999999999,
+      "RMSE_pp": 15.65064854886212
+    }
+  },
+  "source_comparison_MAE_pp": 2.883333333333333,
+  "selected_EI_condition": {
+    "method": "scaled_mle",
+    "candidate": 33,
+    "current_density_mA_cm2": 13.0,
+    "electrolyte_concentration_M": 0.1,
+    "temperature_K": 303.15,
+    "temperature_C": 30.0,
+    "unseen": true,
+    "mu_pct": 78.37202214870271,
+    "latent_sigma_pp": 11.678359630080102,
+    "observation_sigma_pp": 11.825723104609468,
+    "EI_pp": 1.3443859355310064,
+    "UCB_latent_pct": 107.56792122390297,
+    "UCB_observation_pct": 107.93632991022638
+  },
+  "packages": {
+    "numpy": "2.4.6",
+    "scipy": "1.18.0",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.9.0",
+    "rdkit": "2026.3.5",
+    "matplotlib": "3.11.1"
+  }
+}

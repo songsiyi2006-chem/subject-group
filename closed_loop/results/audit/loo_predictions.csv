@@ -1,0 +1,25 @@
+method,held_out_run,observed_yield_pct,predicted_yield_pct,error_pp,observation_sigma_pp,warnings
+original,mock-01,58.5,0.0657073061474725,-58.43429269385253,74.9729568813636,The optimal value found for dimension 0 of parameter k1__length_scale is close to the specified upper bound 100000.0. Increasing the bound and calling fit again may find a better value.
+original,mock-02,81.2,0.06950814739531588,-81.13049185260469,70.61668927794463,
+original,mock-03,69.4,0.06709424749345555,-69.33290575250655,73.09042276075054,The optimal value found for dimension 0 of parameter k1__length_scale is close to the specified upper bound 100000.0. Increasing the bound and calling fit again may find a better value.
+original,mock-04,79.8,0.06916497353017412,-79.73083502646982,70.93423337202718,
+original,mock-05,51.2,0.0651512608221627,-51.13484873917784,76.03287551881665,The optimal value found for dimension 0 of parameter k1__length_scale is close to the specified upper bound 100000.0. Increasing the bound and calling fit again may find a better value.
+original,mock-06,88.0,0.07144050396042437,-87.92855949603958,68.9681347303832,The optimal value found for dimension 0 of parameter k1__length_scale is close to the specified upper bound 100000.0. Increasing the bound and calling fit again may find a better value.
+scaled_mle,mock-01,58.5,81.5762717104006,23.076271710400604,10.398591145021186,The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value.
+scaled_mle,mock-02,81.2,69.38,-11.820000000000007,13.447429387355243,The optimal value found for dimension 0 of parameter k1__k2__length_scale is close to the specified lower bound 0.05. Decreasing the bound and calling fit again may find a better value.
+scaled_mle,mock-03,69.4,71.74001703315562,2.3400170331556183,14.255047523591223,
+scaled_mle,mock-04,79.8,69.6605704827296,-10.1394295172704,13.674069607146903,
+scaled_mle,mock-05,51.2,75.38,24.179999999999993,10.328291297518879,
+scaled_mle,mock-06,88.0,68.02,-19.980000000000004,11.729688821326748,The optimal value found for dimension 0 of parameter k1__k2__length_scale is close to the specified lower bound 0.05. Decreasing the bound and calling fit again may find a better value.
+scaled_fixed,mock-01,58.5,79.3542122416733,20.854212241673295,11.71229022779775,
+scaled_fixed,mock-02,81.2,71.02155423860414,-10.178445761395864,11.504335724820011,
+scaled_fixed,mock-03,69.4,76.94706479981551,7.547064799815502,13.540192599118711,
+scaled_fixed,mock-04,79.8,74.60916695393219,-5.190833046067809,13.415753801725552,
+scaled_fixed,mock-05,51.2,75.36585699810058,24.16585699810058,10.520067784239696,
+scaled_fixed,mock-06,88.0,71.84095775584998,-16.159042244150015,9.324857836594429,
+mean_baseline,mock-01,58.5,73.92,15.420000000000002,,
+mean_baseline,mock-02,81.2,69.38,-11.820000000000007,,
+mean_baseline,mock-03,69.4,71.74,2.339999999999989,,
+mean_baseline,mock-04,79.8,69.66,-10.14,,
+mean_baseline,mock-05,51.2,75.38,24.179999999999993,,
+mean_baseline,mock-06,88.0,68.02,-19.980000000000004,,

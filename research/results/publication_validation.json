@@ -1,6 +1,6 @@
 {
   "passed": true,
-  "checks": 159,
+  "checks": 163,
   "scope": "Saved record and publication integrity, not chemical prediction accuracy or experimental validation.",
   "failed": [],
   "items": [
@@ -590,6 +590,22 @@
     },
     {
       "check": "README link ../provenance/SHA256SUMS.txt",
+      "passed": true
+    },
+    {
+      "check": "README link closed_loop/reports/closed_loop_experimental_report_chinese.md",
+      "passed": true
+    },
+    {
+      "check": "README link closed_loop/reports/closed_loop_experimental_report_english.md",
+      "passed": true
+    },
+    {
+      "check": "README link closed_loop/reports/closed_loop_experimental_report_bilingual.md",
+      "passed": true
+    },
+    {
+      "check": "README link closed_loop/README.md",
       "passed": true
     },
     {

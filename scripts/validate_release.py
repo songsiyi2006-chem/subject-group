@@ -37,7 +37,10 @@ def main():
     research=subprocess.run([sys.executable,str(ROOT/'research/scripts/validate_research.py')],capture_output=True,text=True,encoding='utf-8')
     check('three-module research publication validation',research.returncode==0)
     if research.returncode:print(research.stdout,research.stderr)
-    files=[p for d in ['results','provenance','data/original','production/results','production/source','research/results','research/source'] for p in (ROOT/d).rglob('*.json') if p.name!='release_validation.json']
+    closed_loop=subprocess.run([sys.executable,str(ROOT/'closed_loop/scripts/validate_closed_loop.py')],capture_output=True,text=True,encoding='utf-8')
+    check('closed-loop publication validation',closed_loop.returncode==0)
+    if closed_loop.returncode:print(closed_loop.stdout,closed_loop.stderr)
+    files=[p for d in ['results','provenance','data/original','production/results','production/source','research/results','research/source','closed_loop/results','closed_loop/source','closed_loop/inputs'] for p in (ROOT/d).rglob('*.json') if p.name!='release_validation.json']
     for f in files:
         try:json.loads(f.read_text(encoding='utf-8-sig'));ok=True
         except Exception:ok=False

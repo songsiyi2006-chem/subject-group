@@ -1,0 +1,50 @@
+{
+    "WetLab_SOP": {
+        "Project_Title": "Electrochemical Oxidative C-H Functionalization of Bioactive Heterocycles",
+        "Scale_Specification": "0.2 mmol scale",
+        "Reagent_Dispensing": {
+            "Substrate": "44.7 mg (0.2 mmol)",
+            "Electrolyte": "232.5 mg of nBu4NPF6 (0.1 M)",
+            "Solvent_Ratio": "MeCN/HFIP (4:1), total volume = 6.0 mL (4.8 mL MeCN + 1.2 mL HFIP)"
+        },
+        "Electrochemical_Cell_Configuration": {
+            "Cell_Type": "Undivided three-necked glass cell (10 mL)",
+            "Anode": "Platinum plate (1.0 cm x 1.5 cm) or Carbon rod",
+            "Cathode": "Platinum plate (1.0 cm x 1.5 cm)",
+            "Current_Mode": "Constant Current Electrolysis (CCE)",
+            "Power_Supply_Setting_mA": 18.75,
+            "Target_Faradaic_Electricity": "2.2 F/mol",
+            "Total_Charge_Coulombs": 42.5,
+            "Estimated_Reaction_Duration_min": 37.7
+        },
+        "Workup_and_Purification_Protocol": [
+            "1. Turn off DC power supply immediately when charge reaches target Coulombs.",
+            "2. Quench reaction mixture with 10 mL saturated aqueous Na2S2O3 / NaHCO3 solution.",
+            "3. Extract the aqueous phase with Ethyl Acetate (3 x 15 mL).",
+            "4. Combine organic layers, wash with brine (15 mL), and dry over anhydrous Na2SO4.",
+            "5. Filter and concentrate under reduced pressure via rotary evaporator.",
+            "6. Purify residue via silica gel flash column chromatography (Eluent: Petroleum Ether / Ethyl Acetate = 15:1 -> 8:1 v/v)."
+        ]
+    },
+    "DFT_Input_Automation": {
+        "status": "files_generated",
+        "gaussian_input_path": "dft_inputs\\indoline_radical.gjf",
+        "orca_input_path": "dft_inputs\\indoline_radical.inp",
+        "spin_multiplicity": 2,
+        "net_charge": 1,
+        "theoretical_model": "UB3LYP-D3(BJ)/def2-SVP/SMD(MeCN)"
+    },
+    "Active_Learning_Feedback": {
+        "status": "model_recalibrated",
+        "previous_round_sample_count": 6,
+        "mean_absolute_error_mae": 2.88,
+        "best_actual_yield_round1": 88.0,
+        "round_2_recommended_condition": {
+            "current_density_mA_cm2": 15.0,
+            "electrolyte_concentration_M": 0.08,
+            "temperature_C": 30.0,
+            "model_predicted_yield_pct": 0.08,
+            "prediction_uncertainty_sigma": 72.47
+        }
+    }
+}

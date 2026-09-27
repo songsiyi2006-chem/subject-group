@@ -1,0 +1,9 @@
+identity,smiles,formula,MW_g_mol,assumed_equivalents,mmol,mass_mg,status
+thioanisole,CSc1ccccc1,C7H8S,124.20799999999996,0.5,0.1,12.420799999999996,Arithmetic scenario only; partner and loading are not selected
+thioanisole,CSc1ccccc1,C7H8S,124.20799999999996,1.0,0.2,24.841599999999993,Arithmetic scenario only; partner and loading are not selected
+thioanisole,CSc1ccccc1,C7H8S,124.20799999999996,1.5,0.30000000000000004,37.26239999999999,Arithmetic scenario only; partner and loading are not selected
+thioanisole,CSc1ccccc1,C7H8S,124.20799999999996,2.0,0.4,49.683199999999985,Arithmetic scenario only; partner and loading are not selected
+thiophenol,Sc1ccccc1,C6H6S,110.18099999999997,0.5,0.1,11.018099999999997,Arithmetic scenario only; partner and loading are not selected
+thiophenol,Sc1ccccc1,C6H6S,110.18099999999997,1.0,0.2,22.036199999999994,Arithmetic scenario only; partner and loading are not selected
+thiophenol,Sc1ccccc1,C6H6S,110.18099999999997,1.5,0.30000000000000004,33.0543,Arithmetic scenario only; partner and loading are not selected
+thiophenol,Sc1ccccc1,C6H6S,110.18099999999997,2.0,0.4,44.07239999999999,Arithmetic scenario only; partner and loading are not selected

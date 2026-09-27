@@ -1,3 +1,20 @@
+test_candidate_repeats_excluded (test_closed_loop.ClosedLoopTests.test_candidate_repeats_excluded) ... ok
+test_charge_units_and_independent_integral (test_closed_loop.ClosedLoopTests.test_charge_units_and_independent_integral) ... ok
+test_dft_solvation_and_dependent_geometry (test_closed_loop.ClosedLoopTests.test_dft_solvation_and_dependent_geometry) ... ok
+test_ei_matches_independent_quadrature (test_closed_loop.ClosedLoopTests.test_ei_matches_independent_quadrature) ... ok
+test_evidence_roles_and_units_reject_invalid_rows (test_closed_loop.ClosedLoopTests.test_evidence_roles_and_units_reject_invalid_rows) ... ok
+test_experimental_linkage_and_hash_guard (test_closed_loop.ClosedLoopTests.test_experimental_linkage_and_hash_guard) ... ok
+test_given_mae_is_reproduced_from_source_arrays (test_closed_loop.ClosedLoopTests.test_given_mae_is_reproduced_from_source_arrays) ... ok
+test_invalid_stoichiometry_rejected (test_closed_loop.ClosedLoopTests.test_invalid_stoichiometry_rejected) ... ok
+test_loo_mean_baseline_independent (test_closed_loop.ClosedLoopTests.test_loo_mean_baseline_independent) ... ok
+test_negative_model_comparison_retained (test_closed_loop.ClosedLoopTests.test_negative_model_comparison_retained) ... ok
+test_noise_variance_removed_in_physical_units (test_closed_loop.ClosedLoopTests.test_noise_variance_removed_in_physical_units) ... ok
+test_one_heldout_gp_fit_reproduces_saved_prediction (test_closed_loop.ClosedLoopTests.test_one_heldout_gp_fit_reproduces_saved_prediction) ... ok
+test_original_source_and_execution_hash (test_closed_loop.ClosedLoopTests.test_original_source_and_execution_hash) ... ok
+test_parameter_changes_propagate (test_closed_loop.ClosedLoopTests.test_parameter_changes_propagate) ... ok
+test_partner_identity_not_interchangeable (test_closed_loop.ClosedLoopTests.test_partner_identity_not_interchangeable) ... ok
+test_quantum_identity_spin_and_geometry (test_closed_loop.ClosedLoopTests.test_quantum_identity_spin_and_geometry) ... ok
+test_two_electron_material_balance (test_closed_loop.ClosedLoopTests.test_two_electron_material_balance) ... ok
 test_bo_matched_design_and_budget (test_evidence.EvidenceTests.test_bo_matched_design_and_budget) ... ok
 test_bo_pairwise_interval_data (test_evidence.EvidenceTests.test_bo_pairwise_interval_data) ... ok
 test_bo_regret_computed_from_recommended_point (test_evidence.EvidenceTests.test_bo_regret_computed_from_recommended_point) ... ok
@@ -43,6 +60,6 @@ test_transport_source_rounding_and_volume_integral (test_research.ResearchEviden
 test_weight_cases_and_feasibility (test_research.ResearchEvidence.test_weight_cases_and_feasibility) ... ok
 
 ----------------------------------------------------------------------
-Ran 43 tests in 0.945s
+Ran 60 tests in 1.729s
 
 OK

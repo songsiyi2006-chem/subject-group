@@ -1,0 +1,37 @@
+%chk=indoline_control_cation.chk
+%nprocshared=2
+%mem=3GB
+#p uB3LYP/def2SVP empiricaldispersion=gd3bj opt=(tight,maxcycles=200) freq scrf=(smd,solvent=acetonitrile) int=ultrafine scf=(tight,xqc,maxcycle=512)
+
+indoline_control_cation: proposed solution optimization and harmonic frequencies
+
+1 2
+C   2.3299815621  0.5944723284  0.3154905009
+C   2.3293891207 -0.7669325563  0.0658429856
+C   1.1496924456 -1.4500670151 -0.1964879957
+C  -0.0351479102 -0.7319529721 -0.2019858028
+C  -0.0367313931  0.6458795448  0.0530106266
+C   1.1368061088  1.3130254764  0.3083644006
+C  -1.4513638374  1.1518361171 -0.0278997649
+C  -2.2734690818 -0.1490829764 -0.1156198700
+N  -1.3062440387 -1.1721395781 -0.4932480599
+H   3.2604687096  1.1036908867  0.5194898652
+H   3.2630799115 -1.3115551025  0.0776798100
+H   1.1559242283 -2.5130399410 -0.3884139984
+H   1.1367477403  2.3754261877  0.5068783966
+H  -1.5827741956  1.7621005676 -0.9244533289
+H  -1.7276130149  1.7568238844  0.8357783094
+H  -2.7369405422 -0.3811938080  0.8537763437
+H  -3.0642224440 -0.0923703589 -0.8679556965
+H  -1.5475833692 -2.1349206845 -0.3202457215
+
+--Link1--
+%chk=indoline_control_cation.chk
+%nprocshared=2
+%mem=3GB
+#p uM062X/def2TZVP scrf=(smd,solvent=acetonitrile) geom=check guess=read int=ultrafine scf=(tight,xqc,maxcycle=512)
+
+indoline_control_cation: proposed single point on optimized geometry
+
+1 2
+

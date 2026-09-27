@@ -1,0 +1,12 @@
+{
+  "returncode": 0,
+  "script_sha256": "37ff41ed272eb5f07094e5801c5837a2c39f4c350cc7731c034c147a35156b9a",
+  "elapsed_s": 6.797912599984556,
+  "timestamp_utc": "2026-09-27T23:26:17.081953+00:00",
+  "threads": 1,
+  "timeout_s": 180,
+  "python": "3.12.14",
+  "result_written": true,
+  "dft_executed": false,
+  "wet_lab_executed": false
+}

@@ -1,0 +1,219 @@
+{
+  "status": "input_templates_generated_not_engine_validated",
+  "engines": {
+    "Gaussian": "16",
+    "ORCA": "6.1"
+  },
+  "engine_executables_on_checked_PATH": {
+    "g16": false,
+    "orca": false
+  },
+  "dft_executed": false,
+  "profile": {
+    "nproc": 2,
+    "Gaussian_memory_GB": 3,
+    "ORCA_maxcore_MB_per_process": 1000,
+    "ORCA_nominal_total_MB": 2000,
+    "suggested_scheduler_memory_GB": 4,
+    "walltime": "unknown; measure pilot",
+    "CPU_only": true
+  },
+  "molecules": {
+    "target_indole": {
+      "smiles": "COc1ccc2[nH]c(cc2c1)c3ccccc3",
+      "canonical_smiles": "COc1ccc2[nH]c(-c3ccccc3)cc2c1",
+      "formula": "C15H13NO",
+      "atoms": 30,
+      "neutral_electrons": 118,
+      "minimum_pair_distance_A": 1.0055042233770164,
+      "bond_distance_range_A": [
+        1.0055042233770164,
+        1.453083318725811
+      ],
+      "geometry_method": "Previously executed neutral GFN2-xTB/ALPB(acetonitrile) optimization; reused, not newly run",
+      "source_files": {
+        "production/results/target_xtb/neutral/xtbopt.xyz": "6ce3e97dd1da87b40e9ab422286272a3d0bec97eae58aaccd2f1842b6964cf1a",
+        "production/results/target_xtb/neutral/run.json": "3d39447325d46e4fbb8fedb51daab0c1b668dff7dd0989329b6674104b33959c",
+        "production/results/audit/target_identity.json": "60561f09af7db4a41cc4a95afd36d87d75b3ceec3534b9e802fbdcde686fe0a2"
+      }
+    },
+    "indoline_control": {
+      "smiles": "c1ccc2c(c1)CCN2",
+      "canonical_smiles": "c1ccc2c(c1)CCN2",
+      "formula": "C8H9N",
+      "atoms": 18,
+      "neutral_electrons": 64,
+      "minimum_pair_distance_A": 1.007532600133799,
+      "bond_distance_range_A": [
+        1.007532600133799,
+        1.5414092051037869
+      ],
+      "geometry_method": "Previously executed neutral GFN2-xTB/ALPB(acetonitrile) optimization; reused, not newly run",
+      "source_files": {
+        "research/results/molecules/indoline/neutral/xtbopt.xyz": "c45c1fbb85ca4ec23817702871360653b2c014e7f62778cf400d4ab5f9d5772c",
+        "research/results/molecules/indoline/neutral/run.json": "d4bc158c0a0e6b573ed040c92d9894b619edfc61f32ccbbf4b057595a9a1f489",
+        "research/results/molecules/indoline/identity.json": "281c78183a797cc88db447b5fc2ea5172d7c3706106301bfdfc8cf66b89c0bf0"
+      }
+    }
+  },
+  "files": [
+    {
+      "path": "target_indole_neutral.gjf",
+      "sha256": "c057b1fc4c3cba70017ac42f6798d6c0772d35e4dcd17fc118a8ae1b1ace0daf",
+      "molecule": "target_indole",
+      "state": "neutral",
+      "charge": 0,
+      "multiplicity": 1,
+      "electrons": 118
+    },
+    {
+      "path": "target_indole_neutral_opt.inp",
+      "sha256": "31f556c06e61135f52ead130e1e3341607065abac31b579099ce77d2f18a0af4",
+      "molecule": "target_indole",
+      "state": "neutral",
+      "charge": 0,
+      "multiplicity": 1,
+      "electrons": 118
+    },
+    {
+      "path": "target_indole_neutral_sp.inp",
+      "sha256": "265ff7473d1182398da5a090a933f7a69f0c61b9e23754ab58aee32f4ca0233a",
+      "molecule": "target_indole",
+      "state": "neutral",
+      "charge": 0,
+      "multiplicity": 1,
+      "electrons": 118
+    },
+    {
+      "path": "target_indole_cation.gjf",
+      "sha256": "fc469e86f9ba2e5cc8eef329b5c80035e1b8e8757b4a07214dccdd338d88b083",
+      "molecule": "target_indole",
+      "state": "cation",
+      "charge": 1,
+      "multiplicity": 2,
+      "electrons": 117
+    },
+    {
+      "path": "target_indole_cation_opt.inp",
+      "sha256": "ba47f3482bdfd5a1a04d3ac929765f31579d89cd21c1c91002fd10e7a4d78999",
+      "molecule": "target_indole",
+      "state": "cation",
+      "charge": 1,
+      "multiplicity": 2,
+      "electrons": 117
+    },
+    {
+      "path": "target_indole_cation_sp.inp",
+      "sha256": "f8ec17f208bcb2b48d940d6dab67a359d4c61abee83f35921791b8d96e983b2b",
+      "molecule": "target_indole",
+      "state": "cation",
+      "charge": 1,
+      "multiplicity": 2,
+      "electrons": 117
+    },
+    {
+      "path": "indoline_control_neutral.gjf",
+      "sha256": "f1935d80c218955f1793ff5468267c945ec95f4b0f4b835769f058ab2169793f",
+      "molecule": "indoline_control",
+      "state": "neutral",
+      "charge": 0,
+      "multiplicity": 1,
+      "electrons": 64
+    },
+    {
+      "path": "indoline_control_neutral_opt.inp",
+      "sha256": "9479c55738a165e0576d4319f70cb3dd7cb99d27f3899a1f2b364d5b4065b7dd",
+      "molecule": "indoline_control",
+      "state": "neutral",
+      "charge": 0,
+      "multiplicity": 1,
+      "electrons": 64
+    },
+    {
+      "path": "indoline_control_neutral_sp.inp",
+      "sha256": "f6b94e422d44a0d2cbe4899c73de1cec40a028fafe6b71c6d8708edb225e2fe0",
+      "molecule": "indoline_control",
+      "state": "neutral",
+      "charge": 0,
+      "multiplicity": 1,
+      "electrons": 64
+    },
+    {
+      "path": "indoline_control_cation.gjf",
+      "sha256": "2f0ff0dfd1a5588c5d88382c65eb5d9b31c1956dcdaa74a3018a206c0f0c5b83",
+      "molecule": "indoline_control",
+      "state": "cation",
+      "charge": 1,
+      "multiplicity": 2,
+      "electrons": 63
+    },
+    {
+      "path": "indoline_control_cation_opt.inp",
+      "sha256": "5fa7301012cc425b9ffbe6153c30821be4307796867e51725f1bd7542fbf78e4",
+      "molecule": "indoline_control",
+      "state": "cation",
+      "charge": 1,
+      "multiplicity": 2,
+      "electrons": 63
+    },
+    {
+      "path": "indoline_control_cation_sp.inp",
+      "sha256": "a7c2a41cdd8cd12722b92e43b2c790362cd10ac96007efa20aeb260ddc7c3abe",
+      "molecule": "indoline_control",
+      "state": "cation",
+      "charge": 1,
+      "multiplicity": 2,
+      "electrons": 63
+    }
+  ],
+  "job_dependencies": [
+    {
+      "sp_input": "target_indole_neutral_sp.inp",
+      "requires_output_from": "target_indole_neutral_opt.inp",
+      "required_xyz": "target_indole_neutral_opt.xyz",
+      "required_checks": [
+        "SCF convergence",
+        "Geometry convergence",
+        "No significant imaginary frequency",
+        "Spin and wavefunction assessment"
+      ],
+      "geometry_exists": false
+    },
+    {
+      "sp_input": "target_indole_cation_sp.inp",
+      "requires_output_from": "target_indole_cation_opt.inp",
+      "required_xyz": "target_indole_cation_opt.xyz",
+      "required_checks": [
+        "SCF convergence",
+        "Geometry convergence",
+        "No significant imaginary frequency",
+        "Spin and wavefunction assessment"
+      ],
+      "geometry_exists": false
+    },
+    {
+      "sp_input": "indoline_control_neutral_sp.inp",
+      "requires_output_from": "indoline_control_neutral_opt.inp",
+      "required_xyz": "indoline_control_neutral_opt.xyz",
+      "required_checks": [
+        "SCF convergence",
+        "Geometry convergence",
+        "No significant imaginary frequency",
+        "Spin and wavefunction assessment"
+      ],
+      "geometry_exists": false
+    },
+    {
+      "sp_input": "indoline_control_cation_sp.inp",
+      "requires_output_from": "indoline_control_cation_opt.inp",
+      "required_xyz": "indoline_control_cation_opt.xyz",
+      "required_checks": [
+        "SCF convergence",
+        "Geometry convergence",
+        "No significant imaginary frequency",
+        "Spin and wavefunction assessment"
+      ],
+      "geometry_exists": false
+    }
+  ]
+}

@@ -1,0 +1,640 @@
+{
+  "passed": true,
+  "checks": 158,
+  "failed": [],
+  "scope": "Record, structure, bilingual completeness and numeric integrity; not chemical or assay validation",
+  "items": [
+    {
+      "check": "original extraction and execution hashes",
+      "passed": true
+    },
+    {
+      "check": "source specification bytes preserved",
+      "passed": true
+    },
+    {
+      "check": "original completed without DFT or wet-lab execution",
+      "passed": true
+    },
+    {
+      "check": "all feedback remains mock",
+      "passed": true
+    },
+    {
+      "check": "feedback provenance hash",
+      "passed": true
+    },
+    {
+      "check": "rows stoichiometry_sweep.csv",
+      "passed": true
+    },
+    {
+      "check": "rows partner_scenarios.csv",
+      "passed": true
+    },
+    {
+      "check": "rows charge_balance_scenarios.csv",
+      "passed": true
+    },
+    {
+      "check": "rows loo_predictions.csv",
+      "passed": true
+    },
+    {
+      "check": "rows candidate_predictions.csv",
+      "passed": true
+    },
+    {
+      "check": "rows acquisition_sensitivity.csv",
+      "passed": true
+    },
+    {
+      "check": "corrected input file count",
+      "passed": true
+    },
+    {
+      "check": "input SHA256 target_indole_neutral.gjf",
+      "passed": true
+    },
+    {
+      "check": "input SHA256 target_indole_neutral_opt.inp",
+      "passed": true
+    },
+    {
+      "check": "input SHA256 target_indole_neutral_sp.inp",
+      "passed": true
+    },
+    {
+      "check": "input SHA256 target_indole_cation.gjf",
+      "passed": true
+    },
+    {
+      "check": "input SHA256 target_indole_cation_opt.inp",
+      "passed": true
+    },
+    {
+      "check": "input SHA256 target_indole_cation_sp.inp",
+      "passed": true
+    },
+    {
+      "check": "input SHA256 indoline_control_neutral.gjf",
+      "passed": true
+    },
+    {
+      "check": "input SHA256 indoline_control_neutral_opt.inp",
+      "passed": true
+    },
+    {
+      "check": "input SHA256 indoline_control_neutral_sp.inp",
+      "passed": true
+    },
+    {
+      "check": "input SHA256 indoline_control_cation.gjf",
+      "passed": true
+    },
+    {
+      "check": "input SHA256 indoline_control_cation_opt.inp",
+      "passed": true
+    },
+    {
+      "check": "input SHA256 indoline_control_cation_sp.inp",
+      "passed": true
+    },
+    {
+      "check": "english exactly five main sections",
+      "passed": true
+    },
+    {
+      "check": "english subsections 1",
+      "passed": true
+    },
+    {
+      "check": "english subsections 2",
+      "passed": true
+    },
+    {
+      "check": "english subsections 3",
+      "passed": true
+    },
+    {
+      "check": "english subsections 4",
+      "passed": true
+    },
+    {
+      "check": "english subsections 5",
+      "passed": true
+    },
+    {
+      "check": "english numeric anchors",
+      "passed": true
+    },
+    {
+      "check": "english evidence labels",
+      "passed": true
+    },
+    {
+      "check": "english source hash",
+      "passed": true
+    },
+    {
+      "check": "english no unexpanded token",
+      "passed": true
+    },
+    {
+      "check": "english balanced fences",
+      "passed": true
+    },
+    {
+      "check": "english balanced math",
+      "passed": true
+    },
+    {
+      "check": "english link ../source/specification.md",
+      "passed": true
+    },
+    {
+      "check": "english link ../source/run_closed_loop_platform.py",
+      "passed": true
+    },
+    {
+      "check": "english link ../results/original/execution.json",
+      "passed": true
+    },
+    {
+      "check": "english link ../results/original/closed_loop_results.json",
+      "passed": true
+    },
+    {
+      "check": "english link ../results/audit/stoichiometry_sweep.csv",
+      "passed": true
+    },
+    {
+      "check": "english link figures/charge_sensitivity_english.png",
+      "passed": true
+    },
+    {
+      "check": "english link ../results/audit/stoichiometry.json",
+      "passed": true
+    },
+    {
+      "check": "english link ../inputs/reviewed/input_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "english link ../inputs/reviewed/README.md",
+      "passed": true
+    },
+    {
+      "check": "english link ../inputs/reviewed/target_indole_cation.gjf",
+      "passed": true
+    },
+    {
+      "check": "english link ../inputs/reviewed/target_indole_cation_opt.inp",
+      "passed": true
+    },
+    {
+      "check": "english link ../inputs/reviewed/target_indole_cation_sp.inp",
+      "passed": true
+    },
+    {
+      "check": "english link ../data/mock_feedback.csv",
+      "passed": true
+    },
+    {
+      "check": "english link figures/feedback_audit_english.png",
+      "passed": true
+    },
+    {
+      "check": "english link ../results/audit/audit_summary.json",
+      "passed": true
+    },
+    {
+      "check": "english link figures/integration_gantt_english.png",
+      "passed": true
+    },
+    {
+      "check": "english link ../README.md",
+      "passed": true
+    },
+    {
+      "check": "english link ../results/publication_validation.json",
+      "passed": true
+    },
+    {
+      "check": "chinese exactly five main sections",
+      "passed": true
+    },
+    {
+      "check": "chinese subsections 1",
+      "passed": true
+    },
+    {
+      "check": "chinese subsections 2",
+      "passed": true
+    },
+    {
+      "check": "chinese subsections 3",
+      "passed": true
+    },
+    {
+      "check": "chinese subsections 4",
+      "passed": true
+    },
+    {
+      "check": "chinese subsections 5",
+      "passed": true
+    },
+    {
+      "check": "chinese numeric anchors",
+      "passed": true
+    },
+    {
+      "check": "chinese evidence labels",
+      "passed": true
+    },
+    {
+      "check": "chinese source hash",
+      "passed": true
+    },
+    {
+      "check": "chinese no unexpanded token",
+      "passed": true
+    },
+    {
+      "check": "chinese balanced fences",
+      "passed": true
+    },
+    {
+      "check": "chinese balanced math",
+      "passed": true
+    },
+    {
+      "check": "chinese link ../source/specification.md",
+      "passed": true
+    },
+    {
+      "check": "chinese link ../source/run_closed_loop_platform.py",
+      "passed": true
+    },
+    {
+      "check": "chinese link ../results/original/execution.json",
+      "passed": true
+    },
+    {
+      "check": "chinese link ../results/original/closed_loop_results.json",
+      "passed": true
+    },
+    {
+      "check": "chinese link ../results/audit/stoichiometry_sweep.csv",
+      "passed": true
+    },
+    {
+      "check": "chinese link figures/charge_sensitivity_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "chinese link ../results/audit/stoichiometry.json",
+      "passed": true
+    },
+    {
+      "check": "chinese link ../inputs/reviewed/input_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "chinese link ../inputs/reviewed/README.md",
+      "passed": true
+    },
+    {
+      "check": "chinese link ../inputs/reviewed/target_indole_cation.gjf",
+      "passed": true
+    },
+    {
+      "check": "chinese link ../inputs/reviewed/target_indole_cation_opt.inp",
+      "passed": true
+    },
+    {
+      "check": "chinese link ../inputs/reviewed/target_indole_cation_sp.inp",
+      "passed": true
+    },
+    {
+      "check": "chinese link ../data/mock_feedback.csv",
+      "passed": true
+    },
+    {
+      "check": "chinese link figures/feedback_audit_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "chinese link ../results/audit/audit_summary.json",
+      "passed": true
+    },
+    {
+      "check": "chinese link figures/integration_gantt_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "chinese link ../README.md",
+      "passed": true
+    },
+    {
+      "check": "chinese link ../results/publication_validation.json",
+      "passed": true
+    },
+    {
+      "check": "bilingual exactly five main sections",
+      "passed": true
+    },
+    {
+      "check": "bilingual subsections 1",
+      "passed": true
+    },
+    {
+      "check": "bilingual subsections 2",
+      "passed": true
+    },
+    {
+      "check": "bilingual subsections 3",
+      "passed": true
+    },
+    {
+      "check": "bilingual subsections 4",
+      "passed": true
+    },
+    {
+      "check": "bilingual subsections 5",
+      "passed": true
+    },
+    {
+      "check": "bilingual numeric anchors",
+      "passed": true
+    },
+    {
+      "check": "bilingual evidence labels",
+      "passed": true
+    },
+    {
+      "check": "bilingual source hash",
+      "passed": true
+    },
+    {
+      "check": "bilingual no unexpanded token",
+      "passed": true
+    },
+    {
+      "check": "bilingual balanced fences",
+      "passed": true
+    },
+    {
+      "check": "bilingual balanced math",
+      "passed": true
+    },
+    {
+      "check": "bilingual link ../source/specification.md",
+      "passed": true
+    },
+    {
+      "check": "bilingual link ../source/run_closed_loop_platform.py",
+      "passed": true
+    },
+    {
+      "check": "bilingual link ../results/original/execution.json",
+      "passed": true
+    },
+    {
+      "check": "bilingual link ../results/original/closed_loop_results.json",
+      "passed": true
+    },
+    {
+      "check": "bilingual link ../source/specification.md",
+      "passed": true
+    },
+    {
+      "check": "bilingual link ../source/run_closed_loop_platform.py",
+      "passed": true
+    },
+    {
+      "check": "bilingual link ../results/original/execution.json",
+      "passed": true
+    },
+    {
+      "check": "bilingual link ../results/original/closed_loop_results.json",
+      "passed": true
+    },
+    {
+      "check": "bilingual link ../results/audit/stoichiometry_sweep.csv",
+      "passed": true
+    },
+    {
+      "check": "bilingual link figures/charge_sensitivity_english.png",
+      "passed": true
+    },
+    {
+      "check": "bilingual link ../results/audit/stoichiometry_sweep.csv",
+      "passed": true
+    },
+    {
+      "check": "bilingual link figures/charge_sensitivity_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "bilingual link ../results/audit/stoichiometry.json",
+      "passed": true
+    },
+    {
+      "check": "bilingual link ../results/audit/stoichiometry.json",
+      "passed": true
+    },
+    {
+      "check": "bilingual link ../inputs/reviewed/input_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "bilingual link ../inputs/reviewed/README.md",
+      "passed": true
+    },
+    {
+      "check": "bilingual link ../inputs/reviewed/target_indole_cation.gjf",
+      "passed": true
+    },
+    {
+      "check": "bilingual link ../inputs/reviewed/target_indole_cation_opt.inp",
+      "passed": true
+    },
+    {
+      "check": "bilingual link ../inputs/reviewed/target_indole_cation_sp.inp",
+      "passed": true
+    },
+    {
+      "check": "bilingual link ../inputs/reviewed/input_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "bilingual link ../inputs/reviewed/README.md",
+      "passed": true
+    },
+    {
+      "check": "bilingual link ../inputs/reviewed/target_indole_cation.gjf",
+      "passed": true
+    },
+    {
+      "check": "bilingual link ../inputs/reviewed/target_indole_cation_opt.inp",
+      "passed": true
+    },
+    {
+      "check": "bilingual link ../inputs/reviewed/target_indole_cation_sp.inp",
+      "passed": true
+    },
+    {
+      "check": "bilingual link ../data/mock_feedback.csv",
+      "passed": true
+    },
+    {
+      "check": "bilingual link ../data/mock_feedback.csv",
+      "passed": true
+    },
+    {
+      "check": "bilingual link figures/feedback_audit_english.png",
+      "passed": true
+    },
+    {
+      "check": "bilingual link figures/feedback_audit_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "bilingual link ../results/audit/audit_summary.json",
+      "passed": true
+    },
+    {
+      "check": "bilingual link ../results/audit/audit_summary.json",
+      "passed": true
+    },
+    {
+      "check": "bilingual link figures/integration_gantt_english.png",
+      "passed": true
+    },
+    {
+      "check": "bilingual link figures/integration_gantt_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "bilingual link ../README.md",
+      "passed": true
+    },
+    {
+      "check": "bilingual link ../results/publication_validation.json",
+      "passed": true
+    },
+    {
+      "check": "bilingual link ../README.md",
+      "passed": true
+    },
+    {
+      "check": "bilingual link ../results/publication_validation.json",
+      "passed": true
+    },
+    {
+      "check": "English Chinese table numeric parity",
+      "passed": true
+    },
+    {
+      "check": "English edition no Chinese prose",
+      "passed": true
+    },
+    {
+      "check": "english full subsection bodies retained in bilingual",
+      "passed": true
+    },
+    {
+      "check": "chinese full subsection bodies retained in bilingual",
+      "passed": true
+    },
+    {
+      "check": "README link reports/closed_loop_experimental_report_chinese.md",
+      "passed": true
+    },
+    {
+      "check": "README link reports/closed_loop_experimental_report_english.md",
+      "passed": true
+    },
+    {
+      "check": "README link reports/closed_loop_experimental_report_bilingual.md",
+      "passed": true
+    },
+    {
+      "check": "README link results/original/closed_loop_results.json",
+      "passed": true
+    },
+    {
+      "check": "README link source/source_record.json",
+      "passed": true
+    },
+    {
+      "check": "README link results/original/execution.json",
+      "passed": true
+    },
+    {
+      "check": "README link results/audit/audit_summary.json",
+      "passed": true
+    },
+    {
+      "check": "README link results/audit/active_learning.json",
+      "passed": true
+    },
+    {
+      "check": "README link inputs/reviewed/README.md",
+      "passed": true
+    },
+    {
+      "check": "README link data/README.md",
+      "passed": true
+    },
+    {
+      "check": "README link ../scripts/validate_release.py",
+      "passed": true
+    },
+    {
+      "check": "README link ../provenance/SHA256SUMS.txt",
+      "passed": true
+    },
+    {
+      "check": "README link input_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/figure_review.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses source/reference_record.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses source/source_record.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses inputs/reviewed/input_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/audit/active_learning.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/audit/audit_summary.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/audit/stoichiometry.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/original/closed_loop_results.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/original/execution.json",
+      "passed": true
+    }
+  ]
+}

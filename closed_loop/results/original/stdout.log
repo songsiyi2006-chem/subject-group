@@ -1,0 +1,11 @@
+
+--- [Module 1] Generating Wet-Lab Stoichiometry & Operating SOP ---
+
+--- [Module 2] Generating Production-Grade Gaussian 16 / ORCA Input Files ---
+
+--- [Module 3] Active Learning Closed-Loop Feedback Loop ---
+
+[CLOSED-LOOP PIPELINE COMPLETE]
+- Wet-lab SOP & stoichiometry calculated.
+- Gaussian (.gjf) and ORCA (.inp) files exported to 'dft_inputs/'.
+- Model updated with experimental feedback. Summary saved to 'closed_loop_results.json'.

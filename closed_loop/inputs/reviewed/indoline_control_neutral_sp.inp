@@ -1,0 +1,11 @@
+# ORCA 6.1 input template; engine parsing and DFT results remain unverified.
+# Requires successfully converged opt geometry and frequency inspection.
+! RKS M062X def2-TZVP RIJCOSX def2/J TightSCF DEFGRID3 CPCM
+%pal nprocs 2 end
+%maxcore 1000
+%cpcm
+  smd true
+  SMDsolvent "acetonitrile"
+end
+%scf MaxIter 512 end
+* xyzfile 0 1 indoline_control_neutral_opt.xyz

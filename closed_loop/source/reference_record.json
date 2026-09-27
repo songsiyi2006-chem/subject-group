@@ -1,0 +1,13 @@
+{
+  "checked_date": "2026-09-28",
+  "scope": "Primary software documentation for proposed input syntax and analytical GP acquisition. Documentation review does not constitute quantum-engine parsing or experimental validation.",
+  "references": [
+    {"title": "Gaussian DFT", "url": "https://gaussian.com/dft/", "verified_content": "M062X keyword and GD3BJ dispersion option", "access": "Direct HTTP 200 and text inspection; browser open returned an error"},
+    {"title": "Gaussian SCRF", "url": "https://gaussian.com/scrf/", "verified_content": "SMD option and acetonitrile solvent", "access": "Direct HTTP 200 and text inspection; browser open returned an error"},
+    {"title": "ORCA 6.1 implicit solvation", "url": "https://www.faccts.de/docs/orca/6.1/manual/contents/essentialelements/solvationmodels.html", "verified_content": "CPCM and SMD differ; explicit smd true and SMDsolvent block; acetonitrile supported", "access": "Official page plus direct HTTP text inspection"},
+    {"title": "ORCA 6.1 DFT", "url": "https://www.faccts.de/docs/orca/6.1/manual/contents/modelchemistries/DensityFunctionalTheory.html", "verified_content": "B3LYP/G uses Gaussian-style VWN3; M062X functional listed", "access": "Official search excerpt and HTTP text inspection"},
+    {"title": "ORCA memory settings", "url": "https://www.faccts.de/docs/orca/6.1/tutorials/first_steps/memory.html", "verified_content": "MaxCore memory is MB per processing core", "access": "Official search excerpt"},
+    {"title": "scikit-learn GaussianProcessRegressor", "url": "https://scikit-learn.org/stable/modules/generated/sklearn.gaussian_process.GaussianProcessRegressor.html", "verified_content": "normalize_y default and predictive API", "access": "Official documentation page"},
+    {"title": "BoTorch acquisition functions", "url": "https://botorch.org/docs/acquisition", "verified_content": "Analytic expected improvement formula and distinction from UCB", "access": "Official search excerpt; trailing-slash browser open returned an error"}
+  ]
+}

@@ -1,8 +1,19 @@
 # AI4S Organic Electrosynthesis & Catalyst Informatics
 
-完整技术报告、可复现计算与证据审计。Updated 2026-09-27.
+完整技术报告、可复现计算与证据审计。Updated 2026-09-28.
 
-## Latest three-module research engine / 新增三模块研究引擎
+## Latest closed-loop platform / 新增湿实验与 DFT 输入闭环平台
+
+- **[最新中文报告](closed_loop/reports/closed_loop_experimental_report_chinese.md)**
+- **[Latest English report](closed_loop/reports/closed_loop_experimental_report_english.md)**
+- [Complete bilingual report / 完整双语版](closed_loop/reports/closed_loop_experimental_report_bilingual.md)
+- [Calculations, DFT inputs and reproduction / 计算、DFT 输入与复现](closed_loop/README.md)
+
+按附件第 3 节的五部分结构完成。新增 81 组计量情景、留一验证、EI/UCB 对照、敏感性分析及 12 份配套 DFT 输入。六条反馈仍为模拟标签；标准化 GP 的 MAE 为 15.26 个百分点，未优于均值基线的 13.98。尚未执行湿实验或 DFT，SOP 缺少已定义产物、偶联当量和淬灭/分析依据，保留为设计草案。
+
+The supplied three modules were executed and their claims audited. Reviewed quantum templates cover both the actual wet-lab substrate and the original indoline control, neutral and radical-cation states, with explicit SMD and dependent refinement steps. Input generation and numerical tests do not establish chemical validity.
+
+## Earlier three-module research engine / 前一版三模块研究引擎
 
 - **[最新中文报告](research/reports/research_grade_technical_report_chinese.md)**
 - **[Latest English report](research/reports/research_grade_technical_report_english.md)**

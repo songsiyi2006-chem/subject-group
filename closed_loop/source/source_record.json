@@ -1,0 +1,7 @@
+{
+  "specification_sha256": "992faa5649349ee1bcf134e4b569e8093090dceb3e81a541fe56d13c3c50ee55",
+  "script_sha256": "37ff41ed272eb5f07094e5801c5837a2c39f4c350cc7731c034c147a35156b9a",
+  "extraction": "Only Python fenced block; LF line endings; final newline; no code changes.",
+  "source": "User-supplied closed-loop platform specification",
+  "evidence": "Source parameters and mock feedback; no experimental records provided."
+}

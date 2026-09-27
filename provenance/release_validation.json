@@ -1,7 +1,7 @@
 {
   "passed": true,
-  "checks": 755,
-  "scientific_tests_run": 43,
+  "checks": 824,
+  "scientific_tests_run": 60,
   "scientific_failures": 0,
   "scientific_errors": 0,
   "failed": [],
@@ -134,6 +134,10 @@
     },
     {
       "check": "three-module research publication validation",
+      "passed": true
+    },
+    {
+      "check": "closed-loop publication validation",
       "passed": true
     },
     {
@@ -709,6 +713,46 @@
       "passed": true
     },
     {
+      "check": "JSON parses closed_loop/results/figure_review.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses closed_loop/results/publication_validation.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses closed_loop/results/audit/active_learning.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses closed_loop/results/audit/audit_summary.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses closed_loop/results/audit/stoichiometry.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses closed_loop/results/original/closed_loop_results.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses closed_loop/results/original/execution.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses closed_loop/source/reference_record.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses closed_loop/source/source_record.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses closed_loop/inputs/reviewed/input_manifest.json",
+      "passed": true
+    },
+    {
       "check": "public files omit machine user paths and credential patterns",
       "passed": true
     },
@@ -722,6 +766,234 @@
     },
     {
       "check": "SHA256 README.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 closed_loop/README.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 closed_loop/data/README.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 closed_loop/data/mock_feedback.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 closed_loop/inputs/reviewed/README.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 closed_loop/inputs/reviewed/indoline_control_cation.gjf",
+      "passed": true
+    },
+    {
+      "check": "SHA256 closed_loop/inputs/reviewed/indoline_control_cation_opt.inp",
+      "passed": true
+    },
+    {
+      "check": "SHA256 closed_loop/inputs/reviewed/indoline_control_cation_sp.inp",
+      "passed": true
+    },
+    {
+      "check": "SHA256 closed_loop/inputs/reviewed/indoline_control_neutral.gjf",
+      "passed": true
+    },
+    {
+      "check": "SHA256 closed_loop/inputs/reviewed/indoline_control_neutral_opt.inp",
+      "passed": true
+    },
+    {
+      "check": "SHA256 closed_loop/inputs/reviewed/indoline_control_neutral_sp.inp",
+      "passed": true
+    },
+    {
+      "check": "SHA256 closed_loop/inputs/reviewed/indoline_control_starting.xyz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 closed_loop/inputs/reviewed/input_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 closed_loop/inputs/reviewed/target_indole_cation.gjf",
+      "passed": true
+    },
+    {
+      "check": "SHA256 closed_loop/inputs/reviewed/target_indole_cation_opt.inp",
+      "passed": true
+    },
+    {
+      "check": "SHA256 closed_loop/inputs/reviewed/target_indole_cation_sp.inp",
+      "passed": true
+    },
+    {
+      "check": "SHA256 closed_loop/inputs/reviewed/target_indole_neutral.gjf",
+      "passed": true
+    },
+    {
+      "check": "SHA256 closed_loop/inputs/reviewed/target_indole_neutral_opt.inp",
+      "passed": true
+    },
+    {
+      "check": "SHA256 closed_loop/inputs/reviewed/target_indole_neutral_sp.inp",
+      "passed": true
+    },
+    {
+      "check": "SHA256 closed_loop/inputs/reviewed/target_indole_starting.xyz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 closed_loop/reports/chinese.template.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 closed_loop/reports/closed_loop_experimental_report_bilingual.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 closed_loop/reports/closed_loop_experimental_report_chinese.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 closed_loop/reports/closed_loop_experimental_report_english.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 closed_loop/reports/english.template.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 closed_loop/reports/figures/charge_sensitivity_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 closed_loop/reports/figures/charge_sensitivity_english.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 closed_loop/reports/figures/feedback_audit_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 closed_loop/reports/figures/feedback_audit_english.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 closed_loop/reports/figures/integration_gantt_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 closed_loop/reports/figures/integration_gantt_english.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 closed_loop/results/audit/acquisition_sensitivity.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 closed_loop/results/audit/active_learning.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 closed_loop/results/audit/audit_summary.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 closed_loop/results/audit/candidate_predictions.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 closed_loop/results/audit/charge_balance_scenarios.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 closed_loop/results/audit/loo_predictions.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 closed_loop/results/audit/partner_scenarios.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 closed_loop/results/audit/stoichiometry.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 closed_loop/results/audit/stoichiometry_sweep.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 closed_loop/results/figure_review.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 closed_loop/results/original/closed_loop_results.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 closed_loop/results/original/dft_inputs/indoline_radical.gjf",
+      "passed": true
+    },
+    {
+      "check": "SHA256 closed_loop/results/original/dft_inputs/indoline_radical.inp",
+      "passed": true
+    },
+    {
+      "check": "SHA256 closed_loop/results/original/execution.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 closed_loop/results/original/stderr.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 closed_loop/results/original/stdout.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 closed_loop/results/publication_validation.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 closed_loop/scripts/audit_closed_loop.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 closed_loop/scripts/build_reports.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 closed_loop/scripts/generate_reviewed_inputs.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 closed_loop/scripts/plot_closed_loop.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 closed_loop/scripts/run_original.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 closed_loop/scripts/validate_closed_loop.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 closed_loop/source/reference_record.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 closed_loop/source/run_closed_loop_platform.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 closed_loop/source/source_record.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 closed_loop/source/specification.md",
       "passed": true
     },
     {
@@ -3010,6 +3282,10 @@
     },
     {
       "check": "SHA256 scripts/validate_release.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 tests/test_closed_loop.py",
       "passed": true
     },
     {
