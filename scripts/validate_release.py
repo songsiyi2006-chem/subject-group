@@ -34,7 +34,10 @@ def main():
     production=subprocess.run([sys.executable,str(ROOT/'production/scripts/validate_production.py')],capture_output=True,text=True,encoding='utf-8')
     check('four-task production publication validation',production.returncode==0)
     if production.returncode:print(production.stdout,production.stderr)
-    files=[p for d in ['results','provenance','data/original','production/results','production/source'] for p in (ROOT/d).rglob('*.json') if p.name!='release_validation.json']
+    research=subprocess.run([sys.executable,str(ROOT/'research/scripts/validate_research.py')],capture_output=True,text=True,encoding='utf-8')
+    check('three-module research publication validation',research.returncode==0)
+    if research.returncode:print(research.stdout,research.stderr)
+    files=[p for d in ['results','provenance','data/original','production/results','production/source','research/results','research/source'] for p in (ROOT/d).rglob('*.json') if p.name!='release_validation.json']
     for f in files:
         try:json.loads(f.read_text(encoding='utf-8-sig'));ok=True
         except Exception:ok=False

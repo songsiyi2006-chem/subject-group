@@ -2,7 +2,18 @@
 
 完整技术报告、可复现计算与证据审计。Updated 2026-09-27.
 
-## Latest four-task pipeline / 新增四任务流程
+## Latest three-module research engine / 新增三模块研究引擎
+
+- **[最新中文报告](research/reports/research_grade_technical_report_chinese.md)**
+- **[Latest English report](research/reports/research_grade_technical_report_english.md)**
+- [Bilingual report / 双语合并版](research/reports/research_grade_technical_report_bilingual.md)
+- [Execution, audit and reproduction / 执行、核验与复现](research/README.md)
+
+原脚本已按原样完成；补充 231 组权重、多输出 GP 分组验证、64 个构象、16 个 xTB 作业及独立有限体积扩散核验。报告修正原始“超过 50 µm 即 η<0.40”的错误结论，并明确底物产率来自随机标签。没有湿实验、准确电位预测或生产成熟度的验证。
+
+The latest five-section report preserves all three modules and their original outputs, with independent numerical checks and a proposed one-year measurement plan. Synthetic objective values and random yield labels remain distinct from actual molecular calculations and experiments.
+
+## Earlier four-task pipeline / 前一版四任务流程
 
 - **[新版中文报告](production/reports/production_technical_report_chinese.md)**
 - **[New English report](production/reports/production_technical_report_english.md)**

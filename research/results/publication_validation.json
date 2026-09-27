@@ -1,0 +1,644 @@
+{
+  "passed": true,
+  "checks": 159,
+  "scope": "Saved record and publication integrity, not chemical prediction accuracy or experimental validation.",
+  "failed": [],
+  "items": [
+    {
+      "check": "source hash and execution hash agree",
+      "passed": true
+    },
+    {
+      "check": "unchanged original completed all three modules",
+      "passed": true
+    },
+    {
+      "check": "rows conditions_source_rounded.csv",
+      "passed": true
+    },
+    {
+      "check": "rows conditions_unrounded.csv",
+      "passed": true
+    },
+    {
+      "check": "rows pareto_complete.csv",
+      "passed": true
+    },
+    {
+      "check": "rows scalarization_weights.csv",
+      "passed": true
+    },
+    {
+      "check": "rows gp_predictions.csv",
+      "passed": true
+    },
+    {
+      "check": "rows scope_descriptors.csv",
+      "passed": true
+    },
+    {
+      "check": "rows scope_conformers.csv",
+      "passed": true
+    },
+    {
+      "check": "rows scope_xtb.csv",
+      "passed": true
+    },
+    {
+      "check": "rows scope_random_yield_seeds.csv",
+      "passed": true
+    },
+    {
+      "check": "rows transport_audit.csv",
+      "passed": true
+    },
+    {
+      "check": "rows transport_grid_convergence.csv",
+      "passed": true
+    },
+    {
+      "check": "rows external_film_scenarios.csv",
+      "passed": true
+    },
+    {
+      "check": "rows transport_parameter_sensitivity.csv",
+      "passed": true
+    },
+    {
+      "check": "completed xTB melatonin/neutral",
+      "passed": true
+    },
+    {
+      "check": "completed xTB melatonin/cation",
+      "passed": true
+    },
+    {
+      "check": "completed xTB caffeine/neutral",
+      "passed": true
+    },
+    {
+      "check": "completed xTB caffeine/cation",
+      "passed": true
+    },
+    {
+      "check": "completed xTB phenylquinoline/neutral",
+      "passed": true
+    },
+    {
+      "check": "completed xTB phenylquinoline/cation",
+      "passed": true
+    },
+    {
+      "check": "completed xTB tryptophol/neutral",
+      "passed": true
+    },
+    {
+      "check": "completed xTB tryptophol/cation",
+      "passed": true
+    },
+    {
+      "check": "completed xTB thiophene_ethanol/neutral",
+      "passed": true
+    },
+    {
+      "check": "completed xTB thiophene_ethanol/cation",
+      "passed": true
+    },
+    {
+      "check": "completed xTB ethyl_benzofuran_carboxylate/neutral",
+      "passed": true
+    },
+    {
+      "check": "completed xTB ethyl_benzofuran_carboxylate/cation",
+      "passed": true
+    },
+    {
+      "check": "completed xTB indoline/neutral",
+      "passed": true
+    },
+    {
+      "check": "completed xTB indoline/cation",
+      "passed": true
+    },
+    {
+      "check": "completed xTB carbazole/neutral",
+      "passed": true
+    },
+    {
+      "check": "completed xTB carbazole/cation",
+      "passed": true
+    },
+    {
+      "check": "english exactly five sections",
+      "passed": true
+    },
+    {
+      "check": "english section 1 subsections",
+      "passed": true
+    },
+    {
+      "check": "english section 2 subsections",
+      "passed": true
+    },
+    {
+      "check": "english section 3 subsections",
+      "passed": true
+    },
+    {
+      "check": "english section 4 subsections",
+      "passed": true
+    },
+    {
+      "check": "english section 5 subsections",
+      "passed": true
+    },
+    {
+      "check": "english source and audit numerical anchors",
+      "passed": true
+    },
+    {
+      "check": "english evidence labels",
+      "passed": true
+    },
+    {
+      "check": "english source identity",
+      "passed": true
+    },
+    {
+      "check": "english balanced fences",
+      "passed": true
+    },
+    {
+      "check": "english balanced display math",
+      "passed": true
+    },
+    {
+      "check": "english no unresolved template",
+      "passed": true
+    },
+    {
+      "check": "english link figures/pareto_tradeoffs.png",
+      "passed": true
+    },
+    {
+      "check": "english link figures/substrate_atom_maps.png",
+      "passed": true
+    },
+    {
+      "check": "english link figures/pore_transport.png",
+      "passed": true
+    },
+    {
+      "check": "english link figures/one_year_roadmap.png",
+      "passed": true
+    },
+    {
+      "check": "english link ../README.md",
+      "passed": true
+    },
+    {
+      "check": "chinese exactly five sections",
+      "passed": true
+    },
+    {
+      "check": "chinese section 1 subsections",
+      "passed": true
+    },
+    {
+      "check": "chinese section 2 subsections",
+      "passed": true
+    },
+    {
+      "check": "chinese section 3 subsections",
+      "passed": true
+    },
+    {
+      "check": "chinese section 4 subsections",
+      "passed": true
+    },
+    {
+      "check": "chinese section 5 subsections",
+      "passed": true
+    },
+    {
+      "check": "chinese source and audit numerical anchors",
+      "passed": true
+    },
+    {
+      "check": "chinese evidence labels",
+      "passed": true
+    },
+    {
+      "check": "chinese source identity",
+      "passed": true
+    },
+    {
+      "check": "chinese balanced fences",
+      "passed": true
+    },
+    {
+      "check": "chinese balanced display math",
+      "passed": true
+    },
+    {
+      "check": "chinese no unresolved template",
+      "passed": true
+    },
+    {
+      "check": "chinese link figures/pareto_tradeoffs_zh.png",
+      "passed": true
+    },
+    {
+      "check": "chinese link figures/substrate_atom_maps.png",
+      "passed": true
+    },
+    {
+      "check": "chinese link figures/pore_transport_zh.png",
+      "passed": true
+    },
+    {
+      "check": "chinese link figures/one_year_roadmap_zh.png",
+      "passed": true
+    },
+    {
+      "check": "chinese link ../README.md",
+      "passed": true
+    },
+    {
+      "check": "bilingual exactly five sections",
+      "passed": true
+    },
+    {
+      "check": "bilingual section 1 subsections",
+      "passed": true
+    },
+    {
+      "check": "bilingual section 2 subsections",
+      "passed": true
+    },
+    {
+      "check": "bilingual section 3 subsections",
+      "passed": true
+    },
+    {
+      "check": "bilingual section 4 subsections",
+      "passed": true
+    },
+    {
+      "check": "bilingual section 5 subsections",
+      "passed": true
+    },
+    {
+      "check": "bilingual source and audit numerical anchors",
+      "passed": true
+    },
+    {
+      "check": "bilingual evidence labels",
+      "passed": true
+    },
+    {
+      "check": "bilingual source identity",
+      "passed": true
+    },
+    {
+      "check": "bilingual balanced fences",
+      "passed": true
+    },
+    {
+      "check": "bilingual balanced display math",
+      "passed": true
+    },
+    {
+      "check": "bilingual no unresolved template",
+      "passed": true
+    },
+    {
+      "check": "bilingual link figures/pareto_tradeoffs.png",
+      "passed": true
+    },
+    {
+      "check": "bilingual link figures/pareto_tradeoffs_zh.png",
+      "passed": true
+    },
+    {
+      "check": "bilingual link figures/substrate_atom_maps.png",
+      "passed": true
+    },
+    {
+      "check": "bilingual link figures/substrate_atom_maps.png",
+      "passed": true
+    },
+    {
+      "check": "bilingual link figures/pore_transport.png",
+      "passed": true
+    },
+    {
+      "check": "bilingual link figures/pore_transport_zh.png",
+      "passed": true
+    },
+    {
+      "check": "bilingual link figures/one_year_roadmap.png",
+      "passed": true
+    },
+    {
+      "check": "bilingual link figures/one_year_roadmap_zh.png",
+      "passed": true
+    },
+    {
+      "check": "bilingual link ../README.md",
+      "passed": true
+    },
+    {
+      "check": "bilingual link ../README.md",
+      "passed": true
+    },
+    {
+      "check": "English/Chinese table decimal parity",
+      "passed": true
+    },
+    {
+      "check": "English no Chinese prose",
+      "passed": true
+    },
+    {
+      "check": "english complete subsection bodies in combined edition",
+      "passed": true
+    },
+    {
+      "check": "english abstract preserved in combined edition",
+      "passed": true
+    },
+    {
+      "check": "chinese complete subsection bodies in combined edition",
+      "passed": true
+    },
+    {
+      "check": "chinese abstract preserved in combined edition",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/audit/audit_summary.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/audit/gp_warnings.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecules/caffeine/cation/run.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecules/caffeine/cation/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecules/caffeine/identity.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecules/caffeine/neutral/run.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecules/caffeine/neutral/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecules/carbazole/cation/run.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecules/carbazole/cation/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecules/carbazole/identity.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecules/carbazole/neutral/run.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecules/carbazole/neutral/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecules/ethyl_benzofuran_carboxylate/cation/run.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecules/ethyl_benzofuran_carboxylate/cation/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecules/ethyl_benzofuran_carboxylate/identity.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecules/ethyl_benzofuran_carboxylate/neutral/run.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecules/ethyl_benzofuran_carboxylate/neutral/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecules/indoline/cation/run.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecules/indoline/cation/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecules/indoline/identity.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecules/indoline/neutral/run.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecules/indoline/neutral/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecules/melatonin/cation/run.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecules/melatonin/cation/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecules/melatonin/identity.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecules/melatonin/neutral/run.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecules/melatonin/neutral/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecules/phenylquinoline/cation/run.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecules/phenylquinoline/cation/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecules/phenylquinoline/identity.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecules/phenylquinoline/neutral/run.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecules/phenylquinoline/neutral/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecules/thiophene_ethanol/cation/run.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecules/thiophene_ethanol/cation/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecules/thiophene_ethanol/identity.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecules/thiophene_ethanol/neutral/run.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecules/thiophene_ethanol/neutral/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecules/tryptophol/cation/run.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecules/tryptophol/cation/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecules/tryptophol/identity.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecules/tryptophol/neutral/run.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecules/tryptophol/neutral/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/original/execution.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/original/research_grade_results.json",
+      "passed": true
+    },
+    {
+      "check": "README link reports/research_grade_technical_report_chinese.md",
+      "passed": true
+    },
+    {
+      "check": "README link reports/research_grade_technical_report_english.md",
+      "passed": true
+    },
+    {
+      "check": "README link reports/research_grade_technical_report_bilingual.md",
+      "passed": true
+    },
+    {
+      "check": "README link source/specification.md",
+      "passed": true
+    },
+    {
+      "check": "README link source/run_research_engine_original.py",
+      "passed": true
+    },
+    {
+      "check": "README link results/original/research_grade_results.json",
+      "passed": true
+    },
+    {
+      "check": "README link results/audit/audit_summary.json",
+      "passed": true
+    },
+    {
+      "check": "README link results/audit/audit_summary.json",
+      "passed": true
+    },
+    {
+      "check": "README link ../provenance/requirements_recorded.txt",
+      "passed": true
+    },
+    {
+      "check": "README link ../provenance/SHA256SUMS.txt",
+      "passed": true
+    },
+    {
+      "check": "README link research/reports/research_grade_technical_report_chinese.md",
+      "passed": true
+    },
+    {
+      "check": "README link research/reports/research_grade_technical_report_english.md",
+      "passed": true
+    },
+    {
+      "check": "README link research/reports/research_grade_technical_report_bilingual.md",
+      "passed": true
+    },
+    {
+      "check": "README link research/README.md",
+      "passed": true
+    },
+    {
+      "check": "README link production/reports/production_technical_report_chinese.md",
+      "passed": true
+    },
+    {
+      "check": "README link production/reports/production_technical_report_english.md",
+      "passed": true
+    },
+    {
+      "check": "README link production/reports/production_technical_report_bilingual.md",
+      "passed": true
+    },
+    {
+      "check": "README link production/README.md",
+      "passed": true
+    },
+    {
+      "check": "README link reports/technical_report_chinese.md",
+      "passed": true
+    },
+    {
+      "check": "README link reports/technical_report_english.md",
+      "passed": true
+    },
+    {
+      "check": "README link provenance/requirements_recorded.txt",
+      "passed": true
+    },
+    {
+      "check": "README link reports/figures/extended_validation.png",
+      "passed": true
+    }
+  ]
+}

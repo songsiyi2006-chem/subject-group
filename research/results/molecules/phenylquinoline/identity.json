@@ -1,0 +1,251 @@
+{
+  "molecule": "phenylquinoline",
+  "name_en": "2-Phenylquinoline",
+  "name_source": "2-Phenylquinoline (2-苯基喹啉)",
+  "input_smiles": "c1ccc(cc1)-c2ccc3ccccc3n2",
+  "canonical_smiles": "c1ccc(-c2ccc3ccccc3n2)cc1",
+  "formula": "C15H11N",
+  "charge": 0,
+  "multiplicity": 1,
+  "heavy_atoms": 16,
+  "atoms": 27,
+  "MW": 205.26000000000008,
+  "TPSA": 12.89,
+  "logP": 3.9018000000000024,
+  "embed_status": 0,
+  "source_mmff_status": 0,
+  "primary_atom": 0,
+  "primary_aromatic": true,
+  "primary_hybridization": "SP2",
+  "primary_q": -0.06222354283650052,
+  "unclipped_proxy": 1.6217606857452493,
+  "proxy": 1.6217606857452493,
+  "no_geometry_charge_difference": 0.0,
+  "source_random_yield": 74.6,
+  "conformers": 8,
+  "converged": 8,
+  "selected_conformer": 5,
+  "selected_MMFF_energy": 59.31796688260354,
+  "atom_order": [
+    {
+      "index_0based": 0,
+      "element": "C",
+      "neighbors": [
+        1,
+        5,
+        16
+      ]
+    },
+    {
+      "index_0based": 1,
+      "element": "C",
+      "neighbors": [
+        0,
+        2,
+        17
+      ]
+    },
+    {
+      "index_0based": 2,
+      "element": "C",
+      "neighbors": [
+        1,
+        3,
+        18
+      ]
+    },
+    {
+      "index_0based": 3,
+      "element": "C",
+      "neighbors": [
+        2,
+        4,
+        6
+      ]
+    },
+    {
+      "index_0based": 4,
+      "element": "C",
+      "neighbors": [
+        3,
+        5,
+        19
+      ]
+    },
+    {
+      "index_0based": 5,
+      "element": "C",
+      "neighbors": [
+        4,
+        0,
+        20
+      ]
+    },
+    {
+      "index_0based": 6,
+      "element": "C",
+      "neighbors": [
+        3,
+        7,
+        15
+      ]
+    },
+    {
+      "index_0based": 7,
+      "element": "C",
+      "neighbors": [
+        6,
+        8,
+        21
+      ]
+    },
+    {
+      "index_0based": 8,
+      "element": "C",
+      "neighbors": [
+        7,
+        9,
+        22
+      ]
+    },
+    {
+      "index_0based": 9,
+      "element": "C",
+      "neighbors": [
+        8,
+        10,
+        14
+      ]
+    },
+    {
+      "index_0based": 10,
+      "element": "C",
+      "neighbors": [
+        9,
+        11,
+        23
+      ]
+    },
+    {
+      "index_0based": 11,
+      "element": "C",
+      "neighbors": [
+        10,
+        12,
+        24
+      ]
+    },
+    {
+      "index_0based": 12,
+      "element": "C",
+      "neighbors": [
+        11,
+        13,
+        25
+      ]
+    },
+    {
+      "index_0based": 13,
+      "element": "C",
+      "neighbors": [
+        12,
+        14,
+        26
+      ]
+    },
+    {
+      "index_0based": 14,
+      "element": "C",
+      "neighbors": [
+        13,
+        15,
+        9
+      ]
+    },
+    {
+      "index_0based": 15,
+      "element": "N",
+      "neighbors": [
+        14,
+        6
+      ]
+    },
+    {
+      "index_0based": 16,
+      "element": "H",
+      "neighbors": [
+        0
+      ]
+    },
+    {
+      "index_0based": 17,
+      "element": "H",
+      "neighbors": [
+        1
+      ]
+    },
+    {
+      "index_0based": 18,
+      "element": "H",
+      "neighbors": [
+        2
+      ]
+    },
+    {
+      "index_0based": 19,
+      "element": "H",
+      "neighbors": [
+        4
+      ]
+    },
+    {
+      "index_0based": 20,
+      "element": "H",
+      "neighbors": [
+        5
+      ]
+    },
+    {
+      "index_0based": 21,
+      "element": "H",
+      "neighbors": [
+        7
+      ]
+    },
+    {
+      "index_0based": 22,
+      "element": "H",
+      "neighbors": [
+        8
+      ]
+    },
+    {
+      "index_0based": 23,
+      "element": "H",
+      "neighbors": [
+        10
+      ]
+    },
+    {
+      "index_0based": 24,
+      "element": "H",
+      "neighbors": [
+        11
+      ]
+    },
+    {
+      "index_0based": 25,
+      "element": "H",
+      "neighbors": [
+        12
+      ]
+    },
+    {
+      "index_0based": 26,
+      "element": "H",
+      "neighbors": [
+        13
+      ]
+    }
+  ]
+}

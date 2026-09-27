@@ -1,0 +1,7 @@
+[
+  {
+    "fold": 0,
+    "model": "multioutput_gp",
+    "message": "The optimal value found for dimension 0 of parameter k1__constant_value is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value."
+  }
+]

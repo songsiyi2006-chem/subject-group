@@ -1,7 +1,7 @@
 {
   "passed": true,
-  "checks": 503,
-  "scientific_tests_run": 29,
+  "checks": 755,
+  "scientific_tests_run": 43,
   "scientific_failures": 0,
   "scientific_errors": 0,
   "failed": [],
@@ -130,6 +130,10 @@
     },
     {
       "check": "four-task production publication validation",
+      "passed": true
+    },
+    {
+      "check": "three-module research publication validation",
       "passed": true
     },
     {
@@ -518,6 +522,190 @@
     },
     {
       "check": "JSON parses production/source/source_record.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses research/results/publication_validation.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses research/results/audit/audit_summary.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses research/results/audit/gp_warnings.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses research/results/original/execution.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses research/results/original/research_grade_results.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses research/results/molecules/caffeine/identity.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses research/results/molecules/carbazole/identity.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses research/results/molecules/ethyl_benzofuran_carboxylate/identity.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses research/results/molecules/indoline/identity.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses research/results/molecules/melatonin/identity.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses research/results/molecules/phenylquinoline/identity.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses research/results/molecules/thiophene_ethanol/identity.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses research/results/molecules/tryptophol/identity.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses research/results/molecules/caffeine/cation/run.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses research/results/molecules/caffeine/cation/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses research/results/molecules/caffeine/neutral/run.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses research/results/molecules/caffeine/neutral/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses research/results/molecules/carbazole/cation/run.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses research/results/molecules/carbazole/cation/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses research/results/molecules/carbazole/neutral/run.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses research/results/molecules/carbazole/neutral/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses research/results/molecules/ethyl_benzofuran_carboxylate/cation/run.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses research/results/molecules/ethyl_benzofuran_carboxylate/cation/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses research/results/molecules/ethyl_benzofuran_carboxylate/neutral/run.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses research/results/molecules/ethyl_benzofuran_carboxylate/neutral/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses research/results/molecules/indoline/cation/run.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses research/results/molecules/indoline/cation/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses research/results/molecules/indoline/neutral/run.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses research/results/molecules/indoline/neutral/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses research/results/molecules/melatonin/cation/run.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses research/results/molecules/melatonin/cation/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses research/results/molecules/melatonin/neutral/run.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses research/results/molecules/melatonin/neutral/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses research/results/molecules/phenylquinoline/cation/run.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses research/results/molecules/phenylquinoline/cation/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses research/results/molecules/phenylquinoline/neutral/run.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses research/results/molecules/phenylquinoline/neutral/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses research/results/molecules/thiophene_ethanol/cation/run.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses research/results/molecules/thiophene_ethanol/cation/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses research/results/molecules/thiophene_ethanol/neutral/run.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses research/results/molecules/thiophene_ethanol/neutral/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses research/results/molecules/tryptophol/cation/run.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses research/results/molecules/tryptophol/cation/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses research/results/molecules/tryptophol/neutral/run.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses research/results/molecules/tryptophol/neutral/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses research/source/source_record.json",
       "passed": true
     },
     {
@@ -986,6 +1174,822 @@
     },
     {
       "check": "SHA256 requirements.txt",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/README.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/reports/figures/one_year_roadmap.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/reports/figures/one_year_roadmap.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/reports/figures/one_year_roadmap_zh.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/reports/figures/one_year_roadmap_zh.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/reports/figures/pareto_tradeoffs.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/reports/figures/pareto_tradeoffs.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/reports/figures/pareto_tradeoffs_zh.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/reports/figures/pareto_tradeoffs_zh.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/reports/figures/pore_transport.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/reports/figures/pore_transport.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/reports/figures/pore_transport_zh.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/reports/figures/pore_transport_zh.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/reports/figures/substrate_atom_maps.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/reports/figures/substrate_atom_maps.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/reports/research_grade_technical_report_bilingual.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/reports/research_grade_technical_report_chinese.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/reports/research_grade_technical_report_english.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/reports/templates/chinese.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/reports/templates/english.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/audit/area_sensitivity.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/audit/audit_summary.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/audit/conditions_source_rounded.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/audit/conditions_unrounded.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/audit/constraint_scenarios.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/audit/external_film_scenarios.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/audit/gp_group_metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/audit/gp_predictions.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/audit/gp_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/audit/gp_warnings.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/audit/pareto_complete.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/audit/profile_Hierarchical_POP_10.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/audit/profile_Hierarchical_POP_100.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/audit/profile_Hierarchical_POP_200.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/audit/profile_Hierarchical_POP_25.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/audit/profile_Hierarchical_POP_50.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/audit/profile_Microporous_POP_10.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/audit/profile_Microporous_POP_100.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/audit/profile_Microporous_POP_200.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/audit/profile_Microporous_POP_25.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/audit/profile_Microporous_POP_50.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/audit/scalarization_choices.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/audit/scalarization_weights.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/audit/scope_ch_sites.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/audit/scope_conformers.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/audit/scope_descriptors.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/audit/scope_random_yield_seeds.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/audit/scope_random_yield_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/audit/scope_xtb.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/audit/scope_xtb_atom_charges.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/audit/transport_asymptotes.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/audit/transport_audit.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/audit/transport_grid_convergence.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/audit/transport_parameter_sensitivity.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/audit/transport_thresholds.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/caffeine/cation/charges",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/caffeine/cation/input.xyz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/caffeine/cation/run.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/caffeine/cation/stderr.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/caffeine/cation/stdout.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/caffeine/cation/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/caffeine/conformers.sdf",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/caffeine/identity.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/caffeine/neutral/charges",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/caffeine/neutral/input.xyz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/caffeine/neutral/run.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/caffeine/neutral/stderr.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/caffeine/neutral/stdout.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/caffeine/neutral/xtbopt.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/caffeine/neutral/xtbopt.xyz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/caffeine/neutral/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/caffeine/source_geometry.mol",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/carbazole/cation/charges",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/carbazole/cation/input.xyz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/carbazole/cation/run.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/carbazole/cation/stderr.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/carbazole/cation/stdout.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/carbazole/cation/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/carbazole/conformers.sdf",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/carbazole/identity.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/carbazole/neutral/charges",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/carbazole/neutral/input.xyz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/carbazole/neutral/run.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/carbazole/neutral/stderr.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/carbazole/neutral/stdout.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/carbazole/neutral/xtbopt.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/carbazole/neutral/xtbopt.xyz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/carbazole/neutral/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/carbazole/source_geometry.mol",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/ethyl_benzofuran_carboxylate/cation/charges",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/ethyl_benzofuran_carboxylate/cation/input.xyz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/ethyl_benzofuran_carboxylate/cation/run.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/ethyl_benzofuran_carboxylate/cation/stderr.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/ethyl_benzofuran_carboxylate/cation/stdout.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/ethyl_benzofuran_carboxylate/cation/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/ethyl_benzofuran_carboxylate/conformers.sdf",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/ethyl_benzofuran_carboxylate/identity.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/ethyl_benzofuran_carboxylate/neutral/charges",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/ethyl_benzofuran_carboxylate/neutral/input.xyz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/ethyl_benzofuran_carboxylate/neutral/run.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/ethyl_benzofuran_carboxylate/neutral/stderr.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/ethyl_benzofuran_carboxylate/neutral/stdout.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/ethyl_benzofuran_carboxylate/neutral/xtbopt.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/ethyl_benzofuran_carboxylate/neutral/xtbopt.xyz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/ethyl_benzofuran_carboxylate/neutral/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/ethyl_benzofuran_carboxylate/source_geometry.mol",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/indoline/cation/charges",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/indoline/cation/input.xyz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/indoline/cation/run.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/indoline/cation/stderr.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/indoline/cation/stdout.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/indoline/cation/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/indoline/conformers.sdf",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/indoline/identity.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/indoline/neutral/charges",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/indoline/neutral/input.xyz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/indoline/neutral/run.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/indoline/neutral/stderr.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/indoline/neutral/stdout.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/indoline/neutral/xtbopt.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/indoline/neutral/xtbopt.xyz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/indoline/neutral/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/indoline/source_geometry.mol",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/melatonin/cation/charges",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/melatonin/cation/input.xyz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/melatonin/cation/run.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/melatonin/cation/stderr.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/melatonin/cation/stdout.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/melatonin/cation/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/melatonin/conformers.sdf",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/melatonin/identity.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/melatonin/neutral/charges",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/melatonin/neutral/input.xyz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/melatonin/neutral/run.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/melatonin/neutral/stderr.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/melatonin/neutral/stdout.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/melatonin/neutral/xtbopt.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/melatonin/neutral/xtbopt.xyz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/melatonin/neutral/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/melatonin/source_geometry.mol",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/phenylquinoline/cation/charges",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/phenylquinoline/cation/input.xyz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/phenylquinoline/cation/run.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/phenylquinoline/cation/stderr.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/phenylquinoline/cation/stdout.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/phenylquinoline/cation/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/phenylquinoline/conformers.sdf",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/phenylquinoline/identity.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/phenylquinoline/neutral/charges",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/phenylquinoline/neutral/input.xyz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/phenylquinoline/neutral/run.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/phenylquinoline/neutral/stderr.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/phenylquinoline/neutral/stdout.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/phenylquinoline/neutral/xtbopt.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/phenylquinoline/neutral/xtbopt.xyz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/phenylquinoline/neutral/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/phenylquinoline/source_geometry.mol",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/thiophene_ethanol/cation/charges",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/thiophene_ethanol/cation/input.xyz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/thiophene_ethanol/cation/run.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/thiophene_ethanol/cation/stderr.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/thiophene_ethanol/cation/stdout.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/thiophene_ethanol/cation/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/thiophene_ethanol/conformers.sdf",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/thiophene_ethanol/identity.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/thiophene_ethanol/neutral/charges",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/thiophene_ethanol/neutral/input.xyz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/thiophene_ethanol/neutral/run.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/thiophene_ethanol/neutral/stderr.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/thiophene_ethanol/neutral/stdout.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/thiophene_ethanol/neutral/xtbopt.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/thiophene_ethanol/neutral/xtbopt.xyz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/thiophene_ethanol/neutral/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/thiophene_ethanol/source_geometry.mol",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/tryptophol/cation/charges",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/tryptophol/cation/input.xyz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/tryptophol/cation/run.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/tryptophol/cation/stderr.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/tryptophol/cation/stdout.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/tryptophol/cation/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/tryptophol/conformers.sdf",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/tryptophol/identity.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/tryptophol/neutral/charges",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/tryptophol/neutral/input.xyz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/tryptophol/neutral/run.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/tryptophol/neutral/stderr.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/tryptophol/neutral/stdout.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/tryptophol/neutral/xtbopt.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/tryptophol/neutral/xtbopt.xyz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/tryptophol/neutral/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/molecules/tryptophol/source_geometry.mol",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/original/execution.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/original/research_grade_results.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/original/stderr.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/original/stdout.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/results/publication_validation.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/scripts/audit_research.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/scripts/build_reports.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/scripts/plot_research.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/scripts/run_original.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/scripts/validate_research.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/source/run_research_engine_original.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/source/source_record.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 research/source/specification.md",
       "passed": true
     },
     {
@@ -2014,6 +3018,10 @@
     },
     {
       "check": "SHA256 tests/test_production.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 tests/test_research.py",
       "passed": true
     },
     {

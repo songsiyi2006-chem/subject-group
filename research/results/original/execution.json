@@ -1,0 +1,10 @@
+{
+  "returncode": 0,
+  "script_sha256": "59263ea547ddef1e6a9abd1fba47d02cac900c422fc9815895f02918dbfbc535",
+  "elapsed_s": 4.877532999962568,
+  "timestamp_utc": "2026-09-27T13:36:44.003450+00:00",
+  "threads": 1,
+  "timeout_s": 300,
+  "python": "3.12.14",
+  "result_written": true
+}

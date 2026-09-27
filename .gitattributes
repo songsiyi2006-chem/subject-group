@@ -13,4 +13,7 @@ production/results/** -text -whitespace
 production/reports/figures/** -text -whitespace
 # The minimal repair retains unchanged whitespace from the supplied script.
 production/run_production_pipeline.py -whitespace
+research/source/** -text -whitespace
+research/results/** -text -whitespace
+research/reports/figures/** -text -whitespace
 *.png binary

@@ -1,0 +1,159 @@
+{
+  "molecule": "thiophene_ethanol",
+  "name_en": "2-Thiophene ethanol",
+  "name_source": "2-Thiophene ethanol (噻吩乙醇)",
+  "input_smiles": "OCCc1sccc1",
+  "canonical_smiles": "OCCc1cccs1",
+  "formula": "C6H8OS",
+  "charge": 0,
+  "multiplicity": 1,
+  "heavy_atoms": 8,
+  "atoms": 16,
+  "MW": 128.19599999999994,
+  "TPSA": 20.23,
+  "logP": 1.2829000000000002,
+  "embed_status": 0,
+  "source_mmff_status": 0,
+  "primary_atom": 6,
+  "primary_aromatic": true,
+  "primary_hybridization": "SP2",
+  "primary_q": -0.051229824175782916,
+  "unclipped_proxy": 1.2652632637363257,
+  "proxy": 1.2652632637363257,
+  "no_geometry_charge_difference": 0.0,
+  "source_random_yield": 87.3,
+  "conformers": 8,
+  "converged": 8,
+  "selected_conformer": 6,
+  "selected_MMFF_energy": 14.373577506464043,
+  "atom_order": [
+    {
+      "index_0based": 0,
+      "element": "O",
+      "neighbors": [
+        1,
+        8
+      ]
+    },
+    {
+      "index_0based": 1,
+      "element": "C",
+      "neighbors": [
+        0,
+        2,
+        9,
+        10
+      ]
+    },
+    {
+      "index_0based": 2,
+      "element": "C",
+      "neighbors": [
+        1,
+        3,
+        11,
+        12
+      ]
+    },
+    {
+      "index_0based": 3,
+      "element": "C",
+      "neighbors": [
+        2,
+        4,
+        7
+      ]
+    },
+    {
+      "index_0based": 4,
+      "element": "S",
+      "neighbors": [
+        3,
+        5
+      ]
+    },
+    {
+      "index_0based": 5,
+      "element": "C",
+      "neighbors": [
+        4,
+        6,
+        13
+      ]
+    },
+    {
+      "index_0based": 6,
+      "element": "C",
+      "neighbors": [
+        5,
+        7,
+        14
+      ]
+    },
+    {
+      "index_0based": 7,
+      "element": "C",
+      "neighbors": [
+        6,
+        3,
+        15
+      ]
+    },
+    {
+      "index_0based": 8,
+      "element": "H",
+      "neighbors": [
+        0
+      ]
+    },
+    {
+      "index_0based": 9,
+      "element": "H",
+      "neighbors": [
+        1
+      ]
+    },
+    {
+      "index_0based": 10,
+      "element": "H",
+      "neighbors": [
+        1
+      ]
+    },
+    {
+      "index_0based": 11,
+      "element": "H",
+      "neighbors": [
+        2
+      ]
+    },
+    {
+      "index_0based": 12,
+      "element": "H",
+      "neighbors": [
+        2
+      ]
+    },
+    {
+      "index_0based": 13,
+      "element": "H",
+      "neighbors": [
+        5
+      ]
+    },
+    {
+      "index_0based": 14,
+      "element": "H",
+      "neighbors": [
+        6
+      ]
+    },
+    {
+      "index_0based": 15,
+      "element": "H",
+      "neighbors": [
+        7
+      ]
+    }
+  ]
+}

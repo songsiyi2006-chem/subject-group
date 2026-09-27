@@ -1,0 +1,225 @@
+{
+  "molecule": "ethyl_benzofuran_carboxylate",
+  "name_en": "Benzofuran-2-carboxylate",
+  "name_source": "Benzofuran-2-carboxylate (苯并呋喃酯)",
+  "input_smiles": "CCOC(=O)c1cc2ccccc2o1",
+  "canonical_smiles": "CCOC(=O)c1cc2ccccc2o1",
+  "formula": "C11H10O3",
+  "charge": 0,
+  "multiplicity": 1,
+  "heavy_atoms": 14,
+  "atoms": 24,
+  "MW": 190.19800000000006,
+  "TPSA": 39.44,
+  "logP": 2.6095000000000006,
+  "embed_status": 0,
+  "source_mmff_status": 0,
+  "primary_atom": 9,
+  "primary_aromatic": true,
+  "primary_hybridization": "SP2",
+  "primary_q": -0.06139867424888961,
+  "unclipped_proxy": 1.2555219886266658,
+  "proxy": 1.2555219886266658,
+  "no_geometry_charge_difference": 0.0,
+  "source_random_yield": 87.3,
+  "conformers": 8,
+  "converged": 8,
+  "selected_conformer": 3,
+  "selected_MMFF_energy": 25.606610942278547,
+  "atom_order": [
+    {
+      "index_0based": 0,
+      "element": "C",
+      "neighbors": [
+        1,
+        14,
+        15,
+        16
+      ]
+    },
+    {
+      "index_0based": 1,
+      "element": "C",
+      "neighbors": [
+        0,
+        2,
+        17,
+        18
+      ]
+    },
+    {
+      "index_0based": 2,
+      "element": "O",
+      "neighbors": [
+        1,
+        3
+      ]
+    },
+    {
+      "index_0based": 3,
+      "element": "C",
+      "neighbors": [
+        2,
+        4,
+        5
+      ]
+    },
+    {
+      "index_0based": 4,
+      "element": "O",
+      "neighbors": [
+        3
+      ]
+    },
+    {
+      "index_0based": 5,
+      "element": "C",
+      "neighbors": [
+        3,
+        6,
+        13
+      ]
+    },
+    {
+      "index_0based": 6,
+      "element": "C",
+      "neighbors": [
+        5,
+        7,
+        19
+      ]
+    },
+    {
+      "index_0based": 7,
+      "element": "C",
+      "neighbors": [
+        6,
+        8,
+        12
+      ]
+    },
+    {
+      "index_0based": 8,
+      "element": "C",
+      "neighbors": [
+        7,
+        9,
+        20
+      ]
+    },
+    {
+      "index_0based": 9,
+      "element": "C",
+      "neighbors": [
+        8,
+        10,
+        21
+      ]
+    },
+    {
+      "index_0based": 10,
+      "element": "C",
+      "neighbors": [
+        9,
+        11,
+        22
+      ]
+    },
+    {
+      "index_0based": 11,
+      "element": "C",
+      "neighbors": [
+        10,
+        12,
+        23
+      ]
+    },
+    {
+      "index_0based": 12,
+      "element": "C",
+      "neighbors": [
+        11,
+        13,
+        7
+      ]
+    },
+    {
+      "index_0based": 13,
+      "element": "O",
+      "neighbors": [
+        12,
+        5
+      ]
+    },
+    {
+      "index_0based": 14,
+      "element": "H",
+      "neighbors": [
+        0
+      ]
+    },
+    {
+      "index_0based": 15,
+      "element": "H",
+      "neighbors": [
+        0
+      ]
+    },
+    {
+      "index_0based": 16,
+      "element": "H",
+      "neighbors": [
+        0
+      ]
+    },
+    {
+      "index_0based": 17,
+      "element": "H",
+      "neighbors": [
+        1
+      ]
+    },
+    {
+      "index_0based": 18,
+      "element": "H",
+      "neighbors": [
+        1
+      ]
+    },
+    {
+      "index_0based": 19,
+      "element": "H",
+      "neighbors": [
+        6
+      ]
+    },
+    {
+      "index_0based": 20,
+      "element": "H",
+      "neighbors": [
+        8
+      ]
+    },
+    {
+      "index_0based": 21,
+      "element": "H",
+      "neighbors": [
+        9
+      ]
+    },
+    {
+      "index_0based": 22,
+      "element": "H",
+      "neighbors": [
+        10
+      ]
+    },
+    {
+      "index_0based": 23,
+      "element": "H",
+      "neighbors": [
+        11
+      ]
+    }
+  ]
+}

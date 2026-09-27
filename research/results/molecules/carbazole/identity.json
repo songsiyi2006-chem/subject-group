@@ -1,0 +1,211 @@
+{
+  "molecule": "carbazole",
+  "name_en": "Carbazole",
+  "name_source": "Carbazole (咔唑)",
+  "input_smiles": "c1ccc2c(c1)[nH]c3ccccc23",
+  "canonical_smiles": "c1ccc2c(c1)[nH]c1ccccc12",
+  "formula": "C12H9N",
+  "charge": 0,
+  "multiplicity": 1,
+  "heavy_atoms": 13,
+  "atoms": 22,
+  "MW": 167.21100000000007,
+  "TPSA": 15.79,
+  "logP": 3.3211000000000013,
+  "embed_status": 0,
+  "source_mmff_status": 0,
+  "primary_atom": 1,
+  "primary_aromatic": true,
+  "primary_hybridization": "SP2",
+  "primary_q": -0.06149730446472927,
+  "unclipped_proxy": 1.5299660433029063,
+  "proxy": 1.5299660433029063,
+  "no_geometry_charge_difference": 0.0,
+  "source_random_yield": 75.1,
+  "conformers": 8,
+  "converged": 8,
+  "selected_conformer": 7,
+  "selected_MMFF_energy": 29.02008438622036,
+  "atom_order": [
+    {
+      "index_0based": 0,
+      "element": "C",
+      "neighbors": [
+        1,
+        5,
+        13
+      ]
+    },
+    {
+      "index_0based": 1,
+      "element": "C",
+      "neighbors": [
+        0,
+        2,
+        14
+      ]
+    },
+    {
+      "index_0based": 2,
+      "element": "C",
+      "neighbors": [
+        1,
+        3,
+        15
+      ]
+    },
+    {
+      "index_0based": 3,
+      "element": "C",
+      "neighbors": [
+        2,
+        4,
+        12
+      ]
+    },
+    {
+      "index_0based": 4,
+      "element": "C",
+      "neighbors": [
+        3,
+        5,
+        6
+      ]
+    },
+    {
+      "index_0based": 5,
+      "element": "C",
+      "neighbors": [
+        4,
+        0,
+        16
+      ]
+    },
+    {
+      "index_0based": 6,
+      "element": "N",
+      "neighbors": [
+        4,
+        7,
+        17
+      ]
+    },
+    {
+      "index_0based": 7,
+      "element": "C",
+      "neighbors": [
+        6,
+        8,
+        12
+      ]
+    },
+    {
+      "index_0based": 8,
+      "element": "C",
+      "neighbors": [
+        7,
+        9,
+        18
+      ]
+    },
+    {
+      "index_0based": 9,
+      "element": "C",
+      "neighbors": [
+        8,
+        10,
+        19
+      ]
+    },
+    {
+      "index_0based": 10,
+      "element": "C",
+      "neighbors": [
+        9,
+        11,
+        20
+      ]
+    },
+    {
+      "index_0based": 11,
+      "element": "C",
+      "neighbors": [
+        10,
+        12,
+        21
+      ]
+    },
+    {
+      "index_0based": 12,
+      "element": "C",
+      "neighbors": [
+        11,
+        3,
+        7
+      ]
+    },
+    {
+      "index_0based": 13,
+      "element": "H",
+      "neighbors": [
+        0
+      ]
+    },
+    {
+      "index_0based": 14,
+      "element": "H",
+      "neighbors": [
+        1
+      ]
+    },
+    {
+      "index_0based": 15,
+      "element": "H",
+      "neighbors": [
+        2
+      ]
+    },
+    {
+      "index_0based": 16,
+      "element": "H",
+      "neighbors": [
+        5
+      ]
+    },
+    {
+      "index_0based": 17,
+      "element": "H",
+      "neighbors": [
+        6
+      ]
+    },
+    {
+      "index_0based": 18,
+      "element": "H",
+      "neighbors": [
+        8
+      ]
+    },
+    {
+      "index_0based": 19,
+      "element": "H",
+      "neighbors": [
+        9
+      ]
+    },
+    {
+      "index_0based": 20,
+      "element": "H",
+      "neighbors": [
+        10
+      ]
+    },
+    {
+      "index_0based": 21,
+      "element": "H",
+      "neighbors": [
+        11
+      ]
+    }
+  ]
+}

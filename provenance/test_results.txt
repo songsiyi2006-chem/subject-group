@@ -27,8 +27,22 @@ test_source_bo_grid_and_observation_counts (test_production.ProductionEvidenceTe
 test_supplied_source_identity_and_failure_preserved (test_production.ProductionEvidenceTests.test_supplied_source_identity_and_failure_preserved) ... ok
 test_target_core_mapping_and_blocked_sites (test_production.ProductionEvidenceTests.test_target_core_mapping_and_blocked_sites) ... ok
 test_target_xtb_records_and_charge_sums (test_production.ProductionEvidenceTests.test_target_xtb_records_and_charge_sums) ... ok
+test_all_xtb_jobs_and_charge_balance (test_research.ResearchEvidence.test_all_xtb_jobs_and_charge_balance) ... ok
+test_archived_source_and_execution (test_research.ResearchEvidence.test_archived_source_and_execution) ... ok
+test_external_film_balance (test_research.ResearchEvidence.test_external_film_balance) ... ok
+test_fvm_convergence_and_conservation (test_research.ResearchEvidence.test_fvm_convergence_and_conservation) ... ok
+test_gp_group_predictions_and_metrics (test_research.ResearchEvidence.test_gp_group_predictions_and_metrics) ... ok
+test_mmff_convergence_records (test_research.ResearchEvidence.test_mmff_convergence_records) ... ok
+test_molecular_identities_sites_and_charge_independence (test_research.ResearchEvidence.test_molecular_identities_sites_and_charge_independence) ... ok
+test_pareto_independent_comparison_and_duplicates (test_research.ResearchEvidence.test_pareto_independent_comparison_and_duplicates) ... ok
+test_sec_via_charge_time_and_mass (test_research.ResearchEvidence.test_sec_via_charge_time_and_mass) ... ok
+test_source_optimum_and_sample_values (test_research.ResearchEvidence.test_source_optimum_and_sample_values) ... ok
+test_source_yields_are_exact_seeded_normal_draws (test_research.ResearchEvidence.test_source_yields_are_exact_seeded_normal_draws) ... ok
+test_transport_limits_thresholds_and_source_false_claim (test_research.ResearchEvidence.test_transport_limits_thresholds_and_source_false_claim) ... ok
+test_transport_source_rounding_and_volume_integral (test_research.ResearchEvidence.test_transport_source_rounding_and_volume_integral) ... ok
+test_weight_cases_and_feasibility (test_research.ResearchEvidence.test_weight_cases_and_feasibility) ... ok
 
 ----------------------------------------------------------------------
-Ran 29 tests in 0.761s
+Ran 43 tests in 0.945s
 
 OK
