@@ -1,0 +1,124 @@
+{
+  "evidence_scope": "synthetic benchmarks and code/arithmetic audit only",
+  "original_json_sha256": "1775377f34aecba1dbb5fe17fe0b9a6625b6de3a81a31f66247e694317f2ea41",
+  "topic1": {
+    "n_initial": 8,
+    "n_sequential": 12,
+    "n_total": 20,
+    "initial_best": 85.96368729314437,
+    "noiseless_yield_at_reported_best": 91.79370804621932,
+    "noise_residual_at_reported_best": 3.251040568114803,
+    "noiseless_global_maximum": 92.0,
+    "simulated_noise_standard_deviation": 1.5,
+    "gp_alpha_variance": 0.01,
+    "normalized_input": false,
+    "normalized_target": false,
+    "independent_random_search_baseline_executed": false
+  },
+  "topic2": {
+    "training_size": 60,
+    "training_feature_min": [
+      -2.018168244037392,
+      -1.666059178570647,
+      -2.7369945956467303,
+      -2.1412122910809264
+    ],
+    "training_feature_max": [
+      2.706849839399938,
+      2.3029872653509056,
+      2.60596727979128,
+      2.493990185752055
+    ],
+    "sites_outside_training_range": [
+      [
+        true,
+        false,
+        false,
+        true
+      ],
+      [
+        true,
+        false,
+        false,
+        true
+      ],
+      [
+        true,
+        false,
+        false,
+        true
+      ]
+    ],
+    "score_scope": "in-sample R2",
+    "site_C3_label_hardcoded": true,
+    "real_DFT_or_CV_executed": false
+  },
+  "topic3": {
+    "lowest": {
+      "metal": "Co",
+      "coordination": "N4",
+      "activation_barrier_kcal_mol": 18.09
+    },
+    "second_lowest": {
+      "metal": "Cu",
+      "coordination": "N4",
+      "activation_barrier_kcal_mol": 18.11
+    },
+    "gap_kcal_mol": 0.019999999999999574,
+    "assigned_noise_sd_kcal_mol": 0.4,
+    "hypothetical_eyring_ratio_at_298K": 1.034349909956409,
+    "real_transition_states": 0
+  },
+  "topic4": {
+    "training_size": 80,
+    "synthetic_positive_count": 18,
+    "synthetic_negative_count": 62,
+    "score_scope": "training accuracy",
+    "feasibility_score_hardcoded": true,
+    "risk_statement_hardcoded": true,
+    "prospective_validation_executed": false
+  },
+  "topic5": {
+    "flow_checks": [
+      {
+        "q_numeric": 0.2,
+        "analytic_conversion_pct": 99.99999748900085,
+        "odeint_conversion_pct": 99.99999751892229,
+        "absolute_error_percentage_points": 2.9921437771918136e-08,
+        "conversion_pct": 100.0,
+        "sty_relative_val": 9.0
+      },
+      {
+        "q_numeric": 0.5,
+        "analytic_conversion_pct": 99.90881180344455,
+        "odeint_conversion_pct": 99.90881188965432,
+        "absolute_error_percentage_points": 8.620976643669565e-08,
+        "conversion_pct": 99.91,
+        "sty_relative_val": 22.48
+      },
+      {
+        "q_numeric": 1.0,
+        "analytic_conversion_pct": 96.98026165776815,
+        "odeint_conversion_pct": 96.98026179229933,
+        "absolute_error_percentage_points": 1.3453117730932718e-07,
+        "conversion_pct": 96.98,
+        "sty_relative_val": 43.64
+      },
+      {
+        "q_numeric": 2.0,
+        "analytic_conversion_pct": 82.62260565495548,
+        "odeint_conversion_pct": 82.62260593904315,
+        "absolute_error_percentage_points": 2.8408767605014873e-07,
+        "conversion_pct": 82.62,
+        "sty_relative_val": 74.36
+      }
+    ],
+    "max_proxy_flow_in_tested_grid": 2.0,
+    "units_in_original_ODE_consistent": false,
+    "physical_reactor_volume_or_product_molecular_weight_provided": false,
+    "Butler_Volmer_implemented": false,
+    "independent_mass_transfer_model_implemented": false,
+    "original_summary_inconsistent": true
+  },
+  "original_json_unchanged": true
+}

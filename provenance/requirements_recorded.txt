@@ -1,0 +1,9 @@
+# Observed local versions; already installed. No installation was performed.
+# Python 3.12.14
+numpy==2.4.6
+scipy==1.18.0
+pandas==2.3.3
+scikit-learn==1.9.0
+matplotlib==3.11.1
+# Optional; imported for inventory, not used by the original benchmark:
+rdkit==2026.3.5

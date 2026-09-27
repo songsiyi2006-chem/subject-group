@@ -1,0 +1,1608 @@
+{
+  "passed": true,
+  "checks": 399,
+  "scientific_tests_run": 15,
+  "scientific_failures": 0,
+  "scientific_errors": 0,
+  "failed": [],
+  "path_scan_findings": [],
+  "scope": "Record, architecture and numerical integrity; not chemical or experimental validation.",
+  "items": [
+    {
+      "check": "technical_report_english main architecture",
+      "passed": true
+    },
+    {
+      "check": "technical_report_english 20 topic subsections",
+      "passed": true
+    },
+    {
+      "check": "technical_report_english four undergraduate stages",
+      "passed": true
+    },
+    {
+      "check": "technical_report_english added methods",
+      "passed": true
+    },
+    {
+      "check": "technical_report_english original numerical anchors",
+      "passed": true
+    },
+    {
+      "check": "technical_report_english extension numerical anchors",
+      "passed": true
+    },
+    {
+      "check": "technical_report_english scientific evidence labels",
+      "passed": true
+    },
+    {
+      "check": "technical_report_english no unresolved template",
+      "passed": true
+    },
+    {
+      "check": "technical_report_english balanced fenced code",
+      "passed": true
+    },
+    {
+      "check": "technical_report_english balanced display math",
+      "passed": true
+    },
+    {
+      "check": "technical_report_english local link figures/benchmark_overview.png",
+      "passed": true
+    },
+    {
+      "check": "technical_report_english local link ../README.md",
+      "passed": true
+    },
+    {
+      "check": "technical_report_english local link figures/extended_validation.png",
+      "passed": true
+    },
+    {
+      "check": "technical_report_english local link figures/molecular_descriptors.png",
+      "passed": true
+    },
+    {
+      "check": "technical_report_chinese main architecture",
+      "passed": true
+    },
+    {
+      "check": "technical_report_chinese 20 topic subsections",
+      "passed": true
+    },
+    {
+      "check": "technical_report_chinese four undergraduate stages",
+      "passed": true
+    },
+    {
+      "check": "technical_report_chinese added methods",
+      "passed": true
+    },
+    {
+      "check": "technical_report_chinese original numerical anchors",
+      "passed": true
+    },
+    {
+      "check": "technical_report_chinese extension numerical anchors",
+      "passed": true
+    },
+    {
+      "check": "technical_report_chinese scientific evidence labels",
+      "passed": true
+    },
+    {
+      "check": "technical_report_chinese no unresolved template",
+      "passed": true
+    },
+    {
+      "check": "technical_report_chinese balanced fenced code",
+      "passed": true
+    },
+    {
+      "check": "technical_report_chinese balanced display math",
+      "passed": true
+    },
+    {
+      "check": "technical_report_chinese local link figures/benchmark_overview_zh.png",
+      "passed": true
+    },
+    {
+      "check": "technical_report_chinese local link ../README.md",
+      "passed": true
+    },
+    {
+      "check": "technical_report_chinese local link figures/extended_validation_zh.png",
+      "passed": true
+    },
+    {
+      "check": "technical_report_chinese local link figures/molecular_descriptors_zh.png",
+      "passed": true
+    },
+    {
+      "check": "English/Chinese table decimal-value parity by row",
+      "passed": true
+    },
+    {
+      "check": "English edition has no Chinese prose",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/extended/summary.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecular/summary.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecular/anisole/identity.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecular/benzene/identity.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecular/benzofuran/identity.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecular/indole/identity.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecular/N_methylindole/identity.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecular/pyridine/identity.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecular/anisole/anion/run.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecular/anisole/anion/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecular/anisole/cation/run.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecular/anisole/cation/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecular/anisole/gas_anion/run.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecular/anisole/gas_anion/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecular/anisole/gas_cation/run.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecular/anisole/gas_cation/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecular/anisole/gas_neutral/run.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecular/anisole/gas_neutral/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecular/anisole/neutral/run.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecular/anisole/neutral/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecular/benzene/anion/run.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecular/benzene/anion/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecular/benzene/cation/run.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecular/benzene/cation/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecular/benzene/gas_anion/run.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecular/benzene/gas_anion/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecular/benzene/gas_cation/run.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecular/benzene/gas_cation/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecular/benzene/gas_neutral/run.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecular/benzene/gas_neutral/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecular/benzene/neutral/run.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecular/benzene/neutral/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecular/benzofuran/anion/run.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecular/benzofuran/anion/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecular/benzofuran/cation/run.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecular/benzofuran/cation/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecular/benzofuran/gas_anion/run.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecular/benzofuran/gas_anion/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecular/benzofuran/gas_cation/run.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecular/benzofuran/gas_cation/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecular/benzofuran/gas_neutral/run.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecular/benzofuran/gas_neutral/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecular/benzofuran/neutral/run.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecular/benzofuran/neutral/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecular/indole/anion/run.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecular/indole/anion/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecular/indole/cation/run.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecular/indole/cation/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecular/indole/gas_anion/run.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecular/indole/gas_anion/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecular/indole/gas_cation/run.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecular/indole/gas_cation/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecular/indole/gas_neutral/run.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecular/indole/gas_neutral/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecular/indole/neutral/run.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecular/indole/neutral/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecular/N_methylindole/anion/run.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecular/N_methylindole/anion/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecular/N_methylindole/cation/run.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecular/N_methylindole/cation/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecular/N_methylindole/gas_anion/run.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecular/N_methylindole/gas_anion/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecular/N_methylindole/gas_cation/run.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecular/N_methylindole/gas_cation/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecular/N_methylindole/gas_neutral/run.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecular/N_methylindole/gas_neutral/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecular/N_methylindole/neutral/run.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecular/N_methylindole/neutral/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecular/pyridine/anion/run.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecular/pyridine/anion/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecular/pyridine/cation/run.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecular/pyridine/cation/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecular/pyridine/gas_anion/run.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecular/pyridine/gas_anion/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecular/pyridine/gas_cation/run.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecular/pyridine/gas_cation/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecular/pyridine/gas_neutral/run.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecular/pyridine/gas_neutral/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecular/pyridine/neutral/run.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/molecular/pyridine/neutral/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses provenance/environment_execution_public.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses provenance/extension_execution.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses data/original/benchmark_audit.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses data/original/benchmark_results.json",
+      "passed": true
+    },
+    {
+      "check": "public files omit machine user paths and credential patterns",
+      "passed": true
+    },
+    {
+      "check": "SHA256 .gitattributes",
+      "passed": true
+    },
+    {
+      "check": "SHA256 .gitignore",
+      "passed": true
+    },
+    {
+      "check": "SHA256 README.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 data/original/audit_benchmarks.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 data/original/benchmark_audit.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 data/original/benchmark_results.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 data/original/benchmark_stderr.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 data/original/benchmark_stdout.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 data/original/simulate_all_topics.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 provenance/environment_execution_public.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 provenance/extension_execution.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 provenance/requirements_recorded.txt",
+      "passed": true
+    },
+    {
+      "check": "SHA256 reports/figures/benchmark_overview.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 reports/figures/benchmark_overview.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 reports/figures/benchmark_overview_zh.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 reports/figures/benchmark_overview_zh.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 reports/figures/extended_validation.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 reports/figures/extended_validation.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 reports/figures/extended_validation_zh.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 reports/figures/extended_validation_zh.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 reports/figures/molecular_descriptors.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 reports/figures/molecular_descriptors.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 reports/figures/molecular_descriptors_zh.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 reports/figures/molecular_descriptors_zh.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 reports/technical_report_chinese.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 reports/technical_report_english.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 requirements.txt",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/extended/bo_observations.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/extended/bo_runs.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/extended/bo_trajectories.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/extended/classification_reliability_seed0.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/extended/classification_runs.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/extended/classification_test_predictions_seed0.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/extended/flow_grid.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/extended/flow_parameter_sensitivity.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/extended/flow_selected.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/extended/regression_runs.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/extended/regression_test.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/extended/sac_rank_sensitivity.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/extended/summary.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/N_methylindole/anion/charges",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/N_methylindole/anion/input.xyz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/N_methylindole/anion/run.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/N_methylindole/anion/stderr.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/N_methylindole/anion/stdout.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/N_methylindole/anion/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/N_methylindole/cation/charges",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/N_methylindole/cation/input.xyz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/N_methylindole/cation/run.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/N_methylindole/cation/stderr.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/N_methylindole/cation/stdout.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/N_methylindole/cation/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/N_methylindole/gas_anion/charges",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/N_methylindole/gas_anion/input.xyz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/N_methylindole/gas_anion/run.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/N_methylindole/gas_anion/stderr.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/N_methylindole/gas_anion/stdout.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/N_methylindole/gas_anion/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/N_methylindole/gas_cation/charges",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/N_methylindole/gas_cation/input.xyz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/N_methylindole/gas_cation/run.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/N_methylindole/gas_cation/stderr.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/N_methylindole/gas_cation/stdout.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/N_methylindole/gas_cation/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/N_methylindole/gas_neutral/charges",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/N_methylindole/gas_neutral/input.xyz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/N_methylindole/gas_neutral/run.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/N_methylindole/gas_neutral/stderr.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/N_methylindole/gas_neutral/stdout.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/N_methylindole/gas_neutral/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/N_methylindole/identity.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/N_methylindole/neutral/charges",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/N_methylindole/neutral/input.xyz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/N_methylindole/neutral/run.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/N_methylindole/neutral/stderr.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/N_methylindole/neutral/stdout.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/N_methylindole/neutral/xtbopt.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/N_methylindole/neutral/xtbopt.xyz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/N_methylindole/neutral/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/anisole/anion/charges",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/anisole/anion/input.xyz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/anisole/anion/run.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/anisole/anion/stderr.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/anisole/anion/stdout.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/anisole/anion/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/anisole/cation/charges",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/anisole/cation/input.xyz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/anisole/cation/run.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/anisole/cation/stderr.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/anisole/cation/stdout.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/anisole/cation/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/anisole/gas_anion/charges",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/anisole/gas_anion/input.xyz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/anisole/gas_anion/run.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/anisole/gas_anion/stderr.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/anisole/gas_anion/stdout.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/anisole/gas_anion/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/anisole/gas_cation/charges",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/anisole/gas_cation/input.xyz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/anisole/gas_cation/run.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/anisole/gas_cation/stderr.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/anisole/gas_cation/stdout.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/anisole/gas_cation/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/anisole/gas_neutral/charges",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/anisole/gas_neutral/input.xyz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/anisole/gas_neutral/run.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/anisole/gas_neutral/stderr.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/anisole/gas_neutral/stdout.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/anisole/gas_neutral/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/anisole/identity.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/anisole/neutral/charges",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/anisole/neutral/input.xyz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/anisole/neutral/run.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/anisole/neutral/stderr.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/anisole/neutral/stdout.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/anisole/neutral/xtbopt.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/anisole/neutral/xtbopt.xyz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/anisole/neutral/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/atom_charge_responses.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/benzene/anion/charges",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/benzene/anion/input.xyz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/benzene/anion/run.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/benzene/anion/stderr.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/benzene/anion/stdout.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/benzene/anion/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/benzene/cation/charges",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/benzene/cation/input.xyz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/benzene/cation/run.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/benzene/cation/stderr.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/benzene/cation/stdout.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/benzene/cation/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/benzene/gas_anion/charges",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/benzene/gas_anion/input.xyz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/benzene/gas_anion/run.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/benzene/gas_anion/stderr.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/benzene/gas_anion/stdout.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/benzene/gas_anion/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/benzene/gas_cation/charges",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/benzene/gas_cation/input.xyz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/benzene/gas_cation/run.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/benzene/gas_cation/stderr.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/benzene/gas_cation/stdout.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/benzene/gas_cation/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/benzene/gas_neutral/charges",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/benzene/gas_neutral/input.xyz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/benzene/gas_neutral/run.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/benzene/gas_neutral/stderr.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/benzene/gas_neutral/stdout.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/benzene/gas_neutral/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/benzene/identity.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/benzene/neutral/charges",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/benzene/neutral/input.xyz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/benzene/neutral/run.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/benzene/neutral/stderr.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/benzene/neutral/stdout.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/benzene/neutral/xtbopt.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/benzene/neutral/xtbopt.xyz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/benzene/neutral/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/benzofuran/anion/charges",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/benzofuran/anion/input.xyz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/benzofuran/anion/run.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/benzofuran/anion/stderr.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/benzofuran/anion/stdout.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/benzofuran/anion/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/benzofuran/cation/charges",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/benzofuran/cation/input.xyz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/benzofuran/cation/run.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/benzofuran/cation/stderr.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/benzofuran/cation/stdout.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/benzofuran/cation/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/benzofuran/gas_anion/charges",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/benzofuran/gas_anion/input.xyz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/benzofuran/gas_anion/run.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/benzofuran/gas_anion/stderr.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/benzofuran/gas_anion/stdout.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/benzofuran/gas_anion/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/benzofuran/gas_cation/charges",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/benzofuran/gas_cation/input.xyz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/benzofuran/gas_cation/run.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/benzofuran/gas_cation/stderr.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/benzofuran/gas_cation/stdout.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/benzofuran/gas_cation/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/benzofuran/gas_neutral/charges",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/benzofuran/gas_neutral/input.xyz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/benzofuran/gas_neutral/run.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/benzofuran/gas_neutral/stderr.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/benzofuran/gas_neutral/stdout.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/benzofuran/gas_neutral/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/benzofuran/identity.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/benzofuran/neutral/charges",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/benzofuran/neutral/input.xyz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/benzofuran/neutral/run.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/benzofuran/neutral/stderr.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/benzofuran/neutral/stdout.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/benzofuran/neutral/xtbopt.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/benzofuran/neutral/xtbopt.xyz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/benzofuran/neutral/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/indole/anion/charges",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/indole/anion/input.xyz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/indole/anion/run.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/indole/anion/stderr.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/indole/anion/stdout.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/indole/anion/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/indole/cation/charges",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/indole/cation/input.xyz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/indole/cation/run.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/indole/cation/stderr.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/indole/cation/stdout.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/indole/cation/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/indole/gas_anion/charges",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/indole/gas_anion/input.xyz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/indole/gas_anion/run.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/indole/gas_anion/stderr.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/indole/gas_anion/stdout.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/indole/gas_anion/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/indole/gas_cation/charges",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/indole/gas_cation/input.xyz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/indole/gas_cation/run.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/indole/gas_cation/stderr.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/indole/gas_cation/stdout.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/indole/gas_cation/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/indole/gas_neutral/charges",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/indole/gas_neutral/input.xyz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/indole/gas_neutral/run.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/indole/gas_neutral/stderr.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/indole/gas_neutral/stdout.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/indole/gas_neutral/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/indole/identity.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/indole/neutral/charges",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/indole/neutral/input.xyz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/indole/neutral/run.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/indole/neutral/stderr.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/indole/neutral/stdout.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/indole/neutral/xtbopt.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/indole/neutral/xtbopt.xyz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/indole/neutral/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/molecular_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/pyridine/anion/charges",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/pyridine/anion/input.xyz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/pyridine/anion/run.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/pyridine/anion/stderr.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/pyridine/anion/stdout.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/pyridine/anion/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/pyridine/cation/charges",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/pyridine/cation/input.xyz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/pyridine/cation/run.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/pyridine/cation/stderr.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/pyridine/cation/stdout.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/pyridine/cation/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/pyridine/gas_anion/charges",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/pyridine/gas_anion/input.xyz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/pyridine/gas_anion/run.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/pyridine/gas_anion/stderr.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/pyridine/gas_anion/stdout.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/pyridine/gas_anion/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/pyridine/gas_cation/charges",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/pyridine/gas_cation/input.xyz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/pyridine/gas_cation/run.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/pyridine/gas_cation/stderr.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/pyridine/gas_cation/stdout.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/pyridine/gas_cation/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/pyridine/gas_neutral/charges",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/pyridine/gas_neutral/input.xyz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/pyridine/gas_neutral/run.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/pyridine/gas_neutral/stderr.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/pyridine/gas_neutral/stdout.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/pyridine/gas_neutral/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/pyridine/identity.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/pyridine/neutral/charges",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/pyridine/neutral/input.xyz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/pyridine/neutral/run.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/pyridine/neutral/stderr.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/pyridine/neutral/stdout.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/pyridine/neutral/xtbopt.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/pyridine/neutral/xtbopt.xyz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/pyridine/neutral/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 results/molecular/summary.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 scripts/extended_benchmarks.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 scripts/molecular_descriptors.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 scripts/plot_extended.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 scripts/update_manifest.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 scripts/validate_release.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 tests/test_evidence.py",
+      "passed": true
+    },
+    {
+      "check": "scientific unittest suite",
+      "passed": true
+    }
+  ]
+}

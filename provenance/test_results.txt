@@ -1,0 +1,20 @@
+test_bo_matched_design_and_budget (test_evidence.EvidenceTests.test_bo_matched_design_and_budget) ... ok
+test_bo_pairwise_interval_data (test_evidence.EvidenceTests.test_bo_pairwise_interval_data) ... ok
+test_bo_regret_computed_from_recommended_point (test_evidence.EvidenceTests.test_bo_regret_computed_from_recommended_point) ... ok
+test_classification_refit_and_metrics (test_evidence.EvidenceTests.test_classification_refit_and_metrics) ... ok
+test_flow_current_includes_both_steps (test_evidence.EvidenceTests.test_flow_current_includes_both_steps) ... ok
+test_flow_units_and_grid_constraints (test_evidence.EvidenceTests.test_flow_units_and_grid_constraints) ... ok
+test_molecular_36_jobs_and_6_optimizations (test_evidence.EvidenceTests.test_molecular_36_jobs_and_6_optimizations) ... ok
+test_molecular_energy_and_charge_conservation (test_evidence.EvidenceTests.test_molecular_energy_and_charge_conservation) ... ok
+test_molecular_fixed_nuclei_atom_identity_and_spin (test_evidence.EvidenceTests.test_molecular_fixed_nuclei_atom_identity_and_spin) ... ok
+test_original_bytes_preserved (test_evidence.EvidenceTests.test_original_bytes_preserved) ... ok
+test_regression_independent_refit (test_evidence.EvidenceTests.test_regression_independent_refit) ... ok
+test_regression_test_not_in_train (test_evidence.EvidenceTests.test_regression_test_not_in_train) ... ok
+test_reliability_bins_account_for_every_observation (test_evidence.EvidenceTests.test_reliability_bins_account_for_every_observation) ... ok
+test_sac_probability_partition_and_symmetry (test_evidence.EvidenceTests.test_sac_probability_partition_and_symmetry) ... ok
+test_sequential_model_independent_integrator (test_evidence.EvidenceTests.test_sequential_model_independent_integrator) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.451s
+
+OK

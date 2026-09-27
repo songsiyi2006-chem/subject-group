@@ -1,0 +1,32 @@
+{
+  "date": "2026-09-27",
+  "platform": "Windows-11-10.0.22631-SP0",
+  "python": "3.12.14",
+  "extended": {
+    "started_utc": "2026-09-27T05:57:39.578266+00:00",
+    "numpy": "2.4.6",
+    "scipy": "1.18.0",
+    "sklearn": "1.9.0",
+    "n_seeds": 30,
+    "threads": 1,
+    "elapsed_seconds": 46.20254610001575,
+    "completed_utc": "2026-09-27T05:58:25.780064+00:00"
+  },
+  "molecular": {
+    "xtb_version": "* xtb version 6.7.1 (edcfbbe) compiled by 'VssAdministrator@runnervm171ch' on 2026-06-10",
+    "rdkit_version": "2026.03.5",
+    "molecules": 6,
+    "jobs": 36,
+    "optimizations": 6,
+    "singlepoints": 30,
+    "threads_per_job": 1,
+    "timeout_seconds": 180,
+    "completed_utc": "2026-09-27T06:01:48.240687+00:00"
+  },
+  "evidence_boundaries": [
+    "Synthetic benchmarks are not experiments.",
+    "GFN2-xTB is semiempirical, not DFT.",
+    "No measured oxidation potential, reaction barrier, regioselectivity or industrial optimum."
+  ],
+  "public_log_edits": "Only machine executable/directory paths are normalized. Original benchmark script and JSON preserved byte-for-byte."
+}

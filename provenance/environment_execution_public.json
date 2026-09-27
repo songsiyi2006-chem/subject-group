@@ -1,0 +1,40 @@
+{
+  "started_utc": "2026-09-26T16:06:40.101158+00:00",
+  "python": "3.12.14 | packaged by conda-forge | (main, Sep  2 2026, 23:18:20) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.22631-SP0",
+  "packages": {
+    "numpy": {
+      "status": "imported",
+      "version": "2.4.6"
+    },
+    "scipy": {
+      "status": "imported",
+      "version": "1.18.0"
+    },
+    "pandas": {
+      "status": "imported",
+      "version": "2.3.3"
+    },
+    "sklearn": {
+      "status": "imported",
+      "version": "1.9.0"
+    },
+    "rdkit": {
+      "status": "imported",
+      "version": "2026.03.5"
+    },
+    "matplotlib": {
+      "status": "imported",
+      "version": "3.11.1"
+    }
+  },
+  "source_sha256": "4c867bbbc143a694de146fc6caf665eae4e7a73dc9fd0079a58b6e408ef0e219",
+  "script_sha256": "41caab8993548814500ff447aa881bf04e62581a418f160727d7e78a3e1ef389",
+  "source_code_unchanged_except_newline_normalization": true,
+  "new_packages_installed": false,
+  "exit_code": 0,
+  "elapsed_seconds": 3.0529696000157855,
+  "completed_utc": "2026-09-26T16:06:43.219754+00:00",
+  "benchmark_results_sha256": "1775377f34aecba1dbb5fe17fe0b9a6625b6de3a81a31f66247e694317f2ea41",
+  "scope": "Original five-topic execution only; local installation paths omitted for public release."
+}

@@ -1,0 +1,147 @@
+{
+  "name": "indole",
+  "input_smiles": "c1ccc2[nH]ccc2c1",
+  "canonical_isomeric_smiles": "c1ccc2[nH]ccc2c1",
+  "formula": "C8H7N",
+  "formal_charge": 0,
+  "neutral_multiplicity": 1,
+  "atom_count": 16,
+  "heavy_atoms": 9,
+  "rdkit_seed": 31415,
+  "requested_conformers": 4,
+  "returned_conformers": 4,
+  "selected_mmff_energy_kcal_mol": 15.1118701117407,
+  "selected_conformer_id": 0,
+  "atom_order": [
+    {
+      "index_1based": 1,
+      "element": "C",
+      "neighbors_1based": [
+        2,
+        9,
+        10
+      ]
+    },
+    {
+      "index_1based": 2,
+      "element": "C",
+      "neighbors_1based": [
+        1,
+        3,
+        11
+      ]
+    },
+    {
+      "index_1based": 3,
+      "element": "C",
+      "neighbors_1based": [
+        2,
+        4,
+        12
+      ]
+    },
+    {
+      "index_1based": 4,
+      "element": "C",
+      "neighbors_1based": [
+        3,
+        5,
+        8
+      ]
+    },
+    {
+      "index_1based": 5,
+      "element": "N",
+      "neighbors_1based": [
+        4,
+        6,
+        13
+      ]
+    },
+    {
+      "index_1based": 6,
+      "element": "C",
+      "neighbors_1based": [
+        5,
+        7,
+        14
+      ]
+    },
+    {
+      "index_1based": 7,
+      "element": "C",
+      "neighbors_1based": [
+        6,
+        8,
+        15
+      ]
+    },
+    {
+      "index_1based": 8,
+      "element": "C",
+      "neighbors_1based": [
+        7,
+        9,
+        4
+      ]
+    },
+    {
+      "index_1based": 9,
+      "element": "C",
+      "neighbors_1based": [
+        8,
+        1,
+        16
+      ]
+    },
+    {
+      "index_1based": 10,
+      "element": "H",
+      "neighbors_1based": [
+        1
+      ]
+    },
+    {
+      "index_1based": 11,
+      "element": "H",
+      "neighbors_1based": [
+        2
+      ]
+    },
+    {
+      "index_1based": 12,
+      "element": "H",
+      "neighbors_1based": [
+        3
+      ]
+    },
+    {
+      "index_1based": 13,
+      "element": "H",
+      "neighbors_1based": [
+        5
+      ]
+    },
+    {
+      "index_1based": 14,
+      "element": "H",
+      "neighbors_1based": [
+        6
+      ]
+    },
+    {
+      "index_1based": 15,
+      "element": "H",
+      "neighbors_1based": [
+        7
+      ]
+    },
+    {
+      "index_1based": 16,
+      "element": "H",
+      "neighbors_1based": [
+        9
+      ]
+    }
+  ]
+}

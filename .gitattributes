@@ -1,0 +1,11 @@
+* -text
+*.md text eol=lf whitespace=-blank-at-eol
+*.py text eol=lf
+.gitattributes text eol=lf
+.gitignore text eol=lf
+# Preserve exact archived/calculated bytes, including coordinate hashes and logs.
+data/original/** -text -whitespace
+results/** -text -whitespace
+provenance/** -text -whitespace
+reports/figures/** -text -whitespace
+*.png binary

@@ -1,0 +1,739 @@
+{
+  "metadata": {
+    "started_utc": "2026-09-27T05:57:39.578266+00:00",
+    "numpy": "2.4.6",
+    "scipy": "1.18.0",
+    "sklearn": "1.9.0",
+    "n_seeds": 30,
+    "threads": 1,
+    "elapsed_seconds": 46.20254610001575,
+    "completed_utc": "2026-09-27T05:58:25.780064+00:00"
+  },
+  "bo": {
+    "evidence": "synthetic optimizer comparison",
+    "seeds": 30,
+    "evaluations_per_campaign": 20,
+    "methods": {
+      "original_gp": {
+        "oracle_simple_regret": {
+          "n": 30,
+          "mean": 0.7790457828284484,
+          "sd": 0.7807938073185712,
+          "median": 0.43866777452628014,
+          "q025": 0.1393046702496484,
+          "q975": 2.9820087584779453
+        },
+        "recommendation_regret": {
+          "n": 30,
+          "mean": 1.3569600239730226,
+          "sd": 1.1519708584582269,
+          "median": 0.967574002873036,
+          "q025": 0.19824061259743112,
+          "q975": 4.458917216320329
+        },
+        "selected_noise_bias": {
+          "n": 30,
+          "mean": 1.8032044731231258,
+          "sd": 1.0963981493992188,
+          "median": 1.974660857081446,
+          "q025": -0.5596212807245503,
+          "q975": 3.5482984547340384
+        }
+      },
+      "random": {
+        "oracle_simple_regret": {
+          "n": 30,
+          "mean": 3.3652772997790157,
+          "sd": 2.168256129900121,
+          "median": 2.7442188886402903,
+          "q025": 0.6493957225161153,
+          "q975": 7.834813862093825
+        },
+        "recommendation_regret": {
+          "n": 30,
+          "mean": 3.5557419164704336,
+          "sd": 2.419046668616479,
+          "median": 2.8312154402032377,
+          "q025": 0.6493957225161153,
+          "q975": 8.33743575687779
+        },
+        "selected_noise_bias": {
+          "n": 30,
+          "mean": 0.7547965803607468,
+          "sd": 1.5925040310651728,
+          "median": 0.7542756394536454,
+          "q025": -1.8115894634850733,
+          "q975": 3.7882177370371113
+        }
+      },
+      "scaled_gp": {
+        "oracle_simple_regret": {
+          "n": 30,
+          "mean": 0.6143838933859627,
+          "sd": 0.8380411599574483,
+          "median": 0.2560451433515638,
+          "q025": 0.029822164083453374,
+          "q975": 2.8876297461136025
+        },
+        "recommendation_regret": {
+          "n": 30,
+          "mean": 1.3207652966076588,
+          "sd": 1.4090673929612987,
+          "median": 0.8435812202142543,
+          "q025": 0.06329276719977024,
+          "q975": 4.548206593466925
+        },
+        "selected_noise_bias": {
+          "n": 30,
+          "mean": 1.360839308109591,
+          "sd": 1.2661082174709948,
+          "median": 1.4580897042837009,
+          "q025": -1.212771084312053,
+          "q975": 3.5482984547340384
+        }
+      }
+    },
+    "paired_recommendation_regret": {
+      "original_gp_minus_random": {
+        "mean_difference": -2.198781892497411,
+        "bootstrap_95pct_ci": [
+          -3.08855190136155,
+          -1.3920705444861936
+        ],
+        "n_pairs": 30,
+        "bootstrap_replicates": 10000
+      },
+      "scaled_gp_minus_random": {
+        "mean_difference": -2.234976619862775,
+        "bootstrap_95pct_ci": [
+          -3.1008655649545522,
+          -1.3907916553197746
+        ],
+        "n_pairs": 30,
+        "bootstrap_replicates": 10000
+      },
+      "scaled_gp_minus_original_gp": {
+        "mean_difference": -0.03619472736536362,
+        "bootstrap_95pct_ci": [
+          -0.6899374917115192,
+          0.6049634014009697
+        ],
+        "n_pairs": 30,
+        "bootstrap_replicates": 10000
+      }
+    },
+    "kernel_boundary_warning_count": 225,
+    "scope": "Original GP hyperparameters reproduced, but this is a newly seeded paired design, not a replay of the original RNG stream. Bootstrap intervals concern synthetic campaign means, not wet-lab benefit."
+  },
+  "regression": {
+    "evidence": "synthetic regression validation; targets have no calibrated voltage units",
+    "independent_test_rows": 5000,
+    "training_sizes": [
+      20,
+      60,
+      120,
+      240
+    ],
+    "training_seeds": 30,
+    "at_n60": {
+      "gradient_boosting": {
+        "train_r2": {
+          "n": 30,
+          "mean": 0.9987566967017477,
+          "sd": 0.00026598955136997415,
+          "median": 0.9987946788517388,
+          "q025": 0.9982408132814684,
+          "q975": 0.9991536191731458
+        },
+        "test_r2": {
+          "n": 30,
+          "mean": 0.9286713240119344,
+          "sd": 0.0158464453838709,
+          "median": 0.9296830935337306,
+          "q025": 0.8974152440147238,
+          "q975": 0.9518914849484551
+        },
+        "test_rmse": {
+          "n": 30,
+          "mean": 0.2458357159600843,
+          "sd": 0.02704302961307701,
+          "median": 0.24550685225587032,
+          "q025": 0.20303852420513316,
+          "q975": 0.2965299033413391
+        },
+        "test_mae": {
+          "n": 30,
+          "mean": 0.1744919833478921,
+          "sd": 0.016610499107862504,
+          "median": 0.1747158347238421,
+          "q025": 0.1449729344556169,
+          "q975": 0.2034785137862917
+        }
+      },
+      "linear": {
+        "train_r2": {
+          "n": 30,
+          "mean": 0.9927560385362856,
+          "sd": 0.0014079066924106841,
+          "median": 0.9929202855692147,
+          "q025": 0.9896811281547612,
+          "q975": 0.9949927596694198
+        },
+        "test_r2": {
+          "n": 30,
+          "mean": 0.9920618818707637,
+          "sd": 0.0006173838019376198,
+          "median": 0.9922156178510275,
+          "q025": 0.9906324168942963,
+          "q975": 0.9926217150691908
+        },
+        "test_rmse": {
+          "n": 30,
+          "mean": 0.08243445633430882,
+          "sd": 0.003055845545623192,
+          "median": 0.08168648090559341,
+          "q025": 0.07952725144333214,
+          "q975": 0.08953868837242393
+        },
+        "test_mae": {
+          "n": 30,
+          "mean": 0.06563822891078706,
+          "sd": 0.002385013795877058,
+          "median": 0.06507746443111112,
+          "q025": 0.06339016571521891,
+          "q975": 0.07141412599370554
+        }
+      },
+      "mean": {
+        "train_r2": {
+          "n": 30,
+          "mean": 0.0,
+          "sd": 0.0,
+          "median": 0.0,
+          "q025": 0.0,
+          "q975": 0.0
+        },
+        "test_r2": {
+          "n": 30,
+          "mean": -0.013362026894962183,
+          "sd": 0.015760995977273515,
+          "median": -0.00873652747743936,
+          "q025": -0.049411894244439016,
+          "q975": -1.2035751050876196e-05
+        },
+        "test_rmse": {
+          "n": 30,
+          "mean": 0.9319832104403017,
+          "sd": 0.007188087285684323,
+          "median": 0.929880474111544,
+          "q025": 0.9258505208844623,
+          "q975": 0.9484183915940346
+        },
+        "test_mae": {
+          "n": 30,
+          "mean": 0.7425819529005946,
+          "sd": 0.0059615390439346685,
+          "median": 0.7406116053285565,
+          "q025": 0.7376628163111766,
+          "q975": 0.7559595873158409
+        }
+      }
+    },
+    "ood": {
+      "linear": {
+        "predictions": [
+          7.127398642197489,
+          6.973527773202944,
+          7.027906045798709
+        ],
+        "absolute_errors_against_synthetic_formula": [
+          0.2833986421974899,
+          0.23152777320294504,
+          0.41190604579870893
+        ]
+      },
+      "gradient_boosting": {
+        "predictions": [
+          3.0324456666528654,
+          2.9065270292626924,
+          2.843522782877119
+        ],
+        "absolute_errors_against_synthetic_formula": [
+          3.811554333347134,
+          3.8354729707373068,
+          3.772477217122881
+        ]
+      }
+    },
+    "ood_reference": [
+      6.843999999999999,
+      6.741999999999999,
+      6.616
+    ],
+    "scope": "All methods share one independent test set; variation across seeds is training-sample sensitivity, not independent-test replication."
+  },
+  "sac": {
+    "evidence": "synthetic generator resampling, not a posterior about real catalysts",
+    "draws_per_noise_level": 100000,
+    "noise_sds": [
+      0.1,
+      0.4,
+      0.8
+    ],
+    "at_original_sd": [
+      {
+        "site": "Cu-N4",
+        "noise_sd": 0.4,
+        "noiseless_mean": 18.063,
+        "probability_rank1": 0.05851,
+        "mean_rank": 5.29797,
+        "monte_carlo_se": 0.0007422033407362164
+      },
+      {
+        "site": "Cu-N3C1",
+        "noise_sd": 0.4,
+        "noiseless_mean": 17.712,
+        "probability_rank1": 0.24257,
+        "mean_rank": 3.27478,
+        "monte_carlo_se": 0.0013554696422273722
+      },
+      {
+        "site": "Cu-N2O2",
+        "noise_sd": 0.4,
+        "noiseless_mean": 17.775,
+        "probability_rank1": 0.19131,
+        "mean_rank": 3.60502,
+        "monte_carlo_se": 0.0012438266917058824
+      },
+      {
+        "site": "Co-N4",
+        "noise_sd": 0.4,
+        "noiseless_mean": 18.063,
+        "probability_rank1": 0.05841,
+        "mean_rank": 5.308,
+        "monte_carlo_se": 0.0007416081977702243
+      },
+      {
+        "site": "Co-N3C1",
+        "noise_sd": 0.4,
+        "noiseless_mean": 17.712,
+        "probability_rank1": 0.23876,
+        "mean_rank": 3.28212,
+        "monte_carlo_se": 0.0013481604592925874
+      },
+      {
+        "site": "Co-N2O2",
+        "noise_sd": 0.4,
+        "noiseless_mean": 17.775,
+        "probability_rank1": 0.19299,
+        "mean_rank": 3.59977,
+        "monte_carlo_se": 0.0012479778038891557
+      },
+      {
+        "site": "Ni-N4",
+        "noise_sd": 0.4,
+        "noiseless_mean": 18.863,
+        "probability_rank1": 0.00029,
+        "mean_rank": 10.10106,
+        "monte_carlo_se": 5.3843839016177145e-05
+      },
+      {
+        "site": "Ni-N3C1",
+        "noise_sd": 0.4,
+        "noiseless_mean": 18.512,
+        "probability_rank1": 0.00529,
+        "mean_rank": 8.16563,
+        "monte_carlo_se": 0.00022939084332204718
+      },
+      {
+        "site": "Ni-N2O2",
+        "noise_sd": 0.4,
+        "noiseless_mean": 18.575,
+        "probability_rank1": 0.00319,
+        "mean_rank": 8.55238,
+        "monte_carlo_se": 0.0001783206073340936
+      },
+      {
+        "site": "Pd-N4",
+        "noise_sd": 0.4,
+        "noiseless_mean": 18.863,
+        "probability_rank1": 0.00037,
+        "mean_rank": 10.10252,
+        "monte_carlo_se": 6.081637115119579e-05
+      },
+      {
+        "site": "Pd-N3C1",
+        "noise_sd": 0.4,
+        "noiseless_mean": 18.512,
+        "probability_rank1": 0.00524,
+        "mean_rank": 8.172,
+        "monte_carlo_se": 0.00022830992970083452
+      },
+      {
+        "site": "Pd-N2O2",
+        "noise_sd": 0.4,
+        "noiseless_mean": 18.575,
+        "probability_rank1": 0.00307,
+        "mean_rank": 8.53875,
+        "monte_carlo_se": 0.00017494499421246668
+      }
+    ],
+    "original_winner": "Co-N4",
+    "original_winner_probability": 0.05841,
+    "pair_CoN4_beats_CuN4_analytic": 0.5,
+    "scope": "Probabilities use unconditioned generator means and independent Gaussian noise; they are not confidence in the experimentally best material."
+  },
+  "classification": {
+    "evidence": "held-out evaluation of a synthetic threshold rule",
+    "training_rows": 80,
+    "test_rows": 5000,
+    "test_positive_count": 1168,
+    "boundary_test_rows": 919,
+    "training_seeds": 30,
+    "summary": {
+      "prevalence/all": {
+        "train_accuracy": {
+          "n": 30,
+          "mean": 0.7633333333333334,
+          "sd": 0.0518965039905077,
+          "median": 0.75625,
+          "q025": 0.6715625000000001,
+          "q975": 0.8568749999999999
+        },
+        "accuracy": {
+          "n": 30,
+          "mean": 0.7664000000000002,
+          "sd": 2.2584051416334807e-16,
+          "median": 0.7664,
+          "q025": 0.7664,
+          "q975": 0.7664
+        },
+        "balanced_accuracy": {
+          "n": 30,
+          "mean": 0.5,
+          "sd": 0.0,
+          "median": 0.5,
+          "q025": 0.5,
+          "q975": 0.5
+        },
+        "precision": {
+          "n": 30,
+          "mean": 0.0,
+          "sd": 0.0,
+          "median": 0.0,
+          "q025": 0.0,
+          "q975": 0.0
+        },
+        "recall": {
+          "n": 30,
+          "mean": 0.0,
+          "sd": 0.0,
+          "median": 0.0,
+          "q025": 0.0,
+          "q975": 0.0
+        },
+        "average_precision": {
+          "n": 30,
+          "mean": 0.2336,
+          "sd": 0.0,
+          "median": 0.2336,
+          "q025": 0.2336,
+          "q975": 0.2336
+        },
+        "brier": {
+          "n": 30,
+          "mean": 0.18164391666666663,
+          "sd": 0.0033283117700278267,
+          "median": 0.18001312500000002,
+          "q025": 0.17904625,
+          "q975": 0.19010090625
+        },
+        "log_loss": {
+          "n": 30,
+          "mean": 0.5513177815744698,
+          "sd": 0.010548792094195637,
+          "median": 0.5463917051420815,
+          "q025": 0.5436319596381755,
+          "q975": 0.5744597806130269
+        }
+      },
+      "random_forest/all": {
+        "train_accuracy": {
+          "n": 30,
+          "mean": 1.0,
+          "sd": 0.0,
+          "median": 1.0,
+          "q025": 1.0,
+          "q975": 1.0
+        },
+        "accuracy": {
+          "n": 30,
+          "mean": 0.9547733333333333,
+          "sd": 0.029682909669316148,
+          "median": 0.9630000000000001,
+          "q025": 0.874285,
+          "q975": 0.990195
+        },
+        "balanced_accuracy": {
+          "n": 30,
+          "mean": 0.912908093106834,
+          "sd": 0.06623480327539205,
+          "median": 0.9308763441244602,
+          "q025": 0.7316548013126662,
+          "q975": 0.9894888618197157
+        },
+        "precision": {
+          "n": 30,
+          "mean": 0.971064661850677,
+          "sd": 0.03551579459965235,
+          "median": 0.9865743639759056,
+          "q025": 0.8953420700318186,
+          "q975": 1.0
+        },
+        "recall": {
+          "n": 30,
+          "mean": 0.834332191780822,
+          "sd": 0.1364543636230233,
+          "median": 0.8711472602739726,
+          "q025": 0.4639554794520548,
+          "q975": 0.987007705479452
+        },
+        "average_precision": {
+          "n": 30,
+          "mean": 0.9662262490686586,
+          "sd": 0.03486771049856787,
+          "median": 0.9772703443006951,
+          "q025": 0.887697690424673,
+          "q975": 0.9960759786728399
+        },
+        "brier": {
+          "n": 30,
+          "mean": 0.04056045185185185,
+          "sd": 0.01943417642806483,
+          "median": 0.036290222222222224,
+          "q025": 0.017001361111111113,
+          "q975": 0.09074299999999999
+        },
+        "log_loss": {
+          "n": 30,
+          "mean": 0.17661533613359423,
+          "sd": 0.08865480371050052,
+          "median": 0.14756372521726527,
+          "q025": 0.09072717784155349,
+          "q975": 0.37667733567337897
+        }
+      },
+      "random_forest/near_boundary": {
+        "train_accuracy": {
+          "n": 30,
+          "mean": 1.0,
+          "sd": 0.0,
+          "median": 1.0,
+          "q025": 1.0,
+          "q975": 1.0
+        },
+        "accuracy": {
+          "n": 30,
+          "mean": 0.8724700761697499,
+          "sd": 0.03741855075440985,
+          "median": 0.8710554951033733,
+          "q025": 0.8024483133841132,
+          "q975": 0.9466539717083786
+        },
+        "balanced_accuracy": {
+          "n": 30,
+          "mean": 0.7276138186029936,
+          "sd": 0.1089050521278664,
+          "median": 0.7371295141363745,
+          "q025": 0.5039617486338798,
+          "q975": 0.9383137324780233
+        },
+        "precision": {
+          "n": 30,
+          "mean": 0.7996618882992655,
+          "sd": 0.1946481544014419,
+          "median": 0.8029850746268656,
+          "q025": 0.44511627906976753,
+          "q975": 1.0
+        },
+        "recall": {
+          "n": 30,
+          "mean": 0.48688524590163934,
+          "sd": 0.23603010955685605,
+          "median": 0.5109289617486339,
+          "q025": 0.007923497267759564,
+          "q975": 0.9170765027322404
+        },
+        "average_precision": {
+          "n": 30,
+          "mean": 0.7722238976936852,
+          "sd": 0.11082908212002708,
+          "median": 0.7596779487963674,
+          "q025": 0.5796195062433757,
+          "q975": 0.9290452634616603
+        },
+        "brier": {
+          "n": 30,
+          "mean": 0.09018905412485392,
+          "sd": 0.024740262510993136,
+          "median": 0.08880062870269617,
+          "q025": 0.04731894571394027,
+          "q975": 0.1388853826623141
+        },
+        "log_loss": {
+          "n": 30,
+          "mean": 0.3946470362577161,
+          "sd": 0.24682130982759054,
+          "median": 0.28558274512699255,
+          "q025": 0.17683085472515916,
+          "q975": 0.9362080040733574
+        }
+      }
+    },
+    "hardcoded_0892_used": false,
+    "scope": "No actual reaction labels or calibrated chemical success probabilities are available. Reliability bins are descriptive for seed 0, not a post-hoc calibration model."
+  },
+  "flow": {
+    "evidence": "dimensionally consistent uncalibrated A->P->D design scenario",
+    "assumptions": {
+      "volume_ml": 1.0,
+      "feed_M": 0.1,
+      "product_MW_g_mol": 200.0,
+      "k1_s_inverse": 0.015,
+      "k2_s_inverse": 0.002,
+      "current_A": 0.2,
+      "cell_voltage_V": 3.0,
+      "electrons_per_each_step": 2,
+      "unit_stoichiometry": true,
+      "product_initial_concentration": 0.0,
+      "plug_flow": true
+    },
+    "selected": [
+      {
+        "q_ml_min": 0.2,
+        "residence_s": 300.0,
+        "conversion": 0.9888910034617577,
+        "product_yield": 0.6204261225643665,
+        "degraded_fraction": 0.36846488089739127,
+        "selectivity": 0.6273958610124615,
+        "product_g_h": 0.14890226941544796,
+        "sty_g_L_h": 148.90226941544796,
+        "minimum_current_A": 0.0873099555382859,
+        "available_current_A": 0.2,
+        "charge_feasible": true,
+        "candidate_FE_at_available_current": 0.19954006830515578,
+        "energy_kWh_kg_at_assumed_3V": 4.029488619316857,
+        "mass_balance_residual": 0.0,
+        "max_species_analytic_error": 2.071010030135767e-12
+      },
+      {
+        "q_ml_min": 0.5,
+        "residence_s": 120.0,
+        "conversion": 0.8347011117784134,
+        "product_yield": 0.7169180455903466,
+        "degraded_fraction": 0.11778306618806689,
+        "selectivity": 0.8588919260726533,
+        "product_g_h": 0.43015082735420795,
+        "sty_g_L_h": 430.15082735420793,
+        "minimum_current_A": 0.15316792041690175,
+        "available_current_A": 0.2,
+        "charge_feasible": true,
+        "candidate_FE_at_available_current": 0.5764339644300491,
+        "energy_kWh_kg_at_assumed_3V": 1.3948595744671897,
+        "mass_balance_residual": 0.0,
+        "max_species_analytic_error": 6.410538766488116e-12
+      },
+      {
+        "q_ml_min": 1.0,
+        "residence_s": 60.0,
+        "conversion": 0.5934303402594008,
+        "product_yield": 0.5542508965114135,
+        "degraded_fraction": 0.03917944374798732,
+        "selectivity": 0.9339780238892721,
+        "product_g_h": 0.6651010758136962,
+        "sty_g_L_h": 665.1010758136962,
+        "minimum_current_A": 0.20345855037438104,
+        "available_current_A": 0.2,
+        "charge_feasible": false,
+        "candidate_FE_at_available_current": 0.8912846971285247,
+        "energy_kWh_kg_at_assumed_3V": 0.9021185227612957,
+        "mass_balance_residual": 0.0,
+        "max_species_analytic_error": 3.2727154319900364e-12
+      },
+      {
+        "q_ml_min": 2.0,
+        "residence_s": 30.0,
+        "conversion": 0.36237184837822667,
+        "product_yield": 0.350926594572087,
+        "degraded_fraction": 0.011445253806139644,
+        "selectivity": 0.9684157203233027,
+        "product_g_h": 0.8422238269730089,
+        "sty_g_L_h": 842.2238269730088,
+        "minimum_current_A": 0.24045244837596377,
+        "available_current_A": 0.2,
+        "charge_feasible": false,
+        "candidate_FE_at_available_current": 1.128642300900947,
+        "energy_kWh_kg_at_assumed_3V": 0.7123996980190263,
+        "mass_balance_residual": 0.0,
+        "max_species_analytic_error": 1.0422218643668657e-12
+      }
+    ],
+    "best_grid_point_under_constraints": {
+      "q_ml_min": 0.55,
+      "residence_s": 109.09090909090908,
+      "conversion": 0.8053132916684898,
+      "product_yield": 0.7030298561536339,
+      "degraded_fraction": 0.10228343551485586,
+      "selectivity": 0.8729892619766156,
+      "product_g_h": 0.4639997050613984,
+      "sty_g_L_h": 463.9997050613984,
+      "minimum_current_A": 0.16054458136440192,
+      "available_current_A": 0.2,
+      "charge_feasible": true,
+      "candidate_FE_at_available_current": 0.6217939673115427,
+      "energy_kWh_kg_at_assumed_3V": 1.2931042702292355,
+      "mass_balance_residual": 0.0
+    },
+    "constraints": {
+      "min_conversion": 0.8,
+      "min_selectivity": 0.8,
+      "current_required_at_most_A": 0.2
+    },
+    "parameter_sensitivity": [
+      {
+        "q_ml_min": 0.2,
+        "sty_q025": 119.2193447932697,
+        "sty_q975": 172.80277499229246,
+        "conversion_q025": 0.9527752263431059,
+        "conversion_q975": 0.9987168419006355,
+        "charge_feasible_fraction": 1.0
+      },
+      {
+        "q_ml_min": 0.5,
+        "sty_q025": 362.4296930100216,
+        "sty_q975": 480.34633633225104,
+        "conversion_q025": 0.7051046300006525,
+        "conversion_q975": 0.9302872736285974,
+        "charge_feasible_fraction": 1.0
+      },
+      {
+        "q_ml_min": 1.0,
+        "sty_q025": 512.3185103871905,
+        "sty_q975": 819.6519167087796,
+        "conversion_q025": 0.4569573037172,
+        "conversion_q975": 0.7359683231758729,
+        "charge_feasible_fraction": 0.4366
+      },
+      {
+        "q_ml_min": 2.0,
+        "sty_q025": 610.6916727550633,
+        "sty_q975": 1126.6942626538344,
+        "conversion_q025": 0.2630856927181435,
+        "conversion_q975": 0.4861598723148007,
+        "charge_feasible_fraction": 0.1231
+      }
+    ],
+    "uncertainty_assumptions": "10,000 independent lognormal k1 and k2 draws, log-SD 0.2; these are scenario intervals, not experimental confidence intervals.",
+    "scope": "Charge-infeasible rows are counterfactual kinetic outputs and must not be reported as realizable production. No Butler-Volmer, measured transport, calibration, process energy balance, or industrial optimum is established."
+  }
+}

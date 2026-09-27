@@ -1,0 +1,171 @@
+{
+  "name": "N_methylindole",
+  "input_smiles": "Cn1ccc2ccccc21",
+  "canonical_isomeric_smiles": "Cn1ccc2ccccc21",
+  "formula": "C9H9N",
+  "formal_charge": 0,
+  "neutral_multiplicity": 1,
+  "atom_count": 19,
+  "heavy_atoms": 10,
+  "rdkit_seed": 31415,
+  "requested_conformers": 4,
+  "returned_conformers": 4,
+  "selected_mmff_energy_kcal_mol": 18.627230362305568,
+  "selected_conformer_id": 1,
+  "atom_order": [
+    {
+      "index_1based": 1,
+      "element": "C",
+      "neighbors_1based": [
+        2,
+        11,
+        12,
+        13
+      ]
+    },
+    {
+      "index_1based": 2,
+      "element": "N",
+      "neighbors_1based": [
+        1,
+        3,
+        10
+      ]
+    },
+    {
+      "index_1based": 3,
+      "element": "C",
+      "neighbors_1based": [
+        2,
+        4,
+        14
+      ]
+    },
+    {
+      "index_1based": 4,
+      "element": "C",
+      "neighbors_1based": [
+        3,
+        5,
+        15
+      ]
+    },
+    {
+      "index_1based": 5,
+      "element": "C",
+      "neighbors_1based": [
+        4,
+        6,
+        10
+      ]
+    },
+    {
+      "index_1based": 6,
+      "element": "C",
+      "neighbors_1based": [
+        5,
+        7,
+        16
+      ]
+    },
+    {
+      "index_1based": 7,
+      "element": "C",
+      "neighbors_1based": [
+        6,
+        8,
+        17
+      ]
+    },
+    {
+      "index_1based": 8,
+      "element": "C",
+      "neighbors_1based": [
+        7,
+        9,
+        18
+      ]
+    },
+    {
+      "index_1based": 9,
+      "element": "C",
+      "neighbors_1based": [
+        8,
+        10,
+        19
+      ]
+    },
+    {
+      "index_1based": 10,
+      "element": "C",
+      "neighbors_1based": [
+        9,
+        2,
+        5
+      ]
+    },
+    {
+      "index_1based": 11,
+      "element": "H",
+      "neighbors_1based": [
+        1
+      ]
+    },
+    {
+      "index_1based": 12,
+      "element": "H",
+      "neighbors_1based": [
+        1
+      ]
+    },
+    {
+      "index_1based": 13,
+      "element": "H",
+      "neighbors_1based": [
+        1
+      ]
+    },
+    {
+      "index_1based": 14,
+      "element": "H",
+      "neighbors_1based": [
+        3
+      ]
+    },
+    {
+      "index_1based": 15,
+      "element": "H",
+      "neighbors_1based": [
+        4
+      ]
+    },
+    {
+      "index_1based": 16,
+      "element": "H",
+      "neighbors_1based": [
+        6
+      ]
+    },
+    {
+      "index_1based": 17,
+      "element": "H",
+      "neighbors_1based": [
+        7
+      ]
+    },
+    {
+      "index_1based": 18,
+      "element": "H",
+      "neighbors_1based": [
+        8
+      ]
+    },
+    {
+      "index_1based": 19,
+      "element": "H",
+      "neighbors_1based": [
+        9
+      ]
+    }
+  ]
+}

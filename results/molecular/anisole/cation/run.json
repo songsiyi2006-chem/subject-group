@@ -1,0 +1,24 @@
+{
+  "args": [
+    "xtb",
+    "input.xyz",
+    "--gfn",
+    "2",
+    "--alpb",
+    "acetonitrile",
+    "--chrg",
+    "1",
+    "--uhf",
+    "1",
+    "--scc",
+    "--json",
+    "--parallel",
+    "1",
+    "--norestart"
+  ],
+  "returncode": 0,
+  "elapsed_s": 0.07022350002080202,
+  "completed": true,
+  "public_log_normalization": "Executable and job-directory paths replaced by portable names; scientific values unchanged.",
+  "energy_Eh": -22.704260872486
+}

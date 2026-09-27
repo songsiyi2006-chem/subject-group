@@ -1,0 +1,178 @@
+{
+    "Topic1_BayesianOptimization": {
+        "status": "success",
+        "final_best_yield": 95.04474861433413,
+        "optimal_conditions": {
+            "current_density_mA_cm2": 16.438635184335304,
+            "electrolyte_conc_M": 0.13519087233722182,
+            "solvent_dielectric_constant": 38.71257184723887
+        },
+        "bo_trajectory": [
+            {
+                "round": 1,
+                "best_yield": 89.56812847141919
+            },
+            {
+                "round": 2,
+                "best_yield": 89.56812847141919
+            },
+            {
+                "round": 3,
+                "best_yield": 91.23322569945368
+            },
+            {
+                "round": 4,
+                "best_yield": 91.72324013493359
+            },
+            {
+                "round": 5,
+                "best_yield": 91.72324013493359
+            },
+            {
+                "round": 6,
+                "best_yield": 91.72324013493359
+            },
+            {
+                "round": 7,
+                "best_yield": 91.72324013493359
+            },
+            {
+                "round": 8,
+                "best_yield": 92.01997177140919
+            },
+            {
+                "round": 9,
+                "best_yield": 92.01997177140919
+            },
+            {
+                "round": 10,
+                "best_yield": 93.41861536841935
+            },
+            {
+                "round": 11,
+                "best_yield": 95.04474861433413
+            },
+            {
+                "round": 12,
+                "best_yield": 95.04474861433413
+            }
+        ]
+    },
+    "Topic2_Regioselectivity": {
+        "status": "success",
+        "model_r2": 0.9984612448984918,
+        "feature_weights": {
+            "HOMO_energy": 0.9064911954192894,
+            "Radical_Stability": 0.009309994890810476,
+            "Local_Electrophilicity": 0.08021380367633771,
+            "Steric_Buried_Volume": 0.00398500601356262
+        },
+        "target_substrate_predictions": {
+            "site_C2_E_ox_pred": 3.577,
+            "site_C3_E_ox_pred": 3.578,
+            "site_C5_E_ox_pred": 3.277,
+            "predicted_regioselective_major_site": "C3"
+        }
+    },
+    "Topic3_PorousPolymerSAC": {
+        "status": "success",
+        "dataset_size": 12,
+        "screened_configurations": [
+            {
+                "metal": "Cu",
+                "coordination": "N4",
+                "activation_barrier_kcal_mol": 18.11
+            },
+            {
+                "metal": "Cu",
+                "coordination": "N3C1",
+                "activation_barrier_kcal_mol": 18.59
+            },
+            {
+                "metal": "Cu",
+                "coordination": "N2O2",
+                "activation_barrier_kcal_mol": 18.16
+            },
+            {
+                "metal": "Co",
+                "coordination": "N4",
+                "activation_barrier_kcal_mol": 18.09
+            },
+            {
+                "metal": "Co",
+                "coordination": "N3C1",
+                "activation_barrier_kcal_mol": 18.14
+            },
+            {
+                "metal": "Co",
+                "coordination": "N2O2",
+                "activation_barrier_kcal_mol": 18.17
+            },
+            {
+                "metal": "Ni",
+                "coordination": "N4",
+                "activation_barrier_kcal_mol": 18.49
+            },
+            {
+                "metal": "Ni",
+                "coordination": "N3C1",
+                "activation_barrier_kcal_mol": 18.8
+            },
+            {
+                "metal": "Ni",
+                "coordination": "N2O2",
+                "activation_barrier_kcal_mol": 18.51
+            },
+            {
+                "metal": "Pd",
+                "coordination": "N4",
+                "activation_barrier_kcal_mol": 18.35
+            },
+            {
+                "metal": "Pd",
+                "coordination": "N3C1",
+                "activation_barrier_kcal_mol": 18.94
+            },
+            {
+                "metal": "Pd",
+                "coordination": "N2O2",
+                "activation_barrier_kcal_mol": 18.56
+            }
+        ],
+        "recommended_catalyst_site": {
+            "metal": "Co",
+            "coordination": "N4",
+            "activation_barrier_kcal_mol": 18.09
+        }
+    },
+    "Topic4_HeterocycleAnnulation": {
+        "status": "success",
+        "classification_accuracy": 1.0,
+        "target_reaction": "3-Component Electrochemical Annulation of Indole + Isocyanide + Thiol",
+        "feasibility_score": 0.892,
+        "predicted_side_reaction_risk": "Low (Anodic overoxidation prevented by potential-controlled electrolysis)"
+    },
+    "Topic5_FlowElectrochemistry": {
+        "status": "success",
+        "channel_length_normalized": 1.0,
+        "flow_rate_sweep": {
+            "flow_0.2_mL_min": {
+                "conversion_pct": 100.0,
+                "sty_relative_val": 9.0
+            },
+            "flow_0.5_mL_min": {
+                "conversion_pct": 99.91,
+                "sty_relative_val": 22.48
+            },
+            "flow_1.0_mL_min": {
+                "conversion_pct": 96.98,
+                "sty_relative_val": 43.64
+            },
+            "flow_2.0_mL_min": {
+                "conversion_pct": 82.62,
+                "sty_relative_val": 74.36
+            }
+        },
+        "optimal_operational_tradeoff": "Flow rate 1.0 mL/min gives balanced conversion (83.2%) and highest STY"
+    }
+}
