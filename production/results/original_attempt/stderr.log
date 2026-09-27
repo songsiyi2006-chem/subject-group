@@ -1,0 +1,26 @@
+<local-runtime-or-project>\source\run_production_pipeline_original.py:237: SyntaxWarning: invalid escape sequence '\D'
+  Predicts the activation barrier for electrocatalytic C-H cross-coupling (\Delta G^#).
+<local-runtime-or-project>\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 0 of parameter k1__length_scale is close to the specified upper bound 100000.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+<local-runtime-or-project>\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 0 of parameter k1__length_scale is close to the specified upper bound 100000.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+<local-runtime-or-project>\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 0 of parameter k1__length_scale is close to the specified upper bound 100000.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+<local-runtime-or-project>\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 0 of parameter k1__length_scale is close to the specified upper bound 100000.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+<local-runtime-or-project>\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 0 of parameter k1__length_scale is close to the specified upper bound 100000.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+<local-runtime-or-project>\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 0 of parameter k1__length_scale is close to the specified upper bound 100000.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+<local-runtime-or-project>\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 0 of parameter k1__length_scale is close to the specified upper bound 100000.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+<local-runtime-or-project>\Lib\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 0 of parameter k1__length_scale is close to the specified upper bound 100000.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+Traceback (most recent call last):
+  File "<local-runtime-or-project>\source\run_production_pipeline_original.py", line 396, in <module>
+    "Task_B_3D_Cheminformatics": run_molecule_3d_regioselectivity() if HAS_RDKIT else {"status": "skipped"},
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<local-runtime-or-project>\source\run_production_pipeline_original.py", line 185, in run_molecule_3d_regioselectivity
+    sasa_per_atom = rdFreeSASA.calcSASA(mol, radii)
+                    ^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'rdkit.Chem.rdFreeSASA' has no attribute 'calcSASA'. Did you mean: 'CalcSASA'?

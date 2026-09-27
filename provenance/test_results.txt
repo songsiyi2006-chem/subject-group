@@ -13,8 +13,22 @@ test_regression_test_not_in_train (test_evidence.EvidenceTests.test_regression_t
 test_reliability_bins_account_for_every_observation (test_evidence.EvidenceTests.test_reliability_bins_account_for_every_observation) ... ok
 test_sac_probability_partition_and_symmetry (test_evidence.EvidenceTests.test_sac_probability_partition_and_symmetry) ... ok
 test_sequential_model_independent_integrator (test_evidence.EvidenceTests.test_sequential_model_independent_integrator) ... ok
+test_bo_formula_ties_independently (test_production.ProductionEvidenceTests.test_bo_formula_ties_independently) ... ok
+test_bo_paired_design_regret_and_no_duplicates (test_production.ProductionEvidenceTests.test_bo_paired_design_regret_and_no_duplicates) ... ok
+test_conformer_convergence_partition_and_charge_invariance (test_production.ProductionEvidenceTests.test_conformer_convergence_partition_and_charge_invariance) ... ok
+test_conformer_site_scope_and_rank_count (test_production.ProductionEvidenceTests.test_conformer_site_scope_and_rank_count) ... ok
+test_flow_current_flux_closure (test_production.ProductionEvidenceTests.test_flow_current_flux_closure) ... ok
+test_flow_limiting_regimes_and_trend (test_production.ProductionEvidenceTests.test_flow_limiting_regimes_and_trend) ... ok
+test_flow_source_agrees_with_independent_analytic_solution (test_production.ProductionEvidenceTests.test_flow_source_agrees_with_independent_analytic_solution) ... ok
+test_group_holdouts_do_not_leak_group (test_production.ProductionEvidenceTests.test_group_holdouts_do_not_leak_group) ... ok
+test_repaired_modules_and_patch_are_explicit (test_production.ProductionEvidenceTests.test_repaired_modules_and_patch_are_explicit) ... ok
+test_sasa_radii_and_single_geometry_partition (test_production.ProductionEvidenceTests.test_sasa_radii_and_single_geometry_partition) ... ok
+test_source_bo_grid_and_observation_counts (test_production.ProductionEvidenceTests.test_source_bo_grid_and_observation_counts) ... ok
+test_supplied_source_identity_and_failure_preserved (test_production.ProductionEvidenceTests.test_supplied_source_identity_and_failure_preserved) ... ok
+test_target_core_mapping_and_blocked_sites (test_production.ProductionEvidenceTests.test_target_core_mapping_and_blocked_sites) ... ok
+test_target_xtb_records_and_charge_sums (test_production.ProductionEvidenceTests.test_target_xtb_records_and_charge_sums) ... ok
 
 ----------------------------------------------------------------------
-Ran 15 tests in 0.451s
+Ran 29 tests in 0.761s
 
 OK

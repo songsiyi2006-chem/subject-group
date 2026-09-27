@@ -1,6 +1,6 @@
 """Validate the saved publication, without interpreting software success as chemistry."""
 from pathlib import Path
-import hashlib,json,re,unittest,sys,io
+import hashlib,json,re,unittest,sys,io,subprocess
 ROOT=Path(__file__).resolve().parents[1]
 def main():
     checks=[]
@@ -31,7 +31,10 @@ def main():
         table_numbers.append(nums)
     check('English/Chinese table decimal-value parity by row',table_numbers[0]==table_numbers[1])
     check('English edition has no Chinese prose',not re.search(r'[\u4e00-\u9fff]',contents[0]))
-    files=[p for d in ['results','provenance','data/original'] for p in (ROOT/d).rglob('*.json') if p.name!='release_validation.json']
+    production=subprocess.run([sys.executable,str(ROOT/'production/scripts/validate_production.py')],capture_output=True,text=True,encoding='utf-8')
+    check('four-task production publication validation',production.returncode==0)
+    if production.returncode:print(production.stdout,production.stderr)
+    files=[p for d in ['results','provenance','data/original','production/results','production/source'] for p in (ROOT/d).rglob('*.json') if p.name!='release_validation.json']
     for f in files:
         try:json.loads(f.read_text(encoding='utf-8-sig'));ok=True
         except Exception:ok=False

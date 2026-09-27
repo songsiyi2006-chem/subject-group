@@ -1,0 +1,356 @@
+{
+  "passed": true,
+  "checks": 87,
+  "scope": "Publication and saved-record integrity; scientific invariants are separately checked by tests/test_production.py. No experimental validity is asserted.",
+  "failed": [],
+  "items": [
+    {
+      "check": "original extracted script SHA256",
+      "passed": true
+    },
+    {
+      "check": "original_attempt exit status",
+      "passed": true
+    },
+    {
+      "check": "original_attempt result presence",
+      "passed": true
+    },
+    {
+      "check": "original_attempt executed script hash",
+      "passed": true
+    },
+    {
+      "check": "repaired exit status",
+      "passed": true
+    },
+    {
+      "check": "repaired result presence",
+      "passed": true
+    },
+    {
+      "check": "repaired executed script hash",
+      "passed": true
+    },
+    {
+      "check": "original full JSON absent",
+      "passed": true
+    },
+    {
+      "check": "original API error preserved",
+      "passed": true
+    },
+    {
+      "check": "four task results",
+      "passed": true
+    },
+    {
+      "check": "row count repaired/task_a_candidates.csv",
+      "passed": true
+    },
+    {
+      "check": "row count repaired/task_a_observations.csv",
+      "passed": true
+    },
+    {
+      "check": "row count repaired/task_b_all_atoms.csv",
+      "passed": true
+    },
+    {
+      "check": "row count repaired/task_c_all_sites.csv",
+      "passed": true
+    },
+    {
+      "check": "row count audit/task_a_paired_runs.csv",
+      "passed": true
+    },
+    {
+      "check": "row count audit/task_a_observations.csv",
+      "passed": true
+    },
+    {
+      "check": "row count audit/task_b_conformers.csv",
+      "passed": true
+    },
+    {
+      "check": "row count audit/task_d_eta_sweep.csv",
+      "passed": true
+    },
+    {
+      "check": "row count audit/task_d_parameter_sensitivity.csv",
+      "passed": true
+    },
+    {
+      "check": "target xTB completed",
+      "passed": true
+    },
+    {
+      "check": "xTB record neutral",
+      "passed": true
+    },
+    {
+      "check": "xTB record cation",
+      "passed": true
+    },
+    {
+      "check": "xTB record anion",
+      "passed": true
+    },
+    {
+      "check": "english exactly four main sections",
+      "passed": true
+    },
+    {
+      "check": "english section 1 coverage",
+      "passed": true
+    },
+    {
+      "check": "english section 2 coverage",
+      "passed": true
+    },
+    {
+      "check": "english section 3 coverage",
+      "passed": true
+    },
+    {
+      "check": "english section 4 coverage",
+      "passed": true
+    },
+    {
+      "check": "english numerical anchors",
+      "passed": true
+    },
+    {
+      "check": "english evidence labels",
+      "passed": true
+    },
+    {
+      "check": "english source identity",
+      "passed": true
+    },
+    {
+      "check": "english no unresolved placeholders",
+      "passed": true
+    },
+    {
+      "check": "english balanced code fences",
+      "passed": true
+    },
+    {
+      "check": "english balanced display math",
+      "passed": true
+    },
+    {
+      "check": "english link figures/target_atom_map.png",
+      "passed": true
+    },
+    {
+      "check": "english link figures/flow_tradeoff.png",
+      "passed": true
+    },
+    {
+      "check": "english link figures/production_audit.png",
+      "passed": true
+    },
+    {
+      "check": "english link figures/undergraduate_gantt.png",
+      "passed": true
+    },
+    {
+      "check": "chinese exactly four main sections",
+      "passed": true
+    },
+    {
+      "check": "chinese section 1 coverage",
+      "passed": true
+    },
+    {
+      "check": "chinese section 2 coverage",
+      "passed": true
+    },
+    {
+      "check": "chinese section 3 coverage",
+      "passed": true
+    },
+    {
+      "check": "chinese section 4 coverage",
+      "passed": true
+    },
+    {
+      "check": "chinese numerical anchors",
+      "passed": true
+    },
+    {
+      "check": "chinese evidence labels",
+      "passed": true
+    },
+    {
+      "check": "chinese source identity",
+      "passed": true
+    },
+    {
+      "check": "chinese no unresolved placeholders",
+      "passed": true
+    },
+    {
+      "check": "chinese balanced code fences",
+      "passed": true
+    },
+    {
+      "check": "chinese balanced display math",
+      "passed": true
+    },
+    {
+      "check": "chinese link figures/target_atom_map.png",
+      "passed": true
+    },
+    {
+      "check": "chinese link figures/flow_tradeoff_zh.png",
+      "passed": true
+    },
+    {
+      "check": "chinese link figures/production_audit_zh.png",
+      "passed": true
+    },
+    {
+      "check": "chinese link figures/undergraduate_gantt_zh.png",
+      "passed": true
+    },
+    {
+      "check": "bilingual exactly four main sections",
+      "passed": true
+    },
+    {
+      "check": "bilingual section 1 coverage",
+      "passed": true
+    },
+    {
+      "check": "bilingual section 2 coverage",
+      "passed": true
+    },
+    {
+      "check": "bilingual section 3 coverage",
+      "passed": true
+    },
+    {
+      "check": "bilingual section 4 coverage",
+      "passed": true
+    },
+    {
+      "check": "bilingual numerical anchors",
+      "passed": true
+    },
+    {
+      "check": "bilingual evidence labels",
+      "passed": true
+    },
+    {
+      "check": "bilingual source identity",
+      "passed": true
+    },
+    {
+      "check": "bilingual no unresolved placeholders",
+      "passed": true
+    },
+    {
+      "check": "bilingual balanced code fences",
+      "passed": true
+    },
+    {
+      "check": "bilingual balanced display math",
+      "passed": true
+    },
+    {
+      "check": "bilingual link figures/target_atom_map.png",
+      "passed": true
+    },
+    {
+      "check": "bilingual link figures/target_atom_map.png",
+      "passed": true
+    },
+    {
+      "check": "bilingual link figures/flow_tradeoff.png",
+      "passed": true
+    },
+    {
+      "check": "bilingual link figures/flow_tradeoff_zh.png",
+      "passed": true
+    },
+    {
+      "check": "bilingual link figures/production_audit.png",
+      "passed": true
+    },
+    {
+      "check": "bilingual link figures/production_audit_zh.png",
+      "passed": true
+    },
+    {
+      "check": "bilingual link figures/undergraduate_gantt.png",
+      "passed": true
+    },
+    {
+      "check": "bilingual link figures/undergraduate_gantt_zh.png",
+      "passed": true
+    },
+    {
+      "check": "separate editions table decimal parity",
+      "passed": true
+    },
+    {
+      "check": "English edition omits Chinese prose",
+      "passed": true
+    },
+    {
+      "check": "english all subsection bodies preserved in combined edition",
+      "passed": true
+    },
+    {
+      "check": "chinese all subsection bodies preserved in combined edition",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/audit/audit_summary.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/audit/target_identity.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/original_attempt/execution.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/repaired/execution.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/repaired/production_benchmark_results.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/target_xtb/anion/run.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/target_xtb/anion/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/target_xtb/cation/run.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/target_xtb/cation/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/target_xtb/neutral/run.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/target_xtb/neutral/xtbout.json",
+      "passed": true
+    }
+  ]
+}

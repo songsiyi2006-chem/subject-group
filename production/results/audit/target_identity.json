@@ -1,0 +1,301 @@
+{
+  "name": "5-methoxy-2-phenyl-1H-indole",
+  "input_smiles": "COc1ccc2[nH]c(cc2c1)c3ccccc3",
+  "canonical_smiles": "COc1ccc2[nH]c(-c3ccccc3)cc2c1",
+  "formula": "C15H13NO",
+  "heavy_atoms": 17,
+  "atoms_with_H": 30,
+  "core_index_0based_to_label": {
+    "6": "N1",
+    "7": "C2",
+    "8": "C3",
+    "9": "C3a",
+    "10": "C4",
+    "2": "C5",
+    "3": "C6",
+    "4": "C7",
+    "5": "C7a"
+  },
+  "atom_order": [
+    {
+      "index_0based": 0,
+      "element": "C",
+      "neighbors": [
+        1,
+        17,
+        18,
+        19
+      ]
+    },
+    {
+      "index_0based": 1,
+      "element": "O",
+      "neighbors": [
+        0,
+        2
+      ]
+    },
+    {
+      "index_0based": 2,
+      "element": "C",
+      "neighbors": [
+        1,
+        3,
+        10
+      ]
+    },
+    {
+      "index_0based": 3,
+      "element": "C",
+      "neighbors": [
+        2,
+        4,
+        20
+      ]
+    },
+    {
+      "index_0based": 4,
+      "element": "C",
+      "neighbors": [
+        3,
+        5,
+        21
+      ]
+    },
+    {
+      "index_0based": 5,
+      "element": "C",
+      "neighbors": [
+        4,
+        6,
+        9
+      ]
+    },
+    {
+      "index_0based": 6,
+      "element": "N",
+      "neighbors": [
+        5,
+        7,
+        22
+      ]
+    },
+    {
+      "index_0based": 7,
+      "element": "C",
+      "neighbors": [
+        6,
+        8,
+        11
+      ]
+    },
+    {
+      "index_0based": 8,
+      "element": "C",
+      "neighbors": [
+        7,
+        9,
+        23
+      ]
+    },
+    {
+      "index_0based": 9,
+      "element": "C",
+      "neighbors": [
+        8,
+        10,
+        5
+      ]
+    },
+    {
+      "index_0based": 10,
+      "element": "C",
+      "neighbors": [
+        9,
+        2,
+        24
+      ]
+    },
+    {
+      "index_0based": 11,
+      "element": "C",
+      "neighbors": [
+        7,
+        12,
+        16
+      ]
+    },
+    {
+      "index_0based": 12,
+      "element": "C",
+      "neighbors": [
+        11,
+        13,
+        25
+      ]
+    },
+    {
+      "index_0based": 13,
+      "element": "C",
+      "neighbors": [
+        12,
+        14,
+        26
+      ]
+    },
+    {
+      "index_0based": 14,
+      "element": "C",
+      "neighbors": [
+        13,
+        15,
+        27
+      ]
+    },
+    {
+      "index_0based": 15,
+      "element": "C",
+      "neighbors": [
+        14,
+        16,
+        28
+      ]
+    },
+    {
+      "index_0based": 16,
+      "element": "C",
+      "neighbors": [
+        15,
+        11,
+        29
+      ]
+    },
+    {
+      "index_0based": 17,
+      "element": "H",
+      "neighbors": [
+        0
+      ]
+    },
+    {
+      "index_0based": 18,
+      "element": "H",
+      "neighbors": [
+        0
+      ]
+    },
+    {
+      "index_0based": 19,
+      "element": "H",
+      "neighbors": [
+        0
+      ]
+    },
+    {
+      "index_0based": 20,
+      "element": "H",
+      "neighbors": [
+        3
+      ]
+    },
+    {
+      "index_0based": 21,
+      "element": "H",
+      "neighbors": [
+        4
+      ]
+    },
+    {
+      "index_0based": 22,
+      "element": "H",
+      "neighbors": [
+        6
+      ]
+    },
+    {
+      "index_0based": 23,
+      "element": "H",
+      "neighbors": [
+        8
+      ]
+    },
+    {
+      "index_0based": 24,
+      "element": "H",
+      "neighbors": [
+        10
+      ]
+    },
+    {
+      "index_0based": 25,
+      "element": "H",
+      "neighbors": [
+        12
+      ]
+    },
+    {
+      "index_0based": 26,
+      "element": "H",
+      "neighbors": [
+        13
+      ]
+    },
+    {
+      "index_0based": 27,
+      "element": "H",
+      "neighbors": [
+        14
+      ]
+    },
+    {
+      "index_0based": 28,
+      "element": "H",
+      "neighbors": [
+        15
+      ]
+    },
+    {
+      "index_0based": 29,
+      "element": "H",
+      "neighbors": [
+        16
+      ]
+    }
+  ],
+  "formal_charge": 0,
+  "neutral_multiplicity": 1,
+  "lowest_mmff_conformer": 18,
+  "radii_A": [
+    1.7,
+    1.55,
+    1.7,
+    1.7,
+    1.7,
+    1.7,
+    1.6,
+    1.7,
+    1.7,
+    1.7,
+    1.7,
+    1.7,
+    1.7,
+    1.7,
+    1.7,
+    1.7,
+    1.7,
+    1.2,
+    1.2,
+    1.2,
+    1.2,
+    1.2,
+    1.2,
+    1.2,
+    1.2,
+    1.2,
+    1.2,
+    1.2,
+    1.2,
+    1.2
+  ],
+  "probe_A": 1.4
+}

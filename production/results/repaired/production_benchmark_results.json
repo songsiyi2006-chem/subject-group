@@ -1,0 +1,180 @@
+{
+    "Task_A_Physical_BO": {
+        "status": "completed",
+        "optimal_yield": 92.03,
+        "optimal_parameters": {
+            "solvent": "MeCN",
+            "electrolyte": "LiClO4",
+            "current_density_mA_cm2": 16.0,
+            "temp_C": 25.0
+        },
+        "optimization_trajectory": [
+            {
+                "iteration": 1,
+                "chosen_solvent": "MeCN",
+                "chosen_electrolyte": "LiClO4",
+                "current_density": 20.0,
+                "acquired_yield": 79.59,
+                "cumulative_best_yield": 85.59
+            },
+            {
+                "iteration": 2,
+                "chosen_solvent": "MeCN",
+                "chosen_electrolyte": "LiClO4",
+                "current_density": 8.0,
+                "acquired_yield": 76.82,
+                "cumulative_best_yield": 85.59
+            },
+            {
+                "iteration": 3,
+                "chosen_solvent": "MeCN",
+                "chosen_electrolyte": "LiClO4",
+                "current_density": 24.0,
+                "acquired_yield": 72.21,
+                "cumulative_best_yield": 85.59
+            },
+            {
+                "iteration": 4,
+                "chosen_solvent": "MeCN",
+                "chosen_electrolyte": "LiClO4",
+                "current_density": 4.0,
+                "acquired_yield": 69.66,
+                "cumulative_best_yield": 85.59
+            },
+            {
+                "iteration": 5,
+                "chosen_solvent": "MeCN",
+                "chosen_electrolyte": "LiClO4",
+                "current_density": 16.0,
+                "acquired_yield": 92.03,
+                "cumulative_best_yield": 92.03
+            },
+            {
+                "iteration": 6,
+                "chosen_solvent": "MeCN",
+                "chosen_electrolyte": "LiClO4",
+                "current_density": 12.0,
+                "acquired_yield": 89.59,
+                "cumulative_best_yield": 92.03
+            },
+            {
+                "iteration": 7,
+                "chosen_solvent": "MeCN",
+                "chosen_electrolyte": "LiClO4",
+                "current_density": 20.0,
+                "acquired_yield": 86.57,
+                "cumulative_best_yield": 92.03
+            },
+            {
+                "iteration": 8,
+                "chosen_solvent": "MeCN",
+                "chosen_electrolyte": "LiClO4",
+                "current_density": 8.0,
+                "acquired_yield": 87.08,
+                "cumulative_best_yield": 92.03
+            }
+        ]
+    },
+    "Task_B_3D_Cheminformatics": {
+        "status": "completed",
+        "molecule_smiles": "COc1ccc2[nH]c(cc2c1)c3ccccc3",
+        "heavy_atom_count": 17,
+        "total_sasa_A2": 454.6229919137123,
+        "embed_status": 0,
+        "mmff_status": 0,
+        "sasa_method": "Lee-Richards; RDKit periodic-table vdW radii; explicit H; probe 1.4 A",
+        "score_evidence": "Uncalibrated heuristic; not a quantum or experimental site prediction",
+        "evaluated_ch_sites_count": 10,
+        "predicted_primary_reactive_site": {
+            "atom_index": 15,
+            "symbol": "C",
+            "hybridization": "SP2",
+            "gasteiger_charge": -0.0616,
+            "h_sasa_angstrom2": 26.676,
+            "anodic_activation_index": 0.7483
+        },
+        "top_3_reactive_carbons": [
+            {
+                "atom_index": 15,
+                "symbol": "C",
+                "hybridization": "SP2",
+                "gasteiger_charge": -0.0616,
+                "h_sasa_angstrom2": 26.676,
+                "anodic_activation_index": 0.7483
+            },
+            {
+                "atom_index": 14,
+                "symbol": "C",
+                "hybridization": "SP2",
+                "gasteiger_charge": -0.0622,
+                "h_sasa_angstrom2": 26.655,
+                "anodic_activation_index": 0.7481
+            },
+            {
+                "atom_index": 13,
+                "symbol": "C",
+                "hybridization": "SP2",
+                "gasteiger_charge": -0.0616,
+                "h_sasa_angstrom2": 26.647,
+                "anodic_activation_index": 0.7476
+            }
+        ]
+    },
+    "Task_C_SAC_Informatics": {
+        "status": "completed",
+        "sample_count": 16,
+        "descriptor_importances": {
+            "d_electrons": 0.1179,
+            "metal_EN": 0.7578,
+            "coord_N": 0.0445,
+            "coord_O": 0.017,
+            "d_band_center_proxy_eV": 0.0628
+        },
+        "optimal_sac_configuration": {
+            "metal": "Pd",
+            "coordination_type": "N2O2_salen",
+            "d_electrons": 8,
+            "metal_EN": 2.2,
+            "coord_N": 2,
+            "coord_O": 2,
+            "d_band_center_proxy_eV": -1.68,
+            "activation_barrier_kcal_mol": 17.09
+        }
+    },
+    "Task_D_Flow_Electrochemistry": {
+        "status": "completed",
+        "reactor_type": "Microchannel Parallel-Plate Electrochemical Reactor",
+        "overpotential_eta_V": 0.45,
+        "inlet_concentration_M": 0.05,
+        "flow_sweep_kinetics": {
+            "100_uL_min": {
+                "flow_velocity_mm_s": 0.33,
+                "residence_time_sec": 300.0,
+                "mass_transfer_coeff_m_s": "2.588e-06",
+                "conversion_pct": 77.55,
+                "space_time_yield_mmol_L_h": 465.3
+            },
+            "300_uL_min": {
+                "flow_velocity_mm_s": 1.0,
+                "residence_time_sec": 100.0,
+                "mass_transfer_coeff_m_s": "3.732e-06",
+                "conversion_pct": 50.66,
+                "space_time_yield_mmol_L_h": 911.83
+            },
+            "600_uL_min": {
+                "flow_velocity_mm_s": 2.0,
+                "residence_time_sec": 50.0,
+                "mass_transfer_coeff_m_s": "4.702e-06",
+                "conversion_pct": 35.52,
+                "space_time_yield_mmol_L_h": 1278.87
+            },
+            "1200_uL_min": {
+                "flow_velocity_mm_s": 4.0,
+                "residence_time_sec": 25.0,
+                "mass_transfer_coeff_m_s": "5.924e-06",
+                "conversion_pct": 23.8,
+                "space_time_yield_mmol_L_h": 1713.41
+            }
+        }
+    }
+}

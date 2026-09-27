@@ -1,0 +1,10 @@
+{
+  "script": "run_production_pipeline.py",
+  "sha256": "cdfdf640dfe639625864e46bc2648e83d4977dbafce50f4f7e5cf0322f23b2d4",
+  "returncode": 0,
+  "elapsed_s": 3.230433299962897,
+  "timestamp_utc": "2026-09-27T08:01:00.353733+00:00",
+  "result_written": true,
+  "threads": 1,
+  "timeout_s": 300
+}

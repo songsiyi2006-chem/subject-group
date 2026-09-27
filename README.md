@@ -2,6 +2,19 @@
 
 完整技术报告、可复现计算与证据审计。Updated 2026-09-27.
 
+## Latest four-task pipeline / 新增四任务流程
+
+- **[新版中文报告](production/reports/production_technical_report_chinese.md)**
+- **[New English report](production/reports/production_technical_report_english.md)**
+- [Section-aligned bilingual report / 按章节对齐的双语版](production/reports/production_technical_report_bilingual.md)
+- [Execution records, methods and reproduction / 执行记录与复现](production/README.md)
+
+新附件的原脚本在 SASA 接口处失败；归档修订版已完成四任务。新增 30 种子 × 4 策略 BO 对照、32 个构象、SAC 分组留出、流动解析解与电流平衡核验、目标分子的 3 个 xTB 作业。物性嵌入优势和 C3 位点主张均未得到这些模型的支持。A/C 仍是合成目标，D 使用未校准参数；没有湿实验验证，也尚未达到生产可用性。
+
+The new extension preserves the failed original and the explicit repair, includes negative results, and distinguishes synthetic scores, molecular calculations and proposed experiments. It follows the new four-section report specification. The earlier five-topic study below remains available with its original evidence boundaries.
+
+## Earlier five-topic study / 原五课题报告
+
 - **[中文完整报告](reports/technical_report_chinese.md)**
 - **[Complete English report](reports/technical_report_english.md)**
 

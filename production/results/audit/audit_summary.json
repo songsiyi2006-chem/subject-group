@@ -1,0 +1,337 @@
+{
+  "metadata": {
+    "rdkit": "2026.03.5",
+    "threads": 1,
+    "seeds": 30,
+    "elapsed_seconds": 34.02524180000182
+  },
+  "A": {
+    "evidence": "paired synthetic comparison; no measured reaction yields",
+    "seeds": 30,
+    "methods": [
+      {
+        "method": "random",
+        "mean": 2.6403866666666755,
+        "std": 2.269652487106757,
+        "median": 4.0
+      },
+      {
+        "method": "scaled_onehot_gp",
+        "mean": 4.808776666666675,
+        "std": 2.905513317896044,
+        "median": 4.541500000000013
+      },
+      {
+        "method": "scaled_physical_gp",
+        "mean": 5.154516666666674,
+        "std": 2.886416179885665,
+        "median": 4.351700000000008
+      },
+      {
+        "method": "source_gp",
+        "mean": 3.020240000000009,
+        "std": 3.5123485111620223,
+        "median": 0.5415000000000134
+      }
+    ],
+    "pool_size": 288,
+    "source_evaluations": 14,
+    "source_noiseless_at_winner": 91.38650000000001,
+    "source_observed_minus_noiseless": 0.6475310419003932,
+    "noiseless_grid_max": 91.38650000000001,
+    "number_tied_optima": 6,
+    "continuous_formula_max": 92.4865,
+    "paired": {
+      "scaled_onehot_gp_minus_random": {
+        "mean": 2.1683899999999996,
+        "ci95": [
+          0.9445308333333359,
+          3.5377355833333355
+        ],
+        "pairs": 30,
+        "resamples": 10000
+      },
+      "scaled_physical_gp_minus_random": {
+        "mean": 2.514129999999999,
+        "ci95": [
+          1.5242433333333323,
+          3.685991833333338
+        ],
+        "pairs": 30,
+        "resamples": 10000
+      },
+      "source_gp_minus_random": {
+        "mean": 0.3798533333333339,
+        "ci95": [
+          -0.930239499999999,
+          1.886489666666668
+        ],
+        "pairs": 30,
+        "resamples": 10000
+      },
+      "physical_minus_onehot": {
+        "mean": 0.34573999999999927,
+        "ci95": [
+          -0.48073450000000156,
+          1.2497886666666682
+        ],
+        "pairs": 30,
+        "resamples": 10000
+      }
+    },
+    "kernel_warnings": 2275,
+    "property_provenance": "All solvent/electrolyte dictionary numbers are source-assigned and lack measurement conditions/citations; not independently validated."
+  },
+  "B": {
+    "evidence": "real molecular force-field geometry and geometric SASA; heuristic ranking unvalidated",
+    "requested": 32,
+    "embedded": 32,
+    "converged": 32,
+    "formula": "C15H13NO",
+    "MMFF_energy_range": {
+      "min": 32.214649054773716,
+      "max": 32.903950525106104
+    },
+    "SASA_range_A2": {
+      "min": 436.0336432725724,
+      "max": 457.34824061871785
+    },
+    "classified_radii_unique": [
+      0.0
+    ],
+    "replacement_radii_by_element": {
+      "C": 1.7,
+      "O": 1.55,
+      "N": 1.6,
+      "H": 1.2
+    },
+    "core_CH_sites": [
+      "C3",
+      "C4",
+      "C6",
+      "C7"
+    ],
+    "C2_H_count": 0,
+    "C5_H_count": 0,
+    "aromatic_CH_count": 9,
+    "all_C_H_carbons": 10,
+    "top_counts": {
+      "14": 27,
+      "15": 3,
+      "13": 2
+    },
+    "probe_algorithm_sensitivity": [
+      {
+        "probe_A": 1.2,
+        "algorithm": "LeeRichards",
+        "total_sasa_A2": 421.4947381500883,
+        "top_atom_index": 14,
+        "top_score": 0.6744525861410362
+      },
+      {
+        "probe_A": 1.2,
+        "algorithm": "ShrakeRupley",
+        "total_sasa_A2": 416.62922125964826,
+        "top_atom_index": 15,
+        "top_score": 0.6932236474054977
+      },
+      {
+        "probe_A": 1.4,
+        "algorithm": "LeeRichards",
+        "total_sasa_A2": 454.08601807331456,
+        "top_atom_index": 14,
+        "top_score": 0.755043464245354
+      },
+      {
+        "probe_A": 1.4,
+        "algorithm": "ShrakeRupley",
+        "total_sasa_A2": 449.5483998802888,
+        "top_atom_index": 15,
+        "top_score": 0.7618527861207176
+      },
+      {
+        "probe_A": 1.8,
+        "algorithm": "LeeRichards",
+        "total_sasa_A2": 521.2910601876938,
+        "top_atom_index": 13,
+        "top_score": 0.9319940020897509
+      },
+      {
+        "probe_A": 1.8,
+        "algorithm": "ShrakeRupley",
+        "total_sasa_A2": 515.7405004543646,
+        "top_atom_index": 15,
+        "top_score": 0.9718954821495267
+      }
+    ],
+    "limitations": [
+      "Gasteiger charges are graph-based neutral partial charges, not radical-cation spin or frontier orbitals.",
+      "Conformer counts include repeated wells; rank frequencies are not Boltzmann populations or product probabilities.",
+      "Explicit-H SASA partitions are radius/probe dependent; 1.4 A is a convention, not a calibrated MeCN solvent model."
+    ]
+  },
+  "C": {
+    "evidence": "synthetic scores; no experimentally synthesized dataset supplied",
+    "rows": 16,
+    "in_sample_r2": 1.0,
+    "group_holdout_macro_means": [
+      {
+        "split": "coordination_type",
+        "model": "extra_trees",
+        "test_mae": 0.8480125000000085,
+        "test_rmse": 0.9303326795080447
+      },
+      {
+        "split": "coordination_type",
+        "model": "mean",
+        "test_mae": 2.3248958333333336,
+        "test_rmse": 2.7632572551675425
+      },
+      {
+        "split": "coordination_type",
+        "model": "ridge",
+        "test_mae": 0.8662685965903348,
+        "test_rmse": 1.004253164544417
+      },
+      {
+        "split": "metal",
+        "model": "extra_trees",
+        "test_mae": 2.786943749999994,
+        "test_rmse": 2.827170807286177
+      },
+      {
+        "split": "metal",
+        "model": "mean",
+        "test_mae": 2.9250000000000025,
+        "test_rmse": 3.095249719514828
+      },
+      {
+        "split": "metal",
+        "model": "ridge",
+        "test_mae": 1.1440353226228894,
+        "test_rmse": 1.263652475378767
+      }
+    ],
+    "rng_scope": "Task C has no local seed; sequential master execution inherits NumPy state from Task A. Standalone C is not independently seeded.",
+    "source_targets": "metal-specific base_barrier + 4.5*(proxy+1.85)^2 + Gaussian noise SD=0.35; two-decimal rounding"
+  },
+  "D": {
+    "evidence": "reduced transport/kinetic ODE with prescribed uncalibrated parameters, not a resolved PDE",
+    "rows": [
+      {
+        "q_uL_min": 100,
+        "eta_V": 0.45,
+        "km_m_s": 2.5875115507430867e-06,
+        "ks_m_s": 6.592308164868361e-05,
+        "keff_m_s": 2.4897862835608296e-06,
+        "mass_transfer_resistance_fraction": 0.9622319493977941,
+        "Da": 1.4938717701364976,
+        "Ceq_mol_m3": 1.2358689743714439e-06,
+        "Cout_mol_m3": 11.225088532426721,
+        "conversion": 0.7754982293514655,
+        "residence_s": 300.0,
+        "STY_mmol_L_h": 465.29893761087925,
+        "consumption_mol_s": 6.462485244595547e-08,
+        "current_from_molar_balance_A": 0.00623535021444932,
+        "current_integrated_A": 0.006235379204291478,
+        "current_relative_error": 4.649272480432654e-06,
+        "analytic_ode_error": 8.379075211450981e-12,
+        "delta_effective_over_height": 0.9275320913295104
+      },
+      {
+        "q_uL_min": 300,
+        "eta_V": 0.45,
+        "km_m_s": 3.731837422224672e-06,
+        "ks_m_s": 6.592308164868361e-05,
+        "keff_m_s": 3.5319002069974276e-06,
+        "mass_transfer_resistance_fraction": 0.9464239213539868,
+        "Da": 0.7063800413994855,
+        "Ceq_mol_m3": 1.2358689743714439e-06,
+        "Cout_mol_m3": 24.67135833955122,
+        "conversion": 0.5065728332089756,
+        "residence_s": 100.0,
+        "STY_mmol_L_h": 911.8310997761561,
+        "consumption_mol_s": 1.2664320830224393e-07,
+        "current_from_molar_balance_A": 0.012219211745300745,
+        "current_integrated_A": 0.012219224447493616,
+        "current_relative_error": 1.0395263733219257e-06,
+        "analytic_ode_error": 7.435829729729448e-12,
+        "delta_effective_over_height": 0.6431148328453388
+      },
+      {
+        "q_uL_min": 600,
+        "eta_V": 0.45,
+        "km_m_s": 4.701820523046287e-06,
+        "ks_m_s": 6.592308164868361e-05,
+        "keff_m_s": 4.388798974681036e-06,
+        "mass_transfer_resistance_fraction": 0.9334254578984981,
+        "Da": 0.43887989746810363,
+        "Ceq_mol_m3": 1.2358689743714439e-06,
+        "Cout_mol_m3": 32.23791104270845,
+        "conversion": 0.35524177914583105,
+        "residence_s": 50.0,
+        "STY_mmol_L_h": 1278.8704049249916,
+        "consumption_mol_s": 1.7762088957291556e-07,
+        "current_from_molar_balance_A": 0.017137810145336316,
+        "current_integrated_A": 0.017137817022437784,
+        "current_relative_error": 4.0128239313160626e-07,
+        "analytic_ode_error": 5.137223979545524e-12,
+        "delta_effective_over_height": 0.5104405810975217
+      },
+      {
+        "q_uL_min": 1200,
+        "eta_V": 0.45,
+        "km_m_s": 5.923922649813738e-06,
+        "ks_m_s": 6.592308164868361e-05,
+        "keff_m_s": 5.435483919436358e-06,
+        "mass_transfer_resistance_fraction": 0.9175480911465416,
+        "Da": 0.2717741959718179,
+        "Ceq_mol_m3": 1.2358689743714439e-06,
+        "Cout_mol_m3": 38.10131580784669,
+        "conversion": 0.23797368384306622,
+        "residence_s": 25.0,
+        "STY_mmol_L_h": 1713.4105236700768,
+        "consumption_mol_s": 2.3797368384306626e-07,
+        "current_from_molar_balance_A": 0.022960969416913918,
+        "current_integrated_A": 0.022960972950091026,
+        "current_relative_error": 1.5387752339061212e-07,
+        "analytic_ode_error": 3.389288849575678e-12,
+        "delta_effective_over_height": 0.40513695770073255
+      }
+    ],
+    "max_analytic_ode_error": 8.379075211450981e-12,
+    "max_current_integration_relative_error": 4.649272480432654e-06,
+    "volume_mL": 0.5,
+    "electrode_area_cm2": 10,
+    "assumed_electrons": 1,
+    "flow_sweep_rows": 48,
+    "interpretation": "km increases with flow; relative mass-transfer resistance decreases while residence time falls. STY is reactant disappearance under assumed unit selectivity, not measured isolated product yield.",
+    "limitations": [
+      "The code uses inlet concentration in the BV normalization, despite a bulk-concentration docstring.",
+      "The constant reverse term assumes fixed product activity; no product transport or counterelectrode balance is solved.",
+      "The implemented shear-rate correlation uses 0.67; the stated 1.85 Sherwood formula is not the executed expression.",
+      "Effective diffusion thickness is comparable to channel height; Leveque applicability needs validation.",
+      "No potential-field PDE, ohmic drop, fouling, Faradaic efficiency, calibrated kinetics, or cell-energy calculation."
+    ]
+  },
+  "target_xTB": {
+    "status": "completed",
+    "evidence": "executed semiempirical molecular calculation, not DFT or measured Eox",
+    "jobs": 3,
+    "method": "GFN2-xTB/ALPB(acetonitrile), neutral optimized, +/-1 doublets at fixed neutral nuclei",
+    "energies_Eh": {
+      "neutral": -45.759576727469,
+      "cation": -45.37319120607,
+      "anion": -45.980151497784
+    },
+    "removal_difference_eV": 10.514085662645824,
+    "addition_difference_eV": 6.002145271161464,
+    "charge_sums": {
+      "neutral": -1.0000000022492017e-08,
+      "cation": 1.0000000199999999,
+      "anion": -0.99999999
+    },
+    "C3_removal_response": 0.03769962,
+    "limitations": "No frequency, thermal, reference-electrode calibration or competing transition states; separate equilibrium ALPB response for each charge state."
+  }
+}

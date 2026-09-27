@@ -1,7 +1,7 @@
 {
   "passed": true,
-  "checks": 399,
-  "scientific_tests_run": 15,
+  "checks": 503,
+  "scientific_tests_run": 29,
   "scientific_failures": 0,
   "scientific_errors": 0,
   "failed": [],
@@ -126,6 +126,10 @@
     },
     {
       "check": "English edition has no Chinese prose",
+      "passed": true
+    },
+    {
+      "check": "four-task production publication validation",
       "passed": true
     },
     {
@@ -465,6 +469,58 @@
       "passed": true
     },
     {
+      "check": "JSON parses production/results/publication_validation.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses production/results/audit/audit_summary.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses production/results/audit/target_identity.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses production/results/original_attempt/execution.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses production/results/repaired/execution.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses production/results/repaired/production_benchmark_results.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses production/results/target_xtb/anion/run.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses production/results/target_xtb/anion/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses production/results/target_xtb/cation/run.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses production/results/target_xtb/cation/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses production/results/target_xtb/neutral/run.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses production/results/target_xtb/neutral/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses production/source/source_record.json",
+      "passed": true
+    },
+    {
       "check": "public files omit machine user paths and credential patterns",
       "passed": true
     },
@@ -502,6 +558,362 @@
     },
     {
       "check": "SHA256 data/original/simulate_all_topics.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/README.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/reports/figures/flow_tradeoff.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/reports/figures/flow_tradeoff.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/reports/figures/flow_tradeoff_zh.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/reports/figures/flow_tradeoff_zh.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/reports/figures/production_audit.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/reports/figures/production_audit.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/reports/figures/production_audit_zh.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/reports/figures/production_audit_zh.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/reports/figures/target_atom_map.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/reports/figures/target_atom_map.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/reports/figures/undergraduate_gantt.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/reports/figures/undergraduate_gantt.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/reports/figures/undergraduate_gantt_zh.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/reports/figures/undergraduate_gantt_zh.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/reports/production_technical_report_bilingual.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/reports/production_technical_report_chinese.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/reports/production_technical_report_english.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/reports/templates/chinese.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/reports/templates/english.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/results/audit/audit_summary.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/results/audit/target_conformers.sdf",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/results/audit/target_identity.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/results/audit/target_lowest_mmff.xyz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/results/audit/task_a_observations.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/results/audit/task_a_paired_runs.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/results/audit/task_a_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/results/audit/task_a_tied_grid_optima.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/results/audit/task_b_conformer_atoms.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/results/audit/task_b_conformer_sites.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/results/audit/task_b_conformers.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/results/audit/task_b_sasa_sensitivity.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/results/audit/task_b_site_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/results/audit/task_c_group_holdouts.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/results/audit/task_c_predictions.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/results/audit/task_c_ranking.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/results/audit/task_c_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/results/audit/task_d_analytic_audit.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/results/audit/task_d_eta_sweep.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/results/audit/task_d_parameter_sensitivity.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/results/audit/task_d_profile_100.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/results/audit/task_d_profile_1200.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/results/audit/task_d_profile_300.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/results/audit/task_d_profile_600.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/results/original_attempt/execution.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/results/original_attempt/stderr.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/results/original_attempt/stdout.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/results/publication_validation.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/results/repaired/execution.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/results/repaired/production_benchmark_results.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/results/repaired/stderr.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/results/repaired/stdout.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/results/repaired/task_a_candidates.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/results/repaired/task_a_observations.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/results/repaired/task_b_all_atoms.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/results/repaired/task_b_all_ch_sites.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/results/repaired/task_b_mmff_geometry.mol",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/results/repaired/task_c_all_sites.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/results/target_xtb/anion/charges",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/results/target_xtb/anion/input.xyz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/results/target_xtb/anion/run.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/results/target_xtb/anion/stderr.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/results/target_xtb/anion/stdout.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/results/target_xtb/anion/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/results/target_xtb/cation/charges",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/results/target_xtb/cation/input.xyz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/results/target_xtb/cation/run.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/results/target_xtb/cation/stderr.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/results/target_xtb/cation/stdout.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/results/target_xtb/cation/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/results/target_xtb/charge_responses.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/results/target_xtb/neutral/charges",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/results/target_xtb/neutral/input.xyz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/results/target_xtb/neutral/run.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/results/target_xtb/neutral/stderr.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/results/target_xtb/neutral/stdout.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/results/target_xtb/neutral/xtbopt.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/results/target_xtb/neutral/xtbopt.xyz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/results/target_xtb/neutral/xtbout.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/run_production_pipeline.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/scripts/audit_pipeline.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/scripts/build_reports.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/scripts/plot_production.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/scripts/prepare_and_execute.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/scripts/validate_production.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/source/repair.patch",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/source/run_production_pipeline_original.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/source/source_record.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 production/source/specification.md",
       "passed": true
     },
     {
@@ -1598,6 +2010,10 @@
     },
     {
       "check": "SHA256 tests/test_evidence.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 tests/test_production.py",
       "passed": true
     },
     {

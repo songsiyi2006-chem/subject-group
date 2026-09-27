@@ -8,4 +8,9 @@ data/original/** -text -whitespace
 results/** -text -whitespace
 provenance/** -text -whitespace
 reports/figures/** -text -whitespace
+production/source/** -text -whitespace
+production/results/** -text -whitespace
+production/reports/figures/** -text -whitespace
+# The minimal repair retains unchanged whitespace from the supplied script.
+production/run_production_pipeline.py -whitespace
 *.png binary
