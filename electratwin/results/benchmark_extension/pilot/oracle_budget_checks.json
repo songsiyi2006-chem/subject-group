@@ -1,0 +1,92 @@
+[
+  {
+    "seed": 0,
+    "method": "gp_mc_ehvi",
+    "requested_budget": 10,
+    "oracle_calls": 10,
+    "unique_calls": 10,
+    "shared_initial_ids": [
+      49,
+      40,
+      21,
+      24,
+      65
+    ],
+    "passed": true
+  },
+  {
+    "seed": 0,
+    "method": "random",
+    "requested_budget": 10,
+    "oracle_calls": 10,
+    "unique_calls": 10,
+    "shared_initial_ids": [
+      49,
+      40,
+      21,
+      24,
+      65
+    ],
+    "passed": true
+  },
+  {
+    "seed": 0,
+    "method": "maximin_spacefill",
+    "requested_budget": 10,
+    "oracle_calls": 10,
+    "unique_calls": 10,
+    "shared_initial_ids": [
+      49,
+      40,
+      21,
+      24,
+      65
+    ],
+    "passed": true
+  },
+  {
+    "seed": 1,
+    "method": "gp_mc_ehvi",
+    "requested_budget": 10,
+    "oracle_calls": 10,
+    "unique_calls": 10,
+    "shared_initial_ids": [
+      39,
+      2,
+      59,
+      76,
+      36
+    ],
+    "passed": true
+  },
+  {
+    "seed": 1,
+    "method": "random",
+    "requested_budget": 10,
+    "oracle_calls": 10,
+    "unique_calls": 10,
+    "shared_initial_ids": [
+      39,
+      2,
+      59,
+      76,
+      36
+    ],
+    "passed": true
+  },
+  {
+    "seed": 1,
+    "method": "maximin_spacefill",
+    "requested_budget": 10,
+    "oracle_calls": 10,
+    "unique_calls": 10,
+    "shared_initial_ids": [
+      39,
+      2,
+      59,
+      76,
+      36
+    ],
+    "passed": true
+  }
+]

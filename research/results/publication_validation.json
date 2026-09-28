@@ -1,6 +1,6 @@
 {
   "passed": true,
-  "checks": 173,
+  "checks": 177,
   "scope": "Saved record and publication integrity, not chemical prediction accuracy or experimental validation.",
   "failed": [],
   "items": [
@@ -590,6 +590,22 @@
     },
     {
       "check": "README link ../provenance/SHA256SUMS.txt",
+      "passed": true
+    },
+    {
+      "check": "README link electratwin/reports/extension_report_chinese.md",
+      "passed": true
+    },
+    {
+      "check": "README link electratwin/reports/extension_report_english.md",
+      "passed": true
+    },
+    {
+      "check": "README link electratwin/scripts/run_extensions.py",
+      "passed": true
+    },
+    {
+      "check": "README link electratwin/README.md",
       "passed": true
     },
     {

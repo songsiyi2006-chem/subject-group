@@ -5,6 +5,7 @@ import hashlib
 import json
 import math
 import re
+import subprocess
 import sys
 import xml.etree.ElementTree as ET
 from PIL import Image
@@ -27,6 +28,14 @@ def main():
     def rows(name):
         with (ROOT / name).open(encoding='utf-8', newline='') as f:
             return list(csv.DictReader(f))
+
+    extensions = subprocess.run(
+        [sys.executable, str(ROOT / 'scripts/validate_extensions.py')],
+        capture_output=True, text=True, encoding='utf-8', timeout=120,
+    )
+    check('saved extension provenance and reports', extensions.returncode == 0)
+    if extensions.returncode:
+        print(extensions.stdout + extensions.stderr)
 
     source = read('source/source_record.json')
     original = read('results/original/execution.json')

@@ -1,0 +1,241 @@
+{
+  "figure_count": 4,
+  "languages": [
+    "english",
+    "chinese"
+  ],
+  "formats": [
+    "png",
+    "svg"
+  ],
+  "figures": [
+    {
+      "file": "Fig4_Reaction_Network_english.png",
+      "format": "png",
+      "sha256": "e3d79ac709946bad08db3afd9f35f71ed870f050bcac9d01c65ee3e676d23e50",
+      "evidence": "Hypothetical uncalibrated numerical models; no experimental validation",
+      "sources": {
+        "reaction_network/parameter_pool.csv": "afb7c224494a22daf827dace8328b1eb5f424e26b1b13492301a6d0940e0bdf6"
+      },
+      "pixels": [
+        2160,
+        1140
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "Fig4_Reaction_Network_english.svg",
+      "format": "svg",
+      "sha256": "3361ac14d8103f6c9d91dd055ace32bde3d21ca6413ea4db948e561815b239d6",
+      "evidence": "Hypothetical uncalibrated numerical models; no experimental validation",
+      "sources": {
+        "reaction_network/parameter_pool.csv": "afb7c224494a22daf827dace8328b1eb5f424e26b1b13492301a6d0940e0bdf6"
+      },
+      "editable_text": true,
+      "embedded_raster": false
+    },
+    {
+      "file": "Fig5_Parameter_Sensitivity_english.png",
+      "format": "png",
+      "sha256": "871a830043c811834da80c5e97192e5790ee68b642b7464bc58b38e3879588f6",
+      "evidence": "Hypothetical uncalibrated numerical models; no experimental validation",
+      "sources": {
+        "uncertainty/sobol_prefix_estimates.csv": "4974f643fbcefa1a6d81ccc76fd86266302263edb6bb8e49c7d1d2dde554225e"
+      },
+      "pixels": [
+        2160,
+        1140
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "Fig5_Parameter_Sensitivity_english.svg",
+      "format": "svg",
+      "sha256": "4f3d5390434c87bdefeb24bda5a7c9b130509416838480ce7af474eed5c10aa9",
+      "evidence": "Hypothetical uncalibrated numerical models; no experimental validation",
+      "sources": {
+        "uncertainty/sobol_prefix_estimates.csv": "4974f643fbcefa1a6d81ccc76fd86266302263edb6bb8e49c7d1d2dde554225e"
+      },
+      "editable_text": true,
+      "embedded_raster": false
+    },
+    {
+      "file": "Fig6_Optimization_Extension_english.png",
+      "format": "png",
+      "sha256": "27bc2f603c9b97ea7b1f1c55fe7177b3c5ee8f7d14a56cd920bc6c474d7c9d3a",
+      "evidence": "Hypothetical uncalibrated numerical models; no experimental validation",
+      "sources": {
+        "benchmark_extension/learning_curve_summary.csv": "2d8a296a481e86ac448f00bab26454026684bee2643600ff7a958c9403d7c058",
+        "benchmark_extension/paired_HV_differences.csv": "21f4b8ddcdd23f1ad16edb0e39b11a01c1539e31baa81a76afbe334f6d46e347"
+      },
+      "pixels": [
+        2160,
+        1140
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "Fig6_Optimization_Extension_english.svg",
+      "format": "svg",
+      "sha256": "2e00b140507476d481b3247328e7712445b926ece2e6fe87ccec6c27fbd49a94",
+      "evidence": "Hypothetical uncalibrated numerical models; no experimental validation",
+      "sources": {
+        "benchmark_extension/learning_curve_summary.csv": "2d8a296a481e86ac448f00bab26454026684bee2643600ff7a958c9403d7c058",
+        "benchmark_extension/paired_HV_differences.csv": "21f4b8ddcdd23f1ad16edb0e39b11a01c1539e31baa81a76afbe334f6d46e347"
+      },
+      "editable_text": true,
+      "embedded_raster": false
+    },
+    {
+      "file": "Fig7_Heldout_Prediction_english.png",
+      "format": "png",
+      "sha256": "4ebc062094ee8103898439c199fa4bd528bb48d9c32388e5d8f2e5ef0589903d",
+      "evidence": "Hypothetical uncalibrated numerical models; no experimental validation",
+      "sources": {
+        "benchmark_extension/holdout_grouped_metrics.csv": "b1eda720db45529877dd631a77301c82b801db3f8405d74bb8489964caeebf62"
+      },
+      "pixels": [
+        2160,
+        1140
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "Fig7_Heldout_Prediction_english.svg",
+      "format": "svg",
+      "sha256": "07889c569570754039390fced06384df0ba1679e6188e28f2eb7d2a354bb944f",
+      "evidence": "Hypothetical uncalibrated numerical models; no experimental validation",
+      "sources": {
+        "benchmark_extension/holdout_grouped_metrics.csv": "b1eda720db45529877dd631a77301c82b801db3f8405d74bb8489964caeebf62"
+      },
+      "editable_text": true,
+      "embedded_raster": false
+    },
+    {
+      "file": "Fig4_Reaction_Network_chinese.png",
+      "format": "png",
+      "sha256": "265bec1996e3de251d099f3609fd9fde8e073965f21a98217c4fb024a03119ac",
+      "evidence": "Hypothetical uncalibrated numerical models; no experimental validation",
+      "sources": {
+        "reaction_network/parameter_pool.csv": "afb7c224494a22daf827dace8328b1eb5f424e26b1b13492301a6d0940e0bdf6"
+      },
+      "pixels": [
+        2160,
+        1140
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "Fig4_Reaction_Network_chinese.svg",
+      "format": "svg",
+      "sha256": "7f4b7013c3457c310aa738a53778550673cfdbed47e80631ab4e7685372c0971",
+      "evidence": "Hypothetical uncalibrated numerical models; no experimental validation",
+      "sources": {
+        "reaction_network/parameter_pool.csv": "afb7c224494a22daf827dace8328b1eb5f424e26b1b13492301a6d0940e0bdf6"
+      },
+      "editable_text": true,
+      "embedded_raster": false
+    },
+    {
+      "file": "Fig5_Parameter_Sensitivity_chinese.png",
+      "format": "png",
+      "sha256": "b3eabb8360f3e4f3250329e45192f5aca1061bc494bb374abc9ed9b7ab81b142",
+      "evidence": "Hypothetical uncalibrated numerical models; no experimental validation",
+      "sources": {
+        "uncertainty/sobol_prefix_estimates.csv": "4974f643fbcefa1a6d81ccc76fd86266302263edb6bb8e49c7d1d2dde554225e"
+      },
+      "pixels": [
+        2160,
+        1140
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "Fig5_Parameter_Sensitivity_chinese.svg",
+      "format": "svg",
+      "sha256": "498c041d95786bd434675630ba86bbf9f0bf9e3bd1fb6b352b650ae4ea41a4e6",
+      "evidence": "Hypothetical uncalibrated numerical models; no experimental validation",
+      "sources": {
+        "uncertainty/sobol_prefix_estimates.csv": "4974f643fbcefa1a6d81ccc76fd86266302263edb6bb8e49c7d1d2dde554225e"
+      },
+      "editable_text": true,
+      "embedded_raster": false
+    },
+    {
+      "file": "Fig6_Optimization_Extension_chinese.png",
+      "format": "png",
+      "sha256": "209e124aef9dc302796dcb9031fb809b30181e1edfbb52f2093db2a693104654",
+      "evidence": "Hypothetical uncalibrated numerical models; no experimental validation",
+      "sources": {
+        "benchmark_extension/learning_curve_summary.csv": "2d8a296a481e86ac448f00bab26454026684bee2643600ff7a958c9403d7c058",
+        "benchmark_extension/paired_HV_differences.csv": "21f4b8ddcdd23f1ad16edb0e39b11a01c1539e31baa81a76afbe334f6d46e347"
+      },
+      "pixels": [
+        2160,
+        1140
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "Fig6_Optimization_Extension_chinese.svg",
+      "format": "svg",
+      "sha256": "086a442ae864e38ba0161eaa74d180b940267caec6791a631de010487a474d9b",
+      "evidence": "Hypothetical uncalibrated numerical models; no experimental validation",
+      "sources": {
+        "benchmark_extension/learning_curve_summary.csv": "2d8a296a481e86ac448f00bab26454026684bee2643600ff7a958c9403d7c058",
+        "benchmark_extension/paired_HV_differences.csv": "21f4b8ddcdd23f1ad16edb0e39b11a01c1539e31baa81a76afbe334f6d46e347"
+      },
+      "editable_text": true,
+      "embedded_raster": false
+    },
+    {
+      "file": "Fig7_Heldout_Prediction_chinese.png",
+      "format": "png",
+      "sha256": "42ea38a6f1730fcb160baf77a27e652a5329eb763eff260497736440ebbd3a03",
+      "evidence": "Hypothetical uncalibrated numerical models; no experimental validation",
+      "sources": {
+        "benchmark_extension/holdout_grouped_metrics.csv": "b1eda720db45529877dd631a77301c82b801db3f8405d74bb8489964caeebf62"
+      },
+      "pixels": [
+        2160,
+        1140
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "Fig7_Heldout_Prediction_chinese.svg",
+      "format": "svg",
+      "sha256": "a26efd086d8d9ed6a4bb01c59ca9a635aa7194fe4358568ef3e6bfa115c9d4a3",
+      "evidence": "Hypothetical uncalibrated numerical models; no experimental validation",
+      "sources": {
+        "benchmark_extension/holdout_grouped_metrics.csv": "b1eda720db45529877dd631a77301c82b801db3f8405d74bb8489964caeebf62"
+      },
+      "editable_text": true,
+      "embedded_raster": false
+    }
+  ]
+}

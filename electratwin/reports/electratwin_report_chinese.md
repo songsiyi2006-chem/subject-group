@@ -267,7 +267,7 @@ python electratwin/scripts/validate_electratwin.py
 
 ### 5.2 验证覆盖与出版图件
 
-[输运验证](../results/transport/verification.json)、[优化汇总](../results/control/optimization_summary.json)、[基准指标](../results/control/baseline_metrics.json)和[工程汇总](../results/engineering/summary.json)是本报告数值的主要依据。ElectraTwin 测试集包含 36 项：十五项输运测试覆盖独立极限、平衡与失败行为；十八项控制及指标测试覆盖量纲算术、保留超限 FE、不完整清单、几何 HVI、信息与预算行为以及模拟器状态；三项工程测试覆盖水力缩放、量纲一致性与电功率热量边界。前版分析工具包另有独立的十九项测试。软件检查不能补足缺失的物理验证。
+[输运验证](../results/transport/verification.json)、[优化汇总](../results/control/optimization_summary.json)、[基准指标](../results/control/baseline_metrics.json)和[工程汇总](../results/engineering/summary.json)是本报告数值的主要依据。原版 ElectraTwin 测试集包含 36 项：十五项输运测试覆盖独立极限、平衡与失败行为；十八项控制及指标测试覆盖量纲算术、保留超限 FE、不完整清单、几何 HVI、信息与预算行为以及模拟器状态；三项工程测试覆盖水力缩放、量纲一致性与电功率热量边界。前版分析工具包另有独立的十九项测试。软件检查不能补足缺失的物理验证。
 
 中文图件同时提供 PNG 阅读副本及可编辑 SVG，对应英文图件附在另一份完整英文报告中。[图件溯源清单](../results/figure_manifest.json)、[视觉核验记录](../results/figure_qa.json)和[报告发布验证](../results/publication_validation.json)记录本次交付实际完成的工件检查。应按各记录的具体范围理解，不能将其等同于期刊接收或完整科学同行评审。原始图件仍单独保存在兼容结果目录，因为原图标题可能夸大证据等级。
 
@@ -278,3 +278,9 @@ python electratwin/scripts/validate_electratwin.py
 放大结论还需明确工艺边界，取得分离回收、电解质及后处理清单，测量温度与压力行为，验证长期电极和反应器稳定性，并对实际设备完成工程验证。未包含的电位、传热、气体、迁移及副反应可能在实验预测之前就具有重要影响。很小的代数残差和基准中的平均超体积改善，不能证明制造适用性、环境优越性或论文已经达到发表标准。
 
 本次工作延续了此前的[中文分析工具包报告](../../toolkit/reports/deployment_toolkit_report_chinese.md)与[中文大学生创新项目申报书](../../toolkit/proposals/National_Undergraduate_Grant_Proposal_PanTang_Lab.md)。前版文档保留分析数据边界与拟议项目性质；申报书尚未提交，导师同意及实验平台使用权限也未经本次工作确认。当前平台提供进一步可复现计算与明确失败证据，供后续审阅使用，同时保持实验和工业证据缺口可见。
+
+### 5.4 已执行的计算扩展
+
+独立的[扩展技术报告](extension_report_chinese.md)增加显式四物种反应网络、五参数情景传播及更大的序贯优化与留出基准。新增研究 PDE 求解共 1,892 次：网络及对照 63 次，敏感性、网格检查和局部导数 1,829 次。4,800 次搜索调用（64 种子、三方法、每次 25 个选择）复用原候选池；独立的 60 次试运行不计入此总数。26 个留出拆分生成 4,212 条预测记录。单元测试求解不计入研究求解数量。
+
+所设网络基准的 A 转化率为 58.4087%，但净 P 收率仅 11.5438%，净 P FE 为 11.3871%。抽象物种和动力学常数尚无实验校准。敏感性及基准计算仍使用原单反应模型。两类分块留出中，二次回归均优于固定 GP；有限样本敏感性估计的约束违反也如实保留。扩展新增 42 项测试和四组中英文图件。具体范围见[代码与复现说明](../README.md)、[扩展验证](../results/extension_validation.json)及[图件核验](../results/extension_figure_qa.json)。

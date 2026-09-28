@@ -1,0 +1,17 @@
+test_budget_prefixes_do_not_change_selection (test_electratwin_benchmark_extension.BenchmarkBudgetTests.test_budget_prefixes_do_not_change_selection) ... ok
+test_cached_oracle_forbids_duplicates_and_budget_overrun (test_electratwin_benchmark_extension.BenchmarkBudgetTests.test_cached_oracle_forbids_duplicates_and_budget_overrun) ... ok
+test_descriptive_t_handles_identical_initial_differences (test_electratwin_benchmark_extension.BenchmarkBudgetTests.test_descriptive_t_handles_identical_initial_differences) ... ok
+test_maximin_selection_ignores_permuted_and_extreme_objectives (test_electratwin_benchmark_extension.BenchmarkBudgetTests.test_maximin_selection_ignores_permuted_and_extreme_objectives) ... ok
+test_three_methods_share_initial_and_use_exact_budget_without_repeats (test_electratwin_benchmark_extension.BenchmarkBudgetTests.test_three_methods_share_initial_and_use_exact_budget_without_repeats) ... ok
+test_all_26_splits_disjoint_complete_and_blocked (test_electratwin_benchmark_extension.BenchmarkHoldoutTests.test_all_26_splits_disjoint_complete_and_blocked) ... ok
+test_error_statistics_match_hand_computation (test_electratwin_benchmark_extension.BenchmarkHoldoutTests.test_error_statistics_match_hand_computation) ... ok
+test_invalid_error_vectors_and_standard_deviations_reject (test_electratwin_benchmark_extension.BenchmarkHoldoutTests.test_invalid_error_vectors_and_standard_deviations_reject) ... ok
+test_quadratic_baseline_reconstructs_independent_linear_example (test_electratwin_benchmark_extension.BenchmarkHoldoutTests.test_quadratic_baseline_reconstructs_independent_linear_example) ... ok
+test_test_inputs_do_not_change_preprocessing_or_training_coefficients (test_electratwin_benchmark_extension.BenchmarkHoldoutTests.test_test_inputs_do_not_change_preprocessing_or_training_coefficients) ... ok
+test_saved_4800_calls_and_original_240_early_prefixes (test_electratwin_benchmark_extension.BenchmarkSavedResultsTests.test_saved_4800_calls_and_original_240_early_prefixes) ... ok
+test_saved_predictions_belong_only_to_each_split_test_membership (test_electratwin_benchmark_extension.BenchmarkSavedResultsTests.test_saved_predictions_belong_only_to_each_split_test_membership) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.203s
+
+OK

@@ -1,9 +1,13 @@
 {
   "passed": true,
-  "checks": 256,
+  "checks": 332,
   "failed": [],
   "scope": "Saved numerical provenance, report consistency and publication artifacts; not experimental or industrial validation.",
   "items": [
+    {
+      "check": "saved extension provenance and reports",
+      "passed": true
+    },
     {
       "check": "archived specification bytes",
       "passed": true
@@ -721,6 +725,14 @@
       "passed": true
     },
     {
+      "check": "README.md link reports/extension_report_chinese.md",
+      "passed": true
+    },
+    {
+      "check": "README.md link reports/extension_report_english.md",
+      "passed": true
+    },
+    {
       "check": "README.md link source/source_record.json",
       "passed": true
     },
@@ -758,6 +770,66 @@
     },
     {
       "check": "README.md link results/figure_qa.json",
+      "passed": true
+    },
+    {
+      "check": "README.md link scripts/reaction_network.py",
+      "passed": true
+    },
+    {
+      "check": "README.md link results/reaction_network/study_summary.json",
+      "passed": true
+    },
+    {
+      "check": "README.md link network_notes.md",
+      "passed": true
+    },
+    {
+      "check": "README.md link scripts/uncertainty_analysis.py",
+      "passed": true
+    },
+    {
+      "check": "README.md link results/uncertainty/summary.json",
+      "passed": true
+    },
+    {
+      "check": "README.md link uncertainty_notes.md",
+      "passed": true
+    },
+    {
+      "check": "README.md link scripts/benchmark_extension.py",
+      "passed": true
+    },
+    {
+      "check": "README.md link results/benchmark_extension/summary.json",
+      "passed": true
+    },
+    {
+      "check": "README.md link benchmark_extension_notes.md",
+      "passed": true
+    },
+    {
+      "check": "README.md link scripts/run_extensions.py",
+      "passed": true
+    },
+    {
+      "check": "README.md link scripts/plot_extensions.py",
+      "passed": true
+    },
+    {
+      "check": "README.md link scripts/validate_extensions.py",
+      "passed": true
+    },
+    {
+      "check": "README.md link results/extension_figure_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "README.md link results/extension_figure_qa.json",
+      "passed": true
+    },
+    {
+      "check": "README.md link results/extension_validation.json",
       "passed": true
     },
     {
@@ -869,6 +941,22 @@
       "passed": true
     },
     {
+      "check": "electratwin_report_chinese.md link extension_report_chinese.md",
+      "passed": true
+    },
+    {
+      "check": "electratwin_report_chinese.md link ../README.md",
+      "passed": true
+    },
+    {
+      "check": "electratwin_report_chinese.md link ../results/extension_validation.json",
+      "passed": true
+    },
+    {
+      "check": "electratwin_report_chinese.md link ../results/extension_figure_qa.json",
+      "passed": true
+    },
+    {
       "check": "electratwin_report_english.md link ../results/sources.json",
       "passed": true
     },
@@ -965,6 +1053,142 @@
       "passed": true
     },
     {
+      "check": "electratwin_report_english.md link extension_report_english.md",
+      "passed": true
+    },
+    {
+      "check": "electratwin_report_english.md link ../README.md",
+      "passed": true
+    },
+    {
+      "check": "electratwin_report_english.md link ../results/extension_validation.json",
+      "passed": true
+    },
+    {
+      "check": "electratwin_report_english.md link ../results/extension_figure_qa.json",
+      "passed": true
+    },
+    {
+      "check": "extension_report_chinese.md link electratwin_report_chinese.md",
+      "passed": true
+    },
+    {
+      "check": "extension_report_chinese.md link ../results/reaction_network/study_summary.json",
+      "passed": true
+    },
+    {
+      "check": "extension_report_chinese.md link ../results/uncertainty/summary.json",
+      "passed": true
+    },
+    {
+      "check": "extension_report_chinese.md link ../results/benchmark_extension/summary.json",
+      "passed": true
+    },
+    {
+      "check": "extension_report_chinese.md link figures/Fig4_Reaction_Network_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "extension_report_chinese.md link figures/Fig4_Reaction_Network_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "extension_report_chinese.md link figures/Fig5_Parameter_Sensitivity_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "extension_report_chinese.md link figures/Fig5_Parameter_Sensitivity_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "extension_report_chinese.md link figures/Fig6_Optimization_Extension_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "extension_report_chinese.md link figures/Fig6_Optimization_Extension_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "extension_report_chinese.md link figures/Fig7_Heldout_Prediction_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "extension_report_chinese.md link figures/Fig7_Heldout_Prediction_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "extension_report_chinese.md link ../network_notes.md",
+      "passed": true
+    },
+    {
+      "check": "extension_report_chinese.md link ../uncertainty_notes.md",
+      "passed": true
+    },
+    {
+      "check": "extension_report_chinese.md link ../benchmark_extension_notes.md",
+      "passed": true
+    },
+    {
+      "check": "extension_report_english.md link electratwin_report_english.md",
+      "passed": true
+    },
+    {
+      "check": "extension_report_english.md link ../results/reaction_network/study_summary.json",
+      "passed": true
+    },
+    {
+      "check": "extension_report_english.md link ../results/uncertainty/summary.json",
+      "passed": true
+    },
+    {
+      "check": "extension_report_english.md link ../results/benchmark_extension/summary.json",
+      "passed": true
+    },
+    {
+      "check": "extension_report_english.md link figures/Fig4_Reaction_Network_english.png",
+      "passed": true
+    },
+    {
+      "check": "extension_report_english.md link figures/Fig4_Reaction_Network_english.svg",
+      "passed": true
+    },
+    {
+      "check": "extension_report_english.md link figures/Fig5_Parameter_Sensitivity_english.png",
+      "passed": true
+    },
+    {
+      "check": "extension_report_english.md link figures/Fig5_Parameter_Sensitivity_english.svg",
+      "passed": true
+    },
+    {
+      "check": "extension_report_english.md link figures/Fig6_Optimization_Extension_english.png",
+      "passed": true
+    },
+    {
+      "check": "extension_report_english.md link figures/Fig6_Optimization_Extension_english.svg",
+      "passed": true
+    },
+    {
+      "check": "extension_report_english.md link figures/Fig7_Heldout_Prediction_english.png",
+      "passed": true
+    },
+    {
+      "check": "extension_report_english.md link figures/Fig7_Heldout_Prediction_english.svg",
+      "passed": true
+    },
+    {
+      "check": "extension_report_english.md link ../network_notes.md",
+      "passed": true
+    },
+    {
+      "check": "extension_report_english.md link ../uncertainty_notes.md",
+      "passed": true
+    },
+    {
+      "check": "extension_report_english.md link ../benchmark_extension_notes.md",
+      "passed": true
+    },
+    {
       "check": "README.md link Fig1_Transport_Field_english.png",
       "passed": true
     },
@@ -1013,6 +1237,70 @@
       "passed": true
     },
     {
+      "check": "README.md link Fig4_Reaction_Network_english.png",
+      "passed": true
+    },
+    {
+      "check": "README.md link Fig4_Reaction_Network_english.svg",
+      "passed": true
+    },
+    {
+      "check": "README.md link Fig4_Reaction_Network_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "README.md link Fig4_Reaction_Network_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "README.md link Fig5_Parameter_Sensitivity_english.png",
+      "passed": true
+    },
+    {
+      "check": "README.md link Fig5_Parameter_Sensitivity_english.svg",
+      "passed": true
+    },
+    {
+      "check": "README.md link Fig5_Parameter_Sensitivity_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "README.md link Fig5_Parameter_Sensitivity_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "README.md link Fig6_Optimization_Extension_english.png",
+      "passed": true
+    },
+    {
+      "check": "README.md link Fig6_Optimization_Extension_english.svg",
+      "passed": true
+    },
+    {
+      "check": "README.md link Fig6_Optimization_Extension_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "README.md link Fig6_Optimization_Extension_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "README.md link Fig7_Heldout_Prediction_english.png",
+      "passed": true
+    },
+    {
+      "check": "README.md link Fig7_Heldout_Prediction_english.svg",
+      "passed": true
+    },
+    {
+      "check": "README.md link Fig7_Heldout_Prediction_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "README.md link Fig7_Heldout_Prediction_chinese.svg",
+      "passed": true
+    },
+    {
       "check": "README.md link ../electratwin_report_english.md",
       "passed": true
     },
@@ -1026,6 +1314,22 @@
     },
     {
       "check": "README.md link ../../results/figure_qa.json",
+      "passed": true
+    },
+    {
+      "check": "README.md link ../extension_report_english.md",
+      "passed": true
+    },
+    {
+      "check": "README.md link ../extension_report_chinese.md",
+      "passed": true
+    },
+    {
+      "check": "README.md link ../../results/extension_figure_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "README.md link ../../results/extension_figure_qa.json",
       "passed": true
     }
   ]

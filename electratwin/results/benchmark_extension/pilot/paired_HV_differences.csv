@@ -1,0 +1,7 @@
+budget,left_method,right_method,difference_direction,n,mean,sample_sd,lower_95pct_t,upper_95pct_t,wins,losses,ties,interval_scope
+5,gp_mc_ehvi,random,left_minus_right_raw_HV,2,0.0,0.0,0.0,0.0,0,0,2,seed_sensitivity_only_fixed_pool_not_physical_uncertainty_or_general_superiority
+5,gp_mc_ehvi,maximin_spacefill,left_minus_right_raw_HV,2,0.0,0.0,0.0,0.0,0,0,2,seed_sensitivity_only_fixed_pool_not_physical_uncertainty_or_general_superiority
+5,maximin_spacefill,random,left_minus_right_raw_HV,2,0.0,0.0,0.0,0.0,0,0,2,seed_sensitivity_only_fixed_pool_not_physical_uncertainty_or_general_superiority
+10,gp_mc_ehvi,random,left_minus_right_raw_HV,2,0.1257638945980185,0.10983732357959201,-0.8610853042838514,1.1126130934798883,2,0,0,seed_sensitivity_only_fixed_pool_not_physical_uncertainty_or_general_superiority
+10,gp_mc_ehvi,maximin_spacefill,left_minus_right_raw_HV,2,-0.0025805949146783247,0.0024711480883136626,-0.024782979603191518,0.01962178977383487,0,2,0,seed_sensitivity_only_fixed_pool_not_physical_uncertainty_or_general_superiority
+10,maximin_spacefill,random,left_minus_right_raw_HV,2,0.12834448951269684,0.11230847166790568,-0.8807070940576864,1.13739607308308,2,0,0,seed_sensitivity_only_fixed_pool_not_physical_uncertainty_or_general_superiority

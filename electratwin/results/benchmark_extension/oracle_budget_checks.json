@@ -1,0 +1,2882 @@
+[
+  {
+    "seed": 0,
+    "method": "gp_mc_ehvi",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      49,
+      40,
+      21,
+      24,
+      65
+    ],
+    "passed": true
+  },
+  {
+    "seed": 0,
+    "method": "random",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      49,
+      40,
+      21,
+      24,
+      65
+    ],
+    "passed": true
+  },
+  {
+    "seed": 0,
+    "method": "maximin_spacefill",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      49,
+      40,
+      21,
+      24,
+      65
+    ],
+    "passed": true
+  },
+  {
+    "seed": 1,
+    "method": "gp_mc_ehvi",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      39,
+      2,
+      59,
+      76,
+      36
+    ],
+    "passed": true
+  },
+  {
+    "seed": 1,
+    "method": "random",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      39,
+      2,
+      59,
+      76,
+      36
+    ],
+    "passed": true
+  },
+  {
+    "seed": 1,
+    "method": "maximin_spacefill",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      39,
+      2,
+      59,
+      76,
+      36
+    ],
+    "passed": true
+  },
+  {
+    "seed": 2,
+    "method": "gp_mc_ehvi",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      23,
+      8,
+      64,
+      20,
+      33
+    ],
+    "passed": true
+  },
+  {
+    "seed": 2,
+    "method": "random",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      23,
+      8,
+      64,
+      20,
+      33
+    ],
+    "passed": true
+  },
+  {
+    "seed": 2,
+    "method": "maximin_spacefill",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      23,
+      8,
+      64,
+      20,
+      33
+    ],
+    "passed": true
+  },
+  {
+    "seed": 3,
+    "method": "gp_mc_ehvi",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      14,
+      62,
+      6,
+      18,
+      80
+    ],
+    "passed": true
+  },
+  {
+    "seed": 3,
+    "method": "random",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      14,
+      62,
+      6,
+      18,
+      80
+    ],
+    "passed": true
+  },
+  {
+    "seed": 3,
+    "method": "maximin_spacefill",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      14,
+      62,
+      6,
+      18,
+      80
+    ],
+    "passed": true
+  },
+  {
+    "seed": 4,
+    "method": "gp_mc_ehvi",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      73,
+      69,
+      55,
+      40,
+      76
+    ],
+    "passed": true
+  },
+  {
+    "seed": 4,
+    "method": "random",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      73,
+      69,
+      55,
+      40,
+      76
+    ],
+    "passed": true
+  },
+  {
+    "seed": 4,
+    "method": "maximin_spacefill",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      73,
+      69,
+      55,
+      40,
+      76
+    ],
+    "passed": true
+  },
+  {
+    "seed": 5,
+    "method": "gp_mc_ehvi",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      64,
+      62,
+      51,
+      37,
+      1
+    ],
+    "passed": true
+  },
+  {
+    "seed": 5,
+    "method": "random",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      64,
+      62,
+      51,
+      37,
+      1
+    ],
+    "passed": true
+  },
+  {
+    "seed": 5,
+    "method": "maximin_spacefill",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      64,
+      62,
+      51,
+      37,
+      1
+    ],
+    "passed": true
+  },
+  {
+    "seed": 6,
+    "method": "gp_mc_ehvi",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      27,
+      34,
+      76,
+      40,
+      41
+    ],
+    "passed": true
+  },
+  {
+    "seed": 6,
+    "method": "random",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      27,
+      34,
+      76,
+      40,
+      41
+    ],
+    "passed": true
+  },
+  {
+    "seed": 6,
+    "method": "maximin_spacefill",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      27,
+      34,
+      76,
+      40,
+      41
+    ],
+    "passed": true
+  },
+  {
+    "seed": 7,
+    "method": "gp_mc_ehvi",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      48,
+      54,
+      72,
+      46,
+      71
+    ],
+    "passed": true
+  },
+  {
+    "seed": 7,
+    "method": "random",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      48,
+      54,
+      72,
+      46,
+      71
+    ],
+    "passed": true
+  },
+  {
+    "seed": 7,
+    "method": "maximin_spacefill",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      48,
+      54,
+      72,
+      46,
+      71
+    ],
+    "passed": true
+  },
+  {
+    "seed": 8,
+    "method": "gp_mc_ehvi",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      55,
+      14,
+      78,
+      18,
+      25
+    ],
+    "passed": true
+  },
+  {
+    "seed": 8,
+    "method": "random",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      55,
+      14,
+      78,
+      18,
+      25
+    ],
+    "passed": true
+  },
+  {
+    "seed": 8,
+    "method": "maximin_spacefill",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      55,
+      14,
+      78,
+      18,
+      25
+    ],
+    "passed": true
+  },
+  {
+    "seed": 9,
+    "method": "gp_mc_ehvi",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      32,
+      67,
+      9,
+      75,
+      22
+    ],
+    "passed": true
+  },
+  {
+    "seed": 9,
+    "method": "random",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      32,
+      67,
+      9,
+      75,
+      22
+    ],
+    "passed": true
+  },
+  {
+    "seed": 9,
+    "method": "maximin_spacefill",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      32,
+      67,
+      9,
+      75,
+      22
+    ],
+    "passed": true
+  },
+  {
+    "seed": 10,
+    "method": "gp_mc_ehvi",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      16,
+      74,
+      59,
+      20,
+      64
+    ],
+    "passed": true
+  },
+  {
+    "seed": 10,
+    "method": "random",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      16,
+      74,
+      59,
+      20,
+      64
+    ],
+    "passed": true
+  },
+  {
+    "seed": 10,
+    "method": "maximin_spacefill",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      16,
+      74,
+      59,
+      20,
+      64
+    ],
+    "passed": true
+  },
+  {
+    "seed": 11,
+    "method": "gp_mc_ehvi",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      77,
+      47,
+      10,
+      62,
+      39
+    ],
+    "passed": true
+  },
+  {
+    "seed": 11,
+    "method": "random",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      77,
+      47,
+      10,
+      62,
+      39
+    ],
+    "passed": true
+  },
+  {
+    "seed": 11,
+    "method": "maximin_spacefill",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      77,
+      47,
+      10,
+      62,
+      39
+    ],
+    "passed": true
+  },
+  {
+    "seed": 12,
+    "method": "gp_mc_ehvi",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      76,
+      19,
+      75,
+      5,
+      47
+    ],
+    "passed": true
+  },
+  {
+    "seed": 12,
+    "method": "random",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      76,
+      19,
+      75,
+      5,
+      47
+    ],
+    "passed": true
+  },
+  {
+    "seed": 12,
+    "method": "maximin_spacefill",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      76,
+      19,
+      75,
+      5,
+      47
+    ],
+    "passed": true
+  },
+  {
+    "seed": 13,
+    "method": "gp_mc_ehvi",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      67,
+      64,
+      68,
+      79,
+      5
+    ],
+    "passed": true
+  },
+  {
+    "seed": 13,
+    "method": "random",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      67,
+      64,
+      68,
+      79,
+      5
+    ],
+    "passed": true
+  },
+  {
+    "seed": 13,
+    "method": "maximin_spacefill",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      67,
+      64,
+      68,
+      79,
+      5
+    ],
+    "passed": true
+  },
+  {
+    "seed": 14,
+    "method": "gp_mc_ehvi",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      7,
+      11,
+      51,
+      64,
+      28
+    ],
+    "passed": true
+  },
+  {
+    "seed": 14,
+    "method": "random",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      7,
+      11,
+      51,
+      64,
+      28
+    ],
+    "passed": true
+  },
+  {
+    "seed": 14,
+    "method": "maximin_spacefill",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      7,
+      11,
+      51,
+      64,
+      28
+    ],
+    "passed": true
+  },
+  {
+    "seed": 15,
+    "method": "gp_mc_ehvi",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      19,
+      55,
+      65,
+      71,
+      54
+    ],
+    "passed": true
+  },
+  {
+    "seed": 15,
+    "method": "random",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      19,
+      55,
+      65,
+      71,
+      54
+    ],
+    "passed": true
+  },
+  {
+    "seed": 15,
+    "method": "maximin_spacefill",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      19,
+      55,
+      65,
+      71,
+      54
+    ],
+    "passed": true
+  },
+  {
+    "seed": 16,
+    "method": "gp_mc_ehvi",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      34,
+      62,
+      44,
+      65,
+      41
+    ],
+    "passed": true
+  },
+  {
+    "seed": 16,
+    "method": "random",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      34,
+      62,
+      44,
+      65,
+      41
+    ],
+    "passed": true
+  },
+  {
+    "seed": 16,
+    "method": "maximin_spacefill",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      34,
+      62,
+      44,
+      65,
+      41
+    ],
+    "passed": true
+  },
+  {
+    "seed": 17,
+    "method": "gp_mc_ehvi",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      37,
+      57,
+      65,
+      12,
+      8
+    ],
+    "passed": true
+  },
+  {
+    "seed": 17,
+    "method": "random",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      37,
+      57,
+      65,
+      12,
+      8
+    ],
+    "passed": true
+  },
+  {
+    "seed": 17,
+    "method": "maximin_spacefill",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      37,
+      57,
+      65,
+      12,
+      8
+    ],
+    "passed": true
+  },
+  {
+    "seed": 18,
+    "method": "gp_mc_ehvi",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      16,
+      57,
+      68,
+      70,
+      31
+    ],
+    "passed": true
+  },
+  {
+    "seed": 18,
+    "method": "random",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      16,
+      57,
+      68,
+      70,
+      31
+    ],
+    "passed": true
+  },
+  {
+    "seed": 18,
+    "method": "maximin_spacefill",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      16,
+      57,
+      68,
+      70,
+      31
+    ],
+    "passed": true
+  },
+  {
+    "seed": 19,
+    "method": "gp_mc_ehvi",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      30,
+      28,
+      45,
+      74,
+      32
+    ],
+    "passed": true
+  },
+  {
+    "seed": 19,
+    "method": "random",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      30,
+      28,
+      45,
+      74,
+      32
+    ],
+    "passed": true
+  },
+  {
+    "seed": 19,
+    "method": "maximin_spacefill",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      30,
+      28,
+      45,
+      74,
+      32
+    ],
+    "passed": true
+  },
+  {
+    "seed": 20,
+    "method": "gp_mc_ehvi",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      20,
+      36,
+      21,
+      72,
+      68
+    ],
+    "passed": true
+  },
+  {
+    "seed": 20,
+    "method": "random",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      20,
+      36,
+      21,
+      72,
+      68
+    ],
+    "passed": true
+  },
+  {
+    "seed": 20,
+    "method": "maximin_spacefill",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      20,
+      36,
+      21,
+      72,
+      68
+    ],
+    "passed": true
+  },
+  {
+    "seed": 21,
+    "method": "gp_mc_ehvi",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      37,
+      30,
+      23,
+      60,
+      48
+    ],
+    "passed": true
+  },
+  {
+    "seed": 21,
+    "method": "random",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      37,
+      30,
+      23,
+      60,
+      48
+    ],
+    "passed": true
+  },
+  {
+    "seed": 21,
+    "method": "maximin_spacefill",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      37,
+      30,
+      23,
+      60,
+      48
+    ],
+    "passed": true
+  },
+  {
+    "seed": 22,
+    "method": "gp_mc_ehvi",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      52,
+      76,
+      15,
+      28,
+      59
+    ],
+    "passed": true
+  },
+  {
+    "seed": 22,
+    "method": "random",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      52,
+      76,
+      15,
+      28,
+      59
+    ],
+    "passed": true
+  },
+  {
+    "seed": 22,
+    "method": "maximin_spacefill",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      52,
+      76,
+      15,
+      28,
+      59
+    ],
+    "passed": true
+  },
+  {
+    "seed": 23,
+    "method": "gp_mc_ehvi",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      54,
+      51,
+      21,
+      33,
+      2
+    ],
+    "passed": true
+  },
+  {
+    "seed": 23,
+    "method": "random",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      54,
+      51,
+      21,
+      33,
+      2
+    ],
+    "passed": true
+  },
+  {
+    "seed": 23,
+    "method": "maximin_spacefill",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      54,
+      51,
+      21,
+      33,
+      2
+    ],
+    "passed": true
+  },
+  {
+    "seed": 24,
+    "method": "gp_mc_ehvi",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      63,
+      32,
+      25,
+      29,
+      59
+    ],
+    "passed": true
+  },
+  {
+    "seed": 24,
+    "method": "random",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      63,
+      32,
+      25,
+      29,
+      59
+    ],
+    "passed": true
+  },
+  {
+    "seed": 24,
+    "method": "maximin_spacefill",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      63,
+      32,
+      25,
+      29,
+      59
+    ],
+    "passed": true
+  },
+  {
+    "seed": 25,
+    "method": "gp_mc_ehvi",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      0,
+      38,
+      18,
+      67,
+      12
+    ],
+    "passed": true
+  },
+  {
+    "seed": 25,
+    "method": "random",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      0,
+      38,
+      18,
+      67,
+      12
+    ],
+    "passed": true
+  },
+  {
+    "seed": 25,
+    "method": "maximin_spacefill",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      0,
+      38,
+      18,
+      67,
+      12
+    ],
+    "passed": true
+  },
+  {
+    "seed": 26,
+    "method": "gp_mc_ehvi",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      31,
+      18,
+      43,
+      38,
+      66
+    ],
+    "passed": true
+  },
+  {
+    "seed": 26,
+    "method": "random",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      31,
+      18,
+      43,
+      38,
+      66
+    ],
+    "passed": true
+  },
+  {
+    "seed": 26,
+    "method": "maximin_spacefill",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      31,
+      18,
+      43,
+      38,
+      66
+    ],
+    "passed": true
+  },
+  {
+    "seed": 27,
+    "method": "gp_mc_ehvi",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      54,
+      25,
+      79,
+      16,
+      0
+    ],
+    "passed": true
+  },
+  {
+    "seed": 27,
+    "method": "random",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      54,
+      25,
+      79,
+      16,
+      0
+    ],
+    "passed": true
+  },
+  {
+    "seed": 27,
+    "method": "maximin_spacefill",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      54,
+      25,
+      79,
+      16,
+      0
+    ],
+    "passed": true
+  },
+  {
+    "seed": 28,
+    "method": "gp_mc_ehvi",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      66,
+      17,
+      51,
+      67,
+      70
+    ],
+    "passed": true
+  },
+  {
+    "seed": 28,
+    "method": "random",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      66,
+      17,
+      51,
+      67,
+      70
+    ],
+    "passed": true
+  },
+  {
+    "seed": 28,
+    "method": "maximin_spacefill",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      66,
+      17,
+      51,
+      67,
+      70
+    ],
+    "passed": true
+  },
+  {
+    "seed": 29,
+    "method": "gp_mc_ehvi",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      40,
+      3,
+      71,
+      18,
+      47
+    ],
+    "passed": true
+  },
+  {
+    "seed": 29,
+    "method": "random",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      40,
+      3,
+      71,
+      18,
+      47
+    ],
+    "passed": true
+  },
+  {
+    "seed": 29,
+    "method": "maximin_spacefill",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      40,
+      3,
+      71,
+      18,
+      47
+    ],
+    "passed": true
+  },
+  {
+    "seed": 30,
+    "method": "gp_mc_ehvi",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      34,
+      32,
+      18,
+      59,
+      8
+    ],
+    "passed": true
+  },
+  {
+    "seed": 30,
+    "method": "random",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      34,
+      32,
+      18,
+      59,
+      8
+    ],
+    "passed": true
+  },
+  {
+    "seed": 30,
+    "method": "maximin_spacefill",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      34,
+      32,
+      18,
+      59,
+      8
+    ],
+    "passed": true
+  },
+  {
+    "seed": 31,
+    "method": "gp_mc_ehvi",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      38,
+      46,
+      70,
+      42,
+      5
+    ],
+    "passed": true
+  },
+  {
+    "seed": 31,
+    "method": "random",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      38,
+      46,
+      70,
+      42,
+      5
+    ],
+    "passed": true
+  },
+  {
+    "seed": 31,
+    "method": "maximin_spacefill",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      38,
+      46,
+      70,
+      42,
+      5
+    ],
+    "passed": true
+  },
+  {
+    "seed": 32,
+    "method": "gp_mc_ehvi",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      78,
+      45,
+      67,
+      34,
+      12
+    ],
+    "passed": true
+  },
+  {
+    "seed": 32,
+    "method": "random",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      78,
+      45,
+      67,
+      34,
+      12
+    ],
+    "passed": true
+  },
+  {
+    "seed": 32,
+    "method": "maximin_spacefill",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      78,
+      45,
+      67,
+      34,
+      12
+    ],
+    "passed": true
+  },
+  {
+    "seed": 33,
+    "method": "gp_mc_ehvi",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      30,
+      45,
+      67,
+      34,
+      80
+    ],
+    "passed": true
+  },
+  {
+    "seed": 33,
+    "method": "random",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      30,
+      45,
+      67,
+      34,
+      80
+    ],
+    "passed": true
+  },
+  {
+    "seed": 33,
+    "method": "maximin_spacefill",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      30,
+      45,
+      67,
+      34,
+      80
+    ],
+    "passed": true
+  },
+  {
+    "seed": 34,
+    "method": "gp_mc_ehvi",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      9,
+      69,
+      80,
+      4,
+      0
+    ],
+    "passed": true
+  },
+  {
+    "seed": 34,
+    "method": "random",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      9,
+      69,
+      80,
+      4,
+      0
+    ],
+    "passed": true
+  },
+  {
+    "seed": 34,
+    "method": "maximin_spacefill",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      9,
+      69,
+      80,
+      4,
+      0
+    ],
+    "passed": true
+  },
+  {
+    "seed": 35,
+    "method": "gp_mc_ehvi",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      26,
+      36,
+      65,
+      7,
+      75
+    ],
+    "passed": true
+  },
+  {
+    "seed": 35,
+    "method": "random",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      26,
+      36,
+      65,
+      7,
+      75
+    ],
+    "passed": true
+  },
+  {
+    "seed": 35,
+    "method": "maximin_spacefill",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      26,
+      36,
+      65,
+      7,
+      75
+    ],
+    "passed": true
+  },
+  {
+    "seed": 36,
+    "method": "gp_mc_ehvi",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      29,
+      33,
+      14,
+      31,
+      35
+    ],
+    "passed": true
+  },
+  {
+    "seed": 36,
+    "method": "random",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      29,
+      33,
+      14,
+      31,
+      35
+    ],
+    "passed": true
+  },
+  {
+    "seed": 36,
+    "method": "maximin_spacefill",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      29,
+      33,
+      14,
+      31,
+      35
+    ],
+    "passed": true
+  },
+  {
+    "seed": 37,
+    "method": "gp_mc_ehvi",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      54,
+      21,
+      49,
+      52,
+      12
+    ],
+    "passed": true
+  },
+  {
+    "seed": 37,
+    "method": "random",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      54,
+      21,
+      49,
+      52,
+      12
+    ],
+    "passed": true
+  },
+  {
+    "seed": 37,
+    "method": "maximin_spacefill",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      54,
+      21,
+      49,
+      52,
+      12
+    ],
+    "passed": true
+  },
+  {
+    "seed": 38,
+    "method": "gp_mc_ehvi",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      25,
+      19,
+      31,
+      37,
+      79
+    ],
+    "passed": true
+  },
+  {
+    "seed": 38,
+    "method": "random",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      25,
+      19,
+      31,
+      37,
+      79
+    ],
+    "passed": true
+  },
+  {
+    "seed": 38,
+    "method": "maximin_spacefill",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      25,
+      19,
+      31,
+      37,
+      79
+    ],
+    "passed": true
+  },
+  {
+    "seed": 39,
+    "method": "gp_mc_ehvi",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      18,
+      43,
+      62,
+      39,
+      75
+    ],
+    "passed": true
+  },
+  {
+    "seed": 39,
+    "method": "random",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      18,
+      43,
+      62,
+      39,
+      75
+    ],
+    "passed": true
+  },
+  {
+    "seed": 39,
+    "method": "maximin_spacefill",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      18,
+      43,
+      62,
+      39,
+      75
+    ],
+    "passed": true
+  },
+  {
+    "seed": 40,
+    "method": "gp_mc_ehvi",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      56,
+      1,
+      55,
+      43,
+      35
+    ],
+    "passed": true
+  },
+  {
+    "seed": 40,
+    "method": "random",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      56,
+      1,
+      55,
+      43,
+      35
+    ],
+    "passed": true
+  },
+  {
+    "seed": 40,
+    "method": "maximin_spacefill",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      56,
+      1,
+      55,
+      43,
+      35
+    ],
+    "passed": true
+  },
+  {
+    "seed": 41,
+    "method": "gp_mc_ehvi",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      61,
+      57,
+      65,
+      74,
+      51
+    ],
+    "passed": true
+  },
+  {
+    "seed": 41,
+    "method": "random",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      61,
+      57,
+      65,
+      74,
+      51
+    ],
+    "passed": true
+  },
+  {
+    "seed": 41,
+    "method": "maximin_spacefill",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      61,
+      57,
+      65,
+      74,
+      51
+    ],
+    "passed": true
+  },
+  {
+    "seed": 42,
+    "method": "gp_mc_ehvi",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      60,
+      35,
+      51,
+      6,
+      80
+    ],
+    "passed": true
+  },
+  {
+    "seed": 42,
+    "method": "random",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      60,
+      35,
+      51,
+      6,
+      80
+    ],
+    "passed": true
+  },
+  {
+    "seed": 42,
+    "method": "maximin_spacefill",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      60,
+      35,
+      51,
+      6,
+      80
+    ],
+    "passed": true
+  },
+  {
+    "seed": 43,
+    "method": "gp_mc_ehvi",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      3,
+      46,
+      31,
+      50,
+      38
+    ],
+    "passed": true
+  },
+  {
+    "seed": 43,
+    "method": "random",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      3,
+      46,
+      31,
+      50,
+      38
+    ],
+    "passed": true
+  },
+  {
+    "seed": 43,
+    "method": "maximin_spacefill",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      3,
+      46,
+      31,
+      50,
+      38
+    ],
+    "passed": true
+  },
+  {
+    "seed": 44,
+    "method": "gp_mc_ehvi",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      20,
+      9,
+      53,
+      51,
+      64
+    ],
+    "passed": true
+  },
+  {
+    "seed": 44,
+    "method": "random",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      20,
+      9,
+      53,
+      51,
+      64
+    ],
+    "passed": true
+  },
+  {
+    "seed": 44,
+    "method": "maximin_spacefill",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      20,
+      9,
+      53,
+      51,
+      64
+    ],
+    "passed": true
+  },
+  {
+    "seed": 45,
+    "method": "gp_mc_ehvi",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      71,
+      44,
+      43,
+      57,
+      42
+    ],
+    "passed": true
+  },
+  {
+    "seed": 45,
+    "method": "random",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      71,
+      44,
+      43,
+      57,
+      42
+    ],
+    "passed": true
+  },
+  {
+    "seed": 45,
+    "method": "maximin_spacefill",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      71,
+      44,
+      43,
+      57,
+      42
+    ],
+    "passed": true
+  },
+  {
+    "seed": 46,
+    "method": "gp_mc_ehvi",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      17,
+      6,
+      44,
+      38,
+      70
+    ],
+    "passed": true
+  },
+  {
+    "seed": 46,
+    "method": "random",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      17,
+      6,
+      44,
+      38,
+      70
+    ],
+    "passed": true
+  },
+  {
+    "seed": 46,
+    "method": "maximin_spacefill",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      17,
+      6,
+      44,
+      38,
+      70
+    ],
+    "passed": true
+  },
+  {
+    "seed": 47,
+    "method": "gp_mc_ehvi",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      57,
+      34,
+      60,
+      7,
+      42
+    ],
+    "passed": true
+  },
+  {
+    "seed": 47,
+    "method": "random",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      57,
+      34,
+      60,
+      7,
+      42
+    ],
+    "passed": true
+  },
+  {
+    "seed": 47,
+    "method": "maximin_spacefill",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      57,
+      34,
+      60,
+      7,
+      42
+    ],
+    "passed": true
+  },
+  {
+    "seed": 48,
+    "method": "gp_mc_ehvi",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      47,
+      30,
+      54,
+      10,
+      39
+    ],
+    "passed": true
+  },
+  {
+    "seed": 48,
+    "method": "random",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      47,
+      30,
+      54,
+      10,
+      39
+    ],
+    "passed": true
+  },
+  {
+    "seed": 48,
+    "method": "maximin_spacefill",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      47,
+      30,
+      54,
+      10,
+      39
+    ],
+    "passed": true
+  },
+  {
+    "seed": 49,
+    "method": "gp_mc_ehvi",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      3,
+      47,
+      80,
+      67,
+      28
+    ],
+    "passed": true
+  },
+  {
+    "seed": 49,
+    "method": "random",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      3,
+      47,
+      80,
+      67,
+      28
+    ],
+    "passed": true
+  },
+  {
+    "seed": 49,
+    "method": "maximin_spacefill",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      3,
+      47,
+      80,
+      67,
+      28
+    ],
+    "passed": true
+  },
+  {
+    "seed": 50,
+    "method": "gp_mc_ehvi",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      66,
+      61,
+      80,
+      60,
+      56
+    ],
+    "passed": true
+  },
+  {
+    "seed": 50,
+    "method": "random",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      66,
+      61,
+      80,
+      60,
+      56
+    ],
+    "passed": true
+  },
+  {
+    "seed": 50,
+    "method": "maximin_spacefill",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      66,
+      61,
+      80,
+      60,
+      56
+    ],
+    "passed": true
+  },
+  {
+    "seed": 51,
+    "method": "gp_mc_ehvi",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      78,
+      24,
+      29,
+      27,
+      73
+    ],
+    "passed": true
+  },
+  {
+    "seed": 51,
+    "method": "random",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      78,
+      24,
+      29,
+      27,
+      73
+    ],
+    "passed": true
+  },
+  {
+    "seed": 51,
+    "method": "maximin_spacefill",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      78,
+      24,
+      29,
+      27,
+      73
+    ],
+    "passed": true
+  },
+  {
+    "seed": 52,
+    "method": "gp_mc_ehvi",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      48,
+      37,
+      74,
+      45,
+      20
+    ],
+    "passed": true
+  },
+  {
+    "seed": 52,
+    "method": "random",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      48,
+      37,
+      74,
+      45,
+      20
+    ],
+    "passed": true
+  },
+  {
+    "seed": 52,
+    "method": "maximin_spacefill",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      48,
+      37,
+      74,
+      45,
+      20
+    ],
+    "passed": true
+  },
+  {
+    "seed": 53,
+    "method": "gp_mc_ehvi",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      65,
+      58,
+      57,
+      53,
+      0
+    ],
+    "passed": true
+  },
+  {
+    "seed": 53,
+    "method": "random",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      65,
+      58,
+      57,
+      53,
+      0
+    ],
+    "passed": true
+  },
+  {
+    "seed": 53,
+    "method": "maximin_spacefill",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      65,
+      58,
+      57,
+      53,
+      0
+    ],
+    "passed": true
+  },
+  {
+    "seed": 54,
+    "method": "gp_mc_ehvi",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      80,
+      78,
+      17,
+      41,
+      23
+    ],
+    "passed": true
+  },
+  {
+    "seed": 54,
+    "method": "random",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      80,
+      78,
+      17,
+      41,
+      23
+    ],
+    "passed": true
+  },
+  {
+    "seed": 54,
+    "method": "maximin_spacefill",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      80,
+      78,
+      17,
+      41,
+      23
+    ],
+    "passed": true
+  },
+  {
+    "seed": 55,
+    "method": "gp_mc_ehvi",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      57,
+      17,
+      74,
+      69,
+      64
+    ],
+    "passed": true
+  },
+  {
+    "seed": 55,
+    "method": "random",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      57,
+      17,
+      74,
+      69,
+      64
+    ],
+    "passed": true
+  },
+  {
+    "seed": 55,
+    "method": "maximin_spacefill",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      57,
+      17,
+      74,
+      69,
+      64
+    ],
+    "passed": true
+  },
+  {
+    "seed": 56,
+    "method": "gp_mc_ehvi",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      56,
+      28,
+      1,
+      31,
+      77
+    ],
+    "passed": true
+  },
+  {
+    "seed": 56,
+    "method": "random",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      56,
+      28,
+      1,
+      31,
+      77
+    ],
+    "passed": true
+  },
+  {
+    "seed": 56,
+    "method": "maximin_spacefill",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      56,
+      28,
+      1,
+      31,
+      77
+    ],
+    "passed": true
+  },
+  {
+    "seed": 57,
+    "method": "gp_mc_ehvi",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      64,
+      5,
+      53,
+      37,
+      71
+    ],
+    "passed": true
+  },
+  {
+    "seed": 57,
+    "method": "random",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      64,
+      5,
+      53,
+      37,
+      71
+    ],
+    "passed": true
+  },
+  {
+    "seed": 57,
+    "method": "maximin_spacefill",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      64,
+      5,
+      53,
+      37,
+      71
+    ],
+    "passed": true
+  },
+  {
+    "seed": 58,
+    "method": "gp_mc_ehvi",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      70,
+      77,
+      39,
+      44,
+      24
+    ],
+    "passed": true
+  },
+  {
+    "seed": 58,
+    "method": "random",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      70,
+      77,
+      39,
+      44,
+      24
+    ],
+    "passed": true
+  },
+  {
+    "seed": 58,
+    "method": "maximin_spacefill",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      70,
+      77,
+      39,
+      44,
+      24
+    ],
+    "passed": true
+  },
+  {
+    "seed": 59,
+    "method": "gp_mc_ehvi",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      58,
+      51,
+      45,
+      66,
+      60
+    ],
+    "passed": true
+  },
+  {
+    "seed": 59,
+    "method": "random",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      58,
+      51,
+      45,
+      66,
+      60
+    ],
+    "passed": true
+  },
+  {
+    "seed": 59,
+    "method": "maximin_spacefill",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      58,
+      51,
+      45,
+      66,
+      60
+    ],
+    "passed": true
+  },
+  {
+    "seed": 60,
+    "method": "gp_mc_ehvi",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      78,
+      25,
+      31,
+      2,
+      13
+    ],
+    "passed": true
+  },
+  {
+    "seed": 60,
+    "method": "random",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      78,
+      25,
+      31,
+      2,
+      13
+    ],
+    "passed": true
+  },
+  {
+    "seed": 60,
+    "method": "maximin_spacefill",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      78,
+      25,
+      31,
+      2,
+      13
+    ],
+    "passed": true
+  },
+  {
+    "seed": 61,
+    "method": "gp_mc_ehvi",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      29,
+      32,
+      38,
+      59,
+      61
+    ],
+    "passed": true
+  },
+  {
+    "seed": 61,
+    "method": "random",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      29,
+      32,
+      38,
+      59,
+      61
+    ],
+    "passed": true
+  },
+  {
+    "seed": 61,
+    "method": "maximin_spacefill",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      29,
+      32,
+      38,
+      59,
+      61
+    ],
+    "passed": true
+  },
+  {
+    "seed": 62,
+    "method": "gp_mc_ehvi",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      47,
+      44,
+      65,
+      34,
+      59
+    ],
+    "passed": true
+  },
+  {
+    "seed": 62,
+    "method": "random",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      47,
+      44,
+      65,
+      34,
+      59
+    ],
+    "passed": true
+  },
+  {
+    "seed": 62,
+    "method": "maximin_spacefill",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      47,
+      44,
+      65,
+      34,
+      59
+    ],
+    "passed": true
+  },
+  {
+    "seed": 63,
+    "method": "gp_mc_ehvi",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      79,
+      75,
+      43,
+      72,
+      35
+    ],
+    "passed": true
+  },
+  {
+    "seed": 63,
+    "method": "random",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      79,
+      75,
+      43,
+      72,
+      35
+    ],
+    "passed": true
+  },
+  {
+    "seed": 63,
+    "method": "maximin_spacefill",
+    "requested_budget": 25,
+    "oracle_calls": 25,
+    "unique_calls": 25,
+    "shared_initial_ids": [
+      79,
+      75,
+      43,
+      72,
+      35
+    ],
+    "passed": true
+  }
+]

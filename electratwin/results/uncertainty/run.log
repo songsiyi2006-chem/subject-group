@@ -1,0 +1,8 @@
+Completed A: 256 / 1792 main transport evaluations
+Completed B: 512 / 1792 main transport evaluations
+Completed AB_0: 768 / 1792 main transport evaluations
+Completed AB_1: 1024 / 1792 main transport evaluations
+Completed AB_2: 1280 / 1792 main transport evaluations
+Completed AB_3: 1536 / 1792 main transport evaluations
+Completed AB_4: 1792 / 1792 main transport evaluations
+{"total_PDE_solves": 1829, "elapsed_seconds": 21.482511700014584, "numerical_checks": {"all_converged": true, "all_reported_outputs_positive": true, "maximum_material_balance_relative_error": 2.6901138972983793e-14, "maximum_charge_balance_relative_error": 2.6848851881135353e-14, "maximum_linear_residual_relative": 1.1657579283923605e-14}, "grid_max_conversion_difference_pp": 0.15982924546285204}

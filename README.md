@@ -4,6 +4,8 @@
 
 ## Latest ElectraTwin-OS / 新增微通道传输与多目标计算平台
 
+- **[新增计算中文报告](electratwin/reports/extension_report_chinese.md)** · **[Extended calculations: English report](electratwin/reports/extension_report_english.md)**
+- [一键计算入口](electratwin/scripts/run_extensions.py) · [扩展代码、结果与复现](electratwin/README.md)
 - **[最新中文报告](electratwin/reports/electratwin_report_chinese.md)**
 - **[Latest English report](electratwin/reports/electratwin_report_english.md)**
 - [计算、证据与复现](electratwin/README.md) · [中英文 PNG/SVG 图表](electratwin/reports/figures/README.md)
@@ -11,6 +13,10 @@
 新增 39 次传输验证求解、81 点模型候选池、8 种子相同预算 MC-EHVI/随机对照、27 组水力和 9 组热量情景。修订基准转化率 58.3873%，电流 42.2514 mA；原程序物料—电流差异 15.0351%，12 点中 8 个 FE 被截断。MC-EHVI 5 胜 3 负，配对区间包含零。全部属于未经实验校准的模型；SCPI 仅内存模拟，尚未获得工业验证。
 
 The release preserves the original failure and compatibility execution, implements a conservative model and a real sequential finite-pool acquisition calculation, and keeps numerical verification separate from physical evidence. The 240 campaign records are uses of 81 precomputed model values, not 240 experiments.
+
+本次进一步增加 1,892 次 PDE 求解：四物种反应网络及独立对照 63 次，五参数敏感性、网格与局部导数 1,829 次；另有 64 种子 × 3 方法 × 25 次的 4,800 条缓存调用和 26 个留出拆分的 4,212 条预测记录。扩展报告与四组新图保留严重过氧化、有限样本敏感性估计误差和分块预测失败。固定 GP 在两类分块留出中均未优于二次回归；这些结果来自假设模型，未增加湿实验或实体硬件连接。
+
+The extension implements an explicit A/P/B/D transport network, scrambled-Sobol scenario propagation and a larger cached sequential benchmark. The 1,892 new study PDE solves exclude unit-test solves; the 4,800 campaign uses and separate 60-use pilot reuse the prior pool. New calculations do not calibrate either model against experiments.
 
 ## Analytical toolkit / 分析定量、学术图表与大创申报
 

@@ -1,0 +1,22 @@
+test_all_four_species_are_present_and_nonnegative (test_electratwin_network.TestElectraTwinNetwork.test_all_four_species_are_present_and_nonnegative) ... ok
+test_analytic_equal_sequential_rates_and_near_equal_limit (test_electratwin_network.TestElectraTwinNetwork.test_analytic_equal_sequential_rates_and_near_equal_limit) ... ok
+test_analytic_parallel_formula (test_electratwin_network.TestElectraTwinNetwork.test_analytic_parallel_formula) ... ok
+test_bad_numeric_solution_is_flagged_without_clipping (test_electratwin_network.TestElectraTwinNetwork.test_bad_numeric_solution_is_flagged_without_clipping) ... ok
+test_current_accounting_from_products_counts_overoxidation_twice (test_electratwin_network.TestElectraTwinNetwork.test_current_accounting_from_products_counts_overoxidation_twice) ... ok
+test_electron_counts_change_current_not_concentrations (test_electratwin_network.TestElectraTwinNetwork.test_electron_counts_change_current_not_concentrations) ... ok
+test_independent_sequential_plug_formula_and_grid_refinement (test_electratwin_network.TestElectraTwinNetwork.test_independent_sequential_plug_formula_and_grid_refinement) ... ok
+test_invalid_inputs_reject_before_linear_solver (test_electratwin_network.TestElectraTwinNetwork.test_invalid_inputs_reject_before_linear_solver) ... ok
+test_no_side_reactions_matches_frozen_single_species_solver (test_electratwin_network.TestElectraTwinNetwork.test_no_side_reactions_matches_frozen_single_species_solver) ... ok
+test_parallel_branch_ratio_is_exact_without_overoxidation (test_electratwin_network.TestElectraTwinNetwork.test_parallel_branch_ratio_is_exact_without_overoxidation) ... ok
+test_product_feed_degradation_retains_negative_net_FE (test_electratwin_network.TestElectraTwinNetwork.test_product_feed_degradation_retains_negative_net_FE) ... ok
+test_rate_potential_dependence_is_explicit_and_distinct (test_electratwin_network.TestElectraTwinNetwork.test_rate_potential_dependence_is_explicit_and_distinct) ... ok
+test_robin_wall_satisfies_kinetics_and_half_cell_gradient (test_electratwin_network.TestElectraTwinNetwork.test_robin_wall_satisfies_kinetics_and_half_cell_gradient) ... ok
+test_species_inlet_outlet_and_wall_flux_independently_close (test_electratwin_network.TestElectraTwinNetwork.test_species_inlet_outlet_and_wall_flux_independently_close) ... ok
+test_total_molecular_count_conserved_spatially (test_electratwin_network.TestElectraTwinNetwork.test_total_molecular_count_conserved_spatially) ... ok
+test_zero_diffusion_has_no_wall_access (test_electratwin_network.TestElectraTwinNetwork.test_zero_diffusion_has_no_wall_access) ... ok
+test_zero_reaction_preserves_arbitrary_inlet_mixture (test_electratwin_network.TestElectraTwinNetwork.test_zero_reaction_preserves_arbitrary_inlet_mixture) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.085s
+
+OK

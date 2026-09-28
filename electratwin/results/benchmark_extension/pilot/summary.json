@@ -1,0 +1,126 @@
+{
+  "schema_version": "1.0",
+  "mode": "bounded_pilot",
+  "started_UTC": "2026-09-28T04:56:19.659075+00:00",
+  "completed_UTC": "2026-09-28T04:56:19.849119+00:00",
+  "wall_seconds": 0.18918240000493824,
+  "evidence_role": "executed_cached_numerical_benchmark_not_new_PDE_or_experiment",
+  "new_PDE_solves": 0,
+  "new_experimental_runs": 0,
+  "hardware_connections": 0,
+  "pool_size": 81,
+  "pool_grid": [
+    9,
+    9
+  ],
+  "frozen_pool_PDE_grid": [
+    80,
+    32
+  ],
+  "campaign": {
+    "seeds": [
+      0,
+      1
+    ],
+    "methods": [
+      "gp_mc_ehvi",
+      "random",
+      "maximin_spacefill"
+    ],
+    "budget_including_initial": 10,
+    "shared_initial_count": 5,
+    "MC_draws_per_candidate": 256,
+    "total_runs": 6,
+    "cached_oracle_evaluation_uses": 60,
+    "budget_prefixes": [
+      5,
+      10
+    ],
+    "objectives_maximized": [
+      "STY_div_50000",
+      "negative_SEC_kwh_kg"
+    ],
+    "reference": [
+      0.0,
+      -2.0
+    ],
+    "full_pool_HV": 1.5215781732523859,
+    "all_budget_and_uniqueness_checks_passed": true,
+    "all_methods_have_shared_initial_per_seed": true,
+    "outcomes_available_to_maximin_selection": false,
+    "maximin_ties": "lowest remaining candidate index",
+    "saved_original_prefix_replication": {
+      "prior_records": 240,
+      "compared_records": 40,
+      "missing_records": 200,
+      "all_available_prefixes_match": true,
+      "maximum_HV_absolute_difference": 0.0,
+      "all_original_240_records_reproduced": false
+    }
+  },
+  "holdout": {
+    "split_count": 8,
+    "random_seeds": [
+      2000,
+      2001
+    ],
+    "flow_blocks": 3,
+    "eta_blocks": 3,
+    "train_count_per_split": 54,
+    "test_count_per_split": 27,
+    "models": [
+      "fixed_matern_gp",
+      "training_mean",
+      "quadratic_regression"
+    ],
+    "targets": [
+      "STY_div_50000",
+      "negative_SEC_kwh_kg"
+    ],
+    "prediction_rows": 1296,
+    "split_metric_rows": 48,
+    "preprocessing": "input min/max and GP outcome normalization fit using training rows only",
+    "GP": "independent normalized Matern 5/2, fixed length scales [0.3,0.3], amplitude 1, alpha 1e-8, optimizer None",
+    "GP_interval": "mean +/- 1.96 latent posterior sd; numerical interpolation diagnostic, not physical uncertainty",
+    "polynomial": "OLS training-only [1,x1,x2,x1^2,x1*x2,x2^2] on train-normalized coordinates",
+    "test_set_hyperparameter_tuning": false
+  },
+  "limitations": [
+    "Entire domain is the frozen deterministic 81-point simulation pool with assumed product mass and voltage law",
+    "No additional information about transport-model discrepancy, chemistry, instrumentation or industrial performance",
+    "Paired t intervals describe seed sensitivity under approximate independent normal seed-effect assumptions",
+    "No p-value, universal method superiority or industrial optimum claimed",
+    "Learning-curve prefix budgets and paired comparisons are correlated descriptive views",
+    "Overlapping holdout uses are not independent new observations",
+    "Blocked holdout extrapolates only beyond the training subset; all points remain inside the declared pool domain",
+    "GP latent sd can be miscalibrated and is not PDE discretization or physical measurement uncertainty"
+  ],
+  "source_sha256": {
+    "pool": "9a731e99a024f352ed7a51cff165aa7ae06e079bbdb99e66bf8e362c3e7a3ecf",
+    "old_control": "f1215071f904ab82df106d712faf63bfb8307abaabf43655c89c25cc88afc4e2",
+    "old_campaign": "0208d66dfe31a9456774587a616c0b45e73c28b18d32a9d3eaeb7b1ac9e07b29",
+    "extension": "6d2eb19e4392513a666aeff7b0c80754f04adfcc96f190d35fb423224eb88846"
+  },
+  "runtime_versions": {
+    "python": "3.12.14",
+    "numpy": "2.4.6",
+    "scipy": "1.18.0",
+    "scikit_learn": "1.9.0"
+  },
+  "thread_environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "output_sha256": {
+    "budget_prefixes.csv": "a4d658f2d4f3d0096f272b277b28db7ec35e7d3687dbc8ff6a227e88286f8608",
+    "campaign_evaluations.csv": "dfa63f13c19fda2a8fd54729ee9c8f37b372a4b1b37a58b26225ee825d64e492",
+    "holdout_grouped_metrics.csv": "40171ac555d53f40c0df92f24b6651374399b02a5b155839e264a3fcbf4e0d48",
+    "holdout_predictions.csv": "51aa556b758e5aa0247b2ff845ffc7f9377614a3e8f65aa27932bcb704ec8219",
+    "holdout_split_metadata.json": "8cee3c30adcb801ffb78106a6496b1ce31d01f27a22e782657e6150af3a56529",
+    "holdout_split_metrics.csv": "60948c5f8ad7144fca28c4141747dc5de666651577c149e575313ed70ed51990",
+    "learning_curve_summary.csv": "72d18b3e170fa85ce41343c4b0591abe9db6e21cb460c7ca009d820d69bb5a99",
+    "oracle_budget_checks.json": "46f9f1161676e8d3bf6fe9994d3cc9550b0569f229c6554220e7a0884dc82018",
+    "paired_HV_differences.csv": "d2f1112d03b973ed3035bdc5194b750b9d113fa686a19961e093190b614cde3b"
+  }
+}

@@ -1,0 +1,1980 @@
+{
+  "passed": true,
+  "checks": 493,
+  "failed": [],
+  "scope": "Saved provenance, numerical accounting, negative results, report parity and publication QA records; no numerical reruns or physical validation.",
+  "items": [
+    {
+      "check": "network source electratwin/scripts/reaction_network.py",
+      "passed": true
+    },
+    {
+      "check": "network source electratwin/scripts/transport_reviewed.py",
+      "passed": true
+    },
+    {
+      "check": "network source tests/test_electratwin_network.py",
+      "passed": true
+    },
+    {
+      "check": "network study PDE count 62 plus comparator 1",
+      "passed": true
+    },
+    {
+      "check": "results/reaction_network/solve_registry.csv row count",
+      "passed": true
+    },
+    {
+      "check": "network consecutive solve IDs",
+      "passed": true
+    },
+    {
+      "check": "network study count partition",
+      "passed": true
+    },
+    {
+      "check": "results/reaction_network/parameter_pool.csv row count",
+      "passed": true
+    },
+    {
+      "check": "results/reaction_network/grid_convergence.csv row count",
+      "passed": true
+    },
+    {
+      "check": "results/reaction_network/limiting_cases.csv row count",
+      "passed": true
+    },
+    {
+      "check": "results/reaction_network/analytic_sequential_limit.csv row count",
+      "passed": true
+    },
+    {
+      "check": "network numerical checks and status",
+      "passed": true
+    },
+    {
+      "check": "network all saved balances",
+      "passed": true
+    },
+    {
+      "check": "eight network inputs rejected before solving",
+      "passed": true
+    },
+    {
+      "check": "negative product-feed net FE retained",
+      "passed": true
+    },
+    {
+      "check": "baseline current branch sum",
+      "passed": true
+    },
+    {
+      "check": "baseline net-product FE independently reproduced",
+      "passed": true
+    },
+    {
+      "check": "uncertainty source electratwin/scripts/uncertainty_analysis.py",
+      "passed": true
+    },
+    {
+      "check": "uncertainty source electratwin/scripts/transport_reviewed.py",
+      "passed": true
+    },
+    {
+      "check": "uncertainty output base_AB_quantiles.csv",
+      "passed": true
+    },
+    {
+      "check": "uncertainty output design_evaluations.csv",
+      "passed": true
+    },
+    {
+      "check": "uncertainty output grid_check_differences.csv",
+      "passed": true
+    },
+    {
+      "check": "uncertainty output grid_check_evaluations.csv",
+      "passed": true
+    },
+    {
+      "check": "uncertainty output local_derivatives.csv",
+      "passed": true
+    },
+    {
+      "check": "uncertainty output local_difference_evaluations.csv",
+      "passed": true
+    },
+    {
+      "check": "uncertainty output sobol_bootstrap_replicates.csv",
+      "passed": true
+    },
+    {
+      "check": "uncertainty output sobol_prefix_estimates.csv",
+      "passed": true
+    },
+    {
+      "check": "uncertainty output sobol_resampling_intervals.csv",
+      "passed": true
+    },
+    {
+      "check": "results/uncertainty/design_evaluations.csv row count",
+      "passed": true
+    },
+    {
+      "check": "results/uncertainty/grid_check_evaluations.csv row count",
+      "passed": true
+    },
+    {
+      "check": "results/uncertainty/grid_check_differences.csv row count",
+      "passed": true
+    },
+    {
+      "check": "results/uncertainty/local_difference_evaluations.csv row count",
+      "passed": true
+    },
+    {
+      "check": "results/uncertainty/local_derivatives.csv row count",
+      "passed": true
+    },
+    {
+      "check": "results/uncertainty/base_AB_quantiles.csv row count",
+      "passed": true
+    },
+    {
+      "check": "results/uncertainty/sobol_prefix_estimates.csv row count",
+      "passed": true
+    },
+    {
+      "check": "results/uncertainty/sobol_resampling_intervals.csv row count",
+      "passed": true
+    },
+    {
+      "check": "results/uncertainty/sobol_bootstrap_replicates.csv row count",
+      "passed": true
+    },
+    {
+      "check": "uncertainty 1792+16+21=1829 PDE count",
+      "passed": true
+    },
+    {
+      "check": "bootstrap and prefixes use no extra PDE",
+      "passed": true
+    },
+    {
+      "check": "Sobol A/B/hybrid blocks each contain 256 rows",
+      "passed": true
+    },
+    {
+      "check": "hybrids replace exactly one matching B coordinate",
+      "passed": true
+    },
+    {
+      "check": "512 base evaluations define scenario quantiles",
+      "passed": true
+    },
+    {
+      "check": "uncertainty statuses and balances",
+      "passed": true
+    },
+    {
+      "check": "unclipped sensitivity and negative stability bounds retained",
+      "passed": true
+    },
+    {
+      "check": "QMC bootstrap limitations retained",
+      "passed": true
+    },
+    {
+      "check": "benchmark source results/control/candidate_pool.csv",
+      "passed": true
+    },
+    {
+      "check": "benchmark source scripts/metrics_control.py",
+      "passed": true
+    },
+    {
+      "check": "benchmark source results/control/sequential_campaigns.csv",
+      "passed": true
+    },
+    {
+      "check": "benchmark source scripts/benchmark_extension.py",
+      "passed": true
+    },
+    {
+      "check": "benchmark output budget_prefixes.csv",
+      "passed": true
+    },
+    {
+      "check": "benchmark output campaign_evaluations.csv",
+      "passed": true
+    },
+    {
+      "check": "benchmark output holdout_grouped_metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "benchmark output holdout_predictions.csv",
+      "passed": true
+    },
+    {
+      "check": "benchmark output holdout_split_metadata.json",
+      "passed": true
+    },
+    {
+      "check": "benchmark output holdout_split_metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "benchmark output learning_curve_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "benchmark output oracle_budget_checks.json",
+      "passed": true
+    },
+    {
+      "check": "benchmark output paired_HV_differences.csv",
+      "passed": true
+    },
+    {
+      "check": "benchmark zero new PDE experimental and hardware runs",
+      "passed": true
+    },
+    {
+      "check": "benchmark declared 64 by 3 by 25",
+      "passed": true
+    },
+    {
+      "check": "results/benchmark_extension/campaign_evaluations.csv row count",
+      "passed": true
+    },
+    {
+      "check": "results/benchmark_extension/budget_prefixes.csv row count",
+      "passed": true
+    },
+    {
+      "check": "results/benchmark_extension/learning_curve_summary.csv row count",
+      "passed": true
+    },
+    {
+      "check": "results/benchmark_extension/paired_HV_differences.csv row count",
+      "passed": true
+    },
+    {
+      "check": "results/benchmark_extension/holdout_predictions.csv row count",
+      "passed": true
+    },
+    {
+      "check": "results/benchmark_extension/holdout_split_metrics.csv row count",
+      "passed": true
+    },
+    {
+      "check": "results/benchmark_extension/holdout_grouped_metrics.csv row count",
+      "passed": true
+    },
+    {
+      "check": "192 complete campaign identities",
+      "passed": true
+    },
+    {
+      "check": "campaign 0 gp_mc_ehvi budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 0 random budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 0 maximin_spacefill budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 0 shared five initial points",
+      "passed": true
+    },
+    {
+      "check": "campaign 1 gp_mc_ehvi budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 1 random budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 1 maximin_spacefill budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 1 shared five initial points",
+      "passed": true
+    },
+    {
+      "check": "campaign 2 gp_mc_ehvi budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 2 random budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 2 maximin_spacefill budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 2 shared five initial points",
+      "passed": true
+    },
+    {
+      "check": "campaign 3 gp_mc_ehvi budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 3 random budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 3 maximin_spacefill budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 3 shared five initial points",
+      "passed": true
+    },
+    {
+      "check": "campaign 4 gp_mc_ehvi budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 4 random budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 4 maximin_spacefill budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 4 shared five initial points",
+      "passed": true
+    },
+    {
+      "check": "campaign 5 gp_mc_ehvi budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 5 random budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 5 maximin_spacefill budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 5 shared five initial points",
+      "passed": true
+    },
+    {
+      "check": "campaign 6 gp_mc_ehvi budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 6 random budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 6 maximin_spacefill budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 6 shared five initial points",
+      "passed": true
+    },
+    {
+      "check": "campaign 7 gp_mc_ehvi budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 7 random budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 7 maximin_spacefill budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 7 shared five initial points",
+      "passed": true
+    },
+    {
+      "check": "campaign 8 gp_mc_ehvi budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 8 random budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 8 maximin_spacefill budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 8 shared five initial points",
+      "passed": true
+    },
+    {
+      "check": "campaign 9 gp_mc_ehvi budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 9 random budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 9 maximin_spacefill budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 9 shared five initial points",
+      "passed": true
+    },
+    {
+      "check": "campaign 10 gp_mc_ehvi budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 10 random budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 10 maximin_spacefill budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 10 shared five initial points",
+      "passed": true
+    },
+    {
+      "check": "campaign 11 gp_mc_ehvi budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 11 random budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 11 maximin_spacefill budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 11 shared five initial points",
+      "passed": true
+    },
+    {
+      "check": "campaign 12 gp_mc_ehvi budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 12 random budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 12 maximin_spacefill budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 12 shared five initial points",
+      "passed": true
+    },
+    {
+      "check": "campaign 13 gp_mc_ehvi budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 13 random budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 13 maximin_spacefill budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 13 shared five initial points",
+      "passed": true
+    },
+    {
+      "check": "campaign 14 gp_mc_ehvi budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 14 random budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 14 maximin_spacefill budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 14 shared five initial points",
+      "passed": true
+    },
+    {
+      "check": "campaign 15 gp_mc_ehvi budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 15 random budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 15 maximin_spacefill budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 15 shared five initial points",
+      "passed": true
+    },
+    {
+      "check": "campaign 16 gp_mc_ehvi budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 16 random budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 16 maximin_spacefill budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 16 shared five initial points",
+      "passed": true
+    },
+    {
+      "check": "campaign 17 gp_mc_ehvi budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 17 random budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 17 maximin_spacefill budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 17 shared five initial points",
+      "passed": true
+    },
+    {
+      "check": "campaign 18 gp_mc_ehvi budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 18 random budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 18 maximin_spacefill budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 18 shared five initial points",
+      "passed": true
+    },
+    {
+      "check": "campaign 19 gp_mc_ehvi budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 19 random budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 19 maximin_spacefill budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 19 shared five initial points",
+      "passed": true
+    },
+    {
+      "check": "campaign 20 gp_mc_ehvi budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 20 random budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 20 maximin_spacefill budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 20 shared five initial points",
+      "passed": true
+    },
+    {
+      "check": "campaign 21 gp_mc_ehvi budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 21 random budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 21 maximin_spacefill budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 21 shared five initial points",
+      "passed": true
+    },
+    {
+      "check": "campaign 22 gp_mc_ehvi budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 22 random budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 22 maximin_spacefill budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 22 shared five initial points",
+      "passed": true
+    },
+    {
+      "check": "campaign 23 gp_mc_ehvi budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 23 random budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 23 maximin_spacefill budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 23 shared five initial points",
+      "passed": true
+    },
+    {
+      "check": "campaign 24 gp_mc_ehvi budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 24 random budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 24 maximin_spacefill budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 24 shared five initial points",
+      "passed": true
+    },
+    {
+      "check": "campaign 25 gp_mc_ehvi budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 25 random budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 25 maximin_spacefill budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 25 shared five initial points",
+      "passed": true
+    },
+    {
+      "check": "campaign 26 gp_mc_ehvi budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 26 random budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 26 maximin_spacefill budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 26 shared five initial points",
+      "passed": true
+    },
+    {
+      "check": "campaign 27 gp_mc_ehvi budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 27 random budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 27 maximin_spacefill budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 27 shared five initial points",
+      "passed": true
+    },
+    {
+      "check": "campaign 28 gp_mc_ehvi budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 28 random budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 28 maximin_spacefill budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 28 shared five initial points",
+      "passed": true
+    },
+    {
+      "check": "campaign 29 gp_mc_ehvi budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 29 random budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 29 maximin_spacefill budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 29 shared five initial points",
+      "passed": true
+    },
+    {
+      "check": "campaign 30 gp_mc_ehvi budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 30 random budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 30 maximin_spacefill budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 30 shared five initial points",
+      "passed": true
+    },
+    {
+      "check": "campaign 31 gp_mc_ehvi budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 31 random budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 31 maximin_spacefill budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 31 shared five initial points",
+      "passed": true
+    },
+    {
+      "check": "campaign 32 gp_mc_ehvi budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 32 random budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 32 maximin_spacefill budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 32 shared five initial points",
+      "passed": true
+    },
+    {
+      "check": "campaign 33 gp_mc_ehvi budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 33 random budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 33 maximin_spacefill budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 33 shared five initial points",
+      "passed": true
+    },
+    {
+      "check": "campaign 34 gp_mc_ehvi budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 34 random budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 34 maximin_spacefill budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 34 shared five initial points",
+      "passed": true
+    },
+    {
+      "check": "campaign 35 gp_mc_ehvi budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 35 random budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 35 maximin_spacefill budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 35 shared five initial points",
+      "passed": true
+    },
+    {
+      "check": "campaign 36 gp_mc_ehvi budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 36 random budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 36 maximin_spacefill budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 36 shared five initial points",
+      "passed": true
+    },
+    {
+      "check": "campaign 37 gp_mc_ehvi budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 37 random budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 37 maximin_spacefill budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 37 shared five initial points",
+      "passed": true
+    },
+    {
+      "check": "campaign 38 gp_mc_ehvi budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 38 random budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 38 maximin_spacefill budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 38 shared five initial points",
+      "passed": true
+    },
+    {
+      "check": "campaign 39 gp_mc_ehvi budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 39 random budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 39 maximin_spacefill budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 39 shared five initial points",
+      "passed": true
+    },
+    {
+      "check": "campaign 40 gp_mc_ehvi budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 40 random budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 40 maximin_spacefill budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 40 shared five initial points",
+      "passed": true
+    },
+    {
+      "check": "campaign 41 gp_mc_ehvi budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 41 random budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 41 maximin_spacefill budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 41 shared five initial points",
+      "passed": true
+    },
+    {
+      "check": "campaign 42 gp_mc_ehvi budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 42 random budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 42 maximin_spacefill budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 42 shared five initial points",
+      "passed": true
+    },
+    {
+      "check": "campaign 43 gp_mc_ehvi budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 43 random budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 43 maximin_spacefill budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 43 shared five initial points",
+      "passed": true
+    },
+    {
+      "check": "campaign 44 gp_mc_ehvi budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 44 random budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 44 maximin_spacefill budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 44 shared five initial points",
+      "passed": true
+    },
+    {
+      "check": "campaign 45 gp_mc_ehvi budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 45 random budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 45 maximin_spacefill budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 45 shared five initial points",
+      "passed": true
+    },
+    {
+      "check": "campaign 46 gp_mc_ehvi budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 46 random budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 46 maximin_spacefill budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 46 shared five initial points",
+      "passed": true
+    },
+    {
+      "check": "campaign 47 gp_mc_ehvi budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 47 random budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 47 maximin_spacefill budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 47 shared five initial points",
+      "passed": true
+    },
+    {
+      "check": "campaign 48 gp_mc_ehvi budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 48 random budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 48 maximin_spacefill budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 48 shared five initial points",
+      "passed": true
+    },
+    {
+      "check": "campaign 49 gp_mc_ehvi budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 49 random budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 49 maximin_spacefill budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 49 shared five initial points",
+      "passed": true
+    },
+    {
+      "check": "campaign 50 gp_mc_ehvi budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 50 random budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 50 maximin_spacefill budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 50 shared five initial points",
+      "passed": true
+    },
+    {
+      "check": "campaign 51 gp_mc_ehvi budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 51 random budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 51 maximin_spacefill budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 51 shared five initial points",
+      "passed": true
+    },
+    {
+      "check": "campaign 52 gp_mc_ehvi budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 52 random budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 52 maximin_spacefill budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 52 shared five initial points",
+      "passed": true
+    },
+    {
+      "check": "campaign 53 gp_mc_ehvi budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 53 random budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 53 maximin_spacefill budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 53 shared five initial points",
+      "passed": true
+    },
+    {
+      "check": "campaign 54 gp_mc_ehvi budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 54 random budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 54 maximin_spacefill budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 54 shared five initial points",
+      "passed": true
+    },
+    {
+      "check": "campaign 55 gp_mc_ehvi budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 55 random budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 55 maximin_spacefill budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 55 shared five initial points",
+      "passed": true
+    },
+    {
+      "check": "campaign 56 gp_mc_ehvi budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 56 random budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 56 maximin_spacefill budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 56 shared five initial points",
+      "passed": true
+    },
+    {
+      "check": "campaign 57 gp_mc_ehvi budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 57 random budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 57 maximin_spacefill budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 57 shared five initial points",
+      "passed": true
+    },
+    {
+      "check": "campaign 58 gp_mc_ehvi budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 58 random budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 58 maximin_spacefill budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 58 shared five initial points",
+      "passed": true
+    },
+    {
+      "check": "campaign 59 gp_mc_ehvi budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 59 random budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 59 maximin_spacefill budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 59 shared five initial points",
+      "passed": true
+    },
+    {
+      "check": "campaign 60 gp_mc_ehvi budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 60 random budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 60 maximin_spacefill budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 60 shared five initial points",
+      "passed": true
+    },
+    {
+      "check": "campaign 61 gp_mc_ehvi budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 61 random budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 61 maximin_spacefill budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 61 shared five initial points",
+      "passed": true
+    },
+    {
+      "check": "campaign 62 gp_mc_ehvi budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 62 random budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 62 maximin_spacefill budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 62 shared five initial points",
+      "passed": true
+    },
+    {
+      "check": "campaign 63 gp_mc_ehvi budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 63 random budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 63 maximin_spacefill budget uniqueness HV",
+      "passed": true
+    },
+    {
+      "check": "campaign 63 shared five initial points",
+      "passed": true
+    },
+    {
+      "check": "192 observed oracle counts",
+      "passed": true
+    },
+    {
+      "check": "all original 240 saved prefixes independently match",
+      "passed": true
+    },
+    {
+      "check": "26 split identities and kinds",
+      "passed": true
+    },
+    {
+      "check": "random_2000 training test separation",
+      "passed": true
+    },
+    {
+      "check": "random_2000 training-only normalization",
+      "passed": true
+    },
+    {
+      "check": "random_2001 training test separation",
+      "passed": true
+    },
+    {
+      "check": "random_2001 training-only normalization",
+      "passed": true
+    },
+    {
+      "check": "random_2002 training test separation",
+      "passed": true
+    },
+    {
+      "check": "random_2002 training-only normalization",
+      "passed": true
+    },
+    {
+      "check": "random_2003 training test separation",
+      "passed": true
+    },
+    {
+      "check": "random_2003 training-only normalization",
+      "passed": true
+    },
+    {
+      "check": "random_2004 training test separation",
+      "passed": true
+    },
+    {
+      "check": "random_2004 training-only normalization",
+      "passed": true
+    },
+    {
+      "check": "random_2005 training test separation",
+      "passed": true
+    },
+    {
+      "check": "random_2005 training-only normalization",
+      "passed": true
+    },
+    {
+      "check": "random_2006 training test separation",
+      "passed": true
+    },
+    {
+      "check": "random_2006 training-only normalization",
+      "passed": true
+    },
+    {
+      "check": "random_2007 training test separation",
+      "passed": true
+    },
+    {
+      "check": "random_2007 training-only normalization",
+      "passed": true
+    },
+    {
+      "check": "random_2008 training test separation",
+      "passed": true
+    },
+    {
+      "check": "random_2008 training-only normalization",
+      "passed": true
+    },
+    {
+      "check": "random_2009 training test separation",
+      "passed": true
+    },
+    {
+      "check": "random_2009 training-only normalization",
+      "passed": true
+    },
+    {
+      "check": "random_2010 training test separation",
+      "passed": true
+    },
+    {
+      "check": "random_2010 training-only normalization",
+      "passed": true
+    },
+    {
+      "check": "random_2011 training test separation",
+      "passed": true
+    },
+    {
+      "check": "random_2011 training-only normalization",
+      "passed": true
+    },
+    {
+      "check": "random_2012 training test separation",
+      "passed": true
+    },
+    {
+      "check": "random_2012 training-only normalization",
+      "passed": true
+    },
+    {
+      "check": "random_2013 training test separation",
+      "passed": true
+    },
+    {
+      "check": "random_2013 training-only normalization",
+      "passed": true
+    },
+    {
+      "check": "random_2014 training test separation",
+      "passed": true
+    },
+    {
+      "check": "random_2014 training-only normalization",
+      "passed": true
+    },
+    {
+      "check": "random_2015 training test separation",
+      "passed": true
+    },
+    {
+      "check": "random_2015 training-only normalization",
+      "passed": true
+    },
+    {
+      "check": "random_2016 training test separation",
+      "passed": true
+    },
+    {
+      "check": "random_2016 training-only normalization",
+      "passed": true
+    },
+    {
+      "check": "random_2017 training test separation",
+      "passed": true
+    },
+    {
+      "check": "random_2017 training-only normalization",
+      "passed": true
+    },
+    {
+      "check": "random_2018 training test separation",
+      "passed": true
+    },
+    {
+      "check": "random_2018 training-only normalization",
+      "passed": true
+    },
+    {
+      "check": "random_2019 training test separation",
+      "passed": true
+    },
+    {
+      "check": "random_2019 training-only normalization",
+      "passed": true
+    },
+    {
+      "check": "block_flow_0 training test separation",
+      "passed": true
+    },
+    {
+      "check": "block_flow_0 training-only normalization",
+      "passed": true
+    },
+    {
+      "check": "block_flow_1 training test separation",
+      "passed": true
+    },
+    {
+      "check": "block_flow_1 training-only normalization",
+      "passed": true
+    },
+    {
+      "check": "block_flow_2 training test separation",
+      "passed": true
+    },
+    {
+      "check": "block_flow_2 training-only normalization",
+      "passed": true
+    },
+    {
+      "check": "block_eta_0 training test separation",
+      "passed": true
+    },
+    {
+      "check": "block_eta_0 training-only normalization",
+      "passed": true
+    },
+    {
+      "check": "block_eta_1 training test separation",
+      "passed": true
+    },
+    {
+      "check": "block_eta_1 training-only normalization",
+      "passed": true
+    },
+    {
+      "check": "block_eta_2 training test separation",
+      "passed": true
+    },
+    {
+      "check": "block_eta_2 training-only normalization",
+      "passed": true
+    },
+    {
+      "check": "4212 unique heldout predictions never train members",
+      "passed": true
+    },
+    {
+      "check": "negative blocked GP comparisons retained",
+      "passed": true
+    },
+    {
+      "check": "eta GP latent interval undercoverage retained",
+      "passed": true
+    },
+    {
+      "check": "budget15 GP maximin negative comparisons retained",
+      "passed": true
+    },
+    {
+      "check": "16 distinct extension figure files",
+      "passed": true
+    },
+    {
+      "check": "figure current hash Fig4_Reaction_Network_english.png",
+      "passed": true
+    },
+    {
+      "check": "Fig4_Reaction_Network_english.png source reaction_network/parameter_pool.csv",
+      "passed": true
+    },
+    {
+      "check": "PNG dimensions resolution Fig4_Reaction_Network_english.png",
+      "passed": true
+    },
+    {
+      "check": "figure current hash Fig4_Reaction_Network_english.svg",
+      "passed": true
+    },
+    {
+      "check": "Fig4_Reaction_Network_english.svg source reaction_network/parameter_pool.csv",
+      "passed": true
+    },
+    {
+      "check": "SVG editable pure vector Fig4_Reaction_Network_english.svg",
+      "passed": true
+    },
+    {
+      "check": "SVG visible evidence label Fig4_Reaction_Network_english.svg",
+      "passed": true
+    },
+    {
+      "check": "figure current hash Fig5_Parameter_Sensitivity_english.png",
+      "passed": true
+    },
+    {
+      "check": "Fig5_Parameter_Sensitivity_english.png source uncertainty/sobol_prefix_estimates.csv",
+      "passed": true
+    },
+    {
+      "check": "PNG dimensions resolution Fig5_Parameter_Sensitivity_english.png",
+      "passed": true
+    },
+    {
+      "check": "figure current hash Fig5_Parameter_Sensitivity_english.svg",
+      "passed": true
+    },
+    {
+      "check": "Fig5_Parameter_Sensitivity_english.svg source uncertainty/sobol_prefix_estimates.csv",
+      "passed": true
+    },
+    {
+      "check": "SVG editable pure vector Fig5_Parameter_Sensitivity_english.svg",
+      "passed": true
+    },
+    {
+      "check": "SVG visible evidence label Fig5_Parameter_Sensitivity_english.svg",
+      "passed": true
+    },
+    {
+      "check": "figure current hash Fig6_Optimization_Extension_english.png",
+      "passed": true
+    },
+    {
+      "check": "Fig6_Optimization_Extension_english.png source benchmark_extension/learning_curve_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "Fig6_Optimization_Extension_english.png source benchmark_extension/paired_HV_differences.csv",
+      "passed": true
+    },
+    {
+      "check": "PNG dimensions resolution Fig6_Optimization_Extension_english.png",
+      "passed": true
+    },
+    {
+      "check": "figure current hash Fig6_Optimization_Extension_english.svg",
+      "passed": true
+    },
+    {
+      "check": "Fig6_Optimization_Extension_english.svg source benchmark_extension/learning_curve_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "Fig6_Optimization_Extension_english.svg source benchmark_extension/paired_HV_differences.csv",
+      "passed": true
+    },
+    {
+      "check": "SVG editable pure vector Fig6_Optimization_Extension_english.svg",
+      "passed": true
+    },
+    {
+      "check": "SVG visible evidence label Fig6_Optimization_Extension_english.svg",
+      "passed": true
+    },
+    {
+      "check": "figure current hash Fig7_Heldout_Prediction_english.png",
+      "passed": true
+    },
+    {
+      "check": "Fig7_Heldout_Prediction_english.png source benchmark_extension/holdout_grouped_metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "PNG dimensions resolution Fig7_Heldout_Prediction_english.png",
+      "passed": true
+    },
+    {
+      "check": "figure current hash Fig7_Heldout_Prediction_english.svg",
+      "passed": true
+    },
+    {
+      "check": "Fig7_Heldout_Prediction_english.svg source benchmark_extension/holdout_grouped_metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "SVG editable pure vector Fig7_Heldout_Prediction_english.svg",
+      "passed": true
+    },
+    {
+      "check": "SVG visible evidence label Fig7_Heldout_Prediction_english.svg",
+      "passed": true
+    },
+    {
+      "check": "figure current hash Fig4_Reaction_Network_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "Fig4_Reaction_Network_chinese.png source reaction_network/parameter_pool.csv",
+      "passed": true
+    },
+    {
+      "check": "PNG dimensions resolution Fig4_Reaction_Network_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "figure current hash Fig4_Reaction_Network_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "Fig4_Reaction_Network_chinese.svg source reaction_network/parameter_pool.csv",
+      "passed": true
+    },
+    {
+      "check": "SVG editable pure vector Fig4_Reaction_Network_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "SVG visible evidence label Fig4_Reaction_Network_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "figure current hash Fig5_Parameter_Sensitivity_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "Fig5_Parameter_Sensitivity_chinese.png source uncertainty/sobol_prefix_estimates.csv",
+      "passed": true
+    },
+    {
+      "check": "PNG dimensions resolution Fig5_Parameter_Sensitivity_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "figure current hash Fig5_Parameter_Sensitivity_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "Fig5_Parameter_Sensitivity_chinese.svg source uncertainty/sobol_prefix_estimates.csv",
+      "passed": true
+    },
+    {
+      "check": "SVG editable pure vector Fig5_Parameter_Sensitivity_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "SVG visible evidence label Fig5_Parameter_Sensitivity_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "figure current hash Fig6_Optimization_Extension_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "Fig6_Optimization_Extension_chinese.png source benchmark_extension/learning_curve_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "Fig6_Optimization_Extension_chinese.png source benchmark_extension/paired_HV_differences.csv",
+      "passed": true
+    },
+    {
+      "check": "PNG dimensions resolution Fig6_Optimization_Extension_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "figure current hash Fig6_Optimization_Extension_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "Fig6_Optimization_Extension_chinese.svg source benchmark_extension/learning_curve_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "Fig6_Optimization_Extension_chinese.svg source benchmark_extension/paired_HV_differences.csv",
+      "passed": true
+    },
+    {
+      "check": "SVG editable pure vector Fig6_Optimization_Extension_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "SVG visible evidence label Fig6_Optimization_Extension_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "figure current hash Fig7_Heldout_Prediction_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "Fig7_Heldout_Prediction_chinese.png source benchmark_extension/holdout_grouped_metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "PNG dimensions resolution Fig7_Heldout_Prediction_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "figure current hash Fig7_Heldout_Prediction_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "Fig7_Heldout_Prediction_chinese.svg source benchmark_extension/holdout_grouped_metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "SVG editable pure vector Fig7_Heldout_Prediction_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "SVG visible evidence label Fig7_Heldout_Prediction_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "visual QA matches all current PNG SVG bytes",
+      "passed": true
+    },
+    {
+      "check": "english five main sections",
+      "passed": true
+    },
+    {
+      "check": "english fifteen ordered subsections",
+      "passed": true
+    },
+    {
+      "check": "english saved numerical anchors",
+      "passed": true
+    },
+    {
+      "check": "english figure 4 caption and two formats",
+      "passed": true
+    },
+    {
+      "check": "english figure 5 caption and two formats",
+      "passed": true
+    },
+    {
+      "check": "english figure 6 caption and two formats",
+      "passed": true
+    },
+    {
+      "check": "english figure 7 caption and two formats",
+      "passed": true
+    },
+    {
+      "check": "english local link electratwin_report_english.md",
+      "passed": true
+    },
+    {
+      "check": "english local link ../results/reaction_network/study_summary.json",
+      "passed": true
+    },
+    {
+      "check": "english local link ../results/uncertainty/summary.json",
+      "passed": true
+    },
+    {
+      "check": "english local link ../results/benchmark_extension/summary.json",
+      "passed": true
+    },
+    {
+      "check": "english local link figures/Fig4_Reaction_Network_english.png",
+      "passed": true
+    },
+    {
+      "check": "english local link figures/Fig4_Reaction_Network_english.svg",
+      "passed": true
+    },
+    {
+      "check": "english local link figures/Fig5_Parameter_Sensitivity_english.png",
+      "passed": true
+    },
+    {
+      "check": "english local link figures/Fig5_Parameter_Sensitivity_english.svg",
+      "passed": true
+    },
+    {
+      "check": "english local link figures/Fig6_Optimization_Extension_english.png",
+      "passed": true
+    },
+    {
+      "check": "english local link figures/Fig6_Optimization_Extension_english.svg",
+      "passed": true
+    },
+    {
+      "check": "english local link figures/Fig7_Heldout_Prediction_english.png",
+      "passed": true
+    },
+    {
+      "check": "english local link figures/Fig7_Heldout_Prediction_english.svg",
+      "passed": true
+    },
+    {
+      "check": "english local link ../network_notes.md",
+      "passed": true
+    },
+    {
+      "check": "english local link ../uncertainty_notes.md",
+      "passed": true
+    },
+    {
+      "check": "english local link ../benchmark_extension_notes.md",
+      "passed": true
+    },
+    {
+      "check": "english no unfinished tokens and balanced fences",
+      "passed": true
+    },
+    {
+      "check": "chinese five main sections",
+      "passed": true
+    },
+    {
+      "check": "chinese fifteen ordered subsections",
+      "passed": true
+    },
+    {
+      "check": "chinese saved numerical anchors",
+      "passed": true
+    },
+    {
+      "check": "chinese figure 4 caption and two formats",
+      "passed": true
+    },
+    {
+      "check": "chinese figure 5 caption and two formats",
+      "passed": true
+    },
+    {
+      "check": "chinese figure 6 caption and two formats",
+      "passed": true
+    },
+    {
+      "check": "chinese figure 7 caption and two formats",
+      "passed": true
+    },
+    {
+      "check": "chinese local link electratwin_report_chinese.md",
+      "passed": true
+    },
+    {
+      "check": "chinese local link ../results/reaction_network/study_summary.json",
+      "passed": true
+    },
+    {
+      "check": "chinese local link ../results/uncertainty/summary.json",
+      "passed": true
+    },
+    {
+      "check": "chinese local link ../results/benchmark_extension/summary.json",
+      "passed": true
+    },
+    {
+      "check": "chinese local link figures/Fig4_Reaction_Network_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "chinese local link figures/Fig4_Reaction_Network_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "chinese local link figures/Fig5_Parameter_Sensitivity_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "chinese local link figures/Fig5_Parameter_Sensitivity_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "chinese local link figures/Fig6_Optimization_Extension_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "chinese local link figures/Fig6_Optimization_Extension_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "chinese local link figures/Fig7_Heldout_Prediction_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "chinese local link figures/Fig7_Heldout_Prediction_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "chinese local link ../network_notes.md",
+      "passed": true
+    },
+    {
+      "check": "chinese local link ../uncertainty_notes.md",
+      "passed": true
+    },
+    {
+      "check": "chinese local link ../benchmark_extension_notes.md",
+      "passed": true
+    },
+    {
+      "check": "chinese no unfinished tokens and balanced fences",
+      "passed": true
+    },
+    {
+      "check": "English Chinese numeric table parity",
+      "passed": true
+    },
+    {
+      "check": "English report no Chinese prose",
+      "passed": true
+    }
+  ]
+}

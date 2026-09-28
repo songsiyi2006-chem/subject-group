@@ -1,0 +1,39 @@
+{
+  "date": "2026-09-28",
+  "png_files_visually_reviewed": 8,
+  "svg_files_rendered_and_visually_reviewed": 8,
+  "svg_renderer": "Bundled sharp/libvips; independent SVG rasterization",
+  "checked": [
+    "All eight English/Chinese PNG layouts and all eight independently rendered SVG layouts",
+    "Readable axes, labels and legends with explicit model evidence status",
+    "No material clipping or text overlap; source units and captions checked"
+  ],
+  "repairs": [
+    "Clipped reaction-network heatmap axes to the sampled flow and potential ranges",
+    "Moved holdout-coverage legend above the lower potential-block bars",
+    "Aligned sensitivity captions with S versus ST bars; resampling ranges are saved but not plotted"
+  ],
+  "limitations": [
+    "Assistant visual review, not human scientific peer review",
+    "Fonts referenced rather than embedded; substitutions require layout review",
+    "Only Figures 4 through 7 reviewed here; original supplied figures excluded"
+  ],
+  "reviewed_figure_hashes": {
+    "Fig4_Reaction_Network_english.png": "e3d79ac709946bad08db3afd9f35f71ed870f050bcac9d01c65ee3e676d23e50",
+    "Fig4_Reaction_Network_english.svg": "3361ac14d8103f6c9d91dd055ace32bde3d21ca6413ea4db948e561815b239d6",
+    "Fig5_Parameter_Sensitivity_english.png": "871a830043c811834da80c5e97192e5790ee68b642b7464bc58b38e3879588f6",
+    "Fig5_Parameter_Sensitivity_english.svg": "4f3d5390434c87bdefeb24bda5a7c9b130509416838480ce7af474eed5c10aa9",
+    "Fig6_Optimization_Extension_english.png": "27bc2f603c9b97ea7b1f1c55fe7177b3c5ee8f7d14a56cd920bc6c474d7c9d3a",
+    "Fig6_Optimization_Extension_english.svg": "2e00b140507476d481b3247328e7712445b926ece2e6fe87ccec6c27fbd49a94",
+    "Fig7_Heldout_Prediction_english.png": "4ebc062094ee8103898439c199fa4bd528bb48d9c32388e5d8f2e5ef0589903d",
+    "Fig7_Heldout_Prediction_english.svg": "07889c569570754039390fced06384df0ba1679e6188e28f2eb7d2a354bb944f",
+    "Fig4_Reaction_Network_chinese.png": "265bec1996e3de251d099f3609fd9fde8e073965f21a98217c4fb024a03119ac",
+    "Fig4_Reaction_Network_chinese.svg": "7f4b7013c3457c310aa738a53778550673cfdbed47e80631ab4e7685372c0971",
+    "Fig5_Parameter_Sensitivity_chinese.png": "b3eabb8360f3e4f3250329e45192f5aca1061bc494bb374abc9ed9b7ab81b142",
+    "Fig5_Parameter_Sensitivity_chinese.svg": "498c041d95786bd434675630ba86bbf9f0bf9e3bd1fb6b352b650ae4ea41a4e6",
+    "Fig6_Optimization_Extension_chinese.png": "209e124aef9dc302796dcb9031fb809b30181e1edfbb52f2093db2a693104654",
+    "Fig6_Optimization_Extension_chinese.svg": "086a442ae864e38ba0161eaa74d180b940267caec6791a631de010487a474d9b",
+    "Fig7_Heldout_Prediction_chinese.png": "42ea38a6f1730fcb160baf77a27e652a5329eb763eff260497736440ebbd3a03",
+    "Fig7_Heldout_Prediction_chinese.svg": "a26efd086d8d9ed6a4bb01c59ca9a635aa7194fe4358568ef3e6bfa115c9d4a3"
+  }
+}

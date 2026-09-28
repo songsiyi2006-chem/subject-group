@@ -1,0 +1,42 @@
+[
+  {
+    "case": "reverse_flow",
+    "rejected_before_PDE_solve": true,
+    "error": "Invalid Q"
+  },
+  {
+    "case": "negative_feed",
+    "rejected_before_PDE_solve": true,
+    "error": "Require four nonnegative finite feed concentrations and nonzero total"
+  },
+  {
+    "case": "zero_feed",
+    "rejected_before_PDE_solve": true,
+    "error": "Require four nonnegative finite feed concentrations and nonzero total"
+  },
+  {
+    "case": "reverse_rate",
+    "rejected_before_PDE_solve": true,
+    "error": "Invalid AP rate"
+  },
+  {
+    "case": "unsupported_reverse_path",
+    "rejected_before_PDE_solve": true,
+    "error": "Rates must contain exactly AP, AB, PD; reverse pathways are not supported"
+  },
+  {
+    "case": "unknown_limit",
+    "rejected_before_PDE_solve": true,
+    "error": "Bounded CPU pilot: at most 50000 total species unknowns"
+  },
+  {
+    "case": "nonfinite_feed",
+    "rejected_before_PDE_solve": true,
+    "error": "Require four nonnegative finite feed concentrations and nonzero total"
+  },
+  {
+    "case": "negative_potential_index",
+    "rejected_before_PDE_solve": true,
+    "error": "Invalid potential index"
+  }
+]

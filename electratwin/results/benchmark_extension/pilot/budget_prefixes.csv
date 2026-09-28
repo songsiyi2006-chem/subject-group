@@ -1,0 +1,13 @@
+seed,method,evaluation,candidate_index,flow_rate_uL_min,overpotential_V,objective_STY_div_50000,objective_negative_SEC,acquisition_MC_EHVI,hypervolume,phase,acquisition_input_maximin_distance,full_pool_HV_fraction,evidence_role
+0,gp_mc_ehvi,5,65,1325.0,0.3375,0.3620795889444739,-0.4326360448096191,,1.1841850600883972,initial_shared,,0.7782610718956305,cached_deterministic_PDE_pool_evaluation_use
+0,gp_mc_ehvi,10,71,1325.0,0.75,0.9544730053206639,-0.6283502659464287,0.015527976403766616,1.4936957120387908,sequential,,0.981675301536433,cached_deterministic_PDE_pool_evaluation_use
+0,random,5,65,1325.0,0.3375,0.3620795889444739,-0.4326360448096191,,1.1841850600883972,initial_shared,,0.7782610718956305,cached_deterministic_PDE_pool_evaluation_use
+0,random,10,47,975.0,0.3375,0.3468300456548208,-0.4293153036308264,,1.2902651011102617,sequential,,0.8479781872477241,cached_deterministic_PDE_pool_evaluation_use
+0,maximin_spacefill,5,65,1325.0,0.3375,0.3620795889444739,-0.4326360448096191,,1.1841850600883972,initial_shared,,0.7782610718956305,cached_deterministic_PDE_pool_evaluation_use
+0,maximin_spacefill,10,77,1500.0,0.54375,0.9720294607946087,-0.5988160573010445,,1.498023672524032,sequential,0.3750000000000001,0.9845196907116471,cached_deterministic_PDE_pool_evaluation_use
+1,gp_mc_ehvi,5,36,800.0,0.2,0.037116628257851454,-0.3396338949438938,,1.3515299385221196,initial_shared,,0.8882421963461878,cached_deterministic_PDE_pool_evaluation_use
+1,gp_mc_ehvi,10,8,100.0,0.75,0.21633317585028777,-0.4676129060876591,0.046298057274223335,1.4881481008094934,sequential,,0.9780293428030481,cached_deterministic_PDE_pool_evaluation_use
+1,random,5,36,800.0,0.2,0.037116628257851454,-0.3396338949438938,,1.3515299385221196,initial_shared,,0.8882421963461878,cached_deterministic_PDE_pool_evaluation_use
+1,random,10,66,1325.0,0.40625,0.6754128141555608,-0.5119866019571674,,1.4400509225419855,sequential,,0.9464192822008382,cached_deterministic_PDE_pool_evaluation_use
+1,maximin_spacefill,5,36,800.0,0.2,0.037116628257851454,-0.3396338949438938,,1.3515299385221196,initial_shared,,0.8882421963461878,cached_deterministic_PDE_pool_evaluation_use
+1,maximin_spacefill,10,14,275.0,0.54375,0.466399228529786,-0.48870999696646156,,1.488981330153609,sequential,0.39528470752104733,0.9785769514364807,cached_deterministic_PDE_pool_evaluation_use

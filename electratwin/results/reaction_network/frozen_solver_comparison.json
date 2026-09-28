@@ -1,0 +1,8 @@
+{
+  "network_conversion_A_pct": 55.56268381888254,
+  "frozen_solver_conversion_pct": 55.5626838188824,
+  "conversion_difference_pp": 1.4210854715202004e-13,
+  "current_difference_A": -6.938893903907228e-17,
+  "matched_conditions": "80x32; k_AP=5e-5 m/s, k_AB=k_PD=0, frozen solver reverse rate=0",
+  "frozen_solver_additional_PDE_solves": 1
+}

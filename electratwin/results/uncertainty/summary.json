@@ -1,0 +1,381 @@
+{
+  "schema_version": "electratwin.uncertainty.v1",
+  "executed_utc": "2026-09-28T04:55:47.529176+00:00",
+  "evidence_role": "executed_scenario_propagation_not_calibrated_uncertainty_or_experiment",
+  "parameters": [
+    {
+      "name": "flow_rate_uL_min",
+      "low": 405.0,
+      "high": 495.0,
+      "distribution": "uniform",
+      "unit": "uL/min"
+    },
+    {
+      "name": "overpotential_V",
+      "low": 0.46,
+      "high": 0.5,
+      "distribution": "uniform",
+      "unit": "V; imposed model index"
+    },
+    {
+      "name": "diffusivity_m2_s",
+      "low": 7.7e-10,
+      "high": 1.43e-09,
+      "distribution": "uniform",
+      "unit": "m2/s"
+    },
+    {
+      "name": "current_scale_A_m2",
+      "low": 0.04,
+      "high": 0.16,
+      "distribution": "log_uniform",
+      "unit": "A/m2"
+    },
+    {
+      "name": "height_m",
+      "low": 0.00027,
+      "high": 0.00033,
+      "distribution": "uniform",
+      "unit": "m"
+    }
+  ],
+  "independence": "Independent selected input distributions; no empirical covariance or fitted posterior.",
+  "fixed_assumptions": {
+    "substrate_inlet_mM": 50.0,
+    "product_inlet_mM": 0.0,
+    "temperature_K": 298.15,
+    "length_m": 0.06,
+    "width_m": 0.012,
+    "n_electrons": 2,
+    "product_MW_g_mol": 331.43,
+    "voltage_law": "1.85 + eta + 18.5 * current_A",
+    "side_reactions": false
+  },
+  "sampling": {
+    "method": "SciPy scrambled Sobol, LMS plus digital shift, random_base2",
+    "dimension": 10,
+    "base_N": 256,
+    "base_power": 8,
+    "rng_seed": 20260928,
+    "construction": "First five coordinates form A; last five B; AB_i copies A and replaces only column i by B_i.",
+    "optimization": null,
+    "skipped_points": 0,
+    "thinned_points": 0,
+    "coarse_mesh": [
+      60,
+      24
+    ],
+    "main_PDE_solves": 1792,
+    "base_AB_quantile_count": 512,
+    "cached_prefix_sizes": [
+      64,
+      128,
+      256
+    ]
+  },
+  "jansen": {
+    "S": "1 - mean((YB - YAB_i)^2)/(2*Var)",
+    "ST": "mean((YA - YAB_i)^2)/(2*Var)",
+    "variance": "Sample variance ddof=1 of concatenated YA and YB for each output and prefix.",
+    "negative_or_above_one_estimates_clipped": false,
+    "constant_output_policy": "Raise ValueError; no fabricated indices."
+  },
+  "bootstrap": {
+    "replicates": 500,
+    "rng_seed": 20260929,
+    "method": "Resample matched row indices simultaneously across A, B and every AB_i; reestimate pooled variance each time.",
+    "reported_quantiles": [
+      0.025,
+      0.975
+    ],
+    "interpretation": "Exploratory paired-row resampling stability only. Rows of a scrambled QMC net are not iid; this bootstrap destroys its balance and is not a rigorous QMC confidence interval. No independent scrambling replicates were run."
+  },
+  "sobol_at_full_N": {
+    "conversion_pct": {
+      "flow_rate_uL_min": {
+        "S": 0.10874156193589557,
+        "ST": 0.09993211917889319
+      },
+      "overpotential_V": {
+        "S": 0.031963815573986754,
+        "ST": 0.021165015092506453
+      },
+      "diffusivity_m2_s": {
+        "S": 0.7508747172698692,
+        "ST": 0.7450561251071742
+      },
+      "current_scale_A_m2": {
+        "S": 0.05156287990523756,
+        "ST": 0.05320543367188621
+      },
+      "height_m": {
+        "S": 0.08737710000780685,
+        "ST": 0.07887727957310145
+      }
+    },
+    "current_A": {
+      "flow_rate_uL_min": {
+        "S": 0.08352194622884379,
+        "ST": 0.06766526500683932
+      },
+      "overpotential_V": {
+        "S": 0.03599840191498649,
+        "ST": 0.021856464271072688
+      },
+      "diffusivity_m2_s": {
+        "S": 0.7782841291108267,
+        "ST": 0.7675466950474754
+      },
+      "current_scale_A_m2": {
+        "S": 0.05278440274139995,
+        "ST": 0.054669582836055206
+      },
+      "height_m": {
+        "S": 0.09023064894994437,
+        "ST": 0.08134089931114064
+      }
+    },
+    "STY_assumed_product_kg_m3_day": {
+      "flow_rate_uL_min": {
+        "S": 0.05876431030797247,
+        "ST": 0.04095631907096575
+      },
+      "overpotential_V": {
+        "S": 0.032560744612619485,
+        "ST": 0.013584365669231206
+      },
+      "diffusivity_m2_s": {
+        "S": 0.4666334464766414,
+        "ST": 0.46067635797864237
+      },
+      "current_scale_A_m2": {
+        "S": 0.038739242731171464,
+        "ST": 0.03290929197856299
+      },
+      "height_m": {
+        "S": 0.45428721002030026,
+        "ST": 0.44851875724491297
+      }
+    },
+    "SEC_assumed_product_kwh_kg": {
+      "flow_rate_uL_min": {
+        "S": 0.07898949485528783,
+        "ST": 0.06370535883043271
+      },
+      "overpotential_V": {
+        "S": 0.09241369685156997,
+        "ST": 0.0801101913716829
+      },
+      "diffusivity_m2_s": {
+        "S": 0.7326038412076766,
+        "ST": 0.7226283326041762
+      },
+      "current_scale_A_m2": {
+        "S": 0.04999825334643626,
+        "ST": 0.051470209882854376
+      },
+      "height_m": {
+        "S": 0.08643414220363554,
+        "ST": 0.07658066775741657
+      }
+    }
+  },
+  "base_AB_quantiles": [
+    {
+      "output": "conversion_pct",
+      "base_AB_count": 512,
+      "minimum": 44.84346541356042,
+      "p025": 46.652740588113645,
+      "median": 58.216469441492094,
+      "p975": 68.29875938899762,
+      "maximum": 72.41217209600894,
+      "mean": 57.72149441032893,
+      "sample_sd": 5.866715429976122,
+      "role": "scenario_distribution_not_experimental_confidence_interval"
+    },
+    {
+      "output": "current_A",
+      "base_AB_count": 512,
+      "minimum": 0.03242648748716797,
+      "p025": 0.034046461097814354,
+      "median": 0.041760032731764374,
+      "p975": 0.049173424201787885,
+      "maximum": 0.051418481345945295,
+      "mean": 0.04169336113957285,
+      "sample_sd": 0.004181382569405228,
+      "role": "scenario_distribution_not_experimental_confidence_interval"
+    },
+    {
+      "output": "STY_assumed_product_kg_m3_day",
+      "base_AB_count": 512,
+      "minimum": 20669.035872141332,
+      "p025": 22007.891542062334,
+      "median": 28579.146342934277,
+      "p975": 36384.69734121566,
+      "maximum": 38573.66528877217,
+      "mean": 28787.29388493214,
+      "sample_sd": 3729.5156927167177,
+      "role": "scenario_distribution_not_experimental_confidence_interval"
+    },
+    {
+      "output": "SEC_assumed_product_kwh_kg",
+      "base_AB_count": 512,
+      "minimum": 0.472386405793373,
+      "p025": 0.47817557696174734,
+      "median": 0.5012882243018693,
+      "p975": 0.5253083785171004,
+      "maximum": 0.5314432773634408,
+      "mean": 0.5015850222733349,
+      "sample_sd": 0.012893876835835797,
+      "role": "scenario_distribution_not_experimental_confidence_interval"
+    }
+  ],
+  "grid_check": {
+    "preselected_unit_points": [
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0
+      ],
+      [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      [
+        0.25,
+        0.75,
+        0.25,
+        0.75,
+        0.25
+      ],
+      [
+        0.75,
+        0.25,
+        0.75,
+        0.25,
+        0.75
+      ],
+      [
+        0.5,
+        0.5,
+        0.0,
+        1.0,
+        1.0
+      ]
+    ],
+    "coarse_mesh": [
+      60,
+      24
+    ],
+    "refined_mesh": [
+      180,
+      72
+    ],
+    "PDE_solves": 16,
+    "point_selection": "Declared before examining outputs, not selected for agreement.",
+    "maximum_absolute_conversion_difference_pp": 0.15982924546285204,
+    "maximum_absolute_relative_difference_by_output": {
+      "conversion_pct": 0.0025448849588860685,
+      "current_A": 0.00254488495887656,
+      "STY_assumed_product_kg_m3_day": 0.0025448849588765657,
+      "SEC_assumed_product_kwh_kg": 0.0007187051320801892
+    },
+    "scope": "Eight points only; no domain-wide discretization error bound or refined-grid Sobol indices."
+  },
+  "local_differences": {
+    "PDE_solves": 21,
+    "unit_quantile_center": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "unit_quantile_steps": [
+      0.02,
+      0.01
+    ],
+    "interpretation": "Local slopes on the coarse model, not global Sobol effects. Physical derivatives apply the transform Jacobian at the center."
+  },
+  "counts": {
+    "main_PDE_solves": 1792,
+    "grid_check_PDE_solves": 16,
+    "local_difference_PDE_solves": 21,
+    "total_PDE_solves": 1829,
+    "bootstrap_output_rows": 10000,
+    "additional_PDE_solves_for_prefix_or_bootstrap": 0
+  },
+  "numerical_checks": {
+    "all_converged": true,
+    "all_reported_outputs_positive": true,
+    "maximum_material_balance_relative_error": 2.6901138972983793e-14,
+    "maximum_charge_balance_relative_error": 2.6848851881135353e-14,
+    "maximum_linear_residual_relative": 1.1657579283923605e-14
+  },
+  "limitations": [
+    "The distribution ranges and independence are selected scenarios, not measurement error bars or calibrated Bayesian posteriors.",
+    "Sobol rankings depend on those distributions; eta and current scale need not be physically independent.",
+    "A/P molar closure does not establish elemental mass closure for a real coupling reaction.",
+    "Only one scrambling realization and modest base N; prefix changes and resampling diagnostics do not guarantee convergence.",
+    "No negative sensitivity estimate is hidden by clipping; finite-sample S can be negative and ST can exceed one.",
+    "Coarse-grid numerical error, model discrepancy and omitted side reactions/potential/heat/gas/migration are not integrated into the scenario distribution.",
+    "Product mass and voltage law are assumed; STY and SEC are proxies and no instrument is connected."
+  ],
+  "sources": [
+    {
+      "title": "SciPy 1.18 Sobol documentation",
+      "url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.qmc.Sobol.html",
+      "verified_date": "2026-09-28",
+      "access_scope": "Official HTML opened and read; power-of-two sampling, LMS+shift scrambling, rng API and loss of balance when skipping or thinning verified.",
+      "supports": "QMC construction and sampling limits; does not endorse the selected parameter distributions or iid bootstrap confidence claims."
+    }
+  ],
+  "source_sha256": {
+    "electratwin/scripts/uncertainty_analysis.py": "b46fae6e420e4e7baeada7a12e28c50898bf39728488fe0539b425ddea40a009",
+    "electratwin/scripts/transport_reviewed.py": "7391c4c333793110ab80eb47069e2e9fab69d665ac7f9a2552eca23609e79a15"
+  },
+  "output_sha256": {
+    "base_AB_quantiles.csv": "40622df3d7b5b6b9dff85e1fb1f230166ae363dc43b93b231475f069e9b8f9d5",
+    "design_evaluations.csv": "30ffb030c8f3c2fb0a737441d28b32eb7773b55936f22f5b21fcbf74ad94c34c",
+    "grid_check_differences.csv": "6464032df8497ff3aedecddc2c1cd7008c4e84b6b5a668e1cc7fa2aa353679b8",
+    "grid_check_evaluations.csv": "48dc37e9b0f06fafbb3b1d1d4eb5345601476362fa08e9b98b9fb954afae90b4",
+    "local_derivatives.csv": "effbd04978e15c3c43a40f4c993cc7229512d2c751b80f011fef0258257db4dc",
+    "local_difference_evaluations.csv": "10791f738dc9ba563b1f6a0ba13cc289f9fc9daeee164c9dac5edcdc27331b9b",
+    "sobol_bootstrap_replicates.csv": "94afc43a40af0b667e9e9b48299d9e1c53b16c2eb3a610d83429b3cf295b6b75",
+    "sobol_prefix_estimates.csv": "4974f643fbcefa1a6d81ccc76fd86266302263edb6bb8e49c7d1d2dde554225e",
+    "sobol_resampling_intervals.csv": "1d9db4402811b1ac8ee6b8ae31252f0344b7e380a7aa7446cb2ad85e618f958e"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.4.6",
+    "scipy": "1.18.0",
+    "requested_numerical_threads": 1,
+    "elapsed_seconds": 21.482511700014584
+  }
+}

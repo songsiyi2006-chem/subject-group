@@ -1,7 +1,7 @@
 {
   "passed": true,
-  "checks": 994,
-  "scientific_tests_run": 115,
+  "checks": 1083,
+  "scientific_tests_run": 157,
   "scientific_failures": 0,
   "scientific_errors": 0,
   "failed": [],
@@ -821,6 +821,18 @@
       "passed": true
     },
     {
+      "check": "JSON parses electratwin/results/extension_figure_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses electratwin/results/extension_figure_qa.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses electratwin/results/extension_validation.json",
+      "passed": true
+    },
+    {
       "check": "JSON parses electratwin/results/figure_manifest.json",
       "passed": true
     },
@@ -838,6 +850,18 @@
     },
     {
       "check": "JSON parses electratwin/results/source_audit.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses electratwin/results/benchmark_extension/holdout_split_metadata.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses electratwin/results/benchmark_extension/oracle_budget_checks.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses electratwin/results/benchmark_extension/summary.json",
       "passed": true
     },
     {
@@ -877,11 +901,43 @@
       "passed": true
     },
     {
+      "check": "JSON parses electratwin/results/reaction_network/baseline_solution.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses electratwin/results/reaction_network/frozen_solver_comparison.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses electratwin/results/reaction_network/input_rejections.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses electratwin/results/reaction_network/study_summary.json",
+      "passed": true
+    },
+    {
       "check": "JSON parses electratwin/results/transport/baseline_solution.json",
       "passed": true
     },
     {
       "check": "JSON parses electratwin/results/transport/verification.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses electratwin/results/uncertainty/summary.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses electratwin/results/benchmark_extension/pilot/holdout_split_metadata.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses electratwin/results/benchmark_extension/pilot/oracle_budget_checks.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses electratwin/results/benchmark_extension/pilot/summary.json",
       "passed": true
     },
     {
@@ -1161,7 +1217,15 @@
       "passed": true
     },
     {
+      "check": "SHA256 electratwin/benchmark_extension_notes.md",
+      "passed": true
+    },
+    {
       "check": "SHA256 electratwin/control_notes.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electratwin/network_notes.md",
       "passed": true
     },
     {
@@ -1170,6 +1234,14 @@
     },
     {
       "check": "SHA256 electratwin/reports/electratwin_report_english.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electratwin/reports/extension_report_chinese.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electratwin/reports/extension_report_english.md",
       "passed": true
     },
     {
@@ -1221,7 +1293,155 @@
       "passed": true
     },
     {
+      "check": "SHA256 electratwin/reports/figures/Fig4_Reaction_Network_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electratwin/reports/figures/Fig4_Reaction_Network_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electratwin/reports/figures/Fig4_Reaction_Network_english.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electratwin/reports/figures/Fig4_Reaction_Network_english.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electratwin/reports/figures/Fig5_Parameter_Sensitivity_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electratwin/reports/figures/Fig5_Parameter_Sensitivity_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electratwin/reports/figures/Fig5_Parameter_Sensitivity_english.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electratwin/reports/figures/Fig5_Parameter_Sensitivity_english.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electratwin/reports/figures/Fig6_Optimization_Extension_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electratwin/reports/figures/Fig6_Optimization_Extension_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electratwin/reports/figures/Fig6_Optimization_Extension_english.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electratwin/reports/figures/Fig6_Optimization_Extension_english.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electratwin/reports/figures/Fig7_Heldout_Prediction_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electratwin/reports/figures/Fig7_Heldout_Prediction_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electratwin/reports/figures/Fig7_Heldout_Prediction_english.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electratwin/reports/figures/Fig7_Heldout_Prediction_english.svg",
+      "passed": true
+    },
+    {
       "check": "SHA256 electratwin/reports/figures/README.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electratwin/results/benchmark_extension/budget_prefixes.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electratwin/results/benchmark_extension/campaign_evaluations.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electratwin/results/benchmark_extension/holdout_grouped_metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electratwin/results/benchmark_extension/holdout_predictions.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electratwin/results/benchmark_extension/holdout_split_metadata.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electratwin/results/benchmark_extension/holdout_split_metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electratwin/results/benchmark_extension/learning_curve_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electratwin/results/benchmark_extension/oracle_budget_checks.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electratwin/results/benchmark_extension/paired_HV_differences.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electratwin/results/benchmark_extension/pilot/budget_prefixes.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electratwin/results/benchmark_extension/pilot/campaign_evaluations.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electratwin/results/benchmark_extension/pilot/holdout_grouped_metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electratwin/results/benchmark_extension/pilot/holdout_predictions.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electratwin/results/benchmark_extension/pilot/holdout_split_metadata.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electratwin/results/benchmark_extension/pilot/holdout_split_metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electratwin/results/benchmark_extension/pilot/learning_curve_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electratwin/results/benchmark_extension/pilot/oracle_budget_checks.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electratwin/results/benchmark_extension/pilot/paired_HV_differences.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electratwin/results/benchmark_extension/pilot/summary.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electratwin/results/benchmark_extension/summary.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electratwin/results/benchmark_extension/test_results.txt",
       "passed": true
     },
     {
@@ -1305,6 +1525,18 @@
       "passed": true
     },
     {
+      "check": "SHA256 electratwin/results/extension_figure_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electratwin/results/extension_figure_qa.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electratwin/results/extension_validation.json",
+      "passed": true
+    },
+    {
       "check": "SHA256 electratwin/results/figure_manifest.json",
       "passed": true
     },
@@ -1330,6 +1562,46 @@
     },
     {
       "check": "SHA256 electratwin/results/publication_validation.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electratwin/results/reaction_network/analytic_sequential_limit.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electratwin/results/reaction_network/baseline_solution.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electratwin/results/reaction_network/frozen_solver_comparison.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electratwin/results/reaction_network/grid_convergence.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electratwin/results/reaction_network/input_rejections.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electratwin/results/reaction_network/limiting_cases.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electratwin/results/reaction_network/parameter_pool.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electratwin/results/reaction_network/solve_registry.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electratwin/results/reaction_network/study_summary.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electratwin/results/reaction_network/test_results.txt",
       "passed": true
     },
     {
@@ -1373,6 +1645,54 @@
       "passed": true
     },
     {
+      "check": "SHA256 electratwin/results/uncertainty/base_AB_quantiles.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electratwin/results/uncertainty/design_evaluations.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electratwin/results/uncertainty/grid_check_differences.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electratwin/results/uncertainty/grid_check_evaluations.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electratwin/results/uncertainty/local_derivatives.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electratwin/results/uncertainty/local_difference_evaluations.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electratwin/results/uncertainty/run.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electratwin/results/uncertainty/sobol_bootstrap_replicates.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electratwin/results/uncertainty/sobol_prefix_estimates.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electratwin/results/uncertainty/sobol_resampling_intervals.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electratwin/results/uncertainty/summary.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electratwin/scripts/benchmark_extension.py",
+      "passed": true
+    },
+    {
       "check": "SHA256 electratwin/scripts/cross_review.py",
       "passed": true
     },
@@ -1385,7 +1705,19 @@
       "passed": true
     },
     {
+      "check": "SHA256 electratwin/scripts/plot_extensions.py",
+      "passed": true
+    },
+    {
       "check": "SHA256 electratwin/scripts/plot_reviewed.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electratwin/scripts/reaction_network.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electratwin/scripts/run_extensions.py",
       "passed": true
     },
     {
@@ -1397,7 +1729,15 @@
       "passed": true
     },
     {
+      "check": "SHA256 electratwin/scripts/uncertainty_analysis.py",
+      "passed": true
+    },
+    {
       "check": "SHA256 electratwin/scripts/validate_electratwin.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electratwin/scripts/validate_extensions.py",
       "passed": true
     },
     {
@@ -1430,6 +1770,10 @@
     },
     {
       "check": "SHA256 electratwin/transport_notes.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electratwin/uncertainty_notes.md",
       "passed": true
     },
     {
@@ -3701,6 +4045,10 @@
       "passed": true
     },
     {
+      "check": "SHA256 tests/test_electratwin_benchmark_extension.py",
+      "passed": true
+    },
+    {
       "check": "SHA256 tests/test_electratwin_control.py",
       "passed": true
     },
@@ -3709,7 +4057,15 @@
       "passed": true
     },
     {
+      "check": "SHA256 tests/test_electratwin_network.py",
+      "passed": true
+    },
+    {
       "check": "SHA256 tests/test_electratwin_transport.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 tests/test_electratwin_uncertainty.py",
       "passed": true
     },
     {
