@@ -1,0 +1,659 @@
+{
+  "schema_version": 1,
+  "reviewer": "AI visual assessment by delegated Codex agent",
+  "scope": "Page-level visual/layout inspection, not independent scientific validation, linguistic certification, or human peer review.",
+  "overall_status": "pass",
+  "method": {
+    "tool": "view_image",
+    "detail": "original",
+    "image_size_pixels": [
+      918,
+      1188
+    ],
+    "contact_sheets_used": false,
+    "initial_unique_pages_inspected": 19,
+    "revision1_additional_page_views": 9,
+    "checks": [
+      "body and table text clipping/overflow",
+      "missing glyphs",
+      "caption/table adjacency",
+      "table continuation headers and row integrity",
+      "displayed and inline mathematics",
+      "reference wrapping",
+      "sequential page numbers"
+    ],
+    "external_page_images": "Rendered page PNGs are external review artifacts, not repository deliverables. Relative names and hashes identify them without publishing local machine paths.",
+    "revision2_additional_page_views": 11,
+    "total_original_size_page_views": 39,
+    "final_unique_pages_covered": 19,
+    "final_changed_pages_reinspected": 11,
+    "final_unchanged_pages_verified_by_exact_image_sha256": 8,
+    "final_page_set_freshness": "Every final page was either re-inspected after the last rebuild or is byte-identical to a previously inspected full-page PNG."
+  },
+  "documents": [
+    {
+      "document": "supporting_information_english",
+      "language": "en",
+      "pdf": "manuscript/documents/supporting_information_english.pdf",
+      "pdf_sha256": "8ab4fb1e1054489c3f8c5eb719a030b2553010b7be84384149edf09606812ee8",
+      "pdf_page_count": 10,
+      "covered_unique_pages": 10,
+      "initial_all_pages_visually_inspected": true,
+      "revision1_reinspected_pages": [
+        1,
+        7,
+        8,
+        9,
+        10
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "sha256": "00458683a32634a607ced93783a5aeb13c66e4563c9d9807d810798b205a8821",
+          "dimensions": [
+            918,
+            1188
+          ],
+          "image_name": "supporting_information_english/page-001.png",
+          "revision1_image_equal": false,
+          "review_basis": "Final revision image inspected at original size.",
+          "status": "pass",
+          "findings": "Title border absent. S1 caption is adjacent to ledger table; text and page footer fit."
+        },
+        {
+          "page": 2,
+          "sha256": "62e58d2f0f38f466731302f18647714eff0e12c61bd4d5f304a53cb7cc320221",
+          "dimensions": [
+            918,
+            1188
+          ],
+          "image_name": "supporting_information_english/page-002.png",
+          "revision1_image_equal": true,
+          "review_basis": "Previously inspected full-page image; SHA-256 identical in final revision.",
+          "status": "pass",
+          "findings": "Ledger continuation repeats header; text fits."
+        },
+        {
+          "page": 3,
+          "sha256": "822717a9f527922fb0500016d6e2b187c4b09f938608a18d1c2333edf46f8305",
+          "dimensions": [
+            918,
+            1188
+          ],
+          "image_name": "supporting_information_english/page-003.png",
+          "revision1_image_equal": true,
+          "review_basis": "Previously inspected full-page image; SHA-256 identical in final revision.",
+          "status": "pass",
+          "findings": "S2–S4 body and notation readable."
+        },
+        {
+          "page": 4,
+          "sha256": "a43af388ed8fc634dc10029e3bc24026daedd00292ba5b9f56023239339a45b8",
+          "dimensions": [
+            918,
+            1188
+          ],
+          "image_name": "supporting_information_english/page-004.png",
+          "revision1_image_equal": true,
+          "review_basis": "Previously inspected full-page image; SHA-256 identical in final revision.",
+          "status": "pass",
+          "findings": "S5–S7 text and units fit."
+        },
+        {
+          "page": 5,
+          "sha256": "15cb2408eafd65b43a49fe2627eca7d2de234feb0a9067b7f72928e11d9dcac8",
+          "dimensions": [
+            918,
+            1188
+          ],
+          "image_name": "supporting_information_english/page-005.png",
+          "revision1_image_equal": true,
+          "review_basis": "Previously inspected full-page image; SHA-256 identical in final revision.",
+          "status": "pass",
+          "findings": "S7–S8 text and citations readable."
+        },
+        {
+          "page": 6,
+          "sha256": "5e55eda70b8563c6509ae4b6845e5a59ffe07eb7652833ca30e682753d037929",
+          "dimensions": [
+            918,
+            1188
+          ],
+          "image_name": "supporting_information_english/page-006.png",
+          "revision1_image_equal": true,
+          "review_basis": "Previously inspected full-page image; SHA-256 identical in final revision.",
+          "status": "pass",
+          "findings": "S8–S9 body, inline mathematics and references fit."
+        },
+        {
+          "page": 7,
+          "sha256": "9853a65a2ed8e14ca87c61f88cb9d1cd723f1406bf906056de387456e59b6b28",
+          "dimensions": [
+            918,
+            1188
+          ],
+          "image_name": "supporting_information_english/page-007.png",
+          "revision1_image_equal": false,
+          "review_basis": "Final revision image inspected at original size.",
+          "status": "pass",
+          "findings": "S10/S11 text and math are readable. Former isolated S2 caption moved off this page."
+        },
+        {
+          "page": 8,
+          "sha256": "48cc42f54d8fcd0580a8b4ff7f4a8a3687ecee186e5c284da6bccfb706abe42c",
+          "dimensions": [
+            918,
+            1188
+          ],
+          "image_name": "supporting_information_english/page-008.png",
+          "revision1_image_equal": false,
+          "review_basis": "Final revision image inspected at original size.",
+          "status": "pass",
+          "findings": "S2 caption and full table share the page; energy identity and all paragraphs fit."
+        },
+        {
+          "page": 9,
+          "sha256": "07e3c9d9b725cf207e95d55275ffdc7f708db96d02d237d4cac564b1d9ac0cd3",
+          "dimensions": [
+            918,
+            1188
+          ],
+          "image_name": "supporting_information_english/page-009.png",
+          "revision1_image_equal": false,
+          "review_basis": "Final revision image inspected at original size.",
+          "status": "pass",
+          "findings": "S12 heading, S3 caption and complete table remain together. S4 caption/table and code block fit."
+        },
+        {
+          "page": 10,
+          "sha256": "995864fe2385e148e8ac34febbff17da6da06681bf67782dc29e6d90c6182d88",
+          "dimensions": [
+            918,
+            1188
+          ],
+          "image_name": "supporting_information_english/page-010.png",
+          "revision1_image_equal": false,
+          "review_basis": "Final revision image inspected at original size.",
+          "status": "pass",
+          "findings": "S12 continuation, S13 and all eight references fit; footer 10 is readable."
+        }
+      ],
+      "revision2_reinspected_pages": [
+        1,
+        7,
+        8,
+        9,
+        10
+      ],
+      "final_visual_checks": {
+        "sequential_page_numbers": true,
+        "no_observed_text_overflow": true,
+        "no_observed_missing_glyphs": true,
+        "no_observed_equation_clipping": true,
+        "no_isolated_table_captions": true,
+        "long_table_S1_repeated_header": true,
+        "short_tables_intact": true,
+        "references_readable": true
+      }
+    },
+    {
+      "document": "supporting_information_chinese",
+      "language": "zh",
+      "pdf": "manuscript/documents/supporting_information_chinese.pdf",
+      "pdf_sha256": "597c254afa2b7f02d53765005bd35af628c68ddc7933cc98bc9178154ab9e822",
+      "pdf_page_count": 9,
+      "covered_unique_pages": 9,
+      "initial_all_pages_visually_inspected": true,
+      "revision1_reinspected_pages": [
+        1,
+        7,
+        8,
+        9
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "sha256": "58d856b53064645fd0e96e586382b1bb25f3890578d8ec871383eb89b9f2f8e7",
+          "dimensions": [
+            918,
+            1188
+          ],
+          "image_name": "supporting_information_chinese/page-001.png",
+          "revision1_image_equal": false,
+          "review_basis": "Final revision image inspected at original size.",
+          "status": "pass",
+          "findings": "Title border absent. S1 caption/table fit; extra ledger row is intact."
+        },
+        {
+          "page": 2,
+          "sha256": "d01731273d49f2e4c128dbb8f17824958bedddb889303fd1a5442fc3bb66e7d9",
+          "dimensions": [
+            918,
+            1188
+          ],
+          "image_name": "supporting_information_chinese/page-002.png",
+          "revision1_image_equal": false,
+          "review_basis": "Final revision image inspected at original size.",
+          "status": "pass",
+          "findings": "S1 continuation repeats header. S2/S3 text reflow is readable; no clipping."
+        },
+        {
+          "page": 3,
+          "sha256": "5d65675c1ee582ad3d4f1b83021aac41878bf95cf16788ebc78358e2747ab3b0",
+          "dimensions": [
+            918,
+            1188
+          ],
+          "image_name": "supporting_information_chinese/page-003.png",
+          "revision1_image_equal": false,
+          "review_basis": "Final revision image inspected at original size.",
+          "status": "pass",
+          "findings": "S3–S5 reflow fits with clear units and mathematics."
+        },
+        {
+          "page": 4,
+          "sha256": "bd646e1284e2c86728e7e97dfccaab29c79f6ff14baae589949021327868f010",
+          "dimensions": [
+            918,
+            1188
+          ],
+          "image_name": "supporting_information_chinese/page-004.png",
+          "revision1_image_equal": true,
+          "review_basis": "Previously inspected full-page image; SHA-256 identical in final revision.",
+          "status": "pass",
+          "findings": "S6–S7 text and code names readable."
+        },
+        {
+          "page": 5,
+          "sha256": "0019c7a79b785feda625fe5c76e3279bb890b71bba89c495198de282cdd5e4e3",
+          "dimensions": [
+            918,
+            1188
+          ],
+          "image_name": "supporting_information_chinese/page-005.png",
+          "revision1_image_equal": true,
+          "review_basis": "Previously inspected full-page image; SHA-256 identical in final revision.",
+          "status": "pass",
+          "findings": "S8–S9 text, mathematics and citations readable."
+        },
+        {
+          "page": 6,
+          "sha256": "73e587a494d4f33b234b19af6358e4221d55e8477f834c5b1567dc43a514f26d",
+          "dimensions": [
+            918,
+            1188
+          ],
+          "image_name": "supporting_information_chinese/page-006.png",
+          "revision1_image_equal": true,
+          "review_basis": "Previously inspected full-page image; SHA-256 identical in final revision.",
+          "status": "pass",
+          "findings": "S9–S11 text, exponents and units readable."
+        },
+        {
+          "page": 7,
+          "sha256": "4fa19fe77a46dd979e249b795a0372b5b116014c8ef08b2071f46552c754767c",
+          "dimensions": [
+            918,
+            1188
+          ],
+          "image_name": "supporting_information_chinese/page-007.png",
+          "revision1_image_equal": false,
+          "review_basis": "Final revision image inspected at original size.",
+          "status": "pass",
+          "findings": "S2 caption/table and displayed identity fit. Former isolated S3 caption moved off this page."
+        },
+        {
+          "page": 8,
+          "sha256": "f4c92aefa562a61526094449e1618df8c73fe5e7de9f071b7f835ccd0486ea45",
+          "dimensions": [
+            918,
+            1188
+          ],
+          "image_name": "supporting_information_chinese/page-008.png",
+          "revision1_image_equal": false,
+          "review_basis": "Final revision image inspected at original size.",
+          "status": "pass",
+          "findings": "S12 heading, S3 caption and complete table remain together; S4 caption/table and code block fit."
+        },
+        {
+          "page": 9,
+          "sha256": "de5002cdd4716c1e46344c4d5a450a36501de92baadede79c0724d401dd37244",
+          "dimensions": [
+            918,
+            1188
+          ],
+          "image_name": "supporting_information_chinese/page-009.png",
+          "revision1_image_equal": false,
+          "review_basis": "Final revision image inspected at original size.",
+          "status": "pass",
+          "findings": "S12 continuation, S13 and all eight references fit; footer 9 is readable."
+        }
+      ],
+      "revision2_reinspected_pages": [
+        1,
+        2,
+        3,
+        7,
+        8,
+        9
+      ],
+      "final_visual_checks": {
+        "sequential_page_numbers": true,
+        "no_observed_text_overflow": true,
+        "no_observed_missing_glyphs": true,
+        "no_observed_equation_clipping": true,
+        "no_isolated_table_captions": true,
+        "long_table_S1_repeated_header": true,
+        "short_tables_intact": true,
+        "references_readable": true
+      }
+    }
+  ],
+  "issues": [
+    {
+      "id": "SI-EN-S2-CAPTION",
+      "language": "en",
+      "page": 7,
+      "status": "resolved",
+      "description": "Table S2 caption remains on page 7 while its table starts page 8.",
+      "resolved_in": "revision2",
+      "resolution": "Caption and full table now share English page 8."
+    },
+    {
+      "id": "SI-EN-S3-CAPTION",
+      "language": "en",
+      "page": 8,
+      "status": "resolved",
+      "description": "Table S3 caption remains on page 8 while its table starts page 9.",
+      "resolved_in": "revision2",
+      "resolution": "Section heading, caption and full table now share English page 9."
+    },
+    {
+      "id": "SI-CN-S3-CAPTION",
+      "language": "zh",
+      "page": 7,
+      "status": "resolved",
+      "description": "Table S3 caption remains on page 7 while its table starts page 8.",
+      "resolved_in": "revision2",
+      "resolution": "Section heading, caption and full table now share Chinese page 8."
+    }
+  ],
+  "review_history": [
+    {
+      "version": "initial",
+      "pdf_hashes": {
+        "english": "1a4366846865775dda9b53b1b6de9eb38a221b5236d8e9b79837fe1b21c9234f",
+        "chinese": "847df9b45e59cb99b5673ee71e0f2c667ae160a1d1e640cb14b774240356fdf1"
+      },
+      "page_sha256": {
+        "supporting_information_english/page-001.png": "14cb0820868f94a23c190b1bff1352ba91dd12aa80074072c7621d0b37ec24b1",
+        "supporting_information_english/page-002.png": "62e58d2f0f38f466731302f18647714eff0e12c61bd4d5f304a53cb7cc320221",
+        "supporting_information_english/page-003.png": "822717a9f527922fb0500016d6e2b187c4b09f938608a18d1c2333edf46f8305",
+        "supporting_information_english/page-004.png": "a43af388ed8fc634dc10029e3bc24026daedd00292ba5b9f56023239339a45b8",
+        "supporting_information_english/page-005.png": "15cb2408eafd65b43a49fe2627eca7d2de234feb0a9067b7f72928e11d9dcac8",
+        "supporting_information_english/page-006.png": "5e55eda70b8563c6509ae4b6845e5a59ffe07eb7652833ca30e682753d037929",
+        "supporting_information_english/page-007.png": "4ae9e556a93b45576761730f9026daa9ab62208a5c20e61bf231b686f8227ba1",
+        "supporting_information_english/page-008.png": "b62dc16a4b6ce9874e24875bb9108bdf0eeac96bf2699dbd64d3d7f482409320",
+        "supporting_information_english/page-009.png": "2a474c6ebf21f6cc191292ce4a32856337903a36eb713bc8935a9ca15ce132b3",
+        "supporting_information_english/page-010.png": "456ceb330d4a59f8479cd35c79b97296556b44f5532f34ed0eb0abf0da7ef88d",
+        "supporting_information_chinese/page-001.png": "2787cb74ebfe62ff3b48e7f3e381585daa7a239c65f6c799f2af2c1a1df72990",
+        "supporting_information_chinese/page-002.png": "076e73ca5209ce9bffb567cf73b0ed6a19eddd05487aa5079f3b05fc15014b10",
+        "supporting_information_chinese/page-003.png": "2372ff6a77a5a2b9acb7a3ab621043bf2efacc6907100a60603ca89b16655c93",
+        "supporting_information_chinese/page-004.png": "bd646e1284e2c86728e7e97dfccaab29c79f6ff14baae589949021327868f010",
+        "supporting_information_chinese/page-005.png": "0019c7a79b785feda625fe5c76e3279bb890b71bba89c495198de282cdd5e4e3",
+        "supporting_information_chinese/page-006.png": "73e587a494d4f33b234b19af6358e4221d55e8477f834c5b1567dc43a514f26d",
+        "supporting_information_chinese/page-007.png": "e3e27d9b37e47c3a0c2a7855d6afc4b19ae3b1225ba93c7f3e23ba8853b4a6d6",
+        "supporting_information_chinese/page-008.png": "3602a73893e13df8a193a9d7e00c3eb9276444116d824025ff9055f1a54e5563",
+        "supporting_information_chinese/page-009.png": "ec78b3eba7367d579d9509278602b567d95f4b5f9df4a0ae634066f4793ae926"
+      },
+      "english_pages_viewed": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "chinese_pages_viewed": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "findings": "Known title border issue reported by root; additional EN S2 isolated caption reported. Short S3 split with one row on the adjacent page recorded as cosmetic."
+    },
+    {
+      "version": "revision1",
+      "english_pages_viewed": [
+        1,
+        7,
+        8,
+        9,
+        10
+      ],
+      "chinese_pages_viewed": [
+        1,
+        7,
+        8,
+        9
+      ],
+      "findings": "Title border removed and short tables kept intact. Three isolated captions require another builder repair; all other checked content readable.",
+      "pdf_hashes": {
+        "supporting_information_english": {
+          "sha256": "480fee47931946a1c33e87bd204897da76d5dd59a43e5fe0c026c4734aecf3c2",
+          "pages": 10
+        },
+        "supporting_information_chinese": {
+          "sha256": "5b058e1df62fcd86517826e0e649cf61ee830beab634082e1d5bd38cc8e4b6f6",
+          "pages": 9
+        }
+      },
+      "page_hashes": {
+        "supporting_information_english": [
+          {
+            "page": 1,
+            "sha256": "cccfbd6e09f56dbccdafdc1630d9189bf1f518e9bf8664e9b60174739acef2ab",
+            "dimensions": [
+              918,
+              1188
+            ],
+            "old_image_equal": false
+          },
+          {
+            "page": 2,
+            "sha256": "62e58d2f0f38f466731302f18647714eff0e12c61bd4d5f304a53cb7cc320221",
+            "dimensions": [
+              918,
+              1188
+            ],
+            "old_image_equal": true
+          },
+          {
+            "page": 3,
+            "sha256": "822717a9f527922fb0500016d6e2b187c4b09f938608a18d1c2333edf46f8305",
+            "dimensions": [
+              918,
+              1188
+            ],
+            "old_image_equal": true
+          },
+          {
+            "page": 4,
+            "sha256": "a43af388ed8fc634dc10029e3bc24026daedd00292ba5b9f56023239339a45b8",
+            "dimensions": [
+              918,
+              1188
+            ],
+            "old_image_equal": true
+          },
+          {
+            "page": 5,
+            "sha256": "15cb2408eafd65b43a49fe2627eca7d2de234feb0a9067b7f72928e11d9dcac8",
+            "dimensions": [
+              918,
+              1188
+            ],
+            "old_image_equal": true
+          },
+          {
+            "page": 6,
+            "sha256": "5e55eda70b8563c6509ae4b6845e5a59ffe07eb7652833ca30e682753d037929",
+            "dimensions": [
+              918,
+              1188
+            ],
+            "old_image_equal": true
+          },
+          {
+            "page": 7,
+            "sha256": "4ae9e556a93b45576761730f9026daa9ab62208a5c20e61bf231b686f8227ba1",
+            "dimensions": [
+              918,
+              1188
+            ],
+            "old_image_equal": true
+          },
+          {
+            "page": 8,
+            "sha256": "92de63d0147aba03ef6e17f5dc737c337de26c91834f5ec235ae40860b18d1e3",
+            "dimensions": [
+              918,
+              1188
+            ],
+            "old_image_equal": false
+          },
+          {
+            "page": 9,
+            "sha256": "ac4ed369b1a28c9c76bfdb32fc0e0b7bc7d41e9cc51503eacfede2b28ff8f3f9",
+            "dimensions": [
+              918,
+              1188
+            ],
+            "old_image_equal": false
+          },
+          {
+            "page": 10,
+            "sha256": "9633f27f8dc2d4c4b8cb04098af21db615dabbe9ed2ea7bf98e00fa7c282d4c3",
+            "dimensions": [
+              918,
+              1188
+            ],
+            "old_image_equal": false
+          }
+        ],
+        "supporting_information_chinese": [
+          {
+            "page": 1,
+            "sha256": "94dd48fef225215744ef5afca0cc55ef816fadcdb6e02b8b9f97428bf8641f39",
+            "dimensions": [
+              918,
+              1188
+            ],
+            "old_image_equal": false
+          },
+          {
+            "page": 2,
+            "sha256": "076e73ca5209ce9bffb567cf73b0ed6a19eddd05487aa5079f3b05fc15014b10",
+            "dimensions": [
+              918,
+              1188
+            ],
+            "old_image_equal": true
+          },
+          {
+            "page": 3,
+            "sha256": "2372ff6a77a5a2b9acb7a3ab621043bf2efacc6907100a60603ca89b16655c93",
+            "dimensions": [
+              918,
+              1188
+            ],
+            "old_image_equal": true
+          },
+          {
+            "page": 4,
+            "sha256": "bd646e1284e2c86728e7e97dfccaab29c79f6ff14baae589949021327868f010",
+            "dimensions": [
+              918,
+              1188
+            ],
+            "old_image_equal": true
+          },
+          {
+            "page": 5,
+            "sha256": "0019c7a79b785feda625fe5c76e3279bb890b71bba89c495198de282cdd5e4e3",
+            "dimensions": [
+              918,
+              1188
+            ],
+            "old_image_equal": true
+          },
+          {
+            "page": 6,
+            "sha256": "73e587a494d4f33b234b19af6358e4221d55e8477f834c5b1567dc43a514f26d",
+            "dimensions": [
+              918,
+              1188
+            ],
+            "old_image_equal": true
+          },
+          {
+            "page": 7,
+            "sha256": "c94c24d5bd6e9ade782f60659a648172fcc5fd2af29df9f69814a59d2799041f",
+            "dimensions": [
+              918,
+              1188
+            ],
+            "old_image_equal": false
+          },
+          {
+            "page": 8,
+            "sha256": "d60102451cd2b553d16d62f64c19a3f8548acfd50f3a2608f5704967835bdf58",
+            "dimensions": [
+              918,
+              1188
+            ],
+            "old_image_equal": false
+          },
+          {
+            "page": 9,
+            "sha256": "f1e2ba41ef1f12775653b821a8a1260b040989e38dadcebcfd06e2b483b30dd4",
+            "dimensions": [
+              918,
+              1188
+            ],
+            "old_image_equal": false
+          }
+        ]
+      }
+    },
+    {
+      "version": "revision2",
+      "english_pages_viewed": [
+        1,
+        7,
+        8,
+        9,
+        10
+      ],
+      "chinese_pages_viewed": [
+        1,
+        2,
+        3,
+        7,
+        8,
+        9
+      ],
+      "findings": "All changed pages inspected at original size; all three isolated captions resolved. Remaining pages are byte-identical to previously inspected images. No unresolved layout issue observed."
+    }
+  ],
+  "current_pdf_version": "revision2"
+}

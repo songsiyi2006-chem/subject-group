@@ -1,0 +1,518 @@
+{
+  "schema_version": 1,
+  "document": "documents/manuscript_english.pdf",
+  "reviewer": "AI subagent examining each supplied rendered page with view_image; not a human sign-off.",
+  "status": "pass_with_scope_limits",
+  "initial_review": {
+    "reviewed_at_utc": "2026-09-28T14:59:53.140449+00:00",
+    "pdf_sha256": "9e23b6001c82f9da020340af771e05efc49cd5322d67d2bcc0b78f216483f30f",
+    "pdf_last_modified_utc": "2026-09-28T14:46:10.017251+00:00",
+    "rendered_page_count": 14,
+    "pages_individually_viewed": 14,
+    "page_records": [
+      {
+        "page": 1,
+        "file": "../../manuscript-pages/manuscript_english/page-001.png",
+        "sha256": "6ace1fc871effa25bf801708a70e0936ad645dac24441c815ea01264ef41d9b4",
+        "dimensions_pixels": [
+          918,
+          1188
+        ],
+        "individually_viewed_with_view_image": true,
+        "status": "needs_revision",
+        "observations": [
+          "Title, author, abstract and introduction readable; visible blue Title-style bottom rule is scheduled for removal by the parent."
+        ]
+      },
+      {
+        "page": 2,
+        "file": "../../manuscript-pages/manuscript_english/page-002.png",
+        "sha256": "87bfa37e34cdc48ee65f5b3be63da89b4c4cd95b192f2152237adb63adab3506",
+        "dimensions_pixels": [
+          918,
+          1188
+        ],
+        "individually_viewed_with_view_image": true,
+        "status": "pass",
+        "observations": [
+          "Figure 1 and full caption readable; two workflow rows and arrows contained inside page margins."
+        ]
+      },
+      {
+        "page": 3,
+        "file": "../../manuscript-pages/manuscript_english/page-003.png",
+        "sha256": "d6b0275d48f87c02f3ea4026d7a376fe7b5c109eeca9064ec2f46ce54b8d9dba",
+        "dimensions_pixels": [
+          918,
+          1188
+        ],
+        "individually_viewed_with_view_image": true,
+        "status": "pass",
+        "observations": [
+          "Methods subsections, inline Greek symbols, exponents and scientific method labels readable; no clipped lines."
+        ]
+      },
+      {
+        "page": 4,
+        "file": "../../manuscript-pages/manuscript_english/page-004.png",
+        "sha256": "2e72dae10e94fdbc9ac232b2b0b0d9598bcdb85deabfa1f87fb0459eb2855177",
+        "dimensions_pixels": [
+          918,
+          1188
+        ],
+        "individually_viewed_with_view_image": true,
+        "status": "needs_revision",
+        "observations": [
+          "FAIL: triangle-inequality display shows literal LaTeX commands and dollar delimiters. The two preceding displayed equations render correctly."
+        ]
+      },
+      {
+        "page": 5,
+        "file": "../../manuscript-pages/manuscript_english/page-005.png",
+        "sha256": "fbadd16bc2aa5ed327826caffc1c73b89f36f0ad4945f524f220a0897be6846b",
+        "dimensions_pixels": [
+          918,
+          1188
+        ],
+        "individually_viewed_with_view_image": true,
+        "status": "pass",
+        "observations": [
+          "Morse equation, scientific units, Table 1 and its four rows readable; no table split."
+        ]
+      },
+      {
+        "page": 6,
+        "file": "../../manuscript-pages/manuscript_english/page-006.png",
+        "sha256": "bd83b7b8a3b7748da5913299d9da29c43b7b62cb13762fc0cfaddcad33fab551",
+        "dimensions_pixels": [
+          918,
+          1188
+        ],
+        "individually_viewed_with_view_image": true,
+        "status": "needs_revision",
+        "observations": [
+          "Figure 2 and its caption readable. Table 2 starts here but breaks after the fifth data row."
+        ]
+      },
+      {
+        "page": 7,
+        "file": "../../manuscript-pages/manuscript_english/page-007.png",
+        "sha256": "2fca50852ed22c663fa8cd95bd144a35748460632eaa14accf93ccddb10e1252",
+        "dimensions_pixels": [
+          918,
+          1188
+        ],
+        "individually_viewed_with_view_image": true,
+        "status": "needs_revision",
+        "observations": [
+          "Table 2 continuation repeats the header but contains only the last data row; this orphan continuation should be avoided. Figure 3 and caption readable."
+        ]
+      },
+      {
+        "page": 8,
+        "file": "../../manuscript-pages/manuscript_english/page-008.png",
+        "sha256": "d1cb9c8bd7799abc6874fe6eea6158b3488a0b8fecaaa49d8b57c329be308c8d",
+        "dimensions_pixels": [
+          918,
+          1188
+        ],
+        "individually_viewed_with_view_image": true,
+        "status": "pass",
+        "observations": [
+          "Figure 4 readable, including negative cross terms and the caption warning that panel ranges differ; units and subsequent section heading readable."
+        ]
+      },
+      {
+        "page": 9,
+        "file": "../../manuscript-pages/manuscript_english/page-009.png",
+        "sha256": "aa32862c598c94a7080333c275a9b283fc69301de60f774cddff9bde0437f498",
+        "dimensions_pixels": [
+          918,
+          1188
+        ],
+        "individually_viewed_with_view_image": true,
+        "status": "pass",
+        "observations": [
+          "Figure 5, its caption, nuclear accuracy discussion and Table 3 readable; low-level maximum-error wording is present."
+        ]
+      },
+      {
+        "page": 10,
+        "file": "../../manuscript-pages/manuscript_english/page-010.png",
+        "sha256": "f18080229a4f5fe757982e1e7c24a75d951848f95b94fa60fa37d654e106f575",
+        "dimensions_pixels": [
+          918,
+          1188
+        ],
+        "individually_viewed_with_view_image": true,
+        "status": "pass",
+        "observations": [
+          "Figure 6 including rotated tick labels readable; subsequent supporting-case discussion fits margins."
+        ]
+      },
+      {
+        "page": 11,
+        "file": "../../manuscript-pages/manuscript_english/page-011.png",
+        "sha256": "8d89623f6e4f861cb827e7119084aaddb4dcb69aa974c045f468f8cd2854576b",
+        "dimensions_pixels": [
+          918,
+          1188
+        ],
+        "individually_viewed_with_view_image": true,
+        "status": "pass",
+        "observations": [
+          "Supporting examples and Discussion 4.1 readable, with no clipped body text."
+        ]
+      },
+      {
+        "page": 12,
+        "file": "../../manuscript-pages/manuscript_english/page-012.png",
+        "sha256": "3573ab2552f79375ce56893a78c2b99d40c25b8d336d9a1989a54ea2b13f0806",
+        "dimensions_pixels": [
+          918,
+          1188
+        ],
+        "individually_viewed_with_view_image": true,
+        "status": "pass",
+        "observations": [
+          "Tang examples, Kamath comparison and limitations readable; neural and Morse chains explicitly separated."
+        ]
+      },
+      {
+        "page": 13,
+        "file": "../../manuscript-pages/manuscript_english/page-013.png",
+        "sha256": "e3b822d7606683cf58d260f0d8f7119d810d69ed0f66a06e74dae31649c0fb55",
+        "dimensions_pixels": [
+          918,
+          1188
+        ],
+        "individually_viewed_with_view_image": true,
+        "status": "pass",
+        "observations": [
+          "Conclusions, availability, author/AI/unsupplied declarations and references [1]-[5] readable."
+        ]
+      },
+      {
+        "page": 14,
+        "file": "../../manuscript-pages/manuscript_english/page-014.png",
+        "sha256": "3083aa2568dc197eb076512f12b767d0483dde1460b408179fe4fdc963063cc5",
+        "dimensions_pixels": [
+          918,
+          1188
+        ],
+        "individually_viewed_with_view_image": true,
+        "status": "pass",
+        "observations": [
+          "References [6]-[16], DOI/link labels, accents and final page number readable; no clipped reference lines."
+        ]
+      }
+    ],
+    "issues": [
+      {
+        "id": "title_bottom_rule",
+        "page": 1,
+        "severity": "minor_layout",
+        "status": "parent_fix_pending",
+        "description": "Title inherits a blue bottom rule; parent is removing the inherited border."
+      },
+      {
+        "id": "triangle_inequality_raw_latex",
+        "page": 4,
+        "severity": "blocking_rendering",
+        "status": "parent_fix_pending",
+        "description": "Triangle-inequality display is literal LaTeX rather than typeset mathematics."
+      },
+      {
+        "id": "table2_last_row_orphan",
+        "pages": [
+          6,
+          7
+        ],
+        "severity": "layout",
+        "status": "parent_fix_pending",
+        "description": "Only the final Table 2 data row continues to page 7; repeated header is correct, but table should remain together."
+      }
+    ]
+  },
+  "scope_limits": [
+    "Visual layout, readability and preservation of figures, formulas, tables and reference entries were assessed. This is not independent scientific validation or proofreading of every numerical value.",
+    "Page PNGs were supplied by the parent after PDF rendering; the reviewer did not independently execute the PDF renderer.",
+    "Five final page images were byte-identical to pages previously viewed; nine changed page images were individually re-opened. This is full 14-page coverage, not a claim of 28 independent final-page inspections."
+  ],
+  "final_review": {
+    "reviewed_at_utc": "2026-09-28T15:48:16.071055+00:00",
+    "pdf_sha256": "81c54ce0f41ccb4b14230e6c9181fe205c7b25b8017936033e5d0f66a968b0ca",
+    "pdf_last_modified_utc": "2026-09-28T15:00:32.177957+00:00",
+    "rendered_page_count": 14,
+    "changed_pages_individually_reinspected": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "unchanged_pages_matched_by_sha256": [
+      3,
+      11,
+      12,
+      13,
+      14
+    ],
+    "all_14_pages_covered": true,
+    "page_records": [
+      {
+        "page": 1,
+        "file": "../../manuscript-pages-final/manuscript_english/page-001.png",
+        "sha256": "c611caf58311b515293f1384b9c67e7c9e790208f6c0d70caeb413704e4340d9",
+        "dimensions_pixels": [
+          918,
+          1188
+        ],
+        "unchanged_from_initial_render": false,
+        "individually_reopened_after_revision": true,
+        "inspection_basis": "Reopened final page individually with view_image after reconstruction.",
+        "status": "pass",
+        "observations": [
+          "Title bottom rule is removed. Author, abstract, section heading and page footer remain legible with no clipping."
+        ]
+      },
+      {
+        "page": 2,
+        "file": "../../manuscript-pages-final/manuscript_english/page-002.png",
+        "sha256": "d909c335c1daad09e6ab1ac3c43b813f29a7f473a3dcd7a509147c8ae110636f",
+        "dimensions_pixels": [
+          918,
+          1188
+        ],
+        "unchanged_from_initial_render": false,
+        "individually_reopened_after_revision": true,
+        "inspection_basis": "Reopened final page individually with view_image after reconstruction.",
+        "status": "pass",
+        "observations": [
+          "Figure 1 and its now regular-weight caption remain readable and within margins."
+        ]
+      },
+      {
+        "page": 3,
+        "file": "../../manuscript-pages-final/manuscript_english/page-003.png",
+        "sha256": "d6b0275d48f87c02f3ea4026d7a376fe7b5c109eeca9064ec2f46ce54b8d9dba",
+        "dimensions_pixels": [
+          918,
+          1188
+        ],
+        "unchanged_from_initial_render": true,
+        "individually_reopened_after_revision": false,
+        "inspection_basis": "Exact SHA256 match to previously inspected initial page.",
+        "status": "pass",
+        "observations": [
+          "Methods subsections, inline Greek symbols, exponents and scientific method labels readable; no clipped lines."
+        ]
+      },
+      {
+        "page": 4,
+        "file": "../../manuscript-pages-final/manuscript_english/page-004.png",
+        "sha256": "4e1e0c3319b8e8161fccd866cccca5b262a1560100b1606cf52c9f9adc5b5c9d",
+        "dimensions_pixels": [
+          918,
+          1188
+        ],
+        "unchanged_from_initial_render": false,
+        "individually_reopened_after_revision": true,
+        "inspection_basis": "Reopened final page individually with view_image after reconstruction.",
+        "status": "pass",
+        "observations": [
+          "Triangle inequality now renders as mathematical notation with absolute-value bars, Greek epsilon and both less-than-or-equal signs; no raw LaTeX remains in the display. Morse equation now also fits on this page."
+        ]
+      },
+      {
+        "page": 5,
+        "file": "../../manuscript-pages-final/manuscript_english/page-005.png",
+        "sha256": "b7be4a1e797893c20d2d93fbd4c333c58dc2b654f6ec7cc6c16764524d8f4828",
+        "dimensions_pixels": [
+          918,
+          1188
+        ],
+        "unchanged_from_initial_render": false,
+        "individually_reopened_after_revision": true,
+        "inspection_basis": "Reopened final page individually with view_image after reconstruction.",
+        "status": "pass",
+        "observations": [
+          "Changed text flow and regular-weight Table 1 caption readable; the entire four-row table remains together."
+        ]
+      },
+      {
+        "page": 6,
+        "file": "../../manuscript-pages-final/manuscript_english/page-006.png",
+        "sha256": "6e6a6ccccde7f8736e013f6aebc54d4c8fd5ae52529e1f7971dc3b6f609c6b17",
+        "dimensions_pixels": [
+          918,
+          1188
+        ],
+        "unchanged_from_initial_render": false,
+        "individually_reopened_after_revision": true,
+        "inspection_basis": "Reopened final page individually with view_image after reconstruction.",
+        "status": "pass",
+        "observations": [
+          "Figure 2 and its regular-weight caption readable. Table 2 now contains its header and all six data rows on this page, including seed 7303 matched OOD; no clipped bottom row."
+        ]
+      },
+      {
+        "page": 7,
+        "file": "../../manuscript-pages-final/manuscript_english/page-007.png",
+        "sha256": "9bc664667f4af65bda94e9cd15dbf84ae2535e081c95ea2b28d5ed22644c4150",
+        "dimensions_pixels": [
+          918,
+          1188
+        ],
+        "unchanged_from_initial_render": false,
+        "individually_reopened_after_revision": true,
+        "inspection_basis": "Reopened final page individually with view_image after reconstruction.",
+        "status": "pass",
+        "observations": [
+          "No orphan Table 2 continuation remains. Figure 3 and regular-weight caption are readable and discussion fits page margins."
+        ]
+      },
+      {
+        "page": 8,
+        "file": "../../manuscript-pages-final/manuscript_english/page-008.png",
+        "sha256": "861dc0d18cb8ce9bd2f55bcc2c9702c41feaf49f0860f4192f76756eacff51ad",
+        "dimensions_pixels": [
+          918,
+          1188
+        ],
+        "unchanged_from_initial_render": false,
+        "individually_reopened_after_revision": true,
+        "inspection_basis": "Reopened final page individually with view_image after reconstruction.",
+        "status": "pass",
+        "observations": [
+          "Figure 4 and regular-weight caption readable, including panel-range qualification; no collisions or cropped glyphs."
+        ]
+      },
+      {
+        "page": 9,
+        "file": "../../manuscript-pages-final/manuscript_english/page-009.png",
+        "sha256": "b2ebaab4909c4ffcf39fc822ce8f1659f57f14b581d5ec2db7aed6af52f33aee",
+        "dimensions_pixels": [
+          918,
+          1188
+        ],
+        "unchanged_from_initial_render": false,
+        "individually_reopened_after_revision": true,
+        "inspection_basis": "Reopened final page individually with view_image after reconstruction.",
+        "status": "pass",
+        "observations": [
+          "Figure 5, regular-weight caption, nuclear error discussion and complete Table 3 readable."
+        ]
+      },
+      {
+        "page": 10,
+        "file": "../../manuscript-pages-final/manuscript_english/page-010.png",
+        "sha256": "d04a806b3dad17fa143eedc07e7efbaf4f8a038d92e003223257e3d2b351be9c",
+        "dimensions_pixels": [
+          918,
+          1188
+        ],
+        "unchanged_from_initial_render": false,
+        "individually_reopened_after_revision": true,
+        "inspection_basis": "Reopened final page individually with view_image after reconstruction.",
+        "status": "pass",
+        "observations": [
+          "Figure 6, its regular-weight caption, scientific exponents and supporting-case discussion remain readable and within margins."
+        ]
+      },
+      {
+        "page": 11,
+        "file": "../../manuscript-pages-final/manuscript_english/page-011.png",
+        "sha256": "8d89623f6e4f861cb827e7119084aaddb4dcb69aa974c045f468f8cd2854576b",
+        "dimensions_pixels": [
+          918,
+          1188
+        ],
+        "unchanged_from_initial_render": true,
+        "individually_reopened_after_revision": false,
+        "inspection_basis": "Exact SHA256 match to previously inspected initial page.",
+        "status": "pass",
+        "observations": [
+          "Supporting examples and Discussion 4.1 readable, with no clipped body text."
+        ]
+      },
+      {
+        "page": 12,
+        "file": "../../manuscript-pages-final/manuscript_english/page-012.png",
+        "sha256": "3573ab2552f79375ce56893a78c2b99d40c25b8d336d9a1989a54ea2b13f0806",
+        "dimensions_pixels": [
+          918,
+          1188
+        ],
+        "unchanged_from_initial_render": true,
+        "individually_reopened_after_revision": false,
+        "inspection_basis": "Exact SHA256 match to previously inspected initial page.",
+        "status": "pass",
+        "observations": [
+          "Tang examples, Kamath comparison and limitations readable; neural and Morse chains explicitly separated."
+        ]
+      },
+      {
+        "page": 13,
+        "file": "../../manuscript-pages-final/manuscript_english/page-013.png",
+        "sha256": "e3b822d7606683cf58d260f0d8f7119d810d69ed0f66a06e74dae31649c0fb55",
+        "dimensions_pixels": [
+          918,
+          1188
+        ],
+        "unchanged_from_initial_render": true,
+        "individually_reopened_after_revision": false,
+        "inspection_basis": "Exact SHA256 match to previously inspected initial page.",
+        "status": "pass",
+        "observations": [
+          "Conclusions, availability, author/AI/unsupplied declarations and references [1]-[5] readable."
+        ]
+      },
+      {
+        "page": 14,
+        "file": "../../manuscript-pages-final/manuscript_english/page-014.png",
+        "sha256": "3083aa2568dc197eb076512f12b767d0483dde1460b408179fe4fdc963063cc5",
+        "dimensions_pixels": [
+          918,
+          1188
+        ],
+        "unchanged_from_initial_render": true,
+        "individually_reopened_after_revision": false,
+        "inspection_basis": "Exact SHA256 match to previously inspected initial page.",
+        "status": "pass",
+        "observations": [
+          "References [6]-[16], DOI/link labels, accents and final page number readable; no clipped reference lines."
+        ]
+      }
+    ],
+    "resolved_issues": [
+      {
+        "id": "title_bottom_rule",
+        "resolved_on_page": 1,
+        "resolution": "Blue inherited rule no longer appears."
+      },
+      {
+        "id": "triangle_inequality_raw_latex",
+        "resolved_on_page": 4,
+        "resolution": "Proper typeset inequality replaces literal LaTeX."
+      },
+      {
+        "id": "table2_last_row_orphan",
+        "resolved_on_pages": [
+          6,
+          7
+        ],
+        "resolution": "All Table 2 rows now appear together on page 6; no isolated final row on page 7."
+      }
+    ],
+    "unresolved_visual_issues": [],
+    "supplementary_text_check": {
+      "performed": false,
+      "reason": "pypdf not available in the existing selected interpreter; no package was installed."
+    }
+  }
+}

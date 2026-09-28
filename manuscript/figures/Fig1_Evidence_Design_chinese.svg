@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="648pt" height="331.2pt" viewBox="0 0 648 331.2" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-09-28T22:35:45.506074</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 331.2 
+L 648 331.2 
+L 648 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 19.1808 123.0408 
+L 187.4664 123.0408 
+L 187.4664 41.2344 
+L 19.1808 41.2344 
+z
+" clip-path="url(#pe67b16e0b7)" style="fill: #f1f6f8; stroke: #b0bec5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 238.2696 123.0408 
+L 406.5552 123.0408 
+L 406.5552 41.2344 
+L 238.2696 41.2344 
+z
+" clip-path="url(#pe67b16e0b7)" style="fill: #f1f6f8; stroke: #b0bec5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 457.3584 123.0408 
+L 625.644 123.0408 
+L 625.644 41.2344 
+L 457.3584 41.2344 
+z
+" clip-path="url(#pe67b16e0b7)" style="fill: #f1f6f8; stroke: #b0bec5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 19.1808 274.068 
+L 187.4664 274.068 
+L 187.4664 192.2616 
+L 19.1808 192.2616 
+z
+" clip-path="url(#pe67b16e0b7)" style="fill: #faf4e9; stroke: #b0bec5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 238.2696 274.068 
+L 406.5552 274.068 
+L 406.5552 192.2616 
+L 238.2696 192.2616 
+z
+" clip-path="url(#pe67b16e0b7)" style="fill: #faf4e9; stroke: #b0bec5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 457.3584 274.068 
+L 625.644 274.068 
+L 625.644 192.2616 
+L 457.3584 192.2616 
+z
+" clip-path="url(#pe67b16e0b7)" style="fill: #faf4e9; stroke: #b0bec5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 192.639472 82.1376 
+Q 211.279602 82.1376 228.801697 82.1376 
+" clip-path="url(#pe67b16e0b7)" style="fill: none; stroke: #536575; stroke-linecap: round"/>
+    <path d="M 223.601697 79.5376 
+L 228.801697 82.1376 
+L 223.601697 84.7376 
+z
+" clip-path="url(#pe67b16e0b7)" style="fill: #536575; stroke: #536575; stroke-linecap: round"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 411.728272 82.1376 
+Q 430.368402 82.1376 447.890497 82.1376 
+" clip-path="url(#pe67b16e0b7)" style="fill: none; stroke: #536575; stroke-linecap: round"/>
+    <path d="M 442.690497 79.5376 
+L 447.890497 82.1376 
+L 442.690497 84.7376 
+z
+" clip-path="url(#pe67b16e0b7)" style="fill: #536575; stroke: #536575; stroke-linecap: round"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 192.639472 233.1648 
+Q 211.279602 233.1648 228.801697 233.1648 
+" clip-path="url(#pe67b16e0b7)" style="fill: none; stroke: #536575; stroke-linecap: round"/>
+    <path d="M 223.601697 230.5648 
+L 228.801697 233.1648 
+L 223.601697 235.7648 
+z
+" clip-path="url(#pe67b16e0b7)" style="fill: #536575; stroke: #536575; stroke-linecap: round"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 411.728272 233.1648 
+Q 430.368402 233.1648 447.890497 233.1648 
+" clip-path="url(#pe67b16e0b7)" style="fill: none; stroke: #536575; stroke-linecap: round"/>
+    <path d="M 442.690497 230.5648 
+L 447.890497 233.1648 
+L 442.690497 235.7648 
+z
+" clip-path="url(#pe67b16e0b7)" style="fill: #536575; stroke: #536575; stroke-linecap: round"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 103.00608 131.331134 
+Q 103.00608 157.022109 103.00608 181.595051 
+" clip-path="url(#pe67b16e0b7)" style="fill: none; stroke: #536575; stroke-linecap: round"/>
+    <path d="M 105.60608 176.395051 
+L 103.00608 181.595051 
+L 100.40608 176.395051 
+z
+" clip-path="url(#pe67b16e0b7)" style="fill: #536575; stroke: #536575; stroke-linecap: round"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 10px; font-family: 'Microsoft YaHei', 'DejaVu Sans'" transform="translate(73.3236 68.591506)">实际量子参考</text>
+    <text style="font-size: 10px; font-family: 'Microsoft YaHei', 'DejaVu Sans'" transform="translate(65.618912 85.355569)">RHF / UHF / FCI</text>
+    <text style="font-size: 10px; font-family: 'Microsoft YaHei', 'DejaVu Sans'" transform="translate(68.3236 102.694631)">同一几何与基组</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 10px; font-family: 'Microsoft YaHei', 'DejaVu Sans'" transform="translate(302.4124 68.600881)">监督学习</text>
+    <text style="font-size: 10px; font-family: 'Microsoft YaHei', 'DejaVu Sans'" transform="translate(279.665525 85.672756)">仅 RHF 能量与梯度</text>
+    <text style="font-size: 10px; font-family: 'Microsoft YaHei', 'DejaVu Sans'" transform="translate(292.4124 102.680569)">三个配对种子</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 10px; font-family: 'Microsoft YaHei', 'DejaVu Sans'" transform="translate(506.5012 68.635256)">有符号误差归因</text>
+    <text style="font-size: 10px; font-family: 'Microsoft YaHei', 'DejaVu Sans'" transform="translate(496.5012 85.6626)">学习误差与参考偏差</text>
+    <text style="font-size: 10px; font-family: 'Microsoft YaHei', 'DejaVu Sans'" transform="translate(516.5012 102.646194)">保留交叉项</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 10px; font-family: 'Microsoft YaHei', 'DejaVu Sans'" transform="translate(64.3736 219.63355)">FCI 极小值与曲率</text>
+    <text style="font-size: 10px; font-family: 'Microsoft YaHei', 'DejaVu Sans'" transform="translate(71.682194 236.636675)">Morse 参数化</text>
+    <text style="font-size: 10px; font-family: 'Microsoft YaHei', 'DejaVu Sans'" transform="translate(58.3236 253.77105)">电子模型误差仍存在</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 10px; font-family: 'Microsoft YaHei', 'DejaVu Sans'" transform="translate(292.4124 219.624175)">核振动离散化</text>
+    <text style="font-size: 10px; font-family: 'Microsoft YaHei', 'DejaVu Sans'" transform="translate(287.197556 236.314019)">H2 / D2，J = 0</text>
+    <text style="font-size: 10px; font-family: 'Microsoft YaHei', 'DejaVu Sans'" transform="translate(277.4124 253.712456)">网格与边界分别变化</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 10px; font-family: 'Microsoft YaHei', 'DejaVu Sans'" transform="translate(511.5012 219.604644)">按观测量验证</text>
+    <text style="font-size: 10px; font-family: 'Microsoft YaHei', 'DejaVu Sans'" transform="translate(496.5012 236.621831)">浅束缚态与配分函数</text>
+    <text style="font-size: 10px; font-family: 'Microsoft YaHei', 'DejaVu Sans'" transform="translate(501.5012 253.751519)">不以矩阵残差代替</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 11px; font-family: 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: middle" x="324" y="19.2096" transform="rotate(-0 324 19.2096)">两条受控计算链，共同检验误差是否传递到目标观测量</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 8.8px; font-family: 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: middle" x="324" y="307.41984" transform="rotate(-0 324 307.41984)">支持案例：路径与热化学、分子数据、传输与动力学、分析定量；证据类型分别保留</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pe67b16e0b7">
+   <rect x="6.48" y="6.624" width="635.04" height="314.64"/>
+  </clipPath>
+ </defs>
+</svg>

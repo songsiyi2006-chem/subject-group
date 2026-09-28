@@ -1,6 +1,6 @@
 {
   "passed": true,
-  "checks": 194,
+  "checks": 198,
   "scope": "Saved record and publication integrity, not chemical prediction accuracy or experimental validation.",
   "failed": [],
   "items": [
@@ -590,6 +590,22 @@
     },
     {
       "check": "README link ../provenance/SHA256SUMS.txt",
+      "passed": true
+    },
+    {
+      "check": "README link manuscript/README.md",
+      "passed": true
+    },
+    {
+      "check": "README link manuscript/rendered/manuscript_chinese.md",
+      "passed": true
+    },
+    {
+      "check": "README link manuscript/rendered/manuscript_english.md",
+      "passed": true
+    },
+    {
+      "check": "README link manuscript/editorial_assessment_bilingual.md",
       "passed": true
     },
     {

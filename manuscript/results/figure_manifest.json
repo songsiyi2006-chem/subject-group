@@ -1,0 +1,123 @@
+{
+  "generator_sha256": "f29c09cfa70e8ae43fe49d50fd17bbb6e82c654139a0e7e000dbced2f33b0b36",
+  "figure_groups": 4,
+  "files": [
+    {
+      "file": "figures/Fig1_Evidence_Design_english.png",
+      "sha256": "aa943658cab2ede1eedf96a02342a88f059edeffac5a0da660670446024ec1ba",
+      "sources": {
+        "manuscript/results/analysis_summary.json": "fcf2dfd57b16fca36a3c427a83ca351b72dbd27f7d0a2fda50477489a869736e"
+      }
+    },
+    {
+      "file": "figures/Fig1_Evidence_Design_english.svg",
+      "sha256": "3082ea0372fd9aa45e94755d0193b9a972fbf0df4f2eb8834c83984aa87d51c8",
+      "sources": {
+        "manuscript/results/analysis_summary.json": "fcf2dfd57b16fca36a3c427a83ca351b72dbd27f7d0a2fda50477489a869736e"
+      }
+    },
+    {
+      "file": "figures/Fig3_Gain_Transfer_english.png",
+      "sha256": "e9a804949df00a89fea711a7724d1d6a411573ae64385b654aa204bcc0d0c870",
+      "sources": {
+        "manuscript/results/paired_gain_transfer.csv": "9951af0d615dde67a7be168ab2d366ddab1d74d8d7ef24cdc9b0d2635659d8b6"
+      }
+    },
+    {
+      "file": "figures/Fig3_Gain_Transfer_english.svg",
+      "sha256": "9163cd7e83b56ea9bf5bb312407603b379b84e623339ff1e28dc2988e7e34fb3",
+      "sources": {
+        "manuscript/results/paired_gain_transfer.csv": "9951af0d615dde67a7be168ab2d366ddab1d74d8d7ef24cdc9b0d2635659d8b6"
+      }
+    },
+    {
+      "file": "figures/Fig4_MSE_Attribution_english.png",
+      "sha256": "724accffa123dcf055a220ed960f7520cda18117944b1faa8d021684b24fd0e7",
+      "sources": {
+        "manuscript/results/mse_attribution.csv": "2f547043f8344a8fd5f1f3d296c784047b22635036f64a454b269c8668c6c6f3"
+      }
+    },
+    {
+      "file": "figures/Fig4_MSE_Attribution_english.svg",
+      "sha256": "cc70c1af1550b4270c08fbac2cb51e56fd2aadc84cc0129e5c3db4e52e3bd0ea",
+      "sources": {
+        "manuscript/results/mse_attribution.csv": "2f547043f8344a8fd5f1f3d296c784047b22635036f64a454b269c8668c6c6f3"
+      }
+    },
+    {
+      "file": "figures/Fig6_Observable_Convergence_english.png",
+      "sha256": "2ec82191d5dfe6666e6a8563bbc5516cbf1b8a3e62d4bad3a60a0224f2aa34dd",
+      "sources": {
+        "manuscript/results/residual_observable_comparison.csv": "e1fb20417b4d65dcc40fdab3e6b28f3be35c40062a2335f52b1e87b5b09600d8",
+        "manuscript/results/tail_richardson.csv": "448a8d5ce97120062e88fb0f688a4ec77bdb483ba02e8bfb01d3edee048386cf"
+      }
+    },
+    {
+      "file": "figures/Fig6_Observable_Convergence_english.svg",
+      "sha256": "d683ea9b78576bd4a3978be7cc679a3ca5e33ddbf9299e85cd745b48b19c48f8",
+      "sources": {
+        "manuscript/results/residual_observable_comparison.csv": "e1fb20417b4d65dcc40fdab3e6b28f3be35c40062a2335f52b1e87b5b09600d8",
+        "manuscript/results/tail_richardson.csv": "448a8d5ce97120062e88fb0f688a4ec77bdb483ba02e8bfb01d3edee048386cf"
+      }
+    },
+    {
+      "file": "figures/Fig1_Evidence_Design_chinese.png",
+      "sha256": "aba12bd2bc4c3427f506d6a2a63460ffa769b462767fcb5f6380df32755fbb56",
+      "sources": {
+        "manuscript/results/analysis_summary.json": "fcf2dfd57b16fca36a3c427a83ca351b72dbd27f7d0a2fda50477489a869736e"
+      }
+    },
+    {
+      "file": "figures/Fig1_Evidence_Design_chinese.svg",
+      "sha256": "b42244d73408545ed043e62a406731c1b26b7ac3e259e41f9755588756b12d53",
+      "sources": {
+        "manuscript/results/analysis_summary.json": "fcf2dfd57b16fca36a3c427a83ca351b72dbd27f7d0a2fda50477489a869736e"
+      }
+    },
+    {
+      "file": "figures/Fig3_Gain_Transfer_chinese.png",
+      "sha256": "938820e209ae2d24d704f52db26911c87ba3db0bfc2848fbc9c910d0b93616fd",
+      "sources": {
+        "manuscript/results/paired_gain_transfer.csv": "9951af0d615dde67a7be168ab2d366ddab1d74d8d7ef24cdc9b0d2635659d8b6"
+      }
+    },
+    {
+      "file": "figures/Fig3_Gain_Transfer_chinese.svg",
+      "sha256": "cbcb2bb687f46e2584b69482a19890d296ca83cdaeb60a3d31a07b36a0a92ecd",
+      "sources": {
+        "manuscript/results/paired_gain_transfer.csv": "9951af0d615dde67a7be168ab2d366ddab1d74d8d7ef24cdc9b0d2635659d8b6"
+      }
+    },
+    {
+      "file": "figures/Fig4_MSE_Attribution_chinese.png",
+      "sha256": "79f3b2c780c15eae1b8f2619d25af482d33f3b7834a026f29c112e3d140c65f6",
+      "sources": {
+        "manuscript/results/mse_attribution.csv": "2f547043f8344a8fd5f1f3d296c784047b22635036f64a454b269c8668c6c6f3"
+      }
+    },
+    {
+      "file": "figures/Fig4_MSE_Attribution_chinese.svg",
+      "sha256": "cd4f57052a987c3d9e4329aac5881abe449d81891d159fe41519016cb4e7108d",
+      "sources": {
+        "manuscript/results/mse_attribution.csv": "2f547043f8344a8fd5f1f3d296c784047b22635036f64a454b269c8668c6c6f3"
+      }
+    },
+    {
+      "file": "figures/Fig6_Observable_Convergence_chinese.png",
+      "sha256": "3f5c413250ce21039adefa5d6f86cb252849a5251343c470c0be891ae2501478",
+      "sources": {
+        "manuscript/results/residual_observable_comparison.csv": "e1fb20417b4d65dcc40fdab3e6b28f3be35c40062a2335f52b1e87b5b09600d8",
+        "manuscript/results/tail_richardson.csv": "448a8d5ce97120062e88fb0f688a4ec77bdb483ba02e8bfb01d3edee048386cf"
+      }
+    },
+    {
+      "file": "figures/Fig6_Observable_Convergence_chinese.svg",
+      "sha256": "f91fa4accf8a67e4a067fd7337c34cab71a03636f13b3d80cbe683ee7dd0844c",
+      "sources": {
+        "manuscript/results/residual_observable_comparison.csv": "e1fb20417b4d65dcc40fdab3e6b28f3be35c40062a2335f52b1e87b5b09600d8",
+        "manuscript/results/tail_richardson.csv": "448a8d5ce97120062e88fb0f688a4ec77bdb483ba02e8bfb01d3edee048386cf"
+      }
+    }
+  ],
+  "scope": "Four new bilingual figure groups; no regenerated quantum or neural data."
+}

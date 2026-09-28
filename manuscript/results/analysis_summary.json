@@ -1,0 +1,37 @@
+{
+  "analysis_type": "Post hoc arithmetic on frozen data, not new electronic calculations, training or eigensolves.",
+  "source_commit": "1ad05c243155a9f64b18e0d58c665424fde919a0",
+  "counts": {
+    "attribution_groups": 12,
+    "paired_comparisons": 6,
+    "richardson_estimates": 3,
+    "new_quantum_jobs": 0,
+    "new_training_runs": 0,
+    "new_eigensolves": 0
+  },
+  "MSE_identity": "MSE(total)=MSE(learning)+MSE(reference bias)+2*mean(learning*reference bias)",
+  "matched_geometries": {
+    "test": 8,
+    "ood": 5
+  },
+  "max_MSE_identity_residual_Hartree2": 1.0408340855860843e-17,
+  "limitations": [
+    "Post hoc analysis; not an independent replication or a preregistered benchmark.",
+    "Only 8 matched test and 5 matched OOD geometries; OOD here differs from the original 9-point OOD set.",
+    "Three paired seeds characterize these runs; no population-level significance or confidence interval is claimed.",
+    "The MSE cross term may be negative, so component percentages are not variance fractions.",
+    "Richardson estimates assume the leading second-order regime at fixed boundary. The full-line Morse value is an analytic model comparator, not experiment.",
+    "Small matrix residual certifies the discrete operator, not the continuum boundary problem."
+  ],
+  "inputs_sha256": {
+    "quantumequi/results/extensions/error_budget/matched_error_components.csv": "f569e871bf83a8c6ca98b10bf45863f584d703ebcc95a5da73f0754aebe6c900",
+    "quantumequi/results/extensions/vibration/tail_followup/diagnostics.csv": "a57ffd4769366288afca7322f9a6bddd59752389b9889853afcb1783d49795c2"
+  },
+  "script_sha256": "cc1c8d1fa06d96b56881ef95c2c37beeccf07f3a1118631fa9f48ce2963b5d51",
+  "outputs_sha256": {
+    "mse_attribution.csv": "2f547043f8344a8fd5f1f3d296c784047b22635036f64a454b269c8668c6c6f3",
+    "paired_gain_transfer.csv": "9951af0d615dde67a7be168ab2d366ddab1d74d8d7ef24cdc9b0d2635659d8b6",
+    "tail_richardson.csv": "448a8d5ce97120062e88fb0f688a4ec77bdb483ba02e8bfb01d3edee048386cf",
+    "residual_observable_comparison.csv": "e1fb20417b4d65dcc40fdab3e6b28f3be35c40062a2335f52b1e87b5b09600d8"
+  }
+}

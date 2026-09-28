@@ -381,6 +381,6 @@ test_source_abnormal_yield_is_never_clipped (test_toolkit.ToolkitTests.test_sour
 test_synthetic_calibration_fit_has_normal_equation_residuals (test_toolkit.ToolkitTests.test_synthetic_calibration_fit_has_normal_equation_residuals) ... ok
 
 ----------------------------------------------------------------------
-Ran 381 tests in 12.130s
+Ran 381 tests in 6.297s
 
 OK

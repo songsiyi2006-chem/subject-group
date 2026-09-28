@@ -37,3 +37,9 @@ quantumequi/source/** -text -whitespace
 quantumequi/results/** -text -whitespace
 quantumequi/reports/figures/** -text -whitespace
 *.png binary
+manuscript/results/** -text -whitespace
+manuscript/*.json -text -whitespace
+manuscript/figures/** -text -whitespace
+manuscript/assets/** -text -whitespace
+*.docx binary
+*.pdf binary

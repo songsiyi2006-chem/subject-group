@@ -1,0 +1,98 @@
+{
+  "status": "pass_with_scope_limits",
+  "reviewer": "root AI assistant",
+  "scope": "All 12 pages viewed individually as 918x1188 PNGs after final main-manuscript revisions. AI visual assessment, not human proofreading or scientific peer review.",
+  "pdf": "manuscript/documents/manuscript_chinese.pdf",
+  "pdf_sha256": "c9598809a196a648124a5ad7d452f98c702f930f7040e1494aa0e916bfefbc8d",
+  "page_count": 12,
+  "all_pages_individually_viewed": true,
+  "pages": [
+    {
+      "page": 1,
+      "png_sha256": "2f97346d4a3ec315d0f2f5f6b28bf6dcd87c6d5a34401bfb1d4ad0b8015b3087",
+      "visual_status": "pass"
+    },
+    {
+      "page": 2,
+      "png_sha256": "9054be368d12985f39c96a4c85baefd8aa9d29061e9de97bd04941b1b71bda8d",
+      "visual_status": "pass"
+    },
+    {
+      "page": 3,
+      "png_sha256": "2b45d05645000d0202165efc007de076fcf2744b0434e72d646d6265f49f41f5",
+      "visual_status": "pass"
+    },
+    {
+      "page": 4,
+      "png_sha256": "92ccdc79031212c08c43f733236a89e8516cdc4975843dbc01f3cd8e045fbaf1",
+      "visual_status": "pass"
+    },
+    {
+      "page": 5,
+      "png_sha256": "0750089de679a8692ebb2d91ac0aa795eab2a3c30d81d302773b750fac62c56c",
+      "visual_status": "pass"
+    },
+    {
+      "page": 6,
+      "png_sha256": "87f30690bc48c3cb9a21600f3d4e29d8f2a32d3e443eb4bc3ba9676e488a9a36",
+      "visual_status": "pass"
+    },
+    {
+      "page": 7,
+      "png_sha256": "f92e23be41c03e506f0a3741156679e71052269ee851ef6d0cc5259f63dffb71",
+      "visual_status": "pass"
+    },
+    {
+      "page": 8,
+      "png_sha256": "2e2233abe04c67bfc7697157990b92afefc687a01089d5ac5b8f66d22dbdd6df",
+      "visual_status": "pass"
+    },
+    {
+      "page": 9,
+      "png_sha256": "b2a70dab42ee42ec528ae73cf08a3714bfaee3fff9a1458670c861174901fcbd",
+      "visual_status": "pass"
+    },
+    {
+      "page": 10,
+      "png_sha256": "7deb688175969ab6f0a43046f95832364df85b80c3db488f7b3b8d6dc3fad7af",
+      "visual_status": "pass"
+    },
+    {
+      "page": 11,
+      "png_sha256": "d9d29536c847356532fbe53e736e96d4771d4e303f428ff985374cb0a209458c",
+      "visual_status": "pass"
+    },
+    {
+      "page": 12,
+      "png_sha256": "7dc75afc27bff6fc5dd17f06cc123458a4a22c081717a1a2adcf14c0c2ad567e",
+      "visual_status": "pass"
+    }
+  ],
+  "resolved_findings": [
+    {
+      "finding": "Blue paragraph rule inherited by Title",
+      "resolution": "Removed w:pBdr from document and styles; final page 1 re-viewed."
+    },
+    {
+      "finding": "Triangle inequality image initially contained literal LaTeX due to multiline mathtext input",
+      "resolution": "Collapsed source line whitespace, validated MathTextParser, regenerated and visually checked final equation on page 4."
+    },
+    {
+      "finding": "Excessive caption weight",
+      "resolution": "Set caption style regular; all six figure captions re-viewed."
+    }
+  ],
+  "final_observations": [
+    "Title, author and affiliation legible; no ornamental rule.",
+    "Four display equations rendered as mathematical notation with no literal source visible.",
+    "Tables 1-3 intact and captions adjacent.",
+    "Figures 1-6 and captions visible; signed MSE axis and differing panel limits retained.",
+    "References 1-16 on final page have readable publication identifiers and DOI or official links.",
+    "No clipping, overlap, missing CJK glyph, blank page or misplaced footer observed."
+  ],
+  "limitations": [
+    "Rendered equations are images, not native editable Word equations; source expressions are supplied.",
+    "Visual assessment does not verify every scientific or linguistic claim.",
+    "No physical print proof or independent human sign-off."
+  ]
+}

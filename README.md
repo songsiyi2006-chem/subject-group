@@ -2,6 +2,14 @@
 
 完整技术报告、可复现计算与证据审计。Updated 2026-09-28.
 
+## Integrated research manuscript / 整合研究论文
+
+**[论文、Word/PDF 与补充信息入口](manuscript/README.md)** · [中文正文](manuscript/rendered/manuscript_chinese.md) · [English manuscript](manuscript/rendered/manuscript_english.md)
+
+宋思毅（广西师范大学）独立署名的双语论文草稿，以“参考偏差与观测量依赖收敛”为主线整合全部历史模块。新增事后误差归因与 Richardson 分析、4 组中英图示、核验文献及创新性评估。25 篇文献登记含 4 篇唐海涛及合作者论文；中科院/JCR 分区未获对应年份权威确认，未擅标为一区。论文仍是有证据边界的方法学案例研究，不代表已达到顶刊录用或真实电催化机理验证标准。
+
+The main paper and complete SI are available separately in English and Chinese. The new arithmetic quantifies why a 60–74% improvement against RHF training labels produces only a 0.008–0.022% improvement against matched FCI test references. The two controlled chains remain separate; no neural-potential-to-spectrum propagation is claimed. [Evidence and prior-work assessment](manuscript/editorial_assessment_bilingual.md).
+
 ## New extended calculations / 新增电子相关、神经力与非谐振动
 
 - **[中文扩展报告](quantumequi/reports/extension_report_chinese.md)** · **[English extension report](quantumequi/reports/extension_report_english.md)**

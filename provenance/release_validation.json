@@ -1,6 +1,6 @@
 {
   "passed": true,
-  "checks": 2089,
+  "checks": 2177,
   "scientific_tests_run": 381,
   "scientific_failures": 0,
   "scientific_errors": 0,
@@ -162,6 +162,10 @@
     },
     {
       "check": "QuantumEqui extended calculations validation",
+      "passed": true
+    },
+    {
+      "check": "integrated manuscript numerical and publication validation",
       "passed": true
     },
     {
@@ -1558,6 +1562,62 @@
     },
     {
       "check": "JSON parses quantumequi/source/source_record.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/evidence_catalog.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/references_verified.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/results/analysis_summary.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/results/citation_audit.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/results/document_build.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/results/document_qa.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/results/figure_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/results/figure_visual_qa.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/results/main_chinese_visual_qa.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/results/main_english_visual_qa.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/results/si_visual_qa.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/results/validation.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/assets/equations/equations.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/assets/equations/equations_manifest.json",
       "passed": true
     },
     {
@@ -3010,6 +3070,298 @@
     },
     {
       "check": "SHA256 electrograph/structure_notes.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/README.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/assets/equations/eq_1cdcac043c6bbecd.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/assets/equations/eq_1cdcac043c6bbecd.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/assets/equations/eq_68420839c15b9b0b.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/assets/equations/eq_68420839c15b9b0b.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/assets/equations/eq_cd4fb9a1f6087c06.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/assets/equations/eq_cd4fb9a1f6087c06.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/assets/equations/eq_e0a2f0c899fcf21b.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/assets/equations/eq_e0a2f0c899fcf21b.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/assets/equations/eq_e1b552295972d99f.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/assets/equations/eq_e1b552295972d99f.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/assets/equations/equations.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/assets/equations/equations_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/bibliography.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/documents/manuscript_chinese.docx",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/documents/manuscript_chinese.pdf",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/documents/manuscript_english.docx",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/documents/manuscript_english.pdf",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/documents/supporting_information_chinese.docx",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/documents/supporting_information_chinese.pdf",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/documents/supporting_information_english.docx",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/documents/supporting_information_english.pdf",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/editorial_assessment_bilingual.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/evidence_audit.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/evidence_catalog.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/figures/Fig1_Evidence_Design_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/figures/Fig1_Evidence_Design_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/figures/Fig1_Evidence_Design_english.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/figures/Fig1_Evidence_Design_english.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/figures/Fig3_Gain_Transfer_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/figures/Fig3_Gain_Transfer_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/figures/Fig3_Gain_Transfer_english.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/figures/Fig3_Gain_Transfer_english.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/figures/Fig4_MSE_Attribution_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/figures/Fig4_MSE_Attribution_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/figures/Fig4_MSE_Attribution_english.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/figures/Fig4_MSE_Attribution_english.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/figures/Fig6_Observable_Convergence_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/figures/Fig6_Observable_Convergence_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/figures/Fig6_Observable_Convergence_english.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/figures/Fig6_Observable_Convergence_english.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/manuscript_chinese.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/manuscript_english.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/references.bib",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/references_verified.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/rendered/manuscript_chinese.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/rendered/manuscript_english.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/rendered/supporting_information_chinese.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/rendered/supporting_information_english.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/results/analysis_summary.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/results/citation_audit.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/results/document_build.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/results/document_qa.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/results/figure_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/results/figure_visual_qa.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/results/main_chinese_visual_qa.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/results/main_english_visual_qa.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/results/mse_attribution.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/results/paired_gain_transfer.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/results/residual_observable_comparison.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/results/si_visual_qa.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/results/tail_richardson.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/results/validation.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/scripts/analyze_error_chain.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/scripts/build_documents.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/scripts/export_word_pdf.ps1",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/scripts/finalize_references.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/scripts/inspect_documents.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/scripts/plot_manuscript.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/scripts/render_equations.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/scripts/validate_manuscript.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/supporting_information_chinese.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/supporting_information_english.md",
       "passed": true
     },
     {

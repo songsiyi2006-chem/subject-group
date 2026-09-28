@@ -1,0 +1,7 @@
+{
+  "eq_1cdcac043c6bbecd": "\\begin{aligned}\n\\widehat E-E_{\\rm FCI}&=\\epsilon+d+b,\\quad \\epsilon=\\widehat E-E_{\\rm RHF}^{\\rm old},\\\\\nd&=E_{\\rm RHF}^{\\rm old}-E_{\\rm RHF}^{\\rm new},\\quad b=E_{\\rm RHF}^{\\rm new}-E_{\\rm FCI}.\n\\end{aligned}",
+  "eq_e0a2f0c899fcf21b": "{\\rm MSE}_{\\rm FCI}=\\langle\\epsilon^2\\rangle+\\langle b^2\\rangle+2\\langle\\epsilon b\\rangle.",
+  "eq_68420839c15b9b0b": "\\left|{\\rm RMSE}(b)-{\\rm RMSE}(\\epsilon)\\right|\n\\leq {\\rm RMSE}(\\epsilon+b)\n\\leq {\\rm RMSE}(b)+{\\rm RMSE}(\\epsilon).",
+  "eq_cd4fb9a1f6087c06": "V(r)=D_e[1-e^{-a(r-r_e)}]^2,\\qquad a=\\sqrt{k/(2D_e)}.",
+  "eq_e1b552295972d99f": "\\widehat E-E_{FCI}=(\\widehat E-E_{old\\ RHF})+(E_{old\\ RHF}-E_{new\\ RHF})+(E_{new\\ RHF}-E_{FCI})."
+}

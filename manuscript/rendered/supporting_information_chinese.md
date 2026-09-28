@@ -1,0 +1,220 @@
+# 补充信息：计算化学工作流中的分层验证与误差传播
+
+本文件整合论文所依据的归档计算。目录名称用于区分不同软件案例，不代表已经验证的科研或工业成熟度。本次整合未启动新的科学计算。下述数值来自保存的机器可读结果及方法记录，并明确区分源码中的主张与复核结果。
+
+## S1. 证据类别、来源与计算账本
+
+研究区分五类证据：**公开实验标签**，仅用于 FreeSolv 水合基准；**已执行的电子结构计算**，包括 GFN2-xTB 和 Psi4 H/H₂ 计算；**力场或解析模型计算**，包括构象、传输、随机循环和 Morse 核运动；**合成或给定数值**，包括反应产率、分析示例和吸附曲线；以及**候选输入**，包括未执行的 Gaussian/ORCA 文件和拟议实验程序。使用公开实验标签不等于本研究开展了实验。本研究未采集氧化电位、催化剂活性、制备电解或光谱测量。
+
+可复现链条依次连接用户源码、保存的执行或失败、明确记录的兼容修改、复核实现、原始数组、汇总及产物检查。API 修复不必然保持全部下游数值：扩展嵌入表会改变随机数消耗。反过来，执行成功、矩阵残差小，或标量能量具有不变性与力具有协变性，也不能补足化学标定。多代理交叉核查属于计算辅助，不是独立的人类同行评审。
+
+**表 S1. 代表性计算单位。** 除明确注明阶段外，主计算不含先导和测试。各行不是可互换的单位，不应相加为单一性能指标。
+
+| 阶段与单位 | 数量 |
+|---|---:|
+| 初始基准：配对合成 BO 观测 | 1800 |
+| 初始分子研究：GFN2-xTB 作业 | 36 |
+| Production 审计：配对 BO 观测 | 1680 |
+| Production 目标分子：GFN2-xTB 作业 | 3 |
+| Research 分子审计：GFN2-xTB 作业 | 16 |
+| Toolkit：合成色谱峰恢复案例 | 80 |
+| ElectraTwin 原复核工作流：PDE 求解 | 121 |
+| ElectraTwin 扩展：PDE 求解 | 1892 |
+| ElectraTwin 正式扩展：缓存选择调用 | 4800 |
+| ElectroGraph 主计算：神经拟合 / SSA 轨迹 | 4 / 273 |
+| ElectroGraph 主计算：SSA 事件 | 9950504 |
+| SynthaPore 主计算：MD 轨迹 / 积分步 | 44 / 350000 |
+| QuantumEqui 原主计算：SCF 作业 / 解析梯度 | 55 / 42 |
+| QuantumEqui 原先导：SCF 作业 / 解析梯度 | 3 / 1 |
+| QuantumEqui 电子相关主计算：能量 driver | 183 |
+| QuantumEqui 电子相关先导 / 恢复：能量 driver | 14 / 6 |
+| QuantumEqui 电子相关：driver 前选项拒绝 | 6 |
+| QuantumEqui 学习扩展：主 / 先导拟合 | 6 / 2 |
+| QuantumEqui 核扩展：主 / 先导 / 长尾本征问题 | 38 / 6 / 7 |
+
+三个独立阶段共执行 55 次 GFN2-xTB 作业，允许重复化学身份，不代表 55 个不同分子。原有 58 个 Psi4 作业与后续 203 次能量 driver 调用分别保存。FCI 调用内部包含其 SCF 阶段，不能再重复计数。缓存查询、名义神经能量和力场优化不是新增量子计算。
+
+## S2. 初始五主题基准与分子扩展
+
+初始研究检验优化、分类和催化剂排序的有利输出能否通过基本对照。五个源码模块采用生成目标：带噪声二次电合成产率面、虚构氧化还原回归标签、经验催化剂评分、基于阈值的环化标签，以及 ODE 流动代理。原 BO 使用八个初始和十二个序贯观测，采用 Matérn GP/UCB 采集函数。最高观测产率为 95.0447486%，该点无噪声响应为 91.7937080%，生成器极大值则为 92%；有利偏差来自采样噪声，不是化学提升。氧化还原训练 R²=0.998461、分类训练准确率为一，不能证明留出性能；所报环化可行性 0.892 是常数。
+
+配对扩展采用 30 个种子、三种策略，每条活动含 20 个观测。随机、原 GP、标准化 GP 的平均推荐遗憾分别为 3.555742、1.356960、1.320765 个合成产率百分点。独立的 5000 行回归测试涉及四种训练规模、360 次拟合：训练规模 60 时，提升树测试 R²=0.928671，线性回归为 0.992062。在给定噪声尺度下重复催化剂评分，原 Co–N₄ 优胜者仅有 5.841% 的次数排第一。分类平衡准确率从整体 0.912908 降至生成器边界附近的 0.727614。这些结论仅适用于相应生成器的稳健性。
+
+量纲明确的流动扩展假设 A→P→D，一级速率为 0.015、0.002 s⁻¹，反应器 1 mL，进料 0.10 M，产物摩尔质量 200 g mol⁻¹，可用电流 0.200 A。解析与数值物种分数之差不超过 6.41×10⁻¹²。所需电流计入两步反应程度，部分高流速动力学结果因电荷不足而不可实现。191 个网格点中，满足假设约束的最大值位于 0.55 mL min⁻¹，对应 464.00 g L⁻¹ h⁻¹。按假定速率产生的情景区间不是实测过程不确定度。
+
+实际分子计算涵盖苯、吡啶、苯甲醚、吲哚、N-甲基吲哚和苯并呋喃。每个分子执行一次中性 GFN2-xTB/ALPB（乙腈）优化、固定中性核坐标的阳/阴离子计算，以及三个气相单点。中性单重态和 ±1 双重态共对应 36 个作业。这是半经验计算，不是 DFT。保留 ALPB 与气相敏感性及电荷响应求和；不同电荷态分别采用平衡溶剂响应，因此能量差不能解释为严格非平衡垂直电离或参比电极电位。未计算频率、带电几何松弛或化学位点验证。来源：[原始结果审计](../../data/original/benchmark_audit.json)、[扩展汇总](../../results/extended/summary.json)、[分子能量及身份](../../results/molecular/summary.json)。
+
+## S3. Production 案例：表示、几何与降维流动模型
+
+本案例研究以物理量命名的特征是否改善合成优化器，几何/电荷评分能否识别反应性 C–H 位点，以及拟合催化剂评分是否能够迁移。原程序在 SASA API 处失败；保存的修复还指定正原子半径，这是明确的模型约定变化。优化器搜索 288 个离散条件，使用六个初始和八个采集值。30 个配对种子比较四种策略，平均遗憾为：随机 2.640387、原 GP 3.020240、标准化 one-hot GP 4.808777、标准化物理特征 GP 5.154517。归一化和以物理量命名的描述符没有在该生成器上带来优势。
+
+对 5-甲氧基-2-苯基吲哚，32 个 ETKDG/MMFF 构象和六组探针/算法设置检验启发式评分稳定性。C2、C5 已取代，不含 C–H；最高评分来自悬挂苯基位点而非 C3，Gasteiger 电荷也不是自由基阳离子自旋密度。三个目标 GFN2-xTB/ALPB 作业给出固定核去电子/加电子能差 10.514086/6.002145 eV，不具有经过标定的电化学含义。16 个合成催化剂标签使样本内 R² 为一，但按金属分组留出时，Extra Trees 的 RMSE 为 2.827171，岭回归为 1.263652，单位仍是指定评分单位。
+
+流动计算是固定有效过电位下的线性轴向 ODE，不是解析了电流体动力学的 PDE。解析/DOP853 比较和电流积分检验其方程。原流速范围内，转化率由 77.55% 降至 23.80%，而反应物消失 STY 从 465.30 升至 1713.41 mmol L⁻¹ h⁻¹。更高流速增大指定传质系数，同时缩短停留时间，不能简单归因于传质变差。产物选择性和标定速率仍缺失。数据及修改：[审计汇总](../../production/results/audit/audit_summary.json)、[修复补丁](../../production/source/repair.patch)、[目标作业](../../production/results/target_xtb)。
+
+## S4. Research 案例：Pareto 偏好、底物标签与颗粒扩散
+
+原程序枚举 135 个合成条件，得到 12 个非支配记录，没有拟合 GP。“绿色评分”选中产率 43.47%、FE 74.49%、SEC 0.779 kWh kg⁻¹ 的条件，三者均为生成器输出。231 组权重审计产生十种不同选择。新增 GP 是回顾性拟合，使用五个连续电流区间折，每折 108 行训练、27 行留出，并非序贯 BO。产率宏平均 RMSE 为 1.506982 个百分点，训练均值基线为 12.663336。条件选择仍依赖偏好、电极面积与成本假设。
+
+八个指定底物共进行 64 个收敛 MMFF 构象、八个中性优化和八个固定核阳离子 GFN2-xTB/ALPB 计算。原产率标签仍是随机数；电荷评分不依赖三维坐标，一个名义“芳香”选择位点实际是咖啡因的非芳香原子。结构计算不能把这些标签转换为实验底物范围。
+
+指定的一级球形孔内模型采用 φ=R√(kv/Deff)、η=3(φ cothφ−1)/φ²。40 个网格、50 个外膜、60 个参数案例检验有限体积与解析极限。半径 100 μm 时，微孔模型 η=0.488961，反驳了硬编码的“超过 50 μm 就有 η<0.40”；实际模型阈值为 129.379256 μm。有限体积与解析值的最大差为 2.93519×10⁻⁵。指定扩散率与动力学没有针对实际材料标定。来源：[完整审计](../../research/results/audit/audit_summary.json)、[分子记录](../../research/results/molecules)、[原始结果](../../research/results/original/research_grade_results.json)。
+
+## S5. 闭环案例：物料核算、候选输入与反馈
+
+本案例检查实验计划，不将计划当作已经完成的实验。0.2 mmol 底物溶于 6 mL 时，浓度为 0.0333333 M。1.5 cm² 电极上 12.5 mA cm⁻² 对应 18.75 mA；2.2 F mol⁻¹ 需要 42.4535452 C、37.7364846 min。若产物按两电子过程计算，底物完全转化时 FE 上限为 90.9091%。计划仍缺少完全定义的产物、偶联计量，以及经核验的淬灭/分析程序。
+
+六条模拟反馈只能支持诊断研究。原预测与标签的 MAE=2.883333 个百分点不是交叉验证。四种方法产生 24 个留一预测：标准化最大似然 GP 的 MAE 为 15.255953，均值基线为 13.980000。90 个候选条件产生 270 个 GP 预测，真实 EI 与源码中的 UCB 表达式分别保留。九组采集函数情景和 200000 个正态抽样检查公式及假设敏感性，不构成前瞻推荐验证。
+
+四个 Gaussian、八个 ORCA 文件涵盖两个分子的中性/阳离子态，复用两个先前计算几何。复核输入纠正吲哚啉与目标分子不一致，以及 CPCM/SMD 标注问题。没有量子引擎或调度器执行这些输入；文件生成不是 DFT 证据。反馈模式区分模拟、计划和具备实验支持的记录。来源：[算术与模型审计](../../closed_loop/results/audit/audit_summary.json)、[反馈分析](../../closed_loop/results/audit/active_learning.json)、[输入清单与执行边界](../../closed_loop/inputs/reviewed/README.md)。
+
+## S6. 分析工具案例：测量算术与模型误设
+
+预积分 HPLC/NMR 示例用于检验分析核算。所给 HPLC 输入意味着 1292.00% 产率；按标准物质量重算的 qNMR 为 91.325287%，原舍入标准量给出 91.392%。没有原始色谱、FID、经标定峰归属或独立测定的标准纯度，不能把这些值当作测量。在 100000 次假设输入误差抽样中，全部 HPLC 产率仍超过 100%。解析器拒绝缺失来源、重复身份、不支持的单位与非法分母，但正确哈希也不能建立方法学有效性；`measurement_validated` 始终为 false。
+
+21 行合成校准包含七个浓度水平。80 个已知形状色谱峰恢复案例采用两个高斯峰与线性基线。峰宽正确时，目标面积平均绝对误差为 0.027363%；峰宽误设后为 14.614337%。较小的条件回归残差不能排除错误峰模型。六个理想脉冲弛豫情景和十二个纯度/取样比例案例同样研究假设，而非实际仪器性能。
+
+对 80 个合成条件执行严格支配判断，得到 23 个 Pareto 点，原阈值规则则选出零个。六组底物预测/模拟标签和五个常数能级，既不提供化学泛化证据，也不构成 DFT 路径。随附申请书、时间表及人民币 10000 元预算属于规划文件，不代表资金落实、指导同意或实验室使用权限。来源：[分析、Pareto 与规划审计](../../toolkit/results/audit/audit_summary.json)、[CSV 数据字典](../../toolkit/data/README.md)、[全部恢复案例](../../toolkit/results/audit/deconvolution_recovery.csv)。
+
+## S7. ElectraTwin：守恒、反应网络与序贯决策
+
+复核传输模型对抽象 A/P 物种求解单元中心有限体积对流扩散方程，包含轴向迎风、两个方向的扩散和半网格 Robin 壁面通量。原程序电流与物料流核算相差 15.0351%，十二个原 FE 值中有八个在截断前超过 100%。兼容修改仅将移除的 NumPy `trapz` 换为 `trapezoid`。复核基准转化率/电流为 58.3872859%/42.2513750 mA。39 次验证和 82 次控制工作流求解合计 121 次 PDE。单反应模型中目标产物 FE 按结构恒为 100%，因此有意义的优化目标是 STY 与电力 SEC，并依赖指定分子量和电压。
+
+最初八种子比较中，MC-EHVI 胜五次，随机策略胜三次；配对超体积差均值为 0.030407，描述性区间为 [−0.008497,0.069312]。27 个水力与九个电热情景使用选定流体性质，不是 CFD 或热 PDE。SCPI 状态机仅在内存运行，物理连接数为零，最终输出关闭。
+
+扩展显式加入 A→P、A→B、P→D 壁面动力学。四物种通量矩阵列和为零，守恒的是抽象分子量数；电子计数区分总生成与完整净 P。62 次网络求解和一次比较得到基准转化率 58.4087%、净 P 收率 11.5438%、净 P FE 11.3871%。不确定度与优化模块仍使用旧单反应模型，不能把副反应损失直接附加到其预测。
+
+五个指定的独立参数分布产生 1792 次 Sobol 设计求解、16 次网格检查、21 次导数求解。Jansen 估计采用 N=256 并检查前缀；部分一阶指数高于总效应，一阶指数之和超过一。这些估计器缺陷保留而未截断。500 次配对行重抽样是探索性诊断，不是经过验证的 QMC 置信区间。64 种子、三策略、每次 25 个选择的扩展使用 4800 个缓存值，没有新增 PDE。GP、随机、maximin 的最终平均超体积分数分别为 0.992024、0.982781、0.989218。26 个留出划分中，二次回归在两类分块输入组的表现均优于固定 GP。来源：[传输验证](../../electratwin/results/transport/verification.json)、[网络](../../electratwin/results/reaction_network/study_summary.json)、[不确定度](../../electratwin/results/uncertainty/summary.json)、[基准](../../electratwin/results/benchmark_extension/summary.json)。
+
+## S8. ElectroGraph：公开水合标签、构象与随机循环
+
+水合数据来源与直接随机模拟方法分别归属于 FreeSolv 和 Gillespie [13, 17]。这些文献用于注明数据及算法来源，不代表假定电化学机理已经得到验证。
+
+所给网络未经训练，探索评分为随机数，原 SASA 半径为零。四项明确的已安装 API 修复使其可执行，但不验证这些假设。下述复核工作改变了实现及证据来源。
+
+**监督数据。** 642 行 FreeSolv/SAMPL 快照与官方 v0.52 的结构、实验值在 10⁻⁸ kcal mol⁻¹ 内一致。按不查看标签的哈希规则选取 256 个分子，训练/验证/测试划分为 154/51/51。含环结构按非手性 Murcko 骨架分组，无环结构按完整规范身份分组，因此近似无环类似物可能跨分区。两层边条件 GRU MPNN 有 29369 个参数；三个种子各训练 60 轮，另设打乱训练标签的对照。标准化与检查点选择排除测试标签。三个 MPNN 测试 RMSE 为 1.897239、1.746786、1.249601 kcal mol⁻¹，描述符岭回归为 1.653425；两个种子不及简单基线。公开水合标签不支持氧化电位或原子反应性输出头。实验不确定度字段虽保留，但未进入拟合损失。[数据、归属与 CC-BY 4.0 条款](../../electrograph/data/learning/README.md)；[学习汇总](../../electrograph/results/learning/summary.json)。
+
+开发隔离存在限制：历史先导已对全部 256 个分子输出 1024 条预测，包括测试结构。主拟合和选模仍按分区进行，但档案不能证明开发全过程对测试性能保持盲态。因此该划分支持有限的回顾性比较，不是从未被查看的前瞻测试。
+
+**分子结构。** 七个分子在三个种子下分别请求 24 个 ETKDGv3 构象：504 个请求返回 120 个剪枝后几何，全部 MMFF94 收敛；按 0.35 Å 重原子 RMSD 去重后保留 36 个合并极小值。在 250/298.15/350 K 下，exp[−(E−Emin)/RT] 权重假设简并度为一，是力场极小值权重，不是溶液自由能。正范德华半径、1.4 Å 探针、24 个方向产生 2880 次 SASA 评估。已确认 C5-甲氧基/C2-苯基目标的质量加权 Rg 为 3.608485 Å，无权重定义为 4.094013 Å。原未映射反应少了 C₁H₄，苯甲硫醚与苯硫酚也不同。只有显式映射且配平的“乙醇→乙醛+H₂”教学反应被赋予键编辑。[结构与反应记录](../../electrograph/results/structure/summary.json)。
+
+**动力学。** 五个不可逆独立位点状态采用直接 SSA 采样，并与 CTMC 瞬态及更新过程恒等式比较。主研究包含 273 条轨迹、9950504 个事件及 105 个解析速率扰动；独立先导另有五条轨迹、169216 个事件。固定速率下 TOF∞=(Σi1/ki)⁻¹，给定吸附/偶联/脱附速率使其期望小于 26.61034847 s⁻¹，与源码硬编码的 260.2 s⁻¹ 矛盾。扫描均值与有限时间 CTMC 的最大相对偏差为 0.2043%。这验证指定随机模型，不包含空间晶格、可逆热力学、传输或拟合化学速率。[动力学汇总](../../electrograph/results/kinetics/summary.json)。
+
+## S9. SynthaPore：对称性、采样、路径与几何孔道
+
+恒温比较采用的弱热浴耦合方法归属于 Berendsen 及其合作者 [18]；下述方差比来自仓库自身的受控模型计算。
+
+原程序需要将十项物种嵌入表改为 30 项以容纳 Cu；额外随机数改变初始化。未经训练的 55394 参数能量模型作用于八原子 C₄H₂CuN 片段。因此，确切保存权重的审计与兼容结果并列，而不取代后者。
+
+监督去噪采用 368 个人工八节点形状，按 192/48/64/64 划分，分别使用独立训练/验证/测试/扭曲 OOD 生成器。三个 13176 参数网络各训练 60 轮。留出性能优于拟合平滑器，但种子 4441 在扭曲形状上更差。先导已经评估同一批 368 个形状，包含测试/OOD，并产生 1472 行逐形状指标；主检查点仅按验证选择，不代表开发全过程测试盲化。没有时间相关得分、反向过程或分子扩散生成。原电荷更新依赖坐标原点，未训练力缺少化学标定。[等变与去噪记录](../../synthapore/results/equivariant/summary.json)。
+
+MD 使用具有 21 个内部笛卡尔自由度的解析八粒子谐振簇。20 条 NVE 轨迹与 24 条恒温重复总计 350000 积分步，能量误差收敛阶为 1.96457–2.04409。300 K 下 BAOAB 的方差/正则参考比为 0.982727；自由度计数正确的 Berendsen 尽管均温接近 300 K，该比仅约 0.000000310355。均值正确不等于正则采样。18 个复核解析 CI-NEB 案例收敛，但十二个源算法对照中有十个在未通过独立力阈值时报告收敛。实际保存源权重的最终最大投影力为名义单位下的 0.009773735 eV Å⁻¹；零势垒来自端点为能量最大值，并非已建立过渡态。[动力学](../../synthapore/results/dynamics/summary.json)；[源程序回放](../../synthapore/results/source_audit.json)。
+
+孔道研究在五级中点网格上计算三个明确二维几何，共 1636800 个净空评估点、90 个探针掩膜。640² 分辨率下，最大面积分数误差为 0.000474912。点到壁面的净空直方图不是孔径分布、三维体积或表面积。原探针参数未使用，圆形掩膜不是蜂窝化学框架。20 个合成吸附点在相对压力 0.35 切换分支，跳增 204.779367 cm³ g⁻¹。152 次 BET 拟合检验窗口和噪声敏感性，保留非物理常数与失配。没有原子框架、GCMC 或实测等温线。[几何与吸附汇总](../../synthapore/results/pore/summary.json)。
+
+## S10. 原 QuantumEqui：电子、路径与热化学拒绝检验
+
+复核路径实现采用既有攀爬图像 NEB 和改进切向量公式 [12, 19]。下述比较检验其在指定势能模型上的实现，不构成新的路径搜索理论。
+
+原程序未经修改即可执行，但其 31 函数 EHT 重叠矩阵秩仅为八。规范正交化仅保留容纳 16 个电子的容量，低于假定的 40 个，因而不能修复该电子问题。投影残差虽小，全空间残差仍约 4.59/4.63。原 24385 参数 EGNN 未训练；等变性和坐标导数力不能补救这一参考失败。
+
+实际 H₂/H STO-3G 基准包含 55 个主 SCF 作业、42 个解析梯度，另有三个先导作业和一个梯度。16 次 RBF 拟合在固定 17/8/8/9 的训练/验证/测试/OOD 分区上选择两个代理。联合拟合把测试能量 RMSE 改善至 5.56135×10⁻⁶ Hartree，却使梯度 RMSE 恶化到 1.63747×10⁻⁴ Hartree Å⁻¹，仅能量拟合则为 1.15617×10⁻⁴。两者外推均差于线性基线。“仅能量”拟合仍使用验证梯度选择超参数。[电子记录](../../quantumequi/results/electronic/summary.json)。
+
+确切源路径回放使用 420 个旧路径评估和十四个新最终图像评估。顺序原地更新混合旧力与部分已更新邻居，30 轮后无条件返回“收敛”。正向候选力为名义单位下的 0.0183398705 kcal mol⁻¹ Å⁻¹，端点也不是驻点。复核版同步更新 CI-NEB 检查端点及投影/攀爬力；两个解析势面的 40 次主运行恢复已知无量纲正向势垒 1.372719661 和 4，六次先导另计。这些是算法对照，不是分子势垒。[路径汇总与回放](../../quantumequi/path_notes.md)。
+
+质量加权 Hessian 通过 SVD 投影平移/转动，线性与非线性分子分别保留五个、六个刚体方向。名义 kcal mol⁻¹ Å⁻² amu⁻¹ 的换算因子为 108.591358535 cm⁻¹，不是原值 1302.83。原按索引删除本征值会删去负模。复核源点虽有一个显著负投影模，但未满足驻点条件，故不发布“修正后源 Gibbs 自由能”。八个主有限差分源 Hessian 与一个 autograd 参考区分精度/步长误差。四个人工对照支持 80 组理想气体温度/压力案例和 72 组低频敏感性。平动、转动、振动、电子简并度、压力与对称数均明确处理；原熵常数和绘图硬编码平移量不属于热化学计算。[热化学与拒绝记录](../../quantumequi/results/thermochemistry/summary.json)。
+
+## S11. H₂ 深度扩展：电子偏差、学习误差与核近似
+
+电子计算采用 Psi4 软件体系 [7]，其中 cc-pVDZ 基组体系归属于 Dunning [8]。核模型采用既有 Morse 势 [11]，其参数来自保存的电子量，仍属于一种近似表示。
+
+RHF/UHF/FCI 扫描覆盖 25 个核间距和两个基组。183 次主能量 driver 包含 150 个扫描值、两个孤立原子、21 次极小值搜索和十次曲率评估。十四次先导和六次恢复 FCI 调用合计 203 次实际 driver，另有六次更早选项失败发生在调用前。全部 50 组同基组比较在 10⁻⁸ Hartree 内满足 FCI≤UHF≤RHF。拉伸后 UHF 自旋污染显著；FCI 自旋诊断未获得，不从参考轨道推断。FCI 仅在所选有限基组内精确。
+
+**表 S2. FCI 电子参考；未加入核或环境修正。**
+
+| 物理量 | STO-3G | cc-pVDZ |
+|---|---:|---:|
+| 平衡核间距 / Å | 0.734865227 | 0.760893445 |
+| 势阱深度 / Hartree | 0.204142352 | 0.165116174 |
+| 局部曲率 / Hartree Å⁻² | 1.703746695 | 1.307967354 |
+| 4 Å 处 RHF−FCI / Hartree | 0.318301388 | 0.216407978 |
+| 4 Å 处 UHF ⟨S²⟩ | 0.999980059 | 0.999764680 |
+
+新的 3537 参数距离消息网络仅复用旧 RHF 标签。三配对种子、两个目标、800 轮产生六次主拟合和 4800 优化步，两个 200 轮先导另计，且只评估训练/验证分区。训练分区尺度定义能量与梯度损失，两个目标使用相同验证能量加梯度评分选检查点，全部选中预算终点。联合集成测试能量/梯度 RMSE 为 0.000142893/0.00119298，单位 Hartree/Hartree Å⁻¹；OOD 为 0.00473607/0.0127819。每组配对联合拟合均改善，但所有神经测试误差仍高于冻结 RBF。三种子离散度未经校准。
+
+21 个共有几何上的 126 行验证
+
+\[
+\widehat E-E_{FCI}=(\widehat E-E_{old\ RHF})+(E_{old\ RHF}-E_{new\ RHF})+(E_{new\ RHF}-E_{FCI}).
+\]
+
+保存精度下，重放漂移与恒等式残差为零。2.70 Å 时，联合种子 7301 学习误差为 0.000423247 Hartree，相对 FCI 总误差却为 0.254066902 Hartree，主要来自 RHF 偏差 0.253643655 Hartree。有符号分量可相加，RMSE 不可。FCI 标签从未进入训练。[电子相关](../../quantumequi/results/extensions/correlation/summary.json)、[学习](../../quantumequi/results/extensions/learning/summary.json)、[误差分解](../../quantumequi/results/extensions/error_budget/summary.json)。
+
+核计算通过 a=√(k/2De) 参数化 V(r)=De[1−exp(−a(r−re))]²，使用裸质子/氘核质量及 J=0 二阶有限差分。它不在实际 FCI 曲线上求解核运动：Morse 表示相对各 25 点曲线的能量 RMSE 为 STO-3G 0.00757282、cc-pVDZ 0.00420654 Hartree。主/先导/长尾分别有 38/6/7 个本征问题。在 [0,8] Å、1200 区间下，cc-pVDZ 参数化 H₂/D₂ 能级差为 4117.259/2966.494 cm⁻¹，没有强度或选择定则预测。粗网格可制造伪近阈值态，主 H₂ 区间则漏掉第十七个真实 Morse 束缚态，其解析束缚能为 6.69637×10⁻⁷ Hartree、衰减长度 15.0913 Å。扩展到 96 Å、115200 区间后恢复该态，但束缚能误差仍有 1.564%。仅束缚态热配分省略连续谱、转动与平动，不能称为分子 Gibbs 能。[主核结果](../../quantumequi/results/extensions/vibration/summary.json)、[长尾诊断](../../quantumequi/results/extensions/vibration/tail_followup/diagnostics.csv)。
+
+## S12. 软件、源文件索引与复现
+
+**表 S3. 实际记录的软件版本，不作为依赖安装指令。**
+
+| 组件 | 记录版本 |
+|---|---|
+| Python | 3.12.14 |
+| NumPy，主要数值 / Psi4 环境 | 2.4.6 / 2.5.2 |
+| SciPy / pandas | 1.18.0 / 2.3.3 |
+| scikit-learn / Matplotlib | 1.9.0 / 3.11.1 |
+| RDKit / PyTorch | 2026.03.5 / 2.10.0 |
+| xTB / Psi4 | 6.7.1 / 1.11 |
+
+CPU 研究通常限制为一个数值线程。确切种子、架构设置、阈值、电荷/自旋及历史执行哈希按模块保存。部分先导、元数据整理及长尾添加后源码发生变化，归档快照仍是实际执行版本的依据。小残差检验离散方程，留出得分检验指定划分，哈希检验文件身份；三者均不能替代标定或实验重复。
+
+**表 S4. 原始源文件与实现索引。** 链接相对于本补充信息目录，数值数据见上述各节。
+
+| 案例 | 保存的源码 | 复核实现或方法索引 |
+|---|---|---|
+| 初始研究 | [原 Python](../../data/original/simulate_all_topics.py) | [中文方法](../../reports/technical_report_chinese.md) |
+| Production | [原 Python](../../production/source/run_production_pipeline_original.py) | [审计代码](../../production/scripts/audit_pipeline.py) |
+| Research | [原 Python](../../research/source/run_research_engine_original.py) | [审计代码](../../research/scripts/audit_research.py) |
+| 闭环 | [原 Python](../../closed_loop/source/run_closed_loop_platform.py) | [审计代码](../../closed_loop/scripts/audit_closed_loop.py) |
+| Toolkit | [原 Python](../../toolkit/source/run_deployment_and_figures.py) | [审计代码](../../toolkit/scripts/audit_toolkit.py) |
+| ElectraTwin 及扩展 | [原 Python](../../electratwin/source/electratwin_core.py) | [模块/代码索引](../../electratwin/README.md) |
+| ElectroGraph | [原 Python](../../electrograph/source/electrograph_kmc_core.py) | [模块/代码索引](../../electrograph/README.md) |
+| SynthaPore | [原 Python](../../synthapore/source/synthapore_engine.py) | [模块/代码索引](../../synthapore/README.md) |
+| 原 QuantumEqui | [原 Python](../../quantumequi/source/quantum_egnn_neb_engine.py) | [模块/代码索引](../../quantumequi/README.md) |
+| QuantumEqui 扩展 | [实际量子执行快照](../../quantumequi/results/extensions/correlation/executed_code.py.txt) | [扩展代码与数据索引](../../quantumequi/EXTENSIONS.md) |
+
+本 SI 构建不重跑研究。可在仓库根目录，用已配置的解释器调用保存产物验证：
+
+```powershell
+$chem = $env:CHEM_PYTHON
+$env:OMP_NUM_THREADS = '1'
+$env:OPENBLAS_NUM_THREADS = '1'
+$env:MKL_NUM_THREADS = '1'
+& $chem scripts/validate_release.py
+& $chem quantumequi/scripts/validate_extensions.py
+```
+
+各模块索引给出其验证器与科学入口。有意重算需要独立检出目录、合适的既有原生运行库，并在相应情况下配置 `PSI4_PYTHON`/`XTB_EXE`。早期部分脚本会覆盖输出，后期研究则拒绝已完成的目标目录，均不同于只读结果检查。某些便捷启动器只经过 dry-run 检查；记录明确指出实际执行了哪些独立阶段。更新哈希前，应对重新生成的结果开展新的数值审查与图形 QA。发布测试不意味着普遍逐位可复现或期刊接收。整合证据支持有边界的计算比较和明确失败诊断；经过标定的有机电化学、实际催化剂结构、溶剂/电极热力学和实验验证仍不在已执行范围内。
+
+## S13. 论文阶段的事后算术分析
+
+论文仅对冻结数据补充算术，没有新增量子作业、训练或本征求解：包括十二组 MSE 归因、六组配对比较、三组 Richardson 估计。八个匹配测试几何上，联合拟合将 RHF 学习 RMSE 降低 60.240–73.649%，但相对 FCI 总 RMSE 仅降低 0.00838–0.02168%。五个匹配 OOD 几何上，对应范围为 62.528–97.445% 和 3.403–8.214%；该子集不同于原九点 OOD 集。MSE(total)=MSE(learning)+MSE(bias)+2 mean(learning×bias) 的闭合残差不超过 1.04083×10⁻¹⁷ Hartree²。交叉项可为负，因此各项不是方差占比。
+
+固定 96 Å 边界下，二阶 Richardson 外推得到最弱束缚能相对偏差 −0.026882%。它是事后渐近估计，不是新增本征问题或经过认证的收敛；最细单网格误差仍为 1.564%。[分析汇总](../results/analysis_summary.json)、[配对改善](../results/paired_gain_transfer.csv)、[MSE 归因](../results/mse_attribution.csv)、[长尾外推](../results/tail_richardson.csv)、[残差与观测量比较](../results/residual_observable_comparison.csv)。
+
+## 参考文献
+
+[7] D. G. A. Smith; L. A. Burns; A. C. Simmonett; et al. Psi4 1.4: Open-source software for high-throughput quantum chemistry. *The Journal of Chemical Physics* **2020, 152, 184108**. [doi:10.1063/5.0006002](https://doi.org/10.1063/5.0006002)
+
+[8] Thom H. Dunning, Jr. Gaussian basis sets for use in correlated molecular calculations. I. The atoms boron through neon and hydrogen. *The Journal of Chemical Physics* **1989, 90, 1007–1023**. [doi:10.1063/1.456153](https://doi.org/10.1063/1.456153)
+
+[11] Philip M. Morse. Diatomic Molecules According to the Wave Mechanics. II. Vibrational Levels. *Physical Review* **1929, 34, 57–64**. [doi:10.1103/PhysRev.34.57](https://doi.org/10.1103/PhysRev.34.57)
+
+[12] Graeme Henkelman; Blas P. Uberuaga; Hannes Jónsson. A climbing image nudged elastic band method for finding saddle points and minimum energy paths. *The Journal of Chemical Physics* **2000, 113(22), 9901–9904**. [doi:10.1063/1.1329672](https://doi.org/10.1063/1.1329672)
+
+[13] David L. Mobley; J. Peter Guthrie. FreeSolv: a database of experimental and calculated hydration free energies, with input files. *Journal of Computer-Aided Molecular Design* **2014, 28, 711–720**. [doi:10.1007/s10822-014-9747-x](https://doi.org/10.1007/s10822-014-9747-x)
+
+[17] Daniel T. Gillespie. Exact stochastic simulation of coupled chemical reactions. *The Journal of Physical Chemistry* **1977, 81(25), 2340–2361**. [doi:10.1021/j100540a008](https://doi.org/10.1021/j100540a008)
+
+[18] H. J. C. Berendsen; J. P. M. Postma; W. F. van Gunsteren; A. DiNola; J. R. Haak. Molecular dynamics with coupling to an external bath. *The Journal of Chemical Physics* **1984, 81(8), 3684–3690**. [doi:10.1063/1.448118](https://doi.org/10.1063/1.448118)
+
+[19] Graeme Henkelman; Hannes Jónsson. Improved tangent estimate in the nudged elastic band method for finding minimum energy paths and saddle points. *The Journal of Chemical Physics* **2000, 113, 9978–9985**. [doi:10.1063/1.1323224](https://doi.org/10.1063/1.1323224)

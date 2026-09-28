@@ -1,0 +1,556 @@
+{
+  "scope": "Machine structure/text checks and all-page PNG rendering. Visual review is recorded separately; neither substitutes for scientific or human peer review.",
+  "passed": true,
+  "documents": [
+    {
+      "name": "manuscript_english",
+      "pdf": "manuscript/documents/manuscript_english.pdf",
+      "docx": "manuscript/documents/manuscript_english.docx",
+      "pdf_sha256": "81c54ce0f41ccb4b14230e6c9181fe205c7b25b8017936033e5d0f66a968b0ca",
+      "docx_sha256": "ceff4ec3a2d1d2ce7e0ca8bfe629c1d4dcba313733e30af14c88f7bb97dc657f",
+      "page_count": 14,
+      "paragraph_count": 112,
+      "table_count": 3,
+      "inline_shapes": 10,
+      "pdf_text_characters": 40883,
+      "pages": [
+        {
+          "page": 1,
+          "text_characters": 3557,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "c611caf58311b515293f1384b9c67e7c9e790208f6c0d70caeb413704e4340d9",
+          "letter_page": true
+        },
+        {
+          "page": 2,
+          "text_characters": 2618,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "d909c335c1daad09e6ab1ac3c43b813f29a7f473a3dcd7a509147c8ae110636f",
+          "letter_page": true
+        },
+        {
+          "page": 3,
+          "text_characters": 3854,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "d6b0275d48f87c02f3ea4026d7a376fe7b5c109eeca9064ec2f46ce54b8d9dba",
+          "letter_page": true
+        },
+        {
+          "page": 4,
+          "text_characters": 3100,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "4e1e0c3319b8e8161fccd866cccca5b262a1560100b1606cf52c9f9adc5b5c9d",
+          "letter_page": true
+        },
+        {
+          "page": 5,
+          "text_characters": 3018,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "b7be4a1e797893c20d2d93fbd4c333c58dc2b654f6ec7cc6c16764524d8f4828",
+          "letter_page": true
+        },
+        {
+          "page": 6,
+          "text_characters": 1912,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "6e6a6ccccde7f8736e013f6aebc54d4c8fd5ae52529e1f7971dc3b6f609c6b17",
+          "letter_page": true
+        },
+        {
+          "page": 7,
+          "text_characters": 1095,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "9bc664667f4af65bda94e9cd15dbf84ae2535e081c95ea2b28d5ed22644c4150",
+          "letter_page": true
+        },
+        {
+          "page": 8,
+          "text_characters": 1915,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "861dc0d18cb8ce9bd2f55bcc2c9702c41feaf49f0860f4192f76756eacff51ad",
+          "letter_page": true
+        },
+        {
+          "page": 9,
+          "text_characters": 2044,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "b2ebaab4909c4ffcf39fc822ce8f1659f57f14b581d5ec2db7aed6af52f33aee",
+          "letter_page": true
+        },
+        {
+          "page": 10,
+          "text_characters": 2735,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "d04a806b3dad17fa143eedc07e7efbaf4f8a038d92e003223257e3d2b351be9c",
+          "letter_page": true
+        },
+        {
+          "page": 11,
+          "text_characters": 4133,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "8d89623f6e4f861cb827e7119084aaddb4dcb69aa974c045f468f8cd2854576b",
+          "letter_page": true
+        },
+        {
+          "page": 12,
+          "text_characters": 4310,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "3573ab2552f79375ce56893a78c2b99d40c25b8d336d9a1989a54ea2b13f0806",
+          "letter_page": true
+        },
+        {
+          "page": 13,
+          "text_characters": 3779,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "e3b822d7606683cf58d260f0d8f7119d810d69ed0f66a06e74dae31649c0fb55",
+          "letter_page": true
+        },
+        {
+          "page": 14,
+          "text_characters": 2800,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "3083aa2568dc197eb076512f12b767d0483dde1460b408179fe4fdc963063cc5",
+          "letter_page": true
+        }
+      ],
+      "checks": {
+        "all_pages_letter": true,
+        "no_empty_pages": true,
+        "no_replacement_character": true,
+        "no_unresolved_references": true,
+        "no_raw_display_latex": true,
+        "author_present": true,
+        "all_expected_main_figure_captions": true,
+        "document_has_hyperlinks": true,
+        "all_pages_rendered": true
+      }
+    },
+    {
+      "name": "manuscript_chinese",
+      "pdf": "manuscript/documents/manuscript_chinese.pdf",
+      "docx": "manuscript/documents/manuscript_chinese.docx",
+      "pdf_sha256": "c9598809a196a648124a5ad7d452f98c702f930f7040e1494aa0e916bfefbc8d",
+      "docx_sha256": "158b0b5c196bdfdfa6e45b4bda9c1c2da4917ae5119719b4ad35f4def4520edf",
+      "page_count": 12,
+      "paragraph_count": 112,
+      "table_count": 3,
+      "inline_shapes": 10,
+      "pdf_text_characters": 16420,
+      "pages": [
+        {
+          "page": 1,
+          "text_characters": 1316,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "2f97346d4a3ec315d0f2f5f6b28bf6dcd87c6d5a34401bfb1d4ad0b8015b3087",
+          "letter_page": true
+        },
+        {
+          "page": 2,
+          "text_characters": 959,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "9054be368d12985f39c96a4c85baefd8aa9d29061e9de97bd04941b1b71bda8d",
+          "letter_page": true
+        },
+        {
+          "page": 3,
+          "text_characters": 1575,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "2b45d05645000d0202165efc007de076fcf2744b0434e72d646d6265f49f41f5",
+          "letter_page": true
+        },
+        {
+          "page": 4,
+          "text_characters": 1258,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "92ccdc79031212c08c43f733236a89e8516cdc4975843dbc01f3cd8e045fbaf1",
+          "letter_page": true
+        },
+        {
+          "page": 5,
+          "text_characters": 979,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "0750089de679a8692ebb2d91ac0aa795eab2a3c30d81d302773b750fac62c56c",
+          "letter_page": true
+        },
+        {
+          "page": 6,
+          "text_characters": 680,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "87f30690bc48c3cb9a21600f3d4e29d8f2a32d3e443eb4bc3ba9676e488a9a36",
+          "letter_page": true
+        },
+        {
+          "page": 7,
+          "text_characters": 688,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "f92e23be41c03e506f0a3741156679e71052269ee851ef6d0cc5259f63dffb71",
+          "letter_page": true
+        },
+        {
+          "page": 8,
+          "text_characters": 815,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "2e2233abe04c67bfc7697157990b92afefc687a01089d5ac5b8f66d22dbdd6df",
+          "letter_page": true
+        },
+        {
+          "page": 9,
+          "text_characters": 1191,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "b2a70dab42ee42ec528ae73cf08a3714bfaee3fff9a1458670c861174901fcbd",
+          "letter_page": true
+        },
+        {
+          "page": 10,
+          "text_characters": 1492,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "7deb688175969ab6f0a43046f95832364df85b80c3db488f7b3b8d6dc3fad7af",
+          "letter_page": true
+        },
+        {
+          "page": 11,
+          "text_characters": 1276,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "d9d29536c847356532fbe53e736e96d4771d4e303f428ff985374cb0a209458c",
+          "letter_page": true
+        },
+        {
+          "page": 12,
+          "text_characters": 4180,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "7dc75afc27bff6fc5dd17f06cc123458a4a22c081717a1a2adcf14c0c2ad567e",
+          "letter_page": true
+        }
+      ],
+      "checks": {
+        "all_pages_letter": true,
+        "no_empty_pages": true,
+        "no_replacement_character": true,
+        "no_unresolved_references": true,
+        "no_raw_display_latex": true,
+        "author_present": true,
+        "all_expected_main_figure_captions": true,
+        "document_has_hyperlinks": true,
+        "all_pages_rendered": true
+      }
+    },
+    {
+      "name": "supporting_information_english",
+      "pdf": "manuscript/documents/supporting_information_english.pdf",
+      "docx": "manuscript/documents/supporting_information_english.docx",
+      "pdf_sha256": "8ab4fb1e1054489c3f8c5eb719a030b2553010b7be84384149edf09606812ee8",
+      "docx_sha256": "fc2587ef2ec6842b9d445b8a0ff30c3c53224043b2e81c71d4e8630a5ecb8c6b",
+      "page_count": 10,
+      "paragraph_count": 89,
+      "table_count": 4,
+      "inline_shapes": 1,
+      "pdf_text_characters": 34001,
+      "pages": [
+        {
+          "page": 1,
+          "text_characters": 2732,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "00458683a32634a607ced93783a5aeb13c66e4563c9d9807d810798b205a8821",
+          "letter_page": true
+        },
+        {
+          "page": 2,
+          "text_characters": 3522,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "62e58d2f0f38f466731302f18647714eff0e12c61bd4d5f304a53cb7cc320221",
+          "letter_page": true
+        },
+        {
+          "page": 3,
+          "text_characters": 3823,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "822717a9f527922fb0500016d6e2b187c4b09f938608a18d1c2333edf46f8305",
+          "letter_page": true
+        },
+        {
+          "page": 4,
+          "text_characters": 3847,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "a43af388ed8fc634dc10029e3bc24026daedd00292ba5b9f56023239339a45b8",
+          "letter_page": true
+        },
+        {
+          "page": 5,
+          "text_characters": 4168,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "15cb2408eafd65b43a49fe2627eca7d2de234feb0a9067b7f72928e11d9dcac8",
+          "letter_page": true
+        },
+        {
+          "page": 6,
+          "text_characters": 4058,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "5e55eda70b8563c6509ae4b6845e5a59ffe07eb7652833ca30e682753d037929",
+          "letter_page": true
+        },
+        {
+          "page": 7,
+          "text_characters": 3748,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "9853a65a2ed8e14ca87c61f88cb9d1cd723f1406bf906056de387456e59b6b28",
+          "letter_page": true
+        },
+        {
+          "page": 8,
+          "text_characters": 2389,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "48cc42f54d8fcd0580a8b4ff7f4a8a3687ecee186e5c284da6bccfb706abe42c",
+          "letter_page": true
+        },
+        {
+          "page": 9,
+          "text_characters": 1988,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "07e3c9d9b725cf207e95d55275ffdc7f708db96d02d237d4cac564b1d9ac0cd3",
+          "letter_page": true
+        },
+        {
+          "page": 10,
+          "text_characters": 3717,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "995864fe2385e148e8ac34febbff17da6da06681bf67782dc29e6d90c6182d88",
+          "letter_page": true
+        }
+      ],
+      "checks": {
+        "all_pages_letter": true,
+        "no_empty_pages": true,
+        "no_replacement_character": true,
+        "no_unresolved_references": true,
+        "no_raw_display_latex": true,
+        "author_present": true,
+        "all_expected_main_figure_captions": true,
+        "document_has_hyperlinks": true,
+        "all_pages_rendered": true
+      }
+    },
+    {
+      "name": "supporting_information_chinese",
+      "pdf": "manuscript/documents/supporting_information_chinese.pdf",
+      "docx": "manuscript/documents/supporting_information_chinese.docx",
+      "pdf_sha256": "597c254afa2b7f02d53765005bd35af628c68ddc7933cc98bc9178154ab9e822",
+      "docx_sha256": "7185158bb96b630d912f40c2c4140c3a74fb6cd5e4d9c8fcffe6f2d394e5aa72",
+      "page_count": 9,
+      "paragraph_count": 89,
+      "table_count": 4,
+      "inline_shapes": 1,
+      "pdf_text_characters": 14390,
+      "pages": [
+        {
+          "page": 1,
+          "text_characters": 1083,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "58d856b53064645fd0e96e586382b1bb25f3890578d8ec871383eb89b9f2f8e7",
+          "letter_page": true
+        },
+        {
+          "page": 2,
+          "text_characters": 1553,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "d01731273d49f2e4c128dbb8f17824958bedddb889303fd1a5442fc3bb66e7d9",
+          "letter_page": true
+        },
+        {
+          "page": 3,
+          "text_characters": 1798,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "5d65675c1ee582ad3d4f1b83021aac41878bf95cf16788ebc78358e2747ab3b0",
+          "letter_page": true
+        },
+        {
+          "page": 4,
+          "text_characters": 1622,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "bd646e1284e2c86728e7e97dfccaab29c79f6ff14baae589949021327868f010",
+          "letter_page": true
+        },
+        {
+          "page": 5,
+          "text_characters": 1764,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "0019c7a79b785feda625fe5c76e3279bb890b71bba89c495198de282cdd5e4e3",
+          "letter_page": true
+        },
+        {
+          "page": 6,
+          "text_characters": 1739,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "73e587a494d4f33b234b19af6358e4221d55e8477f834c5b1567dc43a514f26d",
+          "letter_page": true
+        },
+        {
+          "page": 7,
+          "text_characters": 1418,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "4fa19fe77a46dd979e249b795a0372b5b116014c8ef08b2071f46552c754767c",
+          "letter_page": true
+        },
+        {
+          "page": 8,
+          "text_characters": 1124,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "f4c92aefa562a61526094449e1618df8c73fe5e7de9f071b7f835ccd0486ea45",
+          "letter_page": true
+        },
+        {
+          "page": 9,
+          "text_characters": 2281,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "de5002cdd4716c1e46344c4d5a450a36501de92baadede79c0724d401dd37244",
+          "letter_page": true
+        }
+      ],
+      "checks": {
+        "all_pages_letter": true,
+        "no_empty_pages": true,
+        "no_replacement_character": true,
+        "no_unresolved_references": true,
+        "no_raw_display_latex": true,
+        "author_present": true,
+        "all_expected_main_figure_captions": true,
+        "document_has_hyperlinks": true,
+        "all_pages_rendered": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,568 @@
+{
+  "schema_version": 1,
+  "reviewed_at_utc": "2026-09-28T14:29:20.557453+00:00",
+  "scope": "Eight newly authored manuscript PNG figures and their eight SVG counterparts: Fig1, Fig3, Fig4 and Fig6, in English and Chinese. Existing imported QuantumEqui figure groups are outside this record.",
+  "reviewer": "AI subagent visual inspection of images; no human review is claimed.",
+  "generator": "scripts/plot_manuscript.py",
+  "generator_sha256": "f29c09cfa70e8ae43fe49d50fd17bbb6e82c654139a0e7e000dbced2f33b0b36",
+  "generator_hash_matches_manifest": true,
+  "figure_manifest_sha256": "37bed3eae4ae516765c7f9695867427feccc262eca81b0a1e35d6e1d634d0683",
+  "counts": {
+    "png_individually_viewed": 8,
+    "svg_structurally_parsed": 8,
+    "svg_independently_rendered": 0,
+    "png_reinspection_after_label_change": 1
+  },
+  "status": "pass_with_scope_limits",
+  "repairs": [
+    {
+      "description": "Changed only the Chinese Fig1 box label from 相关性误差归因 to 有符号误差归因 to avoid ambiguity with correlation.",
+      "source_change": "One label in scripts/plot_manuscript.py.",
+      "all_figures_reexported": true,
+      "successful_export_exit_code": 0,
+      "exported_file_count": 16,
+      "runtime": "Existing chemistry Python with its preinstalled native-library runtime activated; no installation.",
+      "png_reinspections_after_change": 1,
+      "unchanged_pngs_confirmed_by_sha256": 7,
+      "svg_files_structurally_rechecked": 8
+    }
+  ],
+  "plot_generator_modified": true,
+  "figures_regenerated": true,
+  "new_scientific_calculations": false,
+  "limitations": [
+    "PNG visual assessment used displayed 2048 by 1047 images resized by view_image from 2880 by 1472 originals; no physical print-size proof is implied.",
+    "SVG checks cover XML structure, dimensions, viewBox, text, vector paths, internal references and manifest integrity. They do not establish SVG rendering fidelity in an independent application.",
+    "SVG preserves editable text and references Arial or Microsoft YaHei with DejaVu Sans fallback; fonts are not embedded, so other systems may substitute fonts.",
+    "No color-vision simulation, grayscale proof, final PDF or DOCX page-layout assessment was performed in this figure-only review.",
+    "This review does not repeat quantum calculations, neural training, numerical eigensolves or the separate scientific audit."
+  ],
+  "png_visual_review": [
+    {
+      "file": "figures/Fig1_Evidence_Design_english.png",
+      "sha256": "aa943658cab2ede1eedf96a02342a88f059edeffac5a0da660670446024ec1ba",
+      "manifest_hash_matches": true,
+      "source_hashes_match": true,
+      "dimensions_pixels": [
+        2880,
+        1472
+      ],
+      "visual_inspection_method": "Each PNG opened individually using view_image and visually assessed by the AI reviewer; this is not a human sign-off.",
+      "inspection_display_pixels": [
+        2048,
+        1047
+      ],
+      "status": "pass",
+      "checks": {
+        "titles_legible": true,
+        "axis_or_flow_labels_legible": true,
+        "chinese_or_latin_glyphs_present": true,
+        "no_observed_clipping": true,
+        "no_observed_label_collision": true,
+        "legend_or_annotation_legible": true
+      },
+      "observations": [
+        "Six boxes, directional arrows and two separate calculation rows are legible; no text extends outside a box.",
+        "Main heading and supporting-case footer remain inside the canvas; Chinese characters and Latin method abbreviations display correctly.",
+        "This is a workflow schematic, not a quantitative axis plot."
+      ],
+      "unchanged_from_initial_visual_inspection": true
+    },
+    {
+      "file": "figures/Fig3_Gain_Transfer_english.png",
+      "sha256": "e9a804949df00a89fea711a7724d1d6a411573ae64385b654aa204bcc0d0c870",
+      "manifest_hash_matches": true,
+      "source_hashes_match": true,
+      "dimensions_pixels": [
+        2880,
+        1472
+      ],
+      "visual_inspection_method": "Each PNG opened individually using view_image and visually assessed by the AI reviewer; this is not a human sign-off.",
+      "inspection_display_pixels": [
+        2048,
+        1047
+      ],
+      "status": "pass",
+      "checks": {
+        "titles_legible": true,
+        "axis_or_flow_labels_legible": true,
+        "chinese_or_latin_glyphs_present": true,
+        "no_observed_clipping": true,
+        "no_observed_label_collision": true,
+        "legend_or_annotation_legible": true
+      },
+      "observations": [
+        "Both panel titles, axis labels, three seed legends and three distinct marker shapes are visible without clipping.",
+        "Panels share the -3 to 105 percent y limits; matched geometry counts are explicit in titles.",
+        "Test FCI endpoints overlap near zero at this scale, consistent with the small saved values; exact distinctions require the associated numerical table, not visual ranking."
+      ],
+      "unchanged_from_initial_visual_inspection": true
+    },
+    {
+      "file": "figures/Fig4_MSE_Attribution_english.png",
+      "sha256": "724accffa123dcf055a220ed960f7520cda18117944b1faa8d021684b24fd0e7",
+      "manifest_hash_matches": true,
+      "source_hashes_match": true,
+      "dimensions_pixels": [
+        2880,
+        1472
+      ],
+      "visual_inspection_method": "Each PNG opened individually using view_image and visually assessed by the AI reviewer; this is not a human sign-off.",
+      "inspection_display_pixels": [
+        2048,
+        1047
+      ],
+      "status": "pass",
+      "checks": {
+        "titles_legible": true,
+        "axis_or_flow_labels_legible": true,
+        "chinese_or_latin_glyphs_present": true,
+        "no_observed_clipping": true,
+        "no_observed_label_collision": true,
+        "legend_or_annotation_legible": true
+      },
+      "observations": [
+        "Negative test cross terms are visible below zero on the symmetric-log axis; all four component labels and three seed markers are legible.",
+        "Hartree-squared source terms are multiplied by 1e6 for the plotted (mHartree)-squared unit in the reviewed generator.",
+        "The two panels have independently chosen y ranges; their absolute marker heights must not be compared across panels. Parent was advised to state this in both captions.",
+        "Small horizontal offsets distinguish seeds sharing the same reference component; no point appears cut off."
+      ],
+      "unchanged_from_initial_visual_inspection": true
+    },
+    {
+      "file": "figures/Fig6_Observable_Convergence_english.png",
+      "sha256": "2ec82191d5dfe6666e6a8563bbc5516cbf1b8a3e62d4bad3a60a0224f2aa34dd",
+      "manifest_hash_matches": true,
+      "source_hashes_match": true,
+      "dimensions_pixels": [
+        2880,
+        1472
+      ],
+      "visual_inspection_method": "Each PNG opened individually using view_image and visually assessed by the AI reviewer; this is not a human sign-off.",
+      "inspection_display_pixels": [
+        2048,
+        1047
+      ],
+      "status": "pass",
+      "checks": {
+        "titles_legible": true,
+        "axis_or_flow_labels_legible": true,
+        "chinese_or_latin_glyphs_present": true,
+        "no_observed_clipping": true,
+        "no_observed_label_collision": true,
+        "legend_or_annotation_legible": true
+      },
+      "observations": [
+        "Six categorical boundary/grid tick labels remain legible after rotation, and the bottom x-axis title is not clipped.",
+        "Log-scale matrix residual and shallow-state error series are separated visibly; both legend entries are readable.",
+        "The three fixed-boundary fine-grid/Richardson pairs, positive and negative values, zero line, legend and long panel titles remain within the canvas."
+      ],
+      "unchanged_from_initial_visual_inspection": true
+    },
+    {
+      "file": "figures/Fig1_Evidence_Design_chinese.png",
+      "sha256": "aba12bd2bc4c3427f506d6a2a63460ffa769b462767fcb5f6380df32755fbb56",
+      "manifest_hash_matches": true,
+      "source_hashes_match": true,
+      "dimensions_pixels": [
+        2880,
+        1472
+      ],
+      "visual_inspection_method": "Each PNG opened individually using view_image and visually assessed by the AI reviewer; this is not a human sign-off.",
+      "inspection_display_pixels": [
+        2048,
+        1047
+      ],
+      "status": "pass",
+      "checks": {
+        "titles_legible": true,
+        "axis_or_flow_labels_legible": true,
+        "chinese_or_latin_glyphs_present": true,
+        "no_observed_clipping": true,
+        "no_observed_label_collision": true,
+        "legend_or_annotation_legible": true
+      },
+      "observations": [
+        "Six boxes, directional arrows and two separate calculation rows are legible; no text extends outside a box.",
+        "Main heading and supporting-case footer remain inside the canvas; Chinese characters and Latin method abbreviations display correctly.",
+        "This is a workflow schematic, not a quantitative axis plot.",
+        "Updated top-right box label reads 有符号误差归因; the new Chinese PNG was individually reopened using view_image and remains legible without clipping."
+      ],
+      "unchanged_from_initial_visual_inspection": false,
+      "reinspected_after_label_change": true
+    },
+    {
+      "file": "figures/Fig3_Gain_Transfer_chinese.png",
+      "sha256": "938820e209ae2d24d704f52db26911c87ba3db0bfc2848fbc9c910d0b93616fd",
+      "manifest_hash_matches": true,
+      "source_hashes_match": true,
+      "dimensions_pixels": [
+        2880,
+        1472
+      ],
+      "visual_inspection_method": "Each PNG opened individually using view_image and visually assessed by the AI reviewer; this is not a human sign-off.",
+      "inspection_display_pixels": [
+        2048,
+        1047
+      ],
+      "status": "pass",
+      "checks": {
+        "titles_legible": true,
+        "axis_or_flow_labels_legible": true,
+        "chinese_or_latin_glyphs_present": true,
+        "no_observed_clipping": true,
+        "no_observed_label_collision": true,
+        "legend_or_annotation_legible": true
+      },
+      "observations": [
+        "Both panel titles, axis labels, three seed legends and three distinct marker shapes are visible without clipping.",
+        "Panels share the -3 to 105 percent y limits; matched geometry counts are explicit in titles.",
+        "Test FCI endpoints overlap near zero at this scale, consistent with the small saved values; exact distinctions require the associated numerical table, not visual ranking."
+      ],
+      "unchanged_from_initial_visual_inspection": true
+    },
+    {
+      "file": "figures/Fig4_MSE_Attribution_chinese.png",
+      "sha256": "79f3b2c780c15eae1b8f2619d25af482d33f3b7834a026f29c112e3d140c65f6",
+      "manifest_hash_matches": true,
+      "source_hashes_match": true,
+      "dimensions_pixels": [
+        2880,
+        1472
+      ],
+      "visual_inspection_method": "Each PNG opened individually using view_image and visually assessed by the AI reviewer; this is not a human sign-off.",
+      "inspection_display_pixels": [
+        2048,
+        1047
+      ],
+      "status": "pass",
+      "checks": {
+        "titles_legible": true,
+        "axis_or_flow_labels_legible": true,
+        "chinese_or_latin_glyphs_present": true,
+        "no_observed_clipping": true,
+        "no_observed_label_collision": true,
+        "legend_or_annotation_legible": true
+      },
+      "observations": [
+        "Negative test cross terms are visible below zero on the symmetric-log axis; all four component labels and three seed markers are legible.",
+        "Hartree-squared source terms are multiplied by 1e6 for the plotted (mHartree)-squared unit in the reviewed generator.",
+        "The two panels have independently chosen y ranges; their absolute marker heights must not be compared across panels. Parent was advised to state this in both captions.",
+        "Small horizontal offsets distinguish seeds sharing the same reference component; no point appears cut off."
+      ],
+      "unchanged_from_initial_visual_inspection": true
+    },
+    {
+      "file": "figures/Fig6_Observable_Convergence_chinese.png",
+      "sha256": "3f5c413250ce21039adefa5d6f86cb252849a5251343c470c0be891ae2501478",
+      "manifest_hash_matches": true,
+      "source_hashes_match": true,
+      "dimensions_pixels": [
+        2880,
+        1472
+      ],
+      "visual_inspection_method": "Each PNG opened individually using view_image and visually assessed by the AI reviewer; this is not a human sign-off.",
+      "inspection_display_pixels": [
+        2048,
+        1047
+      ],
+      "status": "pass",
+      "checks": {
+        "titles_legible": true,
+        "axis_or_flow_labels_legible": true,
+        "chinese_or_latin_glyphs_present": true,
+        "no_observed_clipping": true,
+        "no_observed_label_collision": true,
+        "legend_or_annotation_legible": true
+      },
+      "observations": [
+        "Six categorical boundary/grid tick labels remain legible after rotation, and the bottom x-axis title is not clipped.",
+        "Log-scale matrix residual and shallow-state error series are separated visibly; both legend entries are readable.",
+        "The three fixed-boundary fine-grid/Richardson pairs, positive and negative values, zero line, legend and long panel titles remain within the canvas."
+      ],
+      "unchanged_from_initial_visual_inspection": true
+    }
+  ],
+  "svg_structure_review": [
+    {
+      "file": "figures/Fig1_Evidence_Design_english.svg",
+      "sha256": "3082ea0372fd9aa45e94755d0193b9a972fbf0df4f2eb8834c83984aa87d51c8",
+      "manifest_hash_matches": true,
+      "source_hashes_match": true,
+      "status": "structural_pass",
+      "independent_rendering_performed": false,
+      "xml_parses": true,
+      "root_is_svg": true,
+      "width": "648pt",
+      "height": "331.2pt",
+      "viewBox": [
+        0.0,
+        0.0,
+        648.0,
+        331.2
+      ],
+      "viewBox_valid": true,
+      "text_element_count": 20,
+      "path_element_count": 17,
+      "embedded_raster_images": 0,
+      "script_elements": 0,
+      "external_references": [],
+      "unresolved_fragment_references": [],
+      "replacement_character_count": 0,
+      "chinese_text_present": false,
+      "fonts_embedded": false,
+      "reparsed_after_regeneration": true
+    },
+    {
+      "file": "figures/Fig3_Gain_Transfer_english.svg",
+      "sha256": "9163cd7e83b56ea9bf5bb312407603b379b84e623339ff1e28dc2988e7e34fb3",
+      "manifest_hash_matches": true,
+      "source_hashes_match": true,
+      "status": "structural_pass",
+      "independent_rendering_performed": false,
+      "xml_parses": true,
+      "root_is_svg": true,
+      "width": "648pt",
+      "height": "331.2pt",
+      "viewBox": [
+        0.0,
+        0.0,
+        648.0,
+        331.2
+      ],
+      "viewBox_valid": true,
+      "text_element_count": 28,
+      "path_element_count": 26,
+      "embedded_raster_images": 0,
+      "script_elements": 0,
+      "external_references": [],
+      "unresolved_fragment_references": [],
+      "replacement_character_count": 0,
+      "chinese_text_present": false,
+      "fonts_embedded": false,
+      "reparsed_after_regeneration": true
+    },
+    {
+      "file": "figures/Fig4_MSE_Attribution_english.svg",
+      "sha256": "cc70c1af1550b4270c08fbac2cb51e56fd2aadc84cc0129e5c3db4e52e3bd0ea",
+      "manifest_hash_matches": true,
+      "source_hashes_match": true,
+      "status": "structural_pass",
+      "independent_rendering_performed": false,
+      "xml_parses": true,
+      "root_is_svg": true,
+      "width": "648pt",
+      "height": "331.2pt",
+      "viewBox": [
+        0.0,
+        0.0,
+        648.0,
+        331.2
+      ],
+      "viewBox_valid": true,
+      "text_element_count": 38,
+      "path_element_count": 14,
+      "embedded_raster_images": 0,
+      "script_elements": 0,
+      "external_references": [],
+      "unresolved_fragment_references": [],
+      "replacement_character_count": 0,
+      "chinese_text_present": false,
+      "fonts_embedded": false,
+      "reparsed_after_regeneration": true
+    },
+    {
+      "file": "figures/Fig6_Observable_Convergence_english.svg",
+      "sha256": "d683ea9b78576bd4a3978be7cc679a3ca5e33ddbf9299e85cd745b48b19c48f8",
+      "manifest_hash_matches": true,
+      "source_hashes_match": true,
+      "status": "structural_pass",
+      "independent_rendering_performed": false,
+      "xml_parses": true,
+      "root_is_svg": true,
+      "width": "648pt",
+      "height": "331.2pt",
+      "viewBox": [
+        0.0,
+        0.0,
+        648.0,
+        331.2
+      ],
+      "viewBox_valid": true,
+      "text_element_count": 34,
+      "path_element_count": 24,
+      "embedded_raster_images": 0,
+      "script_elements": 0,
+      "external_references": [],
+      "unresolved_fragment_references": [],
+      "replacement_character_count": 0,
+      "chinese_text_present": false,
+      "fonts_embedded": false,
+      "reparsed_after_regeneration": true
+    },
+    {
+      "file": "figures/Fig1_Evidence_Design_chinese.svg",
+      "sha256": "b42244d73408545ed043e62a406731c1b26b7ac3e259e41f9755588756b12d53",
+      "manifest_hash_matches": true,
+      "source_hashes_match": true,
+      "status": "structural_pass",
+      "independent_rendering_performed": false,
+      "xml_parses": true,
+      "root_is_svg": true,
+      "width": "648pt",
+      "height": "331.2pt",
+      "viewBox": [
+        0.0,
+        0.0,
+        648.0,
+        331.2
+      ],
+      "viewBox_valid": true,
+      "text_element_count": 20,
+      "path_element_count": 17,
+      "embedded_raster_images": 0,
+      "script_elements": 0,
+      "external_references": [],
+      "unresolved_fragment_references": [],
+      "replacement_character_count": 0,
+      "chinese_text_present": true,
+      "fonts_embedded": false,
+      "reparsed_after_regeneration": true
+    },
+    {
+      "file": "figures/Fig3_Gain_Transfer_chinese.svg",
+      "sha256": "cbcb2bb687f46e2584b69482a19890d296ca83cdaeb60a3d31a07b36a0a92ecd",
+      "manifest_hash_matches": true,
+      "source_hashes_match": true,
+      "status": "structural_pass",
+      "independent_rendering_performed": false,
+      "xml_parses": true,
+      "root_is_svg": true,
+      "width": "648pt",
+      "height": "331.2pt",
+      "viewBox": [
+        0.0,
+        0.0,
+        648.0,
+        331.2
+      ],
+      "viewBox_valid": true,
+      "text_element_count": 28,
+      "path_element_count": 26,
+      "embedded_raster_images": 0,
+      "script_elements": 0,
+      "external_references": [],
+      "unresolved_fragment_references": [],
+      "replacement_character_count": 0,
+      "chinese_text_present": true,
+      "fonts_embedded": false,
+      "reparsed_after_regeneration": true
+    },
+    {
+      "file": "figures/Fig4_MSE_Attribution_chinese.svg",
+      "sha256": "cd4f57052a987c3d9e4329aac5881abe449d81891d159fe41519016cb4e7108d",
+      "manifest_hash_matches": true,
+      "source_hashes_match": true,
+      "status": "structural_pass",
+      "independent_rendering_performed": false,
+      "xml_parses": true,
+      "root_is_svg": true,
+      "width": "648pt",
+      "height": "331.2pt",
+      "viewBox": [
+        0.0,
+        0.0,
+        648.0,
+        331.2
+      ],
+      "viewBox_valid": true,
+      "text_element_count": 38,
+      "path_element_count": 14,
+      "embedded_raster_images": 0,
+      "script_elements": 0,
+      "external_references": [],
+      "unresolved_fragment_references": [],
+      "replacement_character_count": 0,
+      "chinese_text_present": true,
+      "fonts_embedded": false,
+      "reparsed_after_regeneration": true
+    },
+    {
+      "file": "figures/Fig6_Observable_Convergence_chinese.svg",
+      "sha256": "f91fa4accf8a67e4a067fd7337c34cab71a03636f13b3d80cbe683ee7dd0844c",
+      "manifest_hash_matches": true,
+      "source_hashes_match": true,
+      "status": "structural_pass",
+      "independent_rendering_performed": false,
+      "xml_parses": true,
+      "root_is_svg": true,
+      "width": "648pt",
+      "height": "331.2pt",
+      "viewBox": [
+        0.0,
+        0.0,
+        648.0,
+        331.2
+      ],
+      "viewBox_valid": true,
+      "text_element_count": 34,
+      "path_element_count": 24,
+      "embedded_raster_images": 0,
+      "script_elements": 0,
+      "external_references": [],
+      "unresolved_fragment_references": [],
+      "replacement_character_count": 0,
+      "chinese_text_present": true,
+      "fonts_embedded": false,
+      "reparsed_after_regeneration": true
+    }
+  ],
+  "updated_at_utc": "2026-09-28T14:49:26.424782+00:00",
+  "changed_files_after_regeneration": [
+    {
+      "file": "figures/Fig1_Evidence_Design_chinese.png",
+      "previous_sha256": "ad6edd04d545b7d81b640c990dfabd9b180f08633876e1c73eadb8edead6d3cd",
+      "updated_sha256": "aba12bd2bc4c3427f506d6a2a63460ffa769b462767fcb5f6380df32755fbb56"
+    },
+    {
+      "file": "figures/Fig1_Evidence_Design_english.svg",
+      "previous_sha256": "27f662c368efacdf93b9c038a82521a3ff9b8cafb431342b38680b707372ae19",
+      "updated_sha256": "3082ea0372fd9aa45e94755d0193b9a972fbf0df4f2eb8834c83984aa87d51c8"
+    },
+    {
+      "file": "figures/Fig3_Gain_Transfer_english.svg",
+      "previous_sha256": "5fbee678428bc20f7fe253113940ba200e1640cedad43fd4a8ace6c6a07cee57",
+      "updated_sha256": "9163cd7e83b56ea9bf5bb312407603b379b84e623339ff1e28dc2988e7e34fb3"
+    },
+    {
+      "file": "figures/Fig4_MSE_Attribution_english.svg",
+      "previous_sha256": "a933d4354f6b35bf5eebd5d6c56f7f4608f8934eeba57deaf90bf3fcc1413952",
+      "updated_sha256": "cc70c1af1550b4270c08fbac2cb51e56fd2aadc84cc0129e5c3db4e52e3bd0ea"
+    },
+    {
+      "file": "figures/Fig6_Observable_Convergence_english.svg",
+      "previous_sha256": "85979e4c1e531f5adfee205b67012b135700474a4967e6fd1208e0effc292abd",
+      "updated_sha256": "d683ea9b78576bd4a3978be7cc679a3ca5e33ddbf9299e85cd745b48b19c48f8"
+    },
+    {
+      "file": "figures/Fig1_Evidence_Design_chinese.svg",
+      "previous_sha256": "29b17e59856946d37be44b859795c07f3afc1a34739d6d3ae9b6e8fbbb066da6",
+      "updated_sha256": "b42244d73408545ed043e62a406731c1b26b7ac3e259e41f9755588756b12d53"
+    },
+    {
+      "file": "figures/Fig3_Gain_Transfer_chinese.svg",
+      "previous_sha256": "aef0e6e4ff7e93d6057ae4addac05cff4efe687623eb3fe26248cc19824b789d",
+      "updated_sha256": "cbcb2bb687f46e2584b69482a19890d296ca83cdaeb60a3d31a07b36a0a92ecd"
+    },
+    {
+      "file": "figures/Fig4_MSE_Attribution_chinese.svg",
+      "previous_sha256": "895a3e0635dfa6183b7ff928076466cb639800aa831cd369cfb7aae91b58bd43",
+      "updated_sha256": "cd4f57052a987c3d9e4329aac5881abe449d81891d159fe41519016cb4e7108d"
+    },
+    {
+      "file": "figures/Fig6_Observable_Convergence_chinese.svg",
+      "previous_sha256": "57ca2a9daa02929054fce07eff3a54f41f7bd4b7b26a6b10d89a79aea30b865b",
+      "updated_sha256": "f91fa4accf8a67e4a067fd7337c34cab71a03636f13b3d80cbe683ee7dd0844c"
+    }
+  ]
+}

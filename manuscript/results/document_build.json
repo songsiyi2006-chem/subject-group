@@ -1,0 +1,41 @@
+{
+  "documents": [
+    {
+      "name": "manuscript_english",
+      "path": "manuscript/documents/manuscript_english.docx",
+      "sha256": "ceff4ec3a2d1d2ce7e0ca8bfe629c1d4dcba313733e30af14c88f7bb97dc657f",
+      "figures": 6,
+      "equations": 4,
+      "tables": 3,
+      "source_sha256": "b9f188ad387f91e4c11e7dec2fa245d037194a94c6158a816506b0898f219c04"
+    },
+    {
+      "name": "manuscript_chinese",
+      "path": "manuscript/documents/manuscript_chinese.docx",
+      "sha256": "158b0b5c196bdfdfa6e45b4bda9c1c2da4917ae5119719b4ad35f4def4520edf",
+      "figures": 6,
+      "equations": 4,
+      "tables": 3,
+      "source_sha256": "590f2d9aed53898ad5b5ce82cb4721208e987e0191580a2ef58893bf2298c75c"
+    },
+    {
+      "name": "supporting_information_english",
+      "path": "manuscript/documents/supporting_information_english.docx",
+      "sha256": "fc2587ef2ec6842b9d445b8a0ff30c3c53224043b2e81c71d4e8630a5ecb8c6b",
+      "figures": 0,
+      "equations": 1,
+      "tables": 4,
+      "source_sha256": "76fea068ea510fcb703dd972fb2c359867df7c537dbe290e7c29ceeaab8c348a"
+    },
+    {
+      "name": "supporting_information_chinese",
+      "path": "manuscript/documents/supporting_information_chinese.docx",
+      "sha256": "7185158bb96b630d912f40c2c4140c3a74fb6cd5e4d9c8fcffe6f2d394e5aa72",
+      "figures": 0,
+      "equations": 1,
+      "tables": 4,
+      "source_sha256": "42c6d5e116e126bd97cdfc3113d1deab93cb5d86eee5b50388c794bd74460cea"
+    }
+  ],
+  "equation_representation": "Matplotlib mathtext high-resolution images; editable LaTeX source supplied in assets/equations/equations.json"
+}

@@ -1,0 +1,32 @@
+{
+  "eq_1cdcac043c6bbecd": {
+    "width_inches": 2.6766666666666667,
+    "tex": "\\begin{aligned}\n\\widehat E-E_{\\rm FCI}&=\\epsilon+d+b,\\quad \\epsilon=\\widehat E-E_{\\rm RHF}^{\\rm old},\\\\\nd&=E_{\\rm RHF}^{\\rm old}-E_{\\rm RHF}^{\\rm new},\\quad b=E_{\\rm RHF}^{\\rm new}-E_{\\rm FCI}.\n\\end{aligned}",
+    "mathtext_parser_validated": true,
+    "renderer": "Matplotlib 3.11.1 mathtext/STIX; display image"
+  },
+  "eq_e0a2f0c899fcf21b": {
+    "width_inches": 2.2316666666666665,
+    "tex": "{\\rm MSE}_{\\rm FCI}=\\langle\\epsilon^2\\rangle+\\langle b^2\\rangle+2\\langle\\epsilon b\\rangle.",
+    "mathtext_parser_validated": true,
+    "renderer": "Matplotlib 3.11.1 mathtext/STIX; display image"
+  },
+  "eq_68420839c15b9b0b": {
+    "width_inches": 4.48,
+    "tex": "\\left|{\\rm RMSE}(b)-{\\rm RMSE}(\\epsilon)\\right|\n\\leq {\\rm RMSE}(\\epsilon+b)\n\\leq {\\rm RMSE}(b)+{\\rm RMSE}(\\epsilon).",
+    "mathtext_parser_validated": true,
+    "renderer": "Matplotlib 3.11.1 mathtext/STIX; display image"
+  },
+  "eq_cd4fb9a1f6087c06": {
+    "width_inches": 3.2066666666666666,
+    "tex": "V(r)=D_e[1-e^{-a(r-r_e)}]^2,\\qquad a=\\sqrt{k/(2D_e)}.",
+    "mathtext_parser_validated": true,
+    "renderer": "Matplotlib 3.11.1 mathtext/STIX; display image"
+  },
+  "eq_e1b552295972d99f": {
+    "width_inches": 4.775,
+    "tex": "\\widehat E-E_{FCI}=(\\widehat E-E_{old\\ RHF})+(E_{old\\ RHF}-E_{new\\ RHF})+(E_{new\\ RHF}-E_{FCI}).",
+    "mathtext_parser_validated": true,
+    "renderer": "Matplotlib 3.11.1 mathtext/STIX; display image"
+  }
+}

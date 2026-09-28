@@ -1,0 +1,435 @@
+{
+  "schema_version": 1,
+  "scope": "Bibliographic identity and rendering integrity, not scientific or journal-tier validation.",
+  "numbering_rule": "First appearance in English main text, then English SI; any Chinese-only keys are diagnosed. Uncited registry entries follow registry order in the complete bibliography only.",
+  "no_new_scientific_calculations": true,
+  "failures": [],
+  "warnings": [],
+  "registry_sha256": "2d9c0c81d9cf9e0c8b64647ba53db422f0aab38ab3bffadd1728881acf7cbbc0",
+  "script_sha256": "3a24204d0d3d74d37f26587d108dba14b1a54095fed5aafb7e0f44bdba2b5ec1",
+  "registry_references": 25,
+  "globally_cited_references": 19,
+  "unused_verified_keys": [
+    "leakage",
+    "datasail",
+    "bond_dissociation",
+    "moleculenet",
+    "digital_twin",
+    "datasail_addendum"
+  ],
+  "dangling_keys": [],
+  "duplicate_citation_groups": {
+    "manuscript_english.md": [],
+    "manuscript_chinese.md": [],
+    "supporting_information_english.md": [],
+    "supporting_information_chinese.md": []
+  },
+  "unverified_publication_keys": [],
+  "journal_classifications": {
+    "unke2021": "unverified",
+    "batzner2022": "unverified",
+    "evaluation": "unverified",
+    "uncertainty": "unverified",
+    "leakage": "unverified",
+    "datasail": "unverified",
+    "kamath2018": "unverified",
+    "bond_dissociation": "unverified",
+    "psi4": "unverified",
+    "dunning": "unverified",
+    "morse": "unverified",
+    "neb": "unverified",
+    "neb_tangent": "unverified",
+    "gillespie": "unverified",
+    "berendsen": "unverified",
+    "freesolv": "unverified",
+    "moleculenet": "unverified",
+    "digital_twin": "unverified",
+    "tang1": "unverified",
+    "tang2": "unverified",
+    "tang3": "unverified",
+    "tang4": "unverified",
+    "mpnn": "not_applicable",
+    "schnet": "unverified",
+    "datasail_addendum": "unverified"
+  },
+  "partial_author_list_keys": [
+    "batzner2022",
+    "psi4",
+    "schnet"
+  ],
+  "null_doi_keys": [
+    "evaluation",
+    "mpnn"
+  ],
+  "global_numbering": [
+    {
+      "number": 1,
+      "key": "unke2021",
+      "registry_id": "R01",
+      "cited": true
+    },
+    {
+      "number": 2,
+      "key": "batzner2022",
+      "registry_id": "R02",
+      "cited": true
+    },
+    {
+      "number": 3,
+      "key": "tang1",
+      "registry_id": "R19",
+      "cited": true
+    },
+    {
+      "number": 4,
+      "key": "tang2",
+      "registry_id": "R20",
+      "cited": true
+    },
+    {
+      "number": 5,
+      "key": "uncertainty",
+      "registry_id": "R04",
+      "cited": true
+    },
+    {
+      "number": 6,
+      "key": "evaluation",
+      "registry_id": "R03",
+      "cited": true
+    },
+    {
+      "number": 7,
+      "key": "psi4",
+      "registry_id": "R09",
+      "cited": true
+    },
+    {
+      "number": 8,
+      "key": "dunning",
+      "registry_id": "R10",
+      "cited": true
+    },
+    {
+      "number": 9,
+      "key": "mpnn",
+      "registry_id": "R23",
+      "cited": true
+    },
+    {
+      "number": 10,
+      "key": "schnet",
+      "registry_id": "R24",
+      "cited": true
+    },
+    {
+      "number": 11,
+      "key": "morse",
+      "registry_id": "R11",
+      "cited": true
+    },
+    {
+      "number": 12,
+      "key": "neb",
+      "registry_id": "R12",
+      "cited": true
+    },
+    {
+      "number": 13,
+      "key": "freesolv",
+      "registry_id": "R16",
+      "cited": true
+    },
+    {
+      "number": 14,
+      "key": "tang3",
+      "registry_id": "R21",
+      "cited": true
+    },
+    {
+      "number": 15,
+      "key": "tang4",
+      "registry_id": "R22",
+      "cited": true
+    },
+    {
+      "number": 16,
+      "key": "kamath2018",
+      "registry_id": "R07",
+      "cited": true
+    },
+    {
+      "number": 17,
+      "key": "gillespie",
+      "registry_id": "R14",
+      "cited": true
+    },
+    {
+      "number": 18,
+      "key": "berendsen",
+      "registry_id": "R15",
+      "cited": true
+    },
+    {
+      "number": 19,
+      "key": "neb_tangent",
+      "registry_id": "R13",
+      "cited": true
+    },
+    {
+      "number": 20,
+      "key": "leakage",
+      "registry_id": "R05",
+      "cited": false
+    },
+    {
+      "number": 21,
+      "key": "datasail",
+      "registry_id": "R06",
+      "cited": false
+    },
+    {
+      "number": 22,
+      "key": "bond_dissociation",
+      "registry_id": "R08",
+      "cited": false
+    },
+    {
+      "number": 23,
+      "key": "moleculenet",
+      "registry_id": "R17",
+      "cited": false
+    },
+    {
+      "number": 24,
+      "key": "digital_twin",
+      "registry_id": "R18",
+      "cited": false
+    },
+    {
+      "number": 25,
+      "key": "datasail_addendum",
+      "registry_id": "R25",
+      "cited": false
+    }
+  ],
+  "language_parity": {
+    "manuscript_english.md": {
+      "chinese_source": "manuscript_chinese.md",
+      "same_group_order": true,
+      "same_unique_keys": true
+    },
+    "supporting_information_english.md": {
+      "chinese_source": "supporting_information_chinese.md",
+      "same_group_order": true,
+      "same_unique_keys": true
+    }
+  },
+  "documents": {
+    "manuscript_english.md": {
+      "source_sha256": "f0ff36e75eaaf76ada38e949dc4e2315051361fb33823c252d4058aee44ac683",
+      "citation_groups": 15,
+      "citation_occurrences": 22,
+      "unique_cited_references": 16,
+      "reference_keys": [
+        "unke2021",
+        "batzner2022",
+        "tang1",
+        "tang2",
+        "uncertainty",
+        "evaluation",
+        "psi4",
+        "dunning",
+        "mpnn",
+        "schnet",
+        "morse",
+        "neb",
+        "freesolv",
+        "tang3",
+        "tang4",
+        "kamath2018"
+      ],
+      "reference_numbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "rendered_file": "manuscript/rendered/manuscript_english.md",
+      "local_link_count": 6,
+      "local_link_failures": []
+    },
+    "manuscript_chinese.md": {
+      "source_sha256": "a2b7c4a09d27e5d12b94e675fc54158ce487f70cc222415a020c8b489721521d",
+      "citation_groups": 15,
+      "citation_occurrences": 22,
+      "unique_cited_references": 16,
+      "reference_keys": [
+        "unke2021",
+        "batzner2022",
+        "tang1",
+        "tang2",
+        "uncertainty",
+        "evaluation",
+        "psi4",
+        "dunning",
+        "mpnn",
+        "schnet",
+        "morse",
+        "neb",
+        "freesolv",
+        "tang3",
+        "tang4",
+        "kamath2018"
+      ],
+      "reference_numbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "rendered_file": "manuscript/rendered/manuscript_chinese.md",
+      "local_link_count": 6,
+      "local_link_failures": []
+    },
+    "supporting_information_english.md": {
+      "source_sha256": "5f0d02c83967904209e2dc97d8b780faeb8b5f2f5ef13411a686754ed617a759",
+      "citation_groups": 6,
+      "citation_occurrences": 8,
+      "unique_cited_references": 8,
+      "reference_keys": [
+        "psi4",
+        "dunning",
+        "morse",
+        "neb",
+        "freesolv",
+        "gillespie",
+        "berendsen",
+        "neb_tangent"
+      ],
+      "reference_numbers": [
+        7,
+        8,
+        11,
+        12,
+        13,
+        17,
+        18,
+        19
+      ],
+      "rendered_file": "manuscript/rendered/supporting_information_english.md",
+      "local_link_count": 60,
+      "local_link_failures": []
+    },
+    "supporting_information_chinese.md": {
+      "source_sha256": "9830df67193063a75e2ed8f8ceb04fea658ad50eb53d2a57ae153582ad4833c4",
+      "citation_groups": 6,
+      "citation_occurrences": 8,
+      "unique_cited_references": 8,
+      "reference_keys": [
+        "psi4",
+        "dunning",
+        "morse",
+        "neb",
+        "freesolv",
+        "gillespie",
+        "berendsen",
+        "neb_tangent"
+      ],
+      "reference_numbers": [
+        7,
+        8,
+        11,
+        12,
+        13,
+        17,
+        18,
+        19
+      ],
+      "rendered_file": "manuscript/rendered/supporting_information_chinese.md",
+      "local_link_count": 60,
+      "local_link_failures": []
+    }
+  },
+  "source_markdown_unchanged_by_renderer": true,
+  "utf8_checks": {
+    "manuscript_english.md": {
+      "strict_utf8_decode": true,
+      "suspicious_sequences": []
+    },
+    "manuscript_chinese.md": {
+      "strict_utf8_decode": true,
+      "suspicious_sequences": []
+    },
+    "supporting_information_english.md": {
+      "strict_utf8_decode": true,
+      "suspicious_sequences": []
+    },
+    "supporting_information_chinese.md": {
+      "strict_utf8_decode": true,
+      "suspicious_sequences": []
+    },
+    "manuscript/rendered/manuscript_english.md": {
+      "strict_utf8_decode": true,
+      "suspicious_sequences": []
+    },
+    "manuscript/rendered/manuscript_chinese.md": {
+      "strict_utf8_decode": true,
+      "suspicious_sequences": []
+    },
+    "manuscript/rendered/supporting_information_english.md": {
+      "strict_utf8_decode": true,
+      "suspicious_sequences": []
+    },
+    "manuscript/rendered/supporting_information_chinese.md": {
+      "strict_utf8_decode": true,
+      "suspicious_sequences": []
+    },
+    "manuscript/bibliography.md": {
+      "strict_utf8_decode": true,
+      "suspicious_sequences": []
+    },
+    "manuscript/references.bib": {
+      "strict_utf8_decode": true,
+      "suspicious_sequences": []
+    },
+    "references_verified.json": {
+      "strict_utf8_decode": true,
+      "suspicious_sequences": []
+    }
+  },
+  "output_sha256": {
+    "manuscript/rendered/manuscript_english.md": "b9f188ad387f91e4c11e7dec2fa245d037194a94c6158a816506b0898f219c04",
+    "manuscript/rendered/manuscript_chinese.md": "590f2d9aed53898ad5b5ce82cb4721208e987e0191580a2ef58893bf2298c75c",
+    "manuscript/rendered/supporting_information_english.md": "76fea068ea510fcb703dd972fb2c359867df7c537dbe290e7c29ceeaab8c348a",
+    "manuscript/rendered/supporting_information_chinese.md": "42c6d5e116e126bd97cdfc3113d1deab93cb5d86eee5b50388c794bd74460cea",
+    "manuscript/bibliography.md": "b5e342dcb48bb48c0981b4d3c1d830dd0a50a108106f629350abbf968afb8d74",
+    "manuscript/references.bib": "70b558b2a2fa18665ea2350d7ff106c09097798dad1570926ee15e6e2ca289ae"
+  },
+  "passed": true,
+  "failure_count": 0
+}
