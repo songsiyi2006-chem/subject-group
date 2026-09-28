@@ -1,0 +1,17 @@
+seed,simulated_time_s,TOF_s_1,total_events,steady_TOF_s_1,interpretation
+72000,0.0999556940564719,24.229485101986437,3500,26.609520601078344,path-dependent transient stopping; no steady-state guarantee
+72001,0.10070370701456009,24.28224910972193,3500,26.609520601078344,path-dependent transient stopping; no steady-state guarantee
+72002,0.09859237344769038,25.03996925593673,3500,26.609520601078344,path-dependent transient stopping; no steady-state guarantee
+72003,0.09929774494607835,24.783417804063554,3500,26.609520601078344,path-dependent transient stopping; no steady-state guarantee
+72004,0.10293449581042212,23.452414868248436,3500,26.609520601078344,path-dependent transient stopping; no steady-state guarantee
+72005,0.09974954759165226,24.201237582375015,3500,26.609520601078344,path-dependent transient stopping; no steady-state guarantee
+72006,0.10391095728316721,23.607953041131186,3500,26.609520601078344,path-dependent transient stopping; no steady-state guarantee
+72007,0.09986977282366831,24.328557393335576,3500,26.609520601078344,path-dependent transient stopping; no steady-state guarantee
+72008,0.09845553714308462,24.83671889826011,3500,26.609520601078344,path-dependent transient stopping; no steady-state guarantee
+72009,0.10020153004394401,24.286991914521984,3500,26.609520601078344,path-dependent transient stopping; no steady-state guarantee
+72010,0.09921096178064467,24.45073816906845,3500,26.609520601078344,path-dependent transient stopping; no steady-state guarantee
+72011,0.10286624827702191,23.619870858483903,3500,26.609520601078344,path-dependent transient stopping; no steady-state guarantee
+72012,0.10240187260234322,23.99400701920149,3500,26.609520601078344,path-dependent transient stopping; no steady-state guarantee
+72013,0.0989941805200293,24.464821944861566,3500,26.609520601078344,path-dependent transient stopping; no steady-state guarantee
+72014,0.101310558445872,23.75122629775658,3500,26.609520601078344,path-dependent transient stopping; no steady-state guarantee
+72015,0.10162227456787226,23.985883118292378,3500,26.609520601078344,path-dependent transient stopping; no steady-state guarantee

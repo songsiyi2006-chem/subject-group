@@ -1,0 +1,742 @@
+{
+  "molecule_id": "target",
+  "name": "5-methoxy-2-phenyl-1H-indole",
+  "source_smiles": "COc1ccc2[nH]c(cc2c1)c3ccccc3",
+  "canonical_smiles": "COc1ccc2[nH]c(-c3ccccc3)cc2c1",
+  "formula": "C15H13NO",
+  "formal_charge": 0,
+  "radical_electrons": 0,
+  "requested_conformers": 6,
+  "attempts_per_seed": 6,
+  "seeds": [
+    20260928
+  ],
+  "records": [
+    {
+      "molecule_id": "target",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "optimization_status": 0,
+      "energy_kcal_mol": 32.56589274864027,
+      "sasa_A2": 455.53558409805447,
+      "sasa_orientation_sd_A2": 3.0341294755315293,
+      "sasa_orientation_range_A2": 11.355094444662484,
+      "sasa_first_half_vs_all_abs_delta_A2": 0.8832486329769154,
+      "mass_weighted_Rg_A": 3.6294963461171776,
+      "unweighted_Rg_A": 4.141514024239807
+    },
+    {
+      "molecule_id": "target",
+      "seed": 20260928,
+      "conformer_id": 1,
+      "optimization_status": 0,
+      "energy_kcal_mol": 32.21464906560709,
+      "sasa_A2": 455.64204933299976,
+      "sasa_orientation_sd_A2": 1.8889447137294166,
+      "sasa_orientation_range_A2": 8.889333141962936,
+      "sasa_first_half_vs_all_abs_delta_A2": 0.182271285201125,
+      "mass_weighted_Rg_A": 3.5852566626708655,
+      "unweighted_Rg_A": 4.041499154830855
+    }
+  ],
+  "replicas": [
+    {
+      "seed": 20260928,
+      "requested": 6,
+      "returned_after_embedding_pruning": 2,
+      "unreturned_pruned_or_failed": 4,
+      "embedding_failure_event_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "converged": 2,
+      "nonconverged": 0,
+      "selected_minima": [
+        1,
+        0
+      ],
+      "deduplication": [
+        {
+          "conformer_id": 1,
+          "representative_id": 1,
+          "rmsd_to_representative_A": 0.0,
+          "selected": true
+        },
+        {
+          "conformer_id": 0,
+          "representative_id": 0,
+          "rmsd_to_representative_A": 0.0,
+          "selected": true
+        }
+      ]
+    }
+  ],
+  "summaries": [
+    {
+      "molecule_id": "target",
+      "scope": "seed_20260928",
+      "status": "success",
+      "temperature_K": 250.0,
+      "unique_minima": 2,
+      "effective_minima_count": 1.7933245733754724,
+      "minimum_energy_kcal_mol": 32.21464906560709,
+      "energy_span_kcal_mol": 0.3512436830331822,
+      "weighted_sasa_A2": 455.60688815688513,
+      "within_minima_sd_sasa_A2": 0.05007129487272285,
+      "weighted_mass_weighted_Rg_A": 3.5998672470715727,
+      "within_minima_sd_mass_weighted_Rg_A": 0.02080621186863975,
+      "weighted_unweighted_Rg_A": 4.074530035185109,
+      "within_minima_sd_unweighted_Rg_A": 0.04703764586069781
+    },
+    {
+      "molecule_id": "target",
+      "scope": "seed_20260928",
+      "status": "success",
+      "temperature_K": 298.15,
+      "unique_minima": 2,
+      "effective_minima_count": 1.8467890045930746,
+      "minimum_energy_kcal_mol": 32.21464906560709,
+      "energy_span_kcal_mol": 0.3512436830331822,
+      "weighted_sasa_A2": 455.60414925700275,
+      "within_minima_sd_sasa_A2": 0.05097670776823384,
+      "weighted_mass_weighted_Rg_A": 3.6010053468827774,
+      "within_minima_sd_mass_weighted_Rg_A": 0.021182439657045967,
+      "weighted_unweighted_Rg_A": 4.077102994463403,
+      "within_minima_sd_unweighted_Rg_A": 0.04788820287634942
+    },
+    {
+      "molecule_id": "target",
+      "scope": "seed_20260928",
+      "status": "success",
+      "temperature_K": 350.0,
+      "unique_minima": 2,
+      "effective_minima_count": 1.8847603338723344,
+      "minimum_energy_kcal_mol": 32.21464906560709,
+      "energy_span_kcal_mol": 0.3512436830331822,
+      "weighted_sasa_A2": 455.6019795903205,
+      "within_minima_sd_sasa_A2": 0.05157955302405924,
+      "weighted_mass_weighted_Rg_A": 3.601906912236511,
+      "within_minima_sd_mass_weighted_Rg_A": 0.021432940990166887,
+      "weighted_unweighted_Rg_A": 4.0791412084399274,
+      "within_minima_sd_unweighted_Rg_A": 0.0484545237938411
+    },
+    {
+      "molecule_id": "target",
+      "scope": "pooled",
+      "status": "success",
+      "temperature_K": 250.0,
+      "unique_minima": 2,
+      "effective_minima_count": 1.7933245733754724,
+      "minimum_energy_kcal_mol": 32.21464906560709,
+      "energy_span_kcal_mol": 0.3512436830331822,
+      "weighted_sasa_A2": 455.60688815688513,
+      "within_minima_sd_sasa_A2": 0.05007129487272285,
+      "weighted_mass_weighted_Rg_A": 3.5998672470715727,
+      "within_minima_sd_mass_weighted_Rg_A": 0.02080621186863975,
+      "weighted_unweighted_Rg_A": 4.074530035185109,
+      "within_minima_sd_unweighted_Rg_A": 0.04703764586069781
+    },
+    {
+      "molecule_id": "target",
+      "scope": "pooled",
+      "status": "success",
+      "temperature_K": 298.15,
+      "unique_minima": 2,
+      "effective_minima_count": 1.8467890045930746,
+      "minimum_energy_kcal_mol": 32.21464906560709,
+      "energy_span_kcal_mol": 0.3512436830331822,
+      "weighted_sasa_A2": 455.60414925700275,
+      "within_minima_sd_sasa_A2": 0.05097670776823384,
+      "weighted_mass_weighted_Rg_A": 3.6010053468827774,
+      "within_minima_sd_mass_weighted_Rg_A": 0.021182439657045967,
+      "weighted_unweighted_Rg_A": 4.077102994463403,
+      "within_minima_sd_unweighted_Rg_A": 0.04788820287634942
+    },
+    {
+      "molecule_id": "target",
+      "scope": "pooled",
+      "status": "success",
+      "temperature_K": 350.0,
+      "unique_minima": 2,
+      "effective_minima_count": 1.8847603338723344,
+      "minimum_energy_kcal_mol": 32.21464906560709,
+      "energy_span_kcal_mol": 0.3512436830331822,
+      "weighted_sasa_A2": 455.6019795903205,
+      "within_minima_sd_sasa_A2": 0.05157955302405924,
+      "weighted_mass_weighted_Rg_A": 3.601906912236511,
+      "within_minima_sd_mass_weighted_Rg_A": 0.021432940990166887,
+      "weighted_unweighted_Rg_A": 4.0791412084399274,
+      "within_minima_sd_unweighted_Rg_A": 0.0484545237938411
+    }
+  ],
+  "weights": [
+    {
+      "molecule_id": "target",
+      "scope": "seed_20260928",
+      "conformer_id": 1,
+      "temperature_K": 250.0,
+      "relative_energy_kcal_mol": 0.0,
+      "forcefield_minima_weight": 0.6697403041222425
+    },
+    {
+      "molecule_id": "target",
+      "scope": "seed_20260928",
+      "conformer_id": 0,
+      "temperature_K": 250.0,
+      "relative_energy_kcal_mol": 0.3512436830331822,
+      "forcefield_minima_weight": 0.33025969587775744
+    },
+    {
+      "molecule_id": "target",
+      "scope": "seed_20260928",
+      "conformer_id": 1,
+      "temperature_K": 298.15,
+      "relative_energy_kcal_mol": 0.0,
+      "forcefield_minima_weight": 0.6440145366088782
+    },
+    {
+      "molecule_id": "target",
+      "scope": "seed_20260928",
+      "conformer_id": 0,
+      "temperature_K": 298.15,
+      "relative_energy_kcal_mol": 0.3512436830331822,
+      "forcefield_minima_weight": 0.3559854633911218
+    },
+    {
+      "molecule_id": "target",
+      "scope": "seed_20260928",
+      "conformer_id": 1,
+      "temperature_K": 350.0,
+      "relative_energy_kcal_mol": 0.0,
+      "forcefield_minima_weight": 0.6236354270967644
+    },
+    {
+      "molecule_id": "target",
+      "scope": "seed_20260928",
+      "conformer_id": 0,
+      "temperature_K": 350.0,
+      "relative_energy_kcal_mol": 0.3512436830331822,
+      "forcefield_minima_weight": 0.3763645729032355
+    },
+    {
+      "molecule_id": "target",
+      "scope": "pooled",
+      "conformer_id": 1,
+      "temperature_K": 250.0,
+      "relative_energy_kcal_mol": 0.0,
+      "forcefield_minima_weight": 0.6697403041222425
+    },
+    {
+      "molecule_id": "target",
+      "scope": "pooled",
+      "conformer_id": 0,
+      "temperature_K": 250.0,
+      "relative_energy_kcal_mol": 0.3512436830331822,
+      "forcefield_minima_weight": 0.33025969587775744
+    },
+    {
+      "molecule_id": "target",
+      "scope": "pooled",
+      "conformer_id": 1,
+      "temperature_K": 298.15,
+      "relative_energy_kcal_mol": 0.0,
+      "forcefield_minima_weight": 0.6440145366088782
+    },
+    {
+      "molecule_id": "target",
+      "scope": "pooled",
+      "conformer_id": 0,
+      "temperature_K": 298.15,
+      "relative_energy_kcal_mol": 0.3512436830331822,
+      "forcefield_minima_weight": 0.3559854633911218
+    },
+    {
+      "molecule_id": "target",
+      "scope": "pooled",
+      "conformer_id": 1,
+      "temperature_K": 350.0,
+      "relative_energy_kcal_mol": 0.0,
+      "forcefield_minima_weight": 0.6236354270967644
+    },
+    {
+      "molecule_id": "target",
+      "scope": "pooled",
+      "conformer_id": 0,
+      "temperature_K": 350.0,
+      "relative_energy_kcal_mol": 0.3512436830331822,
+      "forcefield_minima_weight": 0.3763645729032355
+    }
+  ],
+  "surface_quadrature": [
+    {
+      "molecule_id": "target",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 0,
+      "sasa_A2": 456.956738108215
+    },
+    {
+      "molecule_id": "target",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 1,
+      "sasa_A2": 457.0044261629261
+    },
+    {
+      "molecule_id": "target",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 2,
+      "sasa_A2": 454.5728572338892
+    },
+    {
+      "molecule_id": "target",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 3,
+      "sasa_A2": 459.53849129842337
+    },
+    {
+      "molecule_id": "target",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 4,
+      "sasa_A2": 457.0772160335348
+    },
+    {
+      "molecule_id": "target",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 5,
+      "sasa_A2": 458.754938084798
+    },
+    {
+      "molecule_id": "target",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 6,
+      "sasa_A2": 454.8863533997297
+    },
+    {
+      "molecule_id": "target",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 7,
+      "sasa_A2": 454.18448476656556
+    },
+    {
+      "molecule_id": "target",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 8,
+      "sasa_A2": 456.56201713447354
+    },
+    {
+      "molecule_id": "target",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 9,
+      "sasa_A2": 453.1571083822538
+    },
+    {
+      "molecule_id": "target",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 10,
+      "sasa_A2": 458.91719974027933
+    },
+    {
+      "molecule_id": "target",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 11,
+      "sasa_A2": 455.4141624272878
+    },
+    {
+      "molecule_id": "target",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 12,
+      "sasa_A2": 457.62430809719064
+    },
+    {
+      "molecule_id": "target",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 13,
+      "sasa_A2": 458.47996142193347
+    },
+    {
+      "molecule_id": "target",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 14,
+      "sasa_A2": 448.1833968537609
+    },
+    {
+      "molecule_id": "target",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 15,
+      "sasa_A2": 459.35681891104065
+    },
+    {
+      "molecule_id": "target",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 16,
+      "sasa_A2": 451.7147179957529
+    },
+    {
+      "molecule_id": "target",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 17,
+      "sasa_A2": 458.4104975655778
+    },
+    {
+      "molecule_id": "target",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 18,
+      "sasa_A2": 449.34545468721547
+    },
+    {
+      "molecule_id": "target",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 19,
+      "sasa_A2": 456.74236173320315
+    },
+    {
+      "molecule_id": "target",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 20,
+      "sasa_A2": 454.1433834553912
+    },
+    {
+      "molecule_id": "target",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 21,
+      "sasa_A2": 455.12548889235734
+    },
+    {
+      "molecule_id": "target",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 22,
+      "sasa_A2": 454.2113907019532
+    },
+    {
+      "molecule_id": "target",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 23,
+      "sasa_A2": 452.49024526555485
+    },
+    {
+      "molecule_id": "target",
+      "seed": 20260928,
+      "conformer_id": 1,
+      "orientation_index": 0,
+      "sasa_A2": 457.1943324829727
+    },
+    {
+      "molecule_id": "target",
+      "seed": 20260928,
+      "conformer_id": 1,
+      "orientation_index": 1,
+      "sasa_A2": 455.0006739095242
+    },
+    {
+      "molecule_id": "target",
+      "seed": 20260928,
+      "conformer_id": 1,
+      "orientation_index": 2,
+      "sasa_A2": 453.44028855632865
+    },
+    {
+      "molecule_id": "target",
+      "seed": 20260928,
+      "conformer_id": 1,
+      "orientation_index": 3,
+      "sasa_A2": 454.05558596997537
+    },
+    {
+      "molecule_id": "target",
+      "seed": 20260928,
+      "conformer_id": 1,
+      "orientation_index": 4,
+      "sasa_A2": 458.11247232408067
+    },
+    {
+      "molecule_id": "target",
+      "seed": 20260928,
+      "conformer_id": 1,
+      "orientation_index": 5,
+      "sasa_A2": 454.55081374203996
+    },
+    {
+      "molecule_id": "target",
+      "seed": 20260928,
+      "conformer_id": 1,
+      "orientation_index": 6,
+      "sasa_A2": 455.6961634604919
+    },
+    {
+      "molecule_id": "target",
+      "seed": 20260928,
+      "conformer_id": 1,
+      "orientation_index": 7,
+      "sasa_A2": 457.4207555739074
+    },
+    {
+      "molecule_id": "target",
+      "seed": 20260928,
+      "conformer_id": 1,
+      "orientation_index": 8,
+      "sasa_A2": 456.3016982883039
+    },
+    {
+      "molecule_id": "target",
+      "seed": 20260928,
+      "conformer_id": 1,
+      "orientation_index": 9,
+      "sasa_A2": 454.65872248442093
+    },
+    {
+      "molecule_id": "target",
+      "seed": 20260928,
+      "conformer_id": 1,
+      "orientation_index": 10,
+      "sasa_A2": 456.1101287418926
+    },
+    {
+      "molecule_id": "target",
+      "seed": 20260928,
+      "conformer_id": 1,
+      "orientation_index": 11,
+      "sasa_A2": 452.9757010396465
+    },
+    {
+      "molecule_id": "target",
+      "seed": 20260928,
+      "conformer_id": 1,
+      "orientation_index": 12,
+      "sasa_A2": 455.25184208870184
+    },
+    {
+      "molecule_id": "target",
+      "seed": 20260928,
+      "conformer_id": 1,
+      "orientation_index": 13,
+      "sasa_A2": 457.9550607779588
+    },
+    {
+      "molecule_id": "target",
+      "seed": 20260928,
+      "conformer_id": 1,
+      "orientation_index": 14,
+      "sasa_A2": 459.1172533150493
+    },
+    {
+      "molecule_id": "target",
+      "seed": 20260928,
+      "conformer_id": 1,
+      "orientation_index": 15,
+      "sasa_A2": 450.2279201730864
+    },
+    {
+      "molecule_id": "target",
+      "seed": 20260928,
+      "conformer_id": 1,
+      "orientation_index": 16,
+      "sasa_A2": 456.78778897162204
+    },
+    {
+      "molecule_id": "target",
+      "seed": 20260928,
+      "conformer_id": 1,
+      "orientation_index": 17,
+      "sasa_A2": 454.8099092766518
+    },
+    {
+      "molecule_id": "target",
+      "seed": 20260928,
+      "conformer_id": 1,
+      "orientation_index": 18,
+      "sasa_A2": 456.3434247004627
+    },
+    {
+      "molecule_id": "target",
+      "seed": 20260928,
+      "conformer_id": 1,
+      "orientation_index": 19,
+      "sasa_A2": 455.12154271356985
+    },
+    {
+      "molecule_id": "target",
+      "seed": 20260928,
+      "conformer_id": 1,
+      "orientation_index": 20,
+      "sasa_A2": 454.88788121583053
+    },
+    {
+      "molecule_id": "target",
+      "seed": 20260928,
+      "conformer_id": 1,
+      "orientation_index": 21,
+      "sasa_A2": 456.6119059676603
+    },
+    {
+      "molecule_id": "target",
+      "seed": 20260928,
+      "conformer_id": 1,
+      "orientation_index": 22,
+      "sasa_A2": 455.93836343211603
+    },
+    {
+      "molecule_id": "target",
+      "seed": 20260928,
+      "conformer_id": 1,
+      "orientation_index": 23,
+      "sasa_A2": 456.8389547857016
+    }
+  ],
+  "radii_audit": {
+    "explicit_vdw_A": [
+      1.7,
+      1.55,
+      1.7,
+      1.7,
+      1.7,
+      1.7,
+      1.6,
+      1.7,
+      1.7,
+      1.7,
+      1.7,
+      1.7,
+      1.7,
+      1.7,
+      1.7,
+      1.7,
+      1.7,
+      1.2,
+      1.2,
+      1.2,
+      1.2,
+      1.2,
+      1.2,
+      1.2,
+      1.2,
+      1.2,
+      1.2,
+      1.2,
+      1.2,
+      1.2
+    ],
+    "classifier_zero_count": 30,
+    "classifier_returned_none": false,
+    "method": "RDKit periodic-table vdW radii, all atoms including explicit H",
+    "probe_radius_A": 1.4,
+    "algorithm": "LeeRichards",
+    "rotation_average_count": 24,
+    "rotation_seed": 17381
+  },
+  "pooled_deduplication": [
+    {
+      "conformer_id": 1,
+      "representative_id": 1,
+      "rmsd_to_representative_A": 0.0,
+      "selected": true
+    },
+    {
+      "conformer_id": 0,
+      "representative_id": 0,
+      "rmsd_to_representative_A": 0.0,
+      "selected": true
+    }
+  ],
+  "pooled_selected_minima": [
+    1,
+    0
+  ],
+  "seed_variability": [
+    {
+      "molecule_id": "target",
+      "temperature_K": 250.0,
+      "successful_seeds": 1,
+      "minimum_energy_kcal_mol_mean": 32.21464906560709,
+      "minimum_energy_kcal_mol_range": 0.0,
+      "minimum_energy_kcal_mol_sample_sd": null,
+      "weighted_sasa_A2_mean": 455.60688815688513,
+      "weighted_sasa_A2_range": 0.0,
+      "weighted_sasa_A2_sample_sd": null,
+      "weighted_mass_weighted_Rg_A_mean": 3.5998672470715727,
+      "weighted_mass_weighted_Rg_A_range": 0.0,
+      "weighted_mass_weighted_Rg_A_sample_sd": null,
+      "effective_minima_count_mean": 1.7933245733754724,
+      "effective_minima_count_range": 0.0,
+      "effective_minima_count_sample_sd": null
+    },
+    {
+      "molecule_id": "target",
+      "temperature_K": 298.15,
+      "successful_seeds": 1,
+      "minimum_energy_kcal_mol_mean": 32.21464906560709,
+      "minimum_energy_kcal_mol_range": 0.0,
+      "minimum_energy_kcal_mol_sample_sd": null,
+      "weighted_sasa_A2_mean": 455.60414925700275,
+      "weighted_sasa_A2_range": 0.0,
+      "weighted_sasa_A2_sample_sd": null,
+      "weighted_mass_weighted_Rg_A_mean": 3.6010053468827774,
+      "weighted_mass_weighted_Rg_A_range": 0.0,
+      "weighted_mass_weighted_Rg_A_sample_sd": null,
+      "effective_minima_count_mean": 1.8467890045930746,
+      "effective_minima_count_range": 0.0,
+      "effective_minima_count_sample_sd": null
+    },
+    {
+      "molecule_id": "target",
+      "temperature_K": 350.0,
+      "successful_seeds": 1,
+      "minimum_energy_kcal_mol_mean": 32.21464906560709,
+      "minimum_energy_kcal_mol_range": 0.0,
+      "minimum_energy_kcal_mol_sample_sd": null,
+      "weighted_sasa_A2_mean": 455.6019795903205,
+      "weighted_sasa_A2_range": 0.0,
+      "weighted_sasa_A2_sample_sd": null,
+      "weighted_mass_weighted_Rg_A_mean": 3.601906912236511,
+      "weighted_mass_weighted_Rg_A_range": 0.0,
+      "weighted_mass_weighted_Rg_A_sample_sd": null,
+      "effective_minima_count_mean": 1.8847603338723344,
+      "effective_minima_count_range": 0.0,
+      "effective_minima_count_sample_sd": null
+    }
+  ],
+  "returned_after_embedding_pruning": 2,
+  "converged": 2,
+  "nonconverged": 0,
+  "pooled_unique_minima": 2,
+  "status": "success",
+  "coordinate_sha256": {
+    "target_embedded.sdf": "561870ee75f83f1512128ee062aa88f49abc7b6f605795eb7ccbc74ea1c5768d",
+    "target_optimized.sdf": "b68d18a92310127d7db57146fea95bfce501ed8791cc741cc11271d6bc7ddc16"
+  }
+}

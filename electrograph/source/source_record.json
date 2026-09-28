@@ -1,0 +1,24 @@
+{
+  "specification_sha256": "25469ea9c1db8be22c03a034210b325aad081ae30e42d2d1549cff8923e3d571",
+  "original_python_sha256": "2ac28e83ba3b914662bc145d256041793ae370dcbc87be27c7773df9f15656af",
+  "compatibility_python_sha256": "98cfb428dea16a2e639247ebd68897ba167c0eec6d7052f778fdd947f7dc4c55",
+  "repairs": [
+    "Remove nonexistent unused AROMATIC hybridization enum",
+    "Use ETKDG EmbedParameters pruning field and supported overload",
+    "Correct FreeSASA function and conformer keyword names",
+    "Correct force-field minimizer keyword"
+  ],
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.4.6",
+    "scipy": "1.18.0",
+    "pandas": "2.3.3",
+    "matplotlib": "3.11.1",
+    "torch": "2.10.0",
+    "rdkit": "2026.3.5"
+  },
+  "compatibility_scope": "Four API repairs only; random weights, zero classified radii, source kinetics, hardcoded curve and CGR claims preserved.",
+  "log_policy": "Local repository and runtime path prefixes sanitized in published logs.",
+  "conformer_seed_policy": "Original and compatibility scripts leave ETKDG randomSeed at its default; the reviewed structure module records explicit seeds.",
+  "archived_failed_intermediate_source_sha256": "13513d164658d552cde2368379455666c7968b11dab6d277e2c41a99557ed219"
+}

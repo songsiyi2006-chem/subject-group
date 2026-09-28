@@ -1,0 +1,17 @@
+[
+  {
+    "case": "unsupported_metal",
+    "status": "unsupported",
+    "reason": "Disconnected structure or incomplete MMFF94 parameters"
+  },
+  {
+    "case": "disconnected",
+    "status": "unsupported",
+    "reason": "Disconnected structure or incomplete MMFF94 parameters"
+  },
+  {
+    "case": "invalid",
+    "status": "rejected",
+    "reason": "Invalid SMILES"
+  }
+]

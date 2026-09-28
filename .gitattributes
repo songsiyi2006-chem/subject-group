@@ -26,4 +26,8 @@ toolkit/reports/figures/** -text -whitespace
 electratwin/source/** -text -whitespace
 electratwin/results/** -text -whitespace
 electratwin/reports/figures/** -text -whitespace
+electrograph/source/** -text -whitespace
+electrograph/results/** -text -whitespace
+electrograph/data/** -text -whitespace
+electrograph/reports/figures/** -text -whitespace
 *.png binary

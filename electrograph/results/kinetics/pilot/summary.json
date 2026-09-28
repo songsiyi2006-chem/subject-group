@@ -1,0 +1,208 @@
+{
+  "schema_version": 1,
+  "mode": "pilot",
+  "evidence": "ASSUMED independent-site stochastic model; numerical verification only",
+  "source_corrections": [
+    "post-event coverage logging",
+    "actual executed event count",
+    "fixed-time censoring",
+    "time-weighted occupancy",
+    "computed potential sweep replaces hard-coded TOFs"
+  ],
+  "model": {
+    "states": [
+      "empty",
+      "substrate",
+      "radical",
+      "intermediate",
+      "product"
+    ],
+    "steps": [
+      "adsorption",
+      "SET",
+      "coupling",
+      "PCET",
+      "desorption"
+    ],
+    "reference_eta_V": 0.48,
+    "reference_rates_s_1": [
+      45.0,
+      1368505.7269032567,
+      350.0,
+      2280842.8781720945,
+      80.0
+    ],
+    "horizon_s": 1.0,
+    "burn_in_s": 0.2,
+    "electrons_per_complete_cycle": 2,
+    "inter_site_interactions": false,
+    "spatial_periodic_boundary_operations": false,
+    "fitted_rates": false
+  },
+  "counts": {
+    "study_SSA_trajectories": 5,
+    "potential_trajectories": 4,
+    "baseline_trajectories": 1,
+    "site_scaling_trajectories": 0,
+    "two_class_trajectories": 0,
+    "fixed_event_diagnostic_trajectories": 0,
+    "executed_SSA_events": 169216,
+    "analytic_rate_perturbation_cases": 105,
+    "analytic_transient_times": 101,
+    "analytic_cycle_CDF_times": 151,
+    "pilot_excluded_from_full_counts": true,
+    "unit_tests_excluded_from_study_counts": true
+  },
+  "potential_summary": [
+    {
+      "eta_V": 0.2,
+      "trajectories": 2,
+      "mean_TOF_s_1": 26.36962890625,
+      "sd_TOF_s_1": 0.14155946303051,
+      "mean_MC_lower_95pct_t": 25.097767592326264,
+      "mean_MC_upper_95pct_t": 27.641490220173736,
+      "finite_window_CTMC_TOF_s_1": 26.41915881867595,
+      "steady_TOF_s_1": 26.419158818676234,
+      "relative_mean_error_vs_finite_CTMC": -0.0018747724999834765,
+      "total_events": 67347,
+      "CTMC_probability_sum_error": 4.551914400963142e-15,
+      "CTMC_window_occupancy_sum_error": 7.216449660063518e-15,
+      "steady_empty": 0.5870924181928052,
+      "steady_substrate": 0.004490491039523925,
+      "steady_radical": 0.07548331091050353,
+      "steady_intermediate": 0.002694294623714355,
+      "steady_product": 0.330239485233453
+    },
+    {
+      "eta_V": 0.7,
+      "trajectories": 2,
+      "mean_TOF_s_1": 26.45263671875,
+      "sd_TOF_s_1": 0.017263349150062196,
+      "mean_MC_lower_95pct_t": 26.29753168046662,
+      "mean_MC_upper_95pct_t": 26.60774175703338,
+      "finite_window_CTMC_TOF_s_1": 26.610337038804797,
+      "steady_TOF_s_1": 26.610337027268926,
+      "relative_mean_error_vs_finite_CTMC": -0.0059262804460097195,
+      "total_events": 68037,
+      "CTMC_probability_sum_error": 6.357270265766601e-10,
+      "CTMC_window_occupancy_sum_error": 4.358373661972337e-10,
+      "steady_empty": 0.5913408228281984,
+      "steady_substrate": 2.687295716333069e-07,
+      "steady_radical": 0.0760295343636255,
+      "steady_intermediate": 1.6123774297998419e-07,
+      "steady_product": 0.3326292128408616
+    }
+  ],
+  "site_scaling": [],
+  "two_class_summary": [],
+  "reference_steady": {
+    "occupancy": [
+      0.5913226800239633,
+      1.9444215744198665e-05,
+      0.0760272017173667,
+      1.16665294465192e-05,
+      0.33261900751347934
+    ],
+    "TOF_s_1": 26.609520601078344,
+    "mean_cycle_wait_s": 0.037580534237789884,
+    "cycle_wait_variance_s2": 0.0006582404265261319,
+    "rate_log_elasticity": [
+      0.5913226800239633,
+      1.9444215744198665e-05,
+      0.0760272017173667,
+      1.16665294465192e-05,
+      0.33261900751347934
+    ],
+    "renewal_long_time_product_Fano_factor": 0.4660780519851331
+  },
+  "reference_finite_window": {
+    "final_probability": [
+      0.5913226800029441,
+      1.944421574350753e-05,
+      0.07602720171468456,
+      1.1666529446107627e-05,
+      0.3326190075016905
+    ],
+    "burn_in_probability": [
+      0.5913226800253074,
+      1.9444215744242863e-05,
+      0.07602720171754992,
+      1.1666529446547327e-05,
+      0.33261900751382084
+    ],
+    "time_average_probability": [
+      0.5913226800106756,
+      1.9444215743761742e-05,
+      0.07602720171568578,
+      1.1666529446261257e-05,
+      0.33261900750605855
+    ],
+    "expected_reaction_counts_per_site": [
+      21.287616480384322,
+      21.28761648038433,
+      21.287616480392018,
+      21.287616480392014,
+      21.28761648038775
+    ],
+    "expected_TOF_s_1": 26.609520600484686,
+    "expected_electrons_per_site_s": 53.21904120097043,
+    "probability_sum_error": 3.5491276584309617e-11,
+    "window_occupancy_sum_error": 2.2390089782220457e-11
+  },
+  "fixed_event_diagnostic": {
+    "count": 0,
+    "mean_TOF_s_1": null,
+    "min_time_s": null,
+    "max_time_s": null
+  },
+  "rate_limited_TOF_upper_bound_s_1": 26.610348468848997,
+  "source_hardcoded_TOFs_not_used": [
+    4.2,
+    12.8,
+    38.4,
+    95.1,
+    184.6,
+    260.2
+  ],
+  "numerical_checks": {
+    "max_occupancy_sum_error": 6.8833827526759706e-15,
+    "all_site_and_electron_balances_exact": true,
+    "all_fixed_time_horizons_exact": true,
+    "reference_CTMC_probability_sum_error": 3.5491276584309617e-11,
+    "reference_CTMC_window_sum_error": 2.2390089782220457e-11
+  },
+  "interval_scope": "Student-t intervals for mean across independent PRNG seeds conditional on fixed assumed rates; not parameter/physical confidence; simultaneous coverage not adjusted",
+  "limitations": [
+    "Five irreversible pseudo-first-order reactions; no thermodynamic reverse rates or electrolyte transport",
+    "Two classes represent assigned static rate variation only; no neighbors, hopping, geometry or periodic operations",
+    "No experimental or DFT rate calibration; labels do not establish a POP-SAC mechanism",
+    "High-potential saturation follows the assumed cycle; not a measured electrocatalytic trend",
+    "Fixed event stopping is path dependent and its apparent TOF is a transient diagnostic",
+    "Current refers only to the explicitly enumerated sites and is not electrode-scale current"
+  ],
+  "runtime_seconds": 2.174322599894367,
+  "runtime_versions": {
+    "python": "3.12.14",
+    "numpy": "2.4.6",
+    "scipy": "1.18.0"
+  },
+  "source_sha256": {
+    "electrograph/scripts/kinetics_reviewed.py": "2bfa5034bca984bcae546041e75360c3f6893067f93a7af0ad082d06439999f4",
+    "electrograph/source/electrograph_kmc_core.py": "2ac28e83ba3b914662bc145d256041793ae370dcbc87be27c7773df9f15656af",
+    "tests/test_electrograph_kinetics.py": "ef58a1428f804e9371149755019ea2edca4226bdebda058bd43d48492b64b28b"
+  },
+  "output_sha256": {
+    "analytic_rate_perturbations.csv": "e9c08783989a67008f123a8909547ea66c709b7404226fbbd66ca2ab9443c260",
+    "analytic_transient.csv": "e67d4b0c068c77423242e4f27beaac6a1608d971900c6137f3366b76f42a8295",
+    "baseline_trajectory.csv": "5a869b4ac5962e728ee5f2b7ad43fd3b646f000423cd3e3c36b84d473904c1cb",
+    "cycle_wait_distribution.csv": "6f18d8c780f494601ae1367ce3a69d5e264a6abff0a33fb387f3b0bfa02ac302",
+    "potential_summary.csv": "408aff83a1a92ea6c71d7adabf2b7c95300e97ce670160e6e9e90c0ebf50f2bf",
+    "trajectories.csv": "4930b15902a752e882c6f9e39b562c19253da8e39089bdda704d41966fa4ba24",
+    "baseline.json": "f630b968b2845e38bd3aeb7b76c4886d123decc975483b3e945c7ecd8d07d4e4"
+  },
+  "sources": [
+    "https://pubs.acs.org/doi/10.1021/j100540a008",
+    "https://www.cl.cam.ac.uk/teaching/2526/Bioinfo/papers/DanielGillespie1.pdf",
+    "https://docs.scipy.org/doc/scipy/reference/generated/scipy.linalg.expm.html"
+  ]
+}

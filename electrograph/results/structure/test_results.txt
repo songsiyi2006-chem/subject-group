@@ -1,0 +1,33 @@
+test_balanced_mapped_example_recovers_exact_four_bond_edits (test_electrograph_structure.StructureReviewTests.test_balanced_mapped_example_recovers_exact_four_bond_edits) ... ok
+test_energy_units_analytic_two_state_ratio (test_electrograph_structure.StructureReviewTests.test_energy_units_analytic_two_state_ratio) ... ok
+test_equal_heavy_counts_do_not_prove_elemental_balance (test_electrograph_structure.StructureReviewTests.test_equal_heavy_counts_do_not_prove_elemental_balance) ... ok
+test_explicit_vdw_radii_and_sasa_bounded_by_isolated_spheres (test_electrograph_structure.StructureReviewTests.test_explicit_vdw_radii_and_sasa_bounded_by_isolated_spheres) ... ok
+test_high_temperature_flattens_populations (test_electrograph_structure.StructureReviewTests.test_high_temperature_flattens_populations) ... ok
+test_implicit_hydrogen_and_charge_changes_are_audited (test_electrograph_structure.StructureReviewTests.test_implicit_hydrogen_and_charge_changes_are_audited) ... ok
+test_map_identity_mismatch_element_or_isotope_rejected (test_electrograph_structure.StructureReviewTests.test_map_identity_mismatch_element_or_isotope_rejected) ... ok
+test_mass_weighted_rg_analytic (test_electrograph_structure.StructureReviewTests.test_mass_weighted_rg_analytic) ... ok
+test_original_reaction_retains_formula_defect (test_electrograph_structure.StructureReviewTests.test_original_reaction_retains_formula_defect) ... ok
+test_reject_duplicate_missing_maps_and_bad_molecules (test_electrograph_structure.StructureReviewTests.test_reject_duplicate_missing_maps_and_bad_molecules) ... [14:04:02] SMILES Parse Error: syntax error while parsing: C1(
+[14:04:02] SMILES Parse Error: check for mistakes around position 3:
+[14:04:02] C1(
+[14:04:02] ~~^
+[14:04:02] SMILES Parse Error: Failed parsing SMILES 'C1(' for input: 'C1('
+ok
+test_rg_translation_rotation_and_mass_scale_invariance (test_electrograph_structure.StructureReviewTests.test_rg_translation_rotation_and_mass_scale_invariance) ... ok
+test_rmsd_does_not_change_coordinates_and_dedup_prefers_lower_energy (test_electrograph_structure.StructureReviewTests.test_rmsd_does_not_change_coordinates_and_dedup_prefers_lower_energy) ... ok
+test_same_seed_reproduces_small_ensemble_and_coordinate_hashes (test_electrograph_structure.StructureReviewTests.test_same_seed_reproduces_small_ensemble_and_coordinate_hashes) ... ok
+test_target_numbering_confirms_five_methoxy_two_phenyl (test_electrograph_structure.StructureReviewTests.test_target_numbering_confirms_five_methoxy_two_phenyl) ... ok
+test_unconverged_geometry_excluded_from_minima (test_electrograph_structure.StructureReviewTests.test_unconverged_geometry_excluded_from_minima) ... ok
+test_unsupported_and_invalid_molecules_explicit (test_electrograph_structure.StructureReviewTests.test_unsupported_and_invalid_molecules_explicit) ... [14:04:03] SMILES Parse Error: syntax error while parsing: C1(
+[14:04:03] SMILES Parse Error: check for mistakes around position 3:
+[14:04:03] C1(
+[14:04:03] ~~^
+[14:04:03] SMILES Parse Error: Failed parsing SMILES 'C1(' for input: 'C1('
+ok
+test_weights_normalized_and_energy_shift_invariant (test_electrograph_structure.StructureReviewTests.test_weights_normalized_and_energy_shift_invariant) ... ok
+test_weights_reject_invalid_energy_temperature (test_electrograph_structure.StructureReviewTests.test_weights_reject_invalid_energy_temperature) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.833s
+
+OK

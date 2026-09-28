@@ -1,0 +1,4 @@
+left,right,budget,n,mean_regret_reduction_left_vs_right,lower_95pct_t,upper_95pct_t,left_wins,ties,left_losses
+latent_gp_ucb,random,16,8,12.60625,7.58186076601115,17.63063923398885,7,1,0
+latent_gp_ucb,descriptor_gp_ucb,16,8,0.0,0.0,0.0,0,8,0
+descriptor_gp_ucb,random,16,8,12.60625,7.58186076601115,17.63063923398885,7,1,0

@@ -1,0 +1,85 @@
+{
+  "date": "2026-09-28",
+  "scope": "Agent-reported read-only cross-review of implementations and saved evidence; no new study training or SSA runs. Not independent human scientific peer review.",
+  "reviews": [
+    {
+      "reviewer": "electrograph_structure",
+      "target": "source_audit",
+      "blocking_findings": [],
+      "checks": [
+        "Exact original-to-compatible diff contains four API repairs",
+        "Intermediate failed attempt differs only in minimizer keyword",
+        "Source atom indices 17 and 26 identify hydrogen",
+        "All 30 source target classification radii are zero",
+        "32 fixed-network rankings vary only through uniform priority term"
+      ],
+      "resolved_note": "Metadata distinguishes 12 sensitivity initializations and one fixed ranking initialization"
+    },
+    {
+      "reviewer": "electrograph_kinetics",
+      "target": "learning",
+      "blocking_findings": [],
+      "checks": [
+        "Independent NumPy dense-solve reconstruction of all 192 adaptive GP selections",
+        "384 cached calls, candidate uniqueness, equal budgets and shared four initial points",
+        "Training-only normalization, split disjointness and label sign",
+        "All 256 retained experimental labels match official snapshot",
+        "Saved RMSE arithmetic and hashes"
+      ],
+      "independent_selection_matches": 192,
+      "max_posterior_mean_difference": 1.51e-14,
+      "max_posterior_sd_difference": 4.66e-15
+    },
+    {
+      "reviewer": "electrograph_learning",
+      "target": "kinetics",
+      "blocking_findings": [],
+      "checks": [
+        "273 trajectory/event totals and per-class integer balances",
+        "Time censoring, burn-in intersection and CTMC augmented matrix orientation",
+        "All 33834 baseline CSV rows reintegrated",
+        "Steady rate, sensitivity sum and six Student-t intervals",
+        "Saved output and implementation hashes"
+      ],
+      "baseline_occupancy_reintegration_max_error": 0.0
+    },
+    {
+      "reviewer": "coordinating_assistant",
+      "target": "structure",
+      "blocking_findings": [],
+      "checks": [
+        "Read positive-radius SASA, proper QR rotation and copied-coordinate implementation",
+        "Reviewed ensemble units, MMFF population limits and atom-map reaction audit",
+        "Inspected source-backed target geometry and SASA figures"
+      ],
+      "scope": "Targeted implementation and documentation review; not independent recomputation of all conformers"
+    }
+  ],
+  "reviewed_artifact_sha256": {
+    "source_audit": {
+      "scripts/run_source.py": "94161d52a9c5f716ca029b6ff90847131006a6248a13c8f0cce3e0b9310013a7",
+      "scripts/audit_source.py": "b8989919a40a8ee835068baa74a80b497119f7dea1701fb43ec02e314bebac48",
+      "source/electrograph_kmc_core.py": "2ac28e83ba3b914662bc145d256041793ae370dcbc87be27c7773df9f15656af",
+      "source/electrograph_kmc_core_compat.py": "98cfb428dea16a2e639247ebd68897ba167c0eec6d7052f778fdd947f7dc4c55",
+      "results/source_audit.json": "861e15512361272e4de877f69c2d7204c6900300dca712b8840fe3789e87d07c",
+      "results/random_priority_probes.csv": "7b2951ab24a82f94babdc0f644323a03fb72a3e5e33bfef6aaba5d70c7dc6338"
+    },
+    "learning": {
+      "scripts/graph_learning.py": "273b89b63c68eaa63c4708d4c7f2cced7452779c2aced6a35e0a4e1116c60960",
+      "results/learning/summary.json": "78dc8e3d8875eec04169e429119e5ee6f9fe7793cf4941dd377f9d41c9f8c179",
+      "results/learning/campaign_evaluations.csv": "36f55fc34268a0416352f4e091d72b2997e2073f29dcb4ca2b27fbc2a5118f64",
+      "results/learning/regression_metrics.csv": "0dd058851087919eebb0d77c07a46816ecc2d7cc9e7c9ae95929223769225db7"
+    },
+    "kinetics": {
+      "scripts/kinetics_reviewed.py": "2bfa5034bca984bcae546041e75360c3f6893067f93a7af0ad082d06439999f4",
+      "results/kinetics/summary.json": "75721740a002d26aebe3e92984baf7bf8c653597699e46fe2c14b0ef3c997296",
+      "results/kinetics/trajectories.csv": "36ccb350c68e78ea4ea5720fda4129f9d24d972eda8377d9d26387f4c428fbef",
+      "results/kinetics/baseline_trajectory.csv": "5a869b4ac5962e728ee5f2b7ad43fd3b646f000423cd3e3c36b84d473904c1cb"
+    },
+    "structure": {
+      "scripts/structure_reviewed.py": "761cc12c8fb60ecb395c94e71b40b3f86b617734718b97970bf8b0c03c948617",
+      "results/structure/summary.json": "71b7c810168eebcc0c3c6653b59c5e9b9d6e84c57c678d679c7d186e7440f7c0",
+      "results/structure/reaction_audit.json": "99a7f863dc3722387afcb4e45b52522dfd04566ccca5a5915b47c04299cb71b4"
+    }
+  }
+}

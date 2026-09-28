@@ -1,6 +1,6 @@
 {
   "passed": true,
-  "checks": 177,
+  "checks": 181,
   "scope": "Saved record and publication integrity, not chemical prediction accuracy or experimental validation.",
   "failed": [],
   "items": [
@@ -590,6 +590,22 @@
     },
     {
       "check": "README link ../provenance/SHA256SUMS.txt",
+      "passed": true
+    },
+    {
+      "check": "README link electrograph/reports/electrograph_report_chinese.md",
+      "passed": true
+    },
+    {
+      "check": "README link electrograph/reports/electrograph_report_english.md",
+      "passed": true
+    },
+    {
+      "check": "README link electrograph/README.md",
+      "passed": true
+    },
+    {
+      "check": "README link electrograph/reports/figures/README.md",
       "passed": true
     },
     {

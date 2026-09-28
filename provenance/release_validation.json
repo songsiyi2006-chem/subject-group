@@ -1,7 +1,7 @@
 {
   "passed": true,
-  "checks": 1083,
-  "scientific_tests_run": 157,
+  "checks": 1283,
+  "scientific_tests_run": 206,
   "scientific_failures": 0,
   "scientific_errors": 0,
   "failed": [],
@@ -146,6 +146,10 @@
     },
     {
       "check": "ElectraTwin publication validation",
+      "passed": true
+    },
+    {
+      "check": "ElectroGraph publication validation",
       "passed": true
     },
     {
@@ -942,6 +946,170 @@
     },
     {
       "check": "JSON parses electratwin/source/source_record.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses electrograph/results/cross_review.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses electrograph/results/figure_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses electrograph/results/figure_qa.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses electrograph/results/publication_validation.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses electrograph/results/source_audit.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses electrograph/results/api_repair_attempt_1/execution.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses electrograph/results/compatibility/captured_results.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses electrograph/results/compatibility/electrograph_kmc_results.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses electrograph/results/compatibility/execution.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses electrograph/results/kinetics/audit.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses electrograph/results/kinetics/baseline.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses electrograph/results/kinetics/summary.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses electrograph/results/learning/campaign_checks.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses electrograph/results/learning/descriptor_ridge.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses electrograph/results/learning/encoder_scaler.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses electrograph/results/learning/splits.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses electrograph/results/learning/summary.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses electrograph/results/original/execution.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses electrograph/results/structure/benzofuran_ester.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses electrograph/results/structure/caffeine.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses electrograph/results/structure/indoline.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses electrograph/results/structure/input_rejections.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses electrograph/results/structure/melatonin.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses electrograph/results/structure/phenylquinoline.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses electrograph/results/structure/reaction_audit.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses electrograph/results/structure/summary.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses electrograph/results/structure/target.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses electrograph/results/structure/tryptophol.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses electrograph/results/kinetics/pilot/baseline.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses electrograph/results/kinetics/pilot/summary.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses electrograph/results/learning/pilot/campaign_checks.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses electrograph/results/learning/pilot/descriptor_ridge.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses electrograph/results/learning/pilot/encoder_scaler.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses electrograph/results/learning/pilot/splits.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses electrograph/results/learning/pilot/summary.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses electrograph/results/structure/pilot/input_rejections.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses electrograph/results/structure/pilot/reaction_audit.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses electrograph/results/structure/pilot/summary.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses electrograph/results/structure/pilot/target.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses electrograph/source/source_record.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses electrograph/data/learning/provenance.json",
       "passed": true
     },
     {
@@ -1774,6 +1942,626 @@
     },
     {
       "check": "SHA256 electratwin/uncertainty_notes.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/README.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/data/learning/FreeSolv_LICENSE.txt",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/data/learning/README.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/data/learning/official_database.txt",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/data/learning/provenance.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/data/learning/selected_freesolv.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/kinetics_notes.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/learning_notes.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/reports/electrograph_report_chinese.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/reports/electrograph_report_english.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/reports/figures/Fig1_Source_Audit_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/reports/figures/Fig1_Source_Audit_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/reports/figures/Fig1_Source_Audit_english.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/reports/figures/Fig1_Source_Audit_english.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/reports/figures/Fig2_Graph_Benchmark_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/reports/figures/Fig2_Graph_Benchmark_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/reports/figures/Fig2_Graph_Benchmark_english.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/reports/figures/Fig2_Graph_Benchmark_english.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/reports/figures/Fig3_Conformer_Ensemble_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/reports/figures/Fig3_Conformer_Ensemble_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/reports/figures/Fig3_Conformer_Ensemble_english.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/reports/figures/Fig3_Conformer_Ensemble_english.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/reports/figures/Fig4_Kinetic_Validation_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/reports/figures/Fig4_Kinetic_Validation_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/reports/figures/Fig4_Kinetic_Validation_english.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/reports/figures/Fig4_Kinetic_Validation_english.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/reports/figures/README.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/api_repair_attempt_1/execution.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/api_repair_attempt_1/stderr.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/api_repair_attempt_1/stdout.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/compatibility/captured_results.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/compatibility/electrograph_kmc_results.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/compatibility/execution.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/compatibility/figures_scientific/ElectroGraph_Comprehensive_Scientific_Panel.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/compatibility/stderr.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/compatibility/stdout.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/cross_review.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/figure_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/figure_qa.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/hardcoded_curve_audit.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/kinetics/analytic_rate_perturbations.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/kinetics/analytic_transient.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/kinetics/audit.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/kinetics/baseline.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/kinetics/baseline_trajectory.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/kinetics/cycle_wait_distribution.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/kinetics/fixed_event_transients.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/kinetics/pilot/analytic_rate_perturbations.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/kinetics/pilot/analytic_transient.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/kinetics/pilot/baseline.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/kinetics/pilot/baseline_trajectory.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/kinetics/pilot/cycle_wait_distribution.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/kinetics/pilot/potential_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/kinetics/pilot/summary.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/kinetics/pilot/trajectories.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/kinetics/potential_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/kinetics/site_scaling.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/kinetics/summary.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/kinetics/test_results.txt",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/kinetics/trajectories.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/learning/campaign_checks.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/learning/campaign_evaluations.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/learning/campaign_learning_curves.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/learning/campaign_paired_comparisons.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/learning/descriptor_ridge.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/learning/encoder_scaler.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/learning/learned_embeddings.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/learning/mpnn_seed20260928.pt",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/learning/mpnn_seed20260929.pt",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/learning/mpnn_seed20260930.pt",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/learning/pilot/campaign_checks.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/learning/pilot/campaign_evaluations.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/learning/pilot/campaign_learning_curves.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/learning/pilot/campaign_paired_comparisons.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/learning/pilot/descriptor_ridge.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/learning/pilot/encoder_scaler.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/learning/pilot/graph_learning_pilot_snapshot.py.txt",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/learning/pilot/learned_embeddings.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/learning/pilot/mpnn_seed20260928.pt",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/learning/pilot/predictions.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/learning/pilot/regression_metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/learning/pilot/shuffled_train_mpnn_seed20261001.pt",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/learning/pilot/splits.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/learning/pilot/summary.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/learning/pilot/training_losses.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/learning/predictions.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/learning/regression_metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/learning/shuffled_train_mpnn_seed20261001.pt",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/learning/splits.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/learning/summary.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/learning/test_results.txt",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/learning/training_losses.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/original/execution.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/original/stderr.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/original/stdout.log",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/publication_validation.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/random_priority_probes.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/source_audit.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/structure/benzofuran_ester.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/structure/benzofuran_ester_embedded.sdf",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/structure/benzofuran_ester_optimized.sdf",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/structure/caffeine.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/structure/caffeine_embedded.sdf",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/structure/caffeine_optimized.sdf",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/structure/conformers.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/structure/ensemble_statistics.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/structure/indoline.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/structure/indoline_embedded.sdf",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/structure/indoline_optimized.sdf",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/structure/input_rejections.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/structure/melatonin.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/structure/melatonin_embedded.sdf",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/structure/melatonin_optimized.sdf",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/structure/minima_weights.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/structure/phenylquinoline.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/structure/phenylquinoline_embedded.sdf",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/structure/phenylquinoline_optimized.sdf",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/structure/pilot/conformers.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/structure/pilot/ensemble_statistics.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/structure/pilot/input_rejections.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/structure/pilot/minima_weights.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/structure/pilot/reaction_audit.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/structure/pilot/seed_variability.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/structure/pilot/summary.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/structure/pilot/surface_quadrature.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/structure/pilot/target.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/structure/pilot/target_embedded.sdf",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/structure/pilot/target_optimized.sdf",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/structure/reaction_audit.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/structure/seed_variability.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/structure/summary.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/structure/surface_quadrature.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/structure/target.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/structure/target_embedded.sdf",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/structure/target_optimized.sdf",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/structure/test_results.txt",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/structure/tryptophol.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/structure/tryptophol_embedded.sdf",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/structure/tryptophol_optimized.sdf",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/results/untrained_initialization_probes.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/scripts/audit_source.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/scripts/graph_learning.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/scripts/kinetics_reviewed.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/scripts/plot_reviewed.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/scripts/run_source.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/scripts/run_suite.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/scripts/structure_reviewed.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/scripts/validate_electrograph.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/source/compatibility.patch",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/source/electrograph_kmc_core.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/source/electrograph_kmc_core_api_attempt_1.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/source/electrograph_kmc_core_compat.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/source/source_record.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/source/specification.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 electrograph/structure_notes.md",
       "passed": true
     },
     {
@@ -4066,6 +4854,18 @@
     },
     {
       "check": "SHA256 tests/test_electratwin_uncertainty.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 tests/test_electrograph_kinetics.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 tests/test_electrograph_learning.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 tests/test_electrograph_structure.py",
       "passed": true
     },
     {

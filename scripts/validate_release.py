@@ -46,7 +46,10 @@ def main():
     electratwin=subprocess.run([sys.executable,str(ROOT/'electratwin/scripts/validate_electratwin.py')],capture_output=True,text=True,encoding='utf-8')
     check('ElectraTwin publication validation',electratwin.returncode==0)
     if electratwin.returncode:print(electratwin.stdout,electratwin.stderr)
-    files=[p for d in ['results','provenance','data/original','production/results','production/source','research/results','research/source','closed_loop/results','closed_loop/source','closed_loop/inputs','toolkit/results','toolkit/source','electratwin/results','electratwin/source'] for p in (ROOT/d).rglob('*.json') if p.name!='release_validation.json']
+    electrograph=subprocess.run([sys.executable,str(ROOT/'electrograph/scripts/validate_electrograph.py')],capture_output=True,text=True,encoding='utf-8')
+    check('ElectroGraph publication validation',electrograph.returncode==0)
+    if electrograph.returncode:print(electrograph.stdout,electrograph.stderr)
+    files=[p for d in ['results','provenance','data/original','production/results','production/source','research/results','research/source','closed_loop/results','closed_loop/source','closed_loop/inputs','toolkit/results','toolkit/source','electratwin/results','electratwin/source','electrograph/results','electrograph/source','electrograph/data'] for p in (ROOT/d).rglob('*.json') if p.name!='release_validation.json']
     for f in files:
         try:json.loads(f.read_text(encoding='utf-8-sig'));ok=True
         except Exception:ok=False

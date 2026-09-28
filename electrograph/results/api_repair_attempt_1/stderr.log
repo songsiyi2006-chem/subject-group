@@ -1,0 +1,21 @@
+Traceback (most recent call last):
+  File "<repository>\electrograph\scripts\run_source.py", line 134, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "<repository>\electrograph\scripts\run_source.py", line 94, in main
+    child(args.child)
+  File "<repository>\electrograph\scripts\run_source.py", line 82, in child
+    values = runpy.run_path(str(source), run_name='__main__')
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen runpy>", line 287, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "<repository>\electrograph\source\electrograph_kmc_core_compat.py", line 668, in <module>
+    conf_results = profiler.profile_molecule(target_smiles)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repository>\electrograph\source\electrograph_kmc_core_compat.py", line 277, in profile_molecule
+    ff.Minimize(maxIters=400)
+Boost.Python.ArgumentError: Python argument types in
+    ForceField.Minimize(ForceField)
+did not match C++ signature:
+    Minimize(class ForceFields::PyForceField {lvalue} self, int maxIts=200, double forceTol=0.0001, double energyTol=1e-06)

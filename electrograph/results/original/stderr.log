@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "<repository>\electrograph\scripts\run_source.py", line 134, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "<repository>\electrograph\scripts\run_source.py", line 94, in main
+    child(args.child)
+  File "<repository>\electrograph\scripts\run_source.py", line 82, in child
+    values = runpy.run_path(str(source), run_name='__main__')
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen runpy>", line 287, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "<repository>\electrograph\source\electrograph_kmc_core.py", line 53, in <module>
+    class MolecularGraphFeaturizer:
+  File "<repository>\electrograph\source\electrograph_kmc_core.py", line 62, in MolecularGraphFeaturizer
+    Chem.rdchem.HybridizationType.AROMATIC]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'HybridizationType' has no attribute 'AROMATIC'

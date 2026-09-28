@@ -1,0 +1,7374 @@
+{
+  "molecule_id": "tryptophol",
+  "name": "Tryptophol",
+  "source_smiles": "OCCc1c[nH]c2ccccc12",
+  "canonical_smiles": "OCCc1c[nH]c2ccccc12",
+  "formula": "C10H11NO",
+  "formal_charge": 0,
+  "radical_electrons": 0,
+  "requested_conformers": 72,
+  "attempts_per_seed": 24,
+  "seeds": [
+    20260928,
+    20260929,
+    20260930
+  ],
+  "records": [
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "optimization_status": 0,
+      "energy_kcal_mol": 27.05815616858552,
+      "sasa_A2": 363.1517766890786,
+      "sasa_orientation_sd_A2": 1.2732385283225505,
+      "sasa_orientation_range_A2": 4.687900274581466,
+      "sasa_first_half_vs_all_abs_delta_A2": 0.47456552355055237,
+      "mass_weighted_Rg_A": 2.6136619315374183,
+      "unweighted_Rg_A": 2.9644542630347837
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 1,
+      "optimization_status": 0,
+      "energy_kcal_mol": 27.45910612282451,
+      "sasa_A2": 359.3215751004962,
+      "sasa_orientation_sd_A2": 1.9088616562579026,
+      "sasa_orientation_range_A2": 10.322524904799593,
+      "sasa_first_half_vs_all_abs_delta_A2": 0.19097317285428517,
+      "mass_weighted_Rg_A": 2.4501988168139945,
+      "unweighted_Rg_A": 2.902614188941444
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 2,
+      "optimization_status": 0,
+      "energy_kcal_mol": 27.121223661071518,
+      "sasa_A2": 363.090630027685,
+      "sasa_orientation_sd_A2": 1.792768964941987,
+      "sasa_orientation_range_A2": 8.593623478485085,
+      "sasa_first_half_vs_all_abs_delta_A2": 0.197124518284852,
+      "mass_weighted_Rg_A": 2.612363202336589,
+      "unweighted_Rg_A": 2.9473317628831976
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 3,
+      "optimization_status": 0,
+      "energy_kcal_mol": 25.001406336179485,
+      "sasa_A2": 357.6171077059439,
+      "sasa_orientation_sd_A2": 1.4836306765265255,
+      "sasa_orientation_range_A2": 7.252048571156877,
+      "sasa_first_half_vs_all_abs_delta_A2": 0.06293356218844792,
+      "mass_weighted_Rg_A": 2.4917671731985105,
+      "unweighted_Rg_A": 2.8664536324384318
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 4,
+      "optimization_status": 0,
+      "energy_kcal_mol": 27.45910613704543,
+      "sasa_A2": 359.06068976944624,
+      "sasa_orientation_sd_A2": 1.3837692909293346,
+      "sasa_orientation_range_A2": 5.817826302705328,
+      "sasa_first_half_vs_all_abs_delta_A2": 0.1293444389912679,
+      "mass_weighted_Rg_A": 2.4501985137079085,
+      "unweighted_Rg_A": 2.902613654374907
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 5,
+      "optimization_status": 0,
+      "energy_kcal_mol": 27.12122367304922,
+      "sasa_A2": 363.04810312206246,
+      "sasa_orientation_sd_A2": 1.1650082191628828,
+      "sasa_orientation_range_A2": 4.2570515516034675,
+      "sasa_first_half_vs_all_abs_delta_A2": 0.31596109309793974,
+      "mass_weighted_Rg_A": 2.6123646079430864,
+      "unweighted_Rg_A": 2.947333231618178
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 6,
+      "optimization_status": 0,
+      "energy_kcal_mol": 24.617422465623953,
+      "sasa_A2": 355.0809797403677,
+      "sasa_orientation_sd_A2": 1.3348355835043357,
+      "sasa_orientation_range_A2": 5.3935926852507805,
+      "sasa_first_half_vs_all_abs_delta_A2": 0.05760922604480356,
+      "mass_weighted_Rg_A": 2.4359623197513924,
+      "unweighted_Rg_A": 2.848317666914311
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 7,
+      "optimization_status": 0,
+      "energy_kcal_mol": 25.001406338696455,
+      "sasa_A2": 356.95949088909856,
+      "sasa_orientation_sd_A2": 1.3503443811661087,
+      "sasa_orientation_range_A2": 6.230656744334794,
+      "sasa_first_half_vs_all_abs_delta_A2": 0.10422619568697655,
+      "mass_weighted_Rg_A": 2.491767569011296,
+      "unweighted_Rg_A": 2.8664539428153986
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 8,
+      "optimization_status": 0,
+      "energy_kcal_mol": 27.4591061343473,
+      "sasa_A2": 359.2581830475035,
+      "sasa_orientation_sd_A2": 1.5799600074467846,
+      "sasa_orientation_range_A2": 7.535527781631856,
+      "sasa_first_half_vs_all_abs_delta_A2": 0.14295111979646435,
+      "mass_weighted_Rg_A": 2.4501982380236855,
+      "unweighted_Rg_A": 2.902614871985563
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 9,
+      "optimization_status": 0,
+      "energy_kcal_mol": 25.001406356122274,
+      "sasa_A2": 356.35278981265327,
+      "sasa_orientation_sd_A2": 1.65960932122746,
+      "sasa_orientation_range_A2": 7.471326902589226,
+      "sasa_first_half_vs_all_abs_delta_A2": 0.44012426314026243,
+      "mass_weighted_Rg_A": 2.4917658747991567,
+      "unweighted_Rg_A": 2.8664523979043484
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 10,
+      "optimization_status": 0,
+      "energy_kcal_mol": 25.00140634513079,
+      "sasa_A2": 356.97862892101875,
+      "sasa_orientation_sd_A2": 2.4404065923670917,
+      "sasa_orientation_range_A2": 10.70564905076435,
+      "sasa_first_half_vs_all_abs_delta_A2": 0.6152321945310746,
+      "mass_weighted_Rg_A": 2.491767145239385,
+      "unweighted_Rg_A": 2.8664533572750512
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 11,
+      "optimization_status": 0,
+      "energy_kcal_mol": 27.05815616858549,
+      "sasa_A2": 363.1759733397724,
+      "sasa_orientation_sd_A2": 1.1442472204132925,
+      "sasa_orientation_range_A2": 4.620519856552846,
+      "sasa_first_half_vs_all_abs_delta_A2": 0.33886539310566377,
+      "mass_weighted_Rg_A": 2.6136592966829704,
+      "unweighted_Rg_A": 2.9644519890411636
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 12,
+      "optimization_status": 0,
+      "energy_kcal_mol": 26.42142582175108,
+      "sasa_A2": 364.79203787180126,
+      "sasa_orientation_sd_A2": 1.3238436551077415,
+      "sasa_orientation_range_A2": 4.608946653431133,
+      "sasa_first_half_vs_all_abs_delta_A2": 0.31659559167752604,
+      "mass_weighted_Rg_A": 2.614416261029499,
+      "unweighted_Rg_A": 2.975669609188099
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 13,
+      "optimization_status": 0,
+      "energy_kcal_mol": 24.61742254320924,
+      "sasa_A2": 355.78655840442326,
+      "sasa_orientation_sd_A2": 1.0499775763194095,
+      "sasa_orientation_range_A2": 4.459041823039115,
+      "sasa_first_half_vs_all_abs_delta_A2": 0.016650367492900386,
+      "mass_weighted_Rg_A": 2.435974110445476,
+      "unweighted_Rg_A": 2.848325105625161
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 14,
+      "optimization_status": 0,
+      "energy_kcal_mol": 25.001406336760283,
+      "sasa_A2": 356.75943809618303,
+      "sasa_orientation_sd_A2": 2.4701314422491842,
+      "sasa_orientation_range_A2": 13.50238056870154,
+      "sasa_first_half_vs_all_abs_delta_A2": 0.20985367062235127,
+      "mass_weighted_Rg_A": 2.4917672905828594,
+      "unweighted_Rg_A": 2.866453472644653
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 15,
+      "optimization_status": 0,
+      "energy_kcal_mol": 24.617422462280086,
+      "sasa_A2": 355.3229457778114,
+      "sasa_orientation_sd_A2": 1.0841114608224534,
+      "sasa_orientation_range_A2": 5.093455854514332,
+      "sasa_first_half_vs_all_abs_delta_A2": 0.16792412836736048,
+      "mass_weighted_Rg_A": 2.4359629432588457,
+      "unweighted_Rg_A": 2.84831875879135
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 16,
+      "optimization_status": 0,
+      "energy_kcal_mol": 24.617422464629453,
+      "sasa_A2": 355.4687067197563,
+      "sasa_orientation_sd_A2": 1.3977002500527305,
+      "sasa_orientation_range_A2": 6.125331558363257,
+      "sasa_first_half_vs_all_abs_delta_A2": 0.00042246014754709904,
+      "mass_weighted_Rg_A": 2.4359615200422065,
+      "unweighted_Rg_A": 2.8483167081932224
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 17,
+      "optimization_status": 0,
+      "energy_kcal_mol": 25.001406335563434,
+      "sasa_A2": 356.99074968666076,
+      "sasa_orientation_sd_A2": 1.336089661572452,
+      "sasa_orientation_range_A2": 6.345966224153301,
+      "sasa_first_half_vs_all_abs_delta_A2": 0.05530253732240453,
+      "mass_weighted_Rg_A": 2.491767636673886,
+      "unweighted_Rg_A": 2.8664539439901904
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 18,
+      "optimization_status": 0,
+      "energy_kcal_mol": 27.60950855443798,
+      "sasa_A2": 362.1387065365634,
+      "sasa_orientation_sd_A2": 1.8331163099678924,
+      "sasa_orientation_range_A2": 8.419491684966033,
+      "sasa_first_half_vs_all_abs_delta_A2": 0.5722598380995692,
+      "mass_weighted_Rg_A": 2.5397959942216106,
+      "unweighted_Rg_A": 2.949543143287659
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 19,
+      "optimization_status": 0,
+      "energy_kcal_mol": 27.459106135469966,
+      "sasa_A2": 359.2725851806804,
+      "sasa_orientation_sd_A2": 1.7130356527469064,
+      "sasa_orientation_range_A2": 8.523576118903065,
+      "sasa_first_half_vs_all_abs_delta_A2": 0.3623012076133705,
+      "mass_weighted_Rg_A": 2.450200078690824,
+      "unweighted_Rg_A": 2.9026156172332107
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 20,
+      "optimization_status": 0,
+      "energy_kcal_mol": 27.058156182164037,
+      "sasa_A2": 362.9268689006635,
+      "sasa_orientation_sd_A2": 1.0075231158655567,
+      "sasa_orientation_range_A2": 3.633574002808132,
+      "sasa_first_half_vs_all_abs_delta_A2": 0.15773532460821116,
+      "mass_weighted_Rg_A": 2.613659489788316,
+      "unweighted_Rg_A": 2.964452275639517
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 21,
+      "optimization_status": 0,
+      "energy_kcal_mol": 27.609508561362187,
+      "sasa_A2": 362.5254470355099,
+      "sasa_orientation_sd_A2": 1.0973786316695724,
+      "sasa_orientation_range_A2": 3.7476902869925652,
+      "sasa_first_half_vs_all_abs_delta_A2": 0.3018297637988212,
+      "mass_weighted_Rg_A": 2.5398076337881457,
+      "unweighted_Rg_A": 2.949554442831501
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 22,
+      "optimization_status": 0,
+      "energy_kcal_mol": 27.45910613762655,
+      "sasa_A2": 359.49917231188516,
+      "sasa_orientation_sd_A2": 2.4110670326200925,
+      "sasa_orientation_range_A2": 12.217720268825417,
+      "sasa_first_half_vs_all_abs_delta_A2": 0.3218530453215749,
+      "mass_weighted_Rg_A": 2.4502000576576393,
+      "unweighted_Rg_A": 2.9026148617089405
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 23,
+      "optimization_status": 0,
+      "energy_kcal_mol": 27.05815616649916,
+      "sasa_A2": 362.84267580929253,
+      "sasa_orientation_sd_A2": 1.2241183734320742,
+      "sasa_orientation_range_A2": 6.858181627167312,
+      "sasa_first_half_vs_all_abs_delta_A2": 0.16222175635698477,
+      "mass_weighted_Rg_A": 2.6136609454595265,
+      "unweighted_Rg_A": 2.9644537308112833
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 24,
+      "optimization_status": 0,
+      "energy_kcal_mol": 25.001406339890064,
+      "sasa_A2": 356.9329334194744,
+      "sasa_orientation_sd_A2": 1.3794866604843548,
+      "sasa_orientation_range_A2": 6.31492501279547,
+      "sasa_first_half_vs_all_abs_delta_A2": 0.01743373529711789,
+      "mass_weighted_Rg_A": 2.4917686299196604,
+      "unweighted_Rg_A": 2.866454708048586
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 25,
+      "optimization_status": 0,
+      "energy_kcal_mol": 24.617422455659682,
+      "sasa_A2": 355.5371360503954,
+      "sasa_orientation_sd_A2": 1.2891957649900956,
+      "sasa_orientation_range_A2": 5.25195624397054,
+      "sasa_first_half_vs_all_abs_delta_A2": 0.04750573477565467,
+      "mass_weighted_Rg_A": 2.435960181241341,
+      "unweighted_Rg_A": 2.8483158093087035
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 26,
+      "optimization_status": 0,
+      "energy_kcal_mol": 24.617422468257125,
+      "sasa_A2": 355.57311419885156,
+      "sasa_orientation_sd_A2": 1.3572894005119762,
+      "sasa_orientation_range_A2": 6.050809915153025,
+      "sasa_first_half_vs_all_abs_delta_A2": 0.09204394233267976,
+      "mass_weighted_Rg_A": 2.4359633948038346,
+      "unweighted_Rg_A": 2.8483182915153247
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 27,
+      "optimization_status": 0,
+      "energy_kcal_mol": 24.61742248655447,
+      "sasa_A2": 355.14959038607145,
+      "sasa_orientation_sd_A2": 1.3706008390487574,
+      "sasa_orientation_range_A2": 6.096873949038979,
+      "sasa_first_half_vs_all_abs_delta_A2": 0.16510522370498393,
+      "mass_weighted_Rg_A": 2.4359614647292784,
+      "unweighted_Rg_A": 2.8483178064357215
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 28,
+      "optimization_status": 0,
+      "energy_kcal_mol": 27.459106122320442,
+      "sasa_A2": 358.74143416083234,
+      "sasa_orientation_sd_A2": 2.2697703511385106,
+      "sasa_orientation_range_A2": 11.415354522698408,
+      "sasa_first_half_vs_all_abs_delta_A2": 0.4296846802721461,
+      "mass_weighted_Rg_A": 2.45019938119398,
+      "unweighted_Rg_A": 2.9026144487380754
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 29,
+      "optimization_status": 0,
+      "energy_kcal_mol": 27.05815618708258,
+      "sasa_A2": 362.5761637950841,
+      "sasa_orientation_sd_A2": 2.018954054165201,
+      "sasa_orientation_range_A2": 8.658888056243143,
+      "sasa_first_half_vs_all_abs_delta_A2": 0.8955695092402038,
+      "mass_weighted_Rg_A": 2.613659854627961,
+      "unweighted_Rg_A": 2.9644532302204234
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 30,
+      "optimization_status": 0,
+      "energy_kcal_mol": 27.609508543377878,
+      "sasa_A2": 362.59034994585244,
+      "sasa_orientation_sd_A2": 1.766107856951362,
+      "sasa_orientation_range_A2": 7.032374464999634,
+      "sasa_first_half_vs_all_abs_delta_A2": 0.07203481048247795,
+      "mass_weighted_Rg_A": 2.539806155816232,
+      "unweighted_Rg_A": 2.9495523105730372
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 31,
+      "optimization_status": 0,
+      "energy_kcal_mol": 25.001406360751545,
+      "sasa_A2": 356.6143080500586,
+      "sasa_orientation_sd_A2": 2.82348266614573,
+      "sasa_orientation_range_A2": 14.549666289899733,
+      "sasa_first_half_vs_all_abs_delta_A2": 0.42308766470529235,
+      "mass_weighted_Rg_A": 2.4917725287592445,
+      "unweighted_Rg_A": 2.8664569015554116
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 32,
+      "optimization_status": 0,
+      "energy_kcal_mol": 27.60950854128411,
+      "sasa_A2": 361.84810603231335,
+      "sasa_orientation_sd_A2": 1.626453497717284,
+      "sasa_orientation_range_A2": 5.691989757947283,
+      "sasa_first_half_vs_all_abs_delta_A2": 0.01339062598486862,
+      "mass_weighted_Rg_A": 2.5397998848343133,
+      "unweighted_Rg_A": 2.94954732605222
+    }
+  ],
+  "replicas": [
+    {
+      "seed": 20260928,
+      "requested": 24,
+      "returned_after_embedding_pruning": 10,
+      "unreturned_pruned_or_failed": 14,
+      "embedding_failure_event_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "converged": 10,
+      "nonconverged": 0,
+      "selected_minima": [
+        6,
+        3,
+        7,
+        0,
+        2,
+        8
+      ],
+      "deduplication": [
+        {
+          "conformer_id": 6,
+          "representative_id": 6,
+          "rmsd_to_representative_A": 0.0,
+          "selected": true
+        },
+        {
+          "conformer_id": 3,
+          "representative_id": 3,
+          "rmsd_to_representative_A": 0.0,
+          "selected": true
+        },
+        {
+          "conformer_id": 7,
+          "representative_id": 7,
+          "rmsd_to_representative_A": 0.0,
+          "selected": true
+        },
+        {
+          "conformer_id": 9,
+          "representative_id": 3,
+          "rmsd_to_representative_A": 8.116524486872302e-06,
+          "selected": false
+        },
+        {
+          "conformer_id": 0,
+          "representative_id": 0,
+          "rmsd_to_representative_A": 0.0,
+          "selected": true
+        },
+        {
+          "conformer_id": 2,
+          "representative_id": 2,
+          "rmsd_to_representative_A": 0.0,
+          "selected": true
+        },
+        {
+          "conformer_id": 5,
+          "representative_id": 2,
+          "rmsd_to_representative_A": 8.29254641029295e-06,
+          "selected": false
+        },
+        {
+          "conformer_id": 1,
+          "representative_id": 6,
+          "rmsd_to_representative_A": 0.14394085755719632,
+          "selected": false
+        },
+        {
+          "conformer_id": 8,
+          "representative_id": 8,
+          "rmsd_to_representative_A": 0.0,
+          "selected": true
+        },
+        {
+          "conformer_id": 4,
+          "representative_id": 8,
+          "rmsd_to_representative_A": 1.3864412792011313e-05,
+          "selected": false
+        }
+      ]
+    },
+    {
+      "seed": 20260929,
+      "requested": 24,
+      "returned_after_embedding_pruning": 10,
+      "unreturned_pruned_or_failed": 14,
+      "embedding_failure_event_counts": [
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "converged": 10,
+      "nonconverged": 0,
+      "selected_minima": [
+        15,
+        16,
+        17,
+        10,
+        12,
+        11
+      ],
+      "deduplication": [
+        {
+          "conformer_id": 15,
+          "representative_id": 15,
+          "rmsd_to_representative_A": 0.0,
+          "selected": true
+        },
+        {
+          "conformer_id": 16,
+          "representative_id": 16,
+          "rmsd_to_representative_A": 0.0,
+          "selected": true
+        },
+        {
+          "conformer_id": 13,
+          "representative_id": 16,
+          "rmsd_to_representative_A": 3.075566941587398e-05,
+          "selected": false
+        },
+        {
+          "conformer_id": 17,
+          "representative_id": 17,
+          "rmsd_to_representative_A": 0.0,
+          "selected": true
+        },
+        {
+          "conformer_id": 14,
+          "representative_id": 17,
+          "rmsd_to_representative_A": 2.2790496700173808e-06,
+          "selected": false
+        },
+        {
+          "conformer_id": 10,
+          "representative_id": 10,
+          "rmsd_to_representative_A": 0.0,
+          "selected": true
+        },
+        {
+          "conformer_id": 12,
+          "representative_id": 12,
+          "rmsd_to_representative_A": 0.0,
+          "selected": true
+        },
+        {
+          "conformer_id": 11,
+          "representative_id": 11,
+          "rmsd_to_representative_A": 0.0,
+          "selected": true
+        },
+        {
+          "conformer_id": 19,
+          "representative_id": 15,
+          "rmsd_to_representative_A": 0.1439351122973281,
+          "selected": false
+        },
+        {
+          "conformer_id": 18,
+          "representative_id": 10,
+          "rmsd_to_representative_A": 0.13562279166433083,
+          "selected": false
+        }
+      ]
+    },
+    {
+      "seed": 20260930,
+      "requested": 24,
+      "returned_after_embedding_pruning": 13,
+      "unreturned_pruned_or_failed": 11,
+      "embedding_failure_event_counts": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "converged": 13,
+      "nonconverged": 0,
+      "selected_minima": [
+        25,
+        27,
+        24,
+        31,
+        23,
+        20
+      ],
+      "deduplication": [
+        {
+          "conformer_id": 25,
+          "representative_id": 25,
+          "rmsd_to_representative_A": 0.0,
+          "selected": true
+        },
+        {
+          "conformer_id": 26,
+          "representative_id": 25,
+          "rmsd_to_representative_A": 7.541891688130303e-06,
+          "selected": false
+        },
+        {
+          "conformer_id": 27,
+          "representative_id": 27,
+          "rmsd_to_representative_A": 0.0,
+          "selected": true
+        },
+        {
+          "conformer_id": 24,
+          "representative_id": 24,
+          "rmsd_to_representative_A": 0.0,
+          "selected": true
+        },
+        {
+          "conformer_id": 31,
+          "representative_id": 31,
+          "rmsd_to_representative_A": 0.0,
+          "selected": true
+        },
+        {
+          "conformer_id": 23,
+          "representative_id": 23,
+          "rmsd_to_representative_A": 0.0,
+          "selected": true
+        },
+        {
+          "conformer_id": 20,
+          "representative_id": 20,
+          "rmsd_to_representative_A": 0.0,
+          "selected": true
+        },
+        {
+          "conformer_id": 29,
+          "representative_id": 23,
+          "rmsd_to_representative_A": 1.0718400171264918e-05,
+          "selected": false
+        },
+        {
+          "conformer_id": 28,
+          "representative_id": 27,
+          "rmsd_to_representative_A": 0.14394121000060045,
+          "selected": false
+        },
+        {
+          "conformer_id": 22,
+          "representative_id": 25,
+          "rmsd_to_representative_A": 0.1439363036475495,
+          "selected": false
+        },
+        {
+          "conformer_id": 32,
+          "representative_id": 31,
+          "rmsd_to_representative_A": 0.1356334387216857,
+          "selected": false
+        },
+        {
+          "conformer_id": 30,
+          "representative_id": 24,
+          "rmsd_to_representative_A": 0.13565582519307193,
+          "selected": false
+        },
+        {
+          "conformer_id": 21,
+          "representative_id": 31,
+          "rmsd_to_representative_A": 0.13565608486656058,
+          "selected": false
+        }
+      ]
+    }
+  ],
+  "summaries": [
+    {
+      "molecule_id": "tryptophol",
+      "scope": "seed_20260928",
+      "status": "success",
+      "temperature_K": 250.0,
+      "unique_minima": 6,
+      "effective_minima_count": 2.6397633964856344,
+      "minimum_energy_kcal_mol": 24.617422465623953,
+      "energy_span_kcal_mol": 2.8416836687233484,
+      "weighted_sasa_A2": 356.1956664648077,
+      "within_minima_sd_sasa_A2": 1.2718681381818264,
+      "weighted_mass_weighted_Rg_A": 2.463802300353941,
+      "within_minima_sd_mass_weighted_Rg_A": 0.030505555109651798,
+      "weighted_unweighted_Rg_A": 2.8578096389202394,
+      "within_minima_sd_unweighted_Rg_A": 0.012458207279332714
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "seed_20260928",
+      "status": "success",
+      "temperature_K": 298.15,
+      "unique_minima": 6,
+      "effective_minima_count": 2.80941128185401,
+      "minimum_energy_kcal_mol": 24.617422465623953,
+      "energy_span_kcal_mol": 2.8416836687233484,
+      "weighted_sasa_A2": 356.3239055132656,
+      "within_minima_sd_sasa_A2": 1.4071317882451844,
+      "weighted_mass_weighted_Rg_A": 2.4666355430327447,
+      "within_minima_sd_mass_weighted_Rg_A": 0.03296100304764331,
+      "weighted_unweighted_Rg_A": 2.8592301400869924,
+      "within_minima_sd_unweighted_Rg_A": 0.01521289388779545
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "seed_20260928",
+      "status": "success",
+      "temperature_K": 350.0,
+      "unique_minima": 6,
+      "effective_minima_count": 2.975020016249273,
+      "minimum_energy_kcal_mol": 24.617422465623953,
+      "energy_span_kcal_mol": 2.8416836687233484,
+      "weighted_sasa_A2": 356.4614484141744,
+      "within_minima_sd_sasa_A2": 1.570474437657131,
+      "weighted_mass_weighted_Rg_A": 2.4694982493972946,
+      "within_minima_sd_mass_weighted_Rg_A": 0.03598271225836295,
+      "weighted_unweighted_Rg_A": 2.860888514078459,
+      "within_minima_sd_unweighted_Rg_A": 0.018333888425095063
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "seed_20260929",
+      "status": "success",
+      "temperature_K": 250.0,
+      "unique_minima": 6,
+      "effective_minima_count": 3.603106957182264,
+      "minimum_energy_kcal_mol": 24.617422462280086,
+      "energy_span_kcal_mol": 2.440733706305405,
+      "weighted_sasa_A2": 355.99541542994615,
+      "within_minima_sd_sasa_A2": 1.1719581671687467,
+      "weighted_mass_weighted_Rg_A": 2.4554264908851833,
+      "within_minima_sd_mass_weighted_Rg_A": 0.030938750080817652,
+      "weighted_unweighted_Rg_A": 2.8554096255117933,
+      "within_minima_sd_unweighted_Rg_A": 0.015204522896627388
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "seed_20260929",
+      "status": "success",
+      "temperature_K": 298.15,
+      "unique_minima": 6,
+      "effective_minima_count": 3.793323888734994,
+      "minimum_energy_kcal_mol": 24.617422462280086,
+      "energy_span_kcal_mol": 2.440733706305405,
+      "weighted_sasa_A2": 356.1147615041491,
+      "within_minima_sd_sasa_A2": 1.415462787878403,
+      "weighted_mass_weighted_Rg_A": 2.4583936616790036,
+      "within_minima_sd_mass_weighted_Rg_A": 0.03459558231153066,
+      "weighted_unweighted_Rg_A": 2.856974445671344,
+      "within_minima_sd_unweighted_Rg_A": 0.018826741934382
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "seed_20260929",
+      "status": "success",
+      "temperature_K": 350.0,
+      "unique_minima": 6,
+      "effective_minima_count": 3.9718117693944186,
+      "minimum_energy_kcal_mol": 24.617422462280086,
+      "energy_span_kcal_mol": 2.440733706305405,
+      "weighted_sasa_A2": 356.2448733512001,
+      "within_minima_sd_sasa_A2": 1.6606865907268855,
+      "weighted_mass_weighted_Rg_A": 2.461425990363129,
+      "within_minima_sd_mass_weighted_Rg_A": 0.038392963996512534,
+      "weighted_unweighted_Rg_A": 2.8587215714090037,
+      "within_minima_sd_unweighted_Rg_A": 0.022456098464190666
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "seed_20260930",
+      "status": "success",
+      "temperature_K": 250.0,
+      "unique_minima": 6,
+      "effective_minima_count": 3.5575840466852484,
+      "minimum_energy_kcal_mol": 24.617422455659682,
+      "energy_span_kcal_mol": 2.440733726504355,
+      "weighted_sasa_A2": 355.8305866777996,
+      "within_minima_sd_sasa_A2": 0.8506684455783224,
+      "weighted_mass_weighted_Rg_A": 2.4543893179843397,
+      "within_minima_sd_mass_weighted_Rg_A": 0.02823593884725485,
+      "weighted_unweighted_Rg_A": 2.854598488480139,
+      "within_minima_sd_unweighted_Rg_A": 0.011464549491052163
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "seed_20260930",
+      "status": "success",
+      "temperature_K": 298.15,
+      "unique_minima": 6,
+      "effective_minima_count": 3.7201467241158594,
+      "minimum_energy_kcal_mol": 24.617422455659682,
+      "energy_span_kcal_mol": 2.440733726504355,
+      "weighted_sasa_A2": 355.9089829688702,
+      "within_minima_sd_sasa_A2": 1.0043426999654927,
+      "weighted_mass_weighted_Rg_A": 2.456800900766962,
+      "within_minima_sd_mass_weighted_Rg_A": 0.030942975159902877,
+      "weighted_unweighted_Rg_A": 2.855706567701312,
+      "within_minima_sd_unweighted_Rg_A": 0.014128066580347655
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "seed_20260930",
+      "status": "success",
+      "temperature_K": 350.0,
+      "unique_minima": 6,
+      "effective_minima_count": 3.870024795441871,
+      "minimum_energy_kcal_mol": 24.617422455659682,
+      "energy_span_kcal_mol": 2.440733726504355,
+      "weighted_sasa_A2": 355.99674354870587,
+      "within_minima_sd_sasa_A2": 1.182752772127504,
+      "weighted_mass_weighted_Rg_A": 2.4592839972064415,
+      "within_minima_sd_mass_weighted_Rg_A": 0.03407788219097888,
+      "weighted_unweighted_Rg_A": 2.856985073857671,
+      "within_minima_sd_unweighted_Rg_A": 0.017151421242514415
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "pooled",
+      "status": "success",
+      "temperature_K": 250.0,
+      "unique_minima": 6,
+      "effective_minima_count": 3.603106959031639,
+      "minimum_energy_kcal_mol": 24.617422455659682,
+      "energy_span_kcal_mol": 2.4407337108394778,
+      "weighted_sasa_A2": 356.16669568049053,
+      "within_minima_sd_sasa_A2": 1.2289332037924143,
+      "weighted_mass_weighted_Rg_A": 2.4554255653570385,
+      "within_minima_sd_mass_weighted_Rg_A": 0.030939363754021468,
+      "weighted_unweighted_Rg_A": 2.8554086753983956,
+      "within_minima_sd_unweighted_Rg_A": 0.015205050330419651
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "pooled",
+      "status": "success",
+      "temperature_K": 298.15,
+      "unique_minima": 6,
+      "effective_minima_count": 3.793323889860823,
+      "minimum_energy_kcal_mol": 24.617422455659682,
+      "energy_span_kcal_mol": 2.4407337108394778,
+      "weighted_sasa_A2": 356.2892743603579,
+      "within_minima_sd_sasa_A2": 1.4521822807666436,
+      "weighted_mass_weighted_Rg_A": 2.4583927868808892,
+      "within_minima_sd_mass_weighted_Rg_A": 0.03459620133804616,
+      "weighted_unweighted_Rg_A": 2.856973552643723,
+      "within_minima_sd_unweighted_Rg_A": 0.018827253240449524
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "pooled",
+      "status": "success",
+      "temperature_K": 350.0,
+      "unique_minima": 6,
+      "effective_minima_count": 3.9718117698833666,
+      "minimum_energy_kcal_mol": 24.617422455659682,
+      "energy_span_kcal_mol": 2.4407337108394778,
+      "weighted_sasa_A2": 356.4204857849053,
+      "within_minima_sd_sasa_A2": 1.6781426648139446,
+      "weighted_mass_weighted_Rg_A": 2.46142516221265,
+      "within_minima_sd_mass_weighted_Rg_A": 0.03839359052689978,
+      "weighted_unweighted_Rg_A": 2.8587207302422577,
+      "within_minima_sd_unweighted_Rg_A": 0.022456610189438432
+    }
+  ],
+  "weights": [
+    {
+      "molecule_id": "tryptophol",
+      "scope": "seed_20260928",
+      "conformer_id": 6,
+      "temperature_K": 250.0,
+      "relative_energy_kcal_mol": 0.0,
+      "forcefield_minima_weight": 0.5153474318807737
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "seed_20260928",
+      "conformer_id": 3,
+      "temperature_K": 250.0,
+      "relative_energy_kcal_mol": 0.3839838705555323,
+      "forcefield_minima_weight": 0.2379185911984635
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "seed_20260928",
+      "conformer_id": 7,
+      "temperature_K": 250.0,
+      "relative_energy_kcal_mol": 0.38398387307250204,
+      "forcefield_minima_weight": 0.23791858999308388
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "seed_20260928",
+      "conformer_id": 0,
+      "temperature_K": 250.0,
+      "relative_energy_kcal_mol": 2.440733702961566,
+      "forcefield_minima_weight": 0.0037883925378134195
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "seed_20260928",
+      "conformer_id": 2,
+      "temperature_K": 250.0,
+      "relative_energy_kcal_mol": 2.503801195447565,
+      "forcefield_minima_weight": 0.0033367411264542523
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "seed_20260928",
+      "conformer_id": 8,
+      "temperature_K": 250.0,
+      "relative_energy_kcal_mol": 2.8416836687233484,
+      "forcefield_minima_weight": 0.0016902532634111471
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "seed_20260928",
+      "conformer_id": 6,
+      "temperature_K": 298.15,
+      "relative_energy_kcal_mol": 0.0,
+      "forcefield_minima_weight": 0.4795673870065796
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "seed_20260928",
+      "conformer_id": 3,
+      "temperature_K": 298.15,
+      "relative_energy_kcal_mol": 0.3839838705555323,
+      "forcefield_minima_weight": 0.250834639424011
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "seed_20260928",
+      "conformer_id": 7,
+      "temperature_K": 298.15,
+      "relative_energy_kcal_mol": 0.38398387307250204,
+      "forcefield_minima_weight": 0.2508346383584258
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "seed_20260928",
+      "conformer_id": 0,
+      "temperature_K": 298.15,
+      "relative_energy_kcal_mol": 2.440733702961566,
+      "forcefield_minima_weight": 0.007794341353106114
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "seed_20260928",
+      "conformer_id": 2,
+      "temperature_K": 298.15,
+      "relative_energy_kcal_mol": 2.503801195447565,
+      "forcefield_minima_weight": 0.007007298674990524
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "seed_20260928",
+      "conformer_id": 8,
+      "temperature_K": 298.15,
+      "relative_energy_kcal_mol": 2.8416836687233484,
+      "forcefield_minima_weight": 0.003961695182887112
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "seed_20260928",
+      "conformer_id": 6,
+      "temperature_K": 350.0,
+      "relative_energy_kcal_mol": 0.0,
+      "forcefield_minima_weight": 0.4493250919023551
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "seed_20260928",
+      "conformer_id": 3,
+      "temperature_K": 350.0,
+      "relative_energy_kcal_mol": 0.3839838705555323,
+      "forcefield_minima_weight": 0.25869923571345776
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "seed_20260928",
+      "conformer_id": 7,
+      "temperature_K": 350.0,
+      "relative_energy_kcal_mol": 0.38398387307250204,
+      "forcefield_minima_weight": 0.25869923477727086
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "seed_20260928",
+      "conformer_id": 0,
+      "temperature_K": 350.0,
+      "relative_energy_kcal_mol": 2.440733702961566,
+      "forcefield_minima_weight": 0.013443997601563026
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "seed_20260928",
+      "conformer_id": 2,
+      "temperature_K": 350.0,
+      "relative_energy_kcal_mol": 2.503801195447565,
+      "forcefield_minima_weight": 0.012278578721792452
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "seed_20260928",
+      "conformer_id": 8,
+      "temperature_K": 350.0,
+      "relative_energy_kcal_mol": 2.8416836687233484,
+      "forcefield_minima_weight": 0.00755386128356084
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "seed_20260929",
+      "conformer_id": 15,
+      "temperature_K": 250.0,
+      "relative_energy_kcal_mol": 0.0,
+      "forcefield_minima_weight": 0.3381614597235482
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "seed_20260929",
+      "conformer_id": 16,
+      "temperature_K": 250.0,
+      "relative_energy_kcal_mol": 2.3493669232266257e-09,
+      "forcefield_minima_weight": 0.33816145812438625
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "seed_20260929",
+      "conformer_id": 17,
+      "temperature_K": 250.0,
+      "relative_energy_kcal_mol": 0.3839838732833485,
+      "forcefield_minima_weight": 0.15611778127944032
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "seed_20260929",
+      "conformer_id": 10,
+      "temperature_K": 250.0,
+      "relative_energy_kcal_mol": 0.3839838828507034,
+      "forcefield_minima_weight": 0.15611777827293666
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "seed_20260929",
+      "conformer_id": 12,
+      "temperature_K": 250.0,
+      "relative_energy_kcal_mol": 1.8040033594709932,
+      "forcefield_minima_weight": 0.008955649453304938
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "seed_20260929",
+      "conformer_id": 11,
+      "temperature_K": 250.0,
+      "relative_energy_kcal_mol": 2.440733706305405,
+      "forcefield_minima_weight": 0.00248587314638349
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "seed_20260929",
+      "conformer_id": 15,
+      "temperature_K": 298.15,
+      "relative_energy_kcal_mol": 0.0,
+      "forcefield_minima_weight": 0.32154905324388094
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "seed_20260929",
+      "conformer_id": 16,
+      "temperature_K": 298.15,
+      "relative_energy_kcal_mol": 2.3493669232266257e-09,
+      "forcefield_minima_weight": 0.32154905196884986
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "seed_20260929",
+      "conformer_id": 17,
+      "temperature_K": 298.15,
+      "relative_energy_kcal_mol": 0.3839838732833485,
+      "forcefield_minima_weight": 0.16818416481501425
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "seed_20260929",
+      "conformer_id": 10,
+      "temperature_K": 298.15,
+      "relative_energy_kcal_mol": 0.3839838828507034,
+      "forcefield_minima_weight": 0.16818416209920253
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "seed_20260929",
+      "conformer_id": 12,
+      "temperature_K": 298.15,
+      "relative_energy_kcal_mol": 1.8040033594709932,
+      "forcefield_minima_weight": 0.015307476323645763
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "seed_20260929",
+      "conformer_id": 11,
+      "temperature_K": 298.15,
+      "relative_energy_kcal_mol": 2.440733706305405,
+      "forcefield_minima_weight": 0.005226091549406769
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "seed_20260929",
+      "conformer_id": 15,
+      "temperature_K": 350.0,
+      "relative_energy_kcal_mol": 0.0,
+      "forcefield_minima_weight": 0.3071100610198405
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "seed_20260929",
+      "conformer_id": 16,
+      "temperature_K": 350.0,
+      "relative_energy_kcal_mol": 2.3493669232266257e-09,
+      "forcefield_minima_weight": 0.30711005998246893
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "seed_20260929",
+      "conformer_id": 17,
+      "temperature_K": 350.0,
+      "relative_energy_kcal_mol": 0.3839838732833485,
+      "forcefield_minima_weight": 0.17681883158978853
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "seed_20260929",
+      "conformer_id": 10,
+      "temperature_K": 350.0,
+      "relative_energy_kcal_mol": 0.3839838828507034,
+      "forcefield_minima_weight": 0.1768188291575294
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "seed_20260929",
+      "conformer_id": 12,
+      "temperature_K": 350.0,
+      "relative_energy_kcal_mol": 1.8040033594709932,
+      "forcefield_minima_weight": 0.022953354823146102
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "seed_20260929",
+      "conformer_id": 11,
+      "temperature_K": 350.0,
+      "relative_energy_kcal_mol": 2.440733706305405,
+      "forcefield_minima_weight": 0.009188863427226551
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "seed_20260930",
+      "conformer_id": 25,
+      "temperature_K": 250.0,
+      "relative_energy_kcal_mol": 0.0,
+      "forcefield_minima_weight": 0.34036354593397755
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "seed_20260930",
+      "conformer_id": 27,
+      "temperature_K": 250.0,
+      "relative_energy_kcal_mol": 3.0894788949353824e-08,
+      "forcefield_minima_weight": 0.34036352476763887
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "seed_20260930",
+      "conformer_id": 24,
+      "temperature_K": 250.0,
+      "relative_energy_kcal_mol": 0.383983884230382,
+      "forcefield_minima_weight": 0.15713440701428177
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "seed_20260930",
+      "conformer_id": 31,
+      "temperature_K": 250.0,
+      "relative_energy_kcal_mol": 0.3839839050918634,
+      "forcefield_minima_weight": 0.15713440041595364
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "seed_20260930",
+      "conformer_id": 23,
+      "temperature_K": 250.0,
+      "relative_energy_kcal_mol": 2.4407337108394778,
+      "forcefield_minima_weight": 0.0025020609735209648
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "seed_20260930",
+      "conformer_id": 20,
+      "temperature_K": 250.0,
+      "relative_energy_kcal_mol": 2.440733726504355,
+      "forcefield_minima_weight": 0.002502060894627257
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "seed_20260930",
+      "conformer_id": 25,
+      "temperature_K": 298.15,
+      "relative_energy_kcal_mol": 0.0,
+      "forcefield_minima_weight": 0.3248237344579012
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "seed_20260930",
+      "conformer_id": 27,
+      "temperature_K": 298.15,
+      "relative_energy_kcal_mol": 3.0894788949353824e-08,
+      "forcefield_minima_weight": 0.3248237175201537
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "seed_20260930",
+      "conformer_id": 24,
+      "temperature_K": 298.15,
+      "relative_energy_kcal_mol": 0.383983884230382,
+      "forcefield_minima_weight": 0.16989696262948648
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "seed_20260930",
+      "conformer_id": 31,
+      "temperature_K": 298.15,
+      "relative_energy_kcal_mol": 0.3839839050918634,
+      "forcefield_minima_weight": 0.16989695664738974
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "seed_20260930",
+      "conformer_id": 23,
+      "temperature_K": 298.15,
+      "relative_energy_kcal_mol": 2.4407337108394778,
+      "forcefield_minima_weight": 0.0052793144423251065
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "seed_20260930",
+      "conformer_id": 20,
+      "temperature_K": 298.15,
+      "relative_energy_kcal_mol": 2.440733726504355,
+      "forcefield_minima_weight": 0.0052793143027438155
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "seed_20260930",
+      "conformer_id": 25,
+      "temperature_K": 350.0,
+      "relative_energy_kcal_mol": 0.0,
+      "forcefield_minima_weight": 0.31139627907795747
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "seed_20260930",
+      "conformer_id": 27,
+      "temperature_K": 350.0,
+      "relative_energy_kcal_mol": 3.0894788949353824e-08,
+      "forcefield_minima_weight": 0.3113962652458585
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "seed_20260930",
+      "conformer_id": 24,
+      "temperature_K": 350.0,
+      "relative_energy_kcal_mol": 0.383983884230382,
+      "forcefield_minima_weight": 0.1792866218010252
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "seed_20260930",
+      "conformer_id": 31,
+      "temperature_K": 350.0,
+      "relative_energy_kcal_mol": 0.3839839050918634,
+      "forcefield_minima_weight": 0.17928661642349977
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "seed_20260930",
+      "conformer_id": 23,
+      "temperature_K": 350.0,
+      "relative_energy_kcal_mol": 2.4407337108394778,
+      "forcefield_minima_weight": 0.009317108830751812
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "seed_20260930",
+      "conformer_id": 20,
+      "temperature_K": 350.0,
+      "relative_energy_kcal_mol": 2.440733726504355,
+      "forcefield_minima_weight": 0.009317108620907304
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "pooled",
+      "conformer_id": 25,
+      "temperature_K": 250.0,
+      "relative_energy_kcal_mol": 0.0,
+      "forcefield_minima_weight": 0.3381614617512836
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "pooled",
+      "conformer_id": 16,
+      "temperature_K": 250.0,
+      "relative_energy_kcal_mol": 8.969770703970426e-09,
+      "forcefield_minima_weight": 0.3381614556457598
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "pooled",
+      "conformer_id": 17,
+      "temperature_K": 250.0,
+      "relative_energy_kcal_mol": 0.38398387990375227,
+      "forcefield_minima_weight": 0.15611778013514171
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "pooled",
+      "conformer_id": 3,
+      "temperature_K": 250.0,
+      "relative_energy_kcal_mol": 0.3839838805198035,
+      "forcefield_minima_weight": 0.15611777994155007
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "pooled",
+      "conformer_id": 12,
+      "temperature_K": 250.0,
+      "relative_energy_kcal_mol": 1.804003366091397,
+      "forcefield_minima_weight": 0.008955649387662596
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "pooled",
+      "conformer_id": 23,
+      "temperature_K": 250.0,
+      "relative_energy_kcal_mol": 2.4407337108394778,
+      "forcefield_minima_weight": 0.0024858731386022534
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "pooled",
+      "conformer_id": 25,
+      "temperature_K": 298.15,
+      "relative_energy_kcal_mol": 0.0,
+      "forcefield_minima_weight": 0.32154905485858576
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "pooled",
+      "conformer_id": 16,
+      "temperature_K": 298.15,
+      "relative_energy_kcal_mol": 8.969770703970426e-09,
+      "forcefield_minima_weight": 0.3215490499905781
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "pooled",
+      "conformer_id": 17,
+      "temperature_K": 298.15,
+      "relative_energy_kcal_mol": 0.38398387990375227,
+      "forcefield_minima_weight": 0.1681841637802919
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "pooled",
+      "conformer_id": 3,
+      "temperature_K": 298.15,
+      "relative_energy_kcal_mol": 0.3839838805198035,
+      "forcefield_minima_weight": 0.16818416360541816
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "pooled",
+      "conformer_id": 12,
+      "temperature_K": 298.15,
+      "relative_energy_kcal_mol": 1.804003366091397,
+      "forcefield_minima_weight": 0.015307476229469307
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "pooled",
+      "conformer_id": 23,
+      "temperature_K": 298.15,
+      "relative_energy_kcal_mol": 2.4407337108394778,
+      "forcefield_minima_weight": 0.005226091535656954
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "pooled",
+      "conformer_id": 25,
+      "temperature_K": 350.0,
+      "relative_energy_kcal_mol": 0.0,
+      "forcefield_minima_weight": 0.3071100623380023
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "pooled",
+      "conformer_id": 16,
+      "temperature_K": 350.0,
+      "relative_energy_kcal_mol": 8.969770703970426e-09,
+      "forcefield_minima_weight": 0.30711005837736716
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "pooled",
+      "conformer_id": 17,
+      "temperature_K": 350.0,
+      "relative_energy_kcal_mol": 0.38398387990375227,
+      "forcefield_minima_weight": 0.17681883066565013
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "pooled",
+      "conformer_id": 3,
+      "temperature_K": 350.0,
+      "relative_energy_kcal_mol": 0.3839838805198035,
+      "forcefield_minima_weight": 0.17681883050903457
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "pooled",
+      "conformer_id": 12,
+      "temperature_K": 350.0,
+      "relative_energy_kcal_mol": 1.804003366091397,
+      "forcefield_minima_weight": 0.02295335470318106
+    },
+    {
+      "molecule_id": "tryptophol",
+      "scope": "pooled",
+      "conformer_id": 23,
+      "temperature_K": 350.0,
+      "relative_energy_kcal_mol": 2.4407337108394778,
+      "forcefield_minima_weight": 0.00918886340676473
+    }
+  ],
+  "surface_quadrature": [
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 0,
+      "sasa_A2": 362.79740348645623
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 1,
+      "sasa_A2": 362.914582250404
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 2,
+      "sasa_A2": 364.6250401257523
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 3,
+      "sasa_A2": 364.49080642314163
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 4,
+      "sasa_A2": 364.51070299349425
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 5,
+      "sasa_A2": 362.27549366292976
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 6,
+      "sasa_A2": 364.9089256553941
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 7,
+      "sasa_A2": 362.13823987711055
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 8,
+      "sasa_A2": 365.6030227164026
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 9,
+      "sasa_A2": 363.9122048997463
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 10,
+      "sasa_A2": 362.21811650241943
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 11,
+      "sasa_A2": 363.12156795829765
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 12,
+      "sasa_A2": 363.63126864210005
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 13,
+      "sasa_A2": 361.97695208896283
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 14,
+      "sasa_A2": 363.75586063568005
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 15,
+      "sasa_A2": 364.2236014474309
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 16,
+      "sasa_A2": 362.4164612725793
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 17,
+      "sasa_A2": 362.8594796022468
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 18,
+      "sasa_A2": 361.50761607826286
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 19,
+      "sasa_A2": 364.5953521194215
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 20,
+      "sasa_A2": 360.91512244182115
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 21,
+      "sasa_A2": 362.8265490536965
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 22,
+      "sasa_A2": 362.46542210907205
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 23,
+      "sasa_A2": 360.9528484950636
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 1,
+      "orientation_index": 0,
+      "sasa_A2": 360.1596018163741
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 1,
+      "orientation_index": 1,
+      "sasa_A2": 358.18591709495246
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 1,
+      "orientation_index": 2,
+      "sasa_A2": 359.16501743320384
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 1,
+      "orientation_index": 3,
+      "sasa_A2": 358.2062933552514
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 1,
+      "orientation_index": 4,
+      "sasa_A2": 359.9667175351646
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 1,
+      "orientation_index": 5,
+      "sasa_A2": 360.4327470018707
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 1,
+      "orientation_index": 6,
+      "sasa_A2": 358.87667934026825
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 1,
+      "orientation_index": 7,
+      "sasa_A2": 359.1998985173091
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 1,
+      "orientation_index": 8,
+      "sasa_A2": 362.01683664778864
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 1,
+      "orientation_index": 9,
+      "sasa_A2": 361.23563724471273
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 1,
+      "orientation_index": 10,
+      "sasa_A2": 360.4275654018182
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 1,
+      "orientation_index": 11,
+      "sasa_A2": 351.69431174298904
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 1,
+      "orientation_index": 12,
+      "sasa_A2": 358.63391612307237
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 1,
+      "orientation_index": 13,
+      "sasa_A2": 360.99962016041786
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 1,
+      "orientation_index": 14,
+      "sasa_A2": 359.8984359315612
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 1,
+      "orientation_index": 15,
+      "sasa_A2": 360.6978855745339
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 1,
+      "orientation_index": 16,
+      "sasa_A2": 359.5036035045712
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 1,
+      "orientation_index": 17,
+      "sasa_A2": 358.6660497143701
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 1,
+      "orientation_index": 18,
+      "sasa_A2": 360.566621003352
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 1,
+      "orientation_index": 19,
+      "sasa_A2": 358.5945919398082
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 1,
+      "orientation_index": 20,
+      "sasa_A2": 358.9472619044366
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 1,
+      "orientation_index": 21,
+      "sasa_A2": 359.2959689806927
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 1,
+      "orientation_index": 22,
+      "sasa_A2": 358.93463452406513
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 1,
+      "orientation_index": 23,
+      "sasa_A2": 359.41198991932634
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 2,
+      "orientation_index": 0,
+      "sasa_A2": 362.3835729549113
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 2,
+      "orientation_index": 1,
+      "sasa_A2": 361.7543212346273
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 2,
+      "orientation_index": 2,
+      "sasa_A2": 366.83194302529523
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 2,
+      "orientation_index": 3,
+      "sasa_A2": 363.32109127669963
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 2,
+      "orientation_index": 4,
+      "sasa_A2": 366.5914100589558
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 2,
+      "orientation_index": 5,
+      "sasa_A2": 363.08086635544674
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 2,
+      "orientation_index": 6,
+      "sasa_A2": 362.4057509161642
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 2,
+      "orientation_index": 7,
+      "sasa_A2": 363.6511299571355
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 2,
+      "orientation_index": 8,
+      "sasa_A2": 361.872713628311
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 2,
+      "orientation_index": 9,
+      "sasa_A2": 364.15795590707114
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 2,
+      "orientation_index": 10,
+      "sasa_A2": 363.0317157843773
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 2,
+      "orientation_index": 11,
+      "sasa_A2": 360.3705834526432
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 2,
+      "orientation_index": 12,
+      "sasa_A2": 363.16102262217066
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 2,
+      "orientation_index": 13,
+      "sasa_A2": 363.05852714071733
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 2,
+      "orientation_index": 14,
+      "sasa_A2": 362.8760181325321
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 2,
+      "orientation_index": 15,
+      "sasa_A2": 358.23831954681015
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 2,
+      "orientation_index": 16,
+      "sasa_A2": 361.58604389787354
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 2,
+      "orientation_index": 17,
+      "sasa_A2": 363.23631949924845
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 2,
+      "orientation_index": 18,
+      "sasa_A2": 365.5779393715759
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 2,
+      "orientation_index": 19,
+      "sasa_A2": 362.9837017257103
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 2,
+      "orientation_index": 20,
+      "sasa_A2": 363.9512820365332
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 2,
+      "orientation_index": 21,
+      "sasa_A2": 363.8520239098505
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 2,
+      "orientation_index": 22,
+      "sasa_A2": 363.8494801063255
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 2,
+      "orientation_index": 23,
+      "sasa_A2": 362.35138812345576
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 3,
+      "orientation_index": 0,
+      "sasa_A2": 357.3060901424474
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 3,
+      "orientation_index": 1,
+      "sasa_A2": 356.9915506268078
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 3,
+      "orientation_index": 2,
+      "sasa_A2": 352.88056029791255
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 3,
+      "orientation_index": 3,
+      "sasa_A2": 360.1075507856392
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 3,
+      "orientation_index": 4,
+      "sasa_A2": 359.88541187097246
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 3,
+      "orientation_index": 5,
+      "sasa_A2": 357.96001123294906
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 3,
+      "orientation_index": 6,
+      "sasa_A2": 357.60713063695505
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 3,
+      "orientation_index": 7,
+      "sasa_A2": 360.13260886906943
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 3,
+      "orientation_index": 8,
+      "sasa_A2": 355.9676662222596
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 3,
+      "orientation_index": 9,
+      "sasa_A2": 357.94757652652214
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 3,
+      "orientation_index": 10,
+      "sasa_A2": 357.1659879868438
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 3,
+      "orientation_index": 11,
+      "sasa_A2": 356.6979445266872
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 3,
+      "orientation_index": 12,
+      "sasa_A2": 357.8747245793685
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 3,
+      "orientation_index": 13,
+      "sasa_A2": 357.63440405238345
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 3,
+      "orientation_index": 14,
+      "sasa_A2": 357.74669730265475
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 3,
+      "orientation_index": 15,
+      "sasa_A2": 358.60578360389695
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 3,
+      "orientation_index": 16,
+      "sasa_A2": 357.7959115690672
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 3,
+      "orientation_index": 17,
+      "sasa_A2": 357.67253089094424
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 3,
+      "orientation_index": 18,
+      "sasa_A2": 355.7683103404909
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 3,
+      "orientation_index": 19,
+      "sasa_A2": 357.7751598389913
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 3,
+      "orientation_index": 20,
+      "sasa_A2": 358.2741192750916
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 3,
+      "orientation_index": 21,
+      "sasa_A2": 358.4728332861139
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 3,
+      "orientation_index": 22,
+      "sasa_A2": 357.0594499100624
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 3,
+      "orientation_index": 23,
+      "sasa_A2": 357.4805705685222
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 4,
+      "orientation_index": 0,
+      "sasa_A2": 360.0847901343388
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 4,
+      "orientation_index": 1,
+      "sasa_A2": 358.44468337261
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 4,
+      "orientation_index": 2,
+      "sasa_A2": 358.490286062703
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 4,
+      "orientation_index": 3,
+      "sasa_A2": 359.88603028070304
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 4,
+      "orientation_index": 4,
+      "sasa_A2": 359.80819049876686
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 4,
+      "orientation_index": 5,
+      "sasa_A2": 360.1931198563822
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 4,
+      "orientation_index": 6,
+      "sasa_A2": 356.79901796867154
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 4,
+      "orientation_index": 7,
+      "sasa_A2": 361.38748197679496
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 4,
+      "orientation_index": 8,
+      "sasa_A2": 355.56965567408963
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 4,
+      "orientation_index": 9,
+      "sasa_A2": 358.60783678391357
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 4,
+      "orientation_index": 10,
+      "sasa_A2": 361.35363131784055
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 4,
+      "orientation_index": 11,
+      "sasa_A2": 359.65568657443566
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 4,
+      "orientation_index": 12,
+      "sasa_A2": 358.9489463416223
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 4,
+      "orientation_index": 13,
+      "sasa_A2": 359.8100437758738
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 4,
+      "orientation_index": 14,
+      "sasa_A2": 356.7830636673003
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 4,
+      "orientation_index": 15,
+      "sasa_A2": 358.8252690781472
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 4,
+      "orientation_index": 16,
+      "sasa_A2": 358.63485193620164
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 4,
+      "orientation_index": 17,
+      "sasa_A2": 358.33128697468885
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 4,
+      "orientation_index": 18,
+      "sasa_A2": 359.1709178062427
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 4,
+      "orientation_index": 19,
+      "sasa_A2": 359.5111934141186
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 4,
+      "orientation_index": 20,
+      "sasa_A2": 357.6605655235604
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 4,
+      "orientation_index": 21,
+      "sasa_A2": 359.1464823156517
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 4,
+      "orientation_index": 22,
+      "sasa_A2": 360.29360032019173
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 4,
+      "orientation_index": 23,
+      "sasa_A2": 360.05992281186076
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 5,
+      "orientation_index": 0,
+      "sasa_A2": 363.6011914430122
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 5,
+      "orientation_index": 1,
+      "sasa_A2": 362.9291126714738
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 5,
+      "orientation_index": 2,
+      "sasa_A2": 363.14883731969655
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 5,
+      "orientation_index": 3,
+      "sasa_A2": 361.2904130664228
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 5,
+      "orientation_index": 4,
+      "sasa_A2": 364.56496755956374
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 5,
+      "orientation_index": 5,
+      "sasa_A2": 364.9646829692921
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 5,
+      "orientation_index": 6,
+      "sasa_A2": 363.2002077884041
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 5,
+      "orientation_index": 7,
+      "sasa_A2": 362.94426493959793
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 5,
+      "orientation_index": 8,
+      "sasa_A2": 363.6715516539092
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 5,
+      "orientation_index": 9,
+      "sasa_A2": 363.1858656033293
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 5,
+      "orientation_index": 10,
+      "sasa_A2": 362.79899114573857
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 5,
+      "orientation_index": 11,
+      "sasa_A2": 364.0686844214851
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 5,
+      "orientation_index": 12,
+      "sasa_A2": 362.14096533966074
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 5,
+      "orientation_index": 13,
+      "sasa_A2": 363.774287439054
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 5,
+      "orientation_index": 14,
+      "sasa_A2": 364.5891365291157
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 5,
+      "orientation_index": 15,
+      "sasa_A2": 364.1692946206738
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 5,
+      "orientation_index": 16,
+      "sasa_A2": 363.7889023163644
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 5,
+      "orientation_index": 17,
+      "sasa_A2": 364.01677006722326
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 5,
+      "orientation_index": 18,
+      "sasa_A2": 362.1196354367648
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 5,
+      "orientation_index": 19,
+      "sasa_A2": 360.7076314176886
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 5,
+      "orientation_index": 20,
+      "sasa_A2": 361.0134789595332
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 5,
+      "orientation_index": 21,
+      "sasa_A2": 362.9051345422302
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 5,
+      "orientation_index": 22,
+      "sasa_A2": 361.56416910184527
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 5,
+      "orientation_index": 23,
+      "sasa_A2": 361.9962985774209
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 6,
+      "orientation_index": 0,
+      "sasa_A2": 354.9687304530232
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 6,
+      "orientation_index": 1,
+      "sasa_A2": 357.054002479218
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 6,
+      "orientation_index": 2,
+      "sasa_A2": 353.35513252350563
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 6,
+      "orientation_index": 3,
+      "sasa_A2": 354.89491928044686
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 6,
+      "orientation_index": 4,
+      "sasa_A2": 352.09018050293713
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 6,
+      "orientation_index": 5,
+      "sasa_A2": 355.79050790308344
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 6,
+      "orientation_index": 6,
+      "sasa_A2": 354.16111116842836
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 6,
+      "orientation_index": 7,
+      "sasa_A2": 356.9227767774437
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 6,
+      "orientation_index": 8,
+      "sasa_A2": 354.9735822415977
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 6,
+      "orientation_index": 9,
+      "sasa_A2": 356.2182236520363
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 6,
+      "orientation_index": 10,
+      "sasa_A2": 357.4837731881879
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 6,
+      "orientation_index": 11,
+      "sasa_A2": 353.75012742704166
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 6,
+      "orientation_index": 12,
+      "sasa_A2": 353.95901620791074
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 6,
+      "orientation_index": 13,
+      "sasa_A2": 355.239341333432
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 6,
+      "orientation_index": 14,
+      "sasa_A2": 355.6604038036255
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 6,
+      "orientation_index": 15,
+      "sasa_A2": 355.18759662414027
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 6,
+      "orientation_index": 16,
+      "sasa_A2": 356.43148712063646
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 6,
+      "orientation_index": 17,
+      "sasa_A2": 353.25306384624605
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 6,
+      "orientation_index": 18,
+      "sasa_A2": 356.0816194647686
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 6,
+      "orientation_index": 19,
+      "sasa_A2": 355.36214951045486
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 6,
+      "orientation_index": 20,
+      "sasa_A2": 355.95055843975365
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 6,
+      "orientation_index": 21,
+      "sasa_A2": 353.4524988627611
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 6,
+      "orientation_index": 22,
+      "sasa_A2": 355.1124411303855
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 6,
+      "orientation_index": 23,
+      "sasa_A2": 354.59026982776
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 7,
+      "orientation_index": 0,
+      "sasa_A2": 358.25931320046817
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 7,
+      "orientation_index": 1,
+      "sasa_A2": 357.8445970378265
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 7,
+      "orientation_index": 2,
+      "sasa_A2": 357.78418709982697
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 7,
+      "orientation_index": 3,
+      "sasa_A2": 353.091051457621
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 7,
+      "orientation_index": 4,
+      "sasa_A2": 359.3217082019558
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 7,
+      "orientation_index": 5,
+      "sasa_A2": 354.40100845204904
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 7,
+      "orientation_index": 6,
+      "sasa_A2": 356.1714252573835
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 7,
+      "orientation_index": 7,
+      "sasa_A2": 357.6707641402161
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 7,
+      "orientation_index": 8,
+      "sasa_A2": 357.00285573221174
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 7,
+      "orientation_index": 9,
+      "sasa_A2": 356.9136570937169
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 7,
+      "orientation_index": 10,
+      "sasa_A2": 357.185929310423
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 7,
+      "orientation_index": 11,
+      "sasa_A2": 356.61667933724095
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 7,
+      "orientation_index": 12,
+      "sasa_A2": 357.87838383877835
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 7,
+      "orientation_index": 13,
+      "sasa_A2": 358.58303801773616
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 7,
+      "orientation_index": 14,
+      "sasa_A2": 357.45295388664914
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 7,
+      "orientation_index": 15,
+      "sasa_A2": 356.26119360938355
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 7,
+      "orientation_index": 16,
+      "sasa_A2": 356.0454141858031
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 7,
+      "orientation_index": 17,
+      "sasa_A2": 355.55427794397804
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 7,
+      "orientation_index": 18,
+      "sasa_A2": 357.1121292410505
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 7,
+      "orientation_index": 19,
+      "sasa_A2": 356.5460952169812
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 7,
+      "orientation_index": 20,
+      "sasa_A2": 357.0851449372762
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 7,
+      "orientation_index": 21,
+      "sasa_A2": 356.341169798084
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 7,
+      "orientation_index": 22,
+      "sasa_A2": 357.31610391097547
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 7,
+      "orientation_index": 23,
+      "sasa_A2": 358.5887004307298
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 8,
+      "orientation_index": 0,
+      "sasa_A2": 357.8998288890594
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 8,
+      "orientation_index": 1,
+      "sasa_A2": 359.5525338779946
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 8,
+      "orientation_index": 2,
+      "sasa_A2": 360.0415653458348
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 8,
+      "orientation_index": 3,
+      "sasa_A2": 357.12298738853326
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 8,
+      "orientation_index": 4,
+      "sasa_A2": 358.9111285781711
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 8,
+      "orientation_index": 5,
+      "sasa_A2": 355.7256768443371
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 8,
+      "orientation_index": 6,
+      "sasa_A2": 358.64323570693983
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 8,
+      "orientation_index": 7,
+      "sasa_A2": 361.398098386735
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 8,
+      "orientation_index": 8,
+      "sasa_A2": 363.26120462596896
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 8,
+      "orientation_index": 9,
+      "sasa_A2": 360.13593192578867
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 8,
+      "orientation_index": 10,
+      "sasa_A2": 359.9817709715889
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 8,
+      "orientation_index": 11,
+      "sasa_A2": 360.1396474666489
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 8,
+      "orientation_index": 12,
+      "sasa_A2": 358.8238072544906
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 8,
+      "orientation_index": 13,
+      "sasa_A2": 360.0315694493256
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 8,
+      "orientation_index": 14,
+      "sasa_A2": 359.4362782090145
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 8,
+      "orientation_index": 15,
+      "sasa_A2": 357.00090963567357
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 8,
+      "orientation_index": 16,
+      "sasa_A2": 358.63773957944034
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 8,
+      "orientation_index": 17,
+      "sasa_A2": 358.6286181398532
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 8,
+      "orientation_index": 18,
+      "sasa_A2": 358.77952546748963
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 8,
+      "orientation_index": 19,
+      "sasa_A2": 360.36531868062576
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 8,
+      "orientation_index": 20,
+      "sasa_A2": 360.1801358081471
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 8,
+      "orientation_index": 21,
+      "sasa_A2": 360.07792669281747
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 8,
+      "orientation_index": 22,
+      "sasa_A2": 357.22955958741096
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 8,
+      "orientation_index": 23,
+      "sasa_A2": 360.191394628194
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 9,
+      "orientation_index": 0,
+      "sasa_A2": 356.2804103673664
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 9,
+      "orientation_index": 1,
+      "sasa_A2": 356.6777091700266
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 9,
+      "orientation_index": 2,
+      "sasa_A2": 357.2309985187744
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 9,
+      "orientation_index": 3,
+      "sasa_A2": 357.25188662652016
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 9,
+      "orientation_index": 4,
+      "sasa_A2": 356.4613794905752
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 9,
+      "orientation_index": 5,
+      "sasa_A2": 354.17712770053686
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 9,
+      "orientation_index": 6,
+      "sasa_A2": 357.9152251406695
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 9,
+      "orientation_index": 7,
+      "sasa_A2": 354.0460287074314
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 9,
+      "orientation_index": 8,
+      "sasa_A2": 359.24780116219694
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 9,
+      "orientation_index": 9,
+      "sasa_A2": 357.70240971420554
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 9,
+      "orientation_index": 10,
+      "sasa_A2": 356.1785087559533
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 9,
+      "orientation_index": 11,
+      "sasa_A2": 358.34548355526624
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 9,
+      "orientation_index": 12,
+      "sasa_A2": 357.64490000763897
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 9,
+      "orientation_index": 13,
+      "sasa_A2": 354.1864824145035
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 9,
+      "orientation_index": 14,
+      "sasa_A2": 351.7764742596077
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 9,
+      "orientation_index": 15,
+      "sasa_A2": 356.1796294295239
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 9,
+      "orientation_index": 16,
+      "sasa_A2": 357.6617283696108
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 9,
+      "orientation_index": 17,
+      "sasa_A2": 355.2686354505916
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 9,
+      "orientation_index": 18,
+      "sasa_A2": 356.2205832290051
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 9,
+      "orientation_index": 19,
+      "sasa_A2": 356.6444849317824
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 9,
+      "orientation_index": 20,
+      "sasa_A2": 357.1197709596397
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 9,
+      "orientation_index": 21,
+      "sasa_A2": 354.82102469550483
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 9,
+      "orientation_index": 22,
+      "sasa_A2": 357.5582488149971
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260928,
+      "conformer_id": 9,
+      "orientation_index": 23,
+      "sasa_A2": 355.87002403175177
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 10,
+      "orientation_index": 0,
+      "sasa_A2": 359.4998695450162
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 10,
+      "orientation_index": 1,
+      "sasa_A2": 356.5479107090174
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 10,
+      "orientation_index": 2,
+      "sasa_A2": 354.76026973154677
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 10,
+      "orientation_index": 3,
+      "sasa_A2": 358.26819095448246
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 10,
+      "orientation_index": 4,
+      "sasa_A2": 358.80317888011695
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 10,
+      "orientation_index": 5,
+      "sasa_A2": 359.8295591637661
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 10,
+      "orientation_index": 6,
+      "sasa_A2": 357.7644074484186
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 10,
+      "orientation_index": 7,
+      "sasa_A2": 355.1557179302721
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 10,
+      "orientation_index": 8,
+      "sasa_A2": 356.58591343846814
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 10,
+      "orientation_index": 9,
+      "sasa_A2": 357.4129561883262
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 10,
+      "orientation_index": 10,
+      "sasa_A2": 357.34046183347846
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 10,
+      "orientation_index": 11,
+      "sasa_A2": 359.1578975636887
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 10,
+      "orientation_index": 12,
+      "sasa_A2": 354.37352239863236
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 10,
+      "orientation_index": 13,
+      "sasa_A2": 356.1520712325053
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 10,
+      "orientation_index": 14,
+      "sasa_A2": 356.16708763630936
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 10,
+      "orientation_index": 15,
+      "sasa_A2": 359.72820593468094
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 10,
+      "orientation_index": 16,
+      "sasa_A2": 359.1033029592494
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 10,
+      "orientation_index": 17,
+      "sasa_A2": 358.6149610624156
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 10,
+      "orientation_index": 18,
+      "sasa_A2": 356.2756220197652
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 10,
+      "orientation_index": 19,
+      "sasa_A2": 357.26633649563445
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 10,
+      "orientation_index": 20,
+      "sasa_A2": 349.1239101130017
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 10,
+      "orientation_index": 21,
+      "sasa_A2": 354.0761468317799
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 10,
+      "orientation_index": 22,
+      "sasa_A2": 355.6788737196341
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 10,
+      "orientation_index": 23,
+      "sasa_A2": 359.8007203142442
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 11,
+      "orientation_index": 0,
+      "sasa_A2": 363.118832544004
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 11,
+      "orientation_index": 1,
+      "sasa_A2": 362.88921373914013
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 11,
+      "orientation_index": 2,
+      "sasa_A2": 364.25808302063285
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 11,
+      "orientation_index": 3,
+      "sasa_A2": 361.47330212765337
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 11,
+      "orientation_index": 4,
+      "sasa_A2": 362.77165287755616
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 11,
+      "orientation_index": 5,
+      "sasa_A2": 361.72107965152117
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 11,
+      "orientation_index": 6,
+      "sasa_A2": 364.5031289822506
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 11,
+      "orientation_index": 7,
+      "sasa_A2": 362.4110809965059
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 11,
+      "orientation_index": 8,
+      "sasa_A2": 362.0863920220525
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 11,
+      "orientation_index": 9,
+      "sasa_A2": 363.61808844128853
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 11,
+      "orientation_index": 10,
+      "sasa_A2": 360.28696055042167
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 11,
+      "orientation_index": 11,
+      "sasa_A2": 364.9074804069745
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 11,
+      "orientation_index": 12,
+      "sasa_A2": 362.68991568852795
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 11,
+      "orientation_index": 13,
+      "sasa_A2": 363.84938407885716
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 11,
+      "orientation_index": 14,
+      "sasa_A2": 362.5253865645808
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 11,
+      "orientation_index": 15,
+      "sasa_A2": 364.45438290797784
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 11,
+      "orientation_index": 16,
+      "sasa_A2": 363.7903458226516
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 11,
+      "orientation_index": 17,
+      "sasa_A2": 363.98107415726156
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 11,
+      "orientation_index": 18,
+      "sasa_A2": 362.32158770494675
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 11,
+      "orientation_index": 19,
+      "sasa_A2": 363.8420960651058
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 11,
+      "orientation_index": 20,
+      "sasa_A2": 363.4805257413118
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 11,
+      "orientation_index": 21,
+      "sasa_A2": 362.43853370392304
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 11,
+      "orientation_index": 22,
+      "sasa_A2": 364.4832790088524
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 11,
+      "orientation_index": 23,
+      "sasa_A2": 364.3215533505406
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 12,
+      "orientation_index": 0,
+      "sasa_A2": 367.05828372967767
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 12,
+      "orientation_index": 1,
+      "sasa_A2": 366.74137882969444
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 12,
+      "orientation_index": 2,
+      "sasa_A2": 364.90785906974577
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 12,
+      "orientation_index": 3,
+      "sasa_A2": 366.64669011101256
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 12,
+      "orientation_index": 4,
+      "sasa_A2": 362.82661748757926
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 12,
+      "orientation_index": 5,
+      "sasa_A2": 364.19587658649755
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 12,
+      "orientation_index": 6,
+      "sasa_A2": 366.87371878206926
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 12,
+      "orientation_index": 7,
+      "sasa_A2": 363.9864368044368
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 12,
+      "orientation_index": 8,
+      "sasa_A2": 365.644524072602
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 12,
+      "orientation_index": 9,
+      "sasa_A2": 364.16941061531867
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 12,
+      "orientation_index": 10,
+      "sasa_A2": 362.44933707624654
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 12,
+      "orientation_index": 11,
+      "sasa_A2": 365.8034683968647
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 12,
+      "orientation_index": 12,
+      "sasa_A2": 364.09700491135357
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 12,
+      "orientation_index": 13,
+      "sasa_A2": 363.63904393506084
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 12,
+      "orientation_index": 14,
+      "sasa_A2": 364.45601557322
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 12,
+      "orientation_index": 15,
+      "sasa_A2": 364.74997286330995
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 12,
+      "orientation_index": 16,
+      "sasa_A2": 365.5008356427926
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 12,
+      "orientation_index": 17,
+      "sasa_A2": 363.0379247939734
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 12,
+      "orientation_index": 18,
+      "sasa_A2": 365.2150690765418
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 12,
+      "orientation_index": 19,
+      "sasa_A2": 364.52041581396077
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 12,
+      "orientation_index": 20,
+      "sasa_A2": 362.7673232048579
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 12,
+      "orientation_index": 21,
+      "sasa_A2": 365.8260083794385
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 12,
+      "orientation_index": 22,
+      "sasa_A2": 365.19008819068915
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 12,
+      "orientation_index": 23,
+      "sasa_A2": 364.7056049762852
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 13,
+      "orientation_index": 0,
+      "sasa_A2": 355.9517672456852
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 13,
+      "orientation_index": 1,
+      "sasa_A2": 354.14466304768536
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 13,
+      "orientation_index": 2,
+      "sasa_A2": 356.6260238025469
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 13,
+      "orientation_index": 3,
+      "sasa_A2": 356.122572511711
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 13,
+      "orientation_index": 4,
+      "sasa_A2": 355.179889127296
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 13,
+      "orientation_index": 5,
+      "sasa_A2": 355.9945501241136
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 13,
+      "orientation_index": 6,
+      "sasa_A2": 354.5772027017217
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 13,
+      "orientation_index": 7,
+      "sasa_A2": 355.8529574108536
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 13,
+      "orientation_index": 8,
+      "sasa_A2": 354.6786236486907
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 13,
+      "orientation_index": 9,
+      "sasa_A2": 356.292842414861
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 13,
+      "orientation_index": 10,
+      "sasa_A2": 355.96812739761333
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 13,
+      "orientation_index": 11,
+      "sasa_A2": 358.2492858302158
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 13,
+      "orientation_index": 12,
+      "sasa_A2": 355.5824749810895
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 13,
+      "orientation_index": 13,
+      "sasa_A2": 354.49719528323305
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 13,
+      "orientation_index": 14,
+      "sasa_A2": 354.9389677730149
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 13,
+      "orientation_index": 15,
+      "sasa_A2": 354.73971599265985
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 13,
+      "orientation_index": 16,
+      "sasa_A2": 355.5064372913389
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 13,
+      "orientation_index": 17,
+      "sasa_A2": 355.82031559363264
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 13,
+      "orientation_index": 18,
+      "sasa_A2": 355.82566607557067
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 13,
+      "orientation_index": 19,
+      "sasa_A2": 355.33058620936265
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 13,
+      "orientation_index": 20,
+      "sasa_A2": 356.0519093198828
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 13,
+      "orientation_index": 21,
+      "sasa_A2": 358.60370487072447
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 13,
+      "orientation_index": 22,
+      "sasa_A2": 355.82031948104986
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 13,
+      "orientation_index": 23,
+      "sasa_A2": 356.521603571606
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 14,
+      "orientation_index": 0,
+      "sasa_A2": 357.32754150505474
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 14,
+      "orientation_index": 1,
+      "sasa_A2": 357.6040413754675
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 14,
+      "orientation_index": 2,
+      "sasa_A2": 357.2710314424933
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 14,
+      "orientation_index": 3,
+      "sasa_A2": 357.30055664687194
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 14,
+      "orientation_index": 4,
+      "sasa_A2": 356.8734478554623
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 14,
+      "orientation_index": 5,
+      "sasa_A2": 356.3941556208096
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 14,
+      "orientation_index": 6,
+      "sasa_A2": 357.33850874806234
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 14,
+      "orientation_index": 7,
+      "sasa_A2": 347.42613133012367
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 14,
+      "orientation_index": 8,
+      "sasa_A2": 358.44524685891054
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 14,
+      "orientation_index": 9,
+      "sasa_A2": 357.0096064505026
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 14,
+      "orientation_index": 10,
+      "sasa_A2": 356.43382153069797
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 14,
+      "orientation_index": 11,
+      "sasa_A2": 359.1709237422717
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 14,
+      "orientation_index": 12,
+      "sasa_A2": 354.6227588426739
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 14,
+      "orientation_index": 13,
+      "sasa_A2": 360.9285118988252
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 14,
+      "orientation_index": 14,
+      "sasa_A2": 357.8200438437556
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 14,
+      "orientation_index": 15,
+      "sasa_A2": 355.0915982990199
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 14,
+      "orientation_index": 16,
+      "sasa_A2": 354.46517854063126
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 14,
+      "orientation_index": 17,
+      "sasa_A2": 356.2893292173788
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 14,
+      "orientation_index": 18,
+      "sasa_A2": 355.3491499376365
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 14,
+      "orientation_index": 19,
+      "sasa_A2": 358.7698619874617
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 14,
+      "orientation_index": 20,
+      "sasa_A2": 357.7222494913563
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 14,
+      "orientation_index": 21,
+      "sasa_A2": 358.4494985607868
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 14,
+      "orientation_index": 22,
+      "sasa_A2": 357.7660493789307
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 14,
+      "orientation_index": 23,
+      "sasa_A2": 356.3572712032102
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 15,
+      "orientation_index": 0,
+      "sasa_A2": 354.8873445505064
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 15,
+      "orientation_index": 1,
+      "sasa_A2": 355.1562517395971
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 15,
+      "orientation_index": 2,
+      "sasa_A2": 354.81708796520473
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 15,
+      "orientation_index": 3,
+      "sasa_A2": 355.5786465549526
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 15,
+      "orientation_index": 4,
+      "sasa_A2": 354.685009335486
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 15,
+      "orientation_index": 5,
+      "sasa_A2": 354.3603338896374
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 15,
+      "orientation_index": 6,
+      "sasa_A2": 353.1090649056898
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 15,
+      "orientation_index": 7,
+      "sasa_A2": 357.04899709921887
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 15,
+      "orientation_index": 8,
+      "sasa_A2": 355.1435094555067
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 15,
+      "orientation_index": 9,
+      "sasa_A2": 356.5657760297175
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 15,
+      "orientation_index": 10,
+      "sasa_A2": 355.0240909343948
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 15,
+      "orientation_index": 11,
+      "sasa_A2": 355.48414733341656
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 15,
+      "orientation_index": 12,
+      "sasa_A2": 355.93220590787985
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 15,
+      "orientation_index": 13,
+      "sasa_A2": 355.2349700244448
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 15,
+      "orientation_index": 14,
+      "sasa_A2": 353.70657120644387
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 15,
+      "orientation_index": 15,
+      "sasa_A2": 354.26446272817293
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 15,
+      "orientation_index": 16,
+      "sasa_A2": 354.4965531093353
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 15,
+      "orientation_index": 17,
+      "sasa_A2": 355.3319243927521
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 15,
+      "orientation_index": 18,
+      "sasa_A2": 355.8268233848526
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 15,
+      "orientation_index": 19,
+      "sasa_A2": 358.20252076020415
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 15,
+      "orientation_index": 20,
+      "sasa_A2": 354.76400953728285
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 15,
+      "orientation_index": 21,
+      "sasa_A2": 356.4629594918956
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 15,
+      "orientation_index": 22,
+      "sasa_A2": 356.0705146109023
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 15,
+      "orientation_index": 23,
+      "sasa_A2": 355.5969237199773
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 16,
+      "orientation_index": 0,
+      "sasa_A2": 355.846686392943
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 16,
+      "orientation_index": 1,
+      "sasa_A2": 356.6391282887635
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 16,
+      "orientation_index": 2,
+      "sasa_A2": 354.7515668291787
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 16,
+      "orientation_index": 3,
+      "sasa_A2": 354.8943025267186
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 16,
+      "orientation_index": 4,
+      "sasa_A2": 356.5476084527955
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 16,
+      "orientation_index": 5,
+      "sasa_A2": 351.56318137717574
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 16,
+      "orientation_index": 6,
+      "sasa_A2": 355.65903969064163
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 16,
+      "orientation_index": 7,
+      "sasa_A2": 354.5695636993699
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 16,
+      "orientation_index": 8,
+      "sasa_A2": 355.57954694825685
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 16,
+      "orientation_index": 9,
+      "sasa_A2": 354.89790432718576
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 16,
+      "orientation_index": 10,
+      "sasa_A2": 357.5568001529086
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 16,
+      "orientation_index": 11,
+      "sasa_A2": 357.1242214729087
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 16,
+      "orientation_index": 12,
+      "sasa_A2": 355.7022616851648
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 16,
+      "orientation_index": 13,
+      "sasa_A2": 353.8840536195943
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 16,
+      "orientation_index": 14,
+      "sasa_A2": 355.9518194314135
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 16,
+      "orientation_index": 15,
+      "sasa_A2": 356.3031251436986
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 16,
+      "orientation_index": 16,
+      "sasa_A2": 354.8857691877042
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 16,
+      "orientation_index": 17,
+      "sasa_A2": 355.46327055358626
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 16,
+      "orientation_index": 18,
+      "sasa_A2": 353.78977711364433
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 16,
+      "orientation_index": 19,
+      "sasa_A2": 354.23015533267693
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 16,
+      "orientation_index": 20,
+      "sasa_A2": 357.688512935539
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 16,
+      "orientation_index": 21,
+      "sasa_A2": 354.36489550858295
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 16,
+      "orientation_index": 22,
+      "sasa_A2": 356.1228732603853
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 16,
+      "orientation_index": 23,
+      "sasa_A2": 357.23289734331377
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 17,
+      "orientation_index": 0,
+      "sasa_A2": 357.54958590306546
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 17,
+      "orientation_index": 1,
+      "sasa_A2": 358.4516338108405
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 17,
+      "orientation_index": 2,
+      "sasa_A2": 354.877851867405
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 17,
+      "orientation_index": 3,
+      "sasa_A2": 355.8692855616364
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 17,
+      "orientation_index": 4,
+      "sasa_A2": 357.5000316543321
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 17,
+      "orientation_index": 5,
+      "sasa_A2": 356.1998513833608
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 17,
+      "orientation_index": 6,
+      "sasa_A2": 356.4663825772357
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 17,
+      "orientation_index": 7,
+      "sasa_A2": 361.0249281211837
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 17,
+      "orientation_index": 8,
+      "sasa_A2": 356.6040727571542
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 17,
+      "orientation_index": 9,
+      "sasa_A2": 354.8571556157639
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 17,
+      "orientation_index": 10,
+      "sasa_A2": 357.774377343428
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 17,
+      "orientation_index": 11,
+      "sasa_A2": 356.05020919665424
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 17,
+      "orientation_index": 12,
+      "sasa_A2": 358.60503913701115
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 17,
+      "orientation_index": 13,
+      "sasa_A2": 357.4342141317683
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 17,
+      "orientation_index": 14,
+      "sasa_A2": 354.6789618970304
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 17,
+      "orientation_index": 15,
+      "sasa_A2": 357.7524414599558
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 17,
+      "orientation_index": 16,
+      "sasa_A2": 357.4042855981615
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 17,
+      "orientation_index": 17,
+      "sasa_A2": 356.88237850855677
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 17,
+      "orientation_index": 18,
+      "sasa_A2": 357.12303076474257
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 17,
+      "orientation_index": 19,
+      "sasa_A2": 356.7884038327957
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 17,
+      "orientation_index": 20,
+      "sasa_A2": 356.62839616084585
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 17,
+      "orientation_index": 21,
+      "sasa_A2": 357.32235804875563
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 17,
+      "orientation_index": 22,
+      "sasa_A2": 356.8182655413426
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 17,
+      "orientation_index": 23,
+      "sasa_A2": 357.1148516068332
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 18,
+      "orientation_index": 0,
+      "sasa_A2": 363.98530082387043
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 18,
+      "orientation_index": 1,
+      "sasa_A2": 363.70426836061887
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 18,
+      "orientation_index": 2,
+      "sasa_A2": 362.431840117101
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 18,
+      "orientation_index": 3,
+      "sasa_A2": 361.8055984246248
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 18,
+      "orientation_index": 4,
+      "sasa_A2": 361.1349234864803
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 18,
+      "orientation_index": 5,
+      "sasa_A2": 364.7288746182127
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 18,
+      "orientation_index": 6,
+      "sasa_A2": 363.36200547859295
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 18,
+      "orientation_index": 7,
+      "sasa_A2": 361.89897255967514
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 18,
+      "orientation_index": 8,
+      "sasa_A2": 362.3608021845208
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 18,
+      "orientation_index": 9,
+      "sasa_A2": 361.30995915494714
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 18,
+      "orientation_index": 10,
+      "sasa_A2": 363.1699725812469
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 18,
+      "orientation_index": 11,
+      "sasa_A2": 362.6390787060639
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 18,
+      "orientation_index": 12,
+      "sasa_A2": 362.64052063508507
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 18,
+      "orientation_index": 13,
+      "sasa_A2": 361.77874254816965
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 18,
+      "orientation_index": 14,
+      "sasa_A2": 362.7759739873919
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 18,
+      "orientation_index": 15,
+      "sasa_A2": 361.2649881916301
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 18,
+      "orientation_index": 16,
+      "sasa_A2": 362.37784378433895
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 18,
+      "orientation_index": 17,
+      "sasa_A2": 362.33335238901594
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 18,
+      "orientation_index": 18,
+      "sasa_A2": 361.42072933038315
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 18,
+      "orientation_index": 19,
+      "sasa_A2": 362.9232020548242
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 18,
+      "orientation_index": 20,
+      "sasa_A2": 356.3093829332467
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 18,
+      "orientation_index": 21,
+      "sasa_A2": 357.79345749636025
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 18,
+      "orientation_index": 22,
+      "sasa_A2": 363.76247546313965
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 18,
+      "orientation_index": 23,
+      "sasa_A2": 363.4166915679812
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 19,
+      "orientation_index": 0,
+      "sasa_A2": 361.15765567786326
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 19,
+      "orientation_index": 1,
+      "sasa_A2": 360.1658356182746
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 19,
+      "orientation_index": 2,
+      "sasa_A2": 353.90781099977863
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 19,
+      "orientation_index": 3,
+      "sasa_A2": 358.0312278258948
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 19,
+      "orientation_index": 4,
+      "sasa_A2": 357.29876902188215
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 19,
+      "orientation_index": 5,
+      "sasa_A2": 359.6738583739883
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 19,
+      "orientation_index": 6,
+      "sasa_A2": 357.87494079735364
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 19,
+      "orientation_index": 7,
+      "sasa_A2": 362.4313871186817
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 19,
+      "orientation_index": 8,
+      "sasa_A2": 360.1148426060251
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 19,
+      "orientation_index": 9,
+      "sasa_A2": 359.7048080823362
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 19,
+      "orientation_index": 10,
+      "sasa_A2": 357.62521909041794
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 19,
+      "orientation_index": 11,
+      "sasa_A2": 358.9370524643085
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 19,
+      "orientation_index": 12,
+      "sasa_A2": 360.0089457502137
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 19,
+      "orientation_index": 13,
+      "sasa_A2": 360.8194406226051
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 19,
+      "orientation_index": 14,
+      "sasa_A2": 359.4652965601012
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 19,
+      "orientation_index": 15,
+      "sasa_A2": 357.4773096242008
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 19,
+      "orientation_index": 16,
+      "sasa_A2": 361.00529771875335
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 19,
+      "orientation_index": 17,
+      "sasa_A2": 359.9321728313668
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 19,
+      "orientation_index": 18,
+      "sasa_A2": 360.22987785786484
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 19,
+      "orientation_index": 19,
+      "sasa_A2": 359.51796212730113
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 19,
+      "orientation_index": 20,
+      "sasa_A2": 359.90259175278453
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 19,
+      "orientation_index": 21,
+      "sasa_A2": 358.5461708324376
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 19,
+      "orientation_index": 22,
+      "sasa_A2": 358.4732573423065
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260929,
+      "conformer_id": 19,
+      "orientation_index": 23,
+      "sasa_A2": 360.24031363958863
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 20,
+      "orientation_index": 0,
+      "sasa_A2": 362.0765804783167
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 20,
+      "orientation_index": 1,
+      "sasa_A2": 362.8236151146037
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 20,
+      "orientation_index": 2,
+      "sasa_A2": 361.28925099980995
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 20,
+      "orientation_index": 3,
+      "sasa_A2": 363.87732937453615
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 20,
+      "orientation_index": 4,
+      "sasa_A2": 361.67227327885973
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 20,
+      "orientation_index": 5,
+      "sasa_A2": 362.10368795760957
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 20,
+      "orientation_index": 6,
+      "sasa_A2": 363.972096261181
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 20,
+      "orientation_index": 7,
+      "sasa_A2": 361.38865225867204
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 20,
+      "orientation_index": 8,
+      "sasa_A2": 363.26438004943304
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 20,
+      "orientation_index": 9,
+      "sasa_A2": 364.36048687451495
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 20,
+      "orientation_index": 10,
+      "sasa_A2": 362.23084399912443
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 20,
+      "orientation_index": 11,
+      "sasa_A2": 364.17040626600266
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 20,
+      "orientation_index": 12,
+      "sasa_A2": 363.08021617835084
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 20,
+      "orientation_index": 13,
+      "sasa_A2": 363.5678894592455
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 20,
+      "orientation_index": 14,
+      "sasa_A2": 363.6943970176213
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 20,
+      "orientation_index": 15,
+      "sasa_A2": 362.67003901549305
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 20,
+      "orientation_index": 16,
+      "sasa_A2": 362.84881612362864
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 20,
+      "orientation_index": 17,
+      "sasa_A2": 362.3863357638764
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 20,
+      "orientation_index": 18,
+      "sasa_A2": 361.7442358882275
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 20,
+      "orientation_index": 19,
+      "sasa_A2": 362.6575920879145
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 20,
+      "orientation_index": 20,
+      "sasa_A2": 363.32956157155206
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 20,
+      "orientation_index": 21,
+      "sasa_A2": 362.0369395615631
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 20,
+      "orientation_index": 22,
+      "sasa_A2": 364.07640303316873
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 20,
+      "orientation_index": 23,
+      "sasa_A2": 364.9228250026181
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 21,
+      "orientation_index": 0,
+      "sasa_A2": 364.54162799843925
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 21,
+      "orientation_index": 1,
+      "sasa_A2": 363.3941966386828
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 21,
+      "orientation_index": 2,
+      "sasa_A2": 362.3067654793633
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 21,
+      "orientation_index": 3,
+      "sasa_A2": 360.94290348077607
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 21,
+      "orientation_index": 4,
+      "sasa_A2": 363.3613431671102
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 21,
+      "orientation_index": 5,
+      "sasa_A2": 361.5330847500916
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 21,
+      "orientation_index": 6,
+      "sasa_A2": 364.0980653942416
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 21,
+      "orientation_index": 7,
+      "sasa_A2": 362.7770648190416
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 21,
+      "orientation_index": 8,
+      "sasa_A2": 363.19664352351424
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 21,
+      "orientation_index": 9,
+      "sasa_A2": 362.9833529996366
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 21,
+      "orientation_index": 10,
+      "sasa_A2": 362.56109432805164
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 21,
+      "orientation_index": 11,
+      "sasa_A2": 362.2311790127554
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 21,
+      "orientation_index": 12,
+      "sasa_A2": 363.8298165818147
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 21,
+      "orientation_index": 13,
+      "sasa_A2": 362.5975555745241
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 21,
+      "orientation_index": 14,
+      "sasa_A2": 360.8433200199564
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 21,
+      "orientation_index": 15,
+      "sasa_A2": 361.05632193667105
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 21,
+      "orientation_index": 16,
+      "sasa_A2": 363.6139044786163
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 21,
+      "orientation_index": 17,
+      "sasa_A2": 360.7939377114467
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 21,
+      "orientation_index": 18,
+      "sasa_A2": 362.93866360965666
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 21,
+      "orientation_index": 19,
+      "sasa_A2": 363.4919310688163
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 21,
+      "orientation_index": 20,
+      "sasa_A2": 360.87794528732445
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 21,
+      "orientation_index": 21,
+      "sasa_A2": 362.4767719240855
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 21,
+      "orientation_index": 22,
+      "sasa_A2": 361.7177600664785
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 21,
+      "orientation_index": 23,
+      "sasa_A2": 362.44547900114316
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 22,
+      "orientation_index": 0,
+      "sasa_A2": 358.3216218589038
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 22,
+      "orientation_index": 1,
+      "sasa_A2": 359.4722476742391
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 22,
+      "orientation_index": 2,
+      "sasa_A2": 362.1665946171393
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 22,
+      "orientation_index": 3,
+      "sasa_A2": 359.68685232360446
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 22,
+      "orientation_index": 4,
+      "sasa_A2": 358.3463441331616
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 22,
+      "orientation_index": 5,
+      "sasa_A2": 357.80761878765844
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 22,
+      "orientation_index": 6,
+      "sasa_A2": 361.20038896183223
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 22,
+      "orientation_index": 7,
+      "sasa_A2": 362.3170938781868
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 22,
+      "orientation_index": 8,
+      "sasa_A2": 358.54863752484187
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 22,
+      "orientation_index": 9,
+      "sasa_A2": 359.48442663327177
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 22,
+      "orientation_index": 10,
+      "sasa_A2": 361.83534708769776
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 22,
+      "orientation_index": 11,
+      "sasa_A2": 358.66513080594336
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 22,
+      "orientation_index": 12,
+      "sasa_A2": 364.2129109918878
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 22,
+      "orientation_index": 13,
+      "sasa_A2": 359.80285250036013
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 22,
+      "orientation_index": 14,
+      "sasa_A2": 358.1576224396154
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 22,
+      "orientation_index": 15,
+      "sasa_A2": 359.33029652491996
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 22,
+      "orientation_index": 16,
+      "sasa_A2": 358.9986916885685
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 22,
+      "orientation_index": 17,
+      "sasa_A2": 363.0088037629128
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 22,
+      "orientation_index": 18,
+      "sasa_A2": 351.99519072306236
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 22,
+      "orientation_index": 19,
+      "sasa_A2": 361.36513713309137
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 22,
+      "orientation_index": 20,
+      "sasa_A2": 358.1686795024418
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 22,
+      "orientation_index": 21,
+      "sasa_A2": 359.13499006303334
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 22,
+      "orientation_index": 22,
+      "sasa_A2": 358.12516841091116
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 22,
+      "orientation_index": 23,
+      "sasa_A2": 357.8274874579609
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 23,
+      "orientation_index": 0,
+      "sasa_A2": 362.9579086193505
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 23,
+      "orientation_index": 1,
+      "sasa_A2": 362.75698068197045
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 23,
+      "orientation_index": 2,
+      "sasa_A2": 366.0950256822959
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 23,
+      "orientation_index": 3,
+      "sasa_A2": 362.95114125645586
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 23,
+      "orientation_index": 4,
+      "sasa_A2": 361.73500526669784
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 23,
+      "orientation_index": 5,
+      "sasa_A2": 362.7714834479284
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 23,
+      "orientation_index": 6,
+      "sasa_A2": 362.7364407572163
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 23,
+      "orientation_index": 7,
+      "sasa_A2": 361.6544797085727
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 23,
+      "orientation_index": 8,
+      "sasa_A2": 363.63046815931915
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 23,
+      "orientation_index": 9,
+      "sasa_A2": 363.11631836936374
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 23,
+      "orientation_index": 10,
+      "sasa_A2": 363.58511143105414
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 23,
+      "orientation_index": 11,
+      "sasa_A2": 362.068407407569
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 23,
+      "orientation_index": 12,
+      "sasa_A2": 364.0300542089013
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 23,
+      "orientation_index": 13,
+      "sasa_A2": 363.3402383132182
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 23,
+      "orientation_index": 14,
+      "sasa_A2": 361.2271686833782
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 23,
+      "orientation_index": 15,
+      "sasa_A2": 363.6134106172353
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 23,
+      "orientation_index": 16,
+      "sasa_A2": 359.2368440551286
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 23,
+      "orientation_index": 17,
+      "sasa_A2": 362.9757970139304
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 23,
+      "orientation_index": 18,
+      "sasa_A2": 363.31971929172573
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 23,
+      "orientation_index": 19,
+      "sasa_A2": 362.94504001852476
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 23,
+      "orientation_index": 20,
+      "sasa_A2": 363.6510661659823
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 23,
+      "orientation_index": 21,
+      "sasa_A2": 363.0866410007479
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 23,
+      "orientation_index": 22,
+      "sasa_A2": 362.5617817514747
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 23,
+      "orientation_index": 23,
+      "sasa_A2": 362.1776875149784
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 24,
+      "orientation_index": 0,
+      "sasa_A2": 357.9061536232591
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 24,
+      "orientation_index": 1,
+      "sasa_A2": 356.6542990994769
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 24,
+      "orientation_index": 2,
+      "sasa_A2": 353.1980101875705
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 24,
+      "orientation_index": 3,
+      "sasa_A2": 358.1200252780395
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 24,
+      "orientation_index": 4,
+      "sasa_A2": 358.0729764544042
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 24,
+      "orientation_index": 5,
+      "sasa_A2": 356.8276270672958
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 24,
+      "orientation_index": 6,
+      "sasa_A2": 357.2679408603947
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 24,
+      "orientation_index": 7,
+      "sasa_A2": 356.98536398061754
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 24,
+      "orientation_index": 8,
+      "sasa_A2": 357.23308771807416
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 24,
+      "orientation_index": 9,
+      "sasa_A2": 356.9205590765784
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 24,
+      "orientation_index": 10,
+      "sasa_A2": 357.46810904085584
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 24,
+      "orientation_index": 11,
+      "sasa_A2": 356.33184382356023
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 24,
+      "orientation_index": 12,
+      "sasa_A2": 356.86581024777684
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 24,
+      "orientation_index": 13,
+      "sasa_A2": 356.74959220630564
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 24,
+      "orientation_index": 14,
+      "sasa_A2": 359.512935200366
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 24,
+      "orientation_index": 15,
+      "sasa_A2": 357.46056630718886
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 24,
+      "orientation_index": 16,
+      "sasa_A2": 353.68706252061133
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 24,
+      "orientation_index": 17,
+      "sasa_A2": 357.3786479503581
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 24,
+      "orientation_index": 18,
+      "sasa_A2": 358.63573351436304
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 24,
+      "orientation_index": 19,
+      "sasa_A2": 355.7954086763834
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 24,
+      "orientation_index": 20,
+      "sasa_A2": 355.3881143498973
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 24,
+      "orientation_index": 21,
+      "sasa_A2": 357.4297174936112
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 24,
+      "orientation_index": 22,
+      "sasa_A2": 357.7431842157229
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 24,
+      "orientation_index": 23,
+      "sasa_A2": 356.7576331746742
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 25,
+      "orientation_index": 0,
+      "sasa_A2": 355.2855253477581
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 25,
+      "orientation_index": 1,
+      "sasa_A2": 353.13583470968797
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 25,
+      "orientation_index": 2,
+      "sasa_A2": 356.2788241745767
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 25,
+      "orientation_index": 3,
+      "sasa_A2": 356.03248848881293
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 25,
+      "orientation_index": 4,
+      "sasa_A2": 354.51072985648483
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 25,
+      "orientation_index": 5,
+      "sasa_A2": 354.9896880219402
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 25,
+      "orientation_index": 6,
+      "sasa_A2": 356.5809483959752
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 25,
+      "orientation_index": 7,
+      "sasa_A2": 358.3877909536585
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 25,
+      "orientation_index": 8,
+      "sasa_A2": 355.82078860064564
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 25,
+      "orientation_index": 9,
+      "sasa_A2": 355.7850287344609
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 25,
+      "orientation_index": 10,
+      "sasa_A2": 353.4428398199332
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 25,
+      "orientation_index": 11,
+      "sasa_A2": 355.6250766835026
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 25,
+      "orientation_index": 12,
+      "sasa_A2": 354.3532243394171
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 25,
+      "orientation_index": 13,
+      "sasa_A2": 354.9930749230315
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 25,
+      "orientation_index": 14,
+      "sasa_A2": 356.57542516503446
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 25,
+      "orientation_index": 15,
+      "sasa_A2": 357.1332144262034
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 25,
+      "orientation_index": 16,
+      "sasa_A2": 356.5056763665583
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 25,
+      "orientation_index": 17,
+      "sasa_A2": 355.85566267988827
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 25,
+      "orientation_index": 18,
+      "sasa_A2": 354.8943522548787
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 25,
+      "orientation_index": 19,
+      "sasa_A2": 353.1737749709741
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 25,
+      "orientation_index": 20,
+      "sasa_A2": 354.764379704548
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 25,
+      "orientation_index": 21,
+      "sasa_A2": 356.0531900926647
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 25,
+      "orientation_index": 22,
+      "sasa_A2": 357.3387359975285
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 25,
+      "orientation_index": 23,
+      "sasa_A2": 355.37499050132595
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 26,
+      "orientation_index": 0,
+      "sasa_A2": 357.1086454301967
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 26,
+      "orientation_index": 1,
+      "sasa_A2": 355.2291840015276
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 26,
+      "orientation_index": 2,
+      "sasa_A2": 354.1566882572069
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 26,
+      "orientation_index": 3,
+      "sasa_A2": 357.8008270621175
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 26,
+      "orientation_index": 4,
+      "sasa_A2": 356.11416018160287
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 26,
+      "orientation_index": 5,
+      "sasa_A2": 355.0058903262616
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 26,
+      "orientation_index": 6,
+      "sasa_A2": 354.9806488094085
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 26,
+      "orientation_index": 7,
+      "sasa_A2": 354.9799494330331
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 26,
+      "orientation_index": 8,
+      "sasa_A2": 355.56097602198747
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 26,
+      "orientation_index": 9,
+      "sasa_A2": 355.95719657894574
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 26,
+      "orientation_index": 10,
+      "sasa_A2": 355.09671622079065
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 26,
+      "orientation_index": 11,
+      "sasa_A2": 353.78196075514785
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 26,
+      "orientation_index": 12,
+      "sasa_A2": 355.48513409680316
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 26,
+      "orientation_index": 13,
+      "sasa_A2": 355.8925325849273
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 26,
+      "orientation_index": 14,
+      "sasa_A2": 356.2278544986592
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 26,
+      "orientation_index": 15,
+      "sasa_A2": 356.23213796546827
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 26,
+      "orientation_index": 16,
+      "sasa_A2": 355.4692705751906
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 26,
+      "orientation_index": 17,
+      "sasa_A2": 354.9252528209438
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 26,
+      "orientation_index": 18,
+      "sasa_A2": 354.71007017015404
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 26,
+      "orientation_index": 19,
+      "sasa_A2": 356.8438997329779
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 26,
+      "orientation_index": 20,
+      "sasa_A2": 359.2828549428599
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 26,
+      "orientation_index": 21,
+      "sasa_A2": 353.2320450277069
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 26,
+      "orientation_index": 22,
+      "sasa_A2": 353.4356757901839
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 26,
+      "orientation_index": 23,
+      "sasa_A2": 356.2451694883371
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 27,
+      "orientation_index": 0,
+      "sasa_A2": 355.15371880561287
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 27,
+      "orientation_index": 1,
+      "sasa_A2": 357.17718536731604
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 27,
+      "orientation_index": 2,
+      "sasa_A2": 355.64337495498046
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 27,
+      "orientation_index": 3,
+      "sasa_A2": 355.68915488249365
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 27,
+      "orientation_index": 4,
+      "sasa_A2": 355.7410908660135
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 27,
+      "orientation_index": 5,
+      "sasa_A2": 354.789502809016
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 27,
+      "orientation_index": 6,
+      "sasa_A2": 355.4782950339617
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 27,
+      "orientation_index": 7,
+      "sasa_A2": 353.5413039568036
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 27,
+      "orientation_index": 8,
+      "sasa_A2": 356.1637988626469
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 27,
+      "orientation_index": 9,
+      "sasa_A2": 356.18698559027473
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 27,
+      "orientation_index": 10,
+      "sasa_A2": 356.5028551969358
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 27,
+      "orientation_index": 11,
+      "sasa_A2": 351.7090809912614
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 27,
+      "orientation_index": 12,
+      "sasa_A2": 355.09060637956617
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 27,
+      "orientation_index": 13,
+      "sasa_A2": 353.15385951623836
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 27,
+      "orientation_index": 14,
+      "sasa_A2": 353.73462041049
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 27,
+      "orientation_index": 15,
+      "sasa_A2": 354.6524654753837
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 27,
+      "orientation_index": 16,
+      "sasa_A2": 354.6449547640351
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 27,
+      "orientation_index": 17,
+      "sasa_A2": 356.26342378251223
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 27,
+      "orientation_index": 18,
+      "sasa_A2": 357.80595494030035
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 27,
+      "orientation_index": 19,
+      "sasa_A2": 354.8982498786818
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 27,
+      "orientation_index": 20,
+      "sasa_A2": 353.41588885484646
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 27,
+      "orientation_index": 21,
+      "sasa_A2": 354.63397452708534
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 27,
+      "orientation_index": 22,
+      "sasa_A2": 355.14914579227394
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 27,
+      "orientation_index": 23,
+      "sasa_A2": 356.3706776269864
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 28,
+      "orientation_index": 0,
+      "sasa_A2": 358.3633362924553
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 28,
+      "orientation_index": 1,
+      "sasa_A2": 357.83842861403963
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 28,
+      "orientation_index": 2,
+      "sasa_A2": 357.9657090632848
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 28,
+      "orientation_index": 3,
+      "sasa_A2": 361.3524032644591
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 28,
+      "orientation_index": 4,
+      "sasa_A2": 359.5069513236051
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 28,
+      "orientation_index": 5,
+      "sasa_A2": 360.9471602742751
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 28,
+      "orientation_index": 6,
+      "sasa_A2": 360.1556095121891
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 28,
+      "orientation_index": 7,
+      "sasa_A2": 359.85078450877324
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 28,
+      "orientation_index": 8,
+      "sasa_A2": 359.10742676202585
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 28,
+      "orientation_index": 9,
+      "sasa_A2": 358.36300804797617
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 28,
+      "orientation_index": 10,
+      "sasa_A2": 357.88105096505745
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 28,
+      "orientation_index": 11,
+      "sasa_A2": 358.7215574651128
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 28,
+      "orientation_index": 12,
+      "sasa_A2": 357.20276797779053
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 28,
+      "orientation_index": 13,
+      "sasa_A2": 357.36419123417795
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 28,
+      "orientation_index": 14,
+      "sasa_A2": 358.1396389646628
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 28,
+      "orientation_index": 15,
+      "sasa_A2": 363.3103115102547
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 28,
+      "orientation_index": 16,
+      "sasa_A2": 358.59553175871537
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 28,
+      "orientation_index": 17,
+      "sasa_A2": 359.25297834101906
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 28,
+      "orientation_index": 18,
+      "sasa_A2": 359.0323210317099
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 28,
+      "orientation_index": 19,
+      "sasa_A2": 359.9009198396995
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 28,
+      "orientation_index": 20,
+      "sasa_A2": 351.89495698755627
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 28,
+      "orientation_index": 21,
+      "sasa_A2": 354.8317001659738
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 28,
+      "orientation_index": 22,
+      "sasa_A2": 362.0194295487167
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 28,
+      "orientation_index": 23,
+      "sasa_A2": 358.1962464064454
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 29,
+      "orientation_index": 0,
+      "sasa_A2": 364.8153263725296
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 29,
+      "orientation_index": 1,
+      "sasa_A2": 363.1768603773138
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 29,
+      "orientation_index": 2,
+      "sasa_A2": 362.818432989673
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 29,
+      "orientation_index": 3,
+      "sasa_A2": 365.2709501954384
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 29,
+      "orientation_index": 4,
+      "sasa_A2": 363.99222295067955
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 29,
+      "orientation_index": 5,
+      "sasa_A2": 362.54313493449655
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 29,
+      "orientation_index": 6,
+      "sasa_A2": 363.2590372960076
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 29,
+      "orientation_index": 7,
+      "sasa_A2": 363.77334040564693
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 29,
+      "orientation_index": 8,
+      "sasa_A2": 363.5074178111261
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 29,
+      "orientation_index": 9,
+      "sasa_A2": 363.29519148639366
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 29,
+      "orientation_index": 10,
+      "sasa_A2": 362.34227317968254
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 29,
+      "orientation_index": 11,
+      "sasa_A2": 362.86661165290326
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 29,
+      "orientation_index": 12,
+      "sasa_A2": 362.249440377045
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 29,
+      "orientation_index": 13,
+      "sasa_A2": 363.31906734082423
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 29,
+      "orientation_index": 14,
+      "sasa_A2": 362.6783621455124
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 29,
+      "orientation_index": 15,
+      "sasa_A2": 364.3489421809704
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 29,
+      "orientation_index": 16,
+      "sasa_A2": 362.98665390241246
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 29,
+      "orientation_index": 17,
+      "sasa_A2": 360.76388412721104
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 29,
+      "orientation_index": 18,
+      "sasa_A2": 362.00672362475814
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 29,
+      "orientation_index": 19,
+      "sasa_A2": 362.503909087399
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 29,
+      "orientation_index": 20,
+      "sasa_A2": 356.61206213919525
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 29,
+      "orientation_index": 21,
+      "sasa_A2": 357.2348366044518
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 29,
+      "orientation_index": 22,
+      "sasa_A2": 364.12532775031315
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 29,
+      "orientation_index": 23,
+      "sasa_A2": 361.3379221500349
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 30,
+      "orientation_index": 0,
+      "sasa_A2": 362.2280514532137
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 30,
+      "orientation_index": 1,
+      "sasa_A2": 358.7041229546601
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 30,
+      "orientation_index": 2,
+      "sasa_A2": 365.4297852170278
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 30,
+      "orientation_index": 3,
+      "sasa_A2": 364.3255613388977
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 30,
+      "orientation_index": 4,
+      "sasa_A2": 363.0968413186497
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 30,
+      "orientation_index": 5,
+      "sasa_A2": 363.97583356417
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 30,
+      "orientation_index": 6,
+      "sasa_A2": 364.68543494758114
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 30,
+      "orientation_index": 7,
+      "sasa_A2": 359.6871608522182
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 30,
+      "orientation_index": 8,
+      "sasa_A2": 360.95852750387945
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 30,
+      "orientation_index": 9,
+      "sasa_A2": 362.27963361993557
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 30,
+      "orientation_index": 10,
+      "sasa_A2": 362.7481450070523
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 30,
+      "orientation_index": 11,
+      "sasa_A2": 362.1006838471531
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 30,
+      "orientation_index": 12,
+      "sasa_A2": 360.3724473556752
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 30,
+      "orientation_index": 13,
+      "sasa_A2": 362.2644750707237
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 30,
+      "orientation_index": 14,
+      "sasa_A2": 363.6914079196287
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 30,
+      "orientation_index": 15,
+      "sasa_A2": 364.2413219849989
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 30,
+      "orientation_index": 16,
+      "sasa_A2": 365.7364974196597
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 30,
+      "orientation_index": 17,
+      "sasa_A2": 363.42914426198746
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 30,
+      "orientation_index": 18,
+      "sasa_A2": 362.6489466981962
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 30,
+      "orientation_index": 19,
+      "sasa_A2": 362.7822047926421
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 30,
+      "orientation_index": 20,
+      "sasa_A2": 361.6157842997575
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 30,
+      "orientation_index": 21,
+      "sasa_A2": 362.45499041702385
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 30,
+      "orientation_index": 22,
+      "sasa_A2": 362.7327453107057
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 30,
+      "orientation_index": 23,
+      "sasa_A2": 359.978651545021
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 31,
+      "orientation_index": 0,
+      "sasa_A2": 357.38951688776984
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 31,
+      "orientation_index": 1,
+      "sasa_A2": 359.0621253102402
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 31,
+      "orientation_index": 2,
+      "sasa_A2": 357.0005185118803
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 31,
+      "orientation_index": 3,
+      "sasa_A2": 345.40515275195617
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 31,
+      "orientation_index": 4,
+      "sasa_A2": 357.181854155396
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 31,
+      "orientation_index": 5,
+      "sasa_A2": 357.26778636923564
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 31,
+      "orientation_index": 6,
+      "sasa_A2": 353.7595785108904
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 31,
+      "orientation_index": 7,
+      "sasa_A2": 356.9848627935235
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 31,
+      "orientation_index": 8,
+      "sasa_A2": 357.5421395615521
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 31,
+      "orientation_index": 9,
+      "sasa_A2": 357.7462621117333
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 31,
+      "orientation_index": 10,
+      "sasa_A2": 358.7270095814178
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 31,
+      "orientation_index": 11,
+      "sasa_A2": 356.22783807864386
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 31,
+      "orientation_index": 12,
+      "sasa_A2": 359.87773059726015
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 31,
+      "orientation_index": 13,
+      "sasa_A2": 357.1799654784326
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 31,
+      "orientation_index": 14,
+      "sasa_A2": 356.123692880091
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 31,
+      "orientation_index": 15,
+      "sasa_A2": 356.62171506582257
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 31,
+      "orientation_index": 16,
+      "sasa_A2": 357.2640442249969
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 31,
+      "orientation_index": 17,
+      "sasa_A2": 353.4225077527678
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 31,
+      "orientation_index": 18,
+      "sasa_A2": 356.52518907059635
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 31,
+      "orientation_index": 19,
+      "sasa_A2": 355.683560761892
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 31,
+      "orientation_index": 20,
+      "sasa_A2": 357.14603360959376
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 31,
+      "orientation_index": 21,
+      "sasa_A2": 357.45389582135925
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 31,
+      "orientation_index": 22,
+      "sasa_A2": 357.1955942724988
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 31,
+      "orientation_index": 23,
+      "sasa_A2": 359.9548190418559
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 32,
+      "orientation_index": 0,
+      "sasa_A2": 363.1921791031048
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 32,
+      "orientation_index": 1,
+      "sasa_A2": 361.0215678284408
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 32,
+      "orientation_index": 2,
+      "sasa_A2": 364.3177892967511
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 32,
+      "orientation_index": 3,
+      "sasa_A2": 362.5170120862694
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 32,
+      "orientation_index": 4,
+      "sasa_A2": 360.50912892541805
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 32,
+      "orientation_index": 5,
+      "sasa_A2": 360.1670755521005
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 32,
+      "orientation_index": 6,
+      "sasa_A2": 360.3823661087998
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 32,
+      "orientation_index": 7,
+      "sasa_A2": 363.00164200104933
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 32,
+      "orientation_index": 8,
+      "sasa_A2": 361.9599421657553
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 32,
+      "orientation_index": 9,
+      "sasa_A2": 361.2545660318113
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 32,
+      "orientation_index": 10,
+      "sasa_A2": 360.12668666110943
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 32,
+      "orientation_index": 11,
+      "sasa_A2": 363.8880041389682
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 32,
+      "orientation_index": 12,
+      "sasa_A2": 361.52321769797624
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 32,
+      "orientation_index": 13,
+      "sasa_A2": 362.4000243553038
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 32,
+      "orientation_index": 14,
+      "sasa_A2": 363.27377831221094
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 32,
+      "orientation_index": 15,
+      "sasa_A2": 364.0209658764172
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 32,
+      "orientation_index": 16,
+      "sasa_A2": 361.2381256538815
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 32,
+      "orientation_index": 17,
+      "sasa_A2": 361.9495480282416
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 32,
+      "orientation_index": 18,
+      "sasa_A2": 360.7084024202168
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 32,
+      "orientation_index": 19,
+      "sasa_A2": 363.6385620900792
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 32,
+      "orientation_index": 20,
+      "sasa_A2": 358.7089294780781
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 32,
+      "orientation_index": 21,
+      "sasa_A2": 358.6257995388038
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 32,
+      "orientation_index": 22,
+      "sasa_A2": 363.8124507173025
+    },
+    {
+      "molecule_id": "tryptophol",
+      "seed": 20260930,
+      "conformer_id": 32,
+      "orientation_index": 23,
+      "sasa_A2": 362.1167807074303
+    }
+  ],
+  "radii_audit": {
+    "explicit_vdw_A": [
+      1.55,
+      1.7,
+      1.7,
+      1.7,
+      1.7,
+      1.6,
+      1.7,
+      1.7,
+      1.7,
+      1.7,
+      1.7,
+      1.7,
+      1.2,
+      1.2,
+      1.2,
+      1.2,
+      1.2,
+      1.2,
+      1.2,
+      1.2,
+      1.2,
+      1.2,
+      1.2
+    ],
+    "classifier_zero_count": 23,
+    "classifier_returned_none": false,
+    "method": "RDKit periodic-table vdW radii, all atoms including explicit H",
+    "probe_radius_A": 1.4,
+    "algorithm": "LeeRichards",
+    "rotation_average_count": 24,
+    "rotation_seed": 17381
+  },
+  "pooled_deduplication": [
+    {
+      "conformer_id": 25,
+      "representative_id": 25,
+      "rmsd_to_representative_A": 0.0,
+      "selected": true
+    },
+    {
+      "conformer_id": 15,
+      "representative_id": 25,
+      "rmsd_to_representative_A": 1.1368404382647753e-05,
+      "selected": false
+    },
+    {
+      "conformer_id": 16,
+      "representative_id": 16,
+      "rmsd_to_representative_A": 0.0,
+      "selected": true
+    },
+    {
+      "conformer_id": 6,
+      "representative_id": 16,
+      "rmsd_to_representative_A": 7.516017294333072e-06,
+      "selected": false
+    },
+    {
+      "conformer_id": 26,
+      "representative_id": 25,
+      "rmsd_to_representative_A": 7.541891688130303e-06,
+      "selected": false
+    },
+    {
+      "conformer_id": 27,
+      "representative_id": 16,
+      "rmsd_to_representative_A": 1.0449245605710909e-05,
+      "selected": false
+    },
+    {
+      "conformer_id": 13,
+      "representative_id": 16,
+      "rmsd_to_representative_A": 3.075566941587398e-05,
+      "selected": false
+    },
+    {
+      "conformer_id": 17,
+      "representative_id": 17,
+      "rmsd_to_representative_A": 0.0,
+      "selected": true
+    },
+    {
+      "conformer_id": 3,
+      "representative_id": 3,
+      "rmsd_to_representative_A": 0.0,
+      "selected": true
+    },
+    {
+      "conformer_id": 14,
+      "representative_id": 17,
+      "rmsd_to_representative_A": 2.2790496700173808e-06,
+      "selected": false
+    },
+    {
+      "conformer_id": 7,
+      "representative_id": 17,
+      "rmsd_to_representative_A": 4.314240021514314e-06,
+      "selected": false
+    },
+    {
+      "conformer_id": 24,
+      "representative_id": 17,
+      "rmsd_to_representative_A": 7.80396066878166e-06,
+      "selected": false
+    },
+    {
+      "conformer_id": 10,
+      "representative_id": 3,
+      "rmsd_to_representative_A": 4.380299343801582e-06,
+      "selected": false
+    },
+    {
+      "conformer_id": 9,
+      "representative_id": 3,
+      "rmsd_to_representative_A": 8.116524486872302e-06,
+      "selected": false
+    },
+    {
+      "conformer_id": 31,
+      "representative_id": 3,
+      "rmsd_to_representative_A": 1.4947184379702892e-05,
+      "selected": false
+    },
+    {
+      "conformer_id": 12,
+      "representative_id": 12,
+      "rmsd_to_representative_A": 0.0,
+      "selected": true
+    },
+    {
+      "conformer_id": 23,
+      "representative_id": 23,
+      "rmsd_to_representative_A": 0.0,
+      "selected": true
+    },
+    {
+      "conformer_id": 11,
+      "representative_id": 23,
+      "rmsd_to_representative_A": 7.155702482262569e-06,
+      "selected": false
+    },
+    {
+      "conformer_id": 0,
+      "representative_id": 23,
+      "rmsd_to_representative_A": 5.326201153281952e-06,
+      "selected": false
+    },
+    {
+      "conformer_id": 20,
+      "representative_id": 12,
+      "rmsd_to_representative_A": 0.009450901412294283,
+      "selected": false
+    },
+    {
+      "conformer_id": 29,
+      "representative_id": 23,
+      "rmsd_to_representative_A": 1.0718400171264918e-05,
+      "selected": false
+    },
+    {
+      "conformer_id": 2,
+      "representative_id": 12,
+      "rmsd_to_representative_A": 0.009529229356599736,
+      "selected": false
+    },
+    {
+      "conformer_id": 5,
+      "representative_id": 12,
+      "rmsd_to_representative_A": 0.009528075839372575,
+      "selected": false
+    },
+    {
+      "conformer_id": 28,
+      "representative_id": 16,
+      "rmsd_to_representative_A": 0.14394408539502943,
+      "selected": false
+    },
+    {
+      "conformer_id": 1,
+      "representative_id": 16,
+      "rmsd_to_representative_A": 0.14394438325863873,
+      "selected": false
+    },
+    {
+      "conformer_id": 8,
+      "representative_id": 25,
+      "rmsd_to_representative_A": 0.14393370926738852,
+      "selected": false
+    },
+    {
+      "conformer_id": 19,
+      "representative_id": 25,
+      "rmsd_to_representative_A": 0.14393325026754927,
+      "selected": false
+    },
+    {
+      "conformer_id": 4,
+      "representative_id": 25,
+      "rmsd_to_representative_A": 0.14394631559229334,
+      "selected": false
+    },
+    {
+      "conformer_id": 22,
+      "representative_id": 25,
+      "rmsd_to_representative_A": 0.1439363036475495,
+      "selected": false
+    },
+    {
+      "conformer_id": 32,
+      "representative_id": 3,
+      "rmsd_to_representative_A": 0.13563928247874676,
+      "selected": false
+    },
+    {
+      "conformer_id": 30,
+      "representative_id": 17,
+      "rmsd_to_representative_A": 0.13566219646483432,
+      "selected": false
+    },
+    {
+      "conformer_id": 18,
+      "representative_id": 3,
+      "rmsd_to_representative_A": 0.13562386928277997,
+      "selected": false
+    },
+    {
+      "conformer_id": 21,
+      "representative_id": 3,
+      "rmsd_to_representative_A": 0.13566192894234708,
+      "selected": false
+    }
+  ],
+  "pooled_selected_minima": [
+    25,
+    16,
+    17,
+    3,
+    12,
+    23
+  ],
+  "seed_variability": [
+    {
+      "molecule_id": "tryptophol",
+      "temperature_K": 250.0,
+      "successful_seeds": 3,
+      "minimum_energy_kcal_mol_mean": 24.617422461187903,
+      "minimum_energy_kcal_mol_range": 9.964271185936013e-09,
+      "minimum_energy_kcal_mol_sample_sd": 5.071125708534907e-09,
+      "weighted_sasa_A2_mean": 356.0072228575178,
+      "weighted_sasa_A2_range": 0.3650797870080851,
+      "weighted_sasa_A2_sample_sd": 0.18282607644934637,
+      "weighted_mass_weighted_Rg_A_mean": 2.457872703074488,
+      "weighted_mass_weighted_Rg_A_range": 0.00941298236960142,
+      "weighted_mass_weighted_Rg_A_sample_sd": 0.005161300691582899,
+      "effective_minima_count_mean": 3.2668181334510487,
+      "effective_minima_count_range": 0.9633435606966296,
+      "effective_minima_count_sample_sd": 0.5435221395749245
+    },
+    {
+      "molecule_id": "tryptophol",
+      "temperature_K": 298.15,
+      "successful_seeds": 3,
+      "minimum_energy_kcal_mol_mean": 24.617422461187903,
+      "minimum_energy_kcal_mol_range": 9.964271185936013e-09,
+      "minimum_energy_kcal_mol_sample_sd": 5.071125708534907e-09,
+      "weighted_sasa_A2_mean": 356.11588332876164,
+      "weighted_sasa_A2_range": 0.414922544395381,
+      "weighted_sasa_A2_sample_sd": 0.20746354699014036,
+      "weighted_mass_weighted_Rg_A_mean": 2.46061003515957,
+      "weighted_mass_weighted_Rg_A_range": 0.0098346422657829,
+      "weighted_mass_weighted_Rg_A_sample_sd": 0.005278662773657676,
+      "effective_minima_count_mean": 3.440960631568288,
+      "effective_minima_count_range": 0.9839126068809843,
+      "effective_minima_count_sample_sd": 0.5481602504731801
+    },
+    {
+      "molecule_id": "tryptophol",
+      "temperature_K": 350.0,
+      "successful_seeds": 3,
+      "minimum_energy_kcal_mol_mean": 24.617422461187903,
+      "minimum_energy_kcal_mol_range": 9.964271185936013e-09,
+      "minimum_energy_kcal_mol_sample_sd": 5.071125708534907e-09,
+      "weighted_sasa_A2_mean": 356.2343551046934,
+      "weighted_sasa_A2_range": 0.4647048654685477,
+      "weighted_sasa_A2_sample_sd": 0.2325309186532325,
+      "weighted_mass_weighted_Rg_A_mean": 2.4634027456556216,
+      "weighted_mass_weighted_Rg_A_range": 0.010214252190853035,
+      "weighted_mass_weighted_Rg_A_sample_sd": 0.005386409571262183,
+      "effective_minima_count_mean": 3.6056188603618544,
+      "effective_minima_count_range": 0.9967917531451458,
+      "effective_minima_count_sample_sd": 0.5484809237008128
+    }
+  ],
+  "returned_after_embedding_pruning": 33,
+  "converged": 33,
+  "nonconverged": 0,
+  "pooled_unique_minima": 6,
+  "status": "success",
+  "coordinate_sha256": {
+    "tryptophol_embedded.sdf": "937c7a3fd536e261941a40049e7c49ff1881a924a777cce0ddd640497e95234d",
+    "tryptophol_optimized.sdf": "e5e176f6b47c7972e0906fa448b55b47332824d9ffd424f4be4d006b8fa22721"
+  }
+}

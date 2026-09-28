@@ -1,0 +1,8 @@
+================================================================================
+    ELECTROGRAPH-kMC: ADVANCED PURE-SOFTWARE AI4S COMPUTATIONAL SUITE   
+================================================================================
+
+[1/5] Initializing Deep Edge-Conditioned MPNN Architecture...
+      -> MPNN Initialized: Node Feature Dim = 14, Edge Feature Dim = 6
+
+[2/5] Profiling 3D Conformer Ensemble for: COc1ccc2[nH]c(cc2c1)c3ccccc3...

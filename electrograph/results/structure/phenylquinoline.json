@@ -1,0 +1,1088 @@
+{
+  "molecule_id": "phenylquinoline",
+  "name": "2-Phenylquinoline",
+  "source_smiles": "c1ccc(cc1)-c2ccc3ccccc3n2",
+  "canonical_smiles": "c1ccc(-c2ccc3ccccc3n2)cc1",
+  "formula": "C15H11N",
+  "formal_charge": 0,
+  "radical_electrons": 0,
+  "requested_conformers": 72,
+  "attempts_per_seed": 24,
+  "seeds": [
+    20260928,
+    20260929,
+    20260930
+  ],
+  "records": [
+    {
+      "molecule_id": "phenylquinoline",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "optimization_status": 0,
+      "energy_kcal_mol": 59.31796690731434,
+      "sasa_A2": 420.53206861518066,
+      "sasa_orientation_sd_A2": 1.6431727390414133,
+      "sasa_orientation_range_A2": 8.45750338872574,
+      "sasa_first_half_vs_all_abs_delta_A2": 0.5665962763407606,
+      "mass_weighted_Rg_A": 3.2076986483664807,
+      "unweighted_Rg_A": 3.698091174941128
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "seed": 20260929,
+      "conformer_id": 1,
+      "optimization_status": 0,
+      "energy_kcal_mol": 59.31796698197837,
+      "sasa_A2": 419.60917405414847,
+      "sasa_orientation_sd_A2": 3.0763367653830342,
+      "sasa_orientation_range_A2": 14.36675165636774,
+      "sasa_first_half_vs_all_abs_delta_A2": 0.9553752533443003,
+      "mass_weighted_Rg_A": 3.207699681265371,
+      "unweighted_Rg_A": 3.698091854318751
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "seed": 20260930,
+      "conformer_id": 2,
+      "optimization_status": 0,
+      "energy_kcal_mol": 59.31796709323576,
+      "sasa_A2": 420.2672874529644,
+      "sasa_orientation_sd_A2": 2.54591836324195,
+      "sasa_orientation_range_A2": 14.017772717914,
+      "sasa_first_half_vs_all_abs_delta_A2": 0.6537591691044895,
+      "mass_weighted_Rg_A": 3.207698088775252,
+      "unweighted_Rg_A": 3.6980906146691646
+    }
+  ],
+  "replicas": [
+    {
+      "seed": 20260928,
+      "requested": 24,
+      "returned_after_embedding_pruning": 1,
+      "unreturned_pruned_or_failed": 23,
+      "embedding_failure_event_counts": [
+        4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "converged": 1,
+      "nonconverged": 0,
+      "selected_minima": [
+        0
+      ],
+      "deduplication": [
+        {
+          "conformer_id": 0,
+          "representative_id": 0,
+          "rmsd_to_representative_A": 0.0,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "seed": 20260929,
+      "requested": 24,
+      "returned_after_embedding_pruning": 1,
+      "unreturned_pruned_or_failed": 23,
+      "embedding_failure_event_counts": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "converged": 1,
+      "nonconverged": 0,
+      "selected_minima": [
+        1
+      ],
+      "deduplication": [
+        {
+          "conformer_id": 1,
+          "representative_id": 1,
+          "rmsd_to_representative_A": 0.0,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "seed": 20260930,
+      "requested": 24,
+      "returned_after_embedding_pruning": 1,
+      "unreturned_pruned_or_failed": 23,
+      "embedding_failure_event_counts": [
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "converged": 1,
+      "nonconverged": 0,
+      "selected_minima": [
+        2
+      ],
+      "deduplication": [
+        {
+          "conformer_id": 2,
+          "representative_id": 2,
+          "rmsd_to_representative_A": 0.0,
+          "selected": true
+        }
+      ]
+    }
+  ],
+  "summaries": [
+    {
+      "molecule_id": "phenylquinoline",
+      "scope": "seed_20260928",
+      "status": "success",
+      "temperature_K": 250.0,
+      "unique_minima": 1,
+      "effective_minima_count": 1.0,
+      "minimum_energy_kcal_mol": 59.31796690731434,
+      "energy_span_kcal_mol": 0.0,
+      "weighted_sasa_A2": 420.53206861518066,
+      "within_minima_sd_sasa_A2": 0.0,
+      "weighted_mass_weighted_Rg_A": 3.2076986483664807,
+      "within_minima_sd_mass_weighted_Rg_A": 0.0,
+      "weighted_unweighted_Rg_A": 3.698091174941128,
+      "within_minima_sd_unweighted_Rg_A": 0.0
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "scope": "seed_20260928",
+      "status": "success",
+      "temperature_K": 298.15,
+      "unique_minima": 1,
+      "effective_minima_count": 1.0,
+      "minimum_energy_kcal_mol": 59.31796690731434,
+      "energy_span_kcal_mol": 0.0,
+      "weighted_sasa_A2": 420.53206861518066,
+      "within_minima_sd_sasa_A2": 0.0,
+      "weighted_mass_weighted_Rg_A": 3.2076986483664807,
+      "within_minima_sd_mass_weighted_Rg_A": 0.0,
+      "weighted_unweighted_Rg_A": 3.698091174941128,
+      "within_minima_sd_unweighted_Rg_A": 0.0
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "scope": "seed_20260928",
+      "status": "success",
+      "temperature_K": 350.0,
+      "unique_minima": 1,
+      "effective_minima_count": 1.0,
+      "minimum_energy_kcal_mol": 59.31796690731434,
+      "energy_span_kcal_mol": 0.0,
+      "weighted_sasa_A2": 420.53206861518066,
+      "within_minima_sd_sasa_A2": 0.0,
+      "weighted_mass_weighted_Rg_A": 3.2076986483664807,
+      "within_minima_sd_mass_weighted_Rg_A": 0.0,
+      "weighted_unweighted_Rg_A": 3.698091174941128,
+      "within_minima_sd_unweighted_Rg_A": 0.0
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "scope": "seed_20260929",
+      "status": "success",
+      "temperature_K": 250.0,
+      "unique_minima": 1,
+      "effective_minima_count": 1.0,
+      "minimum_energy_kcal_mol": 59.31796698197837,
+      "energy_span_kcal_mol": 0.0,
+      "weighted_sasa_A2": 419.60917405414847,
+      "within_minima_sd_sasa_A2": 0.0,
+      "weighted_mass_weighted_Rg_A": 3.207699681265371,
+      "within_minima_sd_mass_weighted_Rg_A": 0.0,
+      "weighted_unweighted_Rg_A": 3.698091854318751,
+      "within_minima_sd_unweighted_Rg_A": 0.0
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "scope": "seed_20260929",
+      "status": "success",
+      "temperature_K": 298.15,
+      "unique_minima": 1,
+      "effective_minima_count": 1.0,
+      "minimum_energy_kcal_mol": 59.31796698197837,
+      "energy_span_kcal_mol": 0.0,
+      "weighted_sasa_A2": 419.60917405414847,
+      "within_minima_sd_sasa_A2": 0.0,
+      "weighted_mass_weighted_Rg_A": 3.207699681265371,
+      "within_minima_sd_mass_weighted_Rg_A": 0.0,
+      "weighted_unweighted_Rg_A": 3.698091854318751,
+      "within_minima_sd_unweighted_Rg_A": 0.0
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "scope": "seed_20260929",
+      "status": "success",
+      "temperature_K": 350.0,
+      "unique_minima": 1,
+      "effective_minima_count": 1.0,
+      "minimum_energy_kcal_mol": 59.31796698197837,
+      "energy_span_kcal_mol": 0.0,
+      "weighted_sasa_A2": 419.60917405414847,
+      "within_minima_sd_sasa_A2": 0.0,
+      "weighted_mass_weighted_Rg_A": 3.207699681265371,
+      "within_minima_sd_mass_weighted_Rg_A": 0.0,
+      "weighted_unweighted_Rg_A": 3.698091854318751,
+      "within_minima_sd_unweighted_Rg_A": 0.0
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "scope": "seed_20260930",
+      "status": "success",
+      "temperature_K": 250.0,
+      "unique_minima": 1,
+      "effective_minima_count": 1.0,
+      "minimum_energy_kcal_mol": 59.31796709323576,
+      "energy_span_kcal_mol": 0.0,
+      "weighted_sasa_A2": 420.2672874529644,
+      "within_minima_sd_sasa_A2": 0.0,
+      "weighted_mass_weighted_Rg_A": 3.207698088775252,
+      "within_minima_sd_mass_weighted_Rg_A": 0.0,
+      "weighted_unweighted_Rg_A": 3.6980906146691646,
+      "within_minima_sd_unweighted_Rg_A": 0.0
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "scope": "seed_20260930",
+      "status": "success",
+      "temperature_K": 298.15,
+      "unique_minima": 1,
+      "effective_minima_count": 1.0,
+      "minimum_energy_kcal_mol": 59.31796709323576,
+      "energy_span_kcal_mol": 0.0,
+      "weighted_sasa_A2": 420.2672874529644,
+      "within_minima_sd_sasa_A2": 0.0,
+      "weighted_mass_weighted_Rg_A": 3.207698088775252,
+      "within_minima_sd_mass_weighted_Rg_A": 0.0,
+      "weighted_unweighted_Rg_A": 3.6980906146691646,
+      "within_minima_sd_unweighted_Rg_A": 0.0
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "scope": "seed_20260930",
+      "status": "success",
+      "temperature_K": 350.0,
+      "unique_minima": 1,
+      "effective_minima_count": 1.0,
+      "minimum_energy_kcal_mol": 59.31796709323576,
+      "energy_span_kcal_mol": 0.0,
+      "weighted_sasa_A2": 420.2672874529644,
+      "within_minima_sd_sasa_A2": 0.0,
+      "weighted_mass_weighted_Rg_A": 3.207698088775252,
+      "within_minima_sd_mass_weighted_Rg_A": 0.0,
+      "weighted_unweighted_Rg_A": 3.6980906146691646,
+      "within_minima_sd_unweighted_Rg_A": 0.0
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "scope": "pooled",
+      "status": "success",
+      "temperature_K": 250.0,
+      "unique_minima": 1,
+      "effective_minima_count": 1.0,
+      "minimum_energy_kcal_mol": 59.31796690731434,
+      "energy_span_kcal_mol": 0.0,
+      "weighted_sasa_A2": 420.53206861518066,
+      "within_minima_sd_sasa_A2": 0.0,
+      "weighted_mass_weighted_Rg_A": 3.2076986483664807,
+      "within_minima_sd_mass_weighted_Rg_A": 0.0,
+      "weighted_unweighted_Rg_A": 3.698091174941128,
+      "within_minima_sd_unweighted_Rg_A": 0.0
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "scope": "pooled",
+      "status": "success",
+      "temperature_K": 298.15,
+      "unique_minima": 1,
+      "effective_minima_count": 1.0,
+      "minimum_energy_kcal_mol": 59.31796690731434,
+      "energy_span_kcal_mol": 0.0,
+      "weighted_sasa_A2": 420.53206861518066,
+      "within_minima_sd_sasa_A2": 0.0,
+      "weighted_mass_weighted_Rg_A": 3.2076986483664807,
+      "within_minima_sd_mass_weighted_Rg_A": 0.0,
+      "weighted_unweighted_Rg_A": 3.698091174941128,
+      "within_minima_sd_unweighted_Rg_A": 0.0
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "scope": "pooled",
+      "status": "success",
+      "temperature_K": 350.0,
+      "unique_minima": 1,
+      "effective_minima_count": 1.0,
+      "minimum_energy_kcal_mol": 59.31796690731434,
+      "energy_span_kcal_mol": 0.0,
+      "weighted_sasa_A2": 420.53206861518066,
+      "within_minima_sd_sasa_A2": 0.0,
+      "weighted_mass_weighted_Rg_A": 3.2076986483664807,
+      "within_minima_sd_mass_weighted_Rg_A": 0.0,
+      "weighted_unweighted_Rg_A": 3.698091174941128,
+      "within_minima_sd_unweighted_Rg_A": 0.0
+    }
+  ],
+  "weights": [
+    {
+      "molecule_id": "phenylquinoline",
+      "scope": "seed_20260928",
+      "conformer_id": 0,
+      "temperature_K": 250.0,
+      "relative_energy_kcal_mol": 0.0,
+      "forcefield_minima_weight": 1.0
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "scope": "seed_20260928",
+      "conformer_id": 0,
+      "temperature_K": 298.15,
+      "relative_energy_kcal_mol": 0.0,
+      "forcefield_minima_weight": 1.0
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "scope": "seed_20260928",
+      "conformer_id": 0,
+      "temperature_K": 350.0,
+      "relative_energy_kcal_mol": 0.0,
+      "forcefield_minima_weight": 1.0
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "scope": "seed_20260929",
+      "conformer_id": 1,
+      "temperature_K": 250.0,
+      "relative_energy_kcal_mol": 0.0,
+      "forcefield_minima_weight": 1.0
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "scope": "seed_20260929",
+      "conformer_id": 1,
+      "temperature_K": 298.15,
+      "relative_energy_kcal_mol": 0.0,
+      "forcefield_minima_weight": 1.0
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "scope": "seed_20260929",
+      "conformer_id": 1,
+      "temperature_K": 350.0,
+      "relative_energy_kcal_mol": 0.0,
+      "forcefield_minima_weight": 1.0
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "scope": "seed_20260930",
+      "conformer_id": 2,
+      "temperature_K": 250.0,
+      "relative_energy_kcal_mol": 0.0,
+      "forcefield_minima_weight": 1.0
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "scope": "seed_20260930",
+      "conformer_id": 2,
+      "temperature_K": 298.15,
+      "relative_energy_kcal_mol": 0.0,
+      "forcefield_minima_weight": 1.0
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "scope": "seed_20260930",
+      "conformer_id": 2,
+      "temperature_K": 350.0,
+      "relative_energy_kcal_mol": 0.0,
+      "forcefield_minima_weight": 1.0
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "scope": "pooled",
+      "conformer_id": 0,
+      "temperature_K": 250.0,
+      "relative_energy_kcal_mol": 0.0,
+      "forcefield_minima_weight": 1.0
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "scope": "pooled",
+      "conformer_id": 0,
+      "temperature_K": 298.15,
+      "relative_energy_kcal_mol": 0.0,
+      "forcefield_minima_weight": 1.0
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "scope": "pooled",
+      "conformer_id": 0,
+      "temperature_K": 350.0,
+      "relative_energy_kcal_mol": 0.0,
+      "forcefield_minima_weight": 1.0
+    }
+  ],
+  "surface_quadrature": [
+    {
+      "molecule_id": "phenylquinoline",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 0,
+      "sasa_A2": 421.6186905977706
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 1,
+      "sasa_A2": 420.48212039116964
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 2,
+      "sasa_A2": 419.7511575381081
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 3,
+      "sasa_A2": 420.56124952690226
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 4,
+      "sasa_A2": 415.040724259082
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 5,
+      "sasa_A2": 420.5960944792847
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 6,
+      "sasa_A2": 419.43016871712035
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 7,
+      "sasa_A2": 419.1738685156962
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 8,
+      "sasa_A2": 420.3039266485505
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 9,
+      "sasa_A2": 419.5384184507095
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 10,
+      "sasa_A2": 421.5869080548584
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 11,
+      "sasa_A2": 421.50234088682714
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 12,
+      "sasa_A2": 420.919663499385
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 13,
+      "sasa_A2": 420.3143748681564
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 14,
+      "sasa_A2": 423.49822764780777
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 15,
+      "sasa_A2": 420.16668311764005
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 16,
+      "sasa_A2": 422.58512515644304
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 17,
+      "sasa_A2": 420.3016879597648
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 18,
+      "sasa_A2": 420.0544187358227
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 19,
+      "sasa_A2": 421.49118377470154
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 20,
+      "sasa_A2": 423.46630488192056
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 21,
+      "sasa_A2": 419.98472342141054
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 22,
+      "sasa_A2": 420.6013546825457
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 23,
+      "sasa_A2": 419.80023095265875
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "seed": 20260929,
+      "conformer_id": 1,
+      "orientation_index": 0,
+      "sasa_A2": 421.07590364219556
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "seed": 20260929,
+      "conformer_id": 1,
+      "orientation_index": 1,
+      "sasa_A2": 420.1481768230068
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "seed": 20260929,
+      "conformer_id": 1,
+      "orientation_index": 2,
+      "sasa_A2": 412.5177292293795
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "seed": 20260929,
+      "conformer_id": 1,
+      "orientation_index": 3,
+      "sasa_A2": 416.92530326067975
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "seed": 20260929,
+      "conformer_id": 1,
+      "orientation_index": 4,
+      "sasa_A2": 416.3224041827702
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "seed": 20260929,
+      "conformer_id": 1,
+      "orientation_index": 5,
+      "sasa_A2": 419.7962586534605
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "seed": 20260929,
+      "conformer_id": 1,
+      "orientation_index": 6,
+      "sasa_A2": 419.7913946492646
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "seed": 20260929,
+      "conformer_id": 1,
+      "orientation_index": 7,
+      "sasa_A2": 419.9885413158333
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "seed": 20260929,
+      "conformer_id": 1,
+      "orientation_index": 8,
+      "sasa_A2": 419.65593106714164
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "seed": 20260929,
+      "conformer_id": 1,
+      "orientation_index": 9,
+      "sasa_A2": 420.0677547579769
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "seed": 20260929,
+      "conformer_id": 1,
+      "orientation_index": 10,
+      "sasa_A2": 419.98545852917147
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "seed": 20260929,
+      "conformer_id": 1,
+      "orientation_index": 11,
+      "sasa_A2": 417.57072949876994
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "seed": 20260929,
+      "conformer_id": 1,
+      "orientation_index": 12,
+      "sasa_A2": 420.2972233276976
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "seed": 20260929,
+      "conformer_id": 1,
+      "orientation_index": 13,
+      "sasa_A2": 425.58255874556863
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "seed": 20260929,
+      "conformer_id": 1,
+      "orientation_index": 14,
+      "sasa_A2": 420.4038566529958
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "seed": 20260929,
+      "conformer_id": 1,
+      "orientation_index": 15,
+      "sasa_A2": 411.2158070892009
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "seed": 20260929,
+      "conformer_id": 1,
+      "orientation_index": 16,
+      "sasa_A2": 420.04148724946543
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "seed": 20260929,
+      "conformer_id": 1,
+      "orientation_index": 17,
+      "sasa_A2": 421.3065252971733
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "seed": 20260929,
+      "conformer_id": 1,
+      "orientation_index": 18,
+      "sasa_A2": 419.55193135501423
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "seed": 20260929,
+      "conformer_id": 1,
+      "orientation_index": 19,
+      "sasa_A2": 419.93761248292225
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "seed": 20260929,
+      "conformer_id": 1,
+      "orientation_index": 20,
+      "sasa_A2": 423.1049530408877
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "seed": 20260929,
+      "conformer_id": 1,
+      "orientation_index": 21,
+      "sasa_A2": 423.68683068631054
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "seed": 20260929,
+      "conformer_id": 1,
+      "orientation_index": 22,
+      "sasa_A2": 420.8595110321787
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "seed": 20260929,
+      "conformer_id": 1,
+      "orientation_index": 23,
+      "sasa_A2": 420.7862947304991
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "seed": 20260930,
+      "conformer_id": 2,
+      "orientation_index": 0,
+      "sasa_A2": 419.825310584739
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "seed": 20260930,
+      "conformer_id": 2,
+      "orientation_index": 1,
+      "sasa_A2": 421.02040235380474
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "seed": 20260930,
+      "conformer_id": 2,
+      "orientation_index": 2,
+      "sasa_A2": 409.9425532290623
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "seed": 20260930,
+      "conformer_id": 2,
+      "orientation_index": 3,
+      "sasa_A2": 419.1922543545203
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "seed": 20260930,
+      "conformer_id": 2,
+      "orientation_index": 4,
+      "sasa_A2": 421.4150535508365
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "seed": 20260930,
+      "conformer_id": 2,
+      "orientation_index": 5,
+      "sasa_A2": 420.76777212508205
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "seed": 20260930,
+      "conformer_id": 2,
+      "orientation_index": 6,
+      "sasa_A2": 418.54514305364535
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "seed": 20260930,
+      "conformer_id": 2,
+      "orientation_index": 7,
+      "sasa_A2": 421.2206444461942
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "seed": 20260930,
+      "conformer_id": 2,
+      "orientation_index": 8,
+      "sasa_A2": 421.38418083968463
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "seed": 20260930,
+      "conformer_id": 2,
+      "orientation_index": 9,
+      "sasa_A2": 421.0471855399942
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "seed": 20260930,
+      "conformer_id": 2,
+      "orientation_index": 10,
+      "sasa_A2": 420.681003420502
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "seed": 20260930,
+      "conformer_id": 2,
+      "orientation_index": 11,
+      "sasa_A2": 420.32083590825374
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "seed": 20260930,
+      "conformer_id": 2,
+      "orientation_index": 12,
+      "sasa_A2": 419.02961053441743
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "seed": 20260930,
+      "conformer_id": 2,
+      "orientation_index": 13,
+      "sasa_A2": 420.8713426178244
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "seed": 20260930,
+      "conformer_id": 2,
+      "orientation_index": 14,
+      "sasa_A2": 423.9603259469763
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "seed": 20260930,
+      "conformer_id": 2,
+      "orientation_index": 15,
+      "sasa_A2": 420.8918141872745
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "seed": 20260930,
+      "conformer_id": 2,
+      "orientation_index": 16,
+      "sasa_A2": 419.3485300895155
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "seed": 20260930,
+      "conformer_id": 2,
+      "orientation_index": 17,
+      "sasa_A2": 419.82475311716786
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "seed": 20260930,
+      "conformer_id": 2,
+      "orientation_index": 18,
+      "sasa_A2": 420.87975436300155
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "seed": 20260930,
+      "conformer_id": 2,
+      "orientation_index": 19,
+      "sasa_A2": 422.5426392666722
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "seed": 20260930,
+      "conformer_id": 2,
+      "orientation_index": 20,
+      "sasa_A2": 422.4620753665087
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "seed": 20260930,
+      "conformer_id": 2,
+      "orientation_index": 21,
+      "sasa_A2": 422.1458548455889
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "seed": 20260930,
+      "conformer_id": 2,
+      "orientation_index": 22,
+      "sasa_A2": 420.31924582625373
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "seed": 20260930,
+      "conformer_id": 2,
+      "orientation_index": 23,
+      "sasa_A2": 418.7766133036241
+    }
+  ],
+  "radii_audit": {
+    "explicit_vdw_A": [
+      1.7,
+      1.7,
+      1.7,
+      1.7,
+      1.7,
+      1.7,
+      1.7,
+      1.7,
+      1.7,
+      1.7,
+      1.7,
+      1.7,
+      1.7,
+      1.7,
+      1.7,
+      1.6,
+      1.2,
+      1.2,
+      1.2,
+      1.2,
+      1.2,
+      1.2,
+      1.2,
+      1.2,
+      1.2,
+      1.2,
+      1.2
+    ],
+    "classifier_zero_count": 27,
+    "classifier_returned_none": false,
+    "method": "RDKit periodic-table vdW radii, all atoms including explicit H",
+    "probe_radius_A": 1.4,
+    "algorithm": "LeeRichards",
+    "rotation_average_count": 24,
+    "rotation_seed": 17381
+  },
+  "pooled_deduplication": [
+    {
+      "conformer_id": 0,
+      "representative_id": 0,
+      "rmsd_to_representative_A": 0.0,
+      "selected": true
+    },
+    {
+      "conformer_id": 1,
+      "representative_id": 0,
+      "rmsd_to_representative_A": 8.158327917869445e-06,
+      "selected": false
+    },
+    {
+      "conformer_id": 2,
+      "representative_id": 0,
+      "rmsd_to_representative_A": 7.993802886220376e-06,
+      "selected": false
+    }
+  ],
+  "pooled_selected_minima": [
+    0
+  ],
+  "seed_variability": [
+    {
+      "molecule_id": "phenylquinoline",
+      "temperature_K": 250.0,
+      "successful_seeds": 3,
+      "minimum_energy_kcal_mol_mean": 59.31796699417615,
+      "minimum_energy_kcal_mol_range": 1.8592141515227922e-07,
+      "minimum_energy_kcal_mol_sample_sd": 9.355897940727749e-08,
+      "weighted_sasa_A2_mean": 420.13617670743116,
+      "weighted_sasa_A2_range": 0.9228945610321944,
+      "weighted_sasa_A2_sample_sd": 0.47521165115284286,
+      "weighted_mass_weighted_Rg_A_mean": 3.2076988061357015,
+      "weighted_mass_weighted_Rg_A_range": 1.5924901188846263e-06,
+      "weighted_mass_weighted_Rg_A_sample_sd": 8.078827513475306e-07,
+      "effective_minima_count_mean": 1.0,
+      "effective_minima_count_range": 0.0,
+      "effective_minima_count_sample_sd": 0.0
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "temperature_K": 298.15,
+      "successful_seeds": 3,
+      "minimum_energy_kcal_mol_mean": 59.31796699417615,
+      "minimum_energy_kcal_mol_range": 1.8592141515227922e-07,
+      "minimum_energy_kcal_mol_sample_sd": 9.355897940727749e-08,
+      "weighted_sasa_A2_mean": 420.13617670743116,
+      "weighted_sasa_A2_range": 0.9228945610321944,
+      "weighted_sasa_A2_sample_sd": 0.47521165115284286,
+      "weighted_mass_weighted_Rg_A_mean": 3.2076988061357015,
+      "weighted_mass_weighted_Rg_A_range": 1.5924901188846263e-06,
+      "weighted_mass_weighted_Rg_A_sample_sd": 8.078827513475306e-07,
+      "effective_minima_count_mean": 1.0,
+      "effective_minima_count_range": 0.0,
+      "effective_minima_count_sample_sd": 0.0
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "temperature_K": 350.0,
+      "successful_seeds": 3,
+      "minimum_energy_kcal_mol_mean": 59.31796699417615,
+      "minimum_energy_kcal_mol_range": 1.8592141515227922e-07,
+      "minimum_energy_kcal_mol_sample_sd": 9.355897940727749e-08,
+      "weighted_sasa_A2_mean": 420.13617670743116,
+      "weighted_sasa_A2_range": 0.9228945610321944,
+      "weighted_sasa_A2_sample_sd": 0.47521165115284286,
+      "weighted_mass_weighted_Rg_A_mean": 3.2076988061357015,
+      "weighted_mass_weighted_Rg_A_range": 1.5924901188846263e-06,
+      "weighted_mass_weighted_Rg_A_sample_sd": 8.078827513475306e-07,
+      "effective_minima_count_mean": 1.0,
+      "effective_minima_count_range": 0.0,
+      "effective_minima_count_sample_sd": 0.0
+    }
+  ],
+  "returned_after_embedding_pruning": 3,
+  "converged": 3,
+  "nonconverged": 0,
+  "pooled_unique_minima": 1,
+  "status": "success",
+  "coordinate_sha256": {
+    "phenylquinoline_embedded.sdf": "63276aa7b52335bfcaa8466cfb44b8b975fda372ccf054403b7d2efbc9143907",
+    "phenylquinoline_optimized.sdf": "d39a91302f17cf95f8e07c51787154de674d8ffef644e21f62a04ad298ba110e"
+  }
+}

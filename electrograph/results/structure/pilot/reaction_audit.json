@@ -1,0 +1,198 @@
+{
+  "source_unmapped_reaction": {
+    "reaction_smiles": "COc1ccc2[nH]c(cc2c1)c3ccccc3.CSc1ccccc1>>COc1ccc2[nH]c(c(Sc3ccccc3)c2c1)c4ccccc4",
+    "status": "insufficient_atom_mapping",
+    "inventory": {
+      "reactants": {
+        "formula": "C22H21NOS",
+        "elements": {
+          "C": 22,
+          "H": 21,
+          "N": 1,
+          "O": 1,
+          "S": 1
+        },
+        "formal_charge": 0,
+        "heavy_atoms": 25
+      },
+      "products": {
+        "formula": "C21H17NOS",
+        "elements": {
+          "C": 21,
+          "H": 17,
+          "N": 1,
+          "O": 1,
+          "S": 1
+        },
+        "formal_charge": 0,
+        "heavy_atoms": 24
+      },
+      "element_delta_products_minus_reactants": {
+        "C": -1,
+        "H": -4,
+        "N": 0,
+        "O": 0,
+        "S": 0
+      },
+      "charge_delta": 0,
+      "elementally_balanced": false,
+      "charge_balanced": true,
+      "heavy_atom_count_equal": false
+    },
+    "reaction_center": null,
+    "mechanism": null,
+    "sulfur_reagent_identity": "CSc1ccccc1 is thioanisole (methyl phenyl sulfide), not thiophenol (Sc1ccccc1)",
+    "interpretation": "Unbalanced source input retained; no inferred mapping or replacement chemistry."
+  },
+  "educational_balanced_example": {
+    "status": "mapped_topology_computed",
+    "reaction_smiles": "[CH3:1][CH:2]([H:4])[O:3][H:5]>>[CH3:1][CH:2]=[O:3].[H:4][H:5]",
+    "atom_count": 5,
+    "bond_changes": [
+      {
+        "atom_maps": [
+          2,
+          3
+        ],
+        "before": {
+          "order": 1.0,
+          "aromatic": false
+        },
+        "after": {
+          "order": 2.0,
+          "aromatic": false
+        },
+        "kind": "order_changed"
+      },
+      {
+        "atom_maps": [
+          2,
+          4
+        ],
+        "before": {
+          "order": 1.0,
+          "aromatic": false
+        },
+        "after": null,
+        "kind": "broken"
+      },
+      {
+        "atom_maps": [
+          3,
+          5
+        ],
+        "before": {
+          "order": 1.0,
+          "aromatic": false
+        },
+        "after": null,
+        "kind": "broken"
+      },
+      {
+        "atom_maps": [
+          4,
+          5
+        ],
+        "before": null,
+        "after": {
+          "order": 1.0,
+          "aromatic": false
+        },
+        "kind": "formed"
+      }
+    ],
+    "atom_property_changes": [],
+    "reaction_center_atom_maps": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "inventory": {
+      "reactants": {
+        "formula": "C2H6O",
+        "elements": {
+          "C": 2,
+          "H": 6,
+          "O": 1
+        },
+        "formal_charge": 0,
+        "heavy_atoms": 3
+      },
+      "products": {
+        "formula": "C2H6O",
+        "elements": {
+          "C": 2,
+          "H": 6,
+          "O": 1
+        },
+        "formal_charge": 0,
+        "heavy_atoms": 3
+      },
+      "element_delta_products_minus_reactants": {
+        "C": 0,
+        "H": 0,
+        "O": 0
+      },
+      "charge_delta": 0,
+      "elementally_balanced": true,
+      "charge_balanced": true,
+      "heavy_atom_count_equal": true
+    },
+    "mechanistic_or_reaction_class_claim": null,
+    "interpretation": "Ethanol to acetaldehyde plus H2 is atom bookkeeping only, not an electrocatalytic mechanism or a prediction."
+  },
+  "equal_heavy_count_counterexample": {
+    "reactants": {
+      "formula": "C2H6",
+      "elements": {
+        "C": 2,
+        "H": 6
+      },
+      "formal_charge": 0,
+      "heavy_atoms": 2
+    },
+    "products": {
+      "formula": "CH4O",
+      "elements": {
+        "C": 1,
+        "H": 4,
+        "O": 1
+      },
+      "formal_charge": 0,
+      "heavy_atoms": 2
+    },
+    "element_delta_products_minus_reactants": {
+      "C": -1,
+      "H": -2,
+      "O": 1
+    },
+    "charge_delta": 0,
+    "elementally_balanced": false,
+    "charge_balanced": true,
+    "heavy_atom_count_equal": true,
+    "reaction_smiles": "CC>>CO"
+  },
+  "target_identity": {
+    "name_verified_by_graph": "5-methoxy-2-phenyl-1H-indole",
+    "checks": {
+      "indole_ring_edges_exist": true,
+      "position_1_is_pyrrolic_NH": true,
+      "methoxy_bonds_C5_O_CH3": true,
+      "phenyl_bond_at_C2": true
+    },
+    "source_zero_based_atom_index_by_indole_position": {
+      "1": 6,
+      "2": 7,
+      "3": 8,
+      "3a": 9,
+      "4": 10,
+      "5": 2,
+      "6": 3,
+      "7": 4,
+      "7a": 5
+    },
+    "canonical_smiles": "COc1ccc2[nH]c(-c3ccccc3)cc2c1",
+    "formula": "C15H13NO"
+  }
+}

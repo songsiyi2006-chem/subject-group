@@ -1,0 +1,26 @@
+{
+  "dataset": "FreeSolv experimental hydration free energies, local SAMPL snapshot",
+  "target_unit": "kcal/mol",
+  "source_rows": 642,
+  "official_rows": 642,
+  "source_filename": "SAMPL.csv",
+  "source_sha256": "ab5895d914ee87cb563bd7b9611e869527bba45bec6b014d34dc495a0f9dcb72",
+  "official_database_sha256": "2d13f095713bc39b85f85dd7b4e5483fbb12fc694bf253bb1d92a4c4d484f260",
+  "license_sha256": "cce5d01fa4a83b794271bd2c28cffdf99afd43c803e6ddefddae39b591ea7448",
+  "selected_sha256": "b1c59baee08ecba6c53cf7b98212a04447ed123ad6699d92a0f1e13a17b44f28",
+  "selected_count": 256,
+  "selected_label_agreement_tolerance": 1e-08,
+  "excluded_discrepancies": [],
+  "selection": "First N canonical-structure SHA256 values, label blind, matched to official values",
+  "split": "60/20/20 target, whole Murcko ring scaffolds, largest-group greedy deficit allocation",
+  "acyclic_policy": "Full canonical structure as group; does NOT establish acyclic scaffold novelty",
+  "license": "CC-BY-4.0, with upstream caveat that original third-party restrictions may apply",
+  "attribution": "David L. Mobley and J. Peter Guthrie, FreeSolv, JCAMD (2014), doi:10.1007/s10822-014-9747-x",
+  "retrieved_date": "2026-09-28",
+  "sources": [
+    "https://github.com/MobleyLab/FreeSolv",
+    "https://github.com/MobleyLab/FreeSolv/blob/master/LICENSE",
+    "https://github.com/MobleyLab/FreeSolv/blob/master/database.txt"
+  ],
+  "modifications": "Canonicalized SMILES, selected subset, added split/group/hash columns; experimental values unchanged"
+}

@@ -1,0 +1,118 @@
+{
+  "seed": 7101,
+  "sites": 256,
+  "rate_classes": [
+    {
+      "sites": 256,
+      "rates": [
+        45.0,
+        1368505.7269032567,
+        350.0,
+        2280842.8781720945,
+        80.0
+      ]
+    }
+  ],
+  "requested_horizon_s": 1.0,
+  "simulated_time_s": 1.0,
+  "burn_in_s": 0.2,
+  "observation_duration_s": 0.8,
+  "stop_reason": "horizon",
+  "censored_final_event": true,
+  "total_events": 33832,
+  "reaction_counts_full": [
+    6793,
+    6793,
+    6780,
+    6780,
+    6686
+  ],
+  "reaction_counts_observed": [
+    5371,
+    5371,
+    5374,
+    5374,
+    5363
+  ],
+  "products_observed": 5363,
+  "electrons_observed": 10745,
+  "TOF_s_1": 26.1865234375,
+  "electrons_per_site_s": 52.4658203125,
+  "current_for_explicit_sites_A": 2.15192349154125e-15,
+  "current_scope": "literal modeled site count; not macroscopic electrode current",
+  "initial_counts_by_class": [
+    [
+      256,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "final_counts_by_class": [
+    [
+      149,
+      0,
+      13,
+      0,
+      94
+    ]
+  ],
+  "burn_in_counts_by_class": [
+    [
+      157,
+      0,
+      16,
+      0,
+      83
+    ]
+  ],
+  "reaction_counts_observed_by_class": [
+    [
+      5371,
+      5371,
+      5374,
+      5374,
+      5363
+    ]
+  ],
+  "final_counts": [
+    149,
+    0,
+    13,
+    0,
+    94
+  ],
+  "burn_in_counts": [
+    157,
+    0,
+    16,
+    0,
+    83
+  ],
+  "time_average_coverage": [
+    0.5918510487259349,
+    1.8327848049603092e-05,
+    0.07569256670519121,
+    1.157875674392294e-05,
+    0.3324264779640823
+  ],
+  "time_integrated_counts_by_class": [
+    [
+      121.21109477907147,
+      0.0037535432805587132,
+      15.501837661223162,
+      0.002371329381155418,
+      68.08094268704406
+    ]
+  ],
+  "state_balance_residuals": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "electron_product_inventory_residual": 0,
+  "occupancy_sum_error": 1.9984014443252818e-15
+}

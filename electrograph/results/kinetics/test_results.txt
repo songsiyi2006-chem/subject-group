@@ -1,0 +1,20 @@
+test_absorbing_zero_rates_preserve_state_for_complete_horizon (test_electrograph_kinetics.TestElectroGraphKinetics.test_absorbing_zero_rates_preserve_state_for_complete_horizon) ... ok
+test_analytic_rate_elasticity_matches_small_perturbation (test_electrograph_kinetics.TestElectroGraphKinetics.test_analytic_rate_elasticity_matches_small_perturbation) ... ok
+test_analytic_window_with_stationary_start (test_electrograph_kinetics.TestElectroGraphKinetics.test_analytic_window_with_stationary_start) ... ok
+test_censoring_does_not_execute_event_beyond_horizon (test_electrograph_kinetics.TestElectroGraphKinetics.test_censoring_does_not_execute_event_beyond_horizon) ... ok
+test_cycle_cdf_monotone_normalized (test_electrograph_kinetics.TestElectroGraphKinetics.test_cycle_cdf_monotone_normalized) ... ok
+test_equal_rate_cycle_has_uniform_stationary_and_erlang_cdf (test_electrograph_kinetics.TestElectroGraphKinetics.test_equal_rate_cycle_has_uniform_stationary_and_erlang_cdf) ... ok
+test_event_counts_site_inventory_and_charge_are_exact (test_electrograph_kinetics.TestElectroGraphKinetics.test_event_counts_site_inventory_and_charge_are_exact) ... ok
+test_finite_ctmc_state_flow_balances (test_electrograph_kinetics.TestElectroGraphKinetics.test_finite_ctmc_state_flow_balances) ... ok
+test_fixed_event_diagnostic_returns_actual_post_event_state (test_electrograph_kinetics.TestElectroGraphKinetics.test_fixed_event_diagnostic_returns_actual_post_event_state) ... ok
+test_generator_conserves_probability_and_has_only_cyclic_edges (test_electrograph_kinetics.TestElectroGraphKinetics.test_generator_conserves_probability_and_has_only_cyclic_edges) ... ok
+test_heterogeneous_classes_conserve_their_own_sizes (test_electrograph_kinetics.TestElectroGraphKinetics.test_heterogeneous_classes_conserve_their_own_sizes) ... ok
+test_invalid_inputs_rejected (test_electrograph_kinetics.TestElectroGraphKinetics.test_invalid_inputs_rejected) ... ok
+test_seed_reproducibility_and_no_global_rng_dependency (test_electrograph_kinetics.TestElectroGraphKinetics.test_seed_reproducibility_and_no_global_rng_dependency) ... ok
+test_stationary_distribution_annihilates_generator (test_electrograph_kinetics.TestElectroGraphKinetics.test_stationary_distribution_annihilates_generator) ... ok
+test_time_weighted_occupancy_reconstructs_from_full_trajectory (test_electrograph_kinetics.TestElectroGraphKinetics.test_time_weighted_occupancy_reconstructs_from_full_trajectory) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.023s
+
+OK

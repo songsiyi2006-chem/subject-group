@@ -1,0 +1,257 @@
+{
+  "figure_count": 4,
+  "languages": [
+    "english",
+    "chinese"
+  ],
+  "formats": [
+    "png",
+    "svg"
+  ],
+  "figures": [
+    {
+      "file": "Fig1_Source_Audit_english.png",
+      "format": "png",
+      "sha256": "65c4315278ba70db9d05fdce76b3542cd717906f061c8f186d25115d0b9c0bac",
+      "sources": {
+        "results/hardcoded_curve_audit.csv": "f5dc8aabfd7c823d405fe82744b49f1b5019a2c237cdc520829c3c77d7d3dec9",
+        "results/random_priority_probes.csv": "7b2951ab24a82f94babdc0f644323a03fb72a3e5e33bfef6aaba5d70c7dc6338"
+      },
+      "evidence": "Saved source audit, benchmark or assumed model; no electrochemical validation",
+      "pixels": [
+        2400,
+        1380
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "Fig1_Source_Audit_english.svg",
+      "format": "svg",
+      "sha256": "c61a1d2af0673297515903a792e5ae1a006fdd9fda9349afd3e3bf44c4036e5b",
+      "sources": {
+        "results/hardcoded_curve_audit.csv": "f5dc8aabfd7c823d405fe82744b49f1b5019a2c237cdc520829c3c77d7d3dec9",
+        "results/random_priority_probes.csv": "7b2951ab24a82f94babdc0f644323a03fb72a3e5e33bfef6aaba5d70c7dc6338"
+      },
+      "evidence": "Saved source audit, benchmark or assumed model; no electrochemical validation",
+      "editable_text": true,
+      "embedded_raster": false
+    },
+    {
+      "file": "Fig2_Graph_Benchmark_english.png",
+      "format": "png",
+      "sha256": "600849a7a84059b136ac226ac654f2f77279a7b5f75797839e7f8a1a52da34aa",
+      "sources": {
+        "results/learning/regression_metrics.csv": "0dd058851087919eebb0d77c07a46816ecc2d7cc9e7c9ae95929223769225db7",
+        "results/learning/campaign_learning_curves.csv": "4f949f4ac3c053e9df362ff27e7772c04b821615f4af40eeb93a33dce2b29fb1"
+      },
+      "evidence": "Saved source audit, benchmark or assumed model; no electrochemical validation",
+      "pixels": [
+        2400,
+        1380
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "Fig2_Graph_Benchmark_english.svg",
+      "format": "svg",
+      "sha256": "e062c1663dbd2a1df3c3691e939a71ae107481765beb06e64c304aa0b1b5d7a6",
+      "sources": {
+        "results/learning/regression_metrics.csv": "0dd058851087919eebb0d77c07a46816ecc2d7cc9e7c9ae95929223769225db7",
+        "results/learning/campaign_learning_curves.csv": "4f949f4ac3c053e9df362ff27e7772c04b821615f4af40eeb93a33dce2b29fb1"
+      },
+      "evidence": "Saved source audit, benchmark or assumed model; no electrochemical validation",
+      "editable_text": true,
+      "embedded_raster": false
+    },
+    {
+      "file": "Fig3_Conformer_Ensemble_english.png",
+      "format": "png",
+      "sha256": "5df36789ee261a84b9b0e5ec7f676ab18256251f32f6e76e39d094888ebcad3e",
+      "sources": {
+        "results/structure/target_optimized.sdf": "c2f224f164beaa3d455240e4b10e6accfb18faa52244a64d9b5281fa2b4a9d9f",
+        "results/structure/ensemble_statistics.csv": "402de39f2fec30d8f0f27df61d8b287fb644e74b028cbb474a0e8553b97f1236"
+      },
+      "evidence": "Saved source audit, benchmark or assumed model; no electrochemical validation",
+      "pixels": [
+        2400,
+        1380
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "Fig3_Conformer_Ensemble_english.svg",
+      "format": "svg",
+      "sha256": "f9ef7697858620b998844d7b21e0d4957eff54792b5f2b65174254a306f05397",
+      "sources": {
+        "results/structure/target_optimized.sdf": "c2f224f164beaa3d455240e4b10e6accfb18faa52244a64d9b5281fa2b4a9d9f",
+        "results/structure/ensemble_statistics.csv": "402de39f2fec30d8f0f27df61d8b287fb644e74b028cbb474a0e8553b97f1236"
+      },
+      "evidence": "Saved source audit, benchmark or assumed model; no electrochemical validation",
+      "editable_text": true,
+      "embedded_raster": false
+    },
+    {
+      "file": "Fig4_Kinetic_Validation_english.png",
+      "format": "png",
+      "sha256": "92757e2474858f34fe3ac2e25e1359bb6e3ff391d3599a95b1a9dea2e4c8c181",
+      "sources": {
+        "results/kinetics/potential_summary.csv": "d3e464c5f221540c83a66d7a5c47918417a765126e31972482b1a26be1ba976f",
+        "results/kinetics/baseline_trajectory.csv": "5a869b4ac5962e728ee5f2b7ad43fd3b646f000423cd3e3c36b84d473904c1cb",
+        "results/kinetics/analytic_transient.csv": "e67d4b0c068c77423242e4f27beaac6a1608d971900c6137f3366b76f42a8295"
+      },
+      "evidence": "Saved source audit, benchmark or assumed model; no electrochemical validation",
+      "pixels": [
+        2400,
+        1380
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "Fig4_Kinetic_Validation_english.svg",
+      "format": "svg",
+      "sha256": "d04d0b0299cf77d8f6897df6b06f7e89af686c305d8ab7d542f7d99476e0b241",
+      "sources": {
+        "results/kinetics/potential_summary.csv": "d3e464c5f221540c83a66d7a5c47918417a765126e31972482b1a26be1ba976f",
+        "results/kinetics/baseline_trajectory.csv": "5a869b4ac5962e728ee5f2b7ad43fd3b646f000423cd3e3c36b84d473904c1cb",
+        "results/kinetics/analytic_transient.csv": "e67d4b0c068c77423242e4f27beaac6a1608d971900c6137f3366b76f42a8295"
+      },
+      "evidence": "Saved source audit, benchmark or assumed model; no electrochemical validation",
+      "editable_text": true,
+      "embedded_raster": false
+    },
+    {
+      "file": "Fig1_Source_Audit_chinese.png",
+      "format": "png",
+      "sha256": "e88e48f5f81c40caa9e8ec432cafc50b575b6e9db86832e14cda81189fa32964",
+      "sources": {
+        "results/hardcoded_curve_audit.csv": "f5dc8aabfd7c823d405fe82744b49f1b5019a2c237cdc520829c3c77d7d3dec9",
+        "results/random_priority_probes.csv": "7b2951ab24a82f94babdc0f644323a03fb72a3e5e33bfef6aaba5d70c7dc6338"
+      },
+      "evidence": "Saved source audit, benchmark or assumed model; no electrochemical validation",
+      "pixels": [
+        2400,
+        1380
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "Fig1_Source_Audit_chinese.svg",
+      "format": "svg",
+      "sha256": "c885645ba314eb3fe47cd7f71e32285d0f25084067cccee5f44965c3d4a74cc4",
+      "sources": {
+        "results/hardcoded_curve_audit.csv": "f5dc8aabfd7c823d405fe82744b49f1b5019a2c237cdc520829c3c77d7d3dec9",
+        "results/random_priority_probes.csv": "7b2951ab24a82f94babdc0f644323a03fb72a3e5e33bfef6aaba5d70c7dc6338"
+      },
+      "evidence": "Saved source audit, benchmark or assumed model; no electrochemical validation",
+      "editable_text": true,
+      "embedded_raster": false
+    },
+    {
+      "file": "Fig2_Graph_Benchmark_chinese.png",
+      "format": "png",
+      "sha256": "f19b92517b66300c493453ee4aa3ef8f891603329df1f5c23d2f08e8ba117b07",
+      "sources": {
+        "results/learning/regression_metrics.csv": "0dd058851087919eebb0d77c07a46816ecc2d7cc9e7c9ae95929223769225db7",
+        "results/learning/campaign_learning_curves.csv": "4f949f4ac3c053e9df362ff27e7772c04b821615f4af40eeb93a33dce2b29fb1"
+      },
+      "evidence": "Saved source audit, benchmark or assumed model; no electrochemical validation",
+      "pixels": [
+        2400,
+        1380
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "Fig2_Graph_Benchmark_chinese.svg",
+      "format": "svg",
+      "sha256": "e0c520b67e03fc85dca8456afaae01ecc16e5cf570c46670f2a25859a3b2da53",
+      "sources": {
+        "results/learning/regression_metrics.csv": "0dd058851087919eebb0d77c07a46816ecc2d7cc9e7c9ae95929223769225db7",
+        "results/learning/campaign_learning_curves.csv": "4f949f4ac3c053e9df362ff27e7772c04b821615f4af40eeb93a33dce2b29fb1"
+      },
+      "evidence": "Saved source audit, benchmark or assumed model; no electrochemical validation",
+      "editable_text": true,
+      "embedded_raster": false
+    },
+    {
+      "file": "Fig3_Conformer_Ensemble_chinese.png",
+      "format": "png",
+      "sha256": "2356f0b8d217652e6e11b2c6b8a562ee52eacbb6921b43d3d09b50f14861fade",
+      "sources": {
+        "results/structure/target_optimized.sdf": "c2f224f164beaa3d455240e4b10e6accfb18faa52244a64d9b5281fa2b4a9d9f",
+        "results/structure/ensemble_statistics.csv": "402de39f2fec30d8f0f27df61d8b287fb644e74b028cbb474a0e8553b97f1236"
+      },
+      "evidence": "Saved source audit, benchmark or assumed model; no electrochemical validation",
+      "pixels": [
+        2400,
+        1380
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "Fig3_Conformer_Ensemble_chinese.svg",
+      "format": "svg",
+      "sha256": "a6ec26453f677bddecfa750b98cc4b94aefd8a1de7ccb75ffb48b0b2a645ef1b",
+      "sources": {
+        "results/structure/target_optimized.sdf": "c2f224f164beaa3d455240e4b10e6accfb18faa52244a64d9b5281fa2b4a9d9f",
+        "results/structure/ensemble_statistics.csv": "402de39f2fec30d8f0f27df61d8b287fb644e74b028cbb474a0e8553b97f1236"
+      },
+      "evidence": "Saved source audit, benchmark or assumed model; no electrochemical validation",
+      "editable_text": true,
+      "embedded_raster": false
+    },
+    {
+      "file": "Fig4_Kinetic_Validation_chinese.png",
+      "format": "png",
+      "sha256": "ed927600c092b0ec5955079f3b1ee0253b73f4a7b8b7cb3ad713b01562d2ef97",
+      "sources": {
+        "results/kinetics/potential_summary.csv": "d3e464c5f221540c83a66d7a5c47918417a765126e31972482b1a26be1ba976f",
+        "results/kinetics/baseline_trajectory.csv": "5a869b4ac5962e728ee5f2b7ad43fd3b646f000423cd3e3c36b84d473904c1cb",
+        "results/kinetics/analytic_transient.csv": "e67d4b0c068c77423242e4f27beaac6a1608d971900c6137f3366b76f42a8295"
+      },
+      "evidence": "Saved source audit, benchmark or assumed model; no electrochemical validation",
+      "pixels": [
+        2400,
+        1380
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "Fig4_Kinetic_Validation_chinese.svg",
+      "format": "svg",
+      "sha256": "33888458d0ba3a9ef450d7ca82edf1b391369467dc085951edc36c210e1008b2",
+      "sources": {
+        "results/kinetics/potential_summary.csv": "d3e464c5f221540c83a66d7a5c47918417a765126e31972482b1a26be1ba976f",
+        "results/kinetics/baseline_trajectory.csv": "5a869b4ac5962e728ee5f2b7ad43fd3b646f000423cd3e3c36b84d473904c1cb",
+        "results/kinetics/analytic_transient.csv": "e67d4b0c068c77423242e4f27beaac6a1608d971900c6137f3366b76f42a8295"
+      },
+      "evidence": "Saved source audit, benchmark or assumed model; no electrochemical validation",
+      "editable_text": true,
+      "embedded_raster": false
+    }
+  ]
+}

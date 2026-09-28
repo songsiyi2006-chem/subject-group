@@ -1,0 +1,21 @@
+{
+  "checks": {
+    "273_trajectories": true,
+    "9950504_events": true,
+    "seed_values_unique_within_study": true,
+    "all_source_hashes_match": true,
+    "all_output_hashes_match": true,
+    "all_per_class_integer_site_and_charge_balances": true,
+    "all_257_fixed_time_runs_end_at_1s": true,
+    "all_16_diagnostics_stop_at_3500_actual_events": true,
+    "complete_trajectory_reconstructs_time_average": true,
+    "complete_trajectory_final_state_matches": true,
+    "all_potential_MC_mean_intervals_cover_CTMC_for_these_draws": true,
+    "pilot_source_hashes_match_current": true
+  },
+  "passed": true,
+  "baseline_event_log_rows": 33834,
+  "max_scan_CTMC_probability_sum_error": 6.357270265766601e-10,
+  "method": "read-only recalculation from archived rows and hashes; no SSA rerun",
+  "scope": "numerical consistency only; experimental or physical validation not performed"
+}

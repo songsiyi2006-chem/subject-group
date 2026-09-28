@@ -1,0 +1,12 @@
+{
+  "mode": "original",
+  "started_utc": "2026-09-28T06:00:07.446773+00:00",
+  "elapsed_seconds": 11.073536599986255,
+  "exit_code": 1,
+  "timed_out": false,
+  "source_sha256": "2ac28e83ba3b914662bc145d256041793ae370dcbc87be27c7773df9f15656af",
+  "command": "python electrograph/scripts/run_source.py --child original",
+  "working_directory": "electrograph/results/original",
+  "physical_instrument_connected": false,
+  "role": "Captured source execution; printed scientific claims are not endorsements"
+}

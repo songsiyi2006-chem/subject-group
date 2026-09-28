@@ -1,0 +1,87 @@
+{
+    "Software_Suite": "ElectroGraph-kMC v3.0-Theoretical_Edition",
+    "Conformer_Profiling": {
+        "status": "success",
+        "smiles": "COc1ccc2[nH]c(cc2c1)c3ccccc3",
+        "generated_conformers_count": 1,
+        "boltzmann_averaged_sasa": 289.29,
+        "boltzmann_averaged_rg": 4.142,
+        "ensemble_energy_span_kcal_mol": 0.0,
+        "conformer_ensemble": [
+            {
+                "conformer_id": 0,
+                "relative_energy_kcal_mol": 0.0,
+                "boltzmann_weight": 1.0,
+                "sasa_angstrom2": 289.29,
+                "radius_of_gyration_angstrom": 4.142
+            }
+        ]
+    },
+    "Surface_kMC_Kinetics": {
+        "apparent_TOF_s_1": 23.46,
+        "simulated_time_s": 0.10408,
+        "coverages": {
+            "empty_fraction": 0.6133,
+            "substrate_fraction": 0.0,
+            "radical_fraction": 0.043,
+            "intermediate_fraction": 0.0,
+            "product_fraction": 0.3438
+        }
+    },
+    "CGR_Topology": {
+        "status": "success",
+        "reaction_smiles": "COc1ccc2[nH]c(cc2c1)c3ccccc3.CSc1ccccc1>>COc1ccc2[nH]c(c(Sc3ccccc3)c2c1)c4ccccc4",
+        "reactants_count": 2,
+        "products_count": 1,
+        "total_reactant_heavy_atoms": 25,
+        "total_product_heavy_atoms": 24,
+        "stoichiometric_heavy_atom_conservation": false,
+        "reaction_class": "Electrochemical Oxidative C-H/S-H Cross-Dehydrogenative Coupling",
+        "active_reaction_center": "C(sp2)-S bond formation accompanied by 2e- / 2H+ release"
+    },
+    "Active_Learning_Rankings": [
+        {
+            "smiles": "c1ccc2c(c1)CCN2",
+            "predicted_E_ox_V_vs_SCE": 0.005,
+            "primary_radical_atom_idx": 17,
+            "radical_susceptibility_score": 0.5265,
+            "ucb_acquisition_priority": 2.881
+        },
+        {
+            "smiles": "CC(=O)NCCC1=CNc2c1cc(OC)cc2",
+            "predicted_E_ox_V_vs_SCE": -0.035,
+            "primary_radical_atom_idx": 14,
+            "radical_susceptibility_score": 0.5509,
+            "ucb_acquisition_priority": 2.671
+        },
+        {
+            "smiles": "OCCc1c[nH]c2ccccc12",
+            "predicted_E_ox_V_vs_SCE": -0.038,
+            "primary_radical_atom_idx": 1,
+            "radical_susceptibility_score": 0.5422,
+            "ucb_acquisition_priority": 2.6
+        },
+        {
+            "smiles": "CCOC(=O)c1cc2ccccc2o1",
+            "predicted_E_ox_V_vs_SCE": -0.02,
+            "primary_radical_atom_idx": 0,
+            "radical_susceptibility_score": 0.5489,
+            "ucb_acquisition_priority": 2.576
+        },
+        {
+            "smiles": "Cn1cnc2c1c(=O)n(C)c(=O)n2C",
+            "predicted_E_ox_V_vs_SCE": -0.036,
+            "primary_radical_atom_idx": 13,
+            "radical_susceptibility_score": 0.5519,
+            "ucb_acquisition_priority": 2.55
+        },
+        {
+            "smiles": "c1ccc(cc1)-c2ccc3ccccc3n2",
+            "predicted_E_ox_V_vs_SCE": -0.023,
+            "primary_radical_atom_idx": 26,
+            "radical_susceptibility_score": 0.5261,
+            "ucb_acquisition_priority": 2.548
+        }
+    ],
+    "Scientific_Panel_Graphic": "figures_scientific\\ElectroGraph_Comprehensive_Scientific_Panel.png"
+}

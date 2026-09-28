@@ -1,0 +1,1085 @@
+{
+  "molecule_id": "caffeine",
+  "name": "Caffeine",
+  "source_smiles": "Cn1cnc2c1c(=O)n(C)c(=O)n2C",
+  "canonical_smiles": "Cn1c(=O)c2c(ncn2C)n(C)c1=O",
+  "formula": "C8H10N4O2",
+  "formal_charge": 0,
+  "radical_electrons": 0,
+  "requested_conformers": 72,
+  "attempts_per_seed": 24,
+  "seeds": [
+    20260928,
+    20260929,
+    20260930
+  ],
+  "records": [
+    {
+      "molecule_id": "caffeine",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "optimization_status": 0,
+      "energy_kcal_mol": -122.52841049105677,
+      "sasa_A2": 371.05947664730365,
+      "sasa_orientation_sd_A2": 1.3945331710257982,
+      "sasa_orientation_range_A2": 6.422957782422941,
+      "sasa_first_half_vs_all_abs_delta_A2": 0.3728167408268632,
+      "mass_weighted_Rg_A": 2.464656398719341,
+      "unweighted_Rg_A": 3.0023770794632414
+    },
+    {
+      "molecule_id": "caffeine",
+      "seed": 20260929,
+      "conformer_id": 1,
+      "optimization_status": 0,
+      "energy_kcal_mol": -122.5284101393158,
+      "sasa_A2": 370.27828136254783,
+      "sasa_orientation_sd_A2": 1.709210260845096,
+      "sasa_orientation_range_A2": 8.734201596413982,
+      "sasa_first_half_vs_all_abs_delta_A2": 0.29468498075777916,
+      "mass_weighted_Rg_A": 2.464659190210327,
+      "unweighted_Rg_A": 3.002381216427868
+    },
+    {
+      "molecule_id": "caffeine",
+      "seed": 20260930,
+      "conformer_id": 2,
+      "optimization_status": 0,
+      "energy_kcal_mol": -122.52841041033044,
+      "sasa_A2": 370.8726166329929,
+      "sasa_orientation_sd_A2": 1.1537335726153137,
+      "sasa_orientation_range_A2": 4.79509685985073,
+      "sasa_first_half_vs_all_abs_delta_A2": 0.2400521169640797,
+      "mass_weighted_Rg_A": 2.4646580809168723,
+      "unweighted_Rg_A": 3.002379913724785
+    }
+  ],
+  "replicas": [
+    {
+      "seed": 20260928,
+      "requested": 24,
+      "returned_after_embedding_pruning": 1,
+      "unreturned_pruned_or_failed": 23,
+      "embedding_failure_event_counts": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "converged": 1,
+      "nonconverged": 0,
+      "selected_minima": [
+        0
+      ],
+      "deduplication": [
+        {
+          "conformer_id": 0,
+          "representative_id": 0,
+          "rmsd_to_representative_A": 0.0,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "seed": 20260929,
+      "requested": 24,
+      "returned_after_embedding_pruning": 1,
+      "unreturned_pruned_or_failed": 23,
+      "embedding_failure_event_counts": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "converged": 1,
+      "nonconverged": 0,
+      "selected_minima": [
+        1
+      ],
+      "deduplication": [
+        {
+          "conformer_id": 1,
+          "representative_id": 1,
+          "rmsd_to_representative_A": 0.0,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "seed": 20260930,
+      "requested": 24,
+      "returned_after_embedding_pruning": 1,
+      "unreturned_pruned_or_failed": 23,
+      "embedding_failure_event_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "converged": 1,
+      "nonconverged": 0,
+      "selected_minima": [
+        2
+      ],
+      "deduplication": [
+        {
+          "conformer_id": 2,
+          "representative_id": 2,
+          "rmsd_to_representative_A": 0.0,
+          "selected": true
+        }
+      ]
+    }
+  ],
+  "summaries": [
+    {
+      "molecule_id": "caffeine",
+      "scope": "seed_20260928",
+      "status": "success",
+      "temperature_K": 250.0,
+      "unique_minima": 1,
+      "effective_minima_count": 1.0,
+      "minimum_energy_kcal_mol": -122.52841049105677,
+      "energy_span_kcal_mol": 0.0,
+      "weighted_sasa_A2": 371.05947664730365,
+      "within_minima_sd_sasa_A2": 0.0,
+      "weighted_mass_weighted_Rg_A": 2.464656398719341,
+      "within_minima_sd_mass_weighted_Rg_A": 0.0,
+      "weighted_unweighted_Rg_A": 3.0023770794632414,
+      "within_minima_sd_unweighted_Rg_A": 0.0
+    },
+    {
+      "molecule_id": "caffeine",
+      "scope": "seed_20260928",
+      "status": "success",
+      "temperature_K": 298.15,
+      "unique_minima": 1,
+      "effective_minima_count": 1.0,
+      "minimum_energy_kcal_mol": -122.52841049105677,
+      "energy_span_kcal_mol": 0.0,
+      "weighted_sasa_A2": 371.05947664730365,
+      "within_minima_sd_sasa_A2": 0.0,
+      "weighted_mass_weighted_Rg_A": 2.464656398719341,
+      "within_minima_sd_mass_weighted_Rg_A": 0.0,
+      "weighted_unweighted_Rg_A": 3.0023770794632414,
+      "within_minima_sd_unweighted_Rg_A": 0.0
+    },
+    {
+      "molecule_id": "caffeine",
+      "scope": "seed_20260928",
+      "status": "success",
+      "temperature_K": 350.0,
+      "unique_minima": 1,
+      "effective_minima_count": 1.0,
+      "minimum_energy_kcal_mol": -122.52841049105677,
+      "energy_span_kcal_mol": 0.0,
+      "weighted_sasa_A2": 371.05947664730365,
+      "within_minima_sd_sasa_A2": 0.0,
+      "weighted_mass_weighted_Rg_A": 2.464656398719341,
+      "within_minima_sd_mass_weighted_Rg_A": 0.0,
+      "weighted_unweighted_Rg_A": 3.0023770794632414,
+      "within_minima_sd_unweighted_Rg_A": 0.0
+    },
+    {
+      "molecule_id": "caffeine",
+      "scope": "seed_20260929",
+      "status": "success",
+      "temperature_K": 250.0,
+      "unique_minima": 1,
+      "effective_minima_count": 1.0,
+      "minimum_energy_kcal_mol": -122.5284101393158,
+      "energy_span_kcal_mol": 0.0,
+      "weighted_sasa_A2": 370.27828136254783,
+      "within_minima_sd_sasa_A2": 0.0,
+      "weighted_mass_weighted_Rg_A": 2.464659190210327,
+      "within_minima_sd_mass_weighted_Rg_A": 0.0,
+      "weighted_unweighted_Rg_A": 3.002381216427868,
+      "within_minima_sd_unweighted_Rg_A": 0.0
+    },
+    {
+      "molecule_id": "caffeine",
+      "scope": "seed_20260929",
+      "status": "success",
+      "temperature_K": 298.15,
+      "unique_minima": 1,
+      "effective_minima_count": 1.0,
+      "minimum_energy_kcal_mol": -122.5284101393158,
+      "energy_span_kcal_mol": 0.0,
+      "weighted_sasa_A2": 370.27828136254783,
+      "within_minima_sd_sasa_A2": 0.0,
+      "weighted_mass_weighted_Rg_A": 2.464659190210327,
+      "within_minima_sd_mass_weighted_Rg_A": 0.0,
+      "weighted_unweighted_Rg_A": 3.002381216427868,
+      "within_minima_sd_unweighted_Rg_A": 0.0
+    },
+    {
+      "molecule_id": "caffeine",
+      "scope": "seed_20260929",
+      "status": "success",
+      "temperature_K": 350.0,
+      "unique_minima": 1,
+      "effective_minima_count": 1.0,
+      "minimum_energy_kcal_mol": -122.5284101393158,
+      "energy_span_kcal_mol": 0.0,
+      "weighted_sasa_A2": 370.27828136254783,
+      "within_minima_sd_sasa_A2": 0.0,
+      "weighted_mass_weighted_Rg_A": 2.464659190210327,
+      "within_minima_sd_mass_weighted_Rg_A": 0.0,
+      "weighted_unweighted_Rg_A": 3.002381216427868,
+      "within_minima_sd_unweighted_Rg_A": 0.0
+    },
+    {
+      "molecule_id": "caffeine",
+      "scope": "seed_20260930",
+      "status": "success",
+      "temperature_K": 250.0,
+      "unique_minima": 1,
+      "effective_minima_count": 1.0,
+      "minimum_energy_kcal_mol": -122.52841041033044,
+      "energy_span_kcal_mol": 0.0,
+      "weighted_sasa_A2": 370.8726166329929,
+      "within_minima_sd_sasa_A2": 0.0,
+      "weighted_mass_weighted_Rg_A": 2.4646580809168723,
+      "within_minima_sd_mass_weighted_Rg_A": 0.0,
+      "weighted_unweighted_Rg_A": 3.002379913724785,
+      "within_minima_sd_unweighted_Rg_A": 0.0
+    },
+    {
+      "molecule_id": "caffeine",
+      "scope": "seed_20260930",
+      "status": "success",
+      "temperature_K": 298.15,
+      "unique_minima": 1,
+      "effective_minima_count": 1.0,
+      "minimum_energy_kcal_mol": -122.52841041033044,
+      "energy_span_kcal_mol": 0.0,
+      "weighted_sasa_A2": 370.8726166329929,
+      "within_minima_sd_sasa_A2": 0.0,
+      "weighted_mass_weighted_Rg_A": 2.4646580809168723,
+      "within_minima_sd_mass_weighted_Rg_A": 0.0,
+      "weighted_unweighted_Rg_A": 3.002379913724785,
+      "within_minima_sd_unweighted_Rg_A": 0.0
+    },
+    {
+      "molecule_id": "caffeine",
+      "scope": "seed_20260930",
+      "status": "success",
+      "temperature_K": 350.0,
+      "unique_minima": 1,
+      "effective_minima_count": 1.0,
+      "minimum_energy_kcal_mol": -122.52841041033044,
+      "energy_span_kcal_mol": 0.0,
+      "weighted_sasa_A2": 370.8726166329929,
+      "within_minima_sd_sasa_A2": 0.0,
+      "weighted_mass_weighted_Rg_A": 2.4646580809168723,
+      "within_minima_sd_mass_weighted_Rg_A": 0.0,
+      "weighted_unweighted_Rg_A": 3.002379913724785,
+      "within_minima_sd_unweighted_Rg_A": 0.0
+    },
+    {
+      "molecule_id": "caffeine",
+      "scope": "pooled",
+      "status": "success",
+      "temperature_K": 250.0,
+      "unique_minima": 1,
+      "effective_minima_count": 1.0,
+      "minimum_energy_kcal_mol": -122.52841049105677,
+      "energy_span_kcal_mol": 0.0,
+      "weighted_sasa_A2": 371.05947664730365,
+      "within_minima_sd_sasa_A2": 0.0,
+      "weighted_mass_weighted_Rg_A": 2.464656398719341,
+      "within_minima_sd_mass_weighted_Rg_A": 0.0,
+      "weighted_unweighted_Rg_A": 3.0023770794632414,
+      "within_minima_sd_unweighted_Rg_A": 0.0
+    },
+    {
+      "molecule_id": "caffeine",
+      "scope": "pooled",
+      "status": "success",
+      "temperature_K": 298.15,
+      "unique_minima": 1,
+      "effective_minima_count": 1.0,
+      "minimum_energy_kcal_mol": -122.52841049105677,
+      "energy_span_kcal_mol": 0.0,
+      "weighted_sasa_A2": 371.05947664730365,
+      "within_minima_sd_sasa_A2": 0.0,
+      "weighted_mass_weighted_Rg_A": 2.464656398719341,
+      "within_minima_sd_mass_weighted_Rg_A": 0.0,
+      "weighted_unweighted_Rg_A": 3.0023770794632414,
+      "within_minima_sd_unweighted_Rg_A": 0.0
+    },
+    {
+      "molecule_id": "caffeine",
+      "scope": "pooled",
+      "status": "success",
+      "temperature_K": 350.0,
+      "unique_minima": 1,
+      "effective_minima_count": 1.0,
+      "minimum_energy_kcal_mol": -122.52841049105677,
+      "energy_span_kcal_mol": 0.0,
+      "weighted_sasa_A2": 371.05947664730365,
+      "within_minima_sd_sasa_A2": 0.0,
+      "weighted_mass_weighted_Rg_A": 2.464656398719341,
+      "within_minima_sd_mass_weighted_Rg_A": 0.0,
+      "weighted_unweighted_Rg_A": 3.0023770794632414,
+      "within_minima_sd_unweighted_Rg_A": 0.0
+    }
+  ],
+  "weights": [
+    {
+      "molecule_id": "caffeine",
+      "scope": "seed_20260928",
+      "conformer_id": 0,
+      "temperature_K": 250.0,
+      "relative_energy_kcal_mol": 0.0,
+      "forcefield_minima_weight": 1.0
+    },
+    {
+      "molecule_id": "caffeine",
+      "scope": "seed_20260928",
+      "conformer_id": 0,
+      "temperature_K": 298.15,
+      "relative_energy_kcal_mol": 0.0,
+      "forcefield_minima_weight": 1.0
+    },
+    {
+      "molecule_id": "caffeine",
+      "scope": "seed_20260928",
+      "conformer_id": 0,
+      "temperature_K": 350.0,
+      "relative_energy_kcal_mol": 0.0,
+      "forcefield_minima_weight": 1.0
+    },
+    {
+      "molecule_id": "caffeine",
+      "scope": "seed_20260929",
+      "conformer_id": 1,
+      "temperature_K": 250.0,
+      "relative_energy_kcal_mol": 0.0,
+      "forcefield_minima_weight": 1.0
+    },
+    {
+      "molecule_id": "caffeine",
+      "scope": "seed_20260929",
+      "conformer_id": 1,
+      "temperature_K": 298.15,
+      "relative_energy_kcal_mol": 0.0,
+      "forcefield_minima_weight": 1.0
+    },
+    {
+      "molecule_id": "caffeine",
+      "scope": "seed_20260929",
+      "conformer_id": 1,
+      "temperature_K": 350.0,
+      "relative_energy_kcal_mol": 0.0,
+      "forcefield_minima_weight": 1.0
+    },
+    {
+      "molecule_id": "caffeine",
+      "scope": "seed_20260930",
+      "conformer_id": 2,
+      "temperature_K": 250.0,
+      "relative_energy_kcal_mol": 0.0,
+      "forcefield_minima_weight": 1.0
+    },
+    {
+      "molecule_id": "caffeine",
+      "scope": "seed_20260930",
+      "conformer_id": 2,
+      "temperature_K": 298.15,
+      "relative_energy_kcal_mol": 0.0,
+      "forcefield_minima_weight": 1.0
+    },
+    {
+      "molecule_id": "caffeine",
+      "scope": "seed_20260930",
+      "conformer_id": 2,
+      "temperature_K": 350.0,
+      "relative_energy_kcal_mol": 0.0,
+      "forcefield_minima_weight": 1.0
+    },
+    {
+      "molecule_id": "caffeine",
+      "scope": "pooled",
+      "conformer_id": 0,
+      "temperature_K": 250.0,
+      "relative_energy_kcal_mol": 0.0,
+      "forcefield_minima_weight": 1.0
+    },
+    {
+      "molecule_id": "caffeine",
+      "scope": "pooled",
+      "conformer_id": 0,
+      "temperature_K": 298.15,
+      "relative_energy_kcal_mol": 0.0,
+      "forcefield_minima_weight": 1.0
+    },
+    {
+      "molecule_id": "caffeine",
+      "scope": "pooled",
+      "conformer_id": 0,
+      "temperature_K": 350.0,
+      "relative_energy_kcal_mol": 0.0,
+      "forcefield_minima_weight": 1.0
+    }
+  ],
+  "surface_quadrature": [
+    {
+      "molecule_id": "caffeine",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 0,
+      "sasa_A2": 368.95760252047256
+    },
+    {
+      "molecule_id": "caffeine",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 1,
+      "sasa_A2": 371.97645219048513
+    },
+    {
+      "molecule_id": "caffeine",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 2,
+      "sasa_A2": 368.2495034828249
+    },
+    {
+      "molecule_id": "caffeine",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 3,
+      "sasa_A2": 373.30950768700694
+    },
+    {
+      "molecule_id": "caffeine",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 4,
+      "sasa_A2": 371.43105873528583
+    },
+    {
+      "molecule_id": "caffeine",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 5,
+      "sasa_A2": 370.39827962178936
+    },
+    {
+      "molecule_id": "caffeine",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 6,
+      "sasa_A2": 370.7204330043846
+    },
+    {
+      "molecule_id": "caffeine",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 7,
+      "sasa_A2": 369.9155459826507
+    },
+    {
+      "molecule_id": "caffeine",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 8,
+      "sasa_A2": 369.9640541822787
+    },
+    {
+      "molecule_id": "caffeine",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 9,
+      "sasa_A2": 369.69736976683726
+    },
+    {
+      "molecule_id": "caffeine",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 10,
+      "sasa_A2": 372.43802309277237
+    },
+    {
+      "molecule_id": "caffeine",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 11,
+      "sasa_A2": 371.18208861093336
+    },
+    {
+      "molecule_id": "caffeine",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 12,
+      "sasa_A2": 371.5815903981103
+    },
+    {
+      "molecule_id": "caffeine",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 13,
+      "sasa_A2": 371.2333936308176
+    },
+    {
+      "molecule_id": "caffeine",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 14,
+      "sasa_A2": 372.7099601820251
+    },
+    {
+      "molecule_id": "caffeine",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 15,
+      "sasa_A2": 371.63086541914424
+    },
+    {
+      "molecule_id": "caffeine",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 16,
+      "sasa_A2": 370.92650713176766
+    },
+    {
+      "molecule_id": "caffeine",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 17,
+      "sasa_A2": 371.0971155748498
+    },
+    {
+      "molecule_id": "caffeine",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 18,
+      "sasa_A2": 369.53790046164943
+    },
+    {
+      "molecule_id": "caffeine",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 19,
+      "sasa_A2": 371.4054435280343
+    },
+    {
+      "molecule_id": "caffeine",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 20,
+      "sasa_A2": 370.824029509633
+    },
+    {
+      "molecule_id": "caffeine",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 21,
+      "sasa_A2": 371.2707886380291
+    },
+    {
+      "molecule_id": "caffeine",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 22,
+      "sasa_A2": 374.6724612652478
+    },
+    {
+      "molecule_id": "caffeine",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 23,
+      "sasa_A2": 370.2974649182582
+    },
+    {
+      "molecule_id": "caffeine",
+      "seed": 20260929,
+      "conformer_id": 1,
+      "orientation_index": 0,
+      "sasa_A2": 370.7033491510217
+    },
+    {
+      "molecule_id": "caffeine",
+      "seed": 20260929,
+      "conformer_id": 1,
+      "orientation_index": 1,
+      "sasa_A2": 371.1197264066655
+    },
+    {
+      "molecule_id": "caffeine",
+      "seed": 20260929,
+      "conformer_id": 1,
+      "orientation_index": 2,
+      "sasa_A2": 370.209795216674
+    },
+    {
+      "molecule_id": "caffeine",
+      "seed": 20260929,
+      "conformer_id": 1,
+      "orientation_index": 3,
+      "sasa_A2": 370.71840497983686
+    },
+    {
+      "molecule_id": "caffeine",
+      "seed": 20260929,
+      "conformer_id": 1,
+      "orientation_index": 4,
+      "sasa_A2": 368.1787071226278
+    },
+    {
+      "molecule_id": "caffeine",
+      "seed": 20260929,
+      "conformer_id": 1,
+      "orientation_index": 5,
+      "sasa_A2": 370.7135465125213
+    },
+    {
+      "molecule_id": "caffeine",
+      "seed": 20260929,
+      "conformer_id": 1,
+      "orientation_index": 6,
+      "sasa_A2": 369.7514329489196
+    },
+    {
+      "molecule_id": "caffeine",
+      "seed": 20260929,
+      "conformer_id": 1,
+      "orientation_index": 7,
+      "sasa_A2": 369.6073859923489
+    },
+    {
+      "molecule_id": "caffeine",
+      "seed": 20260929,
+      "conformer_id": 1,
+      "orientation_index": 8,
+      "sasa_A2": 372.81868193105083
+    },
+    {
+      "molecule_id": "caffeine",
+      "seed": 20260929,
+      "conformer_id": 1,
+      "orientation_index": 9,
+      "sasa_A2": 370.09926939042407
+    },
+    {
+      "molecule_id": "caffeine",
+      "seed": 20260929,
+      "conformer_id": 1,
+      "orientation_index": 10,
+      "sasa_A2": 371.67591263340154
+    },
+    {
+      "molecule_id": "caffeine",
+      "seed": 20260929,
+      "conformer_id": 1,
+      "orientation_index": 11,
+      "sasa_A2": 371.279383834175
+    },
+    {
+      "molecule_id": "caffeine",
+      "seed": 20260929,
+      "conformer_id": 1,
+      "orientation_index": 12,
+      "sasa_A2": 370.71951121315175
+    },
+    {
+      "molecule_id": "caffeine",
+      "seed": 20260929,
+      "conformer_id": 1,
+      "orientation_index": 13,
+      "sasa_A2": 371.6053098231038
+    },
+    {
+      "molecule_id": "caffeine",
+      "seed": 20260929,
+      "conformer_id": 1,
+      "orientation_index": 14,
+      "sasa_A2": 370.3707003469587
+    },
+    {
+      "molecule_id": "caffeine",
+      "seed": 20260929,
+      "conformer_id": 1,
+      "orientation_index": 15,
+      "sasa_A2": 370.18471458978166
+    },
+    {
+      "molecule_id": "caffeine",
+      "seed": 20260929,
+      "conformer_id": 1,
+      "orientation_index": 16,
+      "sasa_A2": 371.4033126010448
+    },
+    {
+      "molecule_id": "caffeine",
+      "seed": 20260929,
+      "conformer_id": 1,
+      "orientation_index": 17,
+      "sasa_A2": 370.630524812824
+    },
+    {
+      "molecule_id": "caffeine",
+      "seed": 20260929,
+      "conformer_id": 1,
+      "orientation_index": 18,
+      "sasa_A2": 367.7872698045828
+    },
+    {
+      "molecule_id": "caffeine",
+      "seed": 20260929,
+      "conformer_id": 1,
+      "orientation_index": 19,
+      "sasa_A2": 370.2137403595092
+    },
+    {
+      "molecule_id": "caffeine",
+      "seed": 20260929,
+      "conformer_id": 1,
+      "orientation_index": 20,
+      "sasa_A2": 364.08448033463685
+    },
+    {
+      "molecule_id": "caffeine",
+      "seed": 20260929,
+      "conformer_id": 1,
+      "orientation_index": 21,
+      "sasa_A2": 370.0826176940575
+    },
+    {
+      "molecule_id": "caffeine",
+      "seed": 20260929,
+      "conformer_id": 1,
+      "orientation_index": 22,
+      "sasa_A2": 370.6454246389482
+    },
+    {
+      "molecule_id": "caffeine",
+      "seed": 20260929,
+      "conformer_id": 1,
+      "orientation_index": 23,
+      "sasa_A2": 372.0755503628811
+    },
+    {
+      "molecule_id": "caffeine",
+      "seed": 20260930,
+      "conformer_id": 2,
+      "orientation_index": 0,
+      "sasa_A2": 370.0244797053905
+    },
+    {
+      "molecule_id": "caffeine",
+      "seed": 20260930,
+      "conformer_id": 2,
+      "orientation_index": 1,
+      "sasa_A2": 371.19680929135876
+    },
+    {
+      "molecule_id": "caffeine",
+      "seed": 20260930,
+      "conformer_id": 2,
+      "orientation_index": 2,
+      "sasa_A2": 372.1368752686374
+    },
+    {
+      "molecule_id": "caffeine",
+      "seed": 20260930,
+      "conformer_id": 2,
+      "orientation_index": 3,
+      "sasa_A2": 371.67237891840097
+    },
+    {
+      "molecule_id": "caffeine",
+      "seed": 20260930,
+      "conformer_id": 2,
+      "orientation_index": 4,
+      "sasa_A2": 369.25603043226096
+    },
+    {
+      "molecule_id": "caffeine",
+      "seed": 20260930,
+      "conformer_id": 2,
+      "orientation_index": 5,
+      "sasa_A2": 371.6723947777127
+    },
+    {
+      "molecule_id": "caffeine",
+      "seed": 20260930,
+      "conformer_id": 2,
+      "orientation_index": 6,
+      "sasa_A2": 370.8526366170614
+    },
+    {
+      "molecule_id": "caffeine",
+      "seed": 20260930,
+      "conformer_id": 2,
+      "orientation_index": 7,
+      "sasa_A2": 371.8250375027609
+    },
+    {
+      "molecule_id": "caffeine",
+      "seed": 20260930,
+      "conformer_id": 2,
+      "orientation_index": 8,
+      "sasa_A2": 371.55086787787053
+    },
+    {
+      "molecule_id": "caffeine",
+      "seed": 20260930,
+      "conformer_id": 2,
+      "orientation_index": 9,
+      "sasa_A2": 371.3004954995866
+    },
+    {
+      "molecule_id": "caffeine",
+      "seed": 20260930,
+      "conformer_id": 2,
+      "orientation_index": 10,
+      "sasa_A2": 370.632291647298
+    },
+    {
+      "molecule_id": "caffeine",
+      "seed": 20260930,
+      "conformer_id": 2,
+      "orientation_index": 11,
+      "sasa_A2": 371.2317274611439
+    },
+    {
+      "molecule_id": "caffeine",
+      "seed": 20260930,
+      "conformer_id": 2,
+      "orientation_index": 12,
+      "sasa_A2": 370.71596469296094
+    },
+    {
+      "molecule_id": "caffeine",
+      "seed": 20260930,
+      "conformer_id": 2,
+      "orientation_index": 13,
+      "sasa_A2": 370.4644871860981
+    },
+    {
+      "molecule_id": "caffeine",
+      "seed": 20260930,
+      "conformer_id": 2,
+      "orientation_index": 14,
+      "sasa_A2": 372.33448107877103
+    },
+    {
+      "molecule_id": "caffeine",
+      "seed": 20260930,
+      "conformer_id": 2,
+      "orientation_index": 15,
+      "sasa_A2": 370.4750362521565
+    },
+    {
+      "molecule_id": "caffeine",
+      "seed": 20260930,
+      "conformer_id": 2,
+      "orientation_index": 16,
+      "sasa_A2": 371.7507182111062
+    },
+    {
+      "molecule_id": "caffeine",
+      "seed": 20260930,
+      "conformer_id": 2,
+      "orientation_index": 17,
+      "sasa_A2": 372.08925029816555
+    },
+    {
+      "molecule_id": "caffeine",
+      "seed": 20260930,
+      "conformer_id": 2,
+      "orientation_index": 18,
+      "sasa_A2": 371.81755471929114
+    },
+    {
+      "molecule_id": "caffeine",
+      "seed": 20260930,
+      "conformer_id": 2,
+      "orientation_index": 19,
+      "sasa_A2": 369.1924722523486
+    },
+    {
+      "molecule_id": "caffeine",
+      "seed": 20260930,
+      "conformer_id": 2,
+      "orientation_index": 20,
+      "sasa_A2": 370.1643459485743
+    },
+    {
+      "molecule_id": "caffeine",
+      "seed": 20260930,
+      "conformer_id": 2,
+      "orientation_index": 21,
+      "sasa_A2": 367.5393842189203
+    },
+    {
+      "molecule_id": "caffeine",
+      "seed": 20260930,
+      "conformer_id": 2,
+      "orientation_index": 22,
+      "sasa_A2": 371.5850296435423
+    },
+    {
+      "molecule_id": "caffeine",
+      "seed": 20260930,
+      "conformer_id": 2,
+      "orientation_index": 23,
+      "sasa_A2": 369.4620496904112
+    }
+  ],
+  "radii_audit": {
+    "explicit_vdw_A": [
+      1.7,
+      1.6,
+      1.7,
+      1.6,
+      1.7,
+      1.7,
+      1.7,
+      1.55,
+      1.6,
+      1.7,
+      1.7,
+      1.55,
+      1.6,
+      1.7,
+      1.2,
+      1.2,
+      1.2,
+      1.2,
+      1.2,
+      1.2,
+      1.2,
+      1.2,
+      1.2,
+      1.2
+    ],
+    "classifier_zero_count": 24,
+    "classifier_returned_none": false,
+    "method": "RDKit periodic-table vdW radii, all atoms including explicit H",
+    "probe_radius_A": 1.4,
+    "algorithm": "LeeRichards",
+    "rotation_average_count": 24,
+    "rotation_seed": 17381
+  },
+  "pooled_deduplication": [
+    {
+      "conformer_id": 0,
+      "representative_id": 0,
+      "rmsd_to_representative_A": 0.0,
+      "selected": true
+    },
+    {
+      "conformer_id": 2,
+      "representative_id": 0,
+      "rmsd_to_representative_A": 2.72159943819507e-05,
+      "selected": false
+    },
+    {
+      "conformer_id": 1,
+      "representative_id": 0,
+      "rmsd_to_representative_A": 7.623533595826693e-05,
+      "selected": false
+    }
+  ],
+  "pooled_selected_minima": [
+    0
+  ],
+  "seed_variability": [
+    {
+      "molecule_id": "caffeine",
+      "temperature_K": 250.0,
+      "successful_seeds": 3,
+      "minimum_energy_kcal_mol_mean": -122.528410346901,
+      "minimum_energy_kcal_mol_range": 3.517409794540072e-07,
+      "minimum_energy_kcal_mol_sample_sd": 1.8424955644599766e-07,
+      "weighted_sasa_A2_mean": 370.7367915476148,
+      "weighted_sasa_A2_range": 0.7811952847558246,
+      "weighted_sasa_A2_sample_sd": 0.4079250649257298,
+      "weighted_mass_weighted_Rg_A_mean": 2.464657889948847,
+      "weighted_mass_weighted_Rg_A_range": 2.791490986364664e-06,
+      "weighted_mass_weighted_Rg_A_sample_sd": 1.4055095417047502e-06,
+      "effective_minima_count_mean": 1.0,
+      "effective_minima_count_range": 0.0,
+      "effective_minima_count_sample_sd": 0.0
+    },
+    {
+      "molecule_id": "caffeine",
+      "temperature_K": 298.15,
+      "successful_seeds": 3,
+      "minimum_energy_kcal_mol_mean": -122.528410346901,
+      "minimum_energy_kcal_mol_range": 3.517409794540072e-07,
+      "minimum_energy_kcal_mol_sample_sd": 1.8424955644599766e-07,
+      "weighted_sasa_A2_mean": 370.7367915476148,
+      "weighted_sasa_A2_range": 0.7811952847558246,
+      "weighted_sasa_A2_sample_sd": 0.4079250649257298,
+      "weighted_mass_weighted_Rg_A_mean": 2.464657889948847,
+      "weighted_mass_weighted_Rg_A_range": 2.791490986364664e-06,
+      "weighted_mass_weighted_Rg_A_sample_sd": 1.4055095417047502e-06,
+      "effective_minima_count_mean": 1.0,
+      "effective_minima_count_range": 0.0,
+      "effective_minima_count_sample_sd": 0.0
+    },
+    {
+      "molecule_id": "caffeine",
+      "temperature_K": 350.0,
+      "successful_seeds": 3,
+      "minimum_energy_kcal_mol_mean": -122.528410346901,
+      "minimum_energy_kcal_mol_range": 3.517409794540072e-07,
+      "minimum_energy_kcal_mol_sample_sd": 1.8424955644599766e-07,
+      "weighted_sasa_A2_mean": 370.7367915476148,
+      "weighted_sasa_A2_range": 0.7811952847558246,
+      "weighted_sasa_A2_sample_sd": 0.4079250649257298,
+      "weighted_mass_weighted_Rg_A_mean": 2.464657889948847,
+      "weighted_mass_weighted_Rg_A_range": 2.791490986364664e-06,
+      "weighted_mass_weighted_Rg_A_sample_sd": 1.4055095417047502e-06,
+      "effective_minima_count_mean": 1.0,
+      "effective_minima_count_range": 0.0,
+      "effective_minima_count_sample_sd": 0.0
+    }
+  ],
+  "returned_after_embedding_pruning": 3,
+  "converged": 3,
+  "nonconverged": 0,
+  "pooled_unique_minima": 1,
+  "status": "success",
+  "coordinate_sha256": {
+    "caffeine_embedded.sdf": "3a88caf4a363dda9d127f43578d88601caacc0b1881700be42a6aa45a7c9eaaa",
+    "caffeine_optimized.sdf": "0f3177b7dee2ce86f94515d94179f4ac48d9c4a4a87b8b9d29a1b17b4fc6aecb"
+  }
+}

@@ -2,7 +2,16 @@
 
 完整技术报告、可复现计算与证据审计。Updated 2026-09-28.
 
-## Latest ElectraTwin-OS / 新增微通道传输与多目标计算平台
+## Latest ElectroGraph-kMC / 分子图学习、构象系综与随机动力学
+
+- **[中文完整报告](electrograph/reports/electrograph_report_chinese.md)** · **[Complete English report](electrograph/reports/electrograph_report_english.md)**
+- [代码、数据与复现入口](electrograph/README.md) · [中英文 PNG/SVG 图表](electrograph/reports/figures/README.md)
+
+三个代理完成并交叉审查新增模块：256 条实验水合自由能数据上的 4 次神经训练（240 轮）、384 次缓存搜索调用、120 个实际构象优化、2,880 次 SASA 方向积分，以及 273 条 SSA 轨迹（9,950,504 个事件）。原脚本失败、四处 API 修复及兼容运行均保留。新增 49 项单元测试。
+
+Three neural seeds give test RMSEs of 1.8972, 1.7468 and 1.2496 kcal/mol against ridge regression at 1.6534. Learned-feature and descriptor GP searches tie at their final budgets. The supplied reaction loses C1H4, and the assumed kinetic cycle saturates near 26.61 s⁻¹ rather than the hardcoded 260.2 s⁻¹. These calculations do not validate oxidation potentials, atom reactivity, solution populations or an electrocatalytic mechanism.
+
+## Earlier ElectraTwin-OS / 微通道传输与多目标计算平台
 
 - **[新增计算中文报告](electratwin/reports/extension_report_chinese.md)** · **[Extended calculations: English report](electratwin/reports/extension_report_english.md)**
 - [一键计算入口](electratwin/scripts/run_extensions.py) · [扩展代码、结果与复现](electratwin/README.md)

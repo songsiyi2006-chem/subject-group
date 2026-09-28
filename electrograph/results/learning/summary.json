@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "evidence": "supervised hydration benchmark and retrospective frozen-pool search; not electrochemistry",
+  "pilot": false,
+  "target": "Experimental hydration free energy, kcal/mol",
+  "dataset_count": 256,
+  "split_counts": {
+    "train": 154,
+    "validation": 51,
+    "test": 51
+  },
+  "dataset_provenance_sha256": "0a40f627fd7ab94b70a7fa1f7fe46a8a44e8398c71415661b3348a331be01e97",
+  "selected_data_sha256": "b1c59baee08ecba6c53cf7b98212a04447ed123ad6699d92a0f1e13a17b44f28",
+  "source_sha256": {
+    "electrograph/scripts/graph_learning.py": "273b89b63c68eaa63c4708d4c7f2cced7452779c2aced6a35e0a4e1116c60960"
+  },
+  "training": {
+    "seeds": [
+      20260928,
+      20260929,
+      20260930
+    ],
+    "shuffled_seed": 20261001,
+    "epochs_per_fit": 60,
+    "optimizer": "Adam(lr=0.003, weight_decay=1e-4), batch=32, grad_norm_clip=5",
+    "hidden_dim": 24,
+    "message_steps": 2,
+    "latent_dim": 48,
+    "selection": "lowest validation MSE epoch; fixed seeds; test labels never select checkpoints",
+    "shuffled_control": "training labels permuted only; validation labels kept true for checkpoint selection",
+    "fits": [
+      {
+        "model": "mpnn_seed20260928",
+        "seed": 20260928,
+        "best_epoch": 39,
+        "epochs_executed": 60,
+        "validation_standardized_MSE": 0.23425894975662231,
+        "target_mean": -4.690129870129871,
+        "target_scale": 4.263874980960819,
+        "parameter_count": 29369,
+        "training_count": 154,
+        "validation_count": 51
+      },
+      {
+        "model": "mpnn_seed20260929",
+        "seed": 20260929,
+        "best_epoch": 44,
+        "epochs_executed": 60,
+        "validation_standardized_MSE": 0.2247539907693863,
+        "target_mean": -4.690129870129871,
+        "target_scale": 4.263874980960819,
+        "parameter_count": 29369,
+        "training_count": 154,
+        "validation_count": 51
+      },
+      {
+        "model": "mpnn_seed20260930",
+        "seed": 20260930,
+        "best_epoch": 60,
+        "epochs_executed": 60,
+        "validation_standardized_MSE": 0.10414524376392365,
+        "target_mean": -4.690129870129871,
+        "target_scale": 4.263874980960819,
+        "parameter_count": 29369,
+        "training_count": 154,
+        "validation_count": 51
+      },
+      {
+        "model": "shuffled_train_mpnn_seed20261001",
+        "seed": 20261001,
+        "best_epoch": 2,
+        "epochs_executed": 60,
+        "validation_standardized_MSE": 0.9527966380119324,
+        "target_mean": -4.690129870129871,
+        "target_scale": 4.263874980960819,
+        "parameter_count": 29369,
+        "training_count": 154,
+        "validation_count": 51
+      }
+    ]
+  },
+  "architecture": "Directed reciprocal bond edges, edge-conditioned full matrices, GRU, sum+mean invariant pooling",
+  "atom_output": "No atom-reactivity/Fukui head: no atom-level labels available",
+  "baseline": "10 RDKit descriptors, training-only StandardScaler, ridge alpha selected on validation",
+  "counts": {
+    "neural_training_runs": 4,
+    "training_epochs_executed": 240,
+    "prediction_rows": 1536,
+    "campaigns": 24,
+    "cached_oracle_calls": 384,
+    "new_experiments": 0,
+    "new_DFT": 0
+  },
+  "active_learning": {
+    "pool": "test partition only",
+    "pool_count": 51,
+    "objective": "maximize negative experimental hydration free energy",
+    "budget": 16,
+    "initial_shared_points": 4,
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "latent_encoder_predeclared_seed": 20260928,
+    "encoder_and_scaler_label_access": "train; validation only selects checkpoint; no test labels",
+    "GP": "Fixed Matern-5/2, dimension-normalized distances, unit amplitude and lengthscale, noise variance=1e-5 standardized units",
+    "conditioning": "Only already selected oracle values; outcome mean/std refitted on observed values",
+    "acquisition": "UCB=posterior mean+1.96*posterior latent sd; deterministic lowest-index tie",
+    "uncertainty": "Conditional GP latent sd; neither experimental uncertainty nor calibrated confidence",
+    "extra_pretraining_cost": "Learned feature method consumes supervised train labels and validation checkpoint choices, not counted as pool calls; descriptor method has no such label pretraining"
+  },
+  "limitations": [
+    "Single small split; acyclic groups are individual structures, not novel scaffold families",
+    "No electrochemical measurements or atom labels; no oxidation or reactivity validation",
+    "Three neural seeds are not a broad hyperparameter search or independent data replicates",
+    "Fixed-pool eight-seed t intervals are descriptive and have no multiplicity correction",
+    "Experimental uncertainty metadata is preserved but the unweighted point-label loss does not model it",
+    "Frozen learned features plus GP is not jointly trained end-to-end deep kernel learning"
+  ],
+  "runtime_seconds": 45.60443159996066,
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.4.6",
+    "torch": "2.10.0",
+    "rdkit": "2026.03.5",
+    "scipy": "1.18.0",
+    "sklearn": "1.9.0"
+  },
+  "threads": {
+    "torch": 1,
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "method_sources": [
+    "https://proceedings.mlr.press/v70/gilmer17a.html",
+    "https://docs.pytorch.org/docs/stable/generated/torch.nn.GRUCell.html",
+    "https://scikit-learn.org/stable/common_pitfalls.html"
+  ],
+  "output_sha256": {
+    "campaign_checks.json": "15d91caefc28494b329a534bd6cc1e95537f92bdc504f4166f6684ea2f19e7d3",
+    "campaign_evaluations.csv": "36f55fc34268a0416352f4e091d72b2997e2073f29dcb4ca2b27fbc2a5118f64",
+    "campaign_learning_curves.csv": "4f949f4ac3c053e9df362ff27e7772c04b821615f4af40eeb93a33dce2b29fb1",
+    "campaign_paired_comparisons.csv": "fac8b47584670d638c4870f7bd6726c09ddfe5a009dc55049064f9315a31b162",
+    "descriptor_ridge.json": "40396ad93e9b33d3aa16ff4d15a7303aa7ec08fa809b043cfed6c4c2296a56dc",
+    "encoder_scaler.json": "9a9ff98953f7eaf061cd3cdab1c563c70e92616f65339dcde0d57f84670e9b5f",
+    "learned_embeddings.csv": "ed013eb78a5773de15df746425ed6a86895c51b1faf8d8c297ad0224faf5899c",
+    "mpnn_seed20260928.pt": "113ac7dda1a06108f14eee510249cc2bbbe0ce27c6c0f0015500a6ae64bec6fc",
+    "mpnn_seed20260929.pt": "73b01d0dd2605a4484ad0dadfb35a322a7e3e28f0857521a1a447afee5635fee",
+    "mpnn_seed20260930.pt": "8d32eb77b29bf9a660a7f33cf21d1daf20cbbec6d727efb3c7070c5dbe42da3e",
+    "predictions.csv": "7d1151c6cab93c5393526cdf893ba61aa52da0664e84903abe8c1ff8fdf66e2e",
+    "regression_metrics.csv": "0dd058851087919eebb0d77c07a46816ecc2d7cc9e7c9ae95929223769225db7",
+    "shuffled_train_mpnn_seed20261001.pt": "baba04eee53fbfdfbd67bdd1e44a385a410d28959a6abcd1c935cb49c3d90af0",
+    "splits.json": "7480d45f1a4b165da525e695359ed22edfc32e95cf0e2b1e23f8f84a958fa49a",
+    "training_losses.csv": "11929e3523918e6cff6a0ca2b2cff3a525274666a403c29e6e238deb95c92c95"
+  }
+}

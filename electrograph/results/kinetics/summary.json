@@ -1,0 +1,362 @@
+{
+  "schema_version": 1,
+  "mode": "full",
+  "evidence": "ASSUMED independent-site stochastic model; numerical verification only",
+  "source_corrections": [
+    "post-event coverage logging",
+    "actual executed event count",
+    "fixed-time censoring",
+    "time-weighted occupancy",
+    "computed potential sweep replaces hard-coded TOFs"
+  ],
+  "model": {
+    "states": [
+      "empty",
+      "substrate",
+      "radical",
+      "intermediate",
+      "product"
+    ],
+    "steps": [
+      "adsorption",
+      "SET",
+      "coupling",
+      "PCET",
+      "desorption"
+    ],
+    "reference_eta_V": 0.48,
+    "reference_rates_s_1": [
+      45.0,
+      1368505.7269032567,
+      350.0,
+      2280842.8781720945,
+      80.0
+    ],
+    "horizon_s": 1.0,
+    "burn_in_s": 0.2,
+    "electrons_per_complete_cycle": 2,
+    "inter_site_interactions": false,
+    "spatial_periodic_boundary_operations": false,
+    "fitted_rates": false
+  },
+  "counts": {
+    "study_SSA_trajectories": 273,
+    "potential_trajectories": 192,
+    "baseline_trajectories": 1,
+    "site_scaling_trajectories": 48,
+    "two_class_trajectories": 16,
+    "fixed_event_diagnostic_trajectories": 16,
+    "executed_SSA_events": 9950504,
+    "analytic_rate_perturbation_cases": 105,
+    "analytic_transient_times": 101,
+    "analytic_cycle_CDF_times": 151,
+    "pilot_excluded_from_full_counts": true,
+    "unit_tests_excluded_from_study_counts": true
+  },
+  "potential_summary": [
+    {
+      "eta_V": 0.2,
+      "trajectories": 32,
+      "mean_TOF_s_1": 26.413726806640625,
+      "sd_TOF_s_1": 0.2810823340713232,
+      "mean_MC_lower_95pct_t": 26.31238581841658,
+      "mean_MC_upper_95pct_t": 26.51506779486467,
+      "finite_window_CTMC_TOF_s_1": 26.41915881867595,
+      "steady_TOF_s_1": 26.419158818676234,
+      "relative_mean_error_vs_finite_CTMC": -0.0002056088186836849,
+      "total_events": 1083799,
+      "CTMC_probability_sum_error": 4.551914400963142e-15,
+      "CTMC_window_occupancy_sum_error": 7.216449660063518e-15,
+      "steady_empty": 0.5870924181928052,
+      "steady_substrate": 0.004490491039523925,
+      "steady_radical": 0.07548331091050353,
+      "steady_intermediate": 0.002694294623714355,
+      "steady_product": 0.330239485233453
+    },
+    {
+      "eta_V": 0.3,
+      "trajectories": 32,
+      "mean_TOF_s_1": 26.627655029296875,
+      "sd_TOF_s_1": 0.2174363641959563,
+      "mean_MC_lower_95pct_t": 26.549260860213767,
+      "mean_MC_upper_95pct_t": 26.706049198379983,
+      "finite_window_CTMC_TOF_s_1": 26.582874248503163,
+      "steady_TOF_s_1": 26.58287424850298,
+      "relative_mean_error_vs_finite_CTMC": 0.0016845725701099931,
+      "total_events": 1093587,
+      "CTMC_probability_sum_error": 1.9539925233402755e-14,
+      "CTMC_window_occupancy_sum_error": 2.020605904817785e-14,
+      "steady_empty": 0.5907305388556218,
+      "steady_substrate": 0.0006452898479087642,
+      "steady_radical": 0.07595106928143708,
+      "steady_intermediate": 0.00038717390874525856,
+      "steady_product": 0.3322859281062872
+    },
+    {
+      "eta_V": 0.4,
+      "trajectories": 32,
+      "mean_TOF_s_1": 26.6607666015625,
+      "sd_TOF_s_1": 0.2279226109089732,
+      "mean_MC_lower_95pct_t": 26.57859173737392,
+      "mean_MC_upper_95pct_t": 26.74294146575108,
+      "finite_window_CTMC_TOF_s_1": 26.606421224269592,
+      "steady_TOF_s_1": 26.60642122426128,
+      "relative_mean_error_vs_finite_CTMC": 0.002042566222447663,
+      "total_events": 1094477,
+      "CTMC_probability_sum_error": 5.067057884389214e-13,
+      "CTMC_window_occupancy_sum_error": 2.773337115513641e-13,
+      "steady_empty": 0.591253804983584,
+      "steady_substrate": 9.223959882351356e-05,
+      "steady_radical": 0.07601834635503223,
+      "steady_intermediate": 5.5343759294108126e-05,
+      "steady_product": 0.332580265303266
+    },
+    {
+      "eta_V": 0.5,
+      "trajectories": 32,
+      "mean_TOF_s_1": 26.619110107421875,
+      "sd_TOF_s_1": 0.31106894212001807,
+      "mean_MC_lower_95pct_t": 26.506957794099147,
+      "mean_MC_upper_95pct_t": 26.731262420744603,
+      "finite_window_CTMC_TOF_s_1": 26.609787522093484,
+      "steady_TOF_s_1": 26.609787522996278,
+      "relative_mean_error_vs_finite_CTMC": 0.0003503442228033883,
+      "total_events": 1090003,
+      "CTMC_probability_sum_error": 5.369227285001443e-11,
+      "CTMC_window_occupancy_sum_error": 3.403510806521126e-11,
+      "steady_empty": 0.5913286116221396,
+      "steady_substrate": 1.317499311808796e-05,
+      "steady_radical": 0.07602796435141794,
+      "steady_intermediate": 7.904995870852775e-06,
+      "steady_product": 0.3326223440374535
+    },
+    {
+      "eta_V": 0.6,
+      "trajectories": 32,
+      "mean_TOF_s_1": 26.592864990234375,
+      "sd_TOF_s_1": 0.2762211999203132,
+      "mean_MC_lower_95pct_t": 26.493276627768118,
+      "mean_MC_upper_95pct_t": 26.692453352700632,
+      "finite_window_CTMC_TOF_s_1": 26.61026835484818,
+      "steady_TOF_s_1": 26.61026835514043,
+      "relative_mean_error_vs_finite_CTMC": -0.0006540093614138579,
+      "total_events": 1090850,
+      "CTMC_probability_sum_error": 3.480948862488731e-11,
+      "CTMC_window_occupancy_sum_error": 9.716893956124295e-12,
+      "steady_empty": 0.5913392967808985,
+      "steady_substrate": 1.8816389388024935e-06,
+      "steady_radical": 0.07602933815754409,
+      "steady_intermediate": 1.1289833632814962e-06,
+      "steady_product": 0.33262835443925537
+    },
+    {
+      "eta_V": 0.7,
+      "trajectories": 32,
+      "mean_TOF_s_1": 26.564178466796875,
+      "sd_TOF_s_1": 0.28319934846695954,
+      "mean_MC_lower_95pct_t": 26.462074213490208,
+      "mean_MC_upper_95pct_t": 26.666282720103542,
+      "finite_window_CTMC_TOF_s_1": 26.610337038804797,
+      "steady_TOF_s_1": 26.610337027268926,
+      "relative_mean_error_vs_finite_CTMC": -0.0017346105741017429,
+      "total_events": 1088970,
+      "CTMC_probability_sum_error": 6.357270265766601e-10,
+      "CTMC_window_occupancy_sum_error": 4.358373661972337e-10,
+      "steady_empty": 0.5913408228281984,
+      "steady_substrate": 2.687295716333069e-07,
+      "steady_radical": 0.0760295343636255,
+      "steady_intermediate": 1.6123774297998419e-07,
+      "steady_product": 0.3326292128408616
+    }
+  ],
+  "site_scaling": [
+    {
+      "sites": 64,
+      "trajectories": 16,
+      "mean_TOF_s_1": 26.754150390625,
+      "sd_TOF_s_1": 0.42553741285817015,
+      "mean_MC_lower_95pct_t": 26.527397509311193,
+      "mean_MC_upper_95pct_t": 26.980903271938807,
+      "finite_window_CTMC_TOF_s_1": 26.609520600484686,
+      "steady_TOF_s_1": 26.609520601078344,
+      "relative_mean_error_vs_finite_CTMC": 0.005435264780293704,
+      "total_events": 136888,
+      "asymptotic_TOF_sd_renewal": 0.4921674306624328
+    },
+    {
+      "sites": 256,
+      "trajectories": 16,
+      "mean_TOF_s_1": 26.5185546875,
+      "sd_TOF_s_1": 0.22705865661745178,
+      "mean_MC_lower_95pct_t": 26.39756366988433,
+      "mean_MC_upper_95pct_t": 26.63954570511567,
+      "finite_window_CTMC_TOF_s_1": 26.609520600484686,
+      "steady_TOF_s_1": 26.609520601078344,
+      "relative_mean_error_vs_finite_CTMC": -0.0034185476074690686,
+      "total_events": 543918,
+      "asymptotic_TOF_sd_renewal": 0.2460837153312164
+    },
+    {
+      "sites": 1024,
+      "trajectories": 16,
+      "mean_TOF_s_1": 26.62872314453125,
+      "sd_TOF_s_1": 0.11541036324668884,
+      "mean_MC_lower_95pct_t": 26.56722530295749,
+      "mean_MC_upper_95pct_t": 26.69022098610501,
+      "finite_window_CTMC_TOF_s_1": 26.609520600484686,
+      "steady_TOF_s_1": 26.609520601078344,
+      "relative_mean_error_vs_finite_CTMC": 0.0007216418640106735,
+      "total_events": 2183827,
+      "asymptotic_TOF_sd_renewal": 0.1230418576656082
+    }
+  ],
+  "two_class_summary": [
+    {
+      "case": "75pct_reference_25pct_slow",
+      "trajectories": 16,
+      "mean_TOF_s_1": 22.15179443359375,
+      "sd_TOF_s_1": 0.2953447421871939,
+      "mean_MC_lower_95pct_t": 21.99441632946416,
+      "mean_MC_upper_95pct_t": 22.30917253772334,
+      "finite_window_CTMC_TOF_s_1": 22.098517851881393,
+      "steady_TOF_s_1": 22.0985194137579,
+      "relative_mean_error_vs_finite_CTMC": 0.0024108667409032157,
+      "total_events": 454353,
+      "classes": [
+        {
+          "sites": 192,
+          "rates": [
+            45.0,
+            1368505.7269032567,
+            350.0,
+            2280842.8781720945,
+            80.0
+          ]
+        },
+        {
+          "sites": 64,
+          "rates": [
+            11.25,
+            1368505.7269032567,
+            350.0,
+            2280842.8781720945,
+            40.0
+          ]
+        }
+      ],
+      "spatial_interactions": false
+    }
+  ],
+  "reference_steady": {
+    "occupancy": [
+      0.5913226800239633,
+      1.9444215744198665e-05,
+      0.0760272017173667,
+      1.16665294465192e-05,
+      0.33261900751347934
+    ],
+    "TOF_s_1": 26.609520601078344,
+    "mean_cycle_wait_s": 0.037580534237789884,
+    "cycle_wait_variance_s2": 0.0006582404265261319,
+    "rate_log_elasticity": [
+      0.5913226800239633,
+      1.9444215744198665e-05,
+      0.0760272017173667,
+      1.16665294465192e-05,
+      0.33261900751347934
+    ],
+    "renewal_long_time_product_Fano_factor": 0.4660780519851331
+  },
+  "reference_finite_window": {
+    "final_probability": [
+      0.5913226800029441,
+      1.944421574350753e-05,
+      0.07602720171468456,
+      1.1666529446107627e-05,
+      0.3326190075016905
+    ],
+    "burn_in_probability": [
+      0.5913226800253074,
+      1.9444215744242863e-05,
+      0.07602720171754992,
+      1.1666529446547327e-05,
+      0.33261900751382084
+    ],
+    "time_average_probability": [
+      0.5913226800106756,
+      1.9444215743761742e-05,
+      0.07602720171568578,
+      1.1666529446261257e-05,
+      0.33261900750605855
+    ],
+    "expected_reaction_counts_per_site": [
+      21.287616480384322,
+      21.28761648038433,
+      21.287616480392018,
+      21.287616480392014,
+      21.28761648038775
+    ],
+    "expected_TOF_s_1": 26.609520600484686,
+    "expected_electrons_per_site_s": 53.21904120097043,
+    "probability_sum_error": 3.5491276584309617e-11,
+    "window_occupancy_sum_error": 2.2390089782220457e-11
+  },
+  "fixed_event_diagnostic": {
+    "count": 16,
+    "mean_TOF_s_1": 24.207221398577833,
+    "min_time_s": 0.09845553714308462,
+    "max_time_s": 0.10391095728316721
+  },
+  "rate_limited_TOF_upper_bound_s_1": 26.610348468848997,
+  "source_hardcoded_TOFs_not_used": [
+    4.2,
+    12.8,
+    38.4,
+    95.1,
+    184.6,
+    260.2
+  ],
+  "numerical_checks": {
+    "max_occupancy_sum_error": 9.325873406851315e-15,
+    "all_site_and_electron_balances_exact": true,
+    "all_fixed_time_horizons_exact": true,
+    "reference_CTMC_probability_sum_error": 3.5491276584309617e-11,
+    "reference_CTMC_window_sum_error": 2.2390089782220457e-11
+  },
+  "interval_scope": "Student-t intervals for mean across independent PRNG seeds conditional on fixed assumed rates; not parameter/physical confidence; simultaneous coverage not adjusted",
+  "limitations": [
+    "Five irreversible pseudo-first-order reactions; no thermodynamic reverse rates or electrolyte transport",
+    "Two classes represent assigned static rate variation only; no neighbors, hopping, geometry or periodic operations",
+    "No experimental or DFT rate calibration; labels do not establish a POP-SAC mechanism",
+    "High-potential saturation follows the assumed cycle; not a measured electrocatalytic trend",
+    "Fixed event stopping is path dependent and its apparent TOF is a transient diagnostic",
+    "Current refers only to the explicitly enumerated sites and is not electrode-scale current"
+  ],
+  "runtime_seconds": 66.28105810005218,
+  "runtime_versions": {
+    "python": "3.12.14",
+    "numpy": "2.4.6",
+    "scipy": "1.18.0"
+  },
+  "source_sha256": {
+    "electrograph/scripts/kinetics_reviewed.py": "2bfa5034bca984bcae546041e75360c3f6893067f93a7af0ad082d06439999f4",
+    "electrograph/source/electrograph_kmc_core.py": "2ac28e83ba3b914662bc145d256041793ae370dcbc87be27c7773df9f15656af",
+    "tests/test_electrograph_kinetics.py": "ef58a1428f804e9371149755019ea2edca4226bdebda058bd43d48492b64b28b"
+  },
+  "output_sha256": {
+    "analytic_rate_perturbations.csv": "e9c08783989a67008f123a8909547ea66c709b7404226fbbd66ca2ab9443c260",
+    "analytic_transient.csv": "e67d4b0c068c77423242e4f27beaac6a1608d971900c6137f3366b76f42a8295",
+    "baseline_trajectory.csv": "5a869b4ac5962e728ee5f2b7ad43fd3b646f000423cd3e3c36b84d473904c1cb",
+    "cycle_wait_distribution.csv": "6f18d8c780f494601ae1367ce3a69d5e264a6abff0a33fb387f3b0bfa02ac302",
+    "fixed_event_transients.csv": "1d069939ee564f587bfc95bc45cd9a7a66964f7e2e7fdb06e091f0ab533c413a",
+    "potential_summary.csv": "d3e464c5f221540c83a66d7a5c47918417a765126e31972482b1a26be1ba976f",
+    "site_scaling.csv": "04860dc93d3e3a11226279ba6b4015717c4e7b2ffd4db640e7e80f3c068c5e45",
+    "trajectories.csv": "36ccb350c68e78ea4ea5720fda4129f9d24d972eda8377d9d26387f4c428fbef",
+    "baseline.json": "f630b968b2845e38bd3aeb7b76c4886d123decc975483b3e945c7ecd8d07d4e4"
+  },
+  "sources": [
+    "https://pubs.acs.org/doi/10.1021/j100540a008",
+    "https://www.cl.cam.ac.uk/teaching/2526/Bioinfo/papers/DanielGillespie1.pdf",
+    "https://docs.scipy.org/doc/scipy/reference/generated/scipy.linalg.expm.html"
+  ]
+}

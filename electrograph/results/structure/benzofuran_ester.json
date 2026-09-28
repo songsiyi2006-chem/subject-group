@@ -1,0 +1,4455 @@
+{
+  "molecule_id": "benzofuran_ester",
+  "name": "Ethyl benzofuran-2-carboxylate",
+  "source_smiles": "CCOC(=O)c1cc2ccccc2o1",
+  "canonical_smiles": "CCOC(=O)c1cc2ccccc2o1",
+  "formula": "C11H10O3",
+  "formal_charge": 0,
+  "radical_electrons": 0,
+  "requested_conformers": 72,
+  "attempts_per_seed": 24,
+  "seeds": [
+    20260928,
+    20260929,
+    20260930
+  ],
+  "records": [
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "optimization_status": 0,
+      "energy_kcal_mol": 26.064416322116998,
+      "sasa_A2": 402.4623141301631,
+      "sasa_orientation_sd_A2": 1.6306741978271477,
+      "sasa_orientation_range_A2": 7.237002171890538,
+      "sasa_first_half_vs_all_abs_delta_A2": 0.6135390187567396,
+      "mass_weighted_Rg_A": 2.987467323097715,
+      "unweighted_Rg_A": 3.6429760257280552
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 1,
+      "optimization_status": 0,
+      "energy_kcal_mol": 26.88074709552025,
+      "sasa_A2": 401.9490786705298,
+      "sasa_orientation_sd_A2": 1.2359832092192906,
+      "sasa_orientation_range_A2": 5.175672857409381,
+      "sasa_first_half_vs_all_abs_delta_A2": 0.21417467591237482,
+      "mass_weighted_Rg_A": 3.016761993300582,
+      "unweighted_Rg_A": 3.6708992215097522
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 2,
+      "optimization_status": 0,
+      "energy_kcal_mol": 26.064416330324278,
+      "sasa_A2": 402.39913301748396,
+      "sasa_orientation_sd_A2": 1.317731314182682,
+      "sasa_orientation_range_A2": 5.6773653857248405,
+      "sasa_first_half_vs_all_abs_delta_A2": 0.10982709438599159,
+      "mass_weighted_Rg_A": 2.987467312185879,
+      "unweighted_Rg_A": 3.6429757365063145
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 3,
+      "optimization_status": 0,
+      "energy_kcal_mol": 25.606610941373855,
+      "sasa_A2": 406.6354360407572,
+      "sasa_orientation_sd_A2": 1.8868532119579071,
+      "sasa_orientation_range_A2": 8.490432968922562,
+      "sasa_first_half_vs_all_abs_delta_A2": 0.5393161287688031,
+      "mass_weighted_Rg_A": 3.0077843039877665,
+      "unweighted_Rg_A": 3.670752201767825
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 4,
+      "optimization_status": 0,
+      "energy_kcal_mol": 26.88074709531471,
+      "sasa_A2": 402.53147674768525,
+      "sasa_orientation_sd_A2": 2.2185699578244242,
+      "sasa_orientation_range_A2": 9.86333075346846,
+      "sasa_first_half_vs_all_abs_delta_A2": 0.14271393268569454,
+      "mass_weighted_Rg_A": 3.0167622319492198,
+      "unweighted_Rg_A": 3.670899655804588
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 5,
+      "optimization_status": 0,
+      "energy_kcal_mol": 26.38488238289317,
+      "sasa_A2": 405.76945771430957,
+      "sasa_orientation_sd_A2": 1.8431561775898546,
+      "sasa_orientation_range_A2": 10.088104298486257,
+      "sasa_first_half_vs_all_abs_delta_A2": 0.36030405279200295,
+      "mass_weighted_Rg_A": 3.0513119871230034,
+      "unweighted_Rg_A": 3.7145930136230523
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 6,
+      "optimization_status": 0,
+      "energy_kcal_mol": 26.064416324749015,
+      "sasa_A2": 402.2591453201412,
+      "sasa_orientation_sd_A2": 2.282542271064625,
+      "sasa_orientation_range_A2": 10.069098912629045,
+      "sasa_first_half_vs_all_abs_delta_A2": 0.14758628803343754,
+      "mass_weighted_Rg_A": 2.987466439692945,
+      "unweighted_Rg_A": 3.642974666560215
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 7,
+      "optimization_status": 0,
+      "energy_kcal_mol": 26.88074709649319,
+      "sasa_A2": 402.99780673840706,
+      "sasa_orientation_sd_A2": 1.8271768532235497,
+      "sasa_orientation_range_A2": 6.492298663464453,
+      "sasa_first_half_vs_all_abs_delta_A2": 0.5309999728629009,
+      "mass_weighted_Rg_A": 3.0167620884018347,
+      "unweighted_Rg_A": 3.6708994060979827
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 8,
+      "optimization_status": 0,
+      "energy_kcal_mol": 26.064416322987512,
+      "sasa_A2": 402.2671438966792,
+      "sasa_orientation_sd_A2": 2.779234626302008,
+      "sasa_orientation_range_A2": 14.82531461428448,
+      "sasa_first_half_vs_all_abs_delta_A2": 0.5804796360858404,
+      "mass_weighted_Rg_A": 2.987467164635688,
+      "unweighted_Rg_A": 3.6429757431715815
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 9,
+      "optimization_status": 0,
+      "energy_kcal_mol": 26.880747097095643,
+      "sasa_A2": 402.0502082290789,
+      "sasa_orientation_sd_A2": 1.831104183924113,
+      "sasa_orientation_range_A2": 6.630936949011414,
+      "sasa_first_half_vs_all_abs_delta_A2": 0.394254661072182,
+      "mass_weighted_Rg_A": 3.0167626864478985,
+      "unweighted_Rg_A": 3.670900439957733
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 10,
+      "optimization_status": 0,
+      "energy_kcal_mol": 25.606610941904254,
+      "sasa_A2": 407.24675550088114,
+      "sasa_orientation_sd_A2": 1.8995534046021814,
+      "sasa_orientation_range_A2": 9.301960217268288,
+      "sasa_first_half_vs_all_abs_delta_A2": 0.45906025335830236,
+      "mass_weighted_Rg_A": 3.0077836708070307,
+      "unweighted_Rg_A": 3.6707509376070213
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 11,
+      "optimization_status": 0,
+      "energy_kcal_mol": 26.88074709685671,
+      "sasa_A2": 402.09940535312506,
+      "sasa_orientation_sd_A2": 1.4372098878273745,
+      "sasa_orientation_range_A2": 7.257569634646984,
+      "sasa_first_half_vs_all_abs_delta_A2": 0.010814600724017964,
+      "mass_weighted_Rg_A": 3.016762142301285,
+      "unweighted_Rg_A": 3.670899407917211
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 12,
+      "optimization_status": 0,
+      "energy_kcal_mol": 26.384882383640814,
+      "sasa_A2": 405.95432480301423,
+      "sasa_orientation_sd_A2": 1.6743693299893987,
+      "sasa_orientation_range_A2": 7.677666156353496,
+      "sasa_first_half_vs_all_abs_delta_A2": 0.0707809458669999,
+      "mass_weighted_Rg_A": 3.0513128315876688,
+      "unweighted_Rg_A": 3.7145944380371683
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 13,
+      "optimization_status": 0,
+      "energy_kcal_mol": 26.880747095464447,
+      "sasa_A2": 402.69938905516864,
+      "sasa_orientation_sd_A2": 1.9103736826684365,
+      "sasa_orientation_range_A2": 7.945055647213962,
+      "sasa_first_half_vs_all_abs_delta_A2": 0.35974588360897997,
+      "mass_weighted_Rg_A": 3.016762154706087,
+      "unweighted_Rg_A": 3.6708995918828182
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 14,
+      "optimization_status": 0,
+      "energy_kcal_mol": 26.064416324693585,
+      "sasa_A2": 402.28678517358344,
+      "sasa_orientation_sd_A2": 2.198152970209368,
+      "sasa_orientation_range_A2": 11.571926402635029,
+      "sasa_first_half_vs_all_abs_delta_A2": 0.13972286356312225,
+      "mass_weighted_Rg_A": 2.9874672735003482,
+      "unweighted_Rg_A": 3.6429757902513034
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 15,
+      "optimization_status": 0,
+      "energy_kcal_mol": 26.880747097871126,
+      "sasa_A2": 402.3349717153997,
+      "sasa_orientation_sd_A2": 1.785838780792421,
+      "sasa_orientation_range_A2": 7.5977711600420434,
+      "sasa_first_half_vs_all_abs_delta_A2": 0.5237250526734556,
+      "mass_weighted_Rg_A": 3.0167626701754564,
+      "unweighted_Rg_A": 3.670900504487213
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 16,
+      "optimization_status": 0,
+      "energy_kcal_mol": 25.60661094979276,
+      "sasa_A2": 406.9842367432555,
+      "sasa_orientation_sd_A2": 2.0384194612744166,
+      "sasa_orientation_range_A2": 7.657364124698347,
+      "sasa_first_half_vs_all_abs_delta_A2": 0.21750811921378954,
+      "mass_weighted_Rg_A": 3.007784359013741,
+      "unweighted_Rg_A": 3.6707520990983387
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 17,
+      "optimization_status": 0,
+      "energy_kcal_mol": 26.0644163259772,
+      "sasa_A2": 401.9960708935482,
+      "sasa_orientation_sd_A2": 2.1108224710929386,
+      "sasa_orientation_range_A2": 10.217807576184498,
+      "sasa_first_half_vs_all_abs_delta_A2": 0.614079774526715,
+      "mass_weighted_Rg_A": 2.987466671836992,
+      "unweighted_Rg_A": 3.6429751927931715
+    }
+  ],
+  "replicas": [
+    {
+      "seed": 20260928,
+      "requested": 24,
+      "returned_after_embedding_pruning": 6,
+      "unreturned_pruned_or_failed": 18,
+      "embedding_failure_event_counts": [
+        4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "converged": 6,
+      "nonconverged": 0,
+      "selected_minima": [
+        3,
+        0,
+        2,
+        5,
+        4,
+        1
+      ],
+      "deduplication": [
+        {
+          "conformer_id": 3,
+          "representative_id": 3,
+          "rmsd_to_representative_A": 0.0,
+          "selected": true
+        },
+        {
+          "conformer_id": 0,
+          "representative_id": 0,
+          "rmsd_to_representative_A": 0.0,
+          "selected": true
+        },
+        {
+          "conformer_id": 2,
+          "representative_id": 2,
+          "rmsd_to_representative_A": 0.0,
+          "selected": true
+        },
+        {
+          "conformer_id": 5,
+          "representative_id": 5,
+          "rmsd_to_representative_A": 0.0,
+          "selected": true
+        },
+        {
+          "conformer_id": 4,
+          "representative_id": 4,
+          "rmsd_to_representative_A": 0.0,
+          "selected": true
+        },
+        {
+          "conformer_id": 1,
+          "representative_id": 1,
+          "rmsd_to_representative_A": 0.0,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "seed": 20260929,
+      "requested": 24,
+      "returned_after_embedding_pruning": 6,
+      "unreturned_pruned_or_failed": 18,
+      "embedding_failure_event_counts": [
+        4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "converged": 6,
+      "nonconverged": 0,
+      "selected_minima": [
+        10,
+        8,
+        6,
+        7,
+        11
+      ],
+      "deduplication": [
+        {
+          "conformer_id": 10,
+          "representative_id": 10,
+          "rmsd_to_representative_A": 0.0,
+          "selected": true
+        },
+        {
+          "conformer_id": 8,
+          "representative_id": 8,
+          "rmsd_to_representative_A": 0.0,
+          "selected": true
+        },
+        {
+          "conformer_id": 6,
+          "representative_id": 6,
+          "rmsd_to_representative_A": 0.0,
+          "selected": true
+        },
+        {
+          "conformer_id": 7,
+          "representative_id": 7,
+          "rmsd_to_representative_A": 0.0,
+          "selected": true
+        },
+        {
+          "conformer_id": 11,
+          "representative_id": 11,
+          "rmsd_to_representative_A": 0.0,
+          "selected": true
+        },
+        {
+          "conformer_id": 9,
+          "representative_id": 11,
+          "rmsd_to_representative_A": 4.596463936255895e-06,
+          "selected": false
+        }
+      ]
+    },
+    {
+      "seed": 20260930,
+      "requested": 24,
+      "returned_after_embedding_pruning": 6,
+      "unreturned_pruned_or_failed": 18,
+      "embedding_failure_event_counts": [
+        4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "converged": 6,
+      "nonconverged": 0,
+      "selected_minima": [
+        16,
+        14,
+        17,
+        12,
+        13,
+        15
+      ],
+      "deduplication": [
+        {
+          "conformer_id": 16,
+          "representative_id": 16,
+          "rmsd_to_representative_A": 0.0,
+          "selected": true
+        },
+        {
+          "conformer_id": 14,
+          "representative_id": 14,
+          "rmsd_to_representative_A": 0.0,
+          "selected": true
+        },
+        {
+          "conformer_id": 17,
+          "representative_id": 17,
+          "rmsd_to_representative_A": 0.0,
+          "selected": true
+        },
+        {
+          "conformer_id": 12,
+          "representative_id": 12,
+          "rmsd_to_representative_A": 0.0,
+          "selected": true
+        },
+        {
+          "conformer_id": 13,
+          "representative_id": 13,
+          "rmsd_to_representative_A": 0.0,
+          "selected": true
+        },
+        {
+          "conformer_id": 15,
+          "representative_id": 15,
+          "rmsd_to_representative_A": 0.0,
+          "selected": true
+        }
+      ]
+    }
+  ],
+  "summaries": [
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "seed_20260928",
+      "status": "success",
+      "temperature_K": 250.0,
+      "unique_minima": 6,
+      "effective_minima_count": 3.3955696283701005,
+      "minimum_energy_kcal_mol": 25.606610941373855,
+      "energy_span_kcal_mol": 1.2741361541463938,
+      "weighted_sasa_A2": 404.68804695165596,
+      "within_minima_sd_sasa_A2": 2.04507780868022,
+      "weighted_mass_weighted_Rg_A": 3.0051432945049634,
+      "within_minima_sd_mass_weighted_Rg_A": 0.018281376448547312,
+      "weighted_unweighted_Rg_A": 3.6647616376059915,
+      "within_minima_sd_unweighted_Rg_A": 0.020843884554413647
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "seed_20260928",
+      "status": "success",
+      "temperature_K": 298.15,
+      "unique_minima": 6,
+      "effective_minima_count": 3.8547782348262327,
+      "minimum_energy_kcal_mol": 25.606610941373855,
+      "energy_span_kcal_mol": 1.2741361541463938,
+      "weighted_sasa_A2": 404.51628481801106,
+      "within_minima_sd_sasa_A2": 2.04645718410211,
+      "weighted_mass_weighted_Rg_A": 3.005734909780387,
+      "within_minima_sd_mass_weighted_Rg_A": 0.019255228513835928,
+      "weighted_unweighted_Rg_A": 3.6650491503169915,
+      "within_minima_sd_unweighted_Rg_A": 0.02177948075045594
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "seed_20260928",
+      "status": "success",
+      "temperature_K": 350.0,
+      "unique_minima": 6,
+      "effective_minima_count": 4.247110815158076,
+      "minimum_energy_kcal_mol": 25.606610941373855,
+      "energy_span_kcal_mol": 1.2741361541463938,
+      "weighted_sasa_A2": 404.38205814663706,
+      "within_minima_sd_sasa_A2": 2.0384982374726826,
+      "weighted_mass_weighted_Rg_A": 3.006312627391133,
+      "within_minima_sd_mass_weighted_Rg_A": 0.01993769907048479,
+      "weighted_unweighted_Rg_A": 3.6653847678580904,
+      "within_minima_sd_unweighted_Rg_A": 0.02242934128750534
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "seed_20260929",
+      "status": "success",
+      "temperature_K": 250.0,
+      "unique_minima": 5,
+      "effective_minima_count": 2.8614026529000185,
+      "minimum_energy_kcal_mol": 25.606610941904254,
+      "energy_span_kcal_mol": 1.2741361549524548,
+      "weighted_sasa_A2": 404.84173279396293,
+      "within_minima_sd_sasa_A2": 2.4721736592797976,
+      "weighted_mass_weighted_Rg_A": 3.000199387853105,
+      "within_minima_sd_mass_weighted_Rg_A": 0.010831787072752197,
+      "weighted_unweighted_Rg_A": 3.659425168351002,
+      "within_minima_sd_unweighted_Rg_A": 0.013661468316751618
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "seed_20260929",
+      "status": "success",
+      "temperature_K": 298.15,
+      "unique_minima": 5,
+      "effective_minima_count": 3.199035244860744,
+      "minimum_energy_kcal_mol": 25.606610941904254,
+      "energy_span_kcal_mol": 1.2741361549524548,
+      "weighted_sasa_A2": 404.6050547031399,
+      "within_minima_sd_sasa_A2": 2.4624381632636605,
+      "weighted_mass_weighted_Rg_A": 3.0000518702457706,
+      "within_minima_sd_mass_weighted_Rg_A": 0.011211935164035867,
+      "weighted_unweighted_Rg_A": 3.658871168866131,
+      "within_minima_sd_unweighted_Rg_A": 0.013758199738978013
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "seed_20260929",
+      "status": "success",
+      "temperature_K": 350.0,
+      "unique_minima": 5,
+      "effective_minima_count": 3.4959308528363233,
+      "minimum_energy_kcal_mol": 25.606610941904254,
+      "energy_span_kcal_mol": 1.2741361549524548,
+      "weighted_sasa_A2": 404.4174480932507,
+      "within_minima_sd_sasa_A2": 2.4372778082891897,
+      "weighted_mass_weighted_Rg_A": 3.000073194458869,
+      "within_minima_sd_mass_weighted_Rg_A": 0.011530564254943747,
+      "weighted_unweighted_Rg_A": 3.658561450568916,
+      "within_minima_sd_unweighted_Rg_A": 0.013804053108245872
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "seed_20260930",
+      "status": "success",
+      "temperature_K": 250.0,
+      "unique_minima": 6,
+      "effective_minima_count": 3.3955696588613753,
+      "minimum_energy_kcal_mol": 25.60661094979276,
+      "energy_span_kcal_mol": 1.274136148078366,
+      "weighted_sasa_A2": 404.78059932808117,
+      "within_minima_sd_sasa_A2": 2.3079137805246783,
+      "weighted_mass_weighted_Rg_A": 3.005143295813036,
+      "within_minima_sd_mass_weighted_Rg_A": 0.01828172302373676,
+      "weighted_unweighted_Rg_A": 3.6647616275462616,
+      "within_minima_sd_unweighted_Rg_A": 0.020844363239973983
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "seed_20260930",
+      "status": "success",
+      "temperature_K": 298.15,
+      "unique_minima": 6,
+      "effective_minima_count": 3.8547782607274073,
+      "minimum_energy_kcal_mol": 25.60661094979276,
+      "energy_span_kcal_mol": 1.274136148078366,
+      "weighted_sasa_A2": 404.5970207053317,
+      "within_minima_sd_sasa_A2": 2.2971230736085597,
+      "weighted_mass_weighted_Rg_A": 3.005734923472975,
+      "within_minima_sd_mass_weighted_Rg_A": 0.019255593681385533,
+      "weighted_unweighted_Rg_A": 3.6650491760000468,
+      "within_minima_sd_unweighted_Rg_A": 0.02177999500945596
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "seed_20260930",
+      "status": "success",
+      "temperature_K": 350.0,
+      "unique_minima": 6,
+      "effective_minima_count": 4.247110836372556,
+      "minimum_energy_kcal_mol": 25.60661094979276,
+      "energy_span_kcal_mol": 1.274136148078366,
+      "weighted_sasa_A2": 404.4559740991342,
+      "within_minima_sd_sasa_A2": 2.2771402929841695,
+      "weighted_mass_weighted_Rg_A": 3.0063126533179605,
+      "within_minima_sd_mass_weighted_Rg_A": 0.01993807734169989,
+      "weighted_unweighted_Rg_A": 3.6653848253389967,
+      "within_minima_sd_unweighted_Rg_A": 0.022429880849758263
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "pooled",
+      "status": "success",
+      "temperature_K": 250.0,
+      "unique_minima": 6,
+      "effective_minima_count": 3.395569635285369,
+      "minimum_energy_kcal_mol": 25.606610941373855,
+      "energy_span_kcal_mol": 1.2741361541463938,
+      "weighted_sasa_A2": 404.66371462110516,
+      "within_minima_sd_sasa_A2": 2.0727643326214737,
+      "weighted_mass_weighted_Rg_A": 3.005143267255818,
+      "within_minima_sd_mass_weighted_Rg_A": 0.018281402747248602,
+      "weighted_unweighted_Rg_A": 3.6647616387754276,
+      "within_minima_sd_unweighted_Rg_A": 0.020843883272755884
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "pooled",
+      "status": "success",
+      "temperature_K": 298.15,
+      "unique_minima": 6,
+      "effective_minima_count": 3.8547782396621963,
+      "minimum_energy_kcal_mol": 25.606610941373855,
+      "energy_span_kcal_mol": 1.2741361541463938,
+      "weighted_sasa_A2": 404.49115394226453,
+      "within_minima_sd_sasa_A2": 2.0729409504884595,
+      "weighted_mass_weighted_Rg_A": 3.005734881643601,
+      "within_minima_sd_mass_weighted_Rg_A": 0.01925525516438022,
+      "weighted_unweighted_Rg_A": 3.6650491515340216,
+      "within_minima_sd_unweighted_Rg_A": 0.02177947946495248
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "pooled",
+      "status": "success",
+      "temperature_K": 350.0,
+      "unique_minima": 6,
+      "effective_minima_count": 4.247110818274572,
+      "minimum_energy_kcal_mol": 25.606610941373855,
+      "energy_span_kcal_mol": 1.2741361541463938,
+      "weighted_sasa_A2": 404.3565805658115,
+      "within_minima_sd_sasa_A2": 2.063789953955063,
+      "weighted_mass_weighted_Rg_A": 3.0063125988714647,
+      "within_minima_sd_mass_weighted_Rg_A": 0.019937725989198636,
+      "weighted_unweighted_Rg_A": 3.665384769099044,
+      "within_minima_sd_unweighted_Rg_A": 0.02242934000204695
+    }
+  ],
+  "weights": [
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "seed_20260928",
+      "conformer_id": 3,
+      "temperature_K": 250.0,
+      "relative_energy_kcal_mol": 0.0,
+      "forcefield_minima_weight": 0.46328754471887007
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "seed_20260928",
+      "conformer_id": 0,
+      "temperature_K": 250.0,
+      "relative_energy_kcal_mol": 0.45780538074314236,
+      "forcefield_minima_weight": 0.1843509849887571
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "seed_20260928",
+      "conformer_id": 2,
+      "temperature_K": 250.0,
+      "relative_energy_kcal_mol": 0.45780538895042255,
+      "forcefield_minima_weight": 0.18435098194323185
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "seed_20260928",
+      "conformer_id": 5,
+      "temperature_K": 250.0,
+      "relative_energy_kcal_mol": 0.7782714415193155,
+      "forcefield_minima_weight": 0.09671633776381144
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "seed_20260928",
+      "conformer_id": 4,
+      "temperature_K": 250.0,
+      "relative_energy_kcal_mol": 1.274136153940855,
+      "forcefield_minima_weight": 0.035647075300038855
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "seed_20260928",
+      "conformer_id": 1,
+      "temperature_K": 250.0,
+      "relative_energy_kcal_mol": 1.2741361541463938,
+      "forcefield_minima_weight": 0.0356470752852908
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "seed_20260928",
+      "conformer_id": 3,
+      "temperature_K": 298.15,
+      "relative_energy_kcal_mol": 0.0,
+      "forcefield_minima_weight": 0.4123282350910279
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "seed_20260928",
+      "conformer_id": 0,
+      "temperature_K": 298.15,
+      "relative_energy_kcal_mol": 0.45780538074314236,
+      "forcefield_minima_weight": 0.19040107773845535
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "seed_20260928",
+      "conformer_id": 2,
+      "temperature_K": 298.15,
+      "relative_energy_kcal_mol": 0.45780538895042255,
+      "forcefield_minima_weight": 0.19040107510096224
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "seed_20260928",
+      "conformer_id": 5,
+      "temperature_K": 298.15,
+      "relative_energy_kcal_mol": 0.7782714415193155,
+      "forcefield_minima_weight": 0.11085777294463671
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "seed_20260928",
+      "conformer_id": 4,
+      "temperature_K": 298.15,
+      "relative_energy_kcal_mol": 1.274136153940855,
+      "forcefield_minima_weight": 0.0480059195707857
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "seed_20260928",
+      "conformer_id": 1,
+      "temperature_K": 298.15,
+      "relative_energy_kcal_mol": 1.2741361541463938,
+      "forcefield_minima_weight": 0.048005919554131984
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "seed_20260928",
+      "conformer_id": 3,
+      "temperature_K": 350.0,
+      "relative_energy_kcal_mol": 0.0,
+      "forcefield_minima_weight": 0.37280421571109074
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "seed_20260928",
+      "conformer_id": 0,
+      "temperature_K": 350.0,
+      "relative_energy_kcal_mol": 0.45780538074314236,
+      "forcefield_minima_weight": 0.1930278549964743
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "seed_20260928",
+      "conformer_id": 2,
+      "temperature_K": 350.0,
+      "relative_energy_kcal_mol": 0.45780538895042255,
+      "forcefield_minima_weight": 0.1930278527187105
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "seed_20260928",
+      "conformer_id": 5,
+      "temperature_K": 350.0,
+      "relative_energy_kcal_mol": 0.7782714415193155,
+      "forcefield_minima_weight": 0.12176317699239009
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "seed_20260928",
+      "conformer_id": 4,
+      "temperature_K": 350.0,
+      "relative_energy_kcal_mol": 1.274136153940855,
+      "forcefield_minima_weight": 0.05968844979948661
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "seed_20260928",
+      "conformer_id": 1,
+      "temperature_K": 350.0,
+      "relative_energy_kcal_mol": 1.2741361541463938,
+      "forcefield_minima_weight": 0.05968844978184763
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "seed_20260929",
+      "conformer_id": 10,
+      "temperature_K": 250.0,
+      "relative_energy_kcal_mol": 0.0,
+      "forcefield_minima_weight": 0.5128926416405549
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "seed_20260929",
+      "conformer_id": 8,
+      "temperature_K": 250.0,
+      "relative_energy_kcal_mol": 0.45780538108325786,
+      "forcefield_minima_weight": 0.2040898027434909
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "seed_20260929",
+      "conformer_id": 6,
+      "temperature_K": 250.0,
+      "relative_energy_kcal_mol": 0.4578053828447608,
+      "forcefield_minima_weight": 0.20408980201985152
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "seed_20260929",
+      "conformer_id": 7,
+      "temperature_K": 250.0,
+      "relative_energy_kcal_mol": 1.2741361545889376,
+      "forcefield_minima_weight": 0.03946387681248942
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "seed_20260929",
+      "conformer_id": 11,
+      "temperature_K": 250.0,
+      "relative_energy_kcal_mol": 1.2741361549524548,
+      "forcefield_minima_weight": 0.03946387678361308
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "seed_20260929",
+      "conformer_id": 10,
+      "temperature_K": 298.15,
+      "relative_energy_kcal_mol": 0.0,
+      "forcefield_minima_weight": 0.46373709597842794
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "seed_20260929",
+      "conformer_id": 8,
+      "temperature_K": 298.15,
+      "relative_energy_kcal_mol": 0.45780538108325786,
+      "forcefield_minima_weight": 0.21414018079895789
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "seed_20260929",
+      "conformer_id": 6,
+      "temperature_K": 298.15,
+      "relative_energy_kcal_mol": 0.4578053828447608,
+      "forcefield_minima_weight": 0.2141401801623028
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "seed_20260929",
+      "conformer_id": 7,
+      "temperature_K": 298.15,
+      "relative_energy_kcal_mol": 1.2741361545889376,
+      "forcefield_minima_weight": 0.05399127154671876
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "seed_20260929",
+      "conformer_id": 11,
+      "temperature_K": 298.15,
+      "relative_energy_kcal_mol": 1.2741361549524548,
+      "forcefield_minima_weight": 0.053991271513592606
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "seed_20260929",
+      "conformer_id": 10,
+      "temperature_K": 350.0,
+      "relative_energy_kcal_mol": 0.0,
+      "forcefield_minima_weight": 0.424491669351924
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "seed_20260929",
+      "conformer_id": 8,
+      "temperature_K": 350.0,
+      "relative_energy_kcal_mol": 0.45780538108325786,
+      "forcefield_minima_weight": 0.21979020865554066
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "seed_20260929",
+      "conformer_id": 6,
+      "temperature_K": 350.0,
+      "relative_energy_kcal_mol": 0.4578053828447608,
+      "forcefield_minima_weight": 0.219790208098892
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "seed_20260929",
+      "conformer_id": 7,
+      "temperature_K": 350.0,
+      "relative_energy_kcal_mol": 1.2741361545889376,
+      "forcefield_minima_weight": 0.06796395696458249
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "seed_20260929",
+      "conformer_id": 11,
+      "temperature_K": 350.0,
+      "relative_energy_kcal_mol": 1.2741361549524548,
+      "forcefield_minima_weight": 0.06796395692906085
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "seed_20260930",
+      "conformer_id": 16,
+      "temperature_K": 250.0,
+      "relative_energy_kcal_mol": 0.0,
+      "forcefield_minima_weight": 0.46328754035133685
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "seed_20260930",
+      "conformer_id": 14,
+      "temperature_K": 250.0,
+      "relative_energy_kcal_mol": 0.4578053749008255,
+      "forcefield_minima_weight": 0.18435098541877593
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "seed_20260930",
+      "conformer_id": 17,
+      "temperature_K": 250.0,
+      "relative_energy_kcal_mol": 0.45780537618443873,
+      "forcefield_minima_weight": 0.1843509849424578
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "seed_20260930",
+      "conformer_id": 12,
+      "temperature_K": 250.0,
+      "relative_energy_kcal_mol": 0.7782714338480545,
+      "forcefield_minima_weight": 0.09671633834546844
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "seed_20260930",
+      "conformer_id": 13,
+      "temperature_K": 250.0,
+      "relative_energy_kcal_mol": 1.2741361456716866,
+      "forcefield_minima_weight": 0.035647075557323986
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "seed_20260930",
+      "conformer_id": 15,
+      "temperature_K": 250.0,
+      "relative_energy_kcal_mol": 1.274136148078366,
+      "forcefield_minima_weight": 0.03564707538463699
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "seed_20260930",
+      "conformer_id": 16,
+      "temperature_K": 298.15,
+      "relative_energy_kcal_mol": 0.0,
+      "forcefield_minima_weight": 0.41232823155449827
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "seed_20260930",
+      "conformer_id": 14,
+      "temperature_K": 298.15,
+      "relative_energy_kcal_mol": 0.4578053749008255,
+      "forcefield_minima_weight": 0.19040107798287784
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "seed_20260930",
+      "conformer_id": 17,
+      "temperature_K": 298.15,
+      "relative_energy_kcal_mol": 0.45780537618443873,
+      "forcefield_minima_weight": 0.19040107757037564
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "seed_20260930",
+      "conformer_id": 12,
+      "temperature_K": 298.15,
+      "relative_energy_kcal_mol": 0.7782714338480545,
+      "forcefield_minima_weight": 0.1108577734291548
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "seed_20260930",
+      "conformer_id": 13,
+      "temperature_K": 298.15,
+      "relative_energy_kcal_mol": 1.2741361456716866,
+      "forcefield_minima_weight": 0.048005919829047
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "seed_20260930",
+      "conformer_id": 15,
+      "temperature_K": 298.15,
+      "relative_energy_kcal_mol": 1.274136148078366,
+      "forcefield_minima_weight": 0.0480059196340465
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "seed_20260930",
+      "conformer_id": 16,
+      "temperature_K": 350.0,
+      "relative_energy_kcal_mol": 0.0,
+      "forcefield_minima_weight": 0.3728042128264298
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "seed_20260930",
+      "conformer_id": 14,
+      "temperature_K": 350.0,
+      "relative_energy_kcal_mol": 0.4578053749008255,
+      "forcefield_minima_weight": 0.19302785512429183
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "seed_20260930",
+      "conformer_id": 17,
+      "temperature_K": 350.0,
+      "relative_energy_kcal_mol": 0.45780537618443873,
+      "forcefield_minima_weight": 0.19302785476805107
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "seed_20260930",
+      "conformer_id": 12,
+      "temperature_K": 350.0,
+      "relative_energy_kcal_mol": 0.7782714338480545,
+      "forcefield_minima_weight": 0.12176317739320676
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "seed_20260930",
+      "conformer_id": 13,
+      "temperature_K": 350.0,
+      "relative_energy_kcal_mol": 1.2741361456716866,
+      "forcefield_minima_weight": 0.05968845004727881
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "seed_20260930",
+      "conformer_id": 15,
+      "temperature_K": 350.0,
+      "relative_energy_kcal_mol": 1.274136148078366,
+      "forcefield_minima_weight": 0.05968844984074175
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "pooled",
+      "conformer_id": 3,
+      "temperature_K": 250.0,
+      "relative_energy_kcal_mol": 0.0,
+      "forcefield_minima_weight": 0.46328754345757056
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "pooled",
+      "conformer_id": 0,
+      "temperature_K": 250.0,
+      "relative_energy_kcal_mol": 0.45780538074314236,
+      "forcefield_minima_weight": 0.18435098448686185
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "pooled",
+      "conformer_id": 8,
+      "temperature_K": 250.0,
+      "relative_energy_kcal_mol": 0.4578053816136567,
+      "forcefield_minima_weight": 0.1843509841638348
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "pooled",
+      "conformer_id": 5,
+      "temperature_K": 250.0,
+      "relative_energy_kcal_mol": 0.7782714415193155,
+      "forcefield_minima_weight": 0.09671633750050139
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "pooled",
+      "conformer_id": 4,
+      "temperature_K": 250.0,
+      "relative_energy_kcal_mol": 1.274136153940855,
+      "forcefield_minima_weight": 0.03564707520298976
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "pooled",
+      "conformer_id": 1,
+      "temperature_K": 250.0,
+      "relative_energy_kcal_mol": 1.2741361541463938,
+      "forcefield_minima_weight": 0.0356470751882417
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "pooled",
+      "conformer_id": 3,
+      "temperature_K": 298.15,
+      "relative_energy_kcal_mol": 0.0,
+      "forcefield_minima_weight": 0.41232823411886327
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "pooled",
+      "conformer_id": 0,
+      "temperature_K": 298.15,
+      "relative_energy_kcal_mol": 0.45780538074314236,
+      "forcefield_minima_weight": 0.19040107728953826
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "pooled",
+      "conformer_id": 8,
+      "temperature_K": 298.15,
+      "relative_energy_kcal_mol": 0.4578053816136567,
+      "forcefield_minima_weight": 0.1904010770097896
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "pooled",
+      "conformer_id": 5,
+      "temperature_K": 298.15,
+      "relative_energy_kcal_mol": 0.7782714415193155,
+      "forcefield_minima_weight": 0.11085777268326238
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "pooled",
+      "conformer_id": 4,
+      "temperature_K": 298.15,
+      "relative_energy_kcal_mol": 1.274136153940855,
+      "forcefield_minima_weight": 0.048005919457599994
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "pooled",
+      "conformer_id": 1,
+      "temperature_K": 298.15,
+      "relative_energy_kcal_mol": 1.2741361541463938,
+      "forcefield_minima_weight": 0.04800591944094628
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "pooled",
+      "conformer_id": 3,
+      "temperature_K": 350.0,
+      "relative_energy_kcal_mol": 0.0,
+      "forcefield_minima_weight": 0.37280421495199795
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "pooled",
+      "conformer_id": 0,
+      "temperature_K": 350.0,
+      "relative_energy_kcal_mol": 0.45780538074314236,
+      "forcefield_minima_weight": 0.19302785460343674
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "pooled",
+      "conformer_id": 8,
+      "temperature_K": 350.0,
+      "relative_energy_kcal_mol": 0.4578053816136567,
+      "forcefield_minima_weight": 0.1930278543618432
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "pooled",
+      "conformer_id": 5,
+      "temperature_K": 350.0,
+      "relative_energy_kcal_mol": 0.7782714415193155,
+      "forcefield_minima_weight": 0.12176317674445954
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "pooled",
+      "conformer_id": 4,
+      "temperature_K": 350.0,
+      "relative_energy_kcal_mol": 1.274136153940855,
+      "forcefield_minima_weight": 0.059688449677950776
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "scope": "pooled",
+      "conformer_id": 1,
+      "temperature_K": 350.0,
+      "relative_energy_kcal_mol": 1.2741361541463938,
+      "forcefield_minima_weight": 0.059688449660311796
+    }
+  ],
+  "surface_quadrature": [
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 0,
+      "sasa_A2": 400.32824836391234
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 1,
+      "sasa_A2": 405.09026164203505
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 2,
+      "sasa_A2": 403.5725975034391
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 3,
+      "sasa_A2": 405.94805752984587
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 4,
+      "sasa_A2": 403.9784651906052
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 5,
+      "sasa_A2": 402.6249186530636
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 6,
+      "sasa_A2": 401.75841704615976
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 7,
+      "sasa_A2": 403.1128236867496
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 8,
+      "sasa_A2": 402.84052420366186
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 9,
+      "sasa_A2": 401.1180985513829
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 10,
+      "sasa_A2": 403.64976717882394
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 11,
+      "sasa_A2": 402.88805823735896
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 12,
+      "sasa_A2": 402.1158766987732
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 13,
+      "sasa_A2": 401.6973439546313
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 14,
+      "sasa_A2": 401.7710158260279
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 15,
+      "sasa_A2": 402.7428087221567
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 16,
+      "sasa_A2": 402.7601662740298
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 17,
+      "sasa_A2": 403.004771143251
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 18,
+      "sasa_A2": 402.4941335386469
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 19,
+      "sasa_A2": 402.4770084185164
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 20,
+      "sasa_A2": 400.71881517167515
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 21,
+      "sasa_A2": 399.6085518301375
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 22,
+      "sasa_A2": 404.0837544010749
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 0,
+      "orientation_index": 23,
+      "sasa_A2": 398.71105535795533
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 1,
+      "orientation_index": 0,
+      "sasa_A2": 401.9008668189832
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 1,
+      "orientation_index": 1,
+      "sasa_A2": 402.83209262061183
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 1,
+      "orientation_index": 2,
+      "sasa_A2": 401.1587577042709
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 1,
+      "orientation_index": 3,
+      "sasa_A2": 403.40198348398206
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 1,
+      "orientation_index": 4,
+      "sasa_A2": 405.29414075676476
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 1,
+      "orientation_index": 5,
+      "sasa_A2": 402.88605196400084
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 1,
+      "orientation_index": 6,
+      "sasa_A2": 402.7327892254873
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 1,
+      "orientation_index": 7,
+      "sasa_A2": 401.0156031672099
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 1,
+      "orientation_index": 8,
+      "sasa_A2": 400.95387141114753
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 1,
+      "orientation_index": 9,
+      "sasa_A2": 403.52949960554554
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 1,
+      "orientation_index": 10,
+      "sasa_A2": 400.1184678993554
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 1,
+      "orientation_index": 11,
+      "sasa_A2": 400.1349154999471
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 1,
+      "orientation_index": 12,
+      "sasa_A2": 402.14816931158816
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 1,
+      "orientation_index": 13,
+      "sasa_A2": 401.7329393306321
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 1,
+      "orientation_index": 14,
+      "sasa_A2": 402.9599716014311
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 1,
+      "orientation_index": 15,
+      "sasa_A2": 401.2550017765863
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 1,
+      "orientation_index": 16,
+      "sasa_A2": 401.3940467306394
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 1,
+      "orientation_index": 17,
+      "sasa_A2": 402.79356225882003
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 1,
+      "orientation_index": 18,
+      "sasa_A2": 400.76349617626556
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 1,
+      "orientation_index": 19,
+      "sasa_A2": 401.31685453080104
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 1,
+      "orientation_index": 20,
+      "sasa_A2": 402.3291002926143
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 1,
+      "orientation_index": 21,
+      "sasa_A2": 401.4836513774353
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 1,
+      "orientation_index": 22,
+      "sasa_A2": 402.4092788895015
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 1,
+      "orientation_index": 23,
+      "sasa_A2": 400.2327756590931
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 2,
+      "orientation_index": 0,
+      "sasa_A2": 401.8293118998388
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 2,
+      "orientation_index": 1,
+      "sasa_A2": 402.86661191600973
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 2,
+      "orientation_index": 2,
+      "sasa_A2": 403.2475100936682
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 2,
+      "orientation_index": 3,
+      "sasa_A2": 403.67035843874294
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 2,
+      "orientation_index": 4,
+      "sasa_A2": 402.5236845483318
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 2,
+      "orientation_index": 5,
+      "sasa_A2": 400.21490597555555
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 2,
+      "orientation_index": 6,
+      "sasa_A2": 402.90808358587924
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 2,
+      "orientation_index": 7,
+      "sasa_A2": 403.2943144022612
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 2,
+      "orientation_index": 8,
+      "sasa_A2": 400.66534158136324
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 2,
+      "orientation_index": 9,
+      "sasa_A2": 403.5590488242021
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 2,
+      "orientation_index": 10,
+      "sasa_A2": 402.08703001174064
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 2,
+      "orientation_index": 11,
+      "sasa_A2": 403.24132006484643
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 2,
+      "orientation_index": 12,
+      "sasa_A2": 399.3048728995392
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 2,
+      "orientation_index": 13,
+      "sasa_A2": 402.7503269071818
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 2,
+      "orientation_index": 14,
+      "sasa_A2": 402.08550372375987
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 2,
+      "orientation_index": 15,
+      "sasa_A2": 402.3962500237965
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 2,
+      "orientation_index": 16,
+      "sasa_A2": 404.98223828526403
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 2,
+      "orientation_index": 17,
+      "sasa_A2": 401.4039323795382
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 2,
+      "orientation_index": 18,
+      "sasa_A2": 401.84080856475765
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 2,
+      "orientation_index": 19,
+      "sasa_A2": 403.44019846176775
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 2,
+      "orientation_index": 20,
+      "sasa_A2": 402.58186872452376
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 2,
+      "orientation_index": 21,
+      "sasa_A2": 403.64270829807356
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 2,
+      "orientation_index": 22,
+      "sasa_A2": 402.9495458029323
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 2,
+      "orientation_index": 23,
+      "sasa_A2": 400.09341700604074
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 3,
+      "orientation_index": 0,
+      "sasa_A2": 405.5215277751853
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 3,
+      "orientation_index": 1,
+      "sasa_A2": 409.39660767313336
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 3,
+      "orientation_index": 2,
+      "sasa_A2": 403.24530064412187
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 3,
+      "orientation_index": 3,
+      "sasa_A2": 405.59402087138744
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 3,
+      "orientation_index": 4,
+      "sasa_A2": 403.392930322687
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 3,
+      "orientation_index": 5,
+      "sasa_A2": 406.6945184030105
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 3,
+      "orientation_index": 6,
+      "sasa_A2": 407.2304779398222
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 3,
+      "orientation_index": 7,
+      "sasa_A2": 401.80225814022293
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 3,
+      "orientation_index": 8,
+      "sasa_A2": 407.72484871782837
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 3,
+      "orientation_index": 9,
+      "sasa_A2": 410.2926911091455
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 3,
+      "orientation_index": 10,
+      "sasa_A2": 406.63275310289407
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 3,
+      "orientation_index": 11,
+      "sasa_A2": 405.6255042444229
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 3,
+      "orientation_index": 12,
+      "sasa_A2": 406.53572241527553
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 3,
+      "orientation_index": 13,
+      "sasa_A2": 407.95663919407303
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 3,
+      "orientation_index": 14,
+      "sasa_A2": 408.49433079673247
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 3,
+      "orientation_index": 15,
+      "sasa_A2": 406.65670127415285
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 3,
+      "orientation_index": 16,
+      "sasa_A2": 408.23812600570324
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 3,
+      "orientation_index": 17,
+      "sasa_A2": 405.72876950642654
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 3,
+      "orientation_index": 18,
+      "sasa_A2": 407.5513494566876
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 3,
+      "orientation_index": 19,
+      "sasa_A2": 407.62899032563786
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 3,
+      "orientation_index": 20,
+      "sasa_A2": 406.92542213731986
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 3,
+      "orientation_index": 21,
+      "sasa_A2": 406.92844650872973
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 3,
+      "orientation_index": 22,
+      "sasa_A2": 406.8116589638005
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 3,
+      "orientation_index": 23,
+      "sasa_A2": 406.64086944977277
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 4,
+      "orientation_index": 0,
+      "sasa_A2": 403.55621819877206
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 4,
+      "orientation_index": 1,
+      "sasa_A2": 402.5260486652651
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 4,
+      "orientation_index": 2,
+      "sasa_A2": 403.8863696814123
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 4,
+      "orientation_index": 3,
+      "sasa_A2": 402.63402308278773
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 4,
+      "orientation_index": 4,
+      "sasa_A2": 403.8316223304898
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 4,
+      "orientation_index": 5,
+      "sasa_A2": 403.61153937846456
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 4,
+      "orientation_index": 6,
+      "sasa_A2": 399.2591378900815
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 4,
+      "orientation_index": 7,
+      "sasa_A2": 404.2909184961545
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 4,
+      "orientation_index": 8,
+      "sasa_A2": 401.6265842502325
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 4,
+      "orientation_index": 9,
+      "sasa_A2": 403.4112185955451
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 4,
+      "orientation_index": 10,
+      "sasa_A2": 402.6832877944154
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 4,
+      "orientation_index": 11,
+      "sasa_A2": 400.7733198008307
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 4,
+      "orientation_index": 12,
+      "sasa_A2": 398.33263467920096
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 4,
+      "orientation_index": 13,
+      "sasa_A2": 401.4847201855441
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 4,
+      "orientation_index": 14,
+      "sasa_A2": 406.38431997749547
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 4,
+      "orientation_index": 15,
+      "sasa_A2": 405.1507883485022
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 4,
+      "orientation_index": 16,
+      "sasa_A2": 404.1617756361083
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 4,
+      "orientation_index": 17,
+      "sasa_A2": 405.2969826776274
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 4,
+      "orientation_index": 18,
+      "sasa_A2": 396.520989224027
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 4,
+      "orientation_index": 19,
+      "sasa_A2": 401.9039838336805
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 4,
+      "orientation_index": 20,
+      "sasa_A2": 402.5585303024459
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 4,
+      "orientation_index": 21,
+      "sasa_A2": 401.86692297986724
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 4,
+      "orientation_index": 22,
+      "sasa_A2": 401.7136404311353
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 4,
+      "orientation_index": 23,
+      "sasa_A2": 403.289865504359
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 5,
+      "orientation_index": 0,
+      "sasa_A2": 405.74012718313173
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 5,
+      "orientation_index": 1,
+      "sasa_A2": 406.8507839284945
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 5,
+      "orientation_index": 2,
+      "sasa_A2": 399.0356964655425
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 5,
+      "orientation_index": 3,
+      "sasa_A2": 406.1736610751904
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 5,
+      "orientation_index": 4,
+      "sasa_A2": 405.0118921346081
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 5,
+      "orientation_index": 5,
+      "sasa_A2": 405.3130367877864
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 5,
+      "orientation_index": 6,
+      "sasa_A2": 404.7858468944947
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 5,
+      "orientation_index": 7,
+      "sasa_A2": 406.3611711324769
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 5,
+      "orientation_index": 8,
+      "sasa_A2": 407.5432739243371
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 5,
+      "orientation_index": 9,
+      "sasa_A2": 406.83167289926564
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 5,
+      "orientation_index": 10,
+      "sasa_A2": 404.7316989102734
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 5,
+      "orientation_index": 11,
+      "sasa_A2": 406.53098260260884
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 5,
+      "orientation_index": 12,
+      "sasa_A2": 409.1238007640288
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 5,
+      "orientation_index": 13,
+      "sasa_A2": 407.2340774904474
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 5,
+      "orientation_index": 14,
+      "sasa_A2": 406.94389559783565
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 5,
+      "orientation_index": 15,
+      "sasa_A2": 403.4809449609122
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 5,
+      "orientation_index": 16,
+      "sasa_A2": 404.6528367638679
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 5,
+      "orientation_index": 17,
+      "sasa_A2": 405.72506487063566
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 5,
+      "orientation_index": 18,
+      "sasa_A2": 405.10535852329116
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 5,
+      "orientation_index": 19,
+      "sasa_A2": 405.7432855098196
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 5,
+      "orientation_index": 20,
+      "sasa_A2": 406.053912140929
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 5,
+      "orientation_index": 21,
+      "sasa_A2": 406.5628305640561
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 5,
+      "orientation_index": 22,
+      "sasa_A2": 406.6144813279362
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260928,
+      "conformer_id": 5,
+      "orientation_index": 23,
+      "sasa_A2": 406.31665269146004
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 6,
+      "orientation_index": 0,
+      "sasa_A2": 400.3457450312193
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 6,
+      "orientation_index": 1,
+      "sasa_A2": 401.46273444018453
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 6,
+      "orientation_index": 2,
+      "sasa_A2": 403.23502830776874
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 6,
+      "orientation_index": 3,
+      "sasa_A2": 396.678064898801
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 6,
+      "orientation_index": 4,
+      "sasa_A2": 402.76138853777167
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 6,
+      "orientation_index": 5,
+      "sasa_A2": 403.01807660245714
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 6,
+      "orientation_index": 6,
+      "sasa_A2": 402.03795216266974
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 6,
+      "orientation_index": 7,
+      "sasa_A2": 403.83325388515016
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 6,
+      "orientation_index": 8,
+      "sasa_A2": 405.19301635608855
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 6,
+      "orientation_index": 9,
+      "sasa_A2": 402.1677767008416
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 6,
+      "orientation_index": 10,
+      "sasa_A2": 401.97036797562924
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 6,
+      "orientation_index": 11,
+      "sasa_A2": 406.1773743995137
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 6,
+      "orientation_index": 12,
+      "sasa_A2": 403.460213397839
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 6,
+      "orientation_index": 13,
+      "sasa_A2": 403.0863933289295
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 6,
+      "orientation_index": 14,
+      "sasa_A2": 405.2971650629398
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 6,
+      "orientation_index": 15,
+      "sasa_A2": 402.95551258013745
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 6,
+      "orientation_index": 16,
+      "sasa_A2": 402.5530878955121
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 6,
+      "orientation_index": 17,
+      "sasa_A2": 402.74746127014134
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 6,
+      "orientation_index": 18,
+      "sasa_A2": 402.5084611809018
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 6,
+      "orientation_index": 19,
+      "sasa_A2": 401.257455526643
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 6,
+      "orientation_index": 20,
+      "sasa_A2": 403.31968344920926
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 6,
+      "orientation_index": 21,
+      "sasa_A2": 400.3985364701787
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 6,
+      "orientation_index": 22,
+      "sasa_A2": 401.6464627359771
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 6,
+      "orientation_index": 23,
+      "sasa_A2": 396.1082754868847
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 7,
+      "orientation_index": 0,
+      "sasa_A2": 404.48849363242994
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 7,
+      "orientation_index": 1,
+      "sasa_A2": 402.7060750166018
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 7,
+      "orientation_index": 2,
+      "sasa_A2": 401.8884557944176
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 7,
+      "orientation_index": 3,
+      "sasa_A2": 406.0373849046187
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 7,
+      "orientation_index": 4,
+      "sasa_A2": 400.853017220912
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 7,
+      "orientation_index": 5,
+      "sasa_A2": 402.47669914854373
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 7,
+      "orientation_index": 6,
+      "sasa_A2": 403.59840824254667
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 7,
+      "orientation_index": 7,
+      "sasa_A2": 400.5031930779587
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 7,
+      "orientation_index": 8,
+      "sasa_A2": 402.8511248419682
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 7,
+      "orientation_index": 9,
+      "sasa_A2": 401.27744164387104
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 7,
+      "orientation_index": 10,
+      "sasa_A2": 401.0701820956851
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 7,
+      "orientation_index": 11,
+      "sasa_A2": 401.8512055669772
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 7,
+      "orientation_index": 12,
+      "sasa_A2": 403.9170575495789
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 7,
+      "orientation_index": 13,
+      "sasa_A2": 401.64223760964495
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 7,
+      "orientation_index": 14,
+      "sasa_A2": 401.68115770369064
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 7,
+      "orientation_index": 15,
+      "sasa_A2": 401.25288211844475
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 7,
+      "orientation_index": 16,
+      "sasa_A2": 403.52672452815995
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 7,
+      "orientation_index": 17,
+      "sasa_A2": 406.8660924374572
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 7,
+      "orientation_index": 18,
+      "sasa_A2": 406.99549174142317
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 7,
+      "orientation_index": 19,
+      "sasa_A2": 403.47486393691645
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 7,
+      "orientation_index": 20,
+      "sasa_A2": 402.86026975292134
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 7,
+      "orientation_index": 21,
+      "sasa_A2": 401.5571645965844
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 7,
+      "orientation_index": 22,
+      "sasa_A2": 403.95629853576384
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 7,
+      "orientation_index": 23,
+      "sasa_A2": 404.61544002465405
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 8,
+      "orientation_index": 0,
+      "sasa_A2": 403.8256106591397
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 8,
+      "orientation_index": 1,
+      "sasa_A2": 400.8187523504722
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 8,
+      "orientation_index": 2,
+      "sasa_A2": 403.3617304759215
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 8,
+      "orientation_index": 3,
+      "sasa_A2": 401.4897017989674
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 8,
+      "orientation_index": 4,
+      "sasa_A2": 403.2418149926582
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 8,
+      "orientation_index": 5,
+      "sasa_A2": 402.97858234299093
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 8,
+      "orientation_index": 6,
+      "sasa_A2": 403.92183952971806
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 8,
+      "orientation_index": 7,
+      "sasa_A2": 404.1511293938166
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 8,
+      "orientation_index": 8,
+      "sasa_A2": 401.9902834636899
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 8,
+      "orientation_index": 9,
+      "sasa_A2": 401.9481339699855
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 8,
+      "orientation_index": 10,
+      "sasa_A2": 402.34144992758894
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 8,
+      "orientation_index": 11,
+      "sasa_A2": 404.10245348823184
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 8,
+      "orientation_index": 12,
+      "sasa_A2": 402.4682262607019
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 8,
+      "orientation_index": 13,
+      "sasa_A2": 405.2511235236899
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 8,
+      "orientation_index": 14,
+      "sasa_A2": 401.1461277696986
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 8,
+      "orientation_index": 15,
+      "sasa_A2": 402.8196314197011
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 8,
+      "orientation_index": 16,
+      "sasa_A2": 402.86094533249576
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 8,
+      "orientation_index": 17,
+      "sasa_A2": 402.8244540656813
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 8,
+      "orientation_index": 18,
+      "sasa_A2": 402.47027269476905
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 8,
+      "orientation_index": 19,
+      "sasa_A2": 403.80225070578246
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 8,
+      "orientation_index": 20,
+      "sasa_A2": 390.4258089094054
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 8,
+      "orientation_index": 21,
+      "sasa_A2": 400.03827246199796
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 8,
+      "orientation_index": 22,
+      "sasa_A2": 403.06519822778966
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 8,
+      "orientation_index": 23,
+      "sasa_A2": 403.0676597554067
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 9,
+      "orientation_index": 0,
+      "sasa_A2": 402.30153434472714
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 9,
+      "orientation_index": 1,
+      "sasa_A2": 404.25633539367
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 9,
+      "orientation_index": 2,
+      "sasa_A2": 405.22583865495085
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 9,
+      "orientation_index": 3,
+      "sasa_A2": 399.80588883871894
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 9,
+      "orientation_index": 4,
+      "sasa_A2": 404.41750587063837
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 9,
+      "orientation_index": 5,
+      "sasa_A2": 399.1981545516817
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 9,
+      "orientation_index": 6,
+      "sasa_A2": 400.97093139153384
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 9,
+      "orientation_index": 7,
+      "sasa_A2": 400.5304079362235
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 9,
+      "orientation_index": 8,
+      "sasa_A2": 404.10950227674266
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 9,
+      "orientation_index": 9,
+      "sasa_A2": 402.4851267668841
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 9,
+      "orientation_index": 10,
+      "sasa_A2": 402.3781329768139
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 9,
+      "orientation_index": 11,
+      "sasa_A2": 403.6541956792289
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 9,
+      "orientation_index": 12,
+      "sasa_A2": 401.79147289821384
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 9,
+      "orientation_index": 13,
+      "sasa_A2": 400.3990905686413
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 9,
+      "orientation_index": 14,
+      "sasa_A2": 400.7232988139749
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 9,
+      "orientation_index": 15,
+      "sasa_A2": 405.2963060831451
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 9,
+      "orientation_index": 16,
+      "sasa_A2": 402.9660746954348
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 9,
+      "orientation_index": 17,
+      "sasa_A2": 402.707149368354
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 9,
+      "orientation_index": 18,
+      "sasa_A2": 400.88358434129947
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 9,
+      "orientation_index": 19,
+      "sasa_A2": 401.62614595877466
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 9,
+      "orientation_index": 20,
+      "sasa_A2": 400.75088752218403
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 9,
+      "orientation_index": 21,
+      "sasa_A2": 401.11056443754813
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 9,
+      "orientation_index": 22,
+      "sasa_A2": 402.95149899437615
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 9,
+      "orientation_index": 23,
+      "sasa_A2": 398.6653691341337
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 10,
+      "orientation_index": 0,
+      "sasa_A2": 408.79063840570535
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 10,
+      "orientation_index": 1,
+      "sasa_A2": 404.74823262084715
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 10,
+      "orientation_index": 2,
+      "sasa_A2": 408.7621888684769
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 10,
+      "orientation_index": 3,
+      "sasa_A2": 406.4821765833259
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 10,
+      "orientation_index": 4,
+      "sasa_A2": 410.4690235202057
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 10,
+      "orientation_index": 5,
+      "sasa_A2": 408.04454779713564
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 10,
+      "orientation_index": 6,
+      "sasa_A2": 406.76026149849196
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 10,
+      "orientation_index": 7,
+      "sasa_A2": 408.986086979452
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 10,
+      "orientation_index": 8,
+      "sasa_A2": 405.7910364207802
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 10,
+      "orientation_index": 9,
+      "sasa_A2": 406.96850247868434
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 10,
+      "orientation_index": 10,
+      "sasa_A2": 407.9960937815768
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 10,
+      "orientation_index": 11,
+      "sasa_A2": 408.671000096191
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 10,
+      "orientation_index": 12,
+      "sasa_A2": 407.82004095776836
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 10,
+      "orientation_index": 13,
+      "sasa_A2": 406.77595472174323
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 10,
+      "orientation_index": 14,
+      "sasa_A2": 406.08824330721455
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 10,
+      "orientation_index": 15,
+      "sasa_A2": 401.16706330293744
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 10,
+      "orientation_index": 16,
+      "sasa_A2": 409.2570972587848
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 10,
+      "orientation_index": 17,
+      "sasa_A2": 407.1332263848409
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 10,
+      "orientation_index": 18,
+      "sasa_A2": 407.5000003375967
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 10,
+      "orientation_index": 19,
+      "sasa_A2": 407.2821209331002
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 10,
+      "orientation_index": 20,
+      "sasa_A2": 408.48950482955
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 10,
+      "orientation_index": 21,
+      "sasa_A2": 404.51525371645175
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 10,
+      "orientation_index": 22,
+      "sasa_A2": 407.7476910172917
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 10,
+      "orientation_index": 23,
+      "sasa_A2": 407.676146202995
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 11,
+      "orientation_index": 0,
+      "sasa_A2": 401.3860822728474
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 11,
+      "orientation_index": 1,
+      "sasa_A2": 401.74287114120386
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 11,
+      "orientation_index": 2,
+      "sasa_A2": 404.56161817259454
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 11,
+      "orientation_index": 3,
+      "sasa_A2": 402.30060501610933
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 11,
+      "orientation_index": 4,
+      "sasa_A2": 401.4492709200608
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 11,
+      "orientation_index": 5,
+      "sasa_A2": 402.7016934703548
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 11,
+      "orientation_index": 6,
+      "sasa_A2": 402.49940917336346
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 11,
+      "orientation_index": 7,
+      "sasa_A2": 399.8882051478146
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 11,
+      "orientation_index": 8,
+      "sasa_A2": 400.7973707996274
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 11,
+      "orientation_index": 9,
+      "sasa_A2": 402.5116896132037
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 11,
+      "orientation_index": 10,
+      "sasa_A2": 402.30550156616636
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 11,
+      "orientation_index": 11,
+      "sasa_A2": 403.1783221528419
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 11,
+      "orientation_index": 12,
+      "sasa_A2": 402.67395632958215
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 11,
+      "orientation_index": 13,
+      "sasa_A2": 403.0131058403181
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 11,
+      "orientation_index": 14,
+      "sasa_A2": 397.30404853794755
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 11,
+      "orientation_index": 15,
+      "sasa_A2": 402.62715103404787
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 11,
+      "orientation_index": 16,
+      "sasa_A2": 403.6070354344749
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 11,
+      "orientation_index": 17,
+      "sasa_A2": 400.8114093776452
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 11,
+      "orientation_index": 18,
+      "sasa_A2": 403.1238370109137
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 11,
+      "orientation_index": 19,
+      "sasa_A2": 401.72606159446525
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 11,
+      "orientation_index": 20,
+      "sasa_A2": 402.44138829861924
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 11,
+      "orientation_index": 21,
+      "sasa_A2": 402.4691979196509
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 11,
+      "orientation_index": 22,
+      "sasa_A2": 403.4931563006703
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260929,
+      "conformer_id": 11,
+      "orientation_index": 23,
+      "sasa_A2": 401.7727413504765
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 12,
+      "orientation_index": 0,
+      "sasa_A2": 406.9235249243451
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 12,
+      "orientation_index": 1,
+      "sasa_A2": 405.9278957216836
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 12,
+      "orientation_index": 2,
+      "sasa_A2": 401.1781335598697
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 12,
+      "orientation_index": 3,
+      "sasa_A2": 406.33532665384394
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 12,
+      "orientation_index": 4,
+      "sasa_A2": 405.8471444488079
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 12,
+      "orientation_index": 5,
+      "sasa_A2": 408.41669872186776
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 12,
+      "orientation_index": 6,
+      "sasa_A2": 404.2997531658249
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 12,
+      "orientation_index": 7,
+      "sasa_A2": 408.8557997162232
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 12,
+      "orientation_index": 8,
+      "sasa_A2": 405.9853336123474
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 12,
+      "orientation_index": 9,
+      "sasa_A2": 406.42926539443266
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 12,
+      "orientation_index": 10,
+      "sasa_A2": 405.5618541871663
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 12,
+      "orientation_index": 11,
+      "sasa_A2": 406.5405388801621
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 12,
+      "orientation_index": 12,
+      "sasa_A2": 406.47303017241023
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 12,
+      "orientation_index": 13,
+      "sasa_A2": 404.5727710316286
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 12,
+      "orientation_index": 14,
+      "sasa_A2": 408.40658971282846
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 12,
+      "orientation_index": 15,
+      "sasa_A2": 403.0233670355259
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 12,
+      "orientation_index": 16,
+      "sasa_A2": 405.54094643078804
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 12,
+      "orientation_index": 17,
+      "sasa_A2": 407.21666706186073
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 12,
+      "orientation_index": 18,
+      "sasa_A2": 405.19102779202876
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 12,
+      "orientation_index": 19,
+      "sasa_A2": 405.99988764433925
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 12,
+      "orientation_index": 20,
+      "sasa_A2": 406.89738186952576
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 12,
+      "orientation_index": 21,
+      "sasa_A2": 404.85576854130176
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 12,
+      "orientation_index": 22,
+      "sasa_A2": 407.0087678691412
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 12,
+      "orientation_index": 23,
+      "sasa_A2": 405.41632112438845
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 13,
+      "orientation_index": 0,
+      "sasa_A2": 404.7404572393531
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 13,
+      "orientation_index": 1,
+      "sasa_A2": 401.87934712607444
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 13,
+      "orientation_index": 2,
+      "sasa_A2": 401.86637839018044
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 13,
+      "orientation_index": 3,
+      "sasa_A2": 402.4813898953015
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 13,
+      "orientation_index": 4,
+      "sasa_A2": 404.7404432110426
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 13,
+      "orientation_index": 5,
+      "sasa_A2": 403.9929802294671
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 13,
+      "orientation_index": 6,
+      "sasa_A2": 401.15096080060766
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 13,
+      "orientation_index": 7,
+      "sasa_A2": 404.0821199527585
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 13,
+      "orientation_index": 8,
+      "sasa_A2": 402.84174977746653
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 13,
+      "orientation_index": 9,
+      "sasa_A2": 403.4921288619281
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 13,
+      "orientation_index": 10,
+      "sasa_A2": 401.5550172535654
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 13,
+      "orientation_index": 11,
+      "sasa_A2": 403.886646527586
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 13,
+      "orientation_index": 12,
+      "sasa_A2": 400.88445364018867
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 13,
+      "orientation_index": 13,
+      "sasa_A2": 400.06067537666695
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 13,
+      "orientation_index": 14,
+      "sasa_A2": 403.1756842830371
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 13,
+      "orientation_index": 15,
+      "sasa_A2": 402.61009976678287
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 13,
+      "orientation_index": 16,
+      "sasa_A2": 402.2242350428935
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 13,
+      "orientation_index": 17,
+      "sasa_A2": 401.00090912533517
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 13,
+      "orientation_index": 18,
+      "sasa_A2": 400.21631570417037
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 13,
+      "orientation_index": 19,
+      "sasa_A2": 400.29827476068795
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 13,
+      "orientation_index": 20,
+      "sasa_A2": 408.0057310238809
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 13,
+      "orientation_index": 21,
+      "sasa_A2": 403.9286283895807
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 13,
+      "orientation_index": 22,
+      "sasa_A2": 400.6440037746838
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 13,
+      "orientation_index": 23,
+      "sasa_A2": 405.0267071708077
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 14,
+      "orientation_index": 0,
+      "sasa_A2": 402.0325470772318
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 14,
+      "orientation_index": 1,
+      "sasa_A2": 401.59983390590804
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 14,
+      "orientation_index": 2,
+      "sasa_A2": 403.4573798629798
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 14,
+      "orientation_index": 3,
+      "sasa_A2": 401.16301818194137
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 14,
+      "orientation_index": 4,
+      "sasa_A2": 401.6802672730657
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 14,
+      "orientation_index": 5,
+      "sasa_A2": 402.6714802771599
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 14,
+      "orientation_index": 6,
+      "sasa_A2": 402.77052759622
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 14,
+      "orientation_index": 7,
+      "sasa_A2": 405.20752297510245
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 14,
+      "orientation_index": 8,
+      "sasa_A2": 401.7573667587166
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 14,
+      "orientation_index": 9,
+      "sasa_A2": 403.01150582310794
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 14,
+      "orientation_index": 10,
+      "sasa_A2": 402.87332288102266
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 14,
+      "orientation_index": 11,
+      "sasa_A2": 400.89332383330213
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 14,
+      "orientation_index": 12,
+      "sasa_A2": 403.08245442333543
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 14,
+      "orientation_index": 13,
+      "sasa_A2": 401.981807731623
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 14,
+      "orientation_index": 14,
+      "sasa_A2": 402.81622567189845
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 14,
+      "orientation_index": 15,
+      "sasa_A2": 405.3492011104923
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 14,
+      "orientation_index": 16,
+      "sasa_A2": 403.3284770661671
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 14,
+      "orientation_index": 17,
+      "sasa_A2": 405.2857760297025
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 14,
+      "orientation_index": 18,
+      "sasa_A2": 402.48386575443527
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 14,
+      "orientation_index": 19,
+      "sasa_A2": 401.44369591259846
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 14,
+      "orientation_index": 20,
+      "sasa_A2": 401.356013209332
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 14,
+      "orientation_index": 21,
+      "sasa_A2": 401.70230381342253
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 14,
+      "orientation_index": 22,
+      "sasa_A2": 403.15765228937966
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 14,
+      "orientation_index": 23,
+      "sasa_A2": 393.77727470785726
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 15,
+      "orientation_index": 0,
+      "sasa_A2": 401.2195345287223
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 15,
+      "orientation_index": 1,
+      "sasa_A2": 402.07534881647274
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 15,
+      "orientation_index": 2,
+      "sasa_A2": 401.39092230940105
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 15,
+      "orientation_index": 3,
+      "sasa_A2": 401.5823099462751
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 15,
+      "orientation_index": 4,
+      "sasa_A2": 403.5574448153705
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 15,
+      "orientation_index": 5,
+      "sasa_A2": 398.68468299138317
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 15,
+      "orientation_index": 6,
+      "sasa_A2": 402.24704906273064
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 15,
+      "orientation_index": 7,
+      "sasa_A2": 402.95107775575195
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 15,
+      "orientation_index": 8,
+      "sasa_A2": 403.2393184240309
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 15,
+      "orientation_index": 9,
+      "sasa_A2": 402.5906979767771
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 15,
+      "orientation_index": 10,
+      "sasa_A2": 400.0731946157822
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 15,
+      "orientation_index": 11,
+      "sasa_A2": 402.12337871001716
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 15,
+      "orientation_index": 12,
+      "sasa_A2": 401.896214613389
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 15,
+      "orientation_index": 13,
+      "sasa_A2": 406.15276908126344
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 15,
+      "orientation_index": 14,
+      "sasa_A2": 402.9880142820616
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 15,
+      "orientation_index": 15,
+      "sasa_A2": 398.5549979212214
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 15,
+      "orientation_index": 16,
+      "sasa_A2": 404.1619905548718
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 15,
+      "orientation_index": 17,
+      "sasa_A2": 400.6605194596571
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 15,
+      "orientation_index": 18,
+      "sasa_A2": 401.58692432168283
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 15,
+      "orientation_index": 19,
+      "sasa_A2": 403.1941703023674
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 15,
+      "orientation_index": 20,
+      "sasa_A2": 404.7889702763461
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 15,
+      "orientation_index": 21,
+      "sasa_A2": 402.33788825403184
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 15,
+      "orientation_index": 22,
+      "sasa_A2": 403.3187420974117
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 15,
+      "orientation_index": 23,
+      "sasa_A2": 404.66316005257454
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 16,
+      "orientation_index": 0,
+      "sasa_A2": 408.0021641142789
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 16,
+      "orientation_index": 1,
+      "sasa_A2": 405.22141151099913
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 16,
+      "orientation_index": 2,
+      "sasa_A2": 407.33870163163937
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 16,
+      "orientation_index": 3,
+      "sasa_A2": 406.1797401150581
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 16,
+      "orientation_index": 4,
+      "sasa_A2": 403.5232924275291
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 16,
+      "orientation_index": 5,
+      "sasa_A2": 407.19009363791844
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 16,
+      "orientation_index": 6,
+      "sasa_A2": 406.84968360433663
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 16,
+      "orientation_index": 7,
+      "sasa_A2": 406.76028122157453
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 16,
+      "orientation_index": 8,
+      "sasa_A2": 406.8057144132349
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 16,
+      "orientation_index": 9,
+      "sasa_A2": 409.7516300045939
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 16,
+      "orientation_index": 10,
+      "sasa_A2": 409.160353478352
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 16,
+      "orientation_index": 11,
+      "sasa_A2": 409.6378721901165
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 16,
+      "orientation_index": 12,
+      "sasa_A2": 406.04118550361267
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 16,
+      "orientation_index": 13,
+      "sasa_A2": 406.628315236221
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 16,
+      "orientation_index": 14,
+      "sasa_A2": 407.63521983189185
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 16,
+      "orientation_index": 15,
+      "sasa_A2": 406.27166318716445
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 16,
+      "orientation_index": 16,
+      "sasa_A2": 405.5963184146034
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 16,
+      "orientation_index": 17,
+      "sasa_A2": 403.39123895695224
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 16,
+      "orientation_index": 18,
+      "sasa_A2": 408.845171804066
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 16,
+      "orientation_index": 19,
+      "sasa_A2": 407.3537250377638
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 16,
+      "orientation_index": 20,
+      "sasa_A2": 409.71658543874844
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 16,
+      "orientation_index": 21,
+      "sasa_A2": 409.91534201803915
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 16,
+      "orientation_index": 22,
+      "sasa_A2": 407.5480001660972
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 16,
+      "orientation_index": 23,
+      "sasa_A2": 402.2579778933408
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 17,
+      "orientation_index": 0,
+      "sasa_A2": 403.254545120958
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 17,
+      "orientation_index": 1,
+      "sasa_A2": 404.0000883917159
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 17,
+      "orientation_index": 2,
+      "sasa_A2": 401.7811916463194
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 17,
+      "orientation_index": 3,
+      "sasa_A2": 399.3680995445208
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 17,
+      "orientation_index": 4,
+      "sasa_A2": 402.37082217744666
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 17,
+      "orientation_index": 5,
+      "sasa_A2": 402.24277865147434
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 17,
+      "orientation_index": 6,
+      "sasa_A2": 401.63052507157795
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 17,
+      "orientation_index": 7,
+      "sasa_A2": 402.31749909139967
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 17,
+      "orientation_index": 8,
+      "sasa_A2": 404.65648253088733
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 17,
+      "orientation_index": 9,
+      "sasa_A2": 404.07621379853623
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 17,
+      "orientation_index": 10,
+      "sasa_A2": 402.7980480802245
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 17,
+      "orientation_index": 11,
+      "sasa_A2": 402.8255139118383
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 17,
+      "orientation_index": 12,
+      "sasa_A2": 401.0821420928447
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 17,
+      "orientation_index": 13,
+      "sasa_A2": 399.8881826513175
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 17,
+      "orientation_index": 14,
+      "sasa_A2": 404.2254080851684
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 17,
+      "orientation_index": 15,
+      "sasa_A2": 402.3435648661181
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 17,
+      "orientation_index": 16,
+      "sasa_A2": 403.7136906363333
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 17,
+      "orientation_index": 17,
+      "sasa_A2": 400.0132397074268
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 17,
+      "orientation_index": 18,
+      "sasa_A2": 394.43867495470283
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 17,
+      "orientation_index": 19,
+      "sasa_A2": 401.7649345141046
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 17,
+      "orientation_index": 20,
+      "sasa_A2": 402.59418291614026
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 17,
+      "orientation_index": 21,
+      "sasa_A2": 402.40467438509444
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 17,
+      "orientation_index": 22,
+      "sasa_A2": 403.006495492924
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "seed": 20260930,
+      "conformer_id": 17,
+      "orientation_index": 23,
+      "sasa_A2": 401.1087031260828
+    }
+  ],
+  "radii_audit": {
+    "explicit_vdw_A": [
+      1.7,
+      1.7,
+      1.55,
+      1.7,
+      1.55,
+      1.7,
+      1.7,
+      1.7,
+      1.7,
+      1.7,
+      1.7,
+      1.7,
+      1.7,
+      1.55,
+      1.2,
+      1.2,
+      1.2,
+      1.2,
+      1.2,
+      1.2,
+      1.2,
+      1.2,
+      1.2,
+      1.2
+    ],
+    "classifier_zero_count": 24,
+    "classifier_returned_none": false,
+    "method": "RDKit periodic-table vdW radii, all atoms including explicit H",
+    "probe_radius_A": 1.4,
+    "algorithm": "LeeRichards",
+    "rotation_average_count": 24,
+    "rotation_seed": 17381
+  },
+  "pooled_deduplication": [
+    {
+      "conformer_id": 3,
+      "representative_id": 3,
+      "rmsd_to_representative_A": 0.0,
+      "selected": true
+    },
+    {
+      "conformer_id": 10,
+      "representative_id": 3,
+      "rmsd_to_representative_A": 4.737511467063631e-06,
+      "selected": false
+    },
+    {
+      "conformer_id": 16,
+      "representative_id": 3,
+      "rmsd_to_representative_A": 1.4650033910559477e-05,
+      "selected": false
+    },
+    {
+      "conformer_id": 0,
+      "representative_id": 0,
+      "rmsd_to_representative_A": 0.0,
+      "selected": true
+    },
+    {
+      "conformer_id": 8,
+      "representative_id": 8,
+      "rmsd_to_representative_A": 0.0,
+      "selected": true
+    },
+    {
+      "conformer_id": 14,
+      "representative_id": 8,
+      "rmsd_to_representative_A": 3.225738804472725e-06,
+      "selected": false
+    },
+    {
+      "conformer_id": 6,
+      "representative_id": 0,
+      "rmsd_to_representative_A": 3.7090595068516527e-06,
+      "selected": false
+    },
+    {
+      "conformer_id": 17,
+      "representative_id": 0,
+      "rmsd_to_representative_A": 2.0442146378794887e-05,
+      "selected": false
+    },
+    {
+      "conformer_id": 2,
+      "representative_id": 8,
+      "rmsd_to_representative_A": 3.0235144825317492e-06,
+      "selected": false
+    },
+    {
+      "conformer_id": 5,
+      "representative_id": 5,
+      "rmsd_to_representative_A": 0.0,
+      "selected": true
+    },
+    {
+      "conformer_id": 12,
+      "representative_id": 5,
+      "rmsd_to_representative_A": 1.0499702407036725e-05,
+      "selected": false
+    },
+    {
+      "conformer_id": 4,
+      "representative_id": 4,
+      "rmsd_to_representative_A": 0.0,
+      "selected": true
+    },
+    {
+      "conformer_id": 13,
+      "representative_id": 4,
+      "rmsd_to_representative_A": 1.606642540489743e-06,
+      "selected": false
+    },
+    {
+      "conformer_id": 1,
+      "representative_id": 1,
+      "rmsd_to_representative_A": 0.0,
+      "selected": true
+    },
+    {
+      "conformer_id": 7,
+      "representative_id": 1,
+      "rmsd_to_representative_A": 1.621108590212662e-06,
+      "selected": false
+    },
+    {
+      "conformer_id": 11,
+      "representative_id": 4,
+      "rmsd_to_representative_A": 7.21740278906644e-06,
+      "selected": false
+    },
+    {
+      "conformer_id": 9,
+      "representative_id": 4,
+      "rmsd_to_representative_A": 1.8899896143720465e-05,
+      "selected": false
+    },
+    {
+      "conformer_id": 15,
+      "representative_id": 1,
+      "rmsd_to_representative_A": 2.9889048681091594e-06,
+      "selected": false
+    }
+  ],
+  "pooled_selected_minima": [
+    3,
+    0,
+    8,
+    5,
+    4,
+    1
+  ],
+  "seed_variability": [
+    {
+      "molecule_id": "benzofuran_ester",
+      "temperature_K": 250.0,
+      "successful_seeds": 3,
+      "minimum_energy_kcal_mol_mean": 25.60661094435696,
+      "minimum_energy_kcal_mol_range": 8.418904684504014e-09,
+      "minimum_energy_kcal_mol_sample_sd": 4.715008015802185e-09,
+      "weighted_sasa_A2_mean": 404.7701263579,
+      "weighted_sasa_A2_range": 0.15368584230697024,
+      "weighted_sasa_A2_sample_sd": 0.07737633268456257,
+      "weighted_mass_weighted_Rg_A_mean": 3.0034953260570347,
+      "weighted_mass_weighted_Rg_A_range": 0.00494390795993116,
+      "weighted_mass_weighted_Rg_A_sample_sd": 0.002854366213906983,
+      "effective_minima_count_mean": 3.2175139800438317,
+      "effective_minima_count_range": 0.5341670059613568,
+      "effective_minima_count_sample_sd": 0.3084014558819333
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "temperature_K": 298.15,
+      "successful_seeds": 3,
+      "minimum_energy_kcal_mol_mean": 25.60661094435696,
+      "minimum_energy_kcal_mol_range": 8.418904684504014e-09,
+      "minimum_energy_kcal_mol_sample_sd": 4.715008015802185e-09,
+      "weighted_sasa_A2_mean": 404.5727867421609,
+      "weighted_sasa_A2_range": 0.08876988512884054,
+      "weighted_sasa_A2_sample_sd": 0.04909670920408554,
+      "weighted_mass_weighted_Rg_A_mean": 3.0038405678330444,
+      "weighted_mass_weighted_Rg_A_range": 0.005683053227204304,
+      "weighted_mass_weighted_Rg_A_sample_sd": 0.003281108357842849,
+      "effective_minima_count_mean": 3.6361972468047945,
+      "effective_minima_count_range": 0.6557430158666633,
+      "effective_minima_count_sample_sd": 0.37859339925281027
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "temperature_K": 350.0,
+      "successful_seeds": 3,
+      "minimum_energy_kcal_mol_mean": 25.60661094435696,
+      "minimum_energy_kcal_mol_range": 8.418904684504014e-09,
+      "minimum_energy_kcal_mol_sample_sd": 4.715008015802185e-09,
+      "weighted_sasa_A2_mean": 404.4184934463406,
+      "weighted_sasa_A2_range": 0.07391595249714555,
+      "weighted_sasa_A2_sample_sd": 0.036969062480702496,
+      "weighted_mass_weighted_Rg_A_mean": 3.0042328250559875,
+      "weighted_mass_weighted_Rg_A_range": 0.006239458859091496,
+      "weighted_mass_weighted_Rg_A_sample_sd": 0.00360234576748702,
+      "effective_minima_count_mean": 3.996717501455652,
+      "effective_minima_count_range": 0.7511799835362329,
+      "effective_minima_count_sample_sd": 0.43369395958041
+    }
+  ],
+  "returned_after_embedding_pruning": 18,
+  "converged": 18,
+  "nonconverged": 0,
+  "pooled_unique_minima": 6,
+  "status": "success",
+  "coordinate_sha256": {
+    "benzofuran_ester_embedded.sdf": "ce2c340e56ce3a4bd717cab36465f5efdb9b590d9890f9e8696f08fe995164cb",
+    "benzofuran_ester_optimized.sdf": "a2139b1a8c7da39f86a67a64585fdc9fae68f3ffc050d39ecc3558299e3840a6"
+  }
+}

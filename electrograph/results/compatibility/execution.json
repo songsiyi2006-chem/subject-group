@@ -1,0 +1,12 @@
+{
+  "mode": "compatibility",
+  "started_utc": "2026-09-28T06:02:59.631044+00:00",
+  "elapsed_seconds": 19.627276199986227,
+  "exit_code": 0,
+  "timed_out": false,
+  "source_sha256": "98cfb428dea16a2e639247ebd68897ba167c0eec6d7052f778fdd947f7dc4c55",
+  "command": "python electrograph/scripts/run_source.py --child compatibility",
+  "working_directory": "electrograph/results/compatibility",
+  "physical_instrument_connected": false,
+  "role": "Captured source execution; printed scientific claims are not endorsements"
+}

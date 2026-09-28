@@ -1,0 +1,201 @@
+{
+  "schema_version": 1,
+  "pilot": false,
+  "evidence": "Executed ETKDGv3/MMFF94 force-field calculations; not quantum chemistry or solution thermodynamics",
+  "method": {
+    "embedding": "ETKDGv3",
+    "embedding_pruneRmsThresh_A": 0.15,
+    "postoptimization_heavy_atom_RMSD_threshold_A": 0.35,
+    "postoptimization_selection": "Ascending-energy greedy symmetry-aware RMSD, converged minima only",
+    "optimization": "MMFF94",
+    "max_iterations": 1000,
+    "nonbonded_threshold_A": 100.0,
+    "energy_unit": "kcal/mol",
+    "R_kcal_mol_K": 0.0019872042586408316,
+    "temperatures_K": [
+      250.0,
+      298.15,
+      350.0
+    ],
+    "weights": "exp(-(E-Emin)/(RT)), unit degeneracy per sampled distinct minimum; no vibrational, solvation or basin entropy",
+    "probe_radius_A": 1.4,
+    "SASA_algorithm": "LeeRichards averaged over 24 fixed SO(3) orientations",
+    "SASA_rotation_seed": 17381,
+    "SASA_resolution": "Installed FreeSASA default slice resolution; no claim of converged quadrature",
+    "SASA_radii": "RDKit atomic vdW radii including explicit H",
+    "Rg": "Mass weighted over all explicit atoms, with unweighted source-equivalent comparator",
+    "seeds": [
+      20260928,
+      20260929,
+      20260930
+    ],
+    "attempts_per_seed": 24,
+    "num_threads": 1,
+    "embedding_count_boundary": "Requested is numConfs budget; unreturned includes pruning and possible failures; failure event counters are not counts of missing conformers"
+  },
+  "counts": {
+    "molecules": 7,
+    "replica_runs": 21,
+    "requested_conformers": 504,
+    "returned_after_embedding_pruning": 120,
+    "MMFF_minimizations": 120,
+    "converged": 120,
+    "nonconverged": 0,
+    "pooled_unique_minima": 36,
+    "ensemble_statistic_rows": 84,
+    "minima_weight_rows": 357,
+    "SASA_orientation_evaluations": 2880,
+    "coordinate_files": 14,
+    "negative_input_cases": 3,
+    "QM_calculations": 0,
+    "experimental_measurements": 0
+  },
+  "molecule_summary": [
+    {
+      "molecule_id": "target",
+      "formula": "C15H13NO",
+      "status": "success",
+      "requested_conformers": 72,
+      "returned_after_embedding_pruning": 6,
+      "converged": 6,
+      "nonconverged": 0,
+      "pooled_unique_minima": 3
+    },
+    {
+      "molecule_id": "melatonin",
+      "formula": "C13H16N2O2",
+      "status": "success",
+      "requested_conformers": 72,
+      "returned_after_embedding_pruning": 49,
+      "converged": 49,
+      "nonconverged": 0,
+      "pooled_unique_minima": 18
+    },
+    {
+      "molecule_id": "caffeine",
+      "formula": "C8H10N4O2",
+      "status": "success",
+      "requested_conformers": 72,
+      "returned_after_embedding_pruning": 3,
+      "converged": 3,
+      "nonconverged": 0,
+      "pooled_unique_minima": 1
+    },
+    {
+      "molecule_id": "phenylquinoline",
+      "formula": "C15H11N",
+      "status": "success",
+      "requested_conformers": 72,
+      "returned_after_embedding_pruning": 3,
+      "converged": 3,
+      "nonconverged": 0,
+      "pooled_unique_minima": 1
+    },
+    {
+      "molecule_id": "tryptophol",
+      "formula": "C10H11NO",
+      "status": "success",
+      "requested_conformers": 72,
+      "returned_after_embedding_pruning": 33,
+      "converged": 33,
+      "nonconverged": 0,
+      "pooled_unique_minima": 6
+    },
+    {
+      "molecule_id": "indoline",
+      "formula": "C8H9N",
+      "status": "success",
+      "requested_conformers": 72,
+      "returned_after_embedding_pruning": 8,
+      "converged": 8,
+      "nonconverged": 0,
+      "pooled_unique_minima": 1
+    },
+    {
+      "molecule_id": "benzofuran_ester",
+      "formula": "C11H10O3",
+      "status": "success",
+      "requested_conformers": 72,
+      "returned_after_embedding_pruning": 18,
+      "converged": 18,
+      "nonconverged": 0,
+      "pooled_unique_minima": 6
+    }
+  ],
+  "limitations": [
+    "Sparse conformer search with fixed protonation/tautomer and no explicit solvent/electrode.",
+    "Minima counts and descriptor weights depend on RMSD threshold and seed; no basin-volume degeneracy correction.",
+    "No Hessians: force-field convergence is an optimizer criterion, not proof of a true local minimum.",
+    "Three seeds measure search variability only and are not calibrated uncertainty intervals.",
+    "SASA depends on probe and radii; mass-weighted Rg is not buried volume.",
+    "Finite SASA integration is orientation sensitive: 24-orientation averages reduce but do not eliminate it; raw values and half-versus-full means retained.",
+    "CGR is explicit-map bond comparison, not automated atom mapping or reaction-mechanism inference."
+  ],
+  "runtime_versions": {
+    "python": "3.12.14",
+    "rdkit": "2026.03.5",
+    "numpy": "2.4.6"
+  },
+  "elapsed_seconds": 16.29617679992225,
+  "sources": [
+    {
+      "url": "https://www.rdkit.org/docs/RDKit_Book.html",
+      "use": "ETKDG and pruning parameters"
+    },
+    {
+      "url": "https://www.rdkit.org/docs/source/rdkit.Chem.rdForceFieldHelpers.html",
+      "use": "MMFF optimization; installed API docstring specifies status 0 as converged"
+    },
+    {
+      "url": "https://www.rdkit.org/docs/source/rdkit.Chem.rdFreeSASA.html",
+      "use": "CalcSASA explicit radii, confIdx, algorithm and probe radius"
+    },
+    {
+      "url": "https://www.rdkit.org/docs/source/rdkit.Chem.rdchem.html",
+      "use": "PeriodicTable.GetRvdw and atom properties"
+    },
+    {
+      "url": "https://www.rdkit.org/docs/source/rdkit.Chem.rdMolAlign.html",
+      "use": "Symmetry-aware molecular alignment"
+    },
+    {
+      "url": "https://www.rdkit.org/docs/Overview.html",
+      "use": "RDKit BSD software license; online documentation CC BY-SA 4.0"
+    }
+  ],
+  "license_note": "RDKit software BSD; documentation CC BY-SA 4.0. No external dataset/checkpoint downloaded or redistributed.",
+  "source_sha256": {
+    "electrograph/scripts/structure_reviewed.py": "761cc12c8fb60ecb395c94e71b40b3f86b617734718b97970bf8b0c03c948617",
+    "electrograph/source/electrograph_kmc_core.py": "2ac28e83ba3b914662bc145d256041793ae370dcbc87be27c7773df9f15656af"
+  },
+  "output_sha256": {
+    "benzofuran_ester.json": "562f232accc4785fea39e7cac72e448c071e12dbe210e7ae02767cc16eeb0994",
+    "benzofuran_ester_embedded.sdf": "ce2c340e56ce3a4bd717cab36465f5efdb9b590d9890f9e8696f08fe995164cb",
+    "benzofuran_ester_optimized.sdf": "a2139b1a8c7da39f86a67a64585fdc9fae68f3ffc050d39ecc3558299e3840a6",
+    "caffeine.json": "2ba3c274949ab325c5a8cd543f1b6267fd6d73fa9a0e1adf11c0ce77e8f83379",
+    "caffeine_embedded.sdf": "3a88caf4a363dda9d127f43578d88601caacc0b1881700be42a6aa45a7c9eaaa",
+    "caffeine_optimized.sdf": "0f3177b7dee2ce86f94515d94179f4ac48d9c4a4a87b8b9d29a1b17b4fc6aecb",
+    "conformers.csv": "20e149513ebc8a36fd7167ee930e99c3e24603f046bdcf907fc504cc62f6f339",
+    "ensemble_statistics.csv": "402de39f2fec30d8f0f27df61d8b287fb644e74b028cbb474a0e8553b97f1236",
+    "indoline.json": "c69575e196b44ee2acd720bd8eaaad9d60a564b864cb2477ee91056acfe172e7",
+    "indoline_embedded.sdf": "b9d0514b42437d77a9e2b6b5114075cd6b96336a3061a13c1095627cafa21f12",
+    "indoline_optimized.sdf": "502222fee9aaefc85d57510317e10873874eec78996f09e67368e5f6c43d0f13",
+    "input_rejections.json": "0471222895557dab999d8dc1a16a299c491cd2721b18ca82cd8e12a4ef6d55b0",
+    "melatonin.json": "e5a7d1f106b5b740d41156d6816c78ae8a4107af04ce44ab014c49e674bab300",
+    "melatonin_embedded.sdf": "4a369c3fa3d78f929c5a22aae6566324fbf8d176c07df6f158035790ea96faec",
+    "melatonin_optimized.sdf": "c7944509d67c110ad00576f13d86ff4393b9309d353b954212e7e26d1ee7cb1e",
+    "minima_weights.csv": "d94281c0750fe68a899ead33471dc35cf75d0602af6062c573686c36bfece6d6",
+    "phenylquinoline.json": "a731e1719c946525a0cd74d555f2007ede20d98ae151a65c90951c3f3129fd42",
+    "phenylquinoline_embedded.sdf": "63276aa7b52335bfcaa8466cfb44b8b975fda372ccf054403b7d2efbc9143907",
+    "phenylquinoline_optimized.sdf": "d39a91302f17cf95f8e07c51787154de674d8ffef644e21f62a04ad298ba110e",
+    "reaction_audit.json": "99a7f863dc3722387afcb4e45b52522dfd04566ccca5a5915b47c04299cb71b4",
+    "seed_variability.csv": "7ee2c5ec10696bea280094a109c7dc9b3760a4aec59fa81917c5603c4efdff53",
+    "surface_quadrature.csv": "d1194b46a6e78bee9bc0b08e473fb3889953c09753250c9b6933b0ad8c946750",
+    "target.json": "934d7ca67564d6b0973982451453d5f243f55c541abc27e6748340d1e5a08aab",
+    "target_embedded.sdf": "a41aa46595d902afed4d21e149da9b42b70a5124d59756ba20c3f800881280ad",
+    "target_optimized.sdf": "c2f224f164beaa3d455240e4b10e6accfb18faa52244a64d9b5281fa2b4a9d9f",
+    "tryptophol.json": "fc39939cfed6bad4f8f91c409a798bc386ec89aadda316ed0b7f813434399128",
+    "tryptophol_embedded.sdf": "937c7a3fd536e261941a40049e7c49ff1881a924a777cce0ddd640497e95234d",
+    "tryptophol_optimized.sdf": "e5e176f6b47c7972e0906fa448b55b47332824d9ffd424f4be4d006b8fa22721"
+  }
+}

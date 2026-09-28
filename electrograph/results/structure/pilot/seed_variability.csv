@@ -1,0 +1,4 @@
+molecule_id,temperature_K,successful_seeds,minimum_energy_kcal_mol_mean,minimum_energy_kcal_mol_range,minimum_energy_kcal_mol_sample_sd,weighted_sasa_A2_mean,weighted_sasa_A2_range,weighted_sasa_A2_sample_sd,weighted_mass_weighted_Rg_A_mean,weighted_mass_weighted_Rg_A_range,weighted_mass_weighted_Rg_A_sample_sd,effective_minima_count_mean,effective_minima_count_range,effective_minima_count_sample_sd
+target,250.0,1,32.21464906560709,0.0,,455.60688815688513,0.0,,3.5998672470715727,0.0,,1.7933245733754724,0.0,
+target,298.15,1,32.21464906560709,0.0,,455.60414925700275,0.0,,3.6010053468827774,0.0,,1.8467890045930746,0.0,
+target,350.0,1,32.21464906560709,0.0,,455.6019795903205,0.0,,3.601906912236511,0.0,,1.8847603338723344,0.0,
