@@ -1,0 +1,332 @@
+[
+  {
+    "file": "psi4_outputs/scan_000.out",
+    "raw_before_path_redaction_sha256": "633739f3c127697cabd0ca6d4b06a1ad340d135027440cf0a122aa6a52ce8613",
+    "public_sha256": "2eae88ecead60f5b25647e2f3ef7555d20e2b5fad3983fb08b5c620a9c5c3cd5",
+    "redaction": "machine paths and host identity only; numerical SCF output retained"
+  },
+  {
+    "file": "psi4_outputs/scan_001.out",
+    "raw_before_path_redaction_sha256": "41bd0e79b536692d9d2184cea9febb0eb4ccac3987479bdb4411df7da69e1116",
+    "public_sha256": "d4d55bc83d09f0e80f7f43158d5aa5776c0b5c5d5dce4e890e5ba014fc0130da",
+    "redaction": "machine paths and host identity only; numerical SCF output retained"
+  },
+  {
+    "file": "psi4_outputs/scan_002.out",
+    "raw_before_path_redaction_sha256": "dde40a229a3e4cd613ea3bdaae10159c257014e909eb1f574cd6574f3bbb7fb8",
+    "public_sha256": "f77160d7c6e7a39b6a0db6c76bf6c48ac33f08c5d0c392e1a22e115bd640b828",
+    "redaction": "machine paths and host identity only; numerical SCF output retained"
+  },
+  {
+    "file": "psi4_outputs/scan_003.out",
+    "raw_before_path_redaction_sha256": "03c9063775404fabee12a2f1a7a696e6f6aab6fc33d985a6369dd1678e4c8b28",
+    "public_sha256": "01fba97acad3a13ce78a6d5a487846f3c6b3ef9387c09236ab6f4a0aefcade21",
+    "redaction": "machine paths and host identity only; numerical SCF output retained"
+  },
+  {
+    "file": "psi4_outputs/scan_004.out",
+    "raw_before_path_redaction_sha256": "3ffcee55deb0eab80ff0adc0b7921424b95d4157ae8693e7e77d82254b21c0d7",
+    "public_sha256": "318a035e082f35c22164551e2e13e962551519f1ad6bafa5ef875a0d136ab612",
+    "redaction": "machine paths and host identity only; numerical SCF output retained"
+  },
+  {
+    "file": "psi4_outputs/scan_005.out",
+    "raw_before_path_redaction_sha256": "118bc4adda05f0f4f6532e3244314fb7947f7cae4c59638765dc187fcc864940",
+    "public_sha256": "7cff889407d24e06c85e67bb6d33e73df9bd48cbd61da357a189bf8497174168",
+    "redaction": "machine paths and host identity only; numerical SCF output retained"
+  },
+  {
+    "file": "psi4_outputs/scan_006.out",
+    "raw_before_path_redaction_sha256": "118fc589614016b9407cedcc0ff5af7fca8a3baf7df4f394bb5c8744a47b6c51",
+    "public_sha256": "75cc482f2d5e4f6c03765235d98b039176f89de11df6fa3235d24cf50a5a7d11",
+    "redaction": "machine paths and host identity only; numerical SCF output retained"
+  },
+  {
+    "file": "psi4_outputs/scan_007.out",
+    "raw_before_path_redaction_sha256": "118f418937b3dd7fd3511b6bfa2f28cf4276320245ddd97a160a19a8282b2aeb",
+    "public_sha256": "7f840be7e7a9b303f2fb90b920b650083a1d4d6abee90e16653e7fb16102a55f",
+    "redaction": "machine paths and host identity only; numerical SCF output retained"
+  },
+  {
+    "file": "psi4_outputs/scan_008.out",
+    "raw_before_path_redaction_sha256": "322e2b169634330973c09d2fe3d5157be2f97b62bad041885df43393b8bb5c7d",
+    "public_sha256": "6a931a57c933a3906729c8ada8b96ddde6e16c811b868612a2de68e57955cb3a",
+    "redaction": "machine paths and host identity only; numerical SCF output retained"
+  },
+  {
+    "file": "psi4_outputs/scan_009.out",
+    "raw_before_path_redaction_sha256": "9087d5a21871231ca85f0243960d5e40bdc65505930374770a597a1e4100af32",
+    "public_sha256": "eaa3e0299ca7fdbfab91002fb2479d5c6876eb48d91dfaa78f5d6f9cff1a01c7",
+    "redaction": "machine paths and host identity only; numerical SCF output retained"
+  },
+  {
+    "file": "psi4_outputs/scan_010.out",
+    "raw_before_path_redaction_sha256": "51170e0b67d78b724f8b82e9380f541f3dc476df4f9a8a706670e5920e472950",
+    "public_sha256": "ac14e20068615b00882b92415955690605832188159370260675f15ab63e4819",
+    "redaction": "machine paths and host identity only; numerical SCF output retained"
+  },
+  {
+    "file": "psi4_outputs/scan_011.out",
+    "raw_before_path_redaction_sha256": "3bba920726532e44696ff693b1e5865eb6cc63b243a9f63b548acca3b11d9923",
+    "public_sha256": "8e6bfa146391192d2a34d3150b1a31c0455691c30f8b86f0df691979850b78bf",
+    "redaction": "machine paths and host identity only; numerical SCF output retained"
+  },
+  {
+    "file": "psi4_outputs/scan_012.out",
+    "raw_before_path_redaction_sha256": "ff57298825b2ccc50cccd6179451c68165bd4de52b6d89d6e6373721d254adf8",
+    "public_sha256": "e54499919e81cb3347c81ca058abbe26aaba35866dc8ca6b8325b734219a0bb0",
+    "redaction": "machine paths and host identity only; numerical SCF output retained"
+  },
+  {
+    "file": "psi4_outputs/scan_013.out",
+    "raw_before_path_redaction_sha256": "661ef9635ba4a59fe18afb3cef23fd1f281351eb21db3875a3a0115ba0a4e789",
+    "public_sha256": "c45e6979b7d5c2699b41fc1fd539809886d2f4e6ccc901ba3dee7b5fc6d0240c",
+    "redaction": "machine paths and host identity only; numerical SCF output retained"
+  },
+  {
+    "file": "psi4_outputs/scan_014.out",
+    "raw_before_path_redaction_sha256": "ffdc5545f7cd59f58eb2b522357ae8649d5a416f26b47ec39fecaa256d13e644",
+    "public_sha256": "5de9965dbbef70490e8d1d10a98ec1011f01442a5a7c790bedf6000f4b0c579d",
+    "redaction": "machine paths and host identity only; numerical SCF output retained"
+  },
+  {
+    "file": "psi4_outputs/scan_015.out",
+    "raw_before_path_redaction_sha256": "fc989ae371c2fe6253098b92c82dc733bbf7780ef539ad0e1cba5c45c52f090e",
+    "public_sha256": "4bfe84d9cd1650ff0898188db9999b57a0981bcf27ab8f44c0c55abbe9eb6d41",
+    "redaction": "machine paths and host identity only; numerical SCF output retained"
+  },
+  {
+    "file": "psi4_outputs/scan_016.out",
+    "raw_before_path_redaction_sha256": "f44c01d5e059f0ef784ef3e218fab45e3595b59597d4be46bdd4ee5734235ef5",
+    "public_sha256": "1fc4dc4b05ceaf23b339d07b313db35924b83fee431c4989cf49edde89db9258",
+    "redaction": "machine paths and host identity only; numerical SCF output retained"
+  },
+  {
+    "file": "psi4_outputs/scan_017.out",
+    "raw_before_path_redaction_sha256": "11eb436c96ab370588cb00c655f0a12a97f4f5ebdda8034bb6ef877bad585b23",
+    "public_sha256": "cb952d06f2f70820465eb0e5d73e1b4dafa17c3d7758de24687083bfe32e41d3",
+    "redaction": "machine paths and host identity only; numerical SCF output retained"
+  },
+  {
+    "file": "psi4_outputs/scan_018.out",
+    "raw_before_path_redaction_sha256": "fa9e89f5bf0c0e8abc0d69dbb6d713c4573dead5f78d3aa46fa4b45e239ca4f3",
+    "public_sha256": "c3a6c0555c52175bd90a81704f514e2b541e890ef303409b73e4b46a8d20ab3f",
+    "redaction": "machine paths and host identity only; numerical SCF output retained"
+  },
+  {
+    "file": "psi4_outputs/scan_019.out",
+    "raw_before_path_redaction_sha256": "b2d09f9fde085cb2db472040cd94f4b262b4fe8904bf89e9acd24a30805383cc",
+    "public_sha256": "7caa3f464915077ae106a2af769362a76da358240318fb121734463c5a64b74a",
+    "redaction": "machine paths and host identity only; numerical SCF output retained"
+  },
+  {
+    "file": "psi4_outputs/scan_020.out",
+    "raw_before_path_redaction_sha256": "cbdd17f3709d6618c5ff5ce40fa681c312868210918ca26321db394b513a765b",
+    "public_sha256": "6a5ef305039cd1ba12279ad5a90336faa5fb3988636a1775b5ddae0a6e8d3d79",
+    "redaction": "machine paths and host identity only; numerical SCF output retained"
+  },
+  {
+    "file": "psi4_outputs/scan_021.out",
+    "raw_before_path_redaction_sha256": "9a1243bc7bc4e4126b1edf915dc50de78d972d1d652471c58f14fcb56293af9d",
+    "public_sha256": "cf2f66e8f1d3d697b7b80cbb73943e7241ee79c94f8f55dd37d9690e84fc26c7",
+    "redaction": "machine paths and host identity only; numerical SCF output retained"
+  },
+  {
+    "file": "psi4_outputs/scan_022.out",
+    "raw_before_path_redaction_sha256": "fc370cbef095e012b5795eeb204d65c1c2da827188d0802048444cddb93d9948",
+    "public_sha256": "e3a2c79d05e3e93e9f69f0e91a42958b75602e36c998fc3e4bc956223e926df2",
+    "redaction": "machine paths and host identity only; numerical SCF output retained"
+  },
+  {
+    "file": "psi4_outputs/scan_023.out",
+    "raw_before_path_redaction_sha256": "f0ef791d0c271ca30ab6bb24a1b04c7f63b4a5967e4272ec5bfd6c19a53f4c64",
+    "public_sha256": "54be7492209e37e292ef6f90ce8cc838ae7bb340e0dec61032fc3b668531019d",
+    "redaction": "machine paths and host identity only; numerical SCF output retained"
+  },
+  {
+    "file": "psi4_outputs/scan_024.out",
+    "raw_before_path_redaction_sha256": "dbd1641afda619e4b8e40f8aed3f1327fe719da4c852e803fb820d2c753a34ab",
+    "public_sha256": "8f87e429b5b68e52d035c048cbf6e3ff88974020297d8b66bbd516f47f2fff68",
+    "redaction": "machine paths and host identity only; numerical SCF output retained"
+  },
+  {
+    "file": "psi4_outputs/scan_025.out",
+    "raw_before_path_redaction_sha256": "c5867cb3aede4d24e19abbae310026d6e2de62e152f7c68746d777ee23bcc2e0",
+    "public_sha256": "2440db8699ac017846263111aa0142216072545ca22727ef2171ce3f3ed6073c",
+    "redaction": "machine paths and host identity only; numerical SCF output retained"
+  },
+  {
+    "file": "psi4_outputs/scan_026.out",
+    "raw_before_path_redaction_sha256": "3832ce9e06c49526719ed23c6320d27cb9c3bb89011275231d2e3cca90733cf3",
+    "public_sha256": "ffef47fb9459507b5385b0646c3120a96f57b9028de5917d4fcaf7771057568c",
+    "redaction": "machine paths and host identity only; numerical SCF output retained"
+  },
+  {
+    "file": "psi4_outputs/scan_027.out",
+    "raw_before_path_redaction_sha256": "815d7f4a032db148720299ec1d39d4a496af855cf6dc78a43c66e5ccff3e80e0",
+    "public_sha256": "78c82c775eb5f0538e79f64f6a3233cb2cf4392486a7967cec43dd85d6a48a5d",
+    "redaction": "machine paths and host identity only; numerical SCF output retained"
+  },
+  {
+    "file": "psi4_outputs/scan_028.out",
+    "raw_before_path_redaction_sha256": "f2355d09efcc610416db59ef4571f23c25fa5f207be0bc5f470175039080e341",
+    "public_sha256": "c3d2df287a59dee629fa127370ff86b68b51e9ba9806e4bc5e07fdbdccfa2166",
+    "redaction": "machine paths and host identity only; numerical SCF output retained"
+  },
+  {
+    "file": "psi4_outputs/scan_029.out",
+    "raw_before_path_redaction_sha256": "3d70dd8d7b6207c8d3dce11561949cf8d805903fd2049c564a3c47cbf11beb92",
+    "public_sha256": "60726106549c4880011cf739ef4a3efca77416e1f68291e712b3e2587b37b424",
+    "redaction": "machine paths and host identity only; numerical SCF output retained"
+  },
+  {
+    "file": "psi4_outputs/scan_030.out",
+    "raw_before_path_redaction_sha256": "68f7ab9ee19c751ffed6712d3b36e849d9cc3d828a4a0dc573645dba25dda516",
+    "public_sha256": "5f553242eaea7194707679c6e04cf0f308471081d37d7c7ebcd2496331b73606",
+    "redaction": "machine paths and host identity only; numerical SCF output retained"
+  },
+  {
+    "file": "psi4_outputs/scan_031.out",
+    "raw_before_path_redaction_sha256": "89153b7943077c9a27dfc4897f6ed17dc5029c8d6654c4e608cf07d0dd0696a6",
+    "public_sha256": "5bcb11dc82768005e0658f32b8976f267c63d8746fab175524f9c88eee07f84c",
+    "redaction": "machine paths and host identity only; numerical SCF output retained"
+  },
+  {
+    "file": "psi4_outputs/scan_032.out",
+    "raw_before_path_redaction_sha256": "04b15ba3b3a9a210b45332d6c837d9b727611204873c56e38ef0db8a63bb67a4",
+    "public_sha256": "2c80d37647f510744932acd689d0312b04d979ed86c75bd2d6a4a282732d4100",
+    "redaction": "machine paths and host identity only; numerical SCF output retained"
+  },
+  {
+    "file": "psi4_outputs/ood_000.out",
+    "raw_before_path_redaction_sha256": "399f77d638bffe3023a2edbe6ac13c3ccb7a4153ccbaffee4565826ea285b8f2",
+    "public_sha256": "eab6857cab8e83b08a2c2d7c992708630c67331a1a97fab933d21cd464350824",
+    "redaction": "machine paths and host identity only; numerical SCF output retained"
+  },
+  {
+    "file": "psi4_outputs/ood_001.out",
+    "raw_before_path_redaction_sha256": "2843517be35593886476266e26db852f73ef87c0bf35762e2cab32e743f14171",
+    "public_sha256": "8ee5218572f444d6efab60c8b9bfe5c52ca49928d43eead1379c096fbabb1697",
+    "redaction": "machine paths and host identity only; numerical SCF output retained"
+  },
+  {
+    "file": "psi4_outputs/ood_002.out",
+    "raw_before_path_redaction_sha256": "3f3e64c7f4e8c3de67c7d75613b98bf80419093b9e2ac16c706580bd105d9d5c",
+    "public_sha256": "9c048e37dab676f7756bd8783ec20a2756b9b623e2d70fd1f6868b1bc3e423a1",
+    "redaction": "machine paths and host identity only; numerical SCF output retained"
+  },
+  {
+    "file": "psi4_outputs/ood_003.out",
+    "raw_before_path_redaction_sha256": "8c6f5811b286ccc4af91f60500876d5556dd34a8829f3f81e26372ea2cf53ea0",
+    "public_sha256": "7ce461c6823a1b7899d999a4923f556854118024b6d332f73dae23692d4d6bbe",
+    "redaction": "machine paths and host identity only; numerical SCF output retained"
+  },
+  {
+    "file": "psi4_outputs/ood_004.out",
+    "raw_before_path_redaction_sha256": "84b143049550650e261a30836ba9d9c61b66ac0817bd0ad1ce1e675961934374",
+    "public_sha256": "def394e97bced210de13fdec461810ae17baf4397838d7f6e83782ef0b49c14d",
+    "redaction": "machine paths and host identity only; numerical SCF output retained"
+  },
+  {
+    "file": "psi4_outputs/ood_005.out",
+    "raw_before_path_redaction_sha256": "d450be8c5604a05bd3ff4f39645679e387b5f7e5f331cc1a80a6db4e66848821",
+    "public_sha256": "a45106628dfbc4b6dd884006de56a066b7ad7c36715582f1099f2dfa6322524b",
+    "redaction": "machine paths and host identity only; numerical SCF output retained"
+  },
+  {
+    "file": "psi4_outputs/ood_006.out",
+    "raw_before_path_redaction_sha256": "dbf86cb62fcffc2fbd3109874f32b9709b364a5bc09d5064705cd3c1c60afb4b",
+    "public_sha256": "d31d3e328eee76d9598e2c0d4c7b022f69dc486e1b4f8aff340e484000faee59",
+    "redaction": "machine paths and host identity only; numerical SCF output retained"
+  },
+  {
+    "file": "psi4_outputs/ood_007.out",
+    "raw_before_path_redaction_sha256": "ca14e2969472cf8352749ac0ea5a444857ec03610d2c75319575ddf15d36fe3b",
+    "public_sha256": "b3b99396a94720ae31b7fbc1e36f16656895ce68c21fadcaa041229a46926461",
+    "redaction": "machine paths and host identity only; numerical SCF output retained"
+  },
+  {
+    "file": "psi4_outputs/ood_008.out",
+    "raw_before_path_redaction_sha256": "bccc48192ef19d1f183a380ff862691842f740c8d758aa467b818565e5eeda9f",
+    "public_sha256": "d7020db5a83835da240ecc3170fcb73df8faeab5dd12810385e32b370be398d6",
+    "redaction": "machine paths and host identity only; numerical SCF output retained"
+  },
+  {
+    "file": "psi4_outputs/fd_R0.700_h0.0010_plus.out",
+    "raw_before_path_redaction_sha256": "010d48e82442addd9ab9db512b4db3e1bfc42ec1eca7d9f140937f806d4469a0",
+    "public_sha256": "c05a9183d09c24dec9cef9322bcb344e70e8a63dea469bbfa8d98e4c23731044",
+    "redaction": "machine paths and host identity only; numerical SCF output retained"
+  },
+  {
+    "file": "psi4_outputs/fd_R0.700_h0.0010_minus.out",
+    "raw_before_path_redaction_sha256": "b5e6f0538ca2eabd786b26563b7bb2c9309b59b9bca285940b02a54d712b48da",
+    "public_sha256": "20d4acb6d7b6890ba233f6e447128069c8a0aa8f03039532da7cd6e4929ec729",
+    "redaction": "machine paths and host identity only; numerical SCF output retained"
+  },
+  {
+    "file": "psi4_outputs/fd_R0.700_h0.0005_plus.out",
+    "raw_before_path_redaction_sha256": "9928cd5b75768f9e565c49f8097be49b929463558c34ba4ac815468c33b9c435",
+    "public_sha256": "13b75370226aab57fcdcf6eb8dc6b32233678a92fdf2cf6ccdb9f6d7f168e65a",
+    "redaction": "machine paths and host identity only; numerical SCF output retained"
+  },
+  {
+    "file": "psi4_outputs/fd_R0.700_h0.0005_minus.out",
+    "raw_before_path_redaction_sha256": "16a69eb9f72c6618bbdaf2fc20a0f3cc8fdc7111d111657f696c0b180ecde68c",
+    "public_sha256": "d689dfaa5f572b740e9b1c0255745517c7aef780554e8a17408c5dda266cbff9",
+    "redaction": "machine paths and host identity only; numerical SCF output retained"
+  },
+  {
+    "file": "psi4_outputs/fd_R1.140_h0.0010_plus.out",
+    "raw_before_path_redaction_sha256": "9ddd5a7409e72dae7bc4cc4d7e21a1c5ff34e9eb3fbd41d2557be6478a0a4889",
+    "public_sha256": "30a3e64ead845e94e482b7bcfac0a131c3f0f737ebd718176dcf67dbf9d552af",
+    "redaction": "machine paths and host identity only; numerical SCF output retained"
+  },
+  {
+    "file": "psi4_outputs/fd_R1.140_h0.0010_minus.out",
+    "raw_before_path_redaction_sha256": "fbc2fd84954944d21d43a9562b89d9c94994164c6d961c40be2891a2e90f167a",
+    "public_sha256": "58668b13a90ff507ae88c96b915573919acfef7f0d6aa38dd3b7f3b724a1c610",
+    "redaction": "machine paths and host identity only; numerical SCF output retained"
+  },
+  {
+    "file": "psi4_outputs/fd_R1.140_h0.0005_plus.out",
+    "raw_before_path_redaction_sha256": "82acebcab59b4af97df72157386d24e88ca573394ea2e909178ccb445f337020",
+    "public_sha256": "b10d71cd0fffbae3a3d7546e16ec8f8a6fa50eb059e1574d0f96b9d74d173d08",
+    "redaction": "machine paths and host identity only; numerical SCF output retained"
+  },
+  {
+    "file": "psi4_outputs/fd_R1.140_h0.0005_minus.out",
+    "raw_before_path_redaction_sha256": "c2231909060562f0a0b5fad4d18d938de3a01419bf576a02f2c65b2e648f214b",
+    "public_sha256": "9f33587903188dbd2c30ed79a39cf274a233b49140e79eda5019fb4aafbf3c92",
+    "redaction": "machine paths and host identity only; numerical SCF output retained"
+  },
+  {
+    "file": "psi4_outputs/fd_R1.780_h0.0010_plus.out",
+    "raw_before_path_redaction_sha256": "1edcb75d65605d8bbe12ec8f8c7dbc0b8b261a4829b120d0d0bb0ab319d94ba2",
+    "public_sha256": "0b789f9e856a3bb21907d7f935e8e722aba6f974501f86011137c8f6f9d458a6",
+    "redaction": "machine paths and host identity only; numerical SCF output retained"
+  },
+  {
+    "file": "psi4_outputs/fd_R1.780_h0.0010_minus.out",
+    "raw_before_path_redaction_sha256": "2f92c1e51d61aca19587cd0b1fd3e62371c0d07aeaa3a32136a663c4a40302a5",
+    "public_sha256": "437e85c80e9af499ca0c6c98a399a7085b5d1e940dc1df75fd9b2ae11d221ef5",
+    "redaction": "machine paths and host identity only; numerical SCF output retained"
+  },
+  {
+    "file": "psi4_outputs/fd_R1.780_h0.0005_plus.out",
+    "raw_before_path_redaction_sha256": "86b9420339068913b575479f640960ae26172bbdf1d3d1db091ca1169a175088",
+    "public_sha256": "2ef412de36bc83e6bb42930cf8d589db1acf20d5e3a97d844da85ef1be028ce9",
+    "redaction": "machine paths and host identity only; numerical SCF output retained"
+  },
+  {
+    "file": "psi4_outputs/fd_R1.780_h0.0005_minus.out",
+    "raw_before_path_redaction_sha256": "2baa870adc48a61d3ffd2cae80c26c0b376e91998d5d0c645bd0db0d5ac5f659",
+    "public_sha256": "f1538e4e4c530b9cfc83cf5688fe9caac9f54fcb6775e32e1ede7eef1697cfe9",
+    "redaction": "machine paths and host identity only; numerical SCF output retained"
+  },
+  {
+    "file": "psi4_outputs/isolated_H_doublet.out",
+    "raw_before_path_redaction_sha256": "2ed4fafcdad87e0879e63efd69f3256e2e023d0b326660a69482fec64a1e61e2",
+    "public_sha256": "c6b68403ea9dd5ad687684fb20d52bde273d508adf1be17aeab56e49df64e41b",
+    "redaction": "machine paths and host identity only; numerical SCF output retained"
+  }
+]

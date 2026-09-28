@@ -1,0 +1,17 @@
+{
+  "exit_code": 0,
+  "started_utc": "2026-09-28T10:40:27.157827+00:00",
+  "elapsed_seconds": 12.306862100027502,
+  "source_sha256": "0f84b9d10ab03c3bce39adc7a38c9e33a6f8d0461264f09f0a55d49d72c696f1",
+  "command": "python quantumequi/scripts/run_source.py --child",
+  "physical_instrument_connected": false,
+  "source_claims_endorsed": false,
+  "output_sha256": {
+    "captured_results.json": "20d9f94ff459baf261427eac328dd72ba1d0a403e6e5daaba7b22d5972c5ae91",
+    "figures_quantum/Fig_QuantumEquiNEB_Comprehensive_Panel.png": "eb4967035a7fdf4f34e1c416d0ac559d2ec6ea551f80d31a7f207df5c1fa2b9c",
+    "quantum_neb_results.json": "a2ba439665fa98b9cbf59ad7dd154e57afd31e1db624cd68cd5f0c10a3501b92",
+    "stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout.log": "8f3bb91110b8851c5bd0e716710cf75850d84993d1ee759071abf9f39cab962d",
+    "untrained_source_weights.pt": "9ce136c0dc988371f575f6381b925911be8c0b89662b86e08b07132daa024679"
+  }
+}

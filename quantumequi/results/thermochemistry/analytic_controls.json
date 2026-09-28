@@ -1,0 +1,357 @@
+{
+  "linear_minimum": {
+    "coords_A": [
+      [
+        -0.7,
+        0.0,
+        0.0
+      ],
+      [
+        0.7,
+        0.0,
+        0.0
+      ]
+    ],
+    "masses_amu": [
+      12.0,
+      16.0
+    ],
+    "energy_kcal_mol": 0.0,
+    "hessian_error_AD_vs_analytic": 0.0,
+    "analysis": {
+      "energy_unit": "kcal/mol",
+      "length_unit": "angstrom",
+      "mass_unit": "amu",
+      "frequency_factor_cm": 108.59135853528242,
+      "rigid_rank": 5,
+      "geometry_type": "linear",
+      "rotational_dof": 2,
+      "inertia_amu_A2": [
+        0.0,
+        13.439999999999998,
+        13.439999999999998
+      ],
+      "raw_eigenvalues": [
+        -4.440892098500626e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        10.208333333333336
+      ],
+      "raw_signed_frequencies_cm": [
+        -2.288391768889364e-06,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        346.9546302827812
+      ],
+      "projected_eigenvalues": [
+        10.208333333333336
+      ],
+      "projected_signed_frequencies_cm": [
+        346.9546302827812
+      ],
+      "negative_internal_modes": 0,
+      "near_zero_internal_modes": 0,
+      "raw_negative_eigenvalues_strict": 1,
+      "stationary": true,
+      "maximum_atomic_gradient": 0.0,
+      "stationarity_tolerance": 1e-05,
+      "frequency_zero_tolerance_cm": 0.01,
+      "stationary_point_classification": "minimum",
+      "rigid_hessian_residual_max": 6.38378239159465e-16,
+      "hessian_asymmetry_max": 0.0
+    }
+  },
+  "linear_saddle": {
+    "coords_A": [
+      [
+        -0.7,
+        0.0,
+        0.0
+      ],
+      [
+        0.7,
+        0.0,
+        0.0
+      ]
+    ],
+    "masses_amu": [
+      12.0,
+      16.0
+    ],
+    "energy_kcal_mol": 0.0,
+    "hessian_error_AD_vs_analytic": 0.0,
+    "analysis": {
+      "energy_unit": "kcal/mol",
+      "length_unit": "angstrom",
+      "mass_unit": "amu",
+      "frequency_factor_cm": 108.59135853528242,
+      "rigid_rank": 5,
+      "geometry_type": "linear",
+      "rotational_dof": 2,
+      "inertia_amu_A2": [
+        0.0,
+        13.439999999999998,
+        13.439999999999998
+      ],
+      "raw_eigenvalues": [
+        -10.208333333333336,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        4.440892098500626e-16
+      ],
+      "raw_signed_frequencies_cm": [
+        -346.9546302827812,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.288391768889364e-06
+      ],
+      "projected_eigenvalues": [
+        -10.208333333333336
+      ],
+      "projected_signed_frequencies_cm": [
+        -346.9546302827812
+      ],
+      "negative_internal_modes": 1,
+      "near_zero_internal_modes": 0,
+      "raw_negative_eigenvalues_strict": 1,
+      "stationary": true,
+      "maximum_atomic_gradient": 0.0,
+      "stationarity_tolerance": 1e-05,
+      "frequency_zero_tolerance_cm": 0.01,
+      "stationary_point_classification": "first_order_saddle",
+      "rigid_hessian_residual_max": 6.38378239159465e-16,
+      "hessian_asymmetry_max": 0.0
+    }
+  },
+  "nonlinear_minimum": {
+    "coords_A": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.4,
+        0.0,
+        0.0
+      ],
+      [
+        0.3,
+        1.1,
+        0.0
+      ]
+    ],
+    "masses_amu": [
+      12.0,
+      16.0,
+      14.0
+    ],
+    "energy_kcal_mol": 0.0,
+    "hessian_error_AD_vs_analytic": 3.552713678800501e-15,
+    "analysis": {
+      "energy_unit": "kcal/mol",
+      "length_unit": "angstrom",
+      "mass_unit": "amu",
+      "frequency_factor_cm": 108.59135853528242,
+      "rigid_rank": 6,
+      "geometry_type": "nonlinear",
+      "rotational_dof": 3,
+      "inertia_amu_A2": [
+        7.932555609560404,
+        19.134111057106267,
+        27.06666666666667
+      ],
+      "raw_eigenvalues": [
+        -5.924431054229012e-16,
+        -7.105844559657364e-32,
+        0.0,
+        1.205409302533707e-16,
+        6.741725283199422e-16,
+        1.157878313960204e-15,
+        4.641279426651015,
+        6.316121977145457,
+        12.137836691441628
+      ],
+      "raw_signed_frequencies_cm": [
+        -2.643130409178682e-06,
+        -2.894697046118434e-14,
+        0.0,
+        1.1922368356790095e-06,
+        2.819556438592606e-06,
+        3.6951045119330533e-06,
+        233.9451921170186,
+        272.9106731712944,
+        378.3257584527627
+      ],
+      "projected_eigenvalues": [
+        4.641279426651014,
+        6.316121977145457,
+        12.137836691441626
+      ],
+      "projected_signed_frequencies_cm": [
+        233.94519211701854,
+        272.9106731712944,
+        378.32575845276267
+      ],
+      "negative_internal_modes": 0,
+      "near_zero_internal_modes": 0,
+      "raw_negative_eigenvalues_strict": 2,
+      "stationary": true,
+      "maximum_atomic_gradient": 0.0,
+      "stationarity_tolerance": 1e-05,
+      "frequency_zero_tolerance_cm": 0.01,
+      "stationary_point_classification": "minimum",
+      "rigid_hessian_residual_max": 9.531097341694765e-16,
+      "hessian_asymmetry_max": 3.552713678800501e-15
+    }
+  },
+  "nonlinear_saddle": {
+    "coords_A": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.4,
+        0.0,
+        0.0
+      ],
+      [
+        0.3,
+        1.1,
+        0.0
+      ]
+    ],
+    "masses_amu": [
+      12.0,
+      16.0,
+      14.0
+    ],
+    "energy_kcal_mol": 0.0,
+    "hessian_error_AD_vs_analytic": 3.552713678800501e-15,
+    "analysis": {
+      "energy_unit": "kcal/mol",
+      "length_unit": "angstrom",
+      "mass_unit": "amu",
+      "frequency_factor_cm": 108.59135853528242,
+      "rigid_rank": 6,
+      "geometry_type": "nonlinear",
+      "rotational_dof": 3,
+      "inertia_amu_A2": [
+        7.932555609560404,
+        19.134111057106267,
+        27.06666666666667
+      ],
+      "raw_eigenvalues": [
+        -9.740165633430902,
+        -2.3764634941390468e-15,
+        -4.9433004373975157e-17,
+        0.0,
+        3.760632408337631e-32,
+        8.186502970215245e-17,
+        1.5420250681254155e-15,
+        4.786300711872111,
+        7.6324363501302175
+      ],
+      "raw_signed_frequencies_cm": [
+        -338.9053599900007,
+        -5.293718458924067e-06,
+        -7.634907320065977e-07,
+        0.0,
+        2.105841638162875e-14,
+        9.825269651288638e-07,
+        4.264233556040906e-06,
+        237.57200165066544,
+        300.00387341942996
+      ],
+      "projected_eigenvalues": [
+        -9.740165633430903,
+        4.786300711872111,
+        7.632436350130219
+      ],
+      "projected_signed_frequencies_cm": [
+        -338.90535999000076,
+        237.57200165066544,
+        300.00387341943
+      ],
+      "negative_internal_modes": 1,
+      "near_zero_internal_modes": 0,
+      "raw_negative_eigenvalues_strict": 3,
+      "stationary": true,
+      "maximum_atomic_gradient": 0.0,
+      "stationarity_tolerance": 1e-05,
+      "frequency_zero_tolerance_cm": 0.01,
+      "stationary_point_classification": "first_order_saddle",
+      "rigid_hessian_residual_max": 8.183910412758751e-16,
+      "hessian_asymmetry_max": 3.552713678800501e-15
+    }
+  },
+  "displaced_nonstationary": {
+    "analysis": {
+      "energy_unit": "kcal/mol",
+      "length_unit": "angstrom",
+      "mass_unit": "amu",
+      "frequency_factor_cm": 108.59135853528242,
+      "rigid_rank": 6,
+      "geometry_type": "nonlinear",
+      "rotational_dof": 3,
+      "inertia_amu_A2": [
+        8.067776514083754,
+        21.024947295440057,
+        29.09272380952381
+      ],
+      "raw_eigenvalues": [
+        -1.2261029200167684e-15,
+        1.8158604143768158e-16,
+        8.00494367480879e-16,
+        0.1702722536124199,
+        0.43495653867802686,
+        0.6225868669742038,
+        4.949302939795092,
+        6.356351002981023,
+        12.279685411933066
+      ],
+      "raw_signed_frequencies_cm": [
+        -3.8024081292653584e-06,
+        1.4633105272795156e-06,
+        3.0723763020292716e-06,
+        44.80920187290384,
+        71.61734196472031,
+        85.68311445406111,
+        241.58350894332284,
+        273.778413225818,
+        380.5299875376538
+      ],
+      "projected_eigenvalues": [
+        4.938792553624284,
+        6.356236665292941,
+        12.279625209663367
+      ],
+      "projected_signed_frequencies_cm": [
+        241.32685811098423,
+        273.77595085931466,
+        380.52905474514944
+      ],
+      "negative_internal_modes": 0,
+      "near_zero_internal_modes": 0,
+      "raw_negative_eigenvalues_strict": 1,
+      "stationary": false,
+      "maximum_atomic_gradient": 7.9724047704821945,
+      "stationarity_tolerance": 1e-05,
+      "frequency_zero_tolerance_cm": 0.01,
+      "stationary_point_classification": "nonstationary",
+      "rigid_hessian_residual_max": 0.3616563104532919,
+      "hessian_asymmetry_max": 7.105427357601002e-15
+    },
+    "RRHO_rejection": "RRHO rejected: geometry is nonstationary"
+  }
+}

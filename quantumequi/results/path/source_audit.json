@@ -1,0 +1,201 @@
+{
+  "scope": "Exact unchanged random-weight source NEB replay; no chemical potential validation",
+  "cases": [
+    {
+      "direction": "forward",
+      "source_return": {
+        "status": "converged",
+        "neb_iterations": 30,
+        "climbing_image_engaged": true,
+        "transition_state_image_idx": 1,
+        "reaction_profile_energies_relative_kcal": [
+          0.0,
+          -0.01,
+          -0.02,
+          -0.03,
+          -0.03,
+          -0.04,
+          -0.04
+        ],
+        "activation_energy_barrier_kcal_mol": -0.01,
+        "reaction_driving_force_kcal_mol": -0.04,
+        "transition_state_coordinates": [
+          [
+            0.0005472022687600976,
+            7.08561638443642e-12,
+            0.006393335396930883
+          ],
+          [
+            1.9290500250414053,
+            6.973335984031336e-12,
+            0.005643282508552535
+          ],
+          [
+            -1.9292570065390717,
+            -1.4724784806920437e-11,
+            0.0037283434900846004
+          ],
+          [
+            0.00035604060746709454,
+            1.9288534213078776,
+            0.0045422193260326316
+          ],
+          [
+            0.0003560405631139472,
+            -1.92885342168591,
+            0.004542219369981977
+          ],
+          [
+            0.0017431424565965913,
+            -7.050602187050446e-12,
+            2.7117313810920245
+          ],
+          [
+            1.3389585065684129,
+            -2.2470198860098513e-12,
+            2.8694071331952604
+          ],
+          [
+            0.19702410386879987,
+            -2.9059076619555855e-13,
+            3.3905935481141647
+          ]
+        ]
+      },
+      "source_energy_force_calls": 210,
+      "final_band_energy_force_calls": 7,
+      "iterations": 30,
+      "source_reported_candidate_index": 1,
+      "fresh_highest_interior_index": 1,
+      "source_candidate_true_max_atomic_force_nominal": 0.018339870497584343,
+      "final_max_projected_atomic_force_nominal": 0.020099554222369077,
+      "endpoint_max_atomic_forces_nominal": [
+        0.018006322905421257,
+        0.019783111289143562
+      ],
+      "max_stale_energy_difference_nominal": 6.258487701416016e-05,
+      "fresh_forward_barrier_candidate_nominal": -0.010884642601013184,
+      "fresh_max_all_images_relative_nominal": 0.0,
+      "minimum_final_band_pair_distance_A": 0.48042612437904,
+      "sequential_update_reconstruction_max_error_A": 0.0,
+      "same_step_snapshot_vs_sequential_max_difference_A": 4.9466455143587496e-05,
+      "capture_match": true
+    },
+    {
+      "direction": "reverse",
+      "source_return": {
+        "status": "converged",
+        "neb_iterations": 30,
+        "climbing_image_engaged": true,
+        "transition_state_image_idx": 5,
+        "reaction_profile_energies_relative_kcal": [
+          0.0,
+          -0.0,
+          0.0,
+          0.01,
+          0.02,
+          0.02,
+          0.04
+        ],
+        "activation_energy_barrier_kcal_mol": 0.02,
+        "reaction_driving_force_kcal_mol": 0.04,
+        "transition_state_coordinates": [
+          [
+            0.0005463059310148047,
+            6.829215962767531e-12,
+            0.006387712165132471
+          ],
+          [
+            1.9290708164709958,
+            3.354727806521665e-11,
+            0.005637533426691197
+          ],
+          [
+            -1.9292780149518702,
+            5.7085101091417703e-11,
+            0.0037246573899866963
+          ],
+          [
+            0.00035537443488558137,
+            1.9288746633155782,
+            0.004537619641018761
+          ],
+          [
+            0.00035537448237288723,
+            -1.9288746628703737,
+            0.004537619670740031
+          ],
+          [
+            0.0017411524269212914,
+            -2.1476299478590407e-12,
+            2.711744760946777
+          ],
+          [
+            1.33896228106967,
+            -1.725668551336066e-11,
+            2.869419599737868
+          ],
+          [
+            0.1970007919541526,
+            -1.6111033719619993e-11,
+            3.3906736665812645
+          ]
+        ]
+      },
+      "source_energy_force_calls": 210,
+      "final_band_energy_force_calls": 7,
+      "iterations": 30,
+      "source_reported_candidate_index": 5,
+      "fresh_highest_interior_index": 5,
+      "source_candidate_true_max_atomic_force_nominal": 0.01833990588784218,
+      "final_max_projected_atomic_force_nominal": 0.020096471799315882,
+      "endpoint_max_atomic_forces_nominal": [
+        0.019783111289143562,
+        0.018006322905421257
+      ],
+      "max_stale_energy_difference_nominal": 6.258487701416016e-05,
+      "fresh_forward_barrier_candidate_nominal": 0.024945497512817383,
+      "fresh_max_all_images_relative_nominal": 0.03582727909088135,
+      "minimum_final_band_pair_distance_A": 0.4804131926931618,
+      "sequential_update_reconstruction_max_error_A": 0.0,
+      "same_step_snapshot_vs_sequential_max_difference_A": 9.847852071587226e-06,
+      "capture_match": null
+    }
+  ],
+  "reversal_mapped_max_coordinate_difference_A": 0.00027376195827777394,
+  "reversal_mapped_RMS_coordinate_difference_A": 3.173211629223624e-05,
+  "source_has_force_stop": false,
+  "source_is_inplace_sequential": true,
+  "source_forces_evaluated_on_preupdate_snapshot": true,
+  "source_tangent_uses_already_updated_left_neighbor": true,
+  "source_output_energy_one_update_stale": true,
+  "source_energies_are_nominal_kcal_mol_not_calibrated": true,
+  "counts": {
+    "unchanged_source_path_runs": 2,
+    "source_iterations": 60,
+    "source_energy_force_calls": 420,
+    "final_band_energy_force_calls": 14,
+    "new_training_runs": 0,
+    "DFT_calculations": 0
+  },
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.4.6",
+    "torch": "2.10.0"
+  },
+  "runtime_seconds": 5.393483699997887,
+  "source_sha256": {
+    "quantumequi/source/quantum_egnn_neb_engine.py": "0f84b9d10ab03c3bce39adc7a38c9e33a6f8d0461264f09f0a55d49d72c696f1",
+    "quantumequi/results/original/captured_results.json": "20d9f94ff459baf261427eac328dd72ba1d0a403e6e5daaba7b22d5972c5ae91",
+    "quantumequi/results/original/untrained_source_weights.pt": "9ce136c0dc988371f575f6381b925911be8c0b89662b86e08b07132daa024679",
+    "quantumequi/results/path/source_audit_script_snapshot.py.txt": "ac59d95acabbf02081f31f7034bcea4d9ff2cc9d85bcff0badfa5a5fd7eb4744"
+  },
+  "output_sha256": {
+    "source_final_coordinates.json": "6231a6b7264052b6ccf921d070719d0ffb4a51c4174dad91bf1f64e1e5685042",
+    "source_final_images.csv": "754e235c71ccf252c57b34d845ea44066e1a4d5d93edc70ff6ae1c0bfe82e37a",
+    "source_forward_evaluations.csv": "aabb1afb4061ebecc2ab77abf3dca479e0234b92c493b9c332e7320e9622439e",
+    "source_forward_history.npz": "4fbd5c3517079eaf489b152d197ce9fd1e52ca091d86ef2d65795e4e4bd20852",
+    "source_reverse_evaluations.csv": "32bff0f11588e22033151158d341c9bf8a32f4ff9c1d0b6f7d2e099e40bea894",
+    "source_reverse_history.npz": "46b6dc6551051aa256ddcde7cb9082b1b5243680386f4042e05846f19b402e83"
+  }
+}

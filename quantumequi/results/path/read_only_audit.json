@@ -1,0 +1,993 @@
+{
+  "scope": "Saved-data SHA256, coordinate/force and analytic algebra audit; no model forward, SCF, optimization or training rerun",
+  "checks_total": 246,
+  "checks_passed": 246,
+  "all_passed": true,
+  "source_model_forward_calls": 0,
+  "checks": [
+    {
+      "check": "source_hash:path:quantumequi/scripts/path_reviewed.py",
+      "passed": true
+    },
+    {
+      "check": "source_hash:path:synthapore/scripts/dynamics_reviewed.py",
+      "passed": true
+    },
+    {
+      "check": "output_hash:path:analytic_cases.csv",
+      "passed": true
+    },
+    {
+      "check": "output_hash:path:analytic_final_images.csv",
+      "passed": true
+    },
+    {
+      "check": "output_hash:path:analytic_force_history.csv",
+      "passed": true
+    },
+    {
+      "check": "output_hash:path:analytic_references.json",
+      "passed": true
+    },
+    {
+      "check": "output_hash:path:analytic_reversal.json",
+      "passed": true
+    },
+    {
+      "check": "source_hash:pilot:quantumequi/scripts/path_reviewed.py",
+      "passed": true
+    },
+    {
+      "check": "source_hash:pilot:synthapore/scripts/dynamics_reviewed.py",
+      "passed": true
+    },
+    {
+      "check": "output_hash:pilot:analytic_cases.csv",
+      "passed": true
+    },
+    {
+      "check": "output_hash:pilot:analytic_final_images.csv",
+      "passed": true
+    },
+    {
+      "check": "output_hash:pilot:analytic_force_history.csv",
+      "passed": true
+    },
+    {
+      "check": "output_hash:pilot:analytic_references.json",
+      "passed": true
+    },
+    {
+      "check": "output_hash:pilot:analytic_reversal.json",
+      "passed": true
+    },
+    {
+      "check": "source_replay_input_hash:quantumequi/source/quantum_egnn_neb_engine.py",
+      "passed": true
+    },
+    {
+      "check": "source_replay_input_hash:quantumequi/results/original/captured_results.json",
+      "passed": true
+    },
+    {
+      "check": "source_replay_input_hash:quantumequi/results/original/untrained_source_weights.pt",
+      "passed": true
+    },
+    {
+      "check": "source_replay_input_hash:quantumequi/results/path/source_audit_script_snapshot.py.txt",
+      "passed": true
+    },
+    {
+      "check": "source_replay_output_hash:source_final_coordinates.json",
+      "passed": true
+    },
+    {
+      "check": "source_replay_output_hash:source_final_images.csv",
+      "passed": true
+    },
+    {
+      "check": "source_replay_output_hash:source_forward_evaluations.csv",
+      "passed": true
+    },
+    {
+      "check": "source_replay_output_hash:source_forward_history.npz",
+      "passed": true
+    },
+    {
+      "check": "source_replay_output_hash:source_reverse_evaluations.csv",
+      "passed": true
+    },
+    {
+      "check": "source_replay_output_hash:source_reverse_history.npz",
+      "passed": true
+    },
+    {
+      "check": "main_table_counts",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n7_tol0.001_seed11:fresh_energy",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n7_tol0.001_seed11:force_criterion",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n7_tol0.001_seed11:Hessian_index",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n7_tol0.001_seed11:history_count",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n7_tol0.001_seed11:fixed_endpoints",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n7_tol0.001_seed11:point_accounting",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n7_tol0.001_seed22:fresh_energy",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n7_tol0.001_seed22:force_criterion",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n7_tol0.001_seed22:Hessian_index",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n7_tol0.001_seed22:history_count",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n7_tol0.001_seed22:fixed_endpoints",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n7_tol0.001_seed22:point_accounting",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n7_tol0.001_seed33:fresh_energy",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n7_tol0.001_seed33:force_criterion",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n7_tol0.001_seed33:Hessian_index",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n7_tol0.001_seed33:history_count",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n7_tol0.001_seed33:fixed_endpoints",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n7_tol0.001_seed33:point_accounting",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n7_tol1e-05_seed11:fresh_energy",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n7_tol1e-05_seed11:force_criterion",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n7_tol1e-05_seed11:Hessian_index",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n7_tol1e-05_seed11:history_count",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n7_tol1e-05_seed11:fixed_endpoints",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n7_tol1e-05_seed11:point_accounting",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n7_tol1e-05_seed22:fresh_energy",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n7_tol1e-05_seed22:force_criterion",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n7_tol1e-05_seed22:Hessian_index",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n7_tol1e-05_seed22:history_count",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n7_tol1e-05_seed22:fixed_endpoints",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n7_tol1e-05_seed22:point_accounting",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n7_tol1e-05_seed33:fresh_energy",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n7_tol1e-05_seed33:force_criterion",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n7_tol1e-05_seed33:Hessian_index",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n7_tol1e-05_seed33:history_count",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n7_tol1e-05_seed33:fixed_endpoints",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n7_tol1e-05_seed33:point_accounting",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n11_tol0.001_seed11:fresh_energy",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n11_tol0.001_seed11:force_criterion",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n11_tol0.001_seed11:Hessian_index",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n11_tol0.001_seed11:history_count",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n11_tol0.001_seed11:fixed_endpoints",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n11_tol0.001_seed11:point_accounting",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n11_tol0.001_seed22:fresh_energy",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n11_tol0.001_seed22:force_criterion",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n11_tol0.001_seed22:Hessian_index",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n11_tol0.001_seed22:history_count",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n11_tol0.001_seed22:fixed_endpoints",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n11_tol0.001_seed22:point_accounting",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n11_tol0.001_seed33:fresh_energy",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n11_tol0.001_seed33:force_criterion",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n11_tol0.001_seed33:Hessian_index",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n11_tol0.001_seed33:history_count",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n11_tol0.001_seed33:fixed_endpoints",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n11_tol0.001_seed33:point_accounting",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n11_tol1e-05_seed11:fresh_energy",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n11_tol1e-05_seed11:force_criterion",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n11_tol1e-05_seed11:Hessian_index",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n11_tol1e-05_seed11:history_count",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n11_tol1e-05_seed11:fixed_endpoints",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n11_tol1e-05_seed11:point_accounting",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n11_tol1e-05_seed22:fresh_energy",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n11_tol1e-05_seed22:force_criterion",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n11_tol1e-05_seed22:Hessian_index",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n11_tol1e-05_seed22:history_count",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n11_tol1e-05_seed22:fixed_endpoints",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n11_tol1e-05_seed22:point_accounting",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n11_tol1e-05_seed33:fresh_energy",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n11_tol1e-05_seed33:force_criterion",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n11_tol1e-05_seed33:Hessian_index",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n11_tol1e-05_seed33:history_count",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n11_tol1e-05_seed33:fixed_endpoints",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n11_tol1e-05_seed33:point_accounting",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n17_tol0.001_seed11:fresh_energy",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n17_tol0.001_seed11:force_criterion",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n17_tol0.001_seed11:Hessian_index",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n17_tol0.001_seed11:history_count",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n17_tol0.001_seed11:fixed_endpoints",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n17_tol0.001_seed11:point_accounting",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n17_tol0.001_seed22:fresh_energy",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n17_tol0.001_seed22:force_criterion",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n17_tol0.001_seed22:Hessian_index",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n17_tol0.001_seed22:history_count",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n17_tol0.001_seed22:fixed_endpoints",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n17_tol0.001_seed22:point_accounting",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n17_tol0.001_seed33:fresh_energy",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n17_tol0.001_seed33:force_criterion",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n17_tol0.001_seed33:Hessian_index",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n17_tol0.001_seed33:history_count",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n17_tol0.001_seed33:fixed_endpoints",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n17_tol0.001_seed33:point_accounting",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n17_tol1e-05_seed11:fresh_energy",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n17_tol1e-05_seed11:force_criterion",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n17_tol1e-05_seed11:Hessian_index",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n17_tol1e-05_seed11:history_count",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n17_tol1e-05_seed11:fixed_endpoints",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n17_tol1e-05_seed11:point_accounting",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n17_tol1e-05_seed22:fresh_energy",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n17_tol1e-05_seed22:force_criterion",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n17_tol1e-05_seed22:Hessian_index",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n17_tol1e-05_seed22:history_count",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n17_tol1e-05_seed22:fixed_endpoints",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n17_tol1e-05_seed22:point_accounting",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n17_tol1e-05_seed33:fresh_energy",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n17_tol1e-05_seed33:force_criterion",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n17_tol1e-05_seed33:Hessian_index",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n17_tol1e-05_seed33:history_count",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n17_tol1e-05_seed33:fixed_endpoints",
+      "passed": true
+    },
+    {
+      "check": "tilted_sine_2d_n17_tol1e-05_seed33:point_accounting",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n7_tol0.001_seed11:fresh_energy",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n7_tol0.001_seed11:force_criterion",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n7_tol0.001_seed11:Hessian_index",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n7_tol0.001_seed11:history_count",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n7_tol0.001_seed11:fixed_endpoints",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n7_tol0.001_seed11:point_accounting",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n7_tol0.001_seed22:fresh_energy",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n7_tol0.001_seed22:force_criterion",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n7_tol0.001_seed22:Hessian_index",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n7_tol0.001_seed22:history_count",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n7_tol0.001_seed22:fixed_endpoints",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n7_tol0.001_seed22:point_accounting",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n7_tol0.001_seed33:fresh_energy",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n7_tol0.001_seed33:force_criterion",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n7_tol0.001_seed33:Hessian_index",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n7_tol0.001_seed33:history_count",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n7_tol0.001_seed33:fixed_endpoints",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n7_tol0.001_seed33:point_accounting",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n7_tol1e-05_seed11:fresh_energy",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n7_tol1e-05_seed11:force_criterion",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n7_tol1e-05_seed11:Hessian_index",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n7_tol1e-05_seed11:history_count",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n7_tol1e-05_seed11:fixed_endpoints",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n7_tol1e-05_seed11:point_accounting",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n7_tol1e-05_seed22:fresh_energy",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n7_tol1e-05_seed22:force_criterion",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n7_tol1e-05_seed22:Hessian_index",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n7_tol1e-05_seed22:history_count",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n7_tol1e-05_seed22:fixed_endpoints",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n7_tol1e-05_seed22:point_accounting",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n7_tol1e-05_seed33:fresh_energy",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n7_tol1e-05_seed33:force_criterion",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n7_tol1e-05_seed33:Hessian_index",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n7_tol1e-05_seed33:history_count",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n7_tol1e-05_seed33:fixed_endpoints",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n7_tol1e-05_seed33:point_accounting",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n11_tol0.001_seed11:fresh_energy",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n11_tol0.001_seed11:force_criterion",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n11_tol0.001_seed11:Hessian_index",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n11_tol0.001_seed11:history_count",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n11_tol0.001_seed11:fixed_endpoints",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n11_tol0.001_seed11:point_accounting",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n11_tol0.001_seed22:fresh_energy",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n11_tol0.001_seed22:force_criterion",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n11_tol0.001_seed22:Hessian_index",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n11_tol0.001_seed22:history_count",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n11_tol0.001_seed22:fixed_endpoints",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n11_tol0.001_seed22:point_accounting",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n11_tol0.001_seed33:fresh_energy",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n11_tol0.001_seed33:force_criterion",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n11_tol0.001_seed33:Hessian_index",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n11_tol0.001_seed33:history_count",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n11_tol0.001_seed33:fixed_endpoints",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n11_tol0.001_seed33:point_accounting",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n11_tol1e-05_seed11:fresh_energy",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n11_tol1e-05_seed11:force_criterion",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n11_tol1e-05_seed11:Hessian_index",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n11_tol1e-05_seed11:history_count",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n11_tol1e-05_seed11:fixed_endpoints",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n11_tol1e-05_seed11:point_accounting",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n11_tol1e-05_seed22:fresh_energy",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n11_tol1e-05_seed22:force_criterion",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n11_tol1e-05_seed22:Hessian_index",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n11_tol1e-05_seed22:history_count",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n11_tol1e-05_seed22:fixed_endpoints",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n11_tol1e-05_seed22:point_accounting",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n11_tol1e-05_seed33:fresh_energy",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n11_tol1e-05_seed33:force_criterion",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n11_tol1e-05_seed33:Hessian_index",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n11_tol1e-05_seed33:history_count",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n11_tol1e-05_seed33:fixed_endpoints",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n11_tol1e-05_seed33:point_accounting",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n17_tol0.001_seed11:fresh_energy",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n17_tol0.001_seed11:force_criterion",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n17_tol0.001_seed11:Hessian_index",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n17_tol0.001_seed11:history_count",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n17_tol0.001_seed11:fixed_endpoints",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n17_tol0.001_seed11:point_accounting",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n17_tol0.001_seed22:fresh_energy",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n17_tol0.001_seed22:force_criterion",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n17_tol0.001_seed22:Hessian_index",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n17_tol0.001_seed22:history_count",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n17_tol0.001_seed22:fixed_endpoints",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n17_tol0.001_seed22:point_accounting",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n17_tol0.001_seed33:fresh_energy",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n17_tol0.001_seed33:force_criterion",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n17_tol0.001_seed33:Hessian_index",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n17_tol0.001_seed33:history_count",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n17_tol0.001_seed33:fixed_endpoints",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n17_tol0.001_seed33:point_accounting",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n17_tol1e-05_seed11:fresh_energy",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n17_tol1e-05_seed11:force_criterion",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n17_tol1e-05_seed11:Hessian_index",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n17_tol1e-05_seed11:history_count",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n17_tol1e-05_seed11:fixed_endpoints",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n17_tol1e-05_seed11:point_accounting",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n17_tol1e-05_seed22:fresh_energy",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n17_tol1e-05_seed22:force_criterion",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n17_tol1e-05_seed22:Hessian_index",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n17_tol1e-05_seed22:history_count",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n17_tol1e-05_seed22:fixed_endpoints",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n17_tol1e-05_seed22:point_accounting",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n17_tol1e-05_seed33:fresh_energy",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n17_tol1e-05_seed33:force_criterion",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n17_tol1e-05_seed33:Hessian_index",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n17_tol1e-05_seed33:history_count",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n17_tol1e-05_seed33:fixed_endpoints",
+      "passed": true
+    },
+    {
+      "check": "periodic_curve_3d_n17_tol1e-05_seed33:point_accounting",
+      "passed": true
+    },
+    {
+      "check": "forward:saved_vector_force_residual",
+      "passed": true
+    },
+    {
+      "check": "forward:complete_loop_image_grid",
+      "passed": true
+    },
+    {
+      "check": "reverse:saved_vector_force_residual",
+      "passed": true
+    },
+    {
+      "check": "reverse:complete_loop_image_grid",
+      "passed": true
+    },
+    {
+      "check": "20_saved_tests_pass",
+      "passed": true
+    }
+  ]
+}

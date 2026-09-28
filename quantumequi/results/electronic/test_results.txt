@@ -1,0 +1,25 @@
+test_all_null_overlap_rejected (test_quantumequi_electronic.GeneralizedEigenTests.test_all_null_overlap_rejected) ... ok
+test_clipping_solves_modified_metric (test_quantumequi_electronic.GeneralizedEigenTests.test_clipping_solves_modified_metric) ... ok
+test_consistent_psd_has_full_residual_zero (test_quantumequi_electronic.GeneralizedEigenTests.test_consistent_psd_has_full_residual_zero) ... ok
+test_inconsistent_psd_projected_solution_is_not_full_solution (test_quantumequi_electronic.GeneralizedEigenTests.test_inconsistent_psd_projected_solution_is_not_full_solution) ... ok
+test_metric_orthonormality (test_quantumequi_electronic.GeneralizedEigenTests.test_metric_orthonormality) ... ok
+test_nonsingular_congruence_preserves_spectrum (test_quantumequi_electronic.GeneralizedEigenTests.test_nonsingular_congruence_preserves_spectrum) ... ok
+test_occupancy_capacity_enforced (test_quantumequi_electronic.GeneralizedEigenTests.test_occupancy_capacity_enforced) ... ok
+test_odd_electrons_not_silently_floored (test_quantumequi_electronic.GeneralizedEigenTests.test_odd_electrons_not_silently_floored) ... ok
+test_permuted_basis_preserves_eigenvalues (test_quantumequi_electronic.GeneralizedEigenTests.test_permuted_basis_preserves_eigenvalues) ... ok
+test_rank_threshold_control (test_quantumequi_electronic.GeneralizedEigenTests.test_rank_threshold_control) ... ok
+test_rejects_asymmetric_hamiltonian (test_quantumequi_electronic.GeneralizedEigenTests.test_rejects_asymmetric_hamiltonian) ... ok
+test_rejects_indefinite_even_in_canonical_mode (test_quantumequi_electronic.GeneralizedEigenTests.test_rejects_indefinite_even_in_canonical_mode) ... ok
+test_rejects_nonfinite (test_quantumequi_electronic.GeneralizedEigenTests.test_rejects_nonfinite) ... ok
+test_source_same_atom_orbital_degeneracy (test_quantumequi_electronic.GeneralizedEigenTests.test_source_same_atom_orbital_degeneracy) ... ok
+test_spd_matches_independent_lapack (test_quantumequi_electronic.GeneralizedEigenTests.test_spd_matches_independent_lapack) ... ok
+test_strict_rejects_singular_metric (test_quantumequi_electronic.GeneralizedEigenTests.test_strict_rejects_singular_metric) ... ok
+test_wrong_shapes_rejected (test_quantumequi_electronic.GeneralizedEigenTests.test_wrong_shapes_rejected) ... ok
+test_fitted_gradient_is_energy_derivative (test_quantumequi_electronic.SurrogateTests.test_fitted_gradient_is_energy_derivative) ... ok
+test_frozen_partition_disjoint_and_ood_outside_training (test_quantumequi_electronic.SurrogateTests.test_frozen_partition_disjoint_and_ood_outside_training) ... ok
+test_radial_feature_derivatives (test_quantumequi_electronic.SurrogateTests.test_radial_feature_derivatives) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.084s
+
+OK

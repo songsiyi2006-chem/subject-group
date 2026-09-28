@@ -1,0 +1,249 @@
+{
+  "figure_count": 4,
+  "languages": [
+    "english",
+    "chinese"
+  ],
+  "formats": [
+    "png",
+    "svg"
+  ],
+  "figures": [
+    {
+      "file": "Fig1_Quantum_Reference_english.png",
+      "format": "png",
+      "sha256": "771cbe05b39427318bd0085712e72d261d456c671fb32aaedbc919c2ca22ff14",
+      "sources": {
+        "results/electronic/source_clipping_sensitivity.csv": "d7659fe00d0438ef2076bcd6603d49251307ec3869beac6b6e5b3f9d1d20e09e",
+        "results/electronic/h2_reference.csv": "051310fdb0652ee8f871956f25581965c2ab07ec83ceefddfc8de4f9c4aca643"
+      },
+      "evidence": "Actual H2 RHF references, untrained source audits and designed analytic controls explicitly distinguished",
+      "pixels": [
+        2400,
+        1380
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "Fig1_Quantum_Reference_english.svg",
+      "format": "svg",
+      "sha256": "c4db98e5a11bd1997946a5571b7499830b723738b26581ad7609cc1815ec3dcd",
+      "sources": {
+        "results/electronic/source_clipping_sensitivity.csv": "d7659fe00d0438ef2076bcd6603d49251307ec3869beac6b6e5b3f9d1d20e09e",
+        "results/electronic/h2_reference.csv": "051310fdb0652ee8f871956f25581965c2ab07ec83ceefddfc8de4f9c4aca643"
+      },
+      "evidence": "Actual H2 RHF references, untrained source audits and designed analytic controls explicitly distinguished",
+      "editable_text": true,
+      "embedded_raster": false
+    },
+    {
+      "file": "Fig2_Force_Audit_english.png",
+      "format": "png",
+      "sha256": "d0a976d8059f755b544e73f99e35ca4550940615668f8a0c44e53210dead67cd",
+      "sources": {
+        "results/potential/force_finite_differences.csv": "765870e1f77207fd21df1bc7049ecb8b18e2fe71d681317b9138105131935d68"
+      },
+      "evidence": "Actual H2 RHF references, untrained source audits and designed analytic controls explicitly distinguished",
+      "pixels": [
+        2400,
+        1380
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "Fig2_Force_Audit_english.svg",
+      "format": "svg",
+      "sha256": "b2fb9175c3306579275be503ac50de4bb042f9a73b92b24c4a38104eb3b33a1d",
+      "sources": {
+        "results/potential/force_finite_differences.csv": "765870e1f77207fd21df1bc7049ecb8b18e2fe71d681317b9138105131935d68"
+      },
+      "evidence": "Actual H2 RHF references, untrained source audits and designed analytic controls explicitly distinguished",
+      "editable_text": true,
+      "embedded_raster": false
+    },
+    {
+      "file": "Fig3_NEB_Validation_english.png",
+      "format": "png",
+      "sha256": "3b1cd60517170ce3b6b920b01c2898681c8668d5b1feb5ea5770b6d3cd7009f1",
+      "sources": {
+        "results/path/analytic_final_images.csv": "189a555b54220ead39f0b7a64dbccacf45d264c737286c5366a89b60b8d0cc58",
+        "results/path/analytic_references.json": "21fd26afd8a29077f9cebf594af92a63d36cad746905d46c2e9812e393d589e5"
+      },
+      "evidence": "Actual H2 RHF references, untrained source audits and designed analytic controls explicitly distinguished",
+      "pixels": [
+        2400,
+        1380
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "Fig3_NEB_Validation_english.svg",
+      "format": "svg",
+      "sha256": "d53a0b17bf504b0044438f1d62f6b07de0294ee7e06259214bff8e54075e1f69",
+      "sources": {
+        "results/path/analytic_final_images.csv": "189a555b54220ead39f0b7a64dbccacf45d264c737286c5366a89b60b8d0cc58",
+        "results/path/analytic_references.json": "21fd26afd8a29077f9cebf594af92a63d36cad746905d46c2e9812e393d589e5"
+      },
+      "evidence": "Actual H2 RHF references, untrained source audits and designed analytic controls explicitly distinguished",
+      "editable_text": true,
+      "embedded_raster": false
+    },
+    {
+      "file": "Fig4_Thermochemistry_english.png",
+      "format": "png",
+      "sha256": "2f192d5e3e7cf89ddfa5a33deb31b1bdfcd038ba3b1be3a0baf890163880447d",
+      "sources": {
+        "results/thermochemistry/source_spectra.csv": "3706236675ff8545dc8a19fa50d7ee33d6c92be6ba9b57fd160ddd660c367750",
+        "results/thermochemistry/ideal_gas_temperature_pressure.csv": "cb7211d479178e5325fdcdde45d691ea7f17432aa40e67c9e523dd70d77db711"
+      },
+      "evidence": "Actual H2 RHF references, untrained source audits and designed analytic controls explicitly distinguished",
+      "pixels": [
+        2400,
+        1380
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "Fig4_Thermochemistry_english.svg",
+      "format": "svg",
+      "sha256": "fb41ac9351d871b302cc604eeefdb05f35bab41b8845cf69cce6f9a4a856619f",
+      "sources": {
+        "results/thermochemistry/source_spectra.csv": "3706236675ff8545dc8a19fa50d7ee33d6c92be6ba9b57fd160ddd660c367750",
+        "results/thermochemistry/ideal_gas_temperature_pressure.csv": "cb7211d479178e5325fdcdde45d691ea7f17432aa40e67c9e523dd70d77db711"
+      },
+      "evidence": "Actual H2 RHF references, untrained source audits and designed analytic controls explicitly distinguished",
+      "editable_text": true,
+      "embedded_raster": false
+    },
+    {
+      "file": "Fig1_Quantum_Reference_chinese.png",
+      "format": "png",
+      "sha256": "6620831908fd2f1c055735b3d39d4d60c1c81bd99e80935e1281232aed5846f9",
+      "sources": {
+        "results/electronic/source_clipping_sensitivity.csv": "d7659fe00d0438ef2076bcd6603d49251307ec3869beac6b6e5b3f9d1d20e09e",
+        "results/electronic/h2_reference.csv": "051310fdb0652ee8f871956f25581965c2ab07ec83ceefddfc8de4f9c4aca643"
+      },
+      "evidence": "Actual H2 RHF references, untrained source audits and designed analytic controls explicitly distinguished",
+      "pixels": [
+        2400,
+        1380
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "Fig1_Quantum_Reference_chinese.svg",
+      "format": "svg",
+      "sha256": "6d431961049cc280294bcc488f2ebb7e71e043a123c5ba919f22b29ef56c9d0c",
+      "sources": {
+        "results/electronic/source_clipping_sensitivity.csv": "d7659fe00d0438ef2076bcd6603d49251307ec3869beac6b6e5b3f9d1d20e09e",
+        "results/electronic/h2_reference.csv": "051310fdb0652ee8f871956f25581965c2ab07ec83ceefddfc8de4f9c4aca643"
+      },
+      "evidence": "Actual H2 RHF references, untrained source audits and designed analytic controls explicitly distinguished",
+      "editable_text": true,
+      "embedded_raster": false
+    },
+    {
+      "file": "Fig2_Force_Audit_chinese.png",
+      "format": "png",
+      "sha256": "50eb931fb270894dd80dc1854d6c0faff40a3cbe36cb0d52ae24e7a235667bf3",
+      "sources": {
+        "results/potential/force_finite_differences.csv": "765870e1f77207fd21df1bc7049ecb8b18e2fe71d681317b9138105131935d68"
+      },
+      "evidence": "Actual H2 RHF references, untrained source audits and designed analytic controls explicitly distinguished",
+      "pixels": [
+        2400,
+        1380
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "Fig2_Force_Audit_chinese.svg",
+      "format": "svg",
+      "sha256": "4aa28740e926ffb9eae5b9698b880f8c0fb3e421dffb743b04eed9c804bcf926",
+      "sources": {
+        "results/potential/force_finite_differences.csv": "765870e1f77207fd21df1bc7049ecb8b18e2fe71d681317b9138105131935d68"
+      },
+      "evidence": "Actual H2 RHF references, untrained source audits and designed analytic controls explicitly distinguished",
+      "editable_text": true,
+      "embedded_raster": false
+    },
+    {
+      "file": "Fig3_NEB_Validation_chinese.png",
+      "format": "png",
+      "sha256": "e8020583382f367b6921554505d3b009bf8565e33f5211517c58d4ecd754525b",
+      "sources": {
+        "results/path/analytic_final_images.csv": "189a555b54220ead39f0b7a64dbccacf45d264c737286c5366a89b60b8d0cc58",
+        "results/path/analytic_references.json": "21fd26afd8a29077f9cebf594af92a63d36cad746905d46c2e9812e393d589e5"
+      },
+      "evidence": "Actual H2 RHF references, untrained source audits and designed analytic controls explicitly distinguished",
+      "pixels": [
+        2400,
+        1380
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "Fig3_NEB_Validation_chinese.svg",
+      "format": "svg",
+      "sha256": "f2213e6ba74a9f193f28c64f8dec081d577cbf7a3fc9ffd637e7a813c5f72b33",
+      "sources": {
+        "results/path/analytic_final_images.csv": "189a555b54220ead39f0b7a64dbccacf45d264c737286c5366a89b60b8d0cc58",
+        "results/path/analytic_references.json": "21fd26afd8a29077f9cebf594af92a63d36cad746905d46c2e9812e393d589e5"
+      },
+      "evidence": "Actual H2 RHF references, untrained source audits and designed analytic controls explicitly distinguished",
+      "editable_text": true,
+      "embedded_raster": false
+    },
+    {
+      "file": "Fig4_Thermochemistry_chinese.png",
+      "format": "png",
+      "sha256": "1a8d0e059e6f6d38754b7b90dbdbd0a9588fbbdd9b3554cf848eeecb33bf921b",
+      "sources": {
+        "results/thermochemistry/source_spectra.csv": "3706236675ff8545dc8a19fa50d7ee33d6c92be6ba9b57fd160ddd660c367750",
+        "results/thermochemistry/ideal_gas_temperature_pressure.csv": "cb7211d479178e5325fdcdde45d691ea7f17432aa40e67c9e523dd70d77db711"
+      },
+      "evidence": "Actual H2 RHF references, untrained source audits and designed analytic controls explicitly distinguished",
+      "pixels": [
+        2400,
+        1380
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "Fig4_Thermochemistry_chinese.svg",
+      "format": "svg",
+      "sha256": "7c8ee87e6f6efd514a214e5536d9e9e0218b98b81db8fdde0130b552ae94aadf",
+      "sources": {
+        "results/thermochemistry/source_spectra.csv": "3706236675ff8545dc8a19fa50d7ee33d6c92be6ba9b57fd160ddd660c367750",
+        "results/thermochemistry/ideal_gas_temperature_pressure.csv": "cb7211d479178e5325fdcdde45d691ea7f17432aa40e67c9e523dd70d77db711"
+      },
+      "evidence": "Actual H2 RHF references, untrained source audits and designed analytic controls explicitly distinguished",
+      "editable_text": true,
+      "embedded_raster": false
+    }
+  ]
+}

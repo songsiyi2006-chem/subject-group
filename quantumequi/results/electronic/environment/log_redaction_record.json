@@ -1,0 +1,23 @@
+[
+  {
+    "original_file": "timer.dat",
+    "archived_file": "psi4_timer.txt",
+    "raw_sha256": "f0c2fe9bef8196cbd8e05cf738cef5e62fbceb3f69a345dadace2f00fbf1dba7",
+    "public_sha256": "33a5611ca36b6970faf92c06b49d24d4cdeef5043e8044b2a2dda39ea6be2797",
+    "change": "Host identity redacted; numeric timings unchanged"
+  },
+  {
+    "original_file": "pilot/timer.dat",
+    "archived_file": "pilot/psi4_timer.txt",
+    "raw_sha256": "cd8968cea1bec4622ad661babbc2e9ee28a20445e3bd6e8fe6577cf19c925627",
+    "public_sha256": "bb2bc80a39c0faf7ca1dd9391c1ea3a767f0efc1cb4d59d8f99a2e69de6181e8",
+    "change": "Host identity redacted; numeric timings unchanged"
+  },
+  {
+    "original_file": "environment/import_timer.dat",
+    "archived_file": "environment/import_timer.txt",
+    "raw_sha256": "abdc4f0a99e09929708b8ed235bd172652c9f0e89ad78597e2b59fb33d3d858f",
+    "public_sha256": "34642c5fe3e8f0156ceda7e773e103a3e06ab1fcd39dbb2c850afabdcadbc403",
+    "change": "Host identity redacted; numeric timings unchanged"
+  }
+]

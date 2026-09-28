@@ -1,0 +1,23 @@
+[
+  {
+    "file": "psi4_outputs/pilot_R0.740.out",
+    "raw_before_path_redaction_sha256": "90cbf325876493fff296d968e2bb6b05e96e980d238c73cde5847073f7c80f8a",
+    "public_sha256": "89a0f2f43ef8bdc3cf020e90cdab02835f4c4a0b813f41ce974432313f7b25f7",
+    "redaction": "Machine paths and host identity redacted; numerical SCF output retained; pilot postprocessing does not change executed-source snapshot",
+    "pilot_path_redacted_before_host_redaction_sha256": "5712271adf0df16cbcf0ea2fafd4e273bf92da422d852ee99702504743e85e14"
+  },
+  {
+    "file": "psi4_outputs/fd_R0.740_h0.0010_plus.out",
+    "raw_before_path_redaction_sha256": "62fdc7251c02e72e914fd430762978ccebc32f39367feec33c1fc459cb296ef7",
+    "public_sha256": "ac294fdf295177d2e64227a14b1ffd452fa5ee0d0e1eaf9ee7c549c7f6b84791",
+    "redaction": "Machine paths and host identity redacted; numerical SCF output retained; pilot postprocessing does not change executed-source snapshot",
+    "pilot_path_redacted_before_host_redaction_sha256": "2ff2cc39d01558cc7a2616ed54aebc19ca8aa143c0ad94b79adf76e9d8ce9592"
+  },
+  {
+    "file": "psi4_outputs/fd_R0.740_h0.0010_minus.out",
+    "raw_before_path_redaction_sha256": "163245e0405611f5fb501b03b488333001f6a5781ea631cd4b6f4e1e99c6be64",
+    "public_sha256": "8f58deeca941c70fb12a2414999376ed58e1e3a65626337a913bda98150b87bd",
+    "redaction": "Machine paths and host identity redacted; numerical SCF output retained; pilot postprocessing does not change executed-source snapshot",
+    "pilot_path_redacted_before_host_redaction_sha256": "562142d1b1432594e33059fdabfe224185892eb5d7e2dc18544f3f20cdd5d534"
+  }
+]

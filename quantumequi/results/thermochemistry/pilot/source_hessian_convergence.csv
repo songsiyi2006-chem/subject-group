@@ -1,0 +1,3 @@
+dtype,step_A,force_evaluations,max_abs_H_error_vs_float64_autograd,raw_asymmetry_max,projected_negative_modes,raw_strict_negative_modes,minimum_projected_frequency_nominal_cm,stationary
+torch.float32,0.005,48,1.1921799373685107e-06,2.514570951461792e-06,1,2,-1.8808266142806604,False
+torch.float64,0.005,48,1.9636827806174262e-08,2.6415332594897922e-09,1,3,-1.8810764596373881,False

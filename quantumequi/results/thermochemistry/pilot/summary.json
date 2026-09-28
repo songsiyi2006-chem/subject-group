@@ -1,0 +1,63 @@
+{
+  "scope": "numerical Hessian and ideal-gas RRHO benchmarks, not target chemistry",
+  "pilot": true,
+  "source_audit_skipped": false,
+  "counts_exclude_pilot_and_tests": {
+    "analytic_autograd_hessians": 5,
+    "analytic_fd_hessians": 16,
+    "analytic_force_evaluations": 240,
+    "analytic_autograd_reverse_rows": 39,
+    "rrho_parameter_cases": 4,
+    "positive_mode_sensitivity_cases": 9
+  },
+  "source_audit_counts": {
+    "fd_hessians": 2,
+    "force_evaluations": 96,
+    "autograd_hessians": 1,
+    "autograd_gradient_evaluations": 1,
+    "hessian_reverse_rows": 24
+  },
+  "constants": {
+    "Boltzmann_J_K": 1.380649e-23,
+    "Planck_J_s": 6.62607015e-34,
+    "speed_light_cm_s": 29979245800.0,
+    "Avogadro_mol_inverse": 6.02214076e+23,
+    "atomic_mass_kg_CODATA2022": 1.66053906892e-27,
+    "gas_constant_cal_mol_K": 1.9872042586408316,
+    "kcal_mol_A2_amu_to_cm_factor": 108.59135853528242,
+    "hartree_bohr2_amu_to_cm_factor": 5140.4871436115645
+  },
+  "analytic_hessian_max_error": 3.552713678800501e-15,
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.4.6",
+    "torch": "2.10.0",
+    "threads": 1
+  },
+  "code_sha256": "b0025bcf72ce0f0753a4de2388124b49d466723e8c746c36d3b52076b13a54ba",
+  "wall_seconds": 3.85791290004272,
+  "sources": [
+    {
+      "title": "NIST CODATA 2022 constants",
+      "url": "https://physics.nist.gov/cuu/pdf/JPCRD2022CODATA.pdf",
+      "use": "SI and mass constants"
+    },
+    {
+      "title": "Gaussian thermochemistry technical note",
+      "url": "https://gaussian.com/wp-content/uploads/dl/thermo.pdf",
+      "use": "ideal-gas partition functions, enthalpy and stationarity"
+    }
+  ],
+  "license_notes": "Original local implementation; source user-supplied. References consulted, no external data or model downloads. Library licenses remain upstream.",
+  "output_sha256": {
+    "analytic_controls.json": "de60eb98f0d7137bb7317ae0bd9ba083d837bb24d0d9e972340022d4fdb9a4dc",
+    "analytic_hessian_convergence.csv": "b36ac6f9a41199ef60e6bb3cb0a75996d86256a2aa2670dc5cadc298c5759c92",
+    "analytic_hessians.npz": "ab244bb31efb3fe6993ce1c22d95ca7c8aea2be024b72bc3054822cb53df7bfa",
+    "ideal_gas_temperature_pressure.csv": "41da68c531ec2d821328ae4b5fc88c06b2514bf1284246ee27ddb18888c60ff0",
+    "low_frequency_sensitivity.csv": "3414b91d59061df15715ce3e14cc9784a91007df5f3b8dfa2746140bb33bd155",
+    "source_hessian_convergence.csv": "fa9b32a6fad834e3e6ed336a2f73accd17b05c6004f4de35e950f47257939ecd",
+    "source_hessians.npz": "e3ca6c0e9717e18e58074091087ba86f00b823cef8b53329cb304d09b77f940e",
+    "source_rrho_audit.json": "b23e12bc7a736beffa7555dcf0e03fff6060ff65d43bb6497b5abaaefe9583b2",
+    "source_spectra.csv": "3ebcc3122262d1674ab25b155984248328964c13baeccb7616eb17784e95b209"
+  }
+}

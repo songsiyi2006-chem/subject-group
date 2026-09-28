@@ -1,0 +1,39 @@
+{
+  "evidence": "Distance-only supervised energy/gradient surrogate of actual H2 RHF/STO-3G reference, not an EGNN or Cu catalyst potential",
+  "counts": {
+    "training_points": 17,
+    "validation_points": 8,
+    "test_points": 8,
+    "OOD_points": 9,
+    "RBF_linear_fits": 16,
+    "selected_RBF_models": 2,
+    "baseline_models": 3,
+    "prediction_rows": 210,
+    "metric_rows": 20,
+    "neural_training_runs": 0,
+    "new_quantum_jobs_during_fitting": 0
+  },
+  "selected_hyperparameters": {
+    "RBF_energy_only": {
+      "lengthscale_A": 0.24,
+      "ridge": 1e-10,
+      "selected_validation_score": 0.0024039880151492856
+    },
+    "RBF_energy_force": {
+      "lengthscale_A": 0.24,
+      "ridge": 1e-10,
+      "selected_validation_score": 0.0015829635674528579
+    }
+  },
+  "energy_gradient_consistency": "RBF and cubic derivatives are analytic derivatives of the fitted energy; linear derivative is piecewise constant with knots not differentiable",
+  "limitations": [
+    "Same H2 molecule at interleaved distances, not graph or chemical-space generalization",
+    "OOD model error is against imperfect restricted HF",
+    "No neural network, uncertainty calibration, molecular dissociation guarantee or independent external dataset"
+  ],
+  "inputs_sha256": {
+    "h2_reference.csv": "051310fdb0652ee8f871956f25581965c2ab07ec83ceefddfc8de4f9c4aca643"
+  },
+  "input_hash_base": "this electronic result directory",
+  "runtime_seconds": 0.030458400025963783
+}

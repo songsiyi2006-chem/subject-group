@@ -1,0 +1,466 @@
+"""Unit-explicit Hessian and ideal-gas RRHO numerical benchmarks.
+
+No electronic-structure calibration, solution free energy, or electrode model.
+Source functions are imported without running their __main__ workflow; saved
+weights are reloaded, not regenerated. All source frequencies remain nominal.
+"""
+from __future__ import annotations
+
+import argparse
+import csv
+import hashlib
+import importlib.util
+import json
+import math
+from pathlib import Path
+import platform
+import time
+
+import numpy as np
+import torch
+
+KB = 1.380649e-23
+HPLANCK = 6.62607015e-34
+C_CM = 29979245800.0
+NA = 6.02214076e23
+AMU_KG = 1.66053906892e-27  # CODATA 2022
+R_J = KB * NA
+R_CAL = R_J / 4.184
+ANGSTROM_M = 1e-10
+KCAL_MOL_J_PARTICLE = 4184.0 / NA
+EV_J = 1.602176634e-19
+ROOT = Path(__file__).resolve().parents[2]
+
+
+def frequency_factor(energy_unit: str = "kcal/mol", length_unit: str = "angstrom") -> float:
+    """cm^-1 / sqrt(energy_unit / length_unit^2 / amu)."""
+    energies = {"kcal/mol": KCAL_MOL_J_PARTICLE, "eV": EV_J, "hartree": 4.3597447222060e-18}
+    lengths = {"angstrom": ANGSTROM_M, "bohr": 5.29177210544e-11}
+    if energy_unit not in energies or length_unit not in lengths:
+        raise ValueError("Explicit supported energy and length units are required")
+    return math.sqrt(energies[energy_unit] / lengths[length_unit] ** 2 / AMU_KG) / (2 * math.pi * C_CM)
+
+
+def _geometry(coords, masses):
+    x, m = np.asarray(coords, float), np.asarray(masses, float)
+    if x.ndim != 2 or x.shape[1] != 3 or m.shape != (len(x),) or not len(x):
+        raise ValueError("Coordinates must be N by 3, with N masses")
+    if not np.all(np.isfinite(x)) or not np.all(np.isfinite(m)) or np.any(m <= 0):
+        raise ValueError("Finite coordinates and positive masses are required")
+    return x, m
+
+
+def rigid_subspaces(coords, masses, relative_tolerance: float = 1e-9):
+    """Mass-weighted translation/rotation and orthogonal internal bases.
+
+    Each candidate vector is normalized before SVD so translation and rotation
+    columns have comparable numerical scale. Rotational rank distinguishes a
+    single atom, a linear molecule, and a nonlinear molecule (0, 2, 3).
+    """
+    x, m = _geometry(coords, masses)
+    if not 0 < relative_tolerance < 1:
+        raise ValueError("Invalid rank tolerance")
+    centered = x - np.average(x, axis=0, weights=m)
+    sqrt_m = np.sqrt(m)[:, None]
+    translations = [np.tile(axis, (len(x), 1)) * sqrt_m for axis in np.eye(3)]
+    rotations = [np.cross(np.tile(axis, (len(x), 1)), centered) * sqrt_m for axis in np.eye(3)]
+    columns = []
+    for vector in translations + rotations:
+        flat = vector.ravel()
+        norm = np.linalg.norm(flat)
+        if norm > 1e-13:
+            columns.append(flat / norm)
+    u, singular, _ = np.linalg.svd(np.stack(columns, axis=1), full_matrices=True)
+    rank = int(np.sum(singular > singular[0] * relative_tolerance))
+    if rank not in (3, 5, 6):
+        raise ValueError(f"Degenerate geometry has unsupported rigid rank {rank}")
+    if rank == 3 and len(x) != 1:
+        raise ValueError("Coincident multi-atom geometry has undefined rotations")
+    inertia = sum(mi * (np.dot(ri, ri) * np.eye(3) - np.outer(ri, ri)) for ri, mi in zip(centered, m))
+    return {"rigid_basis": u[:, :rank], "internal_basis": u[:, rank:], "rigid_rank": rank,
+            "rotational_dof": rank - 3, "geometry_type": {3: "atom", 5: "linear", 6: "nonlinear"}[rank],
+            "inertia_amu_A2": np.maximum(np.linalg.eigvalsh(inertia), 0), "centered_coords": centered,
+            "singular_values": singular}
+
+
+def finite_difference_hessian(force_function, coords, step=0.005):
+    if not np.isfinite(step) or step <= 0:
+        raise ValueError("Positive finite displacement required")
+    x = np.asarray(coords, float)
+    if x.ndim != 2 or x.shape[1] != 3 or not np.all(np.isfinite(x)):
+        raise ValueError("Invalid coordinates")
+    raw = np.zeros((x.size, x.size))
+    for column in range(x.size):
+        plus, minus = x.copy(), x.copy()
+        plus.ravel()[column] += step
+        minus.ravel()[column] -= step
+        fp, fm = np.asarray(force_function(plus)), np.asarray(force_function(minus))
+        if fp.shape != x.shape or fm.shape != x.shape or not np.all(np.isfinite([fp, fm])):
+            raise ValueError("Force function returned invalid values")
+        # Subtraction deliberately preserves force dtype, matching source float32.
+        raw[:, column] = -(fp.ravel() - fm.ravel()) / (2 * step)
+    return (raw + raw.T) / 2, float(np.max(np.abs(raw - raw.T)))
+
+
+def harmonic_analysis(hessian, coords, masses, gradient, *, energy_unit="kcal/mol",
+                      stationarity_tolerance=1e-5, frequency_zero_tolerance_cm=0.01):
+    """Preserve signed raw/internal spectra; never discard eigenvalues by index."""
+    x, m = _geometry(coords, masses)
+    h, g = np.asarray(hessian, float), np.asarray(gradient, float)
+    if h.shape != (x.size, x.size) or g.shape != x.shape or not np.all(np.isfinite(h)) or not np.all(np.isfinite(g)):
+        raise ValueError("Invalid Hessian or gradient")
+    if stationarity_tolerance <= 0 or frequency_zero_tolerance_cm < 0:
+        raise ValueError("Invalid diagnostic tolerance")
+    sub = rigid_subspaces(x, m)
+    inverse_sqrt = np.repeat(1 / np.sqrt(m), 3)
+    mw = inverse_sqrt[:, None] * ((h + h.T) / 2) * inverse_sqrt[None, :]
+    b, q = sub["internal_basis"], sub["rigid_basis"]
+    raw = np.linalg.eigvalsh(mw)
+    internal = np.linalg.eigvalsh(b.T @ mw @ b)
+    factor = frequency_factor(energy_unit)
+    signed = lambda values: np.sign(values) * np.sqrt(np.abs(values)) * factor
+    fraw, finternal = signed(raw), signed(internal)
+    max_gradient = float(np.max(np.linalg.norm(g, axis=1)))
+    negative = int(np.sum(finternal < -frequency_zero_tolerance_cm))
+    zeros = int(np.sum(np.abs(finternal) <= frequency_zero_tolerance_cm))
+    stationary = max_gradient <= stationarity_tolerance
+    classification = ("nonstationary" if not stationary else "internal_zero_modes" if zeros else
+                      "minimum" if negative == 0 else "first_order_saddle" if negative == 1 else "higher_order_saddle")
+    return {"energy_unit": energy_unit, "length_unit": "angstrom", "mass_unit": "amu",
+            "frequency_factor_cm": factor, "rigid_rank": sub["rigid_rank"],
+            "geometry_type": sub["geometry_type"], "rotational_dof": sub["rotational_dof"],
+            "inertia_amu_A2": sub["inertia_amu_A2"].tolist(),
+            "raw_eigenvalues": raw.tolist(), "raw_signed_frequencies_cm": fraw.tolist(),
+            "projected_eigenvalues": internal.tolist(), "projected_signed_frequencies_cm": finternal.tolist(),
+            "negative_internal_modes": negative, "near_zero_internal_modes": zeros,
+            "raw_negative_eigenvalues_strict": int(np.sum(raw < 0)),
+            "stationary": stationary, "maximum_atomic_gradient": max_gradient,
+            "stationarity_tolerance": stationarity_tolerance,
+            "frequency_zero_tolerance_cm": frequency_zero_tolerance_cm,
+            "stationary_point_classification": classification,
+            "rigid_hessian_residual_max": float(np.max(np.abs(mw @ q))),
+            "hessian_asymmetry_max": float(np.max(np.abs(h - h.T)))}
+
+
+def vibrational_terms(frequencies_cm, temperature):
+    """Positive harmonic modes; stable even for x << 1 or x >> 1."""
+    f = np.asarray(frequencies_cm, float)
+    if f.ndim != 1 or not np.all(np.isfinite(f)) or np.any(f <= 0):
+        raise ValueError("Only explicitly selected positive harmonic frequencies are accepted")
+    if not np.isfinite(temperature) or temperature <= 0:
+        raise ValueError("Positive temperature required")
+    theta = HPLANCK * C_CM * f / KB
+    x = theta / temperature
+    denominator = -np.expm1(-x)
+    occupation = np.exp(-x) / denominator
+    logq_excited = float(-np.sum(np.log(denominator)))
+    zpve = float(0.5 * R_J * np.sum(theta) / 4184)
+    thermal = float(R_J * np.sum(theta * occupation) / 4184)
+    entropy = float(R_CAL * np.sum(x * occupation - np.log(denominator)))
+    cv = float(R_CAL * np.sum(x ** 2 * np.exp(-x) / denominator ** 2))
+    return {"zpve_kcal_mol": zpve, "vibrational_thermal_enthalpy_kcal_mol": thermal,
+            "vibrational_entropy_cal_mol_K": entropy, "vibrational_Cv_cal_mol_K": cv,
+            "ln_q_vibrational_excited": logq_excited,
+            "ln_q_vibrational_bottom": logq_excited - zpve * 4184 / (R_J * temperature)}
+
+
+def ideal_gas_rrho(analysis, masses, temperature=298.15, pressure_pa=100000.0,
+                   symmetry_number=1, electronic_degeneracy=1, electronic_energy_kcal_mol=0.0,
+                   expected_stationary_point="minimum", frequency_floor_cm=None):
+    """Ideal-gas molecular standard-state RRHO; TS removes exactly one unstable mode.
+
+    A positive frequency floor is an explicitly labeled sensitivity intervention,
+    NOT a hindered-rotor or quasi-RRHO correction. No automatic mode deletion.
+    """
+    if not analysis["stationary"]:
+        raise ValueError("RRHO rejected: geometry is nonstationary")
+    if expected_stationary_point not in ("minimum", "first_order_saddle"):
+        raise ValueError("Only minima and explicitly constrained first-order saddles supported")
+    if analysis["stationary_point_classification"] != expected_stationary_point:
+        raise ValueError("RRHO rejected: projected stationary-point classification mismatch")
+    if not np.isfinite(temperature) or temperature <= 0 or not np.isfinite(pressure_pa) or pressure_pa <= 0:
+        raise ValueError("Positive finite temperature and pressure required")
+    if symmetry_number < 1 or int(symmetry_number) != symmetry_number or electronic_degeneracy < 1 or int(electronic_degeneracy) != electronic_degeneracy:
+        raise ValueError("Symmetry number and ground-state degeneracy must be positive integers")
+    masses = np.asarray(masses, float)
+    if not np.all(np.isfinite(masses)) or np.any(masses <= 0) or not np.isfinite(electronic_energy_kcal_mol):
+        raise ValueError("Invalid masses or energy")
+    frequencies = np.asarray(analysis["projected_signed_frequencies_cm"])
+    positive = frequencies[frequencies > analysis["frequency_zero_tolerance_cm"]]
+    modified = 0
+    if frequency_floor_cm is not None:
+        if not np.isfinite(frequency_floor_cm) or frequency_floor_cm <= 0:
+            raise ValueError("Positive floor required")
+        modified = int(np.sum(positive < frequency_floor_cm))
+        positive = np.maximum(positive, frequency_floor_cm)
+    vib = vibrational_terms(positive, temperature)
+    mass_kg = float(np.sum(masses) * AMU_KG)
+    logqt = 1.5 * math.log(2 * math.pi * mass_kg * KB * temperature / HPLANCK ** 2) + math.log(KB * temperature / pressure_pa)
+    s_trans = R_CAL * (logqt + 2.5)
+    h_trans = 2.5 * R_J * temperature / 4184
+    inertia = np.asarray(analysis["inertia_amu_A2"]) * AMU_KG * ANGSTROM_M ** 2
+    rotation_dof = analysis["rotational_dof"]
+    if rotation_dof == 0:
+        logqr, theta_rot = 0.0, np.array([])
+    elif rotation_dof == 2:
+        moment = float(np.mean(inertia[-2:]))
+        theta_rot = np.array([HPLANCK ** 2 / (8 * math.pi ** 2 * moment * KB)])
+        logqr = math.log(temperature / theta_rot[0] / symmetry_number)
+    else:
+        theta_rot = HPLANCK ** 2 / (8 * math.pi ** 2 * inertia * KB)
+        logqr = 0.5 * math.log(math.pi) - math.log(symmetry_number) + 1.5 * math.log(temperature) - 0.5 * np.log(theta_rot).sum()
+    s_rot = R_CAL * (logqr + rotation_dof / 2)
+    h_rot = rotation_dof / 2 * R_J * temperature / 4184
+    s_elec = R_CAL * math.log(electronic_degeneracy)
+    entropy = s_trans + s_rot + s_elec + vib["vibrational_entropy_cal_mol_K"]
+    thermal_h = h_trans + h_rot + vib["vibrational_thermal_enthalpy_kcal_mol"]
+    correction = vib["zpve_kcal_mol"] + thermal_h - temperature * entropy / 1000
+    return {**vib, "temperature_K": temperature, "pressure_Pa": pressure_pa,
+            "symmetry_number": symmetry_number, "electronic_degeneracy": electronic_degeneracy,
+            "ln_q_translation": logqt, "ln_q_rotation": float(logqr),
+            "translation_entropy_cal_mol_K": s_trans, "rotation_entropy_cal_mol_K": float(s_rot),
+            "electronic_entropy_cal_mol_K": s_elec, "total_entropy_cal_mol_K": float(entropy),
+            "translation_enthalpy_kcal_mol": h_trans, "rotation_enthalpy_kcal_mol": h_rot,
+            "thermal_enthalpy_excluding_ZPVE_kcal_mol": float(thermal_h),
+            "G_correction_kcal_mol": float(correction), "G_kcal_mol": float(electronic_energy_kcal_mol + correction),
+            "positive_modes_used": len(positive), "unstable_modes_excluded": analysis["negative_internal_modes"],
+            "frequency_floor_cm": frequency_floor_cm, "modes_raised_by_floor": modified,
+            "rotation_temperature_K": theta_rot.tolist(),
+            "classical_rotation_validity_T_over_max_theta": float(temperature / max(theta_rot)) if len(theta_rot) else None,
+            "state_scope": "ideal gas; first-order saddle is constrained stable-mode partition only"}
+
+
+def control_case(name):
+    """Invariant pair-distance polynomial controls; quartic terms make FD nontrivial."""
+    linear = name.startswith("linear")
+    saddle = name.endswith("saddle")
+    coords = np.array([[-0.7, 0., 0.], [0.7, 0., 0.]]) if linear else np.array([[0., 0., 0.], [1.4, 0., 0.], [0.3, 1.1, 0.]])
+    masses = np.array([12., 16.]) if linear else np.array([12., 16., 14.])
+    pairs = [(0, 1)] if linear else [(0, 1), (1, 2), (0, 2)]
+    coefficients = [(-1 if saddle else 1) * 70.] if linear else [(-1 if saddle else 1) * 70., 50., 40.]
+    lengths = [float(np.linalg.norm(coords[i] - coords[j])) for i, j in pairs]
+    def energy(x):
+        result = x.sum() * 0
+        for (i, j), length, k in zip(pairs, lengths, coefficients):
+            d = torch.linalg.vector_norm(x[i] - x[j]) - length
+            result = result + 0.5 * k * d ** 2 + 8.0 * d ** 4
+        return result
+    # Independent exact Cartesian Hessian at the stationary reference geometry.
+    exact = np.zeros((coords.size, coords.size))
+    for (i, j), length, k in zip(pairs, lengths, coefficients):
+        u = (coords[i] - coords[j]) / length
+        block = k * np.outer(u, u)
+        for a, sign_a in [(i, 1), (j, -1)]:
+            for b, sign_b in [(i, 1), (j, -1)]:
+                exact[3*a:3*a+3, 3*b:3*b+3] += sign_a * sign_b * block
+    return coords, masses, energy, exact
+
+
+def torch_derivatives(energy_function, coords):
+    x = torch.tensor(coords, dtype=torch.float64, requires_grad=True)
+    energy = energy_function(x)
+    gradient = torch.autograd.grad(energy, x, create_graph=True)[0]
+    rows = [torch.autograd.grad(component, x, retain_graph=True)[0].reshape(-1) for component in gradient.reshape(-1)]
+    return float(energy.detach()), gradient.detach().numpy(), torch.stack(rows).detach().numpy()
+
+
+def _sha(path):
+    return hashlib.sha256(Path(path).read_bytes()).hexdigest()
+
+
+def _write_json(path, obj):
+    path.write_text(json.dumps(obj, indent=2, ensure_ascii=False, allow_nan=False), encoding="utf-8")
+
+
+def _write_csv(path, rows):
+    with path.open("w", encoding="utf-8", newline="") as stream:
+        writer = csv.DictWriter(stream, fieldnames=list(rows[0]))
+        writer.writeheader()
+        writer.writerows(rows)
+
+
+def source_audit(output, pilot):
+    source = ROOT / "quantumequi/source/quantum_egnn_neb_engine.py"
+    capture_path = ROOT / "quantumequi/results/original/captured_results.json"
+    weights_path = capture_path.with_name("untrained_source_weights.pt")
+    spec = importlib.util.spec_from_file_location("quantumequi_exact_source_thermo", source)
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    capture = json.loads(capture_path.read_text(encoding="utf-8"))
+    model = module.EquivariantPotentialModel(num_species=35, hidden_dim=32, num_layers=3)
+    state = torch.load(weights_path, map_location="cpu", weights_only=True)
+    if "state_dict" in state:
+        state = state["state_dict"]
+    model.load_state_dict(state)
+    z = torch.tensor(capture["z_atomic_numbers"], dtype=torch.long)
+    coords = np.asarray(capture["ts_coords"], float)
+    masses = np.array([module.FiniteDifferenceRRHO.ATOMIC_MASSES[e] for e in capture["elements"]])
+    steps = [0.005] if pilot else [0.02, 0.005, 0.001, 0.0002]
+    model.double()
+    energy, gradient, exact = torch_derivatives(lambda x: model(z, x)[0], coords)
+    reference = harmonic_analysis(exact, coords, masses, gradient)
+    rows, spectra, matrices = [], [], {"autograd_float64": exact}
+    for space, eigenkey, frequencykey in [("raw", "raw_eigenvalues", "raw_signed_frequencies_cm"),
+                                         ("projected", "projected_eigenvalues", "projected_signed_frequencies_cm")]:
+        for mode, (lam, freq) in enumerate(zip(reference[eigenkey], reference[frequencykey])):
+            spectra.append({"dtype": "torch.float64_autograd", "step_A": 0.0, "space": space, "mode": mode,
+                            "eigenvalue_nominal_kcal_mol_A2_amu": lam, "signed_frequency_nominal_cm": freq})
+    source_raw = None
+    for dtype in [torch.float32, torch.float64]:
+        model.to(dtype=dtype)
+        def force(x):
+            return model(z, torch.tensor(x, dtype=dtype))[1].detach().numpy()
+        for step in steps:
+            hessian, asymmetric = finite_difference_hessian(force, coords, step)
+            analysis = harmonic_analysis(hessian, coords, masses, gradient)
+            tag = f"{str(dtype).split('.')[-1]}_{step}"
+            matrices[tag] = hessian
+            rows.append({"dtype": str(dtype), "step_A": step, "force_evaluations": 2 * coords.size,
+                         "max_abs_H_error_vs_float64_autograd": float(np.max(np.abs(hessian - exact))),
+                         "raw_asymmetry_max": asymmetric, "projected_negative_modes": analysis["negative_internal_modes"],
+                         "raw_strict_negative_modes": analysis["raw_negative_eigenvalues_strict"],
+                         "minimum_projected_frequency_nominal_cm": min(analysis["projected_signed_frequencies_cm"]),
+                         "stationary": analysis["stationary"]})
+            for mode, (lam, freq) in enumerate(zip(analysis["raw_eigenvalues"], analysis["raw_signed_frequencies_cm"])):
+                spectra.append({"dtype": str(dtype), "step_A": step, "space": "raw", "mode": mode,
+                                "eigenvalue_nominal_kcal_mol_A2_amu": lam, "signed_frequency_nominal_cm": freq})
+            for mode, (lam, freq) in enumerate(zip(analysis["projected_eigenvalues"], analysis["projected_signed_frequencies_cm"])):
+                spectra.append({"dtype": str(dtype), "step_A": step, "space": "projected", "mode": mode,
+                                "eigenvalue_nominal_kcal_mol_A2_amu": lam, "signed_frequency_nominal_cm": freq})
+            if dtype == torch.float32 and step == 0.005:
+                source_raw = analysis
+    # Match the source eigensolver and conversion exactly on its reproduced FD Hessian.
+    import scipy.linalg
+    invmass = np.repeat(1 / np.sqrt(masses), 3)
+    lam = scipy.linalg.eigh(invmass[:, None] * matrices["float32_0.005"] * invmass[None, :])[0]
+    source_f = np.sign(lam) * np.sqrt(np.abs(lam)) * 1302.83
+    selected = source_f[6:]
+    source_positive = selected[selected > 10]
+    source_zpve = float(np.sum(source_positive) * (HPLANCK * C_CM * 6.022e23 / 4184) * 0.5)
+    sx = HPLANCK * C_CM * source_positive / (KB * 298.15)
+    source_s = float(np.sum(1.987204 * (sx / np.expm1(sx) - np.log(-np.expm1(-sx)))))
+    audit = {"source_sha256": _sha(source), "capture_sha256": _sha(capture_path), "weights_sha256": _sha(weights_path),
+             "scope": "same saved untrained weights; nominal kcal/mol assumption is not energy calibration",
+             "source_reported_RRHO": capture["rrho_results"], "autograd_float64_energy_nominal": energy,
+             "autograd_float64_analysis": reference, "source_fd_float32_analysis": source_raw,
+             "source_conversion_factor": 1302.83, "correct_nominal_conversion_factor": frequency_factor(),
+             "source_factor_ratio": 1302.83 / frequency_factor(),
+             "source_exact_raw_eigenvalues": lam.tolist(), "source_exact_signed_frequencies_cm": source_f.tolist(),
+             "source_deleted_first_six_frequencies_cm": source_f[:6].tolist(),
+             "source_deleted_negative_modes": int(np.sum(source_f[:6] < 0)),
+             "source_retained_frequencies_cm": selected.tolist(), "source_selected_positive_frequencies_cm": source_positive.tolist(),
+             "source_reproduced_ZPVE_kcal_mol": source_zpve,
+             "source_reproduced_vibrational_entropy_cal_mol_K": source_s,
+             "source_empirical_translation_rotation_entropy_cal_mol_K": 78.5,
+             "source_missing_thermal_enthalpy": True,
+             "source_plot_hardcoded_TS_product_offsets_kcal_mol": [3.2, -1.8],
+             "source_electronic_reference": "EHT reactant orbital sum + rounded untrained neural path barrier; unmatched models",
+             "valid_source_RRHO_released": False,
+             "rejection_reason": "nonstationarity and uncalibrated model; projected diagnostics alone do not validate chemistry",
+             "counts": {"fd_hessians": len(rows), "force_evaluations": len(rows) * 2 * coords.size,
+                        "autograd_hessians": 1, "autograd_gradient_evaluations": 1, "hessian_reverse_rows": coords.size}}
+    _write_json(output / "source_rrho_audit.json", audit)
+    _write_csv(output / "source_hessian_convergence.csv", rows)
+    _write_csv(output / "source_spectra.csv", spectra)
+    np.savez_compressed(output / "source_hessians.npz", coords=coords, masses=masses, gradient=gradient, **matrices)
+    return audit
+
+
+def run(pilot=False, skip_source=False):
+    start = time.perf_counter()
+    torch.set_num_threads(1)
+    output = ROOT / "quantumequi/results/thermochemistry"
+    if pilot:
+        output /= "pilot"
+    output.mkdir(parents=True, exist_ok=True)
+    names = ["linear_minimum", "linear_saddle", "nonlinear_minimum", "nonlinear_saddle"]
+    steps = [0.01, 0.001] if pilot else [0.02, 0.005, 0.001, 0.0002, 0.00004]
+    controls, convergence, thermodynamics, stability = {}, [], [], []
+    matrices, counts = {}, {"analytic_autograd_hessians": 0, "analytic_fd_hessians": 0,
+                           "analytic_force_evaluations": 0, "analytic_autograd_reverse_rows": 0,
+                           "rrho_parameter_cases": 0, "positive_mode_sensitivity_cases": 0}
+    for name in names:
+        coords, masses, energy_fn, exact = control_case(name)
+        energy, gradient, h_ad = torch_derivatives(energy_fn, coords)
+        counts["analytic_autograd_hessians"] += 1
+        counts["analytic_autograd_reverse_rows"] += coords.size
+        analysis = harmonic_analysis(h_ad, coords, masses, gradient)
+        controls[name] = {"coords_A": coords.tolist(), "masses_amu": masses.tolist(), "energy_kcal_mol": energy,
+                          "hessian_error_AD_vs_analytic": float(np.max(np.abs(exact - h_ad))), "analysis": analysis}
+        matrices[name + "_exact"] = exact
+        for dtype in (torch.float32, torch.float64):
+            def force(x):
+                tensor = torch.tensor(x, dtype=dtype, requires_grad=True)
+                return -torch.autograd.grad(energy_fn(tensor), tensor)[0].detach().numpy()
+            for step in steps:
+                hf, asym = finite_difference_hessian(force, coords, step)
+                convergence.append({"case": name, "dtype": str(dtype), "step_A": step,
+                                    "max_abs_H_error": float(np.max(np.abs(hf - exact))), "raw_asymmetry_max": asym,
+                                    "force_evaluations": 2 * coords.size})
+                counts["analytic_fd_hessians"] += 1
+                counts["analytic_force_evaluations"] += 2 * coords.size
+        for temperature in ([298.15] if pilot else [200., 250., 298.15, 350., 500.]):
+            for pressure in ([100000.] if pilot else [10000., 100000., 101325., 1000000.]):
+                terms = ideal_gas_rrho(analysis, masses, temperature, pressure, symmetry_number=1,
+                                       expected_stationary_point=analysis["stationary_point_classification"])
+                thermodynamics.append({"case": name, **{k: v for k, v in terms.items() if not isinstance(v, (list, dict))}})
+                counts["rrho_parameter_cases"] += 1
+    # Nonstationary geometry: projection is still diagnostic, RRHO must refuse.
+    x, m, fn, _ = control_case("nonlinear_minimum")
+    x[1, 0] += 0.08
+    _, gradient, h = torch_derivatives(fn, x)
+    nonstationary = harmonic_analysis(h, x, m, gradient)
+    try:
+        ideal_gas_rrho(nonstationary, m)
+        raise AssertionError("Nonstationary control must be rejected")
+    except ValueError as error:
+        controls["displaced_nonstationary"] = {"analysis": nonstationary, "RRHO_rejection": str(error)}
+    counts["analytic_autograd_hessians"] += 1
+    counts["analytic_autograd_reverse_rows"] += x.size
+    # Sensitivity is explicit replacement of a positive mode, not a rotor model.
+    base = controls["nonlinear_minimum"]["analysis"]
+    for lowest in ([1., 50., 200.] if pilot else [0.1, 1., 5., 10., 20., 50., 100., 200.]):
+        for temperature in ([298.15] if pilot else [250., 298.15, 350.]):
+            for floor in [None, 50., 100.]:
+                modified = dict(base)
+                modified["projected_signed_frequencies_cm"] = [lowest, 500., 1000.]
+                row = ideal_gas_rrho(modified, m, temperature, frequency_floor_cm=floor)
+                stability.append({"input_lowest_frequency_cm": lowest, "floor_cm": floor,
+                                  "temperature_K": temperature, "modified_modes": row["modes_raised_by_floor"],
+                                  "vibrational_entropy_cal_mol_K": row["vibrational_entropy_cal_mol_K"],
+                                  "ZPVE_kcal_mol": row["zpve_kcal_mol"],
+                                  "G_correction_kcal_mol": row["G_correction_kcal_mol"]})
+                counts["positive_mode_sensitivity_cases"] += 1
+    _write_json(output / "analytic_controls.json", controls)
+    _write_csv(output / "analytic_hessian_convergence.csv", convergence)
+    _write_csv(output / "ideal_gas_temperature_pressure.csv", thermodynamics)
+    _write_csv(output / "low_frequency_sensitivity.csv", stability)
+    np.savez_compressed(output / "analytic_hessians.npz", **matrices)
+    source = None if skip_source else source_audit(output, pilot)
+    summary = {"scope": "numerical Hessian and ideal-gas RRHO benchmarks, not target chemistry",
+               "pilot": pilot, "source_audit_skipped": skip_source,
+               "counts_exclude_pilot_and_tests": counts,
+               "source_audit_counts": None if source is None else source["counts"],
+               "constants": {"Boltzmann_J_K": KB, "Planck_J_s": HPLANCK, "speed_light_cm_s": C_CM,
+                             "Avogadro_mol_inverse": NA, "atomic_mass_kg_CODATA2022": AMU_KG,
+                             "gas_constant_cal_mol_K": R_CAL,
+                             "kcal_mol_A2_amu_to_cm_factor": frequency_factor(),
+                             "hartree_bohr2_amu_to_cm_factor": frequency_factor("hartree", "bohr")},
+               "analytic_hessian_max_error": max(v.get("hessian_error_AD_vs_analytic", 0) for v in controls.values()),
+               "environment": {"python": platform.python_version(), "numpy": np.__version__, "torch": torch.__version__, "threads": torch.get_num_threads()},
+               "code_sha256": _sha(__file__), "wall_seconds": time.perf_counter() - start,
+               "sources": [
+                   {"title": "NIST CODATA 2022 constants", "url": "https://physics.nist.gov/cuu/pdf/JPCRD2022CODATA.pdf", "use": "SI and mass constants"},
+                   {"title": "Gaussian thermochemistry technical note", "url": "https://gaussian.com/wp-content/uploads/dl/thermo.pdf", "use": "ideal-gas partition functions, enthalpy and stationarity"}],
+               "license_notes": "Original local implementation; source user-supplied. References consulted, no external data or model downloads. Library licenses remain upstream."}
+    summary["output_sha256"] = {p.name: _sha(p) for p in sorted(output.iterdir()) if p.is_file() and p.name != "summary.json"}
+    _write_json(output / "summary.json", summary)
+    print(json.dumps({"output": str(output), "counts": counts, "source": summary["source_audit_counts"], "seconds": summary["wall_seconds"]}))
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--pilot", action="store_true")
+    parser.add_argument("--skip-source", action="store_true", help="Explicit independent-controls-only run")
+    args = parser.parse_args()
+    run(args.pilot, args.skip_source)

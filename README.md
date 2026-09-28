@@ -2,7 +2,16 @@
 
 完整技术报告、可复现计算与证据审计。Updated 2026-09-28.
 
-## Latest SynthaPore-Omni / 等变学习、分子动力学算法与孔隙计算核验
+## Latest QuantumEqui-NEB / 量子参考、等变微分、路径与热化学核验
+
+- **[中文完整报告](quantumequi/reports/quantumequi_report_chinese.md)** · **[Complete English report](quantumequi/reports/quantumequi_report_english.md)**
+- [代码、实际计算与复现](quantumequi/README.md) · [中英文 PNG/SVG 图表](quantumequi/reports/figures/README.md)
+
+三个代理协同完成电子结构、CI-NEB 和热化学模块并交叉复核。新增 55 个主 Hartree–Fock 作业（另有 3 个试跑）、42 组主解析梯度、16 次 RBF 拟合、1,209 次源势审计调用、40 次解析势 NEB，以及 80 组理想气体和 72 组低频敏感性计算。原脚本未经修改执行成功；新增 64 项单元测试。
+
+The source overlap has rank 8 for 31 functions and cannot accommodate its assumed 40 electrons. Its 24,385-parameter EGNN is untrained, and its candidate is nonstationary. The added quantum reference is H2/H in STO-3G, with documented mean-field limitations; analytic NEB and RRHO checks do not validate Cu electrocatalysis. RBF extrapolation failures and the worse test force error after joint fitting are retained. No chemical transition state or activation free energy is claimed.
+
+## Earlier SynthaPore-Omni / 等变学习、分子动力学算法与孔隙计算核验
 
 - **[中文完整报告](synthapore/reports/synthapore_report_chinese.md)** · **[Complete English report](synthapore/reports/synthapore_report_english.md)**
 - [代码、原始结果与复现入口](synthapore/README.md) · [中英文 PNG/SVG 图表](synthapore/reports/figures/README.md)

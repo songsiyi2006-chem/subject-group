@@ -1,0 +1,82 @@
+{
+  "date": "2026-09-28",
+  "scope": "Internal multi-agent review; not external scientific peer review or chemical validation.",
+  "reviews": [
+    {
+      "reviewer": "electrograph_kinetics agent",
+      "target": "electronic module",
+      "blocking_findings": [],
+      "scope": "Independent saved-data and source-code review; no new SCF or training jobs.",
+      "checks": [
+        "55 main AO matrices, jobs and logs agree; maximum FC-SCepsilon residual 4.44e-16 and orthonormality error 1.11e-15.",
+        "Electronic energy reconstructed independently from density/Hcore/Fock agrees within 8.88e-16 Hartree.",
+        "All 55 main log energies and convergence markers agree with ledger.",
+        "17/8/8/9 split disjoint; RBF centers and scaling fit from training data only; validation selects 16 hyperparameter candidates.",
+        "All 210 predictions independently reproduce 20 metric rows; saved RBF coefficients reproduce energies within 7.33e-15 Hartree and gradients within 4.55e-14 Hartree/Angstrom.",
+        "Source rank deficiency and insufficient retained electron capacity are preserved; test force and OOD failures remain explicit."
+      ]
+    },
+    {
+      "reviewer": "electrograph_learning agent",
+      "target": "thermochemistry module",
+      "blocking_findings": [],
+      "scope": "Independent NumPy reconstruction from saved arrays and statistical formulas; no model or Hessian rerun.",
+      "checks": [
+        "SI frequency factor reconstructed as 108.59135853528242.",
+        "Four controls have rigid ranks 5/5/6/6; frequency difference at most 1.14e-13 inverse cm.",
+        "Nine source Hessian matrices independently mass weighted and projected; spectrum difference at most 5.33e-15.",
+        "80 RRHO rows recomputed from partition functions; largest difference 2.13e-14.",
+        "Pressure differences satisfy RT ln(p/p0) within 1.09e-14 kcal/mol.",
+        "72 low-frequency cases independently recomputed; entropy/ZPVE differences at most 1.46e-13.",
+        "Source maximum gradient 0.01833987082285 exceeds 1e-5; nonstationary source G is correctly withheld."
+      ]
+    },
+    {
+      "reviewer": "primary agent",
+      "target": "integration, path and figures",
+      "blocking_findings": [],
+      "scope": "Source and numerical-record review plus independent figure rendering; distinct from chemical validation.",
+      "checks": [
+        "Read path force/tangent/stop and final-energy implementation; independently checked saved bands, barriers and workload arithmetic in the publication validator.",
+        "Exact original source and captured random weights are retained; original source completion is distinct from scientific accuracy.",
+        "Inspected all eight revised PNGs and all eight independently rendered SVGs; captions describe actual plotted evidence.",
+        "Report numerical-table parity, local links, computation ledgers and hashes are release gates."
+      ]
+    }
+  ],
+  "reviewed_artifact_sha256": {
+    "electronic": {
+      "scripts/electronic_reviewed.py": "b8e5e9a7fefc42c18600f00a2d86e93c430e8754760003a382447a8d625b1710",
+      "results/electronic/summary.json": "fb0e8f75787f566d3c1d0528ae78d9e4ac780380724a40a09f73f47e1076d6d3",
+      "results/electronic/ao_matrices.json": "81b49f394f385e1f53997e647b59f8191ff3a10ac44ea6c74a42a5c25e6f29f3",
+      "results/electronic/quantum_job_accounting.csv": "60b2ca919dea225772c802a0d6e8b24dd3756d593788152ee6a870c5d8d4330b",
+      "results/electronic/surrogate_predictions.csv": "cca105f93d6c2406204770fc3641af23bc35332f6525546a3d0c4e3d081b6d37",
+      "results/electronic/surrogate_metrics.csv": "752659842dd54ba10c6129c047a10e33bf54f3743f1a5bf7b0227e6bc4c08550",
+      "results/electronic/radial_surrogate_models.json": "4a6198612faf08bae0d72f4550d014505cdc3d9453273f5af3fed3a12497e424"
+    },
+    "thermochemistry": {
+      "scripts/thermochemistry_reviewed.py": "f2e0402f622c62e6b8ae118539309951be3f71c20a23ee9d4c91302ac2a6c77c",
+      "results/thermochemistry/summary.json": "a8cf5becf8170daa69bcc42b1dc036cfecdd0bbb7fc8065663ecb476e3c7d452",
+      "results/thermochemistry/analytic_controls.json": "de60eb98f0d7137bb7317ae0bd9ba083d837bb24d0d9e972340022d4fdb9a4dc",
+      "results/thermochemistry/source_hessians.npz": "da5ea01bb6be51c48b4bffad6ae2b470d93767bdb23ec0bd8f290b1d65cc90ae",
+      "results/thermochemistry/source_rrho_audit.json": "61e03bbd8a5dfcded454e4e3a520ef4e4236b6e0b589c7aa9b46a2d8110a13b2",
+      "results/thermochemistry/ideal_gas_temperature_pressure.csv": "cb7211d479178e5325fdcdde45d691ea7f17432aa40e67c9e523dd70d77db711",
+      "results/thermochemistry/low_frequency_sensitivity.csv": "0f2654bcab00dc0322db095a6707b7a188ff22bbce616dd45fe3ad6c59d5f32f"
+    },
+    "path": {
+      "scripts/path_reviewed.py": "ac59d95acabbf02081f31f7034bcea4d9ff2cc9d85bcff0badfa5a5fd7eb4744",
+      "results/path/summary.json": "d92ca6524c08c26bb328d44cd868b1a576b389ae84af0ffb8ab6e53de7223ca9",
+      "results/path/source_audit.json": "cb0b329f6b2d1ee6626336eb5aad5c48a4d0a49253987272379a29b3b1560b97",
+      "results/path/read_only_audit.json": "1cc3d3b6c1d9c33b91db50401de519eb301f4a76404fcef1f105f494c0a2920a",
+      "results/path/analytic_cases.csv": "eaeb3e9e64b14a89d90c79420a0ca6321963aadf4231bb764d7627e7f2ad8eba",
+      "results/path/analytic_final_images.csv": "189a555b54220ead39f0b7a64dbccacf45d264c737286c5366a89b60b8d0cc58",
+      "results/path/analytic_reversal.json": "5dd94e3aab5350cf84f9157a3fac78276c54e3fc38e78a6257bfe5134f9bb410"
+    },
+    "publication": {
+      "reports/quantumequi_report_english.md": "dd537adf1683f5483338f4894d346d92086fdc94b171e76791e243d63b5771b0",
+      "reports/quantumequi_report_chinese.md": "f90ebb188d0303ed58d65b55a675430dcfbb239127e5710c5976243cec4cbb29",
+      "results/figure_manifest.json": "325756197ea847ded9476b5c62a41711801cc4f7f0b4dd616c9f6be764f6676e",
+      "results/figure_qa.json": "2c3c2657738f731efc83ad457dbeba6851053df653dfe1cec08f861c7b933d74"
+    }
+  }
+}

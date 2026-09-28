@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "pilot": true,
+  "evidence": "Separated source-matrix diagnostic, actual ab initio H2 reference, and deterministic distance surrogate",
+  "completed_sections": [
+    "quantum_reference"
+  ],
+  "sections": {
+    "quantum_reference": {
+      "counts": {
+        "H2_scan_SCF_jobs": 1,
+        "H2_analytic_gradients": 1,
+        "displaced_energy_SCF_jobs": 2,
+        "atomic_H_SCF_jobs": 0,
+        "total_SCF_jobs": 3,
+        "failed_SCF_jobs": 0,
+        "saved_AO_matrix_sets": 3,
+        "finite_difference_comparisons": 1,
+        "Cu_cluster_ab_initio_jobs": 0,
+        "DFT_jobs": 0
+      }
+    }
+  },
+  "inputs_sha256": {
+    "scripts/electronic_reviewed.py": "0e0c278cee9387c002a112c7e665600a0b70fd97d56792b4ce71215becec67ae",
+    "source/quantum_egnn_neb_engine.py": "0f84b9d10ab03c3bce39adc7a38c9e33a6f8d0461264f09f0a55d49d72c696f1"
+  },
+  "input_hash_base": "quantumequi module root",
+  "outputs_sha256": {
+    "ao_matrices.json": "aca96af4e03d8c213bd0e9d70a41e6f5d3ac57d97ecb7e003a477f16b1d9b36b",
+    "executed_script.py.txt": "0e0c278cee9387c002a112c7e665600a0b70fd97d56792b4ce71215becec67ae",
+    "h2_gradient_finite_differences.csv": "3dd617892621a4c3ae2cfd4ec1597cbdd9e42d721b06025c0da345f33341f984",
+    "h2_reference.csv": "4beb0eaabc5afc18e45fcea4b51c08ab56956aeafca23cae25be67e296668166",
+    "psi4_log_provenance.json": "ab96b70e26619c1a1dcdd622ae18ba78286c392c31654c25efb1b0de2ca5f73e",
+    "psi4_outputs/fd_R0.740_h0.0010_minus.out": "8f58deeca941c70fb12a2414999376ed58e1e3a65626337a913bda98150b87bd",
+    "psi4_outputs/fd_R0.740_h0.0010_plus.out": "ac294fdf295177d2e64227a14b1ffd452fa5ee0d0e1eaf9ee7c549c7f6b84791",
+    "psi4_outputs/pilot_R0.740.out": "89a0f2f43ef8bdc3cf020e90cdab02835f4c4a0b813f41ce974432313f7b25f7",
+    "psi4_timer.txt": "bb2bc80a39c0faf7ca1dd9391c1ea3a767f0efc1cb4d59d8f99a2e69de6181e8",
+    "quantum_job_accounting.csv": "403ea38bc5a077c378e6db11313cc1918120da7e071f14721e1003434724c2cc",
+    "reference_summary.json": "e10acbaddde5e18175107d1e902cb985f8aa47959bbab0256e664c9d2c7a4319"
+  },
+  "output_hash_base": "this result directory",
+  "executed_source_snapshot": {
+    "file": "executed_script.py.txt",
+    "sha256": "0e0c278cee9387c002a112c7e665600a0b70fd97d56792b4ce71215becec67ae",
+    "reason": "Exact code executed for this run; pilot may precede log-host redaction improvements"
+  },
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.5.2",
+    "scipy": "1.18.0"
+  },
+  "sources": [
+    "https://psicode.org/psi4manual/master/scf.html",
+    "https://docs.scipy.org/doc/scipy/reference/generated/scipy.linalg.eigh.html",
+    "https://github.com/psi4/psi4/blob/master/samples/fd-gradient/input.dat"
+  ],
+  "no_physical_experiment": true
+}

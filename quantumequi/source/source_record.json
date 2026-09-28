@@ -1,0 +1,16 @@
+{
+  "specification_sha256": "957047f8bd1880d996e45fa2f9cccb3e4153dcad7a3f83561409ca6a358d9560",
+  "original_python_sha256": "0f84b9d10ab03c3bce39adc7a38c9e33a6f8d0461264f09f0a55d49d72c696f1",
+  "repairs": [],
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.4.6",
+    "scipy": "1.18.0",
+    "pandas": "2.3.3",
+    "torch": "2.10.0",
+    "matplotlib": "3.11.1",
+    "rdkit": "2026.3.5"
+  },
+  "scope": "Unchanged source execution and capture; no instrument connection or environment installation",
+  "log_policy": "Local runtime and repository prefixes sanitized; errors and printed claims retained"
+}

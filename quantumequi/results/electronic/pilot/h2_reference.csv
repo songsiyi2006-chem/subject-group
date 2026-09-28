@@ -1,0 +1,2 @@
+point_id,R_A,split,energy_total_Hartree,energy_electronic_Hartree,nuclear_repulsion_Hartree,dE_dR_Hartree_A,force_atom2_z_Hartree_A,net_force_max_Hartree_A,Fock_generalized_residual_max,MO_orthonormality_max,eigenvalue_difference_reviewed_solver,orbital_sum_times_two_Hartree,SCF_converged
+pilot_R0.740,0.74,pilot,-1.1167593073781568,-1.8318636461214,0.7151043387432432,0.052306865202723846,-0.052306865202723894,1.0408340855860843e-16,3.3306690738754696e-16,6.661338147750939e-16,2.220446049250313e-16,-1.1571077193736687,True

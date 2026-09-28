@@ -1,0 +1,64 @@
+{
+  "evidence": "Executed ab initio nonrelativistic RHF/STO-3G Born-Oppenheimer total energies and analytic gradients for H2; UHF isolated H reference",
+  "pilot": true,
+  "engine": "Psi4",
+  "engine_version": "1.11",
+  "python": "3.12.14",
+  "numpy": "2.5.2",
+  "threads": 1,
+  "memory_MB_requested": 500,
+  "SCF_algorithm": "PK",
+  "charge": 0,
+  "H2_multiplicity": 1,
+  "SCF_energy_and_density_thresholds": 1e-12,
+  "bohr_in_angstrom": 0.52917721067,
+  "split_sizes": {
+    "pilot": 1
+  },
+  "split_rule": "Fixed R grid before labels: alternating training points; intervening odd indices alternate validation/test; longer bonds are OOD",
+  "partition_scope": "Geometry interpolation/extrapolation of ONE molecule, not molecular generalization",
+  "isolated_H_reference": null,
+  "counts": {
+    "H2_scan_SCF_jobs": 1,
+    "H2_analytic_gradients": 1,
+    "displaced_energy_SCF_jobs": 2,
+    "atomic_H_SCF_jobs": 0,
+    "total_SCF_jobs": 3,
+    "failed_SCF_jobs": 0,
+    "saved_AO_matrix_sets": 3,
+    "finite_difference_comparisons": 1,
+    "Cu_cluster_ab_initio_jobs": 0,
+    "DFT_jobs": 0
+  },
+  "maximum_force_balance_error_Hartree_A": 1.0408340855860843e-16,
+  "maximum_generalized_residual": 3.3306690738754696e-16,
+  "maximum_MO_orthonormality_error": 6.661338147750939e-16,
+  "max_gradient_FD_error_Hartree_A": 1.7397707509914095e-06,
+  "scan_minimum": {
+    "point_id": "pilot_R0.740",
+    "R_A": 0.74,
+    "split": "pilot",
+    "energy_total_Hartree": -1.1167593073781568,
+    "energy_electronic_Hartree": -1.8318636461214,
+    "nuclear_repulsion_Hartree": 0.7151043387432432,
+    "dE_dR_Hartree_A": 0.052306865202723846,
+    "force_atom2_z_Hartree_A": -0.052306865202723894,
+    "net_force_max_Hartree_A": 1.0408340855860843e-16,
+    "Fock_generalized_residual_max": 3.3306690738754696e-16,
+    "MO_orthonormality_max": 6.661338147750939e-16,
+    "eigenvalue_difference_reviewed_solver": 2.220446049250313e-16,
+    "orbital_sum_times_two_Hartree": -1.1571077193736687,
+    "SCF_converged": true
+  },
+  "limitations": [
+    "Minimal basis and RHF neglect electron correlation; stretched RHF H2 is not an accurate dissociation curve",
+    "Grid minimum is not a geometry optimization",
+    "No thermochemistry, DFT, Cu-N4, indole or electrochemical environment in this quantum reference"
+  ],
+  "runtime_seconds": 0.6430052999639884,
+  "sources": [
+    "https://psicode.org/psi4manual/master/scf.html",
+    "https://docs.scipy.org/doc/scipy/reference/generated/scipy.linalg.eigh.html",
+    "https://github.com/psi4/psi4/blob/master/samples/fd-gradient/input.dat"
+  ]
+}

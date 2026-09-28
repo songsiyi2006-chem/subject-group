@@ -1,0 +1,101 @@
+{
+  "date": "2026-09-28",
+  "reviewer": "primary agent visual inspection",
+  "png_files_visually_reviewed": 8,
+  "svg_files_rendered_and_visually_reviewed": 8,
+  "generator_sha256": "e4e9510325fa3d50024a61130a57913e607fe59aeecc5565830bced7a244e525",
+  "reviewed_figure_hashes": {
+    "Fig1_Quantum_Reference_english.png": "771cbe05b39427318bd0085712e72d261d456c671fb32aaedbc919c2ca22ff14",
+    "Fig1_Quantum_Reference_english.svg": "c4db98e5a11bd1997946a5571b7499830b723738b26581ad7609cc1815ec3dcd",
+    "Fig2_Force_Audit_english.png": "d0a976d8059f755b544e73f99e35ca4550940615668f8a0c44e53210dead67cd",
+    "Fig2_Force_Audit_english.svg": "b2fb9175c3306579275be503ac50de4bb042f9a73b92b24c4a38104eb3b33a1d",
+    "Fig3_NEB_Validation_english.png": "3b1cd60517170ce3b6b920b01c2898681c8668d5b1feb5ea5770b6d3cd7009f1",
+    "Fig3_NEB_Validation_english.svg": "d53a0b17bf504b0044438f1d62f6b07de0294ee7e06259214bff8e54075e1f69",
+    "Fig4_Thermochemistry_english.png": "2f192d5e3e7cf89ddfa5a33deb31b1bdfcd038ba3b1be3a0baf890163880447d",
+    "Fig4_Thermochemistry_english.svg": "fb41ac9351d871b302cc604eeefdb05f35bab41b8845cf69cce6f9a4a856619f",
+    "Fig1_Quantum_Reference_chinese.png": "6620831908fd2f1c055735b3d39d4d60c1c81bd99e80935e1281232aed5846f9",
+    "Fig1_Quantum_Reference_chinese.svg": "6d431961049cc280294bcc488f2ebb7e71e043a123c5ba919f22b29ef56c9d0c",
+    "Fig2_Force_Audit_chinese.png": "50eb931fb270894dd80dc1854d6c0faff40a3cbe36cb0d52ae24e7a235667bf3",
+    "Fig2_Force_Audit_chinese.svg": "4aa28740e926ffb9eae5b9698b880f8c0fb3e421dffb743b04eed9c804bcf926",
+    "Fig3_NEB_Validation_chinese.png": "e8020583382f367b6921554505d3b009bf8565e33f5211517c58d4ecd754525b",
+    "Fig3_NEB_Validation_chinese.svg": "f2213e6ba74a9f193f28c64f8dec081d577cbf7a3fc9ffd637e7a813c5f72b33",
+    "Fig4_Thermochemistry_chinese.png": "1a8d0e059e6f6d38754b7b90dbdbd0a9588fbbdd9b3554cf848eeecb33bf921b",
+    "Fig4_Thermochemistry_chinese.svg": "7c8ee87e6f6efd514a214e5536d9e9e0218b98b81db8fdde0130b552ae94aadf"
+  },
+  "renderer": {
+    "sharp": "0.35.4",
+    "libvips": "8.18.6",
+    "librsvg": "2.62.91",
+    "density_dpi": 180
+  },
+  "rendered_svg_images": {
+    "Fig1_Quantum_Reference_chinese_svg_render.png": {
+      "sha256": "7a51c0fdb5758525fc5e2cb1320c69cec9616c1047aacb1e2c419b90ddfb536e",
+      "pixels": [
+        3600,
+        2070
+      ]
+    },
+    "Fig1_Quantum_Reference_english_svg_render.png": {
+      "sha256": "26d6829efc2224a0f0d254fbd1f7b3aca6267e8d90256e33df0254a362086e6f",
+      "pixels": [
+        3600,
+        2070
+      ]
+    },
+    "Fig2_Force_Audit_chinese_svg_render.png": {
+      "sha256": "c2c697d0e06b53360f98e7f45bdd29095de7e9462f2951c3f9fce8c0c326a7aa",
+      "pixels": [
+        3600,
+        2070
+      ]
+    },
+    "Fig2_Force_Audit_english_svg_render.png": {
+      "sha256": "569e5fd5c465140b5074b14a39b0811b00f987c5f4ce7237950645b741920dfd",
+      "pixels": [
+        3600,
+        2070
+      ]
+    },
+    "Fig3_NEB_Validation_chinese_svg_render.png": {
+      "sha256": "c1376a9271052c69cba97780bffe1ca07c6b718770ae932932ac15f9220ed87a",
+      "pixels": [
+        3600,
+        2070
+      ]
+    },
+    "Fig3_NEB_Validation_english_svg_render.png": {
+      "sha256": "a4c9e5db86141a4f3d4dc4ed7f48f03f80dc4d5d9c0d57e75bf38be9f3484867",
+      "pixels": [
+        3600,
+        2070
+      ]
+    },
+    "Fig4_Thermochemistry_chinese_svg_render.png": {
+      "sha256": "49400d4bf60645e7d9bdf6cc55617173909761b3509375a8489fc8cd31f827d5",
+      "pixels": [
+        3600,
+        2070
+      ]
+    },
+    "Fig4_Thermochemistry_english_svg_render.png": {
+      "sha256": "980a61ba02f8b1f0d0ec8b2d96841ea7a766c7409f94feb06fa983791c15fd26",
+      "pixels": [
+        3600,
+        2070
+      ]
+    }
+  },
+  "findings": [
+    "All 16 current figure images inspected: legible bilingual labels, visible legends, no observed clipped titles or axes.",
+    "All PNG files verified as 2400 by 1380 with 300 DPI metadata. SVG text remains editable with no embedded raster images.",
+    "SVG independent rasterizations are 3600 by 2070; tool previews were scaled to 2048 by 1178.",
+    "Figure 1 shows the 42 actual RHF energy points, not surrogate curves.",
+    "Figures 2 and 4a label untrained outputs as nominal; Figure 3 uses dimensionless analytic energies.",
+    "Source original panel is archived unchanged and excluded from revised-figure scientific endorsement."
+  ],
+  "limitations": [
+    "Font files are not embedded in SVG.",
+    "Visual inspection is not chemical or experimental validation."
+  ]
+}

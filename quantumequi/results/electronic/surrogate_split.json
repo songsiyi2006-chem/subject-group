@@ -1,0 +1,76 @@
+{
+  "split_point_ids": {
+    "train": [
+      "scan_000",
+      "scan_002",
+      "scan_004",
+      "scan_006",
+      "scan_008",
+      "scan_010",
+      "scan_012",
+      "scan_014",
+      "scan_016",
+      "scan_018",
+      "scan_020",
+      "scan_022",
+      "scan_024",
+      "scan_026",
+      "scan_028",
+      "scan_030",
+      "scan_032"
+    ],
+    "validation": [
+      "scan_001",
+      "scan_005",
+      "scan_009",
+      "scan_013",
+      "scan_017",
+      "scan_021",
+      "scan_025",
+      "scan_029"
+    ],
+    "test": [
+      "scan_003",
+      "scan_007",
+      "scan_011",
+      "scan_015",
+      "scan_019",
+      "scan_023",
+      "scan_027",
+      "scan_031"
+    ],
+    "ood_stretch": [
+      "ood_000",
+      "ood_001",
+      "ood_002",
+      "ood_003",
+      "ood_004",
+      "ood_005",
+      "ood_006",
+      "ood_007",
+      "ood_008"
+    ]
+  },
+  "training_distances_A": [
+    0.5,
+    0.58,
+    0.66,
+    0.74,
+    0.82,
+    0.9,
+    0.98,
+    1.06,
+    1.14,
+    1.22,
+    1.3,
+    1.38,
+    1.46,
+    1.54,
+    1.62,
+    1.7,
+    1.78
+  ],
+  "hyperparameter_selection": "Joint validation RMSE scaled by TRAIN energy and gradient standard deviations; no test or OOD selection or refit",
+  "seed": null,
+  "determinism": "Fixed distances, deterministic linear least squares; no pseudorandom learning seed"
+}

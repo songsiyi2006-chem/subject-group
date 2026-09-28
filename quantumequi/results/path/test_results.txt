@@ -1,0 +1,25 @@
+test_archived_inplace_steps_reconstruct_exactly (test_quantumequi_path.TestQuantumEquiPath.test_archived_inplace_steps_reconstruct_exactly) ... ok
+test_archived_source_replay_provenance_and_candidate (test_quantumequi_path.TestQuantumEquiPath.test_archived_source_replay_provenance_and_candidate) ... ok
+test_asymmetric_forward_reverse_energetics (test_quantumequi_path.TestQuantumEquiPath.test_asymmetric_forward_reverse_energetics) ... ok
+test_both_analytic_forces_central_difference (test_quantumequi_path.TestQuantumEquiPath.test_both_analytic_forces_central_difference) ... ok
+test_both_hessians_force_difference (test_quantumequi_path.TestQuantumEquiPath.test_both_hessians_force_difference) ... ok
+test_callback_supports_atom_coordinate_shape (test_quantumequi_path.TestQuantumEquiPath.test_callback_supports_atom_coordinate_shape) ... ok
+test_climbing_force_independent_of_spring (test_quantumequi_path.TestQuantumEquiPath.test_climbing_force_independent_of_spring) ... ok
+test_degenerate_tangents_rejected (test_quantumequi_path.TestQuantumEquiPath.test_degenerate_tangents_rejected) ... ok
+test_energy_weighted_tangent_path_reversal (test_quantumequi_path.TestQuantumEquiPath.test_energy_weighted_tangent_path_reversal) ... ok
+test_fixed_endpoints_and_fresh_energy (test_quantumequi_path.TestQuantumEquiPath.test_fixed_endpoints_and_fresh_energy) ... ok
+test_invalid_parameters_and_band (test_quantumequi_path.TestQuantumEquiPath.test_invalid_parameters_and_band) ... ok
+test_iteration_limit_is_not_convergence (test_quantumequi_path.TestQuantumEquiPath.test_iteration_limit_is_not_convergence) ... ok
+test_monotonic_tangent_selects_uphill_segment (test_quantumequi_path.TestQuantumEquiPath.test_monotonic_tangent_selects_uphill_segment) ... ok
+test_nonclimbing_force_perpendicular_component (test_quantumequi_path.TestQuantumEquiPath.test_nonclimbing_force_perpendicular_component) ... ok
+test_nonstationary_endpoints_rejected (test_quantumequi_path.TestQuantumEquiPath.test_nonstationary_endpoints_rejected) ... ok
+test_reviewed_reversal_identical_initial_band (test_quantumequi_path.TestQuantumEquiPath.test_reviewed_reversal_identical_initial_band) ... ok
+test_second_surface_is_three_dimensional (test_quantumequi_path.TestQuantumEquiPath.test_second_surface_is_three_dimensional) ... ok
+test_seeded_solver_reproducibility (test_quantumequi_path.TestQuantumEquiPath.test_seeded_solver_reproducibility) ... ok
+test_sequential_update_has_direction_bias (test_quantumequi_path.TestQuantumEquiPath.test_sequential_update_has_direction_bias) ... ok
+test_stationary_reference_indices (test_quantumequi_path.TestQuantumEquiPath.test_stationary_reference_indices) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.508s
+
+OK

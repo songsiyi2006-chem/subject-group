@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "records": [
+    {
+      "scope": "main",
+      "jobs": 55,
+      "max_density_energy_or_Fock_residual_Hartree": 8.881784197001252e-16,
+      "max_alpha_electron_trace_error": 1.2212453270876722e-15,
+      "max_log_vs_saved_energy_error_Hartree": 4.9960036108132044e-15,
+      "all_recorded_SCF_converged_and_log_hashes_match": true,
+      "passed": true
+    },
+    {
+      "scope": "pilot",
+      "jobs": 3,
+      "max_density_energy_or_Fock_residual_Hartree": 6.661338147750939e-16,
+      "max_alpha_electron_trace_error": 1.1102230246251565e-15,
+      "max_log_vs_saved_energy_error_Hartree": 3.3306690738754696e-15,
+      "all_recorded_SCF_converged_and_log_hashes_match": true,
+      "passed": true
+    }
+  ],
+  "scope": "Independent stored-density energy identity, alpha-electron traces, Fock residuals, log convergence and hashes. No quantum recalculation.",
+  "inputs_sha256": {
+    "ao_matrices.json": "81b49f394f385e1f53997e647b59f8191ff3a10ac44ea6c74a42a5c25e6f29f3",
+    "quantum_job_accounting.csv": "60b2ca919dea225772c802a0d6e8b24dd3756d593788152ee6a870c5d8d4330b",
+    "psi4_log_provenance.json": "61602cac65e0112bb0e027b2980f0806abf86b628ac70c769e4ea91ce01cf9ba",
+    "pilot/ao_matrices.json": "aca96af4e03d8c213bd0e9d70a41e6f5d3ac57d97ecb7e003a477f16b1d9b36b",
+    "pilot/quantum_job_accounting.csv": "403ea38bc5a077c378e6db11313cc1918120da7e071f14721e1003434724c2cc",
+    "pilot/psi4_log_provenance.json": "ab96b70e26619c1a1dcdd622ae18ba78286c392c31654c25efb1b0de2ca5f73e"
+  },
+  "hash_base": "results/electronic",
+  "script_sha256": "be0506bfed65b5af3c73c12b19a8341058e0136fb17276d9df6b9e7fd57f6eb4"
+}

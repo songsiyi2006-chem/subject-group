@@ -1,0 +1,2 @@
+R_A,step_A,plus_energy_Hartree,minus_energy_Hartree,finite_difference_dE_dR_Hartree_A,analytic_dE_dR_Hartree_A,absolute_error_Hartree_A
+0.74,0.001,-1.1167061372172076,-1.1168107474680715,0.052305125431972854,0.052306865202723846,1.7397707509914095e-06

@@ -1,0 +1,72 @@
+{
+  "pilot": true,
+  "scope": "Two designed dimensionless analytic surfaces; numerical convergence only",
+  "method_provenance": "Callback-based generalization of SynthaPore improved-tangent/FIRE-style solver; no new optimizer claimed",
+  "surfaces": {
+    "tilted_sine_2d": "V=(x*x-1)^2+0.35*x+2.5*(y-0.55*sin(1.7*x))^2",
+    "periodic_curve_3d": "V=2*(1-cos(x))+2*(y-0.45*sin(x))^2+3*(z-0.30*(1-cos(x)))^2"
+  },
+  "units": "dimensionless coordinates, energy, force; optimizer step parameter is not time",
+  "counts": {
+    "sweep_cases": 2,
+    "sweep_iterations": 349,
+    "sweep_band_point_evaluations": 3159,
+    "sweep_endpoint_point_evaluations": 4,
+    "reversal_cases": 4,
+    "reversal_iterations": 748,
+    "reversal_band_point_evaluations": 8272,
+    "reversal_endpoint_point_evaluations": 8,
+    "sweep_history_rows": 351,
+    "sweep_final_image_rows": 18,
+    "analytic_Hessians_at_sweep_candidates": 2,
+    "reference_Hessians": 6,
+    "DFT_calculations": 0,
+    "new_training_runs": 0
+  },
+  "checks": {
+    "all_sweep_cases_converged": true,
+    "all_sweep_candidates_index_one": true,
+    "maximum_absolute_forward_barrier_error": 1.6501167099391978e-09,
+    "reversal": [
+      {
+        "surface": "tilted_sine_2d",
+        "mapped_max_coordinate_difference": 1.1102230246251565e-16,
+        "forward_minus_reversed_reverse_barrier": 0.0,
+        "both_converged": true
+      },
+      {
+        "surface": "periodic_curve_3d",
+        "mapped_max_coordinate_difference": 2.220446049250313e-16,
+        "forward_minus_reversed_reverse_barrier": 0.0,
+        "both_converged": true
+      }
+    ]
+  },
+  "limits": [
+    "Two low-dimensional designed surfaces do not validate a chemical potential or reaction mechanism",
+    "Stationary endpoints are algebraic references; molecular endpoint relaxation is not performed",
+    "No free energies, atomistic electrochemistry, quantum barriers, MD, or new trained weights",
+    "Finite image discretization affects the band; a converged CI is separately checked against the known saddle"
+  ],
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.4.6"
+  },
+  "references": [
+    "https://doi.org/10.1063/1.1323224",
+    "https://doi.org/10.1063/1.1329672",
+    "https://doi.org/10.1103/PhysRevLett.97.170201"
+  ],
+  "runtime_seconds": 0.41869159997440875,
+  "source_sha256": {
+    "quantumequi/scripts/path_reviewed.py": "ac59d95acabbf02081f31f7034bcea4d9ff2cc9d85bcff0badfa5a5fd7eb4744",
+    "synthapore/scripts/dynamics_reviewed.py": "88b01c6a164ed5b29dce9f315c8ba6a399f183435194213c9ceeb1ed20833238"
+  },
+  "output_sha256": {
+    "analytic_cases.csv": "842cf0687c96415732f58237b160d441e1a24cbbcfddfec173ea38dedfd7286e",
+    "analytic_final_images.csv": "238b1fa19f6ece7495e52d242043e46f047973c2027be41eb1dc4d822ca35c49",
+    "analytic_force_history.csv": "144a144ebfab04a1ff68fcd8846b7eb43aaec4d9a107bbc5316169b63c1d7841",
+    "analytic_references.json": "21fd26afd8a29077f9cebf594af92a63d36cad746905d46c2e9812e393d589e5",
+    "analytic_reversal.json": "5dd94e3aab5350cf84f9157a3fac78276c54e3fc38e78a6257bfe5134f9bb410"
+  }
+}

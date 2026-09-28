@@ -1,0 +1,4 @@
+job_id,molecule,R_A,reference,basis,charge,multiplicity,energy_Hartree,nuclear_repulsion_Hartree,electronic_energy_Hartree,analytic_gradient_requested,elapsed_seconds,SCF_completed
+pilot_R0.740,H2,0.74,RHF,STO-3G,0,1,-1.1167593073781568,0.7151043387432432,-1.8318636461214,True,0.24533900001551956,True
+fd_R0.740_h0.0010_plus,H2,0.741,RHF,STO-3G,0,1,-1.1167061372172076,0.7141392856545209,-1.8308454228717284,False,0.15957099990919232,True
+fd_R0.740_h0.0010_minus,H2,0.739,RHF,STO-3G,0,1,-1.1168107474680715,0.7160720036129905,-1.832882751081062,False,0.19192250003106892,True
