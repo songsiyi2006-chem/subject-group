@@ -1,0 +1,97 @@
+{
+  "evidence_role": "executed_numerical_benchmark_not_wet_lab_or_industrial_control",
+  "pool_design": {
+    "flow_uL_min": [
+      100,
+      1500
+    ],
+    "overpotential_V": [
+      0.2,
+      0.75
+    ],
+    "shape": [
+      9,
+      9
+    ],
+    "unique_PDE_evaluations": 81,
+    "nx": 80,
+    "ny": 32
+  },
+  "budget": {
+    "seeds": 8,
+    "methods": 2,
+    "per_method_including_initial": 15,
+    "shared_initial_per_seed": 5,
+    "sequential_per_run": 10,
+    "total_recorded_evaluation_uses": 240,
+    "offline_precomputation_for_reference_excluded_from_per_method_budget": 81
+  },
+  "objectives_maximized": [
+    "STY / 50000",
+    "-electrical_SEC_kWh_per_kg"
+  ],
+  "fixed_reference": [
+    0.0,
+    -2.0
+  ],
+  "full_pool_hypervolume": 1.5215781732523859,
+  "full_pool_nondominated_count": 46,
+  "FE_range_pct": [
+    99.9999999999689,
+    100.00000000003678
+  ],
+  "FE_is_fixed_by_single_reaction_charge_identity": true,
+  "STY_FE_model_identity_front_count": 1,
+  "method": {
+    "name": "single-candidate finite-pool GP MC-EHVI",
+    "posterior_draws_per_candidate": 256,
+    "kernel": "independent normalized Matérn-5/2, fixed length scales [0.3,0.3], amplitude 1",
+    "numerical_nugget": 1e-08,
+    "hyperparameter_optimization": false,
+    "observed_only_outcome_normalization": true,
+    "unseen_objectives_available_to_GP": false,
+    "draw_constraints": "nonnegative STY and positive SEC; no learned process-safety constraints",
+    "experimental_noise_model": null
+  },
+  "comparison": {
+    "EHVI_mean_pool_HV_fraction": 0.9795434956815559,
+    "random_mean_pool_HV_fraction": 0.9595596231106185,
+    "EHVI_min_max_fraction": [
+      0.9715586508370696,
+      0.9850291465100455
+    ],
+    "random_min_max_fraction": [
+      0.8972473612653299,
+      0.9864318104484795
+    ],
+    "mean_paired_HV_difference": 0.030407024320995235,
+    "paired_HV_difference_sample_sd": 0.046535327371072965,
+    "paired_seed_mean_difference_95pct_t_interval": [
+      -0.008497482956109505,
+      0.06931153159809997
+    ],
+    "interval_scope": "Descriptive seed sensitivity under independent approximately normal seed effects; not chemical uncertainty or generalized method superiority",
+    "EHVI_wins": 5,
+    "random_wins": 3,
+    "ties": 0
+  },
+  "selection": "All nondominated evaluated candidates exported in campaign_pareto_records.csv; no arbitrary median declared industrial optimum",
+  "limitations": [
+    "FE is structurally 100% because side reactions are absent; it is not a measured selectivity claim",
+    "331.43 g/mol product and 223.27/110.18 g/mol reactants are attachment assumptions without verified identities",
+    "Cell voltage and solvent density are assumed, not coupled to a potential or thermal PDE",
+    "Independent GP posteriors ignore physical objective correlations",
+    "Only finite 81-point pool and eight default seeds; superiority cannot be generalized",
+    "No real experimental data, hardware connection, DFT, uncertainty calibration or industrial validation",
+    "Reference point and STY scale are declared a priori and are not tuned using benchmark outcomes"
+  ],
+  "source_sha256": "f1215071f904ab82df106d712faf63bfb8307abaabf43655c89c25cc88afc4e2",
+  "transport_source_sha256": "7391c4c333793110ab80eb47069e2e9fab69d665ac7f9a2552eca23609e79a15",
+  "candidate_pool_sha256": "9a731e99a024f352ed7a51cff165aa7ae06e079bbdb99e66bf8e362c3e7a3ecf",
+  "runtime_versions": {
+    "python": "3.12.14",
+    "numpy": "2.4.6",
+    "scipy": "1.18.0",
+    "scikit_learn": "1.9.0"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "total_CNY": 10000,
+  "confirmed_funding_CNY": null,
+  "proposed_duration_months": 12,
+  "source_calendar_month_difference": 20,
+  "source_calendar_months_inclusive": 21,
+  "source_claim": "2026-09 to 2028-05 called two years; dates span 20 months or 21 named calendar months",
+  "next_call_deadline": "unverified",
+  "approval_or_grant_submission": false
+}

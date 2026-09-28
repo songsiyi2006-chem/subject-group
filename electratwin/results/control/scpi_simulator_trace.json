@@ -1,0 +1,255 @@
+{
+  "physical_connections": 0,
+  "simulation_only": true,
+  "vendor_compatibility_verified": false,
+  "scope": "SCPI-like state-machine tests, not a real instrument driver",
+  "trace": [
+    {
+      "command": ":OUTP ON",
+      "status": "ERROR",
+      "value": "NOT_CONNECTED",
+      "connected": false,
+      "output_enabled": false,
+      "current_setpoint_A": 0.0,
+      "voltage_limit_V": 10.0,
+      "fault": "NOT_CONNECTED",
+      "evidence_role": "simulation_only"
+    },
+    {
+      "command": "*IDN?",
+      "status": "OK",
+      "value": "ELECTRATWIN,SIMULATOR,NO-PHYSICAL-DEVICE,1.0",
+      "connected": true,
+      "output_enabled": false,
+      "current_setpoint_A": 0.0,
+      "voltage_limit_V": 10.0,
+      "fault": "NOT_CONNECTED",
+      "evidence_role": "simulation_only"
+    },
+    {
+      "command": "*CLS",
+      "status": "OK",
+      "value": null,
+      "connected": true,
+      "output_enabled": false,
+      "current_setpoint_A": 0.0,
+      "voltage_limit_V": 10.0,
+      "fault": null,
+      "evidence_role": "simulation_only"
+    },
+    {
+      "command": ":SOUR:FUNC CURR",
+      "status": "OK",
+      "value": "CURRENT",
+      "connected": true,
+      "output_enabled": false,
+      "current_setpoint_A": 0.0,
+      "voltage_limit_V": 10.0,
+      "fault": null,
+      "evidence_role": "simulation_only"
+    },
+    {
+      "command": ":SOUR:CURR 0.02",
+      "status": "OK",
+      "value": null,
+      "connected": true,
+      "output_enabled": false,
+      "current_setpoint_A": 0.02,
+      "voltage_limit_V": 10.0,
+      "fault": null,
+      "evidence_role": "simulation_only"
+    },
+    {
+      "command": ":OUTP ON",
+      "status": "OK",
+      "value": null,
+      "connected": true,
+      "output_enabled": true,
+      "current_setpoint_A": 0.02,
+      "voltage_limit_V": 10.0,
+      "fault": null,
+      "evidence_role": "simulation_only"
+    },
+    {
+      "command": ":MEAS:VOLT?",
+      "status": "OK",
+      "value": 2.3979999999999997,
+      "connected": true,
+      "output_enabled": true,
+      "current_setpoint_A": 0.02,
+      "voltage_limit_V": 10.0,
+      "fault": null,
+      "evidence_role": "simulation_only"
+    },
+    {
+      "command": ":SENS:VOLT:PROT 2.0",
+      "status": "ERROR",
+      "value": "SIMULATED_VOLTAGE_COMPLIANCE_TRIP",
+      "connected": true,
+      "output_enabled": false,
+      "current_setpoint_A": 0.02,
+      "voltage_limit_V": 2.0,
+      "fault": "SIMULATED_VOLTAGE_COMPLIANCE_TRIP",
+      "evidence_role": "simulation_only"
+    },
+    {
+      "command": ":OUTP ON",
+      "status": "ERROR",
+      "value": "FAULT_LATCHED_RESET_REQUIRED",
+      "connected": true,
+      "output_enabled": false,
+      "current_setpoint_A": 0.02,
+      "voltage_limit_V": 2.0,
+      "fault": "FAULT_LATCHED_RESET_REQUIRED",
+      "evidence_role": "simulation_only"
+    },
+    {
+      "command": ":SOUR:CURR 0",
+      "status": "OK",
+      "value": null,
+      "connected": true,
+      "output_enabled": false,
+      "current_setpoint_A": 0.0,
+      "voltage_limit_V": 2.0,
+      "fault": "FAULT_LATCHED_RESET_REQUIRED",
+      "evidence_role": "simulation_only"
+    },
+    {
+      "command": "*CLS",
+      "status": "OK",
+      "value": null,
+      "connected": true,
+      "output_enabled": false,
+      "current_setpoint_A": 0.0,
+      "voltage_limit_V": 2.0,
+      "fault": null,
+      "evidence_role": "simulation_only"
+    },
+    {
+      "command": ":SENS:VOLT:PROT 10",
+      "status": "OK",
+      "value": null,
+      "connected": true,
+      "output_enabled": false,
+      "current_setpoint_A": 0.0,
+      "voltage_limit_V": 10.0,
+      "fault": null,
+      "evidence_role": "simulation_only"
+    },
+    {
+      "command": ":SOUR:CURR NAN",
+      "status": "ERROR",
+      "value": "PARAMETER_OUT_OF_SIMULATOR_RANGE",
+      "connected": true,
+      "output_enabled": false,
+      "current_setpoint_A": 0.0,
+      "voltage_limit_V": 10.0,
+      "fault": "PARAMETER_OUT_OF_SIMULATOR_RANGE",
+      "evidence_role": "simulation_only"
+    },
+    {
+      "command": ":SOUR:CURR 0",
+      "status": "OK",
+      "value": null,
+      "connected": true,
+      "output_enabled": false,
+      "current_setpoint_A": 0.0,
+      "voltage_limit_V": 10.0,
+      "fault": "PARAMETER_OUT_OF_SIMULATOR_RANGE",
+      "evidence_role": "simulation_only"
+    },
+    {
+      "command": "*CLS",
+      "status": "OK",
+      "value": null,
+      "connected": true,
+      "output_enabled": false,
+      "current_setpoint_A": 0.0,
+      "voltage_limit_V": 10.0,
+      "fault": null,
+      "evidence_role": "simulation_only"
+    },
+    {
+      "command": ":SOUR:VOLT 3",
+      "status": "ERROR",
+      "value": "UNKNOWN_OR_UNSUPPORTED_COMMAND",
+      "connected": true,
+      "output_enabled": false,
+      "current_setpoint_A": 0.0,
+      "voltage_limit_V": 10.0,
+      "fault": "UNKNOWN_OR_UNSUPPORTED_COMMAND",
+      "evidence_role": "simulation_only"
+    },
+    {
+      "command": ":SOUR:CURR 0",
+      "status": "OK",
+      "value": null,
+      "connected": true,
+      "output_enabled": false,
+      "current_setpoint_A": 0.0,
+      "voltage_limit_V": 10.0,
+      "fault": "UNKNOWN_OR_UNSUPPORTED_COMMAND",
+      "evidence_role": "simulation_only"
+    },
+    {
+      "command": "*CLS",
+      "status": "OK",
+      "value": null,
+      "connected": true,
+      "output_enabled": false,
+      "current_setpoint_A": 0.0,
+      "voltage_limit_V": 10.0,
+      "fault": null,
+      "evidence_role": "simulation_only"
+    },
+    {
+      "command": ":SOUR:CURR 0.01",
+      "status": "OK",
+      "value": null,
+      "connected": true,
+      "output_enabled": false,
+      "current_setpoint_A": 0.01,
+      "voltage_limit_V": 10.0,
+      "fault": null,
+      "evidence_role": "simulation_only"
+    },
+    {
+      "command": ":OUTP ON",
+      "status": "OK",
+      "value": null,
+      "connected": true,
+      "output_enabled": true,
+      "current_setpoint_A": 0.01,
+      "voltage_limit_V": 10.0,
+      "fault": null,
+      "evidence_role": "simulation_only"
+    },
+    {
+      "command": ":MEAS:CURR?",
+      "status": "OK",
+      "value": 0.01,
+      "connected": true,
+      "output_enabled": true,
+      "current_setpoint_A": 0.01,
+      "voltage_limit_V": 10.0,
+      "fault": null,
+      "evidence_role": "simulation_only"
+    },
+    {
+      "command": ":OUTP OFF",
+      "status": "OK",
+      "value": null,
+      "connected": true,
+      "output_enabled": false,
+      "current_setpoint_A": 0.01,
+      "voltage_limit_V": 10.0,
+      "fault": null,
+      "evidence_role": "simulation_only"
+    }
+  ],
+  "final_state": {
+    "connected": false,
+    "output_enabled": false,
+    "current_A": 0.0
+  }
+}

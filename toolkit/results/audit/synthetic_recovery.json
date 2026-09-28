@@ -1,0 +1,33 @@
+{
+  "calibration_slope": 14222.72235077045,
+  "calibration_intercept": 139.52228468529063,
+  "calibration_covariance_slope_intercept": [
+    [
+      928.757201876602,
+      -796.0776016085161
+    ],
+    [
+      -796.0776016085161,
+      1078.0217521781988
+    ]
+  ],
+  "calibration_rows": 21,
+  "calibration_range_mM": [
+    0,
+    2
+  ],
+  "deconvolution_cases": 80,
+  "summaries": [
+    {
+      "width_mismatch": false,
+      "mean_absolute_area_error_pct": 0.027363272237857228,
+      "max_absolute_area_error_pct": 0.16536198982466388
+    },
+    {
+      "width_mismatch": true,
+      "mean_absolute_area_error_pct": 14.614337030387588,
+      "max_absolute_area_error_pct": 24.53473985486839
+    }
+  ],
+  "model": "Two known Gaussian peak shapes plus linear baseline; linear least squares; widths and centers assumed known; no chemical peak identification or vendor raw/FID parsing"
+}

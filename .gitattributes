@@ -20,4 +20,10 @@ closed_loop/source/** -text -whitespace
 closed_loop/results/** -text -whitespace
 closed_loop/inputs/** -text -whitespace
 closed_loop/reports/figures/** -text -whitespace
+toolkit/source/** -text -whitespace
+toolkit/results/** -text -whitespace
+toolkit/reports/figures/** -text -whitespace
+electratwin/source/** -text -whitespace
+electratwin/results/** -text -whitespace
+electratwin/reports/figures/** -text -whitespace
 *.png binary

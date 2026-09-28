@@ -1,0 +1,1032 @@
+{
+  "passed": true,
+  "checks": 256,
+  "failed": [],
+  "scope": "Saved numerical provenance, report consistency and publication artifacts; not experimental or industrial validation.",
+  "items": [
+    {
+      "check": "archived specification bytes",
+      "passed": true
+    },
+    {
+      "check": "original source and execution bytes",
+      "passed": true
+    },
+    {
+      "check": "compatibility source and execution bytes",
+      "passed": true
+    },
+    {
+      "check": "only one compatibility call replacement",
+      "passed": true
+    },
+    {
+      "check": "original failure and compatibility success retained",
+      "passed": true
+    },
+    {
+      "check": "neither source run connected physical hardware",
+      "passed": true
+    },
+    {
+      "check": "audit tied to captured arrays",
+      "passed": true
+    },
+    {
+      "check": "source conservation failure retained",
+      "passed": true
+    },
+    {
+      "check": "source clipping and fixed grid retained",
+      "passed": true
+    },
+    {
+      "check": "no source EHVI or surrogate falsely credited",
+      "passed": true
+    },
+    {
+      "check": "transport verification accounting",
+      "passed": true
+    },
+    {
+      "check": "baseline converged and concentrations nonnegative",
+      "passed": true
+    },
+    {
+      "check": "baseline conversion from same result",
+      "passed": true
+    },
+    {
+      "check": "global numerical balances",
+      "passed": true
+    },
+    {
+      "check": "bounded refinement evidence",
+      "passed": true
+    },
+    {
+      "check": "transport rows grid_convergence.csv",
+      "passed": true
+    },
+    {
+      "check": "transport rows parameter_sweep.csv",
+      "passed": true
+    },
+    {
+      "check": "transport rows limiting_cases.csv",
+      "passed": true
+    },
+    {
+      "check": "transport rows analytic_plug_limit.csv",
+      "passed": true
+    },
+    {
+      "check": "transport rows screening_domain_grid_check.csv",
+      "passed": true
+    },
+    {
+      "check": "control script provenance",
+      "passed": true
+    },
+    {
+      "check": "transport script provenance",
+      "passed": true
+    },
+    {
+      "check": "pool provenance",
+      "passed": true
+    },
+    {
+      "check": "81 unique candidates",
+      "passed": true
+    },
+    {
+      "check": "81 pool evaluations and 240 recorded uses kept separate",
+      "passed": true
+    },
+    {
+      "check": "pool numerical balances",
+      "passed": true
+    },
+    {
+      "check": "pool evidence role",
+      "passed": true
+    },
+    {
+      "check": "fixed FE objective degeneracy retained",
+      "passed": true
+    },
+    {
+      "check": "no unseen-target or experimental-noise claim",
+      "passed": true
+    },
+    {
+      "check": "400 differential HVI comparisons passed",
+      "passed": true
+    },
+    {
+      "check": "cross-review source electratwin/scripts/cross_review.py",
+      "passed": true
+    },
+    {
+      "check": "cross-review source electratwin/scripts/metrics_control.py",
+      "passed": true
+    },
+    {
+      "check": "budget seed 0 gp_mc_ehvi",
+      "passed": true
+    },
+    {
+      "check": "no duplicate seed 0 gp_mc_ehvi",
+      "passed": true
+    },
+    {
+      "check": "nondecreasing hypervolume seed 0 gp_mc_ehvi",
+      "passed": true
+    },
+    {
+      "check": "budget seed 0 random",
+      "passed": true
+    },
+    {
+      "check": "no duplicate seed 0 random",
+      "passed": true
+    },
+    {
+      "check": "nondecreasing hypervolume seed 0 random",
+      "passed": true
+    },
+    {
+      "check": "shared initial data seed 0",
+      "passed": true
+    },
+    {
+      "check": "budget seed 1 gp_mc_ehvi",
+      "passed": true
+    },
+    {
+      "check": "no duplicate seed 1 gp_mc_ehvi",
+      "passed": true
+    },
+    {
+      "check": "nondecreasing hypervolume seed 1 gp_mc_ehvi",
+      "passed": true
+    },
+    {
+      "check": "budget seed 1 random",
+      "passed": true
+    },
+    {
+      "check": "no duplicate seed 1 random",
+      "passed": true
+    },
+    {
+      "check": "nondecreasing hypervolume seed 1 random",
+      "passed": true
+    },
+    {
+      "check": "shared initial data seed 1",
+      "passed": true
+    },
+    {
+      "check": "budget seed 2 gp_mc_ehvi",
+      "passed": true
+    },
+    {
+      "check": "no duplicate seed 2 gp_mc_ehvi",
+      "passed": true
+    },
+    {
+      "check": "nondecreasing hypervolume seed 2 gp_mc_ehvi",
+      "passed": true
+    },
+    {
+      "check": "budget seed 2 random",
+      "passed": true
+    },
+    {
+      "check": "no duplicate seed 2 random",
+      "passed": true
+    },
+    {
+      "check": "nondecreasing hypervolume seed 2 random",
+      "passed": true
+    },
+    {
+      "check": "shared initial data seed 2",
+      "passed": true
+    },
+    {
+      "check": "budget seed 3 gp_mc_ehvi",
+      "passed": true
+    },
+    {
+      "check": "no duplicate seed 3 gp_mc_ehvi",
+      "passed": true
+    },
+    {
+      "check": "nondecreasing hypervolume seed 3 gp_mc_ehvi",
+      "passed": true
+    },
+    {
+      "check": "budget seed 3 random",
+      "passed": true
+    },
+    {
+      "check": "no duplicate seed 3 random",
+      "passed": true
+    },
+    {
+      "check": "nondecreasing hypervolume seed 3 random",
+      "passed": true
+    },
+    {
+      "check": "shared initial data seed 3",
+      "passed": true
+    },
+    {
+      "check": "budget seed 4 gp_mc_ehvi",
+      "passed": true
+    },
+    {
+      "check": "no duplicate seed 4 gp_mc_ehvi",
+      "passed": true
+    },
+    {
+      "check": "nondecreasing hypervolume seed 4 gp_mc_ehvi",
+      "passed": true
+    },
+    {
+      "check": "budget seed 4 random",
+      "passed": true
+    },
+    {
+      "check": "no duplicate seed 4 random",
+      "passed": true
+    },
+    {
+      "check": "nondecreasing hypervolume seed 4 random",
+      "passed": true
+    },
+    {
+      "check": "shared initial data seed 4",
+      "passed": true
+    },
+    {
+      "check": "budget seed 5 gp_mc_ehvi",
+      "passed": true
+    },
+    {
+      "check": "no duplicate seed 5 gp_mc_ehvi",
+      "passed": true
+    },
+    {
+      "check": "nondecreasing hypervolume seed 5 gp_mc_ehvi",
+      "passed": true
+    },
+    {
+      "check": "budget seed 5 random",
+      "passed": true
+    },
+    {
+      "check": "no duplicate seed 5 random",
+      "passed": true
+    },
+    {
+      "check": "nondecreasing hypervolume seed 5 random",
+      "passed": true
+    },
+    {
+      "check": "shared initial data seed 5",
+      "passed": true
+    },
+    {
+      "check": "budget seed 6 gp_mc_ehvi",
+      "passed": true
+    },
+    {
+      "check": "no duplicate seed 6 gp_mc_ehvi",
+      "passed": true
+    },
+    {
+      "check": "nondecreasing hypervolume seed 6 gp_mc_ehvi",
+      "passed": true
+    },
+    {
+      "check": "budget seed 6 random",
+      "passed": true
+    },
+    {
+      "check": "no duplicate seed 6 random",
+      "passed": true
+    },
+    {
+      "check": "nondecreasing hypervolume seed 6 random",
+      "passed": true
+    },
+    {
+      "check": "shared initial data seed 6",
+      "passed": true
+    },
+    {
+      "check": "budget seed 7 gp_mc_ehvi",
+      "passed": true
+    },
+    {
+      "check": "no duplicate seed 7 gp_mc_ehvi",
+      "passed": true
+    },
+    {
+      "check": "nondecreasing hypervolume seed 7 gp_mc_ehvi",
+      "passed": true
+    },
+    {
+      "check": "budget seed 7 random",
+      "passed": true
+    },
+    {
+      "check": "no duplicate seed 7 random",
+      "passed": true
+    },
+    {
+      "check": "nondecreasing hypervolume seed 7 random",
+      "passed": true
+    },
+    {
+      "check": "shared initial data seed 7",
+      "passed": true
+    },
+    {
+      "check": "negative method comparisons retained",
+      "passed": true
+    },
+    {
+      "check": "paired mean reproduced",
+      "passed": true
+    },
+    {
+      "check": "extra baseline PDE accounted for",
+      "passed": true
+    },
+    {
+      "check": "baseline metrics tied to reviewed current",
+      "passed": true
+    },
+    {
+      "check": "incomplete inventories not formal metrics",
+      "passed": true
+    },
+    {
+      "check": "simulator has zero physical connections",
+      "passed": true
+    },
+    {
+      "check": "simulator ends disconnected with output off",
+      "passed": true
+    },
+    {
+      "check": "engineering tied to current transport bytes",
+      "passed": true
+    },
+    {
+      "check": "engineering rows",
+      "passed": true
+    },
+    {
+      "check": "no CFD thermal or industrial validation credited",
+      "passed": true
+    },
+    {
+      "check": "12 unique figure files",
+      "passed": true
+    },
+    {
+      "check": "figure hash Fig1_Transport_Field_english.png",
+      "passed": true
+    },
+    {
+      "check": "Fig1_Transport_Field_english.png input results/transport/baseline_solution.json",
+      "passed": true
+    },
+    {
+      "check": "Fig1_Transport_Field_english.png input results/compatibility/captured_model_arrays.json",
+      "passed": true
+    },
+    {
+      "check": "PNG size and resolution Fig1_Transport_Field_english.png",
+      "passed": true
+    },
+    {
+      "check": "figure hash Fig1_Transport_Field_english.svg",
+      "passed": true
+    },
+    {
+      "check": "Fig1_Transport_Field_english.svg input results/transport/baseline_solution.json",
+      "passed": true
+    },
+    {
+      "check": "Fig1_Transport_Field_english.svg input results/compatibility/captured_model_arrays.json",
+      "passed": true
+    },
+    {
+      "check": "editable pure vector Fig1_Transport_Field_english.svg",
+      "passed": true
+    },
+    {
+      "check": "visible evidence label Fig1_Transport_Field_english.svg",
+      "passed": true
+    },
+    {
+      "check": "figure hash Fig2_Numerical_Audit_english.png",
+      "passed": true
+    },
+    {
+      "check": "Fig2_Numerical_Audit_english.png input results/transport/grid_convergence.csv",
+      "passed": true
+    },
+    {
+      "check": "Fig2_Numerical_Audit_english.png input results/source_audit.json",
+      "passed": true
+    },
+    {
+      "check": "PNG size and resolution Fig2_Numerical_Audit_english.png",
+      "passed": true
+    },
+    {
+      "check": "figure hash Fig2_Numerical_Audit_english.svg",
+      "passed": true
+    },
+    {
+      "check": "Fig2_Numerical_Audit_english.svg input results/transport/grid_convergence.csv",
+      "passed": true
+    },
+    {
+      "check": "Fig2_Numerical_Audit_english.svg input results/source_audit.json",
+      "passed": true
+    },
+    {
+      "check": "editable pure vector Fig2_Numerical_Audit_english.svg",
+      "passed": true
+    },
+    {
+      "check": "visible evidence label Fig2_Numerical_Audit_english.svg",
+      "passed": true
+    },
+    {
+      "check": "figure hash Fig3_Sequential_Optimization_english.png",
+      "passed": true
+    },
+    {
+      "check": "Fig3_Sequential_Optimization_english.png input results/control/candidate_pool.csv",
+      "passed": true
+    },
+    {
+      "check": "Fig3_Sequential_Optimization_english.png input results/control/paired_budget_comparison.csv",
+      "passed": true
+    },
+    {
+      "check": "PNG size and resolution Fig3_Sequential_Optimization_english.png",
+      "passed": true
+    },
+    {
+      "check": "figure hash Fig3_Sequential_Optimization_english.svg",
+      "passed": true
+    },
+    {
+      "check": "Fig3_Sequential_Optimization_english.svg input results/control/candidate_pool.csv",
+      "passed": true
+    },
+    {
+      "check": "Fig3_Sequential_Optimization_english.svg input results/control/paired_budget_comparison.csv",
+      "passed": true
+    },
+    {
+      "check": "editable pure vector Fig3_Sequential_Optimization_english.svg",
+      "passed": true
+    },
+    {
+      "check": "visible evidence label Fig3_Sequential_Optimization_english.svg",
+      "passed": true
+    },
+    {
+      "check": "figure hash Fig1_Transport_Field_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "Fig1_Transport_Field_chinese.png input results/transport/baseline_solution.json",
+      "passed": true
+    },
+    {
+      "check": "Fig1_Transport_Field_chinese.png input results/compatibility/captured_model_arrays.json",
+      "passed": true
+    },
+    {
+      "check": "PNG size and resolution Fig1_Transport_Field_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "figure hash Fig1_Transport_Field_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "Fig1_Transport_Field_chinese.svg input results/transport/baseline_solution.json",
+      "passed": true
+    },
+    {
+      "check": "Fig1_Transport_Field_chinese.svg input results/compatibility/captured_model_arrays.json",
+      "passed": true
+    },
+    {
+      "check": "editable pure vector Fig1_Transport_Field_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "visible evidence label Fig1_Transport_Field_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "figure hash Fig2_Numerical_Audit_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "Fig2_Numerical_Audit_chinese.png input results/transport/grid_convergence.csv",
+      "passed": true
+    },
+    {
+      "check": "Fig2_Numerical_Audit_chinese.png input results/source_audit.json",
+      "passed": true
+    },
+    {
+      "check": "PNG size and resolution Fig2_Numerical_Audit_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "figure hash Fig2_Numerical_Audit_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "Fig2_Numerical_Audit_chinese.svg input results/transport/grid_convergence.csv",
+      "passed": true
+    },
+    {
+      "check": "Fig2_Numerical_Audit_chinese.svg input results/source_audit.json",
+      "passed": true
+    },
+    {
+      "check": "editable pure vector Fig2_Numerical_Audit_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "visible evidence label Fig2_Numerical_Audit_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "figure hash Fig3_Sequential_Optimization_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "Fig3_Sequential_Optimization_chinese.png input results/control/candidate_pool.csv",
+      "passed": true
+    },
+    {
+      "check": "Fig3_Sequential_Optimization_chinese.png input results/control/paired_budget_comparison.csv",
+      "passed": true
+    },
+    {
+      "check": "PNG size and resolution Fig3_Sequential_Optimization_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "figure hash Fig3_Sequential_Optimization_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "Fig3_Sequential_Optimization_chinese.svg input results/control/candidate_pool.csv",
+      "passed": true
+    },
+    {
+      "check": "Fig3_Sequential_Optimization_chinese.svg input results/control/paired_budget_comparison.csv",
+      "passed": true
+    },
+    {
+      "check": "editable pure vector Fig3_Sequential_Optimization_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "visible evidence label Fig3_Sequential_Optimization_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "visual QA covers current bytes",
+      "passed": true
+    },
+    {
+      "check": "english five report sections",
+      "passed": true
+    },
+    {
+      "check": "english full subsections 1",
+      "passed": true
+    },
+    {
+      "check": "english full subsections 2",
+      "passed": true
+    },
+    {
+      "check": "english full subsections 3",
+      "passed": true
+    },
+    {
+      "check": "english full subsections 4",
+      "passed": true
+    },
+    {
+      "check": "english full subsections 5",
+      "passed": true
+    },
+    {
+      "check": "english numerical anchors",
+      "passed": true
+    },
+    {
+      "check": "english complete figure captions",
+      "passed": true
+    },
+    {
+      "check": "english no unresolved template",
+      "passed": true
+    },
+    {
+      "check": "english balanced code and display math",
+      "passed": true
+    },
+    {
+      "check": "chinese five report sections",
+      "passed": true
+    },
+    {
+      "check": "chinese full subsections 1",
+      "passed": true
+    },
+    {
+      "check": "chinese full subsections 2",
+      "passed": true
+    },
+    {
+      "check": "chinese full subsections 3",
+      "passed": true
+    },
+    {
+      "check": "chinese full subsections 4",
+      "passed": true
+    },
+    {
+      "check": "chinese full subsections 5",
+      "passed": true
+    },
+    {
+      "check": "chinese numerical anchors",
+      "passed": true
+    },
+    {
+      "check": "chinese complete figure captions",
+      "passed": true
+    },
+    {
+      "check": "chinese no unresolved template",
+      "passed": true
+    },
+    {
+      "check": "chinese balanced code and display math",
+      "passed": true
+    },
+    {
+      "check": "English Chinese numeric table parity",
+      "passed": true
+    },
+    {
+      "check": "English report has no Chinese prose",
+      "passed": true
+    },
+    {
+      "check": "README.md link reports/electratwin_report_chinese.md",
+      "passed": true
+    },
+    {
+      "check": "README.md link reports/electratwin_report_english.md",
+      "passed": true
+    },
+    {
+      "check": "README.md link reports/figures/README.md",
+      "passed": true
+    },
+    {
+      "check": "README.md link source/source_record.json",
+      "passed": true
+    },
+    {
+      "check": "README.md link results/source_audit.json",
+      "passed": true
+    },
+    {
+      "check": "README.md link results/transport/verification.json",
+      "passed": true
+    },
+    {
+      "check": "README.md link results/control/optimization_summary.json",
+      "passed": true
+    },
+    {
+      "check": "README.md link results/control/candidate_pool.csv",
+      "passed": true
+    },
+    {
+      "check": "README.md link results/control/sequential_campaigns.csv",
+      "passed": true
+    },
+    {
+      "check": "README.md link results/engineering/summary.json",
+      "passed": true
+    },
+    {
+      "check": "README.md link results/control/scpi_simulator_trace.json",
+      "passed": true
+    },
+    {
+      "check": "README.md link results/figure_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "README.md link results/figure_qa.json",
+      "passed": true
+    },
+    {
+      "check": "README.md link ../requirements.txt",
+      "passed": true
+    },
+    {
+      "check": "README.md link ../toolkit/README.md",
+      "passed": true
+    },
+    {
+      "check": "README.md link ../toolkit/proposals/National_Undergraduate_Grant_Proposal_PanTang_Lab.md",
+      "passed": true
+    },
+    {
+      "check": "electratwin_report_chinese.md link ../results/sources.json",
+      "passed": true
+    },
+    {
+      "check": "electratwin_report_chinese.md link ../source/specification.md",
+      "passed": true
+    },
+    {
+      "check": "electratwin_report_chinese.md link ../source/electratwin_core.py",
+      "passed": true
+    },
+    {
+      "check": "electratwin_report_chinese.md link ../source/numpy_compatibility.patch",
+      "passed": true
+    },
+    {
+      "check": "electratwin_report_chinese.md link ../results/source_audit.json",
+      "passed": true
+    },
+    {
+      "check": "electratwin_report_chinese.md link figures/Fig1_Transport_Field_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "electratwin_report_chinese.md link figures/Fig1_Transport_Field_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "electratwin_report_chinese.md link figures/Fig2_Numerical_Audit_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "electratwin_report_chinese.md link figures/Fig2_Numerical_Audit_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "electratwin_report_chinese.md link ../results/control/metric_boundary_sensitivity.json",
+      "passed": true
+    },
+    {
+      "check": "electratwin_report_chinese.md link ../results/engineering/summary.json",
+      "passed": true
+    },
+    {
+      "check": "electratwin_report_chinese.md link ../results/cross_review.json",
+      "passed": true
+    },
+    {
+      "check": "electratwin_report_chinese.md link figures/Fig3_Sequential_Optimization_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "electratwin_report_chinese.md link figures/Fig3_Sequential_Optimization_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "electratwin_report_chinese.md link ../results/control/scpi_simulator_trace.json",
+      "passed": true
+    },
+    {
+      "check": "electratwin_report_chinese.md link ../results/transport/verification.json",
+      "passed": true
+    },
+    {
+      "check": "electratwin_report_chinese.md link ../results/control/optimization_summary.json",
+      "passed": true
+    },
+    {
+      "check": "electratwin_report_chinese.md link ../results/control/baseline_metrics.json",
+      "passed": true
+    },
+    {
+      "check": "electratwin_report_chinese.md link ../results/engineering/summary.json",
+      "passed": true
+    },
+    {
+      "check": "electratwin_report_chinese.md link ../results/figure_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "electratwin_report_chinese.md link ../results/figure_qa.json",
+      "passed": true
+    },
+    {
+      "check": "electratwin_report_chinese.md link ../results/publication_validation.json",
+      "passed": true
+    },
+    {
+      "check": "electratwin_report_chinese.md link ../../toolkit/reports/deployment_toolkit_report_chinese.md",
+      "passed": true
+    },
+    {
+      "check": "electratwin_report_chinese.md link ../../toolkit/proposals/National_Undergraduate_Grant_Proposal_PanTang_Lab.md",
+      "passed": true
+    },
+    {
+      "check": "electratwin_report_english.md link ../results/sources.json",
+      "passed": true
+    },
+    {
+      "check": "electratwin_report_english.md link ../source/specification.md",
+      "passed": true
+    },
+    {
+      "check": "electratwin_report_english.md link ../source/electratwin_core.py",
+      "passed": true
+    },
+    {
+      "check": "electratwin_report_english.md link ../source/numpy_compatibility.patch",
+      "passed": true
+    },
+    {
+      "check": "electratwin_report_english.md link ../results/source_audit.json",
+      "passed": true
+    },
+    {
+      "check": "electratwin_report_english.md link figures/Fig1_Transport_Field_english.png",
+      "passed": true
+    },
+    {
+      "check": "electratwin_report_english.md link figures/Fig1_Transport_Field_english.svg",
+      "passed": true
+    },
+    {
+      "check": "electratwin_report_english.md link figures/Fig2_Numerical_Audit_english.png",
+      "passed": true
+    },
+    {
+      "check": "electratwin_report_english.md link figures/Fig2_Numerical_Audit_english.svg",
+      "passed": true
+    },
+    {
+      "check": "electratwin_report_english.md link ../results/control/metric_boundary_sensitivity.json",
+      "passed": true
+    },
+    {
+      "check": "electratwin_report_english.md link ../results/engineering/summary.json",
+      "passed": true
+    },
+    {
+      "check": "electratwin_report_english.md link ../results/cross_review.json",
+      "passed": true
+    },
+    {
+      "check": "electratwin_report_english.md link figures/Fig3_Sequential_Optimization_english.png",
+      "passed": true
+    },
+    {
+      "check": "electratwin_report_english.md link figures/Fig3_Sequential_Optimization_english.svg",
+      "passed": true
+    },
+    {
+      "check": "electratwin_report_english.md link ../results/control/scpi_simulator_trace.json",
+      "passed": true
+    },
+    {
+      "check": "electratwin_report_english.md link ../results/transport/verification.json",
+      "passed": true
+    },
+    {
+      "check": "electratwin_report_english.md link ../results/control/optimization_summary.json",
+      "passed": true
+    },
+    {
+      "check": "electratwin_report_english.md link ../results/control/baseline_metrics.json",
+      "passed": true
+    },
+    {
+      "check": "electratwin_report_english.md link ../results/engineering/summary.json",
+      "passed": true
+    },
+    {
+      "check": "electratwin_report_english.md link ../results/figure_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "electratwin_report_english.md link ../results/figure_qa.json",
+      "passed": true
+    },
+    {
+      "check": "electratwin_report_english.md link ../results/publication_validation.json",
+      "passed": true
+    },
+    {
+      "check": "electratwin_report_english.md link ../../toolkit/reports/deployment_toolkit_report_english.md",
+      "passed": true
+    },
+    {
+      "check": "electratwin_report_english.md link ../../toolkit/proposals/National_Undergraduate_Grant_Proposal_PanTang_Lab_English.md",
+      "passed": true
+    },
+    {
+      "check": "README.md link Fig1_Transport_Field_english.png",
+      "passed": true
+    },
+    {
+      "check": "README.md link Fig1_Transport_Field_english.svg",
+      "passed": true
+    },
+    {
+      "check": "README.md link Fig1_Transport_Field_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "README.md link Fig1_Transport_Field_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "README.md link Fig2_Numerical_Audit_english.png",
+      "passed": true
+    },
+    {
+      "check": "README.md link Fig2_Numerical_Audit_english.svg",
+      "passed": true
+    },
+    {
+      "check": "README.md link Fig2_Numerical_Audit_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "README.md link Fig2_Numerical_Audit_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "README.md link Fig3_Sequential_Optimization_english.png",
+      "passed": true
+    },
+    {
+      "check": "README.md link Fig3_Sequential_Optimization_english.svg",
+      "passed": true
+    },
+    {
+      "check": "README.md link Fig3_Sequential_Optimization_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "README.md link Fig3_Sequential_Optimization_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "README.md link ../electratwin_report_english.md",
+      "passed": true
+    },
+    {
+      "check": "README.md link ../electratwin_report_chinese.md",
+      "passed": true
+    },
+    {
+      "check": "README.md link ../../results/figure_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "README.md link ../../results/figure_qa.json",
+      "passed": true
+    }
+  ]
+}

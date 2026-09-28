@@ -1,0 +1,22 @@
+{
+  "verification_date": "2026-09-28",
+  "scope": "Primary literature and official public information used for methodological context and a draft proposal; no current grant eligibility, access authorization or comprehensive legal review is certified.",
+  "sources": [
+    {"title": "Leech and Lam, A practical guide to electrosynthesis", "url": "https://www.nature.com/articles/s41570-022-00372-y", "year": 2022, "access": "Publisher article page and indexed abstract", "supports": "Electrosynthesis methodological context", "does_not_support": "Performance or novelty of the undefined target reaction"},
+    {"title": "Shields et al., Bayesian reaction optimization as a tool for chemical synthesis", "url": "https://www.nature.com/articles/s41586-021-03213-y", "year": 2021, "access": "Publisher article page and indexed abstract", "supports": "Primary example of sequential Bayesian reaction optimization", "does_not_support": "Accuracy or sample efficiency of this prototype"},
+    {"title": "BIPM organic analysis qNMR resources", "url": "https://www.bipm.org/en/organic-analysis/qnmr", "access": "Official indexed resource text", "supports": "Traceable internal-standard and qNMR measurement resources", "does_not_support": "Certification of the particular standard or missing spectrum"},
+    {"title": "ACS Journal of Medicinal Chemistry absolute qNMR purity guidance", "url": "https://pubsapp.acs.org/paragonplus/submission/jmcmar/jmcmar_purity_instructions.pdf", "access": "Seven-page official PDF text accessed", "supports": "Internal standards, proton-normalized integration and documented acquisition", "does_not_support": "An assigned product peak or measured T1 in the supplied example"},
+    {"title": "Nature Research figure-building and export guide", "url": "https://research-figure-guide.nature.com/figures/building-and-exporting-figure-panels/", "access": "Official guide page read", "supports": "Editable vector formats, readable labels and accessible figures", "does_not_support": "Complete compliance with every journal's current submission specification"},
+    {"title": "Guangxi Normal University Pan-Tang research news", "url": "https://news.gxnu.edu.cn/2023/0519/c1330a267710/page.psp", "publication_date": "2023-05-19", "access": "Official indexed news text", "supports": "The team's organic-electrochemistry research relevance", "does_not_support": "Supervision consent, equipment ownership or acceptance of this project"},
+    {"title": "University shared-equipment 600M NMR listing", "url": "https://dypt.gxnu.edu.cn/genee/equipment/61", "access": "Official public equipment listing read", "supports": "A 600M NMR instrument is listed publicly", "does_not_support": "Project access, fees, present uptime, ownership or the source's 500 MHz claim"},
+    {"title": "University research-institution directory", "url": "https://www.gxnu.edu.cn/1382/list.psp", "access": "Official directory read; former-name marker observed", "supports": "Reason to confirm the formal host title instead of assuming an old title", "does_not_support": "An invented replacement laboratory name"},
+    {"title": "University visiting-scholar announcement", "url": "https://gxttc.gxnu.edu.cn/2026/0317/c10229a337773/page.htm", "publication_date": "2026-03-17", "access": "Official indexed announcement text", "supports": "An older laboratory name continues to appear in public prose", "does_not_support": "Resolution of the formal institutional naming discrepancy"},
+    {"title": "Ministry of Education national undergraduate training management document, 2019 document 13", "url": "https://www.moe.gov.cn/srcsite/A08/s5672/201907/t20190724_392132.html", "document_date": "2019-07-15", "access": "Official indexed text only; direct requests restricted and browser redirect failed", "supports": "Document identity and general student-practice/process principles", "does_not_support": "Full clause review, current eligibility, budget limits or an open call"},
+    {"title": "University 2026 project recommendations and completion announcement", "url": "https://www.gxnu.edu.cn/2026/0603/c1441a343392/page.htm", "publication_date": "2026-06-03", "access": "Official announcement full text read", "supports": "Results/recommendations announced on 3 June 2026", "does_not_support": "That round remaining open or a verified next deadline"}
+  ],
+  "current_call_deadline": "unverified",
+  "official_current_application_form_obtained": false,
+  "supervisor_consent_obtained": false,
+  "equipment_access_confirmed": false,
+  "grant_submitted": false
+}

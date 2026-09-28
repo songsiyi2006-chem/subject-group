@@ -1,0 +1,26 @@
+{
+    "Analytical_Integration": {
+        "status": "success",
+        "HPLC_Analysis": {
+            "retention_time_min": 6.42,
+            "integrated_area": 245600.0,
+            "calculated_yield_pct": 1292.0
+        },
+        "NMR_Internal_Standard_Analysis": {
+            "internal_standard": "1,3,5-trimethoxybenzene (6.08 ppm, 3H)",
+            "product_integral": 5.12,
+            "calculated_yield_pct": 91.39
+        },
+        "concordance_delta_pct": 1200.61
+    },
+    "Figure_Generation": {
+        "status": "success",
+        "figure_1": "figures\\Fig1_Pareto_Electrosynthesis.png",
+        "figure_2": "figures\\Fig2_Substrate_Scope_Heatmap.png",
+        "figure_3": "figures\\Fig3_Reaction_Energy_Profile.png"
+    },
+    "Grant_Proposal": {
+        "status": "success",
+        "grant_proposal_file": "National_Undergraduate_Grant_Proposal_PanTang_Lab.md"
+    }
+}

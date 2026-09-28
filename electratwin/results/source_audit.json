@@ -1,0 +1,302 @@
+{
+  "evidence_role": "independent_arithmetic_and_code_audit_of_source_model",
+  "source_capture_sha256": "13347e6adb3c482be3058f2d6df2e1c9f5806e2161a7c2534da595ce003c6b55",
+  "source_role": "unvalidated continuum toy model; not experimental data or validated digital twin",
+  "physical_instrument_connected": false,
+  "single_case": {
+    "nx": 100,
+    "ny": 45,
+    "source_reported_conversion_pct": 60.04,
+    "unrounded_mixed_cup_conversion_pct": 60.035360862273514,
+    "source_reported_current_A": 0.02498,
+    "integrated_current_A_unrounded": 0.02497501743532273,
+    "source_iterations": 973,
+    "source_update_norm": 9.98943201118152e-06,
+    "discrete_equation_residual_max_mol_m3_s": 0.011818608006042869,
+    "discrete_equation_residual_max_normalized": 4.946831101868841e-06,
+    "anode_boundary_residual_max_mol_m2_s_excluding_inlet": 3.2526065174565133e-19,
+    "imposed_Q_m3_s": 7.500000000000001e-09,
+    "discretely_integrated_Q_m3_s": 7.496126033057852e-09,
+    "flow_quadrature_error_relative": -0.0005165289256199301,
+    "substrate_removed_by_mixed_cup_flux_mol_s": 2.2501631573185548e-07,
+    "substrate_removed_from_current_assuming_source_n1_mol_s": 2.588478210658836e-07,
+    "relative_current_mass_flux_mismatch_n1": 0.15035134329700786,
+    "boundary_stoichiometric_n": 1,
+    "green_metrics_stoichiometric_n": 2,
+    "first_inlet_node_contributes_current_A": 0.003317589615468681,
+    "first_inlet_node_current_fraction": 0.13283632830528233,
+    "inlet_corner_anode_bc_applied": false,
+    "Pe_length_uavg_L_over_D": 113636.36363636368,
+    "Pe_gap_uavg_H_over_D": 568.1818181818182,
+    "Pe_dx_uavg_dx_over_D": 1147.8420569329664,
+    "volume_mL": 0.21599999999999997,
+    "residence_time_s": 28.799999999999994,
+    "notes": [
+      "Source update norm is successive-iterate change, not a reported equation residual.",
+      "Independent equation residual uses the implemented axial-upwind/transverse-diffusion stencil, not the full documented 2D PDE.",
+      "Mass mismatch compares the trapezoidal source current with the source mixed-cup discretization; no clipping is used in this audit.",
+      "Large average axial Pe does not justify dropping axial diffusion everywhere near no-slip walls or inlet corners."
+    ]
+  },
+  "campaign": {
+    "rows": [
+      {
+        "flow_rate_uL_min": 150.0,
+        "overpotential_V": 0.25,
+        "conversion_pct": 39.81,
+        "total_current_A": 0.00483,
+        "cell_voltage_V": 2.189,
+        "space_time_yield": 6118.8,
+        "e_factor": 130.18,
+        "faradaic_efficiency": 100.0,
+        "energy_kwh_kg": 0.192,
+        "reconstructed_unclipped_FE_pct": 184.3997213105978,
+        "raw_fe_exceeds_100": true,
+        "selectivity_assumed_pct": 92.75
+      },
+      {
+        "flow_rate_uL_min": 150.0,
+        "overpotential_V": 0.45,
+        "conversion_pct": 91.25,
+        "total_current_A": 0.01331,
+        "cell_voltage_V": 2.546,
+        "space_time_yield": 13874.0,
+        "e_factor": 56.85,
+        "faradaic_efficiency": 100.0,
+        "energy_kwh_kg": 0.271,
+        "reconstructed_unclipped_FE_pct": 151.72676066103963,
+        "raw_fe_exceeds_100": true,
+        "selectivity_assumed_pct": 91.75
+      },
+      {
+        "flow_rate_uL_min": 150.0,
+        "overpotential_V": 0.65,
+        "conversion_pct": 92.75,
+        "total_current_A": 0.12486,
+        "cell_voltage_V": 4.81,
+        "space_time_yield": 13948.3,
+        "e_factor": 56.55,
+        "faradaic_efficiency": 16.26,
+        "energy_kwh_kg": 4.784,
+        "reconstructed_unclipped_FE_pct": 16.26067301263665,
+        "raw_fe_exceeds_100": false,
+        "selectivity_assumed_pct": 90.75
+      },
+      {
+        "flow_rate_uL_min": 500.0,
+        "overpotential_V": 0.25,
+        "conversion_pct": 14.37,
+        "total_current_A": 0.0058,
+        "cell_voltage_V": 2.207,
+        "space_time_yield": 7362.3,
+        "e_factor": 362.42,
+        "faradaic_efficiency": 100.0,
+        "energy_kwh_kg": 0.193,
+        "reconstructed_unclipped_FE_pct": 184.76628781217667,
+        "raw_fe_exceeds_100": true,
+        "selectivity_assumed_pct": 92.75
+      },
+      {
+        "flow_rate_uL_min": 500.0,
+        "overpotential_V": 0.45,
+        "conversion_pct": 55.29,
+        "total_current_A": 0.02446,
+        "cell_voltage_V": 2.753,
+        "space_time_yield": 28021.6,
+        "e_factor": 94.48,
+        "faradaic_efficiency": 100.0,
+        "energy_kwh_kg": 0.267,
+        "reconstructed_unclipped_FE_pct": 166.75399629683668,
+        "raw_fe_exceeds_100": true,
+        "selectivity_assumed_pct": 91.75
+      },
+      {
+        "flow_rate_uL_min": 500.0,
+        "overpotential_V": 0.65,
+        "conversion_pct": 58.29,
+        "total_current_A": 0.13703,
+        "cell_voltage_V": 5.035,
+        "space_time_yield": 29220.1,
+        "e_factor": 90.57,
+        "faradaic_efficiency": 31.04,
+        "energy_kwh_kg": 2.624,
+        "reconstructed_unclipped_FE_pct": 31.038810669638938,
+        "raw_fe_exceeds_100": false,
+        "selectivity_assumed_pct": 90.75
+      },
+      {
+        "flow_rate_uL_min": 850.0,
+        "overpotential_V": 0.25,
+        "conversion_pct": 8.84,
+        "total_current_A": 0.00605,
+        "cell_voltage_V": 2.212,
+        "space_time_yield": 7699.4,
+        "e_factor": 589.76,
+        "faradaic_efficiency": 100.0,
+        "energy_kwh_kg": 0.193,
+        "reconstructed_unclipped_FE_pct": 185.2421319070386,
+        "raw_fe_exceeds_100": true,
+        "selectivity_assumed_pct": 92.75
+      },
+      {
+        "flow_rate_uL_min": 850.0,
+        "overpotential_V": 0.45,
+        "conversion_pct": 40.02,
+        "total_current_A": 0.02955,
+        "cell_voltage_V": 2.847,
+        "space_time_yield": 34480.4,
+        "e_factor": 130.91,
+        "faradaic_efficiency": 100.0,
+        "energy_kwh_kg": 0.271,
+        "reconstructed_unclipped_FE_pct": 169.8457303601058,
+        "raw_fe_exceeds_100": true,
+        "selectivity_assumed_pct": 91.75
+      },
+      {
+        "flow_rate_uL_min": 850.0,
+        "overpotential_V": 0.65,
+        "conversion_pct": 42.83,
+        "total_current_A": 0.14283,
+        "cell_voltage_V": 5.142,
+        "space_time_yield": 36499.3,
+        "e_factor": 123.62,
+        "faradaic_efficiency": 37.2,
+        "energy_kwh_kg": 2.236,
+        "reconstructed_unclipped_FE_pct": 37.196684733521934,
+        "raw_fe_exceeds_100": false,
+        "selectivity_assumed_pct": 90.75
+      },
+      {
+        "flow_rate_uL_min": 1200.0,
+        "overpotential_V": 0.25,
+        "conversion_pct": 6.41,
+        "total_current_A": 0.0062,
+        "cell_voltage_V": 2.215,
+        "space_time_yield": 7881.8,
+        "e_factor": 813.71,
+        "faradaic_efficiency": 100.0,
+        "energy_kwh_kg": 0.194,
+        "reconstructed_unclipped_FE_pct": 185.04252268250002,
+        "raw_fe_exceeds_100": true,
+        "selectivity_assumed_pct": 92.75
+      },
+      {
+        "flow_rate_uL_min": 1200.0,
+        "overpotential_V": 0.45,
+        "conversion_pct": 32.03,
+        "total_current_A": 0.03308,
+        "cell_voltage_V": 2.912,
+        "space_time_yield": 38959.6,
+        "e_factor": 163.82,
+        "faradaic_efficiency": 100.0,
+        "energy_kwh_kg": 0.275,
+        "reconstructed_unclipped_FE_pct": 171.4307767538241,
+        "raw_fe_exceeds_100": true,
+        "selectivity_assumed_pct": 91.75
+      },
+      {
+        "flow_rate_uL_min": 1200.0,
+        "overpotential_V": 0.65,
+        "conversion_pct": 34.62,
+        "total_current_A": 0.14694,
+        "cell_voltage_V": 5.218,
+        "space_time_yield": 41651.0,
+        "e_factor": 153.17,
+        "faradaic_efficiency": 41.26,
+        "energy_kwh_kg": 2.046,
+        "reconstructed_unclipped_FE_pct": 41.25959341329114,
+        "raw_fe_exceeds_100": false,
+        "selectivity_assumed_pct": 90.75
+      }
+    ],
+    "evaluations": 12,
+    "clipped_fe_rows": 8,
+    "minimum_unclipped_FE_pct": 16.26067301263665,
+    "maximum_unclipped_FE_pct": 185.2421319070386,
+    "fe_reconstruction_basis": "Rounded conversion and rounded current stored by the original controller; matches the inputs used by its green-metrics routine.",
+    "source_pareto_count": 2,
+    "source_selected_compromise": {
+      "flow_rate_uL_min": 1200.0,
+      "overpotential_V": 0.45,
+      "conversion_pct": 32.03,
+      "total_current_A": 0.03308,
+      "cell_voltage_V": 2.912,
+      "space_time_yield": 38959.6,
+      "e_factor": 163.82,
+      "faradaic_efficiency": 100.0,
+      "energy_kwh_kg": 0.275
+    },
+    "source_initial_hypervolume": 4007007.16,
+    "budget_parameter_probe_using_stub_solver": {
+      "0": 12,
+      "1": 12,
+      "7": 12,
+      "12": 12
+    },
+    "gp_surrogate_fitted": false,
+    "posterior_uncertainty_computed": false,
+    "ehvi_computed": false,
+    "constraint_model_fitted": false,
+    "design": "Fixed 4 x 3 Cartesian grid; budget value only appears in the printed message.",
+    "hypervolume_hand_case_actual": 6.0,
+    "hypervolume_hand_case_expected": 6.0,
+    "hypervolume_note": "The tested finite 2D maximization rectangle union is correct; it is not expected hypervolume improvement or evidence of Bayesian optimization."
+  },
+  "static_findings": [
+    {
+      "id": "PDE_AXIAL_DIFFUSION_ABSENT",
+      "finding": "Docstring includes D*C_xx, but interior code only implements axial upwind convection and transverse diffusion."
+    },
+    {
+      "id": "CONVERGENCE_FLAG_UNCONDITIONAL",
+      "finding": "Return dict sets converged=True even if max_iter=2500 is exhausted; residual is iterate change."
+    },
+    {
+      "id": "CLIPPED_OBSERVABLES",
+      "finding": "Source clips conversion into [0,99.9] percent and FE into [0,100] percent. Clipping hides rather than diagnoses invalid observables or charge/material inconsistency."
+    },
+    {
+      "id": "KINETICS_LINEAR_AT_FIXED_ETA",
+      "finding": "For prescribed eta the boundary law is affine in substrate concentration. No electrostatic potential, product balance or kinetic parameter inference is solved."
+    },
+    {
+      "id": "KINETIC_PARAMETERS_UNCALIBRATED",
+      "finding": "j0=0.08 A/m2, alpha=0.5 and prescribed eta are assumed constants without voltammetry or kinetic calibration; this is not a first-principles molecular calculation."
+    },
+    {
+      "id": "MULTIPHYSICS_NOT_IMPLEMENTED",
+      "finding": "Temperature, diffusivity and velocity profile are fixed; no Navier-Stokes, energy, electrolyte potential, migration, gas, pressure or fouling equations are solved."
+    },
+    {
+      "id": "PARTIAL_MASS_BOUNDARY",
+      "finding": "PMI numerator includes substrate, equimolar coupling partner and feed solvent only; electrolyte, workup, purification, water, cleaning, solvent recovery and losses are absent."
+    },
+    {
+      "id": "REACTION_IDENTITY_UNVERIFIED",
+      "finding": "Fixed molecular weights and partner comment do not identify atom-balanced substrate/product structures; atom economy is an assumed 1:1 ratio."
+    },
+    {
+      "id": "MOLECULAR_GRAPH_PROFILER_ABSENT",
+      "finding": "RDKit is imported, but no molecular graph, SMILES, descriptor, conformer or reaction mapping is actually processed."
+    },
+    {
+      "id": "VOLTAGE_SELECTIVITY_ASSUMPTIONS",
+      "finding": "Ucell=1.85+eta+18.5I and selectivity=94-5eta are assumed algebraic laws without calibration data."
+    },
+    {
+      "id": "INDUSTRIAL_STATUS_UNVERIFIED",
+      "finding": "No facility trial, product assay, process qualification, validated instrument I/O or industrial acceptance is supplied."
+    }
+  ],
+  "driver": {
+    "transport_imports_present": [],
+    "identity_response_role": "hardcoded simulated identity; not queried from equipment",
+    "unknown_command_response": "ACK: Unknown or unsupported command 'UNKNOWN_COMMAND' executed in simulation mode",
+    "excessive_setpoint_response": "SUCCESS: Current setpoint programmed to 1.0000e+06 A",
+    "negative_setpoint_response": "SUCCESS: Current setpoint programmed to -1.0000e+02 A",
+    "voltage_limit_attribute_enforced": false,
+    "real_transport": false,
+    "calibrated_measurement": false,
+    "model_laws_inconsistent": "Controller uses 1.85+eta+18.5I; emulator uses 1.95+22.4I+Gaussian noise."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "date": "2026-09-28",
+  "png_files_visually_reviewed": 8,
+  "svg_files_rendered_and_visually_reviewed": 8,
+  "svg_renderer": "Bundled sharp/libvips; all SVGs rendered independently of Matplotlib",
+  "checked": [
+    "English and Chinese labels",
+    "visible synthetic/mock/hypothetical status",
+    "axes and numerical annotations",
+    "legends and margins",
+    "no material text clipping or point-label overlap",
+    "pure vector XML with editable text and no embedded raster images"
+  ],
+  "repairs": [
+    "Heatmap and colorbar raster replaced by vector geometry",
+    "ASCII unit labels avoid missing CJK font glyphs",
+    "English font changed to Arial after renderer substitution",
+    "Contour labels repositioned away from data points"
+  ],
+  "limitations": [
+    "Visual review by assistant, not human scientific peer review",
+    "Fonts are referenced, not embedded; other systems may substitute fonts",
+    "Target journal dimensions and requirements still need final submission review"
+  ],
+  "reviewed_figure_hashes": {
+    "Fig1_Pareto_Electrosynthesis_english.png": "5068adf25f70583d5fbd2525f33e7b9202e2e39a9f67eb8d4a2c68e2aedd822f",
+    "Fig1_Pareto_Electrosynthesis_english.svg": "ec632f14eb983c9f27373638a93789c8ab56a173f9b82c77ae2901dc7a27f746",
+    "Fig2_Substrate_Scope_Heatmap_english.png": "d4200645e0d4f49887d076ef5b4bde04d06ebcde179388803e7ee6a8a60a59a9",
+    "Fig2_Substrate_Scope_Heatmap_english.svg": "541ed8a147759805ad68de8d2489158ec1af91f08cf616cb3aed53c37dd856be",
+    "Fig3_Reaction_Energy_Profile_english.png": "62a9f505837f1ab949f5dab1c2cd70132ae7a2ce34a41b306ecc8dd57c4708cc",
+    "Fig3_Reaction_Energy_Profile_english.svg": "5ca68761fad5c5391698e99a40d9cd827af095a088326061df548fc9a04b96e4",
+    "Fig4_Analytical_Quality_Control_english.png": "43d4ea76897a516d2c672ba46d69f6d0d31e3248c04777ff81433fa866347f3b",
+    "Fig4_Analytical_Quality_Control_english.svg": "a6835fd99e0bf6763b6e16d78dd17576c74ffcc94850f8062bb58fa3f4b28c11",
+    "Fig1_Pareto_Electrosynthesis_chinese.png": "77656318b3c2df23158b40baebcdc0741c031c87d3b3d40dd799f42d714edd69",
+    "Fig1_Pareto_Electrosynthesis_chinese.svg": "7b15af4af29d99a0723eb15a454b849bb80c6bc1d18e7b572c28bbf2063ce8d6",
+    "Fig2_Substrate_Scope_Heatmap_chinese.png": "a283389937145576bec795aa221b1a834c15ac8c082ba76e7c5dccb5bad89325",
+    "Fig2_Substrate_Scope_Heatmap_chinese.svg": "e7eb12d4f2ac3d67e9add4af85abc0edb25b236fabd43ff3b1a5db55b32e097d",
+    "Fig3_Reaction_Energy_Profile_chinese.png": "647906fc9b0bb3aad6fca3d9a5f102cac2024c8bbebd6875f9f0378d2aa7d639",
+    "Fig3_Reaction_Energy_Profile_chinese.svg": "c4dbf5dc8cf093db0985e0e2d71036c4555d7c6e84e1c8218d9fdb60df50c19a",
+    "Fig4_Analytical_Quality_Control_chinese.png": "8dd70dc97237f68e4990d15fcd4002cda9764b16cffc40a7a5c8e82d40c2e062",
+    "Fig4_Analytical_Quality_Control_chinese.svg": "268939203e50c18042b19883cd728de7a15cf8ea7632ad1012f1ea234a2564d2"
+  }
+}

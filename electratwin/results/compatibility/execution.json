@@ -1,0 +1,12 @@
+{
+  "mode": "compatibility",
+  "started_utc": "2026-09-28T04:26:49.855295+00:00",
+  "elapsed_seconds": 52.21313319995534,
+  "exit_code": 0,
+  "timeout_seconds": 600,
+  "timed_out": false,
+  "source_sha256": "327bed061ee646babffff07ce593d914482fb8379ee0980254b699a1fa6fdbca",
+  "physical_instrument_connected": false,
+  "source_output_claims_validated": false,
+  "output_scope": "Source failure record or compatibility-only source-model execution; no corrected-physics claim."
+}

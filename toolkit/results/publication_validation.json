@@ -1,0 +1,1056 @@
+{
+  "passed": true,
+  "checks": 262,
+  "failed": [],
+  "scope": "Record, source, publication and numerical integrity; not analytical, chemical or grant validation",
+  "items": [
+    {
+      "check": "exact archived specification",
+      "passed": true
+    },
+    {
+      "check": "exact complete source extraction and executed script",
+      "passed": true
+    },
+    {
+      "check": "failed naive regex retained",
+      "passed": true
+    },
+    {
+      "check": "original executed but no measurement or DFT or submission",
+      "passed": true
+    },
+    {
+      "check": "1292 percent failure retained",
+      "passed": true
+    },
+    {
+      "check": "mass-based NMR value retained",
+      "passed": true
+    },
+    {
+      "check": "MC assumption status",
+      "passed": true
+    },
+    {
+      "check": "row count qnmr_scenarios.csv",
+      "passed": true
+    },
+    {
+      "check": "row count relaxation_scenarios.csv",
+      "passed": true
+    },
+    {
+      "check": "row count concordance_counterfactuals.csv",
+      "passed": true
+    },
+    {
+      "check": "row count synthetic_calibration.csv",
+      "passed": true
+    },
+    {
+      "check": "row count synthetic_chromatogram.csv",
+      "passed": true
+    },
+    {
+      "check": "row count deconvolution_recovery.csv",
+      "passed": true
+    },
+    {
+      "check": "row count pareto_conditions.csv",
+      "passed": true
+    },
+    {
+      "check": "row count scope_mock.csv",
+      "passed": true
+    },
+    {
+      "check": "row count scope_leave_one_out_descriptive.csv",
+      "passed": true
+    },
+    {
+      "check": "row count hypothetical_energy.csv",
+      "passed": true
+    },
+    {
+      "check": "row count grant_budget.csv",
+      "passed": true
+    },
+    {
+      "check": "synthetic roles synthetic_calibration.csv",
+      "passed": true
+    },
+    {
+      "check": "synthetic roles synthetic_chromatogram.csv",
+      "passed": true
+    },
+    {
+      "check": "synthetic roles deconvolution_recovery.csv",
+      "passed": true
+    },
+    {
+      "check": "synthetic roles pareto_conditions.csv",
+      "passed": true
+    },
+    {
+      "check": "scope roles not experiments",
+      "passed": true
+    },
+    {
+      "check": "energy roles not DFT",
+      "passed": true
+    },
+    {
+      "check": "Pareto correction retained",
+      "passed": true
+    },
+    {
+      "check": "width mismatch negative result retained",
+      "passed": true
+    },
+    {
+      "check": "unapproved planning budget",
+      "passed": true
+    },
+    {
+      "check": "16 figures in two formats/languages",
+      "passed": true
+    },
+    {
+      "check": "figure hash Fig1_Pareto_Electrosynthesis_english.png",
+      "passed": true
+    },
+    {
+      "check": "Fig1_Pareto_Electrosynthesis_english.png data pareto_conditions.csv",
+      "passed": true
+    },
+    {
+      "check": "PNG size and resolution Fig1_Pareto_Electrosynthesis_english.png",
+      "passed": true
+    },
+    {
+      "check": "figure hash Fig1_Pareto_Electrosynthesis_english.svg",
+      "passed": true
+    },
+    {
+      "check": "Fig1_Pareto_Electrosynthesis_english.svg data pareto_conditions.csv",
+      "passed": true
+    },
+    {
+      "check": "editable pure vector Fig1_Pareto_Electrosynthesis_english.svg",
+      "passed": true
+    },
+    {
+      "check": "visible evidence label Fig1_Pareto_Electrosynthesis_english.svg",
+      "passed": true
+    },
+    {
+      "check": "figure hash Fig2_Substrate_Scope_Heatmap_english.png",
+      "passed": true
+    },
+    {
+      "check": "Fig2_Substrate_Scope_Heatmap_english.png data scope_mock.csv",
+      "passed": true
+    },
+    {
+      "check": "PNG size and resolution Fig2_Substrate_Scope_Heatmap_english.png",
+      "passed": true
+    },
+    {
+      "check": "figure hash Fig2_Substrate_Scope_Heatmap_english.svg",
+      "passed": true
+    },
+    {
+      "check": "Fig2_Substrate_Scope_Heatmap_english.svg data scope_mock.csv",
+      "passed": true
+    },
+    {
+      "check": "editable pure vector Fig2_Substrate_Scope_Heatmap_english.svg",
+      "passed": true
+    },
+    {
+      "check": "visible evidence label Fig2_Substrate_Scope_Heatmap_english.svg",
+      "passed": true
+    },
+    {
+      "check": "figure hash Fig3_Reaction_Energy_Profile_english.png",
+      "passed": true
+    },
+    {
+      "check": "Fig3_Reaction_Energy_Profile_english.png data hypothetical_energy.csv",
+      "passed": true
+    },
+    {
+      "check": "PNG size and resolution Fig3_Reaction_Energy_Profile_english.png",
+      "passed": true
+    },
+    {
+      "check": "figure hash Fig3_Reaction_Energy_Profile_english.svg",
+      "passed": true
+    },
+    {
+      "check": "Fig3_Reaction_Energy_Profile_english.svg data hypothetical_energy.csv",
+      "passed": true
+    },
+    {
+      "check": "editable pure vector Fig3_Reaction_Energy_Profile_english.svg",
+      "passed": true
+    },
+    {
+      "check": "visible evidence label Fig3_Reaction_Energy_Profile_english.svg",
+      "passed": true
+    },
+    {
+      "check": "figure hash Fig4_Analytical_Quality_Control_english.png",
+      "passed": true
+    },
+    {
+      "check": "Fig4_Analytical_Quality_Control_english.png data synthetic_calibration.csv",
+      "passed": true
+    },
+    {
+      "check": "Fig4_Analytical_Quality_Control_english.png data synthetic_chromatogram.csv",
+      "passed": true
+    },
+    {
+      "check": "Fig4_Analytical_Quality_Control_english.png data deconvolution_recovery.csv",
+      "passed": true
+    },
+    {
+      "check": "Fig4_Analytical_Quality_Control_english.png data relaxation_scenarios.csv",
+      "passed": true
+    },
+    {
+      "check": "PNG size and resolution Fig4_Analytical_Quality_Control_english.png",
+      "passed": true
+    },
+    {
+      "check": "figure hash Fig4_Analytical_Quality_Control_english.svg",
+      "passed": true
+    },
+    {
+      "check": "Fig4_Analytical_Quality_Control_english.svg data synthetic_calibration.csv",
+      "passed": true
+    },
+    {
+      "check": "Fig4_Analytical_Quality_Control_english.svg data synthetic_chromatogram.csv",
+      "passed": true
+    },
+    {
+      "check": "Fig4_Analytical_Quality_Control_english.svg data deconvolution_recovery.csv",
+      "passed": true
+    },
+    {
+      "check": "Fig4_Analytical_Quality_Control_english.svg data relaxation_scenarios.csv",
+      "passed": true
+    },
+    {
+      "check": "editable pure vector Fig4_Analytical_Quality_Control_english.svg",
+      "passed": true
+    },
+    {
+      "check": "visible evidence label Fig4_Analytical_Quality_Control_english.svg",
+      "passed": true
+    },
+    {
+      "check": "figure hash Fig1_Pareto_Electrosynthesis_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "Fig1_Pareto_Electrosynthesis_chinese.png data pareto_conditions.csv",
+      "passed": true
+    },
+    {
+      "check": "PNG size and resolution Fig1_Pareto_Electrosynthesis_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "figure hash Fig1_Pareto_Electrosynthesis_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "Fig1_Pareto_Electrosynthesis_chinese.svg data pareto_conditions.csv",
+      "passed": true
+    },
+    {
+      "check": "editable pure vector Fig1_Pareto_Electrosynthesis_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "visible evidence label Fig1_Pareto_Electrosynthesis_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "figure hash Fig2_Substrate_Scope_Heatmap_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "Fig2_Substrate_Scope_Heatmap_chinese.png data scope_mock.csv",
+      "passed": true
+    },
+    {
+      "check": "PNG size and resolution Fig2_Substrate_Scope_Heatmap_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "figure hash Fig2_Substrate_Scope_Heatmap_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "Fig2_Substrate_Scope_Heatmap_chinese.svg data scope_mock.csv",
+      "passed": true
+    },
+    {
+      "check": "editable pure vector Fig2_Substrate_Scope_Heatmap_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "visible evidence label Fig2_Substrate_Scope_Heatmap_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "figure hash Fig3_Reaction_Energy_Profile_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "Fig3_Reaction_Energy_Profile_chinese.png data hypothetical_energy.csv",
+      "passed": true
+    },
+    {
+      "check": "PNG size and resolution Fig3_Reaction_Energy_Profile_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "figure hash Fig3_Reaction_Energy_Profile_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "Fig3_Reaction_Energy_Profile_chinese.svg data hypothetical_energy.csv",
+      "passed": true
+    },
+    {
+      "check": "editable pure vector Fig3_Reaction_Energy_Profile_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "visible evidence label Fig3_Reaction_Energy_Profile_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "figure hash Fig4_Analytical_Quality_Control_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "Fig4_Analytical_Quality_Control_chinese.png data synthetic_calibration.csv",
+      "passed": true
+    },
+    {
+      "check": "Fig4_Analytical_Quality_Control_chinese.png data synthetic_chromatogram.csv",
+      "passed": true
+    },
+    {
+      "check": "Fig4_Analytical_Quality_Control_chinese.png data deconvolution_recovery.csv",
+      "passed": true
+    },
+    {
+      "check": "Fig4_Analytical_Quality_Control_chinese.png data relaxation_scenarios.csv",
+      "passed": true
+    },
+    {
+      "check": "PNG size and resolution Fig4_Analytical_Quality_Control_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "figure hash Fig4_Analytical_Quality_Control_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "Fig4_Analytical_Quality_Control_chinese.svg data synthetic_calibration.csv",
+      "passed": true
+    },
+    {
+      "check": "Fig4_Analytical_Quality_Control_chinese.svg data synthetic_chromatogram.csv",
+      "passed": true
+    },
+    {
+      "check": "Fig4_Analytical_Quality_Control_chinese.svg data deconvolution_recovery.csv",
+      "passed": true
+    },
+    {
+      "check": "Fig4_Analytical_Quality_Control_chinese.svg data relaxation_scenarios.csv",
+      "passed": true
+    },
+    {
+      "check": "editable pure vector Fig4_Analytical_Quality_Control_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "visible evidence label Fig4_Analytical_Quality_Control_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "visual QA covers current file bytes",
+      "passed": true
+    },
+    {
+      "check": "english five sections",
+      "passed": true
+    },
+    {
+      "check": "english full subsections 1",
+      "passed": true
+    },
+    {
+      "check": "english full subsections 2",
+      "passed": true
+    },
+    {
+      "check": "english full subsections 3",
+      "passed": true
+    },
+    {
+      "check": "english full subsections 4",
+      "passed": true
+    },
+    {
+      "check": "english full subsections 5",
+      "passed": true
+    },
+    {
+      "check": "english numeric anchors",
+      "passed": true
+    },
+    {
+      "check": "english evidence labels",
+      "passed": true
+    },
+    {
+      "check": "english source hash",
+      "passed": true
+    },
+    {
+      "check": "english complete figure captions",
+      "passed": true
+    },
+    {
+      "check": "chinese five sections",
+      "passed": true
+    },
+    {
+      "check": "chinese full subsections 1",
+      "passed": true
+    },
+    {
+      "check": "chinese full subsections 2",
+      "passed": true
+    },
+    {
+      "check": "chinese full subsections 3",
+      "passed": true
+    },
+    {
+      "check": "chinese full subsections 4",
+      "passed": true
+    },
+    {
+      "check": "chinese full subsections 5",
+      "passed": true
+    },
+    {
+      "check": "chinese numeric anchors",
+      "passed": true
+    },
+    {
+      "check": "chinese evidence labels",
+      "passed": true
+    },
+    {
+      "check": "chinese source hash",
+      "passed": true
+    },
+    {
+      "check": "chinese complete figure captions",
+      "passed": true
+    },
+    {
+      "check": "English Chinese report table numeric parity",
+      "passed": true
+    },
+    {
+      "check": "English report no Chinese prose",
+      "passed": true
+    },
+    {
+      "check": "chinese complete twelve-section proposal",
+      "passed": true
+    },
+    {
+      "check": "chinese proposal planned counts",
+      "passed": true
+    },
+    {
+      "check": "english complete twelve-section proposal",
+      "passed": true
+    },
+    {
+      "check": "english proposal planned counts",
+      "passed": true
+    },
+    {
+      "check": "English proposal no Chinese prose",
+      "passed": true
+    },
+    {
+      "check": "English Chinese proposal numeric table parity",
+      "passed": true
+    },
+    {
+      "check": "README.md balanced code fences",
+      "passed": true
+    },
+    {
+      "check": "README.md no unexpanded template",
+      "passed": true
+    },
+    {
+      "check": "README.md link reports/deployment_toolkit_report_chinese.md",
+      "passed": true
+    },
+    {
+      "check": "README.md link reports/deployment_toolkit_report_english.md",
+      "passed": true
+    },
+    {
+      "check": "README.md link proposals/National_Undergraduate_Grant_Proposal_PanTang_Lab.md",
+      "passed": true
+    },
+    {
+      "check": "README.md link proposals/National_Undergraduate_Grant_Proposal_PanTang_Lab_English.md",
+      "passed": true
+    },
+    {
+      "check": "README.md link reports/figures/README.md",
+      "passed": true
+    },
+    {
+      "check": "README.md link results/audit/audit_summary.json",
+      "passed": true
+    },
+    {
+      "check": "README.md link results/publication_validation.json",
+      "passed": true
+    },
+    {
+      "check": "README.md link results/figure_qa.json",
+      "passed": true
+    },
+    {
+      "check": "README.md link source/specification.md",
+      "passed": true
+    },
+    {
+      "check": "README.md link results/original/README.md",
+      "passed": true
+    },
+    {
+      "check": "README.md link results/audit/audit_summary.json",
+      "passed": true
+    },
+    {
+      "check": "README.md link data/README.md",
+      "passed": true
+    },
+    {
+      "check": "README.md balanced code fences",
+      "passed": true
+    },
+    {
+      "check": "README.md no unexpanded template",
+      "passed": true
+    },
+    {
+      "check": "README.md link source_integrated_area.csv",
+      "passed": true
+    },
+    {
+      "check": "README.md link source_nmr_integrals.csv",
+      "passed": true
+    },
+    {
+      "check": "README.md balanced code fences",
+      "passed": true
+    },
+    {
+      "check": "README.md no unexpanded template",
+      "passed": true
+    },
+    {
+      "check": "README.md link Fig1_Pareto_Electrosynthesis_english.png",
+      "passed": true
+    },
+    {
+      "check": "README.md link Fig1_Pareto_Electrosynthesis_english.svg",
+      "passed": true
+    },
+    {
+      "check": "README.md link Fig1_Pareto_Electrosynthesis_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "README.md link Fig1_Pareto_Electrosynthesis_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "README.md link Fig2_Substrate_Scope_Heatmap_english.png",
+      "passed": true
+    },
+    {
+      "check": "README.md link Fig2_Substrate_Scope_Heatmap_english.svg",
+      "passed": true
+    },
+    {
+      "check": "README.md link Fig2_Substrate_Scope_Heatmap_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "README.md link Fig2_Substrate_Scope_Heatmap_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "README.md link Fig3_Reaction_Energy_Profile_english.png",
+      "passed": true
+    },
+    {
+      "check": "README.md link Fig3_Reaction_Energy_Profile_english.svg",
+      "passed": true
+    },
+    {
+      "check": "README.md link Fig3_Reaction_Energy_Profile_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "README.md link Fig3_Reaction_Energy_Profile_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "README.md link Fig4_Analytical_Quality_Control_english.png",
+      "passed": true
+    },
+    {
+      "check": "README.md link Fig4_Analytical_Quality_Control_english.svg",
+      "passed": true
+    },
+    {
+      "check": "README.md link Fig4_Analytical_Quality_Control_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "README.md link Fig4_Analytical_Quality_Control_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "README.md link ../deployment_toolkit_report_english.md",
+      "passed": true
+    },
+    {
+      "check": "README.md link ../deployment_toolkit_report_chinese.md",
+      "passed": true
+    },
+    {
+      "check": "README.md link ../../results/figure_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "README.md link ../../results/figure_qa.json",
+      "passed": true
+    },
+    {
+      "check": "deployment_toolkit_report_chinese.md balanced code fences",
+      "passed": true
+    },
+    {
+      "check": "deployment_toolkit_report_chinese.md no unexpanded template",
+      "passed": true
+    },
+    {
+      "check": "deployment_toolkit_report_chinese.md link deployment_toolkit_report_english.md",
+      "passed": true
+    },
+    {
+      "check": "deployment_toolkit_report_chinese.md link ../proposals/National_Undergraduate_Grant_Proposal_PanTang_Lab.md",
+      "passed": true
+    },
+    {
+      "check": "deployment_toolkit_report_chinese.md link ../proposals/National_Undergraduate_Grant_Proposal_PanTang_Lab_English.md",
+      "passed": true
+    },
+    {
+      "check": "deployment_toolkit_report_chinese.md link ../source/specification.md",
+      "passed": true
+    },
+    {
+      "check": "deployment_toolkit_report_chinese.md link ../results/original/README.md",
+      "passed": true
+    },
+    {
+      "check": "deployment_toolkit_report_chinese.md link ../results/original/execution.json",
+      "passed": true
+    },
+    {
+      "check": "deployment_toolkit_report_chinese.md link ../source/source_record.json",
+      "passed": true
+    },
+    {
+      "check": "deployment_toolkit_report_chinese.md link ../results/audit/audit_summary.json",
+      "passed": true
+    },
+    {
+      "check": "deployment_toolkit_report_chinese.md link ../results/audit/concordance_counterfactuals.csv",
+      "passed": true
+    },
+    {
+      "check": "deployment_toolkit_report_chinese.md link ../results/audit/qnmr_scenarios.csv",
+      "passed": true
+    },
+    {
+      "check": "deployment_toolkit_report_chinese.md link ../results/audit/relaxation_scenarios.csv",
+      "passed": true
+    },
+    {
+      "check": "deployment_toolkit_report_chinese.md link ../results/audit/synthetic_recovery.json",
+      "passed": true
+    },
+    {
+      "check": "deployment_toolkit_report_chinese.md link ../results/audit/deconvolution_recovery.csv",
+      "passed": true
+    },
+    {
+      "check": "deployment_toolkit_report_chinese.md link ../data/source_integrated_area.csv",
+      "passed": true
+    },
+    {
+      "check": "deployment_toolkit_report_chinese.md link ../data/source_nmr_integrals.csv",
+      "passed": true
+    },
+    {
+      "check": "deployment_toolkit_report_chinese.md link ../data/README.md",
+      "passed": true
+    },
+    {
+      "check": "deployment_toolkit_report_chinese.md link ../results/audit/pareto_conditions.csv",
+      "passed": true
+    },
+    {
+      "check": "deployment_toolkit_report_chinese.md link figures/Fig1_Pareto_Electrosynthesis_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "deployment_toolkit_report_chinese.md link figures/Fig1_Pareto_Electrosynthesis_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "deployment_toolkit_report_chinese.md link ../results/audit/scope_mock.csv",
+      "passed": true
+    },
+    {
+      "check": "deployment_toolkit_report_chinese.md link ../results/audit/scope_leave_one_out_descriptive.csv",
+      "passed": true
+    },
+    {
+      "check": "deployment_toolkit_report_chinese.md link figures/Fig2_Substrate_Scope_Heatmap_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "deployment_toolkit_report_chinese.md link figures/Fig2_Substrate_Scope_Heatmap_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "deployment_toolkit_report_chinese.md link ../results/audit/hypothetical_energy.csv",
+      "passed": true
+    },
+    {
+      "check": "deployment_toolkit_report_chinese.md link figures/Fig3_Reaction_Energy_Profile_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "deployment_toolkit_report_chinese.md link figures/Fig3_Reaction_Energy_Profile_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "deployment_toolkit_report_chinese.md link figures/Fig4_Analytical_Quality_Control_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "deployment_toolkit_report_chinese.md link figures/Fig4_Analytical_Quality_Control_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "deployment_toolkit_report_chinese.md link ../results/figure_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "deployment_toolkit_report_chinese.md link ../results/figure_qa.json",
+      "passed": true
+    },
+    {
+      "check": "deployment_toolkit_report_chinese.md link ../proposals/National_Undergraduate_Grant_Proposal_PanTang_Lab.md",
+      "passed": true
+    },
+    {
+      "check": "deployment_toolkit_report_chinese.md link ../proposals/National_Undergraduate_Grant_Proposal_PanTang_Lab_English.md",
+      "passed": true
+    },
+    {
+      "check": "deployment_toolkit_report_chinese.md link ../scripts/validate_toolkit.py",
+      "passed": true
+    },
+    {
+      "check": "deployment_toolkit_report_chinese.md link ../results/publication_validation.json",
+      "passed": true
+    },
+    {
+      "check": "deployment_toolkit_report_chinese.md link ../../provenance/release_validation.json",
+      "passed": true
+    },
+    {
+      "check": "deployment_toolkit_report_chinese.md link ../results/sources.json",
+      "passed": true
+    },
+    {
+      "check": "deployment_toolkit_report_english.md balanced code fences",
+      "passed": true
+    },
+    {
+      "check": "deployment_toolkit_report_english.md no unexpanded template",
+      "passed": true
+    },
+    {
+      "check": "deployment_toolkit_report_english.md link deployment_toolkit_report_chinese.md",
+      "passed": true
+    },
+    {
+      "check": "deployment_toolkit_report_english.md link ../proposals/National_Undergraduate_Grant_Proposal_PanTang_Lab.md",
+      "passed": true
+    },
+    {
+      "check": "deployment_toolkit_report_english.md link ../proposals/National_Undergraduate_Grant_Proposal_PanTang_Lab_English.md",
+      "passed": true
+    },
+    {
+      "check": "deployment_toolkit_report_english.md link ../source/specification.md",
+      "passed": true
+    },
+    {
+      "check": "deployment_toolkit_report_english.md link ../results/original/README.md",
+      "passed": true
+    },
+    {
+      "check": "deployment_toolkit_report_english.md link ../results/original/execution.json",
+      "passed": true
+    },
+    {
+      "check": "deployment_toolkit_report_english.md link ../source/source_record.json",
+      "passed": true
+    },
+    {
+      "check": "deployment_toolkit_report_english.md link ../results/audit/audit_summary.json",
+      "passed": true
+    },
+    {
+      "check": "deployment_toolkit_report_english.md link ../results/audit/concordance_counterfactuals.csv",
+      "passed": true
+    },
+    {
+      "check": "deployment_toolkit_report_english.md link ../results/audit/qnmr_scenarios.csv",
+      "passed": true
+    },
+    {
+      "check": "deployment_toolkit_report_english.md link ../results/audit/relaxation_scenarios.csv",
+      "passed": true
+    },
+    {
+      "check": "deployment_toolkit_report_english.md link ../results/audit/synthetic_recovery.json",
+      "passed": true
+    },
+    {
+      "check": "deployment_toolkit_report_english.md link ../results/audit/deconvolution_recovery.csv",
+      "passed": true
+    },
+    {
+      "check": "deployment_toolkit_report_english.md link ../data/source_integrated_area.csv",
+      "passed": true
+    },
+    {
+      "check": "deployment_toolkit_report_english.md link ../data/source_nmr_integrals.csv",
+      "passed": true
+    },
+    {
+      "check": "deployment_toolkit_report_english.md link ../data/README.md",
+      "passed": true
+    },
+    {
+      "check": "deployment_toolkit_report_english.md link ../results/audit/pareto_conditions.csv",
+      "passed": true
+    },
+    {
+      "check": "deployment_toolkit_report_english.md link figures/Fig1_Pareto_Electrosynthesis_english.png",
+      "passed": true
+    },
+    {
+      "check": "deployment_toolkit_report_english.md link figures/Fig1_Pareto_Electrosynthesis_english.svg",
+      "passed": true
+    },
+    {
+      "check": "deployment_toolkit_report_english.md link ../results/audit/scope_mock.csv",
+      "passed": true
+    },
+    {
+      "check": "deployment_toolkit_report_english.md link ../results/audit/scope_leave_one_out_descriptive.csv",
+      "passed": true
+    },
+    {
+      "check": "deployment_toolkit_report_english.md link figures/Fig2_Substrate_Scope_Heatmap_english.png",
+      "passed": true
+    },
+    {
+      "check": "deployment_toolkit_report_english.md link figures/Fig2_Substrate_Scope_Heatmap_english.svg",
+      "passed": true
+    },
+    {
+      "check": "deployment_toolkit_report_english.md link ../results/audit/hypothetical_energy.csv",
+      "passed": true
+    },
+    {
+      "check": "deployment_toolkit_report_english.md link figures/Fig3_Reaction_Energy_Profile_english.png",
+      "passed": true
+    },
+    {
+      "check": "deployment_toolkit_report_english.md link figures/Fig3_Reaction_Energy_Profile_english.svg",
+      "passed": true
+    },
+    {
+      "check": "deployment_toolkit_report_english.md link figures/Fig4_Analytical_Quality_Control_english.png",
+      "passed": true
+    },
+    {
+      "check": "deployment_toolkit_report_english.md link figures/Fig4_Analytical_Quality_Control_english.svg",
+      "passed": true
+    },
+    {
+      "check": "deployment_toolkit_report_english.md link ../results/figure_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "deployment_toolkit_report_english.md link ../results/figure_qa.json",
+      "passed": true
+    },
+    {
+      "check": "deployment_toolkit_report_english.md link ../proposals/National_Undergraduate_Grant_Proposal_PanTang_Lab.md",
+      "passed": true
+    },
+    {
+      "check": "deployment_toolkit_report_english.md link ../proposals/National_Undergraduate_Grant_Proposal_PanTang_Lab_English.md",
+      "passed": true
+    },
+    {
+      "check": "deployment_toolkit_report_english.md link ../scripts/validate_toolkit.py",
+      "passed": true
+    },
+    {
+      "check": "deployment_toolkit_report_english.md link ../results/publication_validation.json",
+      "passed": true
+    },
+    {
+      "check": "deployment_toolkit_report_english.md link ../../provenance/release_validation.json",
+      "passed": true
+    },
+    {
+      "check": "deployment_toolkit_report_english.md link ../results/sources.json",
+      "passed": true
+    },
+    {
+      "check": "National_Undergraduate_Grant_Proposal_PanTang_Lab.md balanced code fences",
+      "passed": true
+    },
+    {
+      "check": "National_Undergraduate_Grant_Proposal_PanTang_Lab.md no unexpanded template",
+      "passed": true
+    },
+    {
+      "check": "National_Undergraduate_Grant_Proposal_PanTang_Lab.md link ../reports/deployment_toolkit_report_chinese.md",
+      "passed": true
+    },
+    {
+      "check": "National_Undergraduate_Grant_Proposal_PanTang_Lab.md link ../results/audit/audit_summary.json",
+      "passed": true
+    },
+    {
+      "check": "National_Undergraduate_Grant_Proposal_PanTang_Lab_English.md balanced code fences",
+      "passed": true
+    },
+    {
+      "check": "National_Undergraduate_Grant_Proposal_PanTang_Lab_English.md no unexpanded template",
+      "passed": true
+    },
+    {
+      "check": "National_Undergraduate_Grant_Proposal_PanTang_Lab_English.md link ../reports/deployment_toolkit_report_english.md",
+      "passed": true
+    },
+    {
+      "check": "National_Undergraduate_Grant_Proposal_PanTang_Lab_English.md link ../results/audit/audit_summary.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/figure_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/figure_qa.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/sources.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses source/source_record.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/audit/analytical_audit.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/audit/audit_summary.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/audit/figure_audit.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/audit/grant_planning.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/audit/ingestion_example.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/audit/nmr_ingestion_example.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/audit/synthetic_recovery.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/original/deployment_toolkit_results.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses results/original/execution.json",
+      "passed": true
+    }
+  ]
+}

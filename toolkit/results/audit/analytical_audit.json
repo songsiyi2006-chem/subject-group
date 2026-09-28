@@ -1,0 +1,47 @@
+{
+  "HPLC": {
+    "measured_mM": 17.226666666666667,
+    "reaction_mM": 430.6666666666667,
+    "product_mmol": 2.584,
+    "yield_pct": 1292.0,
+    "flags": [
+      "outside_stoichiometric_yield_range_for_1_to_1_product",
+      "calibration_range_unknown"
+    ],
+    "numeric_range_pass": false,
+    "measurement_validated": false
+  },
+  "NMR_source_rounded_amount_yield_pct": 91.39200000000001,
+  "NMR_mass_recomputed": {
+    "standard_mmol": 0.03567394018669362,
+    "product_mmol": 0.18265057375587135,
+    "yield_pct": 91.32528687793567,
+    "flags": [],
+    "measurement_validated": false
+  },
+  "disagreement_pp": 1200.608,
+  "maximum_area_for_100pct_given_other_inputs": 19120.000000000004,
+  "NMR_peak_assignment": "Unverified. A C3-substituted indole does not retain the replaced C3-H; choose an independently assigned nonoverlapping product resonance.",
+  "concordance_validated": false,
+  "uncertainty_scenario": {
+    "assumptions": "Independent normal SD: area 1%, slope 2%, intercept 20 area units, dilution 1%, volume 0.5%, n0 0.5%; NMR product integral 1%, IS integral 0.5%, IS mass 0.5%; common n0 draws; IS purity fixed at 1.",
+    "draws": 100000,
+    "HPLC_percentiles_2p5_50_97p5": [
+      1230.038230762954,
+      1291.844559050834,
+      1358.9275339294732
+    ],
+    "NMR_percentiles_2p5_50_97p5": [
+      88.9444553943224,
+      91.3229726293147,
+      93.70978196915786
+    ],
+    "HPLC_fraction_above_100": 1.0,
+    "difference_percentiles_pp": [
+      1138.793694755026,
+      1200.5454714515154,
+      1267.4989682947416
+    ],
+    "meaning": "Assumption sensitivity intervals, not validated measurement uncertainty or confidence intervals"
+  }
+}

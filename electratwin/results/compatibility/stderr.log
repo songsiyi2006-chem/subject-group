@@ -1,0 +1,2 @@
+<repository>\electratwin\source\electratwin_core_numpy_compat.py:130: SyntaxWarning: invalid escape sequence '\p'
+  u(y) * \partial C / \partial x = D * [ \partial^2 C / \partial x^2 + \partial^2 C / \partial y^2 ]

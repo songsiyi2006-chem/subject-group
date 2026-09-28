@@ -1,0 +1,2 @@
+sample_id,evidence_role,mass_unit,amount_unit,product_integral,standard_integral,product_H,standard_H,standard_mass_mg,standard_MW,standard_purity,substrate_mmol,sample_fraction,product_peak_assignment,product_identity,standard_identity,relaxation_record,analyst,recorded_at,raw_file,raw_sha256,standard_certificate_file,standard_certificate_sha256
+source-nmr-01,source_example,mg,mmol,5.12,3,1,3,6,168.19,1,0.2,1,,,"1,3,5-trimethoxybenzene",,,,,,,

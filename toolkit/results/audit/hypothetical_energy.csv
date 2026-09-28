@@ -1,0 +1,6 @@
+evidence_role,state_index,source_state,relative_energy_kcal_mol
+illustrative_not_DFT,0,Reactants [Sub + NuH],0.0
+illustrative_not_DFT,1,SET Anode [Radical Cation],14.8
+illustrative_not_DFT,2,C-Nu Addition [TS-1],22.3
+illustrative_not_DFT,3,Deprotonation [Intermediate],3.2
+illustrative_not_DFT,4,Product [Functionalized],-18.6

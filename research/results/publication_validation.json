@@ -1,6 +1,6 @@
 {
   "passed": true,
-  "checks": 163,
+  "checks": 173,
   "scope": "Saved record and publication integrity, not chemical prediction accuracy or experimental validation.",
   "failed": [],
   "items": [
@@ -590,6 +590,46 @@
     },
     {
       "check": "README link ../provenance/SHA256SUMS.txt",
+      "passed": true
+    },
+    {
+      "check": "README link electratwin/reports/electratwin_report_chinese.md",
+      "passed": true
+    },
+    {
+      "check": "README link electratwin/reports/electratwin_report_english.md",
+      "passed": true
+    },
+    {
+      "check": "README link electratwin/README.md",
+      "passed": true
+    },
+    {
+      "check": "README link electratwin/reports/figures/README.md",
+      "passed": true
+    },
+    {
+      "check": "README link toolkit/reports/deployment_toolkit_report_chinese.md",
+      "passed": true
+    },
+    {
+      "check": "README link toolkit/reports/deployment_toolkit_report_english.md",
+      "passed": true
+    },
+    {
+      "check": "README link toolkit/proposals/National_Undergraduate_Grant_Proposal_PanTang_Lab.md",
+      "passed": true
+    },
+    {
+      "check": "README link toolkit/proposals/National_Undergraduate_Grant_Proposal_PanTang_Lab_English.md",
+      "passed": true
+    },
+    {
+      "check": "README link toolkit/reports/figures/README.md",
+      "passed": true
+    },
+    {
+      "check": "README link toolkit/README.md",
       "passed": true
     },
     {

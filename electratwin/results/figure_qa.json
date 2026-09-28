@@ -1,0 +1,34 @@
+{
+  "date": "2026-09-28",
+  "png_files_visually_reviewed": 6,
+  "svg_files_rendered_and_visually_reviewed": 6,
+  "svg_renderer": "Bundled sharp/libvips; independent SVG rasterization",
+  "checked": [
+    "All English and Chinese labels, axes, captions and legends",
+    "Visible model-only evidence status",
+    "No material clipping or label overlap",
+    "300 dpi PNG dimensions; editable vector SVG with no embedded raster"
+  ],
+  "repairs": [
+    "Matched heatmap cell-edge color to remove SVG antialias seams"
+  ],
+  "limitations": [
+    "Visual review by assistant, not human scientific peer review",
+    "Fonts referenced rather than embedded; substitutions require layout review",
+    "Original compatibility-run figures excluded from reviewed set"
+  ],
+  "reviewed_figure_hashes": {
+    "Fig1_Transport_Field_english.png": "361d892031395da86db8dc48c3ae993262a77e2632ff8daabccf8684d70b555c",
+    "Fig1_Transport_Field_english.svg": "466522ef8dcf6626d882a65cbd06872c196850841af162928a5ec811404652b6",
+    "Fig2_Numerical_Audit_english.png": "ca98845c48813350166630017cf8627601a1cf75b014f3389fa4ffcd99de7b7a",
+    "Fig2_Numerical_Audit_english.svg": "16b3e43b3d95404413aef697852de2cf1ef255fd621b4df44ad6c219aee9b75b",
+    "Fig3_Sequential_Optimization_english.png": "a12f9ca43a7488807abdbc80483b5a9a8311fbd3cf245524123f3088abd3d71d",
+    "Fig3_Sequential_Optimization_english.svg": "6b246f4493a3c0c60986b90f20278539dc382624b6b087fe53c8adfeb4367f00",
+    "Fig1_Transport_Field_chinese.png": "b7de29f6bda488853eac3835246df2f13bdc168fa365b55dc204a8ee904b41f4",
+    "Fig1_Transport_Field_chinese.svg": "4038cc13c6932afe8aab3a4a4abc3a9b8da48e268e8479654b5015c9d783821d",
+    "Fig2_Numerical_Audit_chinese.png": "6bc687a2fe46638982f7b82f515520e959a6a28e93062efa654fa7631fd5e370",
+    "Fig2_Numerical_Audit_chinese.svg": "fe3f18e3bd66a4dcf711851c76aa438a419508ac2cfff7467517b172fa0ac1de",
+    "Fig3_Sequential_Optimization_chinese.png": "43b31e9fd4fa7581eb6406f37f90b3ecbe9f2d96c48b3920afa4bf5c2c36fa87",
+    "Fig3_Sequential_Optimization_chinese.svg": "e81421d3442ab95d30e36996b747357fc6f401c913f96ce81cecf77be5a1cdab"
+  }
+}

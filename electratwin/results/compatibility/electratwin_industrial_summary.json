@@ -1,0 +1,25 @@
+{
+    "Platform": "ElectraTwin-OS v2.4-Production",
+    "Target_Lab": "Pan-Tang Laboratory, Guangxi Normal University",
+    "PDE_Simulation_Summary": {
+        "conversion_pct": 60.04,
+        "outlet_conc_mM": 19.98,
+        "total_current_mA": 24.98,
+        "flow_rate_uL_min": 450.0
+    },
+    "Autonomous_Campaign_Summary": {
+        "flow_rate_uL_min": 1200.0,
+        "overpotential_V": 0.45,
+        "conversion_pct": 32.03,
+        "total_current_A": 0.03308,
+        "cell_voltage_V": 2.912,
+        "space_time_yield": 38959.6,
+        "e_factor": 163.82,
+        "faradaic_efficiency": 100.0,
+        "energy_kwh_kg": 0.275
+    },
+    "Generated_Graphics": {
+        "pde_plot": "industrial_outputs\\Fig_2D_Microchannel_PDE.png",
+        "pareto_plot": "industrial_outputs\\Fig_Industrial_Pareto_Frontier.png"
+    }
+}

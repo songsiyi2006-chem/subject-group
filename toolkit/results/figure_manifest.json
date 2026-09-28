@@ -1,0 +1,250 @@
+{
+  "figures": [
+    {
+      "file": "Fig1_Pareto_Electrosynthesis_english.png",
+      "evidence": "synthetic/mock/illustrative as labeled; no experimental or DFT validation",
+      "sources": {
+        "pareto_conditions.csv": "12bfdea0da63e329e5f999cd5a6e00f497878f73b8ebb593a75fc3dbea0e88ae"
+      },
+      "sha256": "5068adf25f70583d5fbd2525f33e7b9202e2e39a9f67eb8d4a2c68e2aedd822f",
+      "format": "png",
+      "pixels": [
+        2160,
+        1200
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "Fig1_Pareto_Electrosynthesis_english.svg",
+      "evidence": "synthetic/mock/illustrative as labeled; no experimental or DFT validation",
+      "sources": {
+        "pareto_conditions.csv": "12bfdea0da63e329e5f999cd5a6e00f497878f73b8ebb593a75fc3dbea0e88ae"
+      },
+      "sha256": "ec632f14eb983c9f27373638a93789c8ab56a173f9b82c77ae2901dc7a27f746",
+      "format": "svg",
+      "editable_text": true,
+      "embedded_raster": false
+    },
+    {
+      "file": "Fig2_Substrate_Scope_Heatmap_english.png",
+      "evidence": "synthetic/mock/illustrative as labeled; no experimental or DFT validation",
+      "sources": {
+        "scope_mock.csv": "2bf7e498044cd32dc0230beb9b569be1ed718343c728cacac534f6a346288d69"
+      },
+      "sha256": "d4200645e0d4f49887d076ef5b4bde04d06ebcde179388803e7ee6a8a60a59a9",
+      "format": "png",
+      "pixels": [
+        2160,
+        1170
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "Fig2_Substrate_Scope_Heatmap_english.svg",
+      "evidence": "synthetic/mock/illustrative as labeled; no experimental or DFT validation",
+      "sources": {
+        "scope_mock.csv": "2bf7e498044cd32dc0230beb9b569be1ed718343c728cacac534f6a346288d69"
+      },
+      "sha256": "541ed8a147759805ad68de8d2489158ec1af91f08cf616cb3aed53c37dd856be",
+      "format": "svg",
+      "editable_text": true,
+      "embedded_raster": false
+    },
+    {
+      "file": "Fig3_Reaction_Energy_Profile_english.png",
+      "evidence": "synthetic/mock/illustrative as labeled; no experimental or DFT validation",
+      "sources": {
+        "hypothetical_energy.csv": "777096f2a730d5fa8c8deb4a82a611554948f492624ffb3b1586167a9b1622a5"
+      },
+      "sha256": "62a9f505837f1ab949f5dab1c2cd70132ae7a2ce34a41b306ecc8dd57c4708cc",
+      "format": "png",
+      "pixels": [
+        2160,
+        1140
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "Fig3_Reaction_Energy_Profile_english.svg",
+      "evidence": "synthetic/mock/illustrative as labeled; no experimental or DFT validation",
+      "sources": {
+        "hypothetical_energy.csv": "777096f2a730d5fa8c8deb4a82a611554948f492624ffb3b1586167a9b1622a5"
+      },
+      "sha256": "5ca68761fad5c5391698e99a40d9cd827af095a088326061df548fc9a04b96e4",
+      "format": "svg",
+      "editable_text": true,
+      "embedded_raster": false
+    },
+    {
+      "file": "Fig4_Analytical_Quality_Control_english.png",
+      "evidence": "synthetic/mock/illustrative as labeled; no experimental or DFT validation",
+      "sources": {
+        "synthetic_calibration.csv": "2fd4ca57e66e48bb99791420723f0feb2e51f7b9843ecbb29371b167dc9d6bd1",
+        "synthetic_chromatogram.csv": "f98357fbc0903cd79fbd64e458e089d3c2981619a77b0b3386375cf82c07f955",
+        "deconvolution_recovery.csv": "13dd461f9c7b2526d97e84c99da963e35c772f1058ec428beb747d61074805b2",
+        "relaxation_scenarios.csv": "a8d21b5f32d926c03bb9f49447a25725d8da0554f1bc3d043f03abed1c2a2bec"
+      },
+      "sha256": "43d4ea76897a516d2c672ba46d69f6d0d31e3248c04777ff81433fa866347f3b",
+      "format": "png",
+      "pixels": [
+        2160,
+        1620
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "Fig4_Analytical_Quality_Control_english.svg",
+      "evidence": "synthetic/mock/illustrative as labeled; no experimental or DFT validation",
+      "sources": {
+        "synthetic_calibration.csv": "2fd4ca57e66e48bb99791420723f0feb2e51f7b9843ecbb29371b167dc9d6bd1",
+        "synthetic_chromatogram.csv": "f98357fbc0903cd79fbd64e458e089d3c2981619a77b0b3386375cf82c07f955",
+        "deconvolution_recovery.csv": "13dd461f9c7b2526d97e84c99da963e35c772f1058ec428beb747d61074805b2",
+        "relaxation_scenarios.csv": "a8d21b5f32d926c03bb9f49447a25725d8da0554f1bc3d043f03abed1c2a2bec"
+      },
+      "sha256": "a6835fd99e0bf6763b6e16d78dd17576c74ffcc94850f8062bb58fa3f4b28c11",
+      "format": "svg",
+      "editable_text": true,
+      "embedded_raster": false
+    },
+    {
+      "file": "Fig1_Pareto_Electrosynthesis_chinese.png",
+      "evidence": "synthetic/mock/illustrative as labeled; no experimental or DFT validation",
+      "sources": {
+        "pareto_conditions.csv": "12bfdea0da63e329e5f999cd5a6e00f497878f73b8ebb593a75fc3dbea0e88ae"
+      },
+      "sha256": "77656318b3c2df23158b40baebcdc0741c031c87d3b3d40dd799f42d714edd69",
+      "format": "png",
+      "pixels": [
+        2160,
+        1200
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "Fig1_Pareto_Electrosynthesis_chinese.svg",
+      "evidence": "synthetic/mock/illustrative as labeled; no experimental or DFT validation",
+      "sources": {
+        "pareto_conditions.csv": "12bfdea0da63e329e5f999cd5a6e00f497878f73b8ebb593a75fc3dbea0e88ae"
+      },
+      "sha256": "7b15af4af29d99a0723eb15a454b849bb80c6bc1d18e7b572c28bbf2063ce8d6",
+      "format": "svg",
+      "editable_text": true,
+      "embedded_raster": false
+    },
+    {
+      "file": "Fig2_Substrate_Scope_Heatmap_chinese.png",
+      "evidence": "synthetic/mock/illustrative as labeled; no experimental or DFT validation",
+      "sources": {
+        "scope_mock.csv": "2bf7e498044cd32dc0230beb9b569be1ed718343c728cacac534f6a346288d69"
+      },
+      "sha256": "a283389937145576bec795aa221b1a834c15ac8c082ba76e7c5dccb5bad89325",
+      "format": "png",
+      "pixels": [
+        2160,
+        1170
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "Fig2_Substrate_Scope_Heatmap_chinese.svg",
+      "evidence": "synthetic/mock/illustrative as labeled; no experimental or DFT validation",
+      "sources": {
+        "scope_mock.csv": "2bf7e498044cd32dc0230beb9b569be1ed718343c728cacac534f6a346288d69"
+      },
+      "sha256": "e7eb12d4f2ac3d67e9add4af85abc0edb25b236fabd43ff3b1a5db55b32e097d",
+      "format": "svg",
+      "editable_text": true,
+      "embedded_raster": false
+    },
+    {
+      "file": "Fig3_Reaction_Energy_Profile_chinese.png",
+      "evidence": "synthetic/mock/illustrative as labeled; no experimental or DFT validation",
+      "sources": {
+        "hypothetical_energy.csv": "777096f2a730d5fa8c8deb4a82a611554948f492624ffb3b1586167a9b1622a5"
+      },
+      "sha256": "647906fc9b0bb3aad6fca3d9a5f102cac2024c8bbebd6875f9f0378d2aa7d639",
+      "format": "png",
+      "pixels": [
+        2160,
+        1140
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "Fig3_Reaction_Energy_Profile_chinese.svg",
+      "evidence": "synthetic/mock/illustrative as labeled; no experimental or DFT validation",
+      "sources": {
+        "hypothetical_energy.csv": "777096f2a730d5fa8c8deb4a82a611554948f492624ffb3b1586167a9b1622a5"
+      },
+      "sha256": "c4dbf5dc8cf093db0985e0e2d71036c4555d7c6e84e1c8218d9fdb60df50c19a",
+      "format": "svg",
+      "editable_text": true,
+      "embedded_raster": false
+    },
+    {
+      "file": "Fig4_Analytical_Quality_Control_chinese.png",
+      "evidence": "synthetic/mock/illustrative as labeled; no experimental or DFT validation",
+      "sources": {
+        "synthetic_calibration.csv": "2fd4ca57e66e48bb99791420723f0feb2e51f7b9843ecbb29371b167dc9d6bd1",
+        "synthetic_chromatogram.csv": "f98357fbc0903cd79fbd64e458e089d3c2981619a77b0b3386375cf82c07f955",
+        "deconvolution_recovery.csv": "13dd461f9c7b2526d97e84c99da963e35c772f1058ec428beb747d61074805b2",
+        "relaxation_scenarios.csv": "a8d21b5f32d926c03bb9f49447a25725d8da0554f1bc3d043f03abed1c2a2bec"
+      },
+      "sha256": "8dd70dc97237f68e4990d15fcd4002cda9764b16cffc40a7a5c8e82d40c2e062",
+      "format": "png",
+      "pixels": [
+        2160,
+        1620
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "Fig4_Analytical_Quality_Control_chinese.svg",
+      "evidence": "synthetic/mock/illustrative as labeled; no experimental or DFT validation",
+      "sources": {
+        "synthetic_calibration.csv": "2fd4ca57e66e48bb99791420723f0feb2e51f7b9843ecbb29371b167dc9d6bd1",
+        "synthetic_chromatogram.csv": "f98357fbc0903cd79fbd64e458e089d3c2981619a77b0b3386375cf82c07f955",
+        "deconvolution_recovery.csv": "13dd461f9c7b2526d97e84c99da963e35c772f1058ec428beb747d61074805b2",
+        "relaxation_scenarios.csv": "a8d21b5f32d926c03bb9f49447a25725d8da0554f1bc3d043f03abed1c2a2bec"
+      },
+      "sha256": "268939203e50c18042b19883cd728de7a15cf8ea7632ad1012f1ea234a2564d2",
+      "format": "svg",
+      "editable_text": true,
+      "embedded_raster": false
+    }
+  ],
+  "figure_count": 4,
+  "languages": [
+    "english",
+    "chinese"
+  ],
+  "formats": [
+    "png",
+    "svg"
+  ],
+  "scope": "PNG previews at 300 DPI and editable vector SVG; not a journal acceptance or measured-data claim"
+}

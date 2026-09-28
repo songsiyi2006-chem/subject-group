@@ -1,0 +1,193 @@
+{
+  "figures": [
+    {
+      "file": "Fig1_Transport_Field_english.png",
+      "format": "png",
+      "sha256": "361d892031395da86db8dc48c3ae993262a77e2632ff8daabccf8684d70b555c",
+      "evidence": "Uncalibrated numerical model; no measured or industrial validation",
+      "sources": {
+        "results/transport/baseline_solution.json": "6e480f786d11de8315173be5c168e641ed1a5bb6254fb9a253447e51827e41c2",
+        "results/compatibility/captured_model_arrays.json": "13347e6adb3c482be3058f2d6df2e1c9f5806e2161a7c2534da595ce003c6b55"
+      },
+      "pixels": [
+        2160,
+        1140
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "Fig1_Transport_Field_english.svg",
+      "format": "svg",
+      "sha256": "466522ef8dcf6626d882a65cbd06872c196850841af162928a5ec811404652b6",
+      "evidence": "Uncalibrated numerical model; no measured or industrial validation",
+      "sources": {
+        "results/transport/baseline_solution.json": "6e480f786d11de8315173be5c168e641ed1a5bb6254fb9a253447e51827e41c2",
+        "results/compatibility/captured_model_arrays.json": "13347e6adb3c482be3058f2d6df2e1c9f5806e2161a7c2534da595ce003c6b55"
+      },
+      "editable_text": true,
+      "embedded_raster": false
+    },
+    {
+      "file": "Fig2_Numerical_Audit_english.png",
+      "format": "png",
+      "sha256": "ca98845c48813350166630017cf8627601a1cf75b014f3389fa4ffcd99de7b7a",
+      "evidence": "Uncalibrated numerical model; no measured or industrial validation",
+      "sources": {
+        "results/transport/grid_convergence.csv": "3f298c5c1cf9f0ecd9b26322a26b99d6b4844376ffd42f0d88dd6e78882662a1",
+        "results/source_audit.json": "fe3b08dc69e359fd1bfda86927d07b26b02173c15e460fa7805b9bf68d1a90be"
+      },
+      "pixels": [
+        2160,
+        1140
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "Fig2_Numerical_Audit_english.svg",
+      "format": "svg",
+      "sha256": "16b3e43b3d95404413aef697852de2cf1ef255fd621b4df44ad6c219aee9b75b",
+      "evidence": "Uncalibrated numerical model; no measured or industrial validation",
+      "sources": {
+        "results/transport/grid_convergence.csv": "3f298c5c1cf9f0ecd9b26322a26b99d6b4844376ffd42f0d88dd6e78882662a1",
+        "results/source_audit.json": "fe3b08dc69e359fd1bfda86927d07b26b02173c15e460fa7805b9bf68d1a90be"
+      },
+      "editable_text": true,
+      "embedded_raster": false
+    },
+    {
+      "file": "Fig3_Sequential_Optimization_english.png",
+      "format": "png",
+      "sha256": "a12f9ca43a7488807abdbc80483b5a9a8311fbd3cf245524123f3088abd3d71d",
+      "evidence": "Uncalibrated numerical model; no measured or industrial validation",
+      "sources": {
+        "results/control/candidate_pool.csv": "9a731e99a024f352ed7a51cff165aa7ae06e079bbdb99e66bf8e362c3e7a3ecf",
+        "results/control/paired_budget_comparison.csv": "11869f2b7fbbab594c5dfe542f22b1e56f6d8588cb26b07259b464b39f7bda93"
+      },
+      "pixels": [
+        2160,
+        1140
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "Fig3_Sequential_Optimization_english.svg",
+      "format": "svg",
+      "sha256": "6b246f4493a3c0c60986b90f20278539dc382624b6b087fe53c8adfeb4367f00",
+      "evidence": "Uncalibrated numerical model; no measured or industrial validation",
+      "sources": {
+        "results/control/candidate_pool.csv": "9a731e99a024f352ed7a51cff165aa7ae06e079bbdb99e66bf8e362c3e7a3ecf",
+        "results/control/paired_budget_comparison.csv": "11869f2b7fbbab594c5dfe542f22b1e56f6d8588cb26b07259b464b39f7bda93"
+      },
+      "editable_text": true,
+      "embedded_raster": false
+    },
+    {
+      "file": "Fig1_Transport_Field_chinese.png",
+      "format": "png",
+      "sha256": "b7de29f6bda488853eac3835246df2f13bdc168fa365b55dc204a8ee904b41f4",
+      "evidence": "Uncalibrated numerical model; no measured or industrial validation",
+      "sources": {
+        "results/transport/baseline_solution.json": "6e480f786d11de8315173be5c168e641ed1a5bb6254fb9a253447e51827e41c2",
+        "results/compatibility/captured_model_arrays.json": "13347e6adb3c482be3058f2d6df2e1c9f5806e2161a7c2534da595ce003c6b55"
+      },
+      "pixels": [
+        2160,
+        1140
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "Fig1_Transport_Field_chinese.svg",
+      "format": "svg",
+      "sha256": "4038cc13c6932afe8aab3a4a4abc3a9b8da48e268e8479654b5015c9d783821d",
+      "evidence": "Uncalibrated numerical model; no measured or industrial validation",
+      "sources": {
+        "results/transport/baseline_solution.json": "6e480f786d11de8315173be5c168e641ed1a5bb6254fb9a253447e51827e41c2",
+        "results/compatibility/captured_model_arrays.json": "13347e6adb3c482be3058f2d6df2e1c9f5806e2161a7c2534da595ce003c6b55"
+      },
+      "editable_text": true,
+      "embedded_raster": false
+    },
+    {
+      "file": "Fig2_Numerical_Audit_chinese.png",
+      "format": "png",
+      "sha256": "6bc687a2fe46638982f7b82f515520e959a6a28e93062efa654fa7631fd5e370",
+      "evidence": "Uncalibrated numerical model; no measured or industrial validation",
+      "sources": {
+        "results/transport/grid_convergence.csv": "3f298c5c1cf9f0ecd9b26322a26b99d6b4844376ffd42f0d88dd6e78882662a1",
+        "results/source_audit.json": "fe3b08dc69e359fd1bfda86927d07b26b02173c15e460fa7805b9bf68d1a90be"
+      },
+      "pixels": [
+        2160,
+        1140
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "Fig2_Numerical_Audit_chinese.svg",
+      "format": "svg",
+      "sha256": "fe3f18e3bd66a4dcf711851c76aa438a419508ac2cfff7467517b172fa0ac1de",
+      "evidence": "Uncalibrated numerical model; no measured or industrial validation",
+      "sources": {
+        "results/transport/grid_convergence.csv": "3f298c5c1cf9f0ecd9b26322a26b99d6b4844376ffd42f0d88dd6e78882662a1",
+        "results/source_audit.json": "fe3b08dc69e359fd1bfda86927d07b26b02173c15e460fa7805b9bf68d1a90be"
+      },
+      "editable_text": true,
+      "embedded_raster": false
+    },
+    {
+      "file": "Fig3_Sequential_Optimization_chinese.png",
+      "format": "png",
+      "sha256": "43b31e9fd4fa7581eb6406f37f90b3ecbe9f2d96c48b3920afa4bf5c2c36fa87",
+      "evidence": "Uncalibrated numerical model; no measured or industrial validation",
+      "sources": {
+        "results/control/candidate_pool.csv": "9a731e99a024f352ed7a51cff165aa7ae06e079bbdb99e66bf8e362c3e7a3ecf",
+        "results/control/paired_budget_comparison.csv": "11869f2b7fbbab594c5dfe542f22b1e56f6d8588cb26b07259b464b39f7bda93"
+      },
+      "pixels": [
+        2160,
+        1140
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "Fig3_Sequential_Optimization_chinese.svg",
+      "format": "svg",
+      "sha256": "e81421d3442ab95d30e36996b747357fc6f401c913f96ce81cecf77be5a1cdab",
+      "evidence": "Uncalibrated numerical model; no measured or industrial validation",
+      "sources": {
+        "results/control/candidate_pool.csv": "9a731e99a024f352ed7a51cff165aa7ae06e079bbdb99e66bf8e362c3e7a3ecf",
+        "results/control/paired_budget_comparison.csv": "11869f2b7fbbab594c5dfe542f22b1e56f6d8588cb26b07259b464b39f7bda93"
+      },
+      "editable_text": true,
+      "embedded_raster": false
+    }
+  ],
+  "figure_count": 3,
+  "languages": [
+    "english",
+    "chinese"
+  ],
+  "formats": [
+    "png",
+    "svg"
+  ]
+}

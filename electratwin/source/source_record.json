@@ -1,0 +1,12 @@
+{
+  "specification_sha256": "152719e0fa9c4c8e1ac3316742629aa6cdcef56acaf9b784b8e53796219757ce",
+  "original_python_sha256": "41e1fd21c1b9c48b9e430f99750dd9f69ed5a97805d758b8d0249645d6c3ea35",
+  "compatibility_python_sha256": "327bed061ee646babffff07ce593d914482fb8379ee0980254b699a1fa6fdbca",
+  "extraction": "First outer Python fence; line endings normalized to LF and final newline appended. No source logic edits.",
+  "compatibility_edit": "One call-name replacement: np.trapz to np.trapezoid; no numerical or scientific model corrections.",
+  "numpy_version": "2.4.6",
+  "python_version": "3.12.14",
+  "author_and_laboratory_claims": "Copied source statements; affiliation, authorship and industrial validation are not verified or endorsed.",
+  "real_hardware_access": false,
+  "real_experiment": false
+}

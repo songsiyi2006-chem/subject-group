@@ -1,0 +1,11 @@
+--- electratwin_core.py
++++ electratwin_core_numpy_compat.py
+@@ -226,7 +226,7 @@
+ 
+         # Post-process: Compute local current density j(x) along anode
+         j_local_A_m2 = exchange_current_j0 * ((C[:, 0] / C_in) * exp_a - exp_c)
+-        total_current_A = np.trapz(j_local_A_m2, dx=dx) * self.W
++        total_current_A = np.trapezoid(j_local_A_m2, dx=dx) * self.W
+ 
+         # Cross-sectional mixed-cup average concentration at outlet (x = L)
+         outlet_flux = np.sum(u_profile * C[-1, :] * dy)

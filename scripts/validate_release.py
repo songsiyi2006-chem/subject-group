@@ -40,7 +40,13 @@ def main():
     closed_loop=subprocess.run([sys.executable,str(ROOT/'closed_loop/scripts/validate_closed_loop.py')],capture_output=True,text=True,encoding='utf-8')
     check('closed-loop publication validation',closed_loop.returncode==0)
     if closed_loop.returncode:print(closed_loop.stdout,closed_loop.stderr)
-    files=[p for d in ['results','provenance','data/original','production/results','production/source','research/results','research/source','closed_loop/results','closed_loop/source','closed_loop/inputs'] for p in (ROOT/d).rglob('*.json') if p.name!='release_validation.json']
+    toolkit=subprocess.run([sys.executable,str(ROOT/'toolkit/scripts/validate_toolkit.py')],capture_output=True,text=True,encoding='utf-8')
+    check('analytical toolkit publication validation',toolkit.returncode==0)
+    if toolkit.returncode:print(toolkit.stdout,toolkit.stderr)
+    electratwin=subprocess.run([sys.executable,str(ROOT/'electratwin/scripts/validate_electratwin.py')],capture_output=True,text=True,encoding='utf-8')
+    check('ElectraTwin publication validation',electratwin.returncode==0)
+    if electratwin.returncode:print(electratwin.stdout,electratwin.stderr)
+    files=[p for d in ['results','provenance','data/original','production/results','production/source','research/results','research/source','closed_loop/results','closed_loop/source','closed_loop/inputs','toolkit/results','toolkit/source','electratwin/results','electratwin/source'] for p in (ROOT/d).rglob('*.json') if p.name!='release_validation.json']
     for f in files:
         try:json.loads(f.read_text(encoding='utf-8-sig'));ok=True
         except Exception:ok=False
@@ -58,6 +64,9 @@ def main():
         for line in manifest.read_text().splitlines():
             digest,name=line.split('  ',1);p=ROOT/name
             check('SHA256 '+name,p.exists() and hashlib.sha256(p.read_bytes()).hexdigest()==digest)
+    # Running this file puts scripts/ on sys.path; namespace-package tests need
+    # the repository root just as they do under python -m unittest.
+    sys.path.insert(0,str(ROOT))
     suite=unittest.defaultTestLoader.discover(str(ROOT/'tests'))
     stream=io.StringIO();result=unittest.TextTestRunner(stream=stream,verbosity=2).run(suite)
     check('scientific unittest suite',result.wasSuccessful())

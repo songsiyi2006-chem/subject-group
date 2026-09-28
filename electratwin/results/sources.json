@@ -1,0 +1,86 @@
+{
+  "verified_date": "2026-09-28",
+  "method": "Primary publisher, standards-owner or software-maintainer sources checked using web search and page opening; access limits recorded per item. No equipment accessed.",
+  "sources": [
+    {
+      "id": "numpy_api",
+      "title": "NumPy 2.4.0 Release Notes",
+      "url": "https://numpy.org/doc/2.4/release/2.4.0-notes.html",
+      "type": "official software documentation",
+      "verification": "Official HTML opened; Expired deprecations, Removal of deprecated functions and arguments, lists removal of numpy.trapz and recommends numpy.trapezoid or SciPy integration.",
+      "supports": "The observed AttributeError and the explicit one-call API repair.",
+      "does_not_support": "Numerical correctness or scientific validity of ElectraTwin."
+    },
+    {
+      "id": "fvm",
+      "title": "FiPy 3.4.4: Finite Volume Method and Discretization",
+      "url": "https://www.ctcms.nist.gov/~wd15/fipy/documentation/numerical/discret.html",
+      "type": "official NIST software numerical-method documentation",
+      "verification": "Official HTML opened and read: integration over control volumes, divergence theorem and sums of convective/diffusive face fluxes; local algebraic equations.",
+      "supports": "The rationale for balancing cell-face transport and boundary reaction fluxes and auditing conservation separately from iteration change.",
+      "does_not_support": "Validation of this repository solver against a real microreactor."
+    },
+    {
+      "id": "peclet",
+      "title": "FiPy 3.4.4: Numerical Schemes",
+      "url": "https://www.ctcms.nist.gov/~wd15/fipy/documentation/numerical/scheme.html",
+      "type": "official NIST software numerical-method documentation",
+      "verification": "Official HTML opened and read: face Peclet number is convective strength divided by diffusive conductance; central differencing positivity restriction and numerical diffusion of first-order upwind are discussed.",
+      "supports": "Using Peclet diagnostics and grid refinement when interpreting upwind concentration fields.",
+      "does_not_support": "Treating a large mean axial Peclet number as proof that diffusion is negligible near every wall or inlet corner."
+    },
+    {
+      "id": "pmi",
+      "title": "ACS Green Chemistry Institute: Process Mass Intensity Calculation Tool",
+      "url": "https://www.acs.org/green-chemistry-sustainability/green-chemistry-nexus/articles/process-mass-intensity-calculation-tool.html",
+      "type": "official ACS GCI metric-owner guidance",
+      "verification": "Official HTML opened and read; dated 2014-10-16. PMI is total raw material input including water divided by product/API output.",
+      "supports": "Full-process PMI requires an explicitly stated material boundary including water; the source's feed-only numerator is a partial-boundary proxy.",
+      "does_not_support": "Calling the source calculation full-process ACS-compliant PMI, or inferring life-cycle greenness from one mass metric."
+    },
+    {
+      "id": "efactor",
+      "title": "ACS: Green Chemistry and Engineering: Towards a Sustainable Future",
+      "url": "https://www.acs.org/content/dam/acsorg/membership/white-papers/15lac-green-chemistry.pdf",
+      "type": "official ACS institutional white paper",
+      "verification": "Official PDF opened, 30 pages; text on page 4 defines E-factor as waste mass per product mass and PMI as material input per product mass; discusses limits of a single metric.",
+      "supports": "E-factor = waste/product; PMI = input/product. E = PMI - 1 follows only with a common boundary, mass closure and all non-product output counted as waste.",
+      "does_not_support": "Assuming omitted workup or recycled streams are zero, or interpreting E-factor alone as an environmental impact assessment."
+    },
+    {
+      "id": "scale_up_counterexample",
+      "title": "Scaling-up Electroorganic Synthesis Using a Spinning Electrode Electrochemical Reactor in Batch and Flow Mode",
+      "url": "https://pubs.acs.org/doi/10.1021/acs.oprd.3c00255",
+      "doi": "10.1021/acs.oprd.3c00255",
+      "citation": "Organic Process Research & Development 2023, 27(11), 2072-2081",
+      "type": "primary research article",
+      "verification": "Publisher-indexed abstract and article excerpts read through search. They describe a rotating cylinder electrode with a 5 mm gap, multi-100 g batch demonstrations, and kilogram-per-day flow operation. Direct publisher opening and ChemRxiv PDF opening returned 403; no full SI review claimed.",
+      "supports": "A documented reactor architecture beyond continuous-flow microchannels exists; the source's claim that microchannels are the only industrial pathway is unsupported.",
+      "does_not_support": "General commercial qualification of every batch design, or scale-up readiness of this project."
+    },
+    {
+      "id": "scpi",
+      "title": "Tektronix: Model 2450 Interactive SourceMeter Instrument Reference Manual",
+      "url": "https://www.tek.com/tw/keithley-source-measure-units/keithley-smu-2400-series-sourcemeter-manual/model-2450-interactive-sou",
+      "type": "official instrument-manufacturer documentation landing page",
+      "verification": "Official landing page opened and read; states that the reference manual covers SCPI and TSP commands over a remote interface and warns to match manual revision to the instrument. Official 2450-901-01E PDF indexed contents were read; direct PDF open failed.",
+      "supports": "SCPI is a real remote-programming interface supported by the named instrument family, whose model and revision documentation must govern actual integration.",
+      "does_not_support": "Ownership, availability, connection, instrument identity, command-level compatibility, calibrated voltage or hardware validation of the source emulator."
+    },
+    {
+      "id": "ehvi",
+      "title": "BoTorch acquisition documentation: ExpectedHypervolumeImprovement",
+      "url": "https://botorch.readthedocs.io/en/stable/acquisition.html",
+      "type": "official software API documentation",
+      "verification": "Official indexed API excerpts read through search: ExpectedHypervolumeImprovement takes a model, reference point and partitioning. Tutorial indexed text discusses fitted surrogate models and posterior-based acquisition functions. Direct tutorial open failed; no full tutorial execution claimed.",
+      "supports": "A deterministic hypervolume evaluation is not itself EHVI; a posterior predictive model and acquisition-based selection are required.",
+      "does_not_support": "Bayesian or constrained optimization in the submitted fixed-grid loop."
+    }
+  ],
+  "affiliation_and_equipment": {
+    "claimed_lab_authorization_verified": false,
+    "instrument_access_verified": false,
+    "industrial_partner_verified": false,
+    "note": "Research alignment in the attachment is not evidence of authorship, participation, facility access, endorsement or process acceptance."
+  }
+}

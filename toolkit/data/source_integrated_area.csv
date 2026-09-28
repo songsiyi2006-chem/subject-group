@@ -1,0 +1,2 @@
+sample_id,evidence_role,area_mode,concentration_unit,volume_unit,area,slope_area_per_mM,intercept,dilution_factor,volume_mL,substrate_mmol,calibration_min_mM,calibration_max_mM,product_identity,analyst,recorded_at,raw_file,raw_sha256,calibration_file,calibration_sha256
+source-example-01,source_example,absolute,mM,mL,245600,14250,120,25,6,0.2,,,,,,,,,

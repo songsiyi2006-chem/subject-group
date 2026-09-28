@@ -1,0 +1,53 @@
+{
+  "base_hydraulics": {
+    "flow_uL_min": 450.0,
+    "length_m": 0.06,
+    "height_m": 0.0003,
+    "width_m": 0.012,
+    "density_kg_m3": 786.0,
+    "viscosity_Pa_s": 0.00035,
+    "diffusivity_m2_s": 1.1e-09,
+    "flow_m3_s": 7.500000000000001e-09,
+    "volume_mL": 0.21599999999999997,
+    "velocity_m_s": 0.0020833333333333337,
+    "hydraulic_diameter_m": 0.0005853658536585366,
+    "residence_time_s": 28.799999999999994,
+    "Re_hydraulic": 2.738675958188154,
+    "Pe_height": 568.1818181818182,
+    "Pe_length": 113636.36363636368,
+    "transverse_diffusion_scale_s": 81.81818181818181,
+    "parallel_plate_pressure_drop_Pa": 5.833333333333335,
+    "ideal_hydraulic_power_W": 4.375000000000002e-08,
+    "aspect_ratio_H_over_W": 0.024999999999999998,
+    "evidence_role": "uncalibrated_hydraulic_scenario"
+  },
+  "base_reviewed_current_A": 0.042251375019278344,
+  "assumed_cell_voltage_V": 3.1116504378566496,
+  "base_all_electrical_heat_rise_K": 10.137366765269714,
+  "hydraulic_cases": 27,
+  "thermal_cases": 9,
+  "transport_source_sha256": "6e480f786d11de8315173be5c168e641ed1a5bb6254fb9a253447e51827e41c2",
+  "assumptions": [
+    "Geometry is the source 60 mm x 300 micrometre x 12 mm cell; base flow 450 uL/min.",
+    "Density 786 kg/m3 follows the source assumption; viscosity 0.00035 Pa s and Cp 2200 J/(kg K) are selected scenarios, not verified mixture properties.",
+    "Pressure estimate is fully developed parallel-plate Newtonian flow; no entrance, tubing, sidewall correction, manifold, gas evolution or pump efficiency.",
+    "Voltage = 1.85 + 0.48 + 18.5 I is the source assumed lumped voltage law; not a solved potential or measured voltage.",
+    "Temperature rise allocates a selected fraction of electrical power to sensible heat, with no heat transfer or reaction enthalpy; not a thermal PDE, measured temperature or strict safety bound."
+  ],
+  "sources": [
+    {
+      "title": "MIT-hosted microfluidic mixing notes",
+      "url": "https://ocw.mit.edu/courses/2-674-micro-nano-engineering-laboratory-spring-2016/f28f8672e6386d65276d2e6776ae8611_MIT2_674S16_MicrofluidcMix.pdf",
+      "supports": "Definitions of Reynolds/Peclet numbers and diffusion time scaling; not fluid properties"
+    },
+    {
+      "title": "COMSOL Laminar Flow interface",
+      "url": "https://doc.comsol.com/6.4/doc/com.comsol.help.mfl/mfl_ug_fluidflow_single.06.04.html",
+      "supports": "Shallow parallel-boundary drag and model scope; no COMSOL execution"
+    }
+  ],
+  "verification_date": "2026-09-28",
+  "thermal_field_solved": false,
+  "hydraulic_CFD_solved": false,
+  "industrial_validation": false
+}

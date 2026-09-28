@@ -1,0 +1,2 @@
+<local-runtime-or-project>\source\run_deployment_and_figures.py:206: SyntaxWarning: invalid escape sequence '\p'
+  - 采用多孔纳米尺度蒂勒模数（Thiele Modulus $\phi$）与内扩散效率因子方程，定量揭示微孔-介孔分级结构对单原子催化中心周转频率（TOF）的调控机制。

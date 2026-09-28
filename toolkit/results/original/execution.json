@@ -1,0 +1,13 @@
+{
+  "returncode": 0,
+  "script_sha256": "73938741e18cf74bd5d45efe18a1e8d147c1b08d3367970eecfe4d2c8112f154",
+  "timestamp_utc": "2026-09-28T00:06:02.756406+00:00",
+  "elapsed_s": 5.7678959999466315,
+  "python": "3.12.14",
+  "threads": 1,
+  "result_written": true,
+  "raw_instrument_data_supplied": false,
+  "DFT_executed": false,
+  "grant_submitted": false,
+  "meaning": "Execution success only; original concordance, wet-lab, DFT and equipment claims are not endorsed"
+}

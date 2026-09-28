@@ -1,0 +1,8 @@
+item,quantity,assumed_unit_CNY,total_CNY,evidence_role
+Reagents and solvents,1,2500,2500,planning_estimate_not_quote
+Electrodes and cell consumables,1,1000,1000,planning_estimate_not_quote
+Analytical standards and columns,1,2000,2000,planning_estimate_not_quote
+HPLC injections,120,15,1800,planning_estimate_not_quote
+NMR samples,20,100,2000,planning_estimate_not_quote
+CPU pilot allocation,1,200,200,planning_estimate_not_quote
+Archiving and presentation materials,1,500,500,planning_estimate_not_quote

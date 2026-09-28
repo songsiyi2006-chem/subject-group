@@ -1,0 +1,22 @@
+<repository>\electratwin\source\electratwin_core.py:130: SyntaxWarning: invalid escape sequence '\p'
+  u(y) * \partial C / \partial x = D * [ \partial^2 C / \partial x^2 + \partial^2 C / \partial y^2 ]
+Traceback (most recent call last):
+  File "<repository>\electratwin\scripts\run_source.py", line 110, in <module>
+    main()
+  File "<repository>\electratwin\scripts\run_source.py", line 62, in main
+    child(args.child)
+  File "<repository>\electratwin\scripts\run_source.py", line 42, in child
+    values = runpy.run_path(str(source), run_name="__main__")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen runpy>", line 287, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "<repository>\electratwin\source\electratwin_core.py", line 484, in <module>
+    pde_result = solver.solve(
+                 ^^^^^^^^^^^^^
+  File "<repository>\electratwin\source\electratwin_core.py", line 229, in solve
+    total_current_A = np.trapz(j_local_A_m2, dx=dx) * self.W
+                      ^^^^^^^^
+  File "<local-runtime-path>", line 792, in __getattr__
+    raise AttributeError(f"module {__name__!r} has no attribute {attr!r}")
+AttributeError: module 'numpy' has no attribute 'trapz'. Did you mean: 'trace'?

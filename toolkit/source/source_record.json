@@ -1,0 +1,12 @@
+{
+  "specification_sha256": "dc5a0f408882396ca7184dad61e5f45da4a59438c78e9d4a8907a7a126de27c7",
+  "script_sha256": "73938741e18cf74bd5d45efe18a1e8d147c1b08d3367970eecfe4d2c8112f154",
+  "extraction": "Entire outer Python block bounded by Section 3; LF and final newline; no source logic changes. Internal Markdown fences break the source one-click regex.",
+  "naive_regex_extraction": {
+    "parses": false,
+    "error_type": "SyntaxError",
+    "message": "unterminated triple-quoted string literal (detected at line 212)",
+    "line": 182
+  },
+  "scientific_evidence": "Synthetic values only; no raw chromatogram, NMR spectrum or DFT output supplied."
+}

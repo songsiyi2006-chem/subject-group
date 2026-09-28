@@ -2,7 +2,28 @@
 
 完整技术报告、可复现计算与证据审计。Updated 2026-09-28.
 
-## Latest closed-loop platform / 新增湿实验与 DFT 输入闭环平台
+## Latest ElectraTwin-OS / 新增微通道传输与多目标计算平台
+
+- **[最新中文报告](electratwin/reports/electratwin_report_chinese.md)**
+- **[Latest English report](electratwin/reports/electratwin_report_english.md)**
+- [计算、证据与复现](electratwin/README.md) · [中英文 PNG/SVG 图表](electratwin/reports/figures/README.md)
+
+新增 39 次传输验证求解、81 点模型候选池、8 种子相同预算 MC-EHVI/随机对照、27 组水力和 9 组热量情景。修订基准转化率 58.3873%，电流 42.2514 mA；原程序物料—电流差异 15.0351%，12 点中 8 个 FE 被截断。MC-EHVI 5 胜 3 负，配对区间包含零。全部属于未经实验校准的模型；SCPI 仅内存模拟，尚未获得工业验证。
+
+The release preserves the original failure and compatibility execution, implements a conservative model and a real sequential finite-pool acquisition calculation, and keeps numerical verification separate from physical evidence. The 240 campaign records are uses of 81 precomputed model values, not 240 experiments.
+
+## Analytical toolkit / 分析定量、学术图表与大创申报
+
+- **[最新中文报告](toolkit/reports/deployment_toolkit_report_chinese.md)**
+- **[Latest English report](toolkit/reports/deployment_toolkit_report_english.md)**
+- [完整中文大创申报书](toolkit/proposals/National_Undergraduate_Grant_Proposal_PanTang_Lab.md) · [Complete English proposal](toolkit/proposals/National_Undergraduate_Grant_Proposal_PanTang_Lab_English.md)
+- [中英文 PNG/SVG 图表](toolkit/reports/figures/README.md) · [计算、证据与复现](toolkit/README.md)
+
+原程序已执行，新增 100,000 次输入误差情景、80 组峰恢复、2,000 次 Pareto 扰动和带来源检查的 HPLC/NMR 预积分 CSV 解析。原 HPLC 产率 1292.00% 与 NMR 91.392% 明显不一致；峰宽设错使模拟面积平均绝对误差升至 14.61%。图表保留模拟/示意标识，未冒充湿实验或 DFT。申报书为完整内容稿，导师同意、平台权限和下一轮申报窗口仍待核实，未正式提交。
+
+The reviewed toolkit adds exact dominance, analytical failure checks, editable vector graphics and separate full English/Chinese reports and proposals. Numerical success and public equipment listings do not establish assay validity, laboratory access or grant approval.
+
+## Earlier closed-loop platform / 前一版湿实验与 DFT 输入闭环平台
 
 - **[最新中文报告](closed_loop/reports/closed_loop_experimental_report_chinese.md)**
 - **[Latest English report](closed_loop/reports/closed_loop_experimental_report_english.md)**
