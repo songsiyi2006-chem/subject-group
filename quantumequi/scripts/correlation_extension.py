@@ -1,0 +1,433 @@
+"""Bounded actual H2 RHF/UHF/FCI study; finite basis, no ground-state claims for UHF."""
+from __future__ import annotations
+import argparse
+import csv
+import hashlib
+import json
+import os
+import platform
+import re
+import shutil
+import time
+from pathlib import Path
+
+import numpy as np
+import scipy
+from scipy.optimize import minimize_scalar
+
+ROOT = Path(__file__).resolve().parents[1]
+BASE = ROOT / "results/extensions/correlation"
+BASES = ("sto-3g", "cc-pvdz")
+METHODS = ("RHF", "UHF", "FCI")
+DISTANCES = (.50, .54, .58, .62, .66, .70, .74, .78, .82, .94,
+             1.10, 1.26, 1.30, 1.42, 1.58, 1.74, 1.80, 1.90,
+             2.10, 2.30, 2.50, 2.70, 3.00, 3.50, 4.00)
+SOURCES = [
+    "https://psicode.org/psi4manual/master/autodir_options_c/scf__guess_mix.html",
+    "https://psi4.github.io/psi4docs/master/scf.html",
+    "https://psicode.org/psi4manual/master/detci.html",
+    "https://psicode.org/psi4manual/master/autodir_options_c/module__detci.html",
+]
+
+
+def sha(path):
+    return hashlib.sha256(Path(path).read_bytes()).hexdigest()
+
+
+def dump(path, data):
+    Path(path).write_text(json.dumps(data, indent=2, ensure_ascii=False, allow_nan=False) + "\n",
+                          encoding="utf-8")
+
+
+def write_csv(path, rows):
+    if not rows:
+        return
+    with Path(path).open("w", encoding="utf-8", newline="") as handle:
+        writer = csv.DictWriter(handle, fieldnames=list(rows[0]))
+        writer.writeheader()
+        writer.writerows(rows)
+
+
+def sanitize(text):
+    text = re.sub(r"[A-Za-z]:[\\/][^\n\r\"<>]*", "[LOCAL_PATH]", text)
+    return re.sub(r"(?m)(called on|Host:)\s+[^\r\n]+", r"\1 [LOCAL_HOST]", text)
+
+
+def spin_squared_from_occupied(ca, cb, overlap):
+    ca, cb, overlap = (np.asarray(x, dtype=float) for x in (ca, cb, overlap))
+    if ca.ndim != 2 or cb.ndim != 2 or overlap.shape != (ca.shape[0], ca.shape[0]):
+        raise ValueError("Incompatible occupied-orbital/overlap shapes.")
+    if cb.shape[0] != ca.shape[0] or not all(np.isfinite(x).all() for x in (ca, cb, overlap)):
+        raise ValueError("Invalid occupied orbitals or overlap.")
+    sz = (ca.shape[1] - cb.shape[1]) / 2
+    return float(sz * (sz + 1) + cb.shape[1] - np.sum((ca.T @ overlap @ cb) ** 2))
+
+
+def five_point_derivatives(energies, step):
+    e = np.asarray(energies, dtype=float)
+    if e.shape != (5,) or not np.isfinite(e).all() or not np.isfinite(step) or step <= 0:
+        raise ValueError("Need five finite energies and a positive step.")
+    em2, em1, e0, ep1, ep2 = e
+    d1 = (em2 - 8 * em1 + 8 * ep1 - ep2) / (12 * step)
+    d2 = (-ep2 + 16 * ep1 - 30 * e0 + 16 * em1 - em2) / (12 * step**2)
+    c1 = (ep1 - 2 * e0 + em1) / step**2
+    c2 = (ep2 - 2 * e0 + em2) / (4 * step**2)
+    return dict(gradient_5point_Hartree_A=float(d1), curvature_Hartree_A2=float(d2),
+                curvature_central_h_Hartree_A2=float(c1),
+                curvature_central_2h_Hartree_A2=float(c2),
+                central_curvature_step_difference_Hartree_A2=float(abs(c1 - c2)))
+
+
+def classify_uhf(eu, er, s2):
+    if s2 is None:
+        return "unresolved_spin"
+    if s2 > 1e-4 and eu < er - 1e-7:
+        return "observed_lower_spin_broken_branch"
+    if abs(eu - er) <= 1e-7 and abs(s2) <= 1e-4:
+        return "restricted_like_solution"
+    return "other_or_unresolved_unrestricted_solution"
+
+
+def point_plan(pilot=False):
+    return [(f"{'pilot' if pilot else 'scan'}_{i:03d}", r)
+            for i, r in enumerate((.74, 1.60, 3.00) if pilot else DISTANCES)]
+
+
+def recovery_targets(jobs):
+    """Recovery is only for FCI configurations rejected before driver dispatch."""
+    return {(row["basis"], row["point_id"]) for row in jobs
+            if row["method"] == "FCI" and row["status"] == "failed"
+            and not row["energy_driver_dispatched"]}
+
+
+def study_stage_directories(out):
+    """Require main/pilot ledgers; include historical recovery only when present."""
+    out = Path(out)
+    stages = [out / "pilot"]
+    recovery = out / "pilot_fci_recovery"
+    if recovery.exists():
+        stages.append(recovery)
+    stages.append(out)
+    for directory in stages:
+        ledger = directory / "energy_driver_jobs.json"
+        if not ledger.is_file():
+            raise FileNotFoundError(f"Required stage ledger is missing: {ledger.name} in {directory.name}")
+    return stages
+
+
+class QuantumRunner:
+    def __init__(self, out, pilot):
+        self.out = Path(out)
+        self.limit = 20 if pilot else 186
+        self.jobs, self.orbitals, self.logs = [], [], []
+        for folder in ("logs", "scratch"):
+            (self.out / folder).mkdir(exist_ok=True)
+        import psi4
+        self.psi4 = psi4
+        psi4.set_num_threads(1)
+        psi4.set_memory(500_000_000)
+        psi4.core.IOManager.shared_object().set_default_path(str(self.out / "scratch"))
+
+    def checkpoint(self):
+        dump(self.out / "energy_driver_jobs.json", self.jobs)
+        dump(self.out / "reference_orbitals.json", self.orbitals)
+        dump(self.out / "log_provenance.json", self.logs)
+
+    def calculate(self, basis, method, distance, role, point_id):
+        if sum(j["energy_driver_dispatched"] for j in self.jobs) >= self.limit:
+            raise RuntimeError("Explicit energy-driver budget exhausted.")
+        psi4 = self.psi4
+        job_id = f"j{len(self.jobs):04d}_{basis}_{method}"
+        log_rel = f"logs/{job_id}.out"
+        log_path = self.out / log_rel
+        psi4.core.clean()
+        psi4.core.clean_options()
+        psi4.core.clean_variables()
+        psi4.core.set_output_file(str(log_path), False)
+        atom = distance is None
+        mol = psi4.geometry(("0 2\nH 0 0 0\n" if atom else
+                             f"0 1\nH 0 0 {-distance/2:.14f}\nH 0 0 {distance/2:.14f}\n")
+                            + "units angstrom\nsymmetry c1\nno_com\nno_reorient\n")
+        stability = "NONE" if atom or method == "FCI" else ("FOLLOW" if method == "UHF" else "CHECK")
+        options = dict(basis=basis, reference="UHF" if method == "UHF" else "RHF",
+                       scf_type="pk", guess="core", guess_mix=method == "UHF" and not atom,
+                       stability_analysis=stability, freeze_core=False,
+                       scf__e_convergence=1e-12, scf__d_convergence=1e-12, scf__maxiter=200)
+        if method == "FCI":
+            options.update(qc_module="detci", frozen_docc=[0], frozen_uocc=[0],
+                           detci__num_roots=1, detci__ci_num_threads=1,
+                           detci__e_convergence=1e-12, detci__r_convergence=1e-10,
+                           detci__ci_maxiter=100)
+        row = dict(job_id=job_id, point_id=point_id, role=role, basis=basis, method=method,
+                   R_A=distance, molecule="H" if atom else "H2", charge=0,
+                   multiplicity_input=2 if atom else 1, reference=options["reference"],
+                   guess_mix=options["guess_mix"], stability_requested=stability,
+                   energy_driver_dispatched=False, status="not_started", error=None,
+                   extraction_warnings=[], energy_Hartree=None, energy_total_Hartree=None,
+                   energy_electronic_Hartree=None,
+                   nuclear_repulsion_Hartree=float(mol.nuclear_repulsion_energy()),
+                   S2=None, S2_source=None, S2_reference_determinant=None, n_basis=None,
+                   CI_determinants=None, SCF_converged_messages=0, stability_eigenvalues=None,
+                   elapsed_seconds=0.0, log_file=log_rel)
+        self.jobs.append(row)
+        started = time.perf_counter()
+        try:
+            psi4.set_options(options)
+            row["energy_driver_dispatched"] = True
+            energy, wfn = psi4.energy("fci" if method == "FCI" else "scf", molecule=mol, return_wfn=True)
+            row.update(status="converged", energy_Hartree=float(energy),
+                       energy_total_Hartree=float(energy),
+                       energy_electronic_Hartree=float(energy) - row["nuclear_repulsion_Hartree"],
+                       n_basis=int(wfn.basisset().nbf()))
+            try:
+                ref = wfn.reference_wavefunction() if method == "FCI" else wfn
+                ref = wfn if ref is None else ref
+                overlap = np.asarray(psi4.core.MintsHelper(ref.basisset()).ao_overlap())
+                ca, cb = np.asarray(ref.Ca())[:, :ref.nalpha()], np.asarray(ref.Cb())[:, :ref.nbeta()]
+                s2 = spin_squared_from_occupied(ca, cb, overlap)
+                row["S2_reference_determinant"] = s2
+                if method != "FCI":
+                    row.update(S2=s2, S2_source="occupied_spin_orbital_overlap")
+                scalars, arrays = {}, {}
+                for owner in (psi4.core, wfn, ref):
+                    if hasattr(owner, "scalar_variables"):
+                        scalars.update({str(k): float(v) for k, v in owner.scalar_variables().items()
+                                        if np.isfinite(v)})
+                    if hasattr(owner, "array_variables"):
+                        arrays.update({str(k): np.asarray(v).ravel().tolist()
+                                       for k, v in owner.array_variables().items() if "STABILITY" in str(k)})
+                row["stability_eigenvalues"] = arrays or None
+                self.orbitals.append(dict(job_id=job_id, overlap=overlap.tolist(),
+                                         occupied_alpha=ca.tolist(), occupied_beta=cb.tolist(),
+                                         nalpha=ref.nalpha(), nbeta=ref.nbeta(), scalar_variables=scalars,
+                                         scope="FCI entries hold RHF reference orbitals, not the correlated CI state."))
+            except Exception as exc:
+                row["extraction_warnings"].append(sanitize(str(exc)))
+        except Exception as exc:
+            row.update(status="failed", error=sanitize(str(exc)))
+        finally:
+            row["elapsed_seconds"] = time.perf_counter() - started
+            psi4.core.close_outfile()
+            raw = log_path.read_text(encoding="utf-8", errors="replace") if log_path.exists() else ""
+            public = sanitize(raw)
+            log_path.write_text(public, encoding="utf-8")
+            row["SCF_converged_messages"] = public.count("Energy and wave function converged.")
+            if method == "FCI":
+                determinant_match = re.search(r"The CI space requires\s+(\d+)", public)
+                if determinant_match:
+                    row["CI_determinants"] = int(determinant_match.group(1))
+                match = re.findall(r"<S\^2>\s*=\s*([-+0-9.Ee]+)", public)
+                if match:
+                    row.update(S2=float(match[-1]), S2_source="DETCI_log_correlated_expectation")
+            self.logs.append(dict(job_id=job_id, path=log_rel,
+                                  raw_decoded_text_sha256=hashlib.sha256(raw.encode()).hexdigest(),
+                                  public_file_sha256=sha(log_path),
+                                  redaction="Local absolute paths and hostname only; numerical text retained."))
+            psi4.core.clean()
+            self.checkpoint()
+            print(json.dumps({k: row[k] for k in ("job_id", "role", "R_A", "status", "energy_Hartree", "S2", "error")}),
+                  flush=True)
+        return row
+
+
+def make_equilibrium(runner):
+    refs, rows = [], []
+    for basis in BASES:
+        calls = []
+        def objective(r):
+            row = runner.calculate(basis, "FCI", float(r), "equilibrium_search", f"minimum_{len(calls):02d}")
+            calls.append(row["job_id"])
+            if row["status"] != "converged":
+                raise RuntimeError("FCI minimum search has a failed quantum job.")
+            return row["energy_total_Hartree"]
+        opt = minimize_scalar(objective, bounds=(.60, .90), method="bounded",
+                              options={"xatol": 1e-7, "maxiter": 12})
+        step = .0025
+        local = [runner.calculate(basis, "FCI", float(opt.x + offset * step), "curvature", f"offset_{offset}")
+                 for offset in (-2, -1, 0, 1, 2)]
+        rows.extend(local)
+        if any(row["status"] != "converged" for row in local):
+            raise RuntimeError("FCI curvature has a failed quantum job.")
+        energies = [row["energy_total_Hartree"] for row in local]
+        atom = next(row for row in runner.jobs if row["basis"] == basis and row["role"] == "isolated_H")
+        if atom["status"] != "converged":
+            raise RuntimeError("Atomic reference failed.")
+        infinity = 2 * atom["energy_total_Hartree"]
+        refs.append(dict(basis=basis, method="FCI", R_e_A=float(opt.x), E_min_Hartree=energies[2],
+                         atomic_H_energy_Hartree=atom["energy_total_Hartree"], E_infinity_Hartree=infinity,
+                         D_e_Hartree=infinity-energies[2], curvature_step_A=step,
+                         optimization_success=bool(opt.success), optimization_message=str(opt.message),
+                         optimization_calls=len(calls), optimization_bounds_A=[.60, .90],
+                         optimization_job_ids=calls, curvature_job_ids=[row["job_id"] for row in local],
+                         **five_point_derivatives(energies, step),
+                         scope="Clamped-nuclei finite-basis FCI total energies; 2 isolated H energies define dissociation reference; no ZPVE."))
+    dump(runner.out / "equilibrium_reference.json", {"references": refs})
+    write_csv(runner.out / "curvature_points.csv", rows)
+
+
+def summarize(out, pilot):
+    jobs = json.loads((out / "energy_driver_jobs.json").read_text(encoding="utf-8"))
+    corrections = []
+    before_sha = sha(out / "energy_driver_jobs.json")
+    for row in jobs:
+        if row["method"] == "FCI" and row["status"] == "converged":
+            text = (out / row["log_file"]).read_text(encoding="utf-8")
+            match = re.search(r"The CI space requires\s+(\d+)", text)
+            if match and row["CI_determinants"] != int(match.group(1)):
+                corrections.append(dict(job_id=row["job_id"],
+                    historical_ndet_api_return=row["CI_determinants"],
+                    corrected_log_determinants=int(match.group(1)),
+                    reason="Installed CIWavefunction.ndet() returned a pointer-like invalid integer; numerical log explicitly gives CI-space size. No energy rerun or energy change."))
+                row["CI_determinants"] = int(match.group(1))
+    if corrections:
+        dump(out / "energy_driver_jobs.json", jobs)
+        dump(out / "metadata_corrections.json", dict(
+            historical_jobs_sha256=before_sha, corrected_jobs_sha256=sha(out / "energy_driver_jobs.json"),
+            corrections=corrections, postprocessor_source_sha256=sha(Path(__file__))))
+    curves = [row for row in jobs if row["role"] == "curve"]
+    write_csv(out / "curve.csv", curves)
+    write_csv(out / "atomic_reference.csv", [row for row in jobs if row["role"] == "isolated_H"])
+    comparison = []
+    for basis in BASES:
+        for point_id, r in point_plan(pilot):
+            group = {row["method"]: row for row in curves if row["point_id"] == point_id and row["basis"] == basis}
+            if len(group) != 3 or any(row["status"] != "converged" for row in group.values()):
+                continue
+            er, eu, ef = (group[m]["energy_Hartree"] for m in METHODS)
+            comparison.append(dict(basis=basis, point_id=point_id, R_A=r,
+                                   RHF_minus_FCI_Hartree=er-ef, UHF_minus_FCI_Hartree=eu-ef,
+                                   RHF_minus_UHF_Hartree=er-eu, UHF_S2=group["UHF"]["S2"],
+                                   UHF_branch=classify_uhf(eu, er, group["UHF"]["S2"]),
+                                   finite_basis_variational_order_pass=ef <= min(er, eu)+1e-8))
+    write_csv(out / "method_comparison.csv", comparison)
+    execution = json.loads((out / "execution.json").read_text(encoding="utf-8"))
+    summary = dict(
+        study="Actual H2 method/basis correlation extension", pilot=pilot,
+        sources_browsed=SOURCES, settings=dict(bases=BASES, methods=METHODS, threads=1,
+        memory_bytes=500000000, distances_A=[r for _, r in point_plan(pilot)], symmetry="c1",
+        SCF_type="PK", guess="CORE", UHF_guess_mix=True, UHF_stability="FOLLOW",
+        RHF_stability="CHECK", FCI_reference="RHF", frozen_docc=[0], frozen_uocc=[0],
+        SCF_energy_convergence=1e-12, SCF_density_convergence=1e-12,
+        CI_energy_convergence=1e-12, CI_residual_convergence=1e-10),
+        counts=dict(configurations_attempted=len(jobs),
+        energy_driver_calls=sum(j["energy_driver_dispatched"] for j in jobs),
+        converged_energy_drivers=sum(j["status"] == "converged" for j in jobs),
+        failed_configurations=sum(j["status"] == "failed" for j in jobs),
+        curve_rows=len(curves), method_comparison_rows=len(comparison),
+        explicit_FCI_drivers=sum(j["method"] == "FCI" and j["energy_driver_dispatched"] for j in jobs),
+        SCF_convergence_messages=sum(j["SCF_converged_messages"] for j in jobs), gradient_driver_calls=0,
+        by_role={role: sum(j["role"] == role for j in jobs) for role in sorted({j["role"] for j in jobs})},
+        by_method={method: sum(j["method"] == method for j in jobs) for method in METHODS}),
+        call_budget=dict(this_run_limit=6 if out.name == "pilot_fci_recovery" else 20 if pilot else 186,
+        planned_pilot_plus_main_maximum=206, parent_explicit_energy_driver_limit=250,
+        note="FCI energy drivers include an underlying SCF; UHF FOLLOW may perform additional internal SCF optimizations. Log convergence occurrences are reported, not hidden."),
+        results=dict(variational_order_all_pass=all(row["finite_basis_variational_order_pass"] for row in comparison) if comparison else None,
+                     lower_spin_broken_UHF_points=sum(row["UHF_branch"] == "observed_lower_spin_broken_branch" for row in comparison),
+                     restricted_like_UHF_points=sum(row["UHF_branch"] == "restricted_like_solution" for row in comparison),
+                     max_RHF_minus_FCI_Hartree=max((row["RHF_minus_FCI_Hartree"] for row in comparison), default=None)),
+        failures=[{"job_id": j["job_id"], "error": j["error"]} for j in jobs if j["status"] == "failed"],
+        extraction_warnings=[{"job_id": j["job_id"], "warnings": j["extraction_warnings"]} for j in jobs if j["extraction_warnings"]],
+        execution=execution, executed_source_snapshot="executed_code.py.txt",
+        inputs_sha256={"scripts/correlation_extension.py": sha(out / "executed_code.py.txt")},
+        input_hash_scope="Relative to quantumequi; historical executed source retained verbatim as executed_code.py.txt.",
+        output_hash_scope="Relative to this result directory; excludes summary itself, scratch, raw timer and pilot subtree.",
+        limitations=[
+            "FCI is exact only for the chosen nonrelativistic finite orbital basis and specified electron sector.",
+            "UHF spin-contaminated branches and local internal stability do not prove a global Hartree-Fock minimum.",
+            "Contracted STO-3G and cc-pVDZ are not nested bases; their observed energy ordering is not a general variational theorem.",
+            "A finite 4-Angstrom point is not infinity; dissociation reference uses two separately computed neutral H atoms.",
+            "No nuclear zero-point, thermal, relativistic, solvent or electrode corrections are included."])
+    summary["finalizer_source_sha256"] = sha(Path(__file__))
+    summary["finalizer_source_scope"] = "Postprocessing only; execution source hash and exact archived code above are authoritative for quantum jobs."
+    if not pilot:
+        all_jobs = list(jobs)
+        stages = []
+        for directory in study_stage_directories(out):
+            stage_jobs = json.loads((directory / "energy_driver_jobs.json").read_text(encoding="utf-8"))
+            if directory != out:
+                all_jobs.extend(stage_jobs)
+            stages.append(dict(stage=directory.name, configurations=len(stage_jobs),
+                               energy_driver_calls=sum(j["energy_driver_dispatched"] for j in stage_jobs),
+                               converged=sum(j["status"] == "converged" for j in stage_jobs),
+                               pre_driver_rejections=sum(not j["energy_driver_dispatched"] for j in stage_jobs),
+                               SCF_convergence_messages=sum(j["SCF_converged_messages"] for j in stage_jobs)))
+        summary["complete_study_accounting"] = dict(stages=stages,
+            configurations_total=len(all_jobs),
+            energy_driver_calls_total=sum(j["energy_driver_dispatched"] for j in all_jobs),
+            converged_energy_drivers_total=sum(j["status"] == "converged" for j in all_jobs),
+            pre_driver_rejections_total=sum(not j["energy_driver_dispatched"] for j in all_jobs),
+            SCF_convergence_messages_total=sum(j["SCF_converged_messages"] for j in all_jobs),
+            explicit_FCI_drivers_total=sum(j["method"] == "FCI" and j["energy_driver_dispatched"] for j in all_jobs),
+            gradient_driver_calls_total=0)
+        by_basis = []
+        for basis in BASES:
+            at4 = {j["method"]: j for j in curves if j["basis"] == basis and j["R_A"] == 4.0}
+            cmp = [row for row in comparison if row["basis"] == basis]
+            atom = next(j for j in jobs if j["basis"] == basis and j["role"] == "isolated_H")
+            by_basis.append(dict(basis=basis,
+                first_sampled_lower_spin_broken_UHF_R_A=min((r["R_A"] for r in cmp if r["UHF_branch"] == "observed_lower_spin_broken_branch"), default=None),
+                lowest_sampled_stability_eigenvalue=min(
+                    eig for j in curves if j["basis"] == basis and j["method"] == "UHF"
+                    for eig in j["stability_eigenvalues"]["SCF STABILITY EIGENVALUES"]),
+                four_A_energies_Hartree={method: row["energy_Hartree"] for method, row in at4.items()},
+                four_A_UHF_S2=at4["UHF"]["S2"],
+                four_A_FCI_minus_two_H_Hartree=at4["FCI"]["energy_Hartree"]-2*atom["energy_Hartree"],
+                four_A_RHF_minus_FCI_Hartree=at4["RHF"]["energy_Hartree"]-at4["FCI"]["energy_Hartree"]))
+        summary["basis_results"] = by_basis
+    timer = out / "timer.dat"
+    if timer.exists():
+        (out / "psi4_timer.txt").write_text(sanitize(timer.read_text(encoding="utf-8", errors="replace")), encoding="utf-8")
+        timer.unlink()
+    summary["outputs_sha256"] = {
+        path.relative_to(out).as_posix(): sha(path) for path in sorted(out.rglob("*"))
+        if path.is_file() and path.name != "summary.json"
+        and "scratch" not in path.relative_to(out).parts
+        and not any(part.startswith("pilot") for part in path.relative_to(out).parts)}
+    dump(out / "summary.json", summary)
+    return summary
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--pilot", action="store_true")
+    parser.add_argument("--pilot-fci-recovery", action="store_true")
+    parser.add_argument("--finalize-only", action="store_true")
+    args = parser.parse_args()
+    is_pilot = args.pilot or args.pilot_fci_recovery
+    out = BASE / "pilot_fci_recovery" if args.pilot_fci_recovery else BASE / "pilot" if args.pilot else BASE
+    out.mkdir(parents=True, exist_ok=True)
+    os.chdir(out)
+    if args.finalize_only:
+        result = summarize(out, is_pilot)
+    else:
+        if (out / "energy_driver_jobs.json").exists():
+            raise RuntimeError("Refusing to overwrite an executed study.")
+        targets = None
+        if args.pilot_fci_recovery:
+            targets = recovery_targets(json.loads((BASE / "pilot/energy_driver_jobs.json").read_text(encoding="utf-8")))
+            if not targets:
+                raise RuntimeError("No rejected pre-driver FCI configurations to recover; do not repeat a successful pilot.")
+        shutil.copyfile(Path(__file__), out / "executed_code.py.txt")
+        started = time.perf_counter()
+        runner = QuantumRunner(out, is_pilot)
+        if args.pilot_fci_recovery:
+            runner.limit = min(6, len(targets))
+        for basis in BASES:
+            for point_id, r in point_plan(is_pilot):
+                if targets is not None and (basis, point_id) not in targets:
+                    continue
+                for method in ("FCI",) if args.pilot_fci_recovery else METHODS:
+                    runner.calculate(basis, method, r, "curve", point_id)
+            if not args.pilot_fci_recovery:
+                runner.calculate(basis, "UHF", None, "isolated_H", "H_atom")
+        if not is_pilot and all(row["status"] == "converged" for row in runner.jobs):
+            make_equilibrium(runner)
+        dump(out / "execution.json", dict(Psi4=runner.psi4.__version__, Python=platform.python_version(),
+             NumPy=np.__version__, SciPy=scipy.__version__, threads=1,
+             elapsed_seconds=time.perf_counter()-started, executed_source_sha256=sha(out / "executed_code.py.txt")))
+        result = summarize(out, is_pilot)
+    print(json.dumps({"counts": result["counts"], "results": result["results"]}), flush=True)
+
+
+if __name__ == "__main__":
+    main()

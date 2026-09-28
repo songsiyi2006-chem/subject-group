@@ -1,0 +1,546 @@
+{
+  "scope": "Saved-file accounting, hashes, quadrature, isotope energies and partition checks. No new eigensolver study or electronic jobs. Unit tests perform bounded independent numerical fixtures.",
+  "checks_count": 107,
+  "passed_count": 107,
+  "checks": [
+    {
+      "check": "vibration input hash quantumequi/results/extensions/correlation/equilibrium_reference.json",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "vibration input hash quantumequi/results/extensions/correlation/curve.csv",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "vibration output hash executed_script.py.txt",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "vibration output hash fci_curve_residuals.csv",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "vibration output hash fci_morse_parameterization.json",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "vibration output hash grid_and_domain_diagnostics.csv",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "vibration output hash grid_convergence.csv",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "vibration output hash isotope_levels.csv",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "vibration output hash isotope_ratios.csv",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "vibration output hash isotope_summary.csv",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "vibration output hash model_parameters.json",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "vibration output hash partition_bound_only.csv",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "vibration output hash spectrum_analytic_control_D2.npz",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "vibration output hash spectrum_analytic_control_H2.npz",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "vibration output hash spectrum_FCI_cc-pvdz_D2.npz",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "vibration output hash spectrum_FCI_cc-pvdz_H2.npz",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "vibration output hash spectrum_FCI_sto-3g_D2.npz",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "vibration output hash spectrum_FCI_sto-3g_H2.npz",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "vibration executed snapshot",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "pilot output hash executed_script.py.txt",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "pilot output hash grid_and_domain_diagnostics.csv",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "pilot output hash grid_convergence.csv",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "pilot output hash isotope_levels.csv",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "pilot output hash isotope_ratios.csv",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "pilot output hash isotope_summary.csv",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "pilot output hash model_parameters.json",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "pilot output hash partition_bound_only.csv",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "pilot output hash spectrum_analytic_control_D2.npz",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "pilot output hash spectrum_analytic_control_H2.npz",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "pilot executed snapshot",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "tail_followup input hash quantumequi/results/extensions/vibration/model_parameters.json",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "tail_followup output hash diagnostics.csv",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "tail_followup output hash executed_script.py.txt",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "tail_followup output hash levels.csv",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "tail_followup executed snapshot",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "grid_and_domain_diagnostics.csv row count",
+      "passed": true,
+      "value": 38
+    },
+    {
+      "check": "grid_convergence.csv row count",
+      "passed": true,
+      "value": 12
+    },
+    {
+      "check": "isotope_levels.csv row count",
+      "passed": true,
+      "value": 130
+    },
+    {
+      "check": "isotope_summary.csv row count",
+      "passed": true,
+      "value": 6
+    },
+    {
+      "check": "partition_bound_only.csv row count",
+      "passed": true,
+      "value": 36
+    },
+    {
+      "check": "fci_curve_residuals.csv row count",
+      "passed": true,
+      "value": 50
+    },
+    {
+      "check": "main nodes match rows",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "main eigenstates match rows",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "analytic_control H2 NPZ orthogonality",
+      "passed": true,
+      "value": 6.2616578588858835e-15
+    },
+    {
+      "check": "analytic_control H2 saved ZPE",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "analytic_control H2 saved gap",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "analytic_control H2 D0 accounting",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "analytic_control H2 partition 100.0",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "analytic_control H2 partition 298.15",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "analytic_control H2 partition 600.0",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "analytic_control H2 partition 1000.0",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "analytic_control H2 partition 2000.0",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "analytic_control H2 partition 4000.0",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "analytic_control D2 NPZ orthogonality",
+      "passed": true,
+      "value": 3.72257780156815e-15
+    },
+    {
+      "check": "analytic_control D2 saved ZPE",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "analytic_control D2 saved gap",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "analytic_control D2 D0 accounting",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "analytic_control D2 partition 100.0",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "analytic_control D2 partition 298.15",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "analytic_control D2 partition 600.0",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "analytic_control D2 partition 1000.0",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "analytic_control D2 partition 2000.0",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "analytic_control D2 partition 4000.0",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "FCI_sto-3g H2 NPZ orthogonality",
+      "passed": true,
+      "value": 6.42599977858834e-15
+    },
+    {
+      "check": "FCI_sto-3g H2 saved ZPE",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "FCI_sto-3g H2 saved gap",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "FCI_sto-3g H2 D0 accounting",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "FCI_sto-3g H2 partition 100.0",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "FCI_sto-3g H2 partition 298.15",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "FCI_sto-3g H2 partition 600.0",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "FCI_sto-3g H2 partition 1000.0",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "FCI_sto-3g H2 partition 2000.0",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "FCI_sto-3g H2 partition 4000.0",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "FCI_sto-3g D2 NPZ orthogonality",
+      "passed": true,
+      "value": 5.731711410869457e-15
+    },
+    {
+      "check": "FCI_sto-3g D2 saved ZPE",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "FCI_sto-3g D2 saved gap",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "FCI_sto-3g D2 D0 accounting",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "FCI_sto-3g D2 partition 100.0",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "FCI_sto-3g D2 partition 298.15",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "FCI_sto-3g D2 partition 600.0",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "FCI_sto-3g D2 partition 1000.0",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "FCI_sto-3g D2 partition 2000.0",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "FCI_sto-3g D2 partition 4000.0",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "FCI_cc-pvdz H2 NPZ orthogonality",
+      "passed": true,
+      "value": 3.2536936106453028e-15
+    },
+    {
+      "check": "FCI_cc-pvdz H2 saved ZPE",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "FCI_cc-pvdz H2 saved gap",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "FCI_cc-pvdz H2 D0 accounting",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "FCI_cc-pvdz H2 partition 100.0",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "FCI_cc-pvdz H2 partition 298.15",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "FCI_cc-pvdz H2 partition 600.0",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "FCI_cc-pvdz H2 partition 1000.0",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "FCI_cc-pvdz H2 partition 2000.0",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "FCI_cc-pvdz H2 partition 4000.0",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "FCI_cc-pvdz D2 NPZ orthogonality",
+      "passed": true,
+      "value": 3.5756094762907806e-15
+    },
+    {
+      "check": "FCI_cc-pvdz D2 saved ZPE",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "FCI_cc-pvdz D2 saved gap",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "FCI_cc-pvdz D2 D0 accounting",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "FCI_cc-pvdz D2 partition 100.0",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "FCI_cc-pvdz D2 partition 298.15",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "FCI_cc-pvdz D2 partition 600.0",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "FCI_cc-pvdz D2 partition 1000.0",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "FCI_cc-pvdz D2 partition 2000.0",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "FCI_cc-pvdz D2 partition 4000.0",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "tail workload sum",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "tail eigenstate sum",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "current source equals tail snapshot",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "unit tests",
+      "passed": true,
+      "value": 18
+    }
+  ],
+  "current_script_sha256": "30bbd77f997b4a4d798b7859b73a9ffa7ba042ebe34453beae8afc3c719fcae1",
+  "main_snapshot_sha256": "c06296f845fa179cef90831ab086a652f4e2679c619c5e73a502a221018029a3",
+  "main_snapshot_note": "Main source snapshot predates addition of a separate tail-followup CLI; main numerical outputs unchanged.",
+  "test_file_sha256": "aede41021956561e8446b9ca9307fc94555739a0b551c588661380a81ea8a467"
+}

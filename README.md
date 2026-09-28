@@ -2,6 +2,15 @@
 
 完整技术报告、可复现计算与证据审计。Updated 2026-09-28.
 
+## New extended calculations / 新增电子相关、神经力与非谐振动
+
+- **[中文扩展报告](quantumequi/reports/extension_report_chinese.md)** · **[English extension report](quantumequi/reports/extension_report_english.md)**
+- [计算、代码与复现](quantumequi/EXTENSIONS.md) · [7 组中英文图示](quantumequi/reports/figures/extensions/README.md) · [离线交互曲线](quantumequi/reports/quantum_explorer.html)
+
+新增 203 次实际 RHF/UHF/FCI 能量调用（含 20 次成功试跑/恢复调用）、6 次主神经训练（另有 2 次试跑）、45 次主及长尾核振动本征求解（另有 6 次试跑）、126 行误差分解，以及 28 份 PNG/SVG 图。多个代理完成独立模块与交叉复核，保留全部数据和失败记录。
+
+The added calculations quantify finite-basis correlation, UHF spin contamination, supervised force learning and H2/D2 Morse-model anharmonicity. Better RHF-label learning does not remove RHF reference bias. A near-threshold vibrational state needs a much larger domain; its final binding-energy error remains 1.564%. These results are H2/H and model-potential benchmarks, not validation of Cu chemistry or a chemical transition state.
+
 ## Latest QuantumEqui-NEB / 量子参考、等变微分、路径与热化学核验
 
 - **[中文完整报告](quantumequi/reports/quantumequi_report_chinese.md)** · **[Complete English report](quantumequi/reports/quantumequi_report_english.md)**

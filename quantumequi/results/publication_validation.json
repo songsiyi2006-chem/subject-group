@@ -1,6 +1,6 @@
 {
   "passed": true,
-  "checks": 640,
+  "checks": 760,
   "failed": [],
   "scope": "Saved evidence, hashes, independent arithmetic and publication integrity; no chemical validation or study reruns",
   "cross_review_required": true,
@@ -2079,6 +2079,166 @@
       "passed": true
     },
     {
+      "check": "correlation_extension_notes.md link scripts/correlation_extension.py",
+      "passed": true
+    },
+    {
+      "check": "correlation_extension_notes.md link results/extensions/correlation/curve.csv",
+      "passed": true
+    },
+    {
+      "check": "correlation_extension_notes.md link results/extensions/correlation/equilibrium_reference.json",
+      "passed": true
+    },
+    {
+      "check": "correlation_extension_notes.md link results/extensions/correlation/energy_driver_jobs.json",
+      "passed": true
+    },
+    {
+      "check": "correlation_extension_notes.md link results/extensions/correlation/summary.json",
+      "passed": true
+    },
+    {
+      "check": "correlation_extension_notes.md link scripts/correlation_extension.py",
+      "passed": true
+    },
+    {
+      "check": "correlation_extension_notes.md link results/extensions/correlation/curve.csv",
+      "passed": true
+    },
+    {
+      "check": "correlation_extension_notes.md link results/extensions/correlation/equilibrium_reference.json",
+      "passed": true
+    },
+    {
+      "check": "correlation_extension_notes.md link results/extensions/correlation/energy_driver_jobs.json",
+      "passed": true
+    },
+    {
+      "check": "correlation_extension_notes.md link results/extensions/correlation/summary.json",
+      "passed": true
+    },
+    {
+      "check": "EXTENSIONS.md link reports/extension_report_chinese.md",
+      "passed": true
+    },
+    {
+      "check": "EXTENSIONS.md link reports/extension_report_english.md",
+      "passed": true
+    },
+    {
+      "check": "EXTENSIONS.md link reports/quantum_explorer.html",
+      "passed": true
+    },
+    {
+      "check": "EXTENSIONS.md link reports/figures/extensions/README.md",
+      "passed": true
+    },
+    {
+      "check": "EXTENSIONS.md link correlation_extension_notes.md",
+      "passed": true
+    },
+    {
+      "check": "EXTENSIONS.md link scripts/correlation_extension.py",
+      "passed": true
+    },
+    {
+      "check": "EXTENSIONS.md link results/extensions/correlation/summary.json",
+      "passed": true
+    },
+    {
+      "check": "EXTENSIONS.md link results/extensions/correlation/curve.csv",
+      "passed": true
+    },
+    {
+      "check": "EXTENSIONS.md link results/extensions/correlation/energy_driver_jobs.json",
+      "passed": true
+    },
+    {
+      "check": "EXTENSIONS.md link learning_extension_notes.md",
+      "passed": true
+    },
+    {
+      "check": "EXTENSIONS.md link scripts/learning_extension.py",
+      "passed": true
+    },
+    {
+      "check": "EXTENSIONS.md link results/extensions/learning/summary.json",
+      "passed": true
+    },
+    {
+      "check": "EXTENSIONS.md link results/extensions/learning/predictions.csv",
+      "passed": true
+    },
+    {
+      "check": "EXTENSIONS.md link results/extensions/learning/metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "EXTENSIONS.md link vibration_extension_notes.md",
+      "passed": true
+    },
+    {
+      "check": "EXTENSIONS.md link scripts/vibration_extension.py",
+      "passed": true
+    },
+    {
+      "check": "EXTENSIONS.md link results/extensions/vibration/summary.json",
+      "passed": true
+    },
+    {
+      "check": "EXTENSIONS.md link results/extensions/vibration/tail_followup/summary.json",
+      "passed": true
+    },
+    {
+      "check": "EXTENSIONS.md link scripts/error_budget_extension.py",
+      "passed": true
+    },
+    {
+      "check": "EXTENSIONS.md link results/extensions/error_budget/summary.json",
+      "passed": true
+    },
+    {
+      "check": "EXTENSIONS.md link results/extensions/error_budget/matched_error_components.csv",
+      "passed": true
+    },
+    {
+      "check": "EXTENSIONS.md link scripts/plot_extensions.py",
+      "passed": true
+    },
+    {
+      "check": "EXTENSIONS.md link scripts/build_explorer.py",
+      "passed": true
+    },
+    {
+      "check": "EXTENSIONS.md link results/extensions/figure_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "EXTENSIONS.md link results/extensions/figure_qa.json",
+      "passed": true
+    },
+    {
+      "check": "EXTENSIONS.md link results/extensions/explorer_qa.json",
+      "passed": true
+    },
+    {
+      "check": "EXTENSIONS.md link scripts/validate_extensions.py",
+      "passed": true
+    },
+    {
+      "check": "EXTENSIONS.md link results/extensions/cross_review.json",
+      "passed": true
+    },
+    {
+      "check": "EXTENSIONS.md link results/extensions/validation.json",
+      "passed": true
+    },
+    {
+      "check": "learning_extension_notes.md link scripts/learning_extension.py",
+      "passed": true
+    },
+    {
       "check": "path_notes.md link ../synthapore/scripts/dynamics_reviewed.py",
       "passed": true
     },
@@ -2112,6 +2272,22 @@
     },
     {
       "check": "path_notes.md link results/path/test_results.txt",
+      "passed": true
+    },
+    {
+      "check": "README.md link EXTENSIONS.md",
+      "passed": true
+    },
+    {
+      "check": "README.md link reports/extension_report_chinese.md",
+      "passed": true
+    },
+    {
+      "check": "README.md link reports/extension_report_english.md",
+      "passed": true
+    },
+    {
+      "check": "README.md link reports/quantum_explorer.html",
       "passed": true
     },
     {
@@ -2236,6 +2412,190 @@
     },
     {
       "check": "thermochemistry_notes.md link scripts/thermochemistry_reviewed.py",
+      "passed": true
+    },
+    {
+      "check": "reports/extension_report_chinese.md link ../EXTENSIONS.md",
+      "passed": true
+    },
+    {
+      "check": "reports/extension_report_chinese.md link ../results/extensions/validation.json",
+      "passed": true
+    },
+    {
+      "check": "reports/extension_report_chinese.md link ../results/extensions/figure_qa.json",
+      "passed": true
+    },
+    {
+      "check": "reports/extension_report_chinese.md link figures/extensions/Ext1_Dissociation_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "reports/extension_report_chinese.md link figures/extensions/Ext1_Dissociation_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "reports/extension_report_chinese.md link figures/extensions/Ext2_Correlation_Spin_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "reports/extension_report_chinese.md link figures/extensions/Ext2_Correlation_Spin_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "reports/extension_report_chinese.md link figures/extensions/Ext3_Learning_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "reports/extension_report_chinese.md link figures/extensions/Ext3_Learning_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "reports/extension_report_chinese.md link figures/extensions/Ext4_Generalization_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "reports/extension_report_chinese.md link figures/extensions/Ext4_Generalization_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "reports/extension_report_chinese.md link figures/extensions/Ext7_Error_Budget_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "reports/extension_report_chinese.md link figures/extensions/Ext7_Error_Budget_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "reports/extension_report_chinese.md link figures/extensions/Ext5_Anharmonic_Levels_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "reports/extension_report_chinese.md link figures/extensions/Ext5_Anharmonic_Levels_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "reports/extension_report_chinese.md link figures/extensions/Ext6_Numerical_Limits_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "reports/extension_report_chinese.md link figures/extensions/Ext6_Numerical_Limits_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "reports/extension_report_chinese.md link quantum_explorer.html",
+      "passed": true
+    },
+    {
+      "check": "reports/extension_report_chinese.md link ../correlation_extension_notes.md",
+      "passed": true
+    },
+    {
+      "check": "reports/extension_report_chinese.md link ../learning_extension_notes.md",
+      "passed": true
+    },
+    {
+      "check": "reports/extension_report_chinese.md link ../vibration_extension_notes.md",
+      "passed": true
+    },
+    {
+      "check": "reports/extension_report_chinese.md link ../results/extensions/explorer_qa.json",
+      "passed": true
+    },
+    {
+      "check": "reports/extension_report_chinese.md link ../results/extensions/cross_review.json",
+      "passed": true
+    },
+    {
+      "check": "reports/extension_report_english.md link ../EXTENSIONS.md",
+      "passed": true
+    },
+    {
+      "check": "reports/extension_report_english.md link ../results/extensions/validation.json",
+      "passed": true
+    },
+    {
+      "check": "reports/extension_report_english.md link ../results/extensions/figure_qa.json",
+      "passed": true
+    },
+    {
+      "check": "reports/extension_report_english.md link figures/extensions/Ext1_Dissociation_english.png",
+      "passed": true
+    },
+    {
+      "check": "reports/extension_report_english.md link figures/extensions/Ext1_Dissociation_english.svg",
+      "passed": true
+    },
+    {
+      "check": "reports/extension_report_english.md link figures/extensions/Ext2_Correlation_Spin_english.png",
+      "passed": true
+    },
+    {
+      "check": "reports/extension_report_english.md link figures/extensions/Ext2_Correlation_Spin_english.svg",
+      "passed": true
+    },
+    {
+      "check": "reports/extension_report_english.md link figures/extensions/Ext3_Learning_english.png",
+      "passed": true
+    },
+    {
+      "check": "reports/extension_report_english.md link figures/extensions/Ext3_Learning_english.svg",
+      "passed": true
+    },
+    {
+      "check": "reports/extension_report_english.md link figures/extensions/Ext4_Generalization_english.png",
+      "passed": true
+    },
+    {
+      "check": "reports/extension_report_english.md link figures/extensions/Ext4_Generalization_english.svg",
+      "passed": true
+    },
+    {
+      "check": "reports/extension_report_english.md link figures/extensions/Ext7_Error_Budget_english.png",
+      "passed": true
+    },
+    {
+      "check": "reports/extension_report_english.md link figures/extensions/Ext7_Error_Budget_english.svg",
+      "passed": true
+    },
+    {
+      "check": "reports/extension_report_english.md link figures/extensions/Ext5_Anharmonic_Levels_english.png",
+      "passed": true
+    },
+    {
+      "check": "reports/extension_report_english.md link figures/extensions/Ext5_Anharmonic_Levels_english.svg",
+      "passed": true
+    },
+    {
+      "check": "reports/extension_report_english.md link figures/extensions/Ext6_Numerical_Limits_english.png",
+      "passed": true
+    },
+    {
+      "check": "reports/extension_report_english.md link figures/extensions/Ext6_Numerical_Limits_english.svg",
+      "passed": true
+    },
+    {
+      "check": "reports/extension_report_english.md link quantum_explorer.html",
+      "passed": true
+    },
+    {
+      "check": "reports/extension_report_english.md link ../correlation_extension_notes.md",
+      "passed": true
+    },
+    {
+      "check": "reports/extension_report_english.md link ../learning_extension_notes.md",
+      "passed": true
+    },
+    {
+      "check": "reports/extension_report_english.md link ../vibration_extension_notes.md",
+      "passed": true
+    },
+    {
+      "check": "reports/extension_report_english.md link ../results/extensions/explorer_qa.json",
+      "passed": true
+    },
+    {
+      "check": "reports/extension_report_english.md link ../results/extensions/cross_review.json",
       "passed": true
     },
     {
@@ -2460,6 +2820,126 @@
     },
     {
       "check": "reports/figures/README.md link ../../results/original/figures_quantum/Fig_QuantumEquiNEB_Comprehensive_Panel.png",
+      "passed": true
+    },
+    {
+      "check": "reports/figures/extensions/README.md link ../../../results/extensions/figure_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "reports/figures/extensions/README.md link ../../../results/extensions/figure_qa.json",
+      "passed": true
+    },
+    {
+      "check": "reports/figures/extensions/README.md link Ext1_Dissociation_english.png",
+      "passed": true
+    },
+    {
+      "check": "reports/figures/extensions/README.md link Ext1_Dissociation_english.svg",
+      "passed": true
+    },
+    {
+      "check": "reports/figures/extensions/README.md link Ext1_Dissociation_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "reports/figures/extensions/README.md link Ext1_Dissociation_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "reports/figures/extensions/README.md link Ext2_Correlation_Spin_english.png",
+      "passed": true
+    },
+    {
+      "check": "reports/figures/extensions/README.md link Ext2_Correlation_Spin_english.svg",
+      "passed": true
+    },
+    {
+      "check": "reports/figures/extensions/README.md link Ext2_Correlation_Spin_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "reports/figures/extensions/README.md link Ext2_Correlation_Spin_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "reports/figures/extensions/README.md link Ext3_Learning_english.png",
+      "passed": true
+    },
+    {
+      "check": "reports/figures/extensions/README.md link Ext3_Learning_english.svg",
+      "passed": true
+    },
+    {
+      "check": "reports/figures/extensions/README.md link Ext3_Learning_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "reports/figures/extensions/README.md link Ext3_Learning_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "reports/figures/extensions/README.md link Ext4_Generalization_english.png",
+      "passed": true
+    },
+    {
+      "check": "reports/figures/extensions/README.md link Ext4_Generalization_english.svg",
+      "passed": true
+    },
+    {
+      "check": "reports/figures/extensions/README.md link Ext4_Generalization_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "reports/figures/extensions/README.md link Ext4_Generalization_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "reports/figures/extensions/README.md link Ext5_Anharmonic_Levels_english.png",
+      "passed": true
+    },
+    {
+      "check": "reports/figures/extensions/README.md link Ext5_Anharmonic_Levels_english.svg",
+      "passed": true
+    },
+    {
+      "check": "reports/figures/extensions/README.md link Ext5_Anharmonic_Levels_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "reports/figures/extensions/README.md link Ext5_Anharmonic_Levels_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "reports/figures/extensions/README.md link Ext6_Numerical_Limits_english.png",
+      "passed": true
+    },
+    {
+      "check": "reports/figures/extensions/README.md link Ext6_Numerical_Limits_english.svg",
+      "passed": true
+    },
+    {
+      "check": "reports/figures/extensions/README.md link Ext6_Numerical_Limits_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "reports/figures/extensions/README.md link Ext6_Numerical_Limits_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "reports/figures/extensions/README.md link Ext7_Error_Budget_english.png",
+      "passed": true
+    },
+    {
+      "check": "reports/figures/extensions/README.md link Ext7_Error_Budget_english.svg",
+      "passed": true
+    },
+    {
+      "check": "reports/figures/extensions/README.md link Ext7_Error_Budget_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "reports/figures/extensions/README.md link Ext7_Error_Budget_chinese.svg",
       "passed": true
     },
     {

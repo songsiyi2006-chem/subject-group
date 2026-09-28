@@ -55,6 +55,9 @@ def main():
     quantumequi=subprocess.run([sys.executable,str(ROOT/'quantumequi/scripts/validate_quantumequi.py'),'--require-cross-review'],capture_output=True,text=True,encoding='utf-8')
     check('QuantumEqui publication validation',quantumequi.returncode==0)
     if quantumequi.returncode:print(quantumequi.stdout,quantumequi.stderr)
+    extensions=subprocess.run([sys.executable,str(ROOT/'quantumequi/scripts/validate_extensions.py')],capture_output=True,text=True,encoding='utf-8')
+    check('QuantumEqui extended calculations validation',extensions.returncode==0)
+    if extensions.returncode:print(extensions.stdout,extensions.stderr)
     files=[p for d in ['results','provenance','data/original','production/results','production/source','research/results','research/source','closed_loop/results','closed_loop/source','closed_loop/inputs','toolkit/results','toolkit/source','electratwin/results','electratwin/source','electrograph/results','electrograph/source','electrograph/data','synthapore/results','synthapore/source','quantumequi/results','quantumequi/source'] for p in (ROOT/d).rglob('*.json') if p.name!='release_validation.json']
     for f in files:
         try:json.loads(f.read_text(encoding='utf-8-sig'));ok=True

@@ -1,0 +1,26 @@
+{
+  "scope": "Signed energy-error decomposition at identical saved geometries, STO-3G only.",
+  "equation": "E_NN - E_FCI = (E_NN - E_old_RHF) + (E_old_RHF - E_fresh_RHF) + (E_fresh_RHF - E_FCI)",
+  "rows": 126,
+  "unique_geometries": 21,
+  "counts": {
+    "new_quantum_jobs": 0,
+    "new_training_runs": 0
+  },
+  "max_identity_residual_Hartree": 0.0,
+  "max_reference_replay_drift_Hartree": 0.0,
+  "limits": [
+    "FCI is exact only within the chosen finite one-electron basis and electronic Hamiltonian.",
+    "Small learning error against RHF does not remove its electronic approximation error.",
+    "Signed cancellation can reduce total error accidentally; no FCI labels entered training."
+  ],
+  "inputs_sha256": {
+    "scripts/error_budget_extension.py": "91f66135263f1b4d93727d2e64ddd9801074173307185353e8a79935192d239e",
+    "results/extensions/learning/predictions.csv": "7d1cfe520457d08fd164d19d3b97c456597bd2a3c0fa4cdbe227b867570d1d60",
+    "results/extensions/correlation/curve.csv": "8715857664e8903afd775a4e94aec2a08f6873809211c238faa341b751220025",
+    "results/electronic/h2_reference.csv": "051310fdb0652ee8f871956f25581965c2ab07ec83ceefddfc8de4f9c4aca643"
+  },
+  "outputs_sha256": {
+    "matched_error_components.csv": "f569e871bf83a8c6ca98b10bf45863f584d703ebcc95a5da73f0754aebe6c900"
+  }
+}

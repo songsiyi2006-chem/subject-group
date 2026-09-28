@@ -1,5 +1,7 @@
 # QuantumEqui-NEB: executed computation and evidence audit
 
+**2026-09-28 extension:** [新增计算与复现 / Extensions](EXTENSIONS.md) · [中文扩展报告](reports/extension_report_chinese.md) · [English extension report](reports/extension_report_english.md) · [Interactive H2 curves](reports/quantum_explorer.html). Adds 203 actual energy-driver calls, 6 main neural runs, isotope/long-tail nuclear calculations and 28 PNG/SVG files. Counts below describe the preserved original release.
+
 **[中文完整报告](reports/quantumequi_report_chinese.md)** · **[Complete English report](reports/quantumequi_report_english.md)** · [Figures](reports/figures/README.md)
 
 原脚本按原样执行成功；源代码、JSON、300-DPI 原图、实际随机权重和日志全部保留。新增真实 H2/H Hartree–Fock 计算、能量/梯度代理拟合、等变性与导数核验、CI-NEB 解析势基准、质量加权 Hessian 投影和显式理想气体热化学。三个代理分工实现并交叉核对；主代理完成整合、图表和发布检查。

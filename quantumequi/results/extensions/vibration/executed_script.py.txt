@@ -1,0 +1,393 @@
+"""One-dimensional J=0 Morse nuclear-motion benchmarks and isotope controls.
+
+FCI-derived Morse parameters do not turn a model spectrum into a direct
+ab initio nuclear spectrum. A finite-difference radial half-line problem is
+also distinguished from the exactly soluble full-line Morse problem.
+"""
+from __future__ import annotations
+
+import argparse
+import csv
+import hashlib
+import json
+import math
+from pathlib import Path
+import platform
+import time
+
+import numpy as np
+import scipy
+from scipy.linalg import eigh_tridiagonal
+from scipy.special import logsumexp
+
+ROOT = Path(__file__).resolve().parents[2]
+OUT = ROOT/"quantumequi/results/extensions/vibration"
+CORRELATION = ROOT/"quantumequi/results/extensions/correlation"
+# 2022 CODATA values, not isotope-average atomic weights.
+H_PLANCK = 6.62607015e-34
+HBAR = H_PLANCK/(2*np.pi)
+C_LIGHT = 299792458.
+K_B = 1.380649e-23
+AVOGADRO = 6.02214076e23
+AMU_KG = 1.66053906892e-27
+HARTREE_J = 4.3597447222060e-18
+NUCLEAR_MASS_AMU = {"H2": 1.0072764665789, "D2": 2.013553212544}
+HARTREE_TO_CM = HARTREE_J/(H_PLANCK*C_LIGHT*100)
+REFERENCES = [
+    "https://journals.aps.org/pr/abstract/10.1103/PhysRev.34.57",
+    "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+    "https://docs.scipy.org/doc/scipy/reference/generated/scipy.linalg.eigh_tridiagonal.html",
+]
+
+
+def sha(path):
+    return hashlib.sha256(Path(path).read_bytes()).hexdigest()
+
+
+def dump(path, data):
+    Path(path).write_text(json.dumps(data, indent=2, allow_nan=False)+"\n", encoding="utf-8")
+
+
+def write_rows(path, rows):
+    if not rows:
+        return
+    with Path(path).open("w", encoding="utf-8", newline="") as f:
+        writer = csv.DictWriter(f, list(rows[0]), lineterminator="\n")
+        writer.writeheader(); writer.writerows(rows)
+
+
+def reduced_mass(m1_amu, m2_amu):
+    if not np.isfinite([m1_amu, m2_amu]).all() or min(m1_amu, m2_amu) <= 0:
+        raise ValueError("Finite positive nuclear masses required")
+    return m1_amu*m2_amu/(m1_amu+m2_amu)
+
+
+def kinetic_coefficient(mass_amu):
+    """hbar^2/(2 mu), in Hartree Angstrom^2."""
+    if not np.isfinite(mass_amu) or mass_amu <= 0:
+        raise ValueError("Positive finite reduced mass required")
+    return HBAR**2/(2*mass_amu*AMU_KG)/(HARTREE_J*1e-20)
+
+
+def morse_potential(r_A, D_e_Hartree, a_A_inverse, R_e_A):
+    if not np.isfinite([D_e_Hartree, a_A_inverse, R_e_A]).all() or min(D_e_Hartree, a_A_inverse) <= 0:
+        raise ValueError("Positive finite Morse depth and range parameter required")
+    r = np.asarray(r_A, float)
+    if not np.isfinite(r).all():
+        raise ValueError("Finite coordinates required")
+    return D_e_Hartree*np.expm1(-a_A_inverse*(r-R_e_A))**2
+
+
+def harmonic_spacing(D_e_Hartree, a_A_inverse, mass_amu):
+    if not np.isfinite([D_e_Hartree, a_A_inverse]).all() or min(D_e_Hartree, a_A_inverse) <= 0:
+        raise ValueError("Positive Morse parameters required")
+    return 2*a_A_inverse*math.sqrt(D_e_Hartree*kinetic_coefficient(mass_amu))
+
+
+def exact_morse_levels(D_e_Hartree, a_A_inverse, mass_amu):
+    """All strictly bound full-real-line Morse levels above the potential minimum."""
+    omega = harmonic_spacing(D_e_Hartree, a_A_inverse, mass_amu)
+    lam = 2*D_e_Hartree/omega
+    quantum = np.arange(max(0, int(math.ceil(lam-.5))), dtype=float)
+    quantum = quantum[quantum+.5 < lam-1e-12]
+    energy = omega*(quantum+.5)-omega**2/(4*D_e_Hartree)*(quantum+.5)**2
+    return {"quantum_numbers": quantum.astype(int), "energies_Hartree": energy,
+            "lambda": lam, "harmonic_spacing_Hartree": omega}
+
+
+def solve_radial_fd(potential, mass_amu, left_A, right_A, intervals, ceiling_Hartree):
+    """Second-order central FD with Dirichlet endpoints, excluding continuum.
+
+    intervals+1 grid coordinates include two zero boundary values. The actual
+    tridiagonal eigenproblem has intervals-1 interior nodes. Eigenvectors are
+    normalized using the uniform-grid quadrature, not as molecular orbitals.
+    """
+    if not isinstance(intervals, (int, np.integer)) or isinstance(intervals, bool) or intervals < 20:
+        raise ValueError("At least 20 intervals required")
+    if not np.isfinite([left_A, right_A, ceiling_Hartree]).all() or not 0 <= left_A < right_A:
+        raise ValueError("Finite nonnegative radial domain and finite ceiling required")
+    r = np.linspace(left_A, right_A, intervals+1)[1:-1]
+    dr = (right_A-left_A)/intervals
+    v = np.asarray(potential(r), float)
+    if v.shape != r.shape or not np.isfinite(v).all():
+        raise ValueError("Potential must return one finite value per radial node")
+    t = kinetic_coefficient(mass_amu)/dr**2
+    diagonal, off = v+2*t, np.full(len(r)-1, -t)
+    low = float(v.min()-max(1., abs(v.min())))
+    if ceiling_Hartree <= low:
+        raise ValueError("Ceiling below lower spectral bracket")
+    energy, vectors = eigh_tridiagonal(diagonal, off, select="v",
+        select_range=(low, ceiling_Hartree-1e-12), check_finite=True, tol=1e-13)
+    psi = vectors/math.sqrt(dr)
+    if len(energy):
+        residual = diagonal[:, None]*vectors-vectors*energy
+        residual[:-1] += off[:, None]*vectors[1:]
+        residual[1:] += off[:, None]*vectors[:-1]
+        boundary_mask = (r-left_A < .25) | (right_A-r < .25)
+        edge_probability = np.sum(psi[boundary_mask]**2, axis=0)*dr
+        orth_error = float(np.max(abs(psi.T@psi*dr-np.eye(len(energy)))))
+        residual_max = float(np.max(abs(residual)))
+    else:
+        edge_probability = np.array([])
+        orth_error, residual_max = 0., 0.
+    return {"r_A": r, "potential_Hartree": v, "energies_Hartree": energy,
+            "wavefunctions_A_minus_half": psi, "edge_025A_probability": edge_probability,
+            "intervals": int(intervals), "interior_nodes": len(r), "grid_spacing_A": dr,
+            "left_A": left_A, "right_A": right_A, "bound_states_returned": len(energy),
+            "orthonormality_max": orth_error, "eigen_residual_max_Hartree": residual_max,
+            "continuum_ceiling_Hartree": ceiling_Hartree,
+            "bound_selection": "finite-grid eigenvalues below known Morse dissociation ceiling minus 1e-12 Hartree"}
+
+
+def bound_partition(energies_Hartree, temperature_K):
+    e = np.asarray(energies_Hartree, float)
+    if e.ndim != 1 or not len(e) or not np.isfinite(e).all() or (np.diff(e) < 0).any() or e[0] < 0:
+        raise ValueError("Nonempty sorted nonnegative bound energies required")
+    if not np.isfinite(temperature_K) or temperature_K <= 0:
+        raise ValueError("Positive finite temperature required")
+    kT = K_B*temperature_K/HARTREE_J
+    log_q = float(logsumexp(-(e-e[0])/kT)-e[0]/kT)
+    log_relative_q = float(logsumexp(-(e-e[0])/kT))
+    probability = np.exp(-(e-e[0])/kT-log_relative_q)
+    U = float(np.dot(probability, e))
+    F = -kT*log_q
+    S_Hartree_K = (U-F)/temperature_K
+    return {"T_K": temperature_K, "included_bound_states": len(e),
+        "log_q_relative_to_PES_minimum": log_q, "log_q_relative_to_v0": log_relative_q,
+        "U_vib_Hartree": U, "F_vib_bound_only_Hartree": F,
+        "S_vib_J_mol_K": S_Hartree_K*HARTREE_J*AVOGADRO,
+        "highest_included_state_probability": float(probability[-1]),
+        "continuum_excluded": True, "rotation_translation_nuclear_spin_excluded": True}
+
+
+def harmonic_partition(spacing_Hartree, temperature_K):
+    if not np.isfinite([spacing_Hartree, temperature_K]).all() or min(spacing_Hartree, temperature_K) <= 0:
+        raise ValueError("Positive harmonic spacing and temperature required")
+    kT = K_B*temperature_K/HARTREE_J
+    x = spacing_Hartree/kT
+    thermal = 0. if x > 700 else spacing_Hartree/np.expm1(x)
+    F = .5*spacing_Hartree+kT*np.log(-np.expm1(-x))
+    U = .5*spacing_Hartree+thermal
+    return {"F_vib_harmonic_Hartree": float(F), "U_vib_harmonic_Hartree": float(U),
+            "S_vib_harmonic_J_mol_K": float((U-F)/temperature_K*HARTREE_J*AVOGADRO)}
+
+
+def find_equilibrium_records(value):
+    """Read the documented collaborator schema without guessing physical values."""
+    required = {"R_e_A", "E_min_Hartree", "D_e_Hartree", "curvature_Hartree_A2"}
+    records = []
+    def walk(obj, inherited_basis=None):
+        if isinstance(obj, dict):
+            if required.issubset(obj):
+                row = dict(obj)
+                row.setdefault("basis", inherited_basis)
+                if not row["basis"]:
+                    raise ValueError("Equilibrium record has no basis identifier")
+                records.append(row)
+            else:
+                for key, child in obj.items():
+                    walk(child, key if key in ("sto-3g", "cc-pvdz", "STO-3G", "cc-pVDZ") else inherited_basis)
+        elif isinstance(obj, list):
+            for child in obj:
+                walk(child, inherited_basis)
+    walk(value)
+    if not records or len({r["basis"].lower() for r in records}) != len(records):
+        raise ValueError("Missing or duplicate FCI equilibrium records")
+    return records
+
+
+def fci_parameterization(equilibrium_path, curve_path):
+    records = find_equilibrium_records(json.loads(Path(equilibrium_path).read_text(encoding="utf-8")))
+    with Path(curve_path).open(encoding="utf-8", newline="") as f:
+        curves = list(csv.DictReader(f))
+    models, residuals = [], []
+    for record in records:
+        if record.get("method", "FCI").upper() != "FCI":
+            raise ValueError("Only FCI equilibrium records are accepted")
+        if record.get("optimization_success", True) is not True:
+            raise ValueError("FCI equilibrium optimization did not report success")
+        re, emin, de, curvature = [float(record[k]) for k in ("R_e_A", "E_min_Hartree", "D_e_Hartree", "curvature_Hartree_A2")]
+        einf = float(record["E_infinity_Hartree"] if "E_infinity_Hartree" in record else 2*record["atomic_H_energy_Hartree"])
+        if not np.isfinite([re, emin, de, curvature, einf]).all() or min(re, de, curvature) <= 0:
+            raise ValueError("FCI data cannot define a positive-depth local Morse model")
+        if not np.isclose(einf-emin, de, atol=1e-10, rtol=1e-10):
+            raise ValueError("FCI dissociation energy is inconsistent with atom reference")
+        alpha = math.sqrt(curvature/(2*de))
+        model = {"model_id": "FCI_"+record["basis"], "basis": record["basis"],
+            "D_e_Hartree": de, "a_A_inverse": alpha, "R_e_A": re,
+            "E_min_Hartree": emin, "E_infinity_Hartree": einf, "curvature_Hartree_A2": curvature,
+            "parameterization": "De from actual 2H reference minus FCI minimum; re from FCI optimization; a=sqrt(k/(2De))",
+            "is_nonlinear_fit": False, "source_equilibrium_record": record,
+            "evidence": "Morse model parameterized by actual FCI data, not direct nuclear propagation on the FCI curve"}
+        selected = [r for r in curves if r["method"].upper() == "FCI" and r["basis"].lower() == record["basis"].lower()]
+        if len(selected) < 5:
+            raise ValueError("Too few actual FCI curve points for residual inspection")
+        if any(r.get("status", "converged") != "converged" for r in selected):
+            raise ValueError("Failed FCI curve calculation cannot define comparison evidence")
+        distances = [float(r["R_A"]) for r in selected]
+        if not np.isfinite(distances).all() or min(distances) <= 0 or len(set(distances)) != len(distances):
+            raise ValueError("FCI curve distances must be finite, positive and unique within each basis")
+        for r in selected:
+            x, energy = float(r["R_A"]), float(r["energy_total_Hartree"])
+            if not np.isfinite(energy):
+                raise ValueError("FCI comparison requires finite total energies")
+            prediction = emin+float(morse_potential(x, de, alpha, re))
+            residuals.append({"model_id": model["model_id"], "basis": record["basis"], "point_id": r["point_id"],
+                "R_A": x, "FCI_energy_Hartree": energy, "Morse_energy_Hartree": prediction,
+                "Morse_minus_FCI_Hartree": prediction-energy,
+                "scope": "Morse shape residual; parameter determination did not minimize these curve residuals"})
+        rows = [r for r in residuals if r["model_id"] == model["model_id"]]
+        model["curve_points_checked"] = len(rows)
+        model["curve_RMSE_Hartree"] = float(np.sqrt(np.mean([r["Morse_minus_FCI_Hartree"]**2 for r in rows])))
+        model["curve_max_abs_error_Hartree"] = max(abs(r["Morse_minus_FCI_Hartree"]) for r in rows)
+        models.append(model)
+    return models, residuals
+
+
+def run_study(pilot=False):
+    started = time.perf_counter()
+    out = OUT/"pilot" if pilot else OUT
+    out.mkdir(parents=True, exist_ok=True)
+    models = [{"model_id": "analytic_control", "basis": "designed_model",
+               "D_e_Hartree": .2, "a_A_inverse": 1.8, "R_e_A": 1.,
+               "evidence": "Predeclared mathematical Morse parameters, not fitted chemical data"}]
+    inputs = {}
+    residuals = []
+    if not pilot:
+        equilibrium = CORRELATION/"equilibrium_reference.json"
+        curve = CORRELATION/"curve.csv"
+        fitted, residuals = fci_parameterization(equilibrium, curve)
+        models.extend(fitted)
+        inputs = {p.relative_to(ROOT).as_posix(): sha(p) for p in (equilibrium, curve)}
+        dump(out/"fci_morse_parameterization.json", fitted)
+        write_rows(out/"fci_curve_residuals.csv", residuals)
+    cache, diagnostics, levels, partitions, spectra, convergence = {}, [], [], [], [], []
+    def solve(model, isotope, intervals, right, left=0., negative=False):
+        key = (model["model_id"], isotope, intervals, left, right, model["R_e_A"])
+        if key in cache:
+            return cache[key]
+        mu = NUCLEAR_MASS_AMU[isotope]/2
+        d, a, re = [model[k] for k in ("D_e_Hartree", "a_A_inverse", "R_e_A")]
+        result = solve_radial_fd(lambda r: morse_potential(r, d, a, re), mu, left, right, intervals, d)
+        exact = exact_morse_levels(d, a, mu)
+        count = min(len(exact["energies_Hartree"]), len(result["energies_Hartree"]))
+        result["exact"] = exact
+        diagnostics.append({"model_id": model["model_id"], "isotope": isotope,
+            "negative_boundary_control": negative, "R_e_A": re, "left_A": left, "right_A": right,
+            "intervals": intervals, "interior_nodes": result["interior_nodes"], "grid_spacing_A": result["grid_spacing_A"],
+            "numerical_bound_states": result["bound_states_returned"], "full_line_exact_bound_states": len(exact["energies_Hartree"]),
+            "ZPE_numerical_Hartree": float(result["energies_Hartree"][0]) if count else None,
+            "ZPE_full_line_exact_Hartree": float(exact["energies_Hartree"][0]) if len(exact["energies_Hartree"]) else None,
+            "max_first3_error_cm_1": float(np.max(abs(result["energies_Hartree"][:min(3, count)]-exact["energies_Hartree"][:min(3, count)]))*HARTREE_TO_CM) if count else None,
+            "max_shared_bound_state_error_cm_1": float(np.max(abs(result["energies_Hartree"][:count]-exact["energies_Hartree"][:count]))*HARTREE_TO_CM) if count else None,
+            "highest_numerical_state_edge_probability": float(result["edge_025A_probability"][-1]) if count else None,
+            "orthonormality_max": result["orthonormality_max"], "eigen_residual_max_Hartree": result["eigen_residual_max_Hartree"]})
+        cache[key] = result
+        return result
+    for model in models:
+        for isotope in NUCLEAR_MASS_AMU:
+            grid_intervals = [400, 800] if pilot else [400, 800, 1200]
+            results = [solve(model, isotope, n, 8.) for n in grid_intervals]
+            for i in range(1, len(results)):
+                coarse, fine = results[i-1:i+1]
+                exact = fine["exact"]["energies_Hartree"]
+                ratio = coarse["grid_spacing_A"]/fine["grid_spacing_A"]
+                ec = coarse["energies_Hartree"][:3]-exact[:3]
+                ef = fine["energies_Hartree"][:3]-exact[:3]
+                extrap = (ratio**2*fine["energies_Hartree"][:3]-coarse["energies_Hartree"][:3])/(ratio**2-1)
+                convergence.append({"model_id": model["model_id"], "isotope": isotope,
+                    "coarse_intervals": coarse["intervals"], "fine_intervals": fine["intervals"],
+                    "ZPE_observed_order": float(np.log(abs(ec[0]/ef[0]))/np.log(ratio)),
+                    "first3_Richardson_max_error_cm_1": float(np.max(abs(extrap-exact[:3]))*HARTREE_TO_CM)})
+            if not pilot:
+                for right, intervals in ((2., 300), (4., 600), (6., 900), (8., 1200)):
+                    solve(model, isotope, intervals, right)
+            best = results[-1]; exact = best["exact"]; energy = best["energies_Hartree"]
+            omega = exact["harmonic_spacing_Hartree"]
+            item = {"model_id": model["model_id"], "basis": model["basis"], "isotope": isotope,
+                "reduced_nuclear_mass_amu": NUCLEAR_MASS_AMU[isotope]/2,
+                "harmonic_frequency_cm_1": omega*HARTREE_TO_CM,
+                "ZPE_harmonic_Hartree": .5*omega, "ZPE_numerical_Hartree": float(energy[0]),
+                "ZPE_full_line_Morse_Hartree": float(exact["energies_Hartree"][0]),
+                "D0_numerical_Morse_Hartree": model["D_e_Hartree"]-float(energy[0]),
+                "D0_full_line_Morse_Hartree": model["D_e_Hartree"]-float(exact["energies_Hartree"][0]),
+                "gap01_numerical_cm_1": float((energy[1]-energy[0])*HARTREE_TO_CM),
+                "gap01_full_line_Morse_cm_1": float(np.diff(exact["energies_Hartree"][:2])[0]*HARTREE_TO_CM),
+                "bound_states_numerical": len(energy), "bound_states_full_line_Morse": len(exact["energies_Hartree"]),
+                "finest_intervals": best["intervals"], "radial_domain_A": [0., 8.],
+                "transition_scope": "J=0 vibrational level gap; no IR/Raman intensity or selection-rule calculation"}
+            spectra.append(item)
+            for state, value in enumerate(energy):
+                levels.append({"model_id": model["model_id"], "isotope": isotope, "v": state,
+                    "E_numerical_Hartree": float(value), "E_numerical_cm_1": float(value*HARTREE_TO_CM),
+                    "E_full_line_exact_Hartree": float(exact["energies_Hartree"][state]) if state < len(exact["energies_Hartree"]) else None,
+                    "E_harmonic_Hartree": float(omega*(state+.5)),
+                    "probability_within_025A_of_boundaries": float(best["edge_025A_probability"][state])})
+            for T in ([298.15] if pilot else [100., 298.15, 600., 1000., 2000., 4000.]):
+                numerical_thermal = bound_partition(energy, T)
+                exact_thermal = bound_partition(exact["energies_Hartree"], T)
+                harmonic_thermal = harmonic_partition(omega, T)
+                partitions.append({"model_id": model["model_id"], "isotope": isotope,
+                    **numerical_thermal, **harmonic_thermal,
+                    "F_vib_full_line_Morse_bound_only_Hartree": exact_thermal["F_vib_bound_only_Hartree"],
+                    "numerical_minus_full_line_Morse_F_Hartree": numerical_thermal["F_vib_bound_only_Hartree"]-exact_thermal["F_vib_bound_only_Hartree"],
+                    "Morse_minus_harmonic_F_Hartree": numerical_thermal["F_vib_bound_only_Hartree"]-harmonic_thermal["F_vib_harmonic_Hartree"]})
+            filename = f"spectrum_{model['model_id'].replace('*', '_')}_{isotope}.npz"
+            np.savez_compressed(out/filename, r_A=best["r_A"], potential_Hartree=best["potential_Hartree"],
+                energies_Hartree=energy, wavefunctions_A_minus_half=best["wavefunctions_A_minus_half"])
+    # Same Morse shape shifted towards the hard radial wall is an intentional
+    # counterexample to treating a full-line formula as an exact radial spectrum.
+    for isotope in NUCLEAR_MASS_AMU:
+        control = dict(models[0], model_id="wall_negative_control", R_e_A=.12)
+        solve(control, isotope, 800 if pilot else 1200, 8., negative=True)
+    ratios = []
+    for model in models:
+        h, d = [next(r for r in spectra if r["model_id"] == model["model_id"] and r["isotope"] == iso) for iso in ("H2", "D2")]
+        ratios.append({"model_id": model["model_id"],
+            "H2_over_D2_harmonic_frequency": h["harmonic_frequency_cm_1"]/d["harmonic_frequency_cm_1"],
+            "H2_over_D2_numerical_gap01": h["gap01_numerical_cm_1"]/d["gap01_numerical_cm_1"],
+            "H2_over_D2_exact_Morse_gap01": h["gap01_full_line_Morse_cm_1"]/d["gap01_full_line_Morse_cm_1"],
+            "H2_over_D2_numerical_ZPE": h["ZPE_numerical_Hartree"]/d["ZPE_numerical_Hartree"]})
+    write_rows(out/"grid_and_domain_diagnostics.csv", diagnostics)
+    write_rows(out/"grid_convergence.csv", convergence)
+    write_rows(out/"isotope_levels.csv", levels)
+    write_rows(out/"isotope_summary.csv", [{k:v for k,v in r.items() if k != "radial_domain_A"} for r in spectra])
+    write_rows(out/"isotope_ratios.csv", ratios)
+    write_rows(out/"partition_bound_only.csv", partitions)
+    dump(out/"model_parameters.json", models)
+    snapshot = out/"executed_script.py.txt"; snapshot.write_bytes(Path(__file__).read_bytes())
+    summary = {"pilot": pilot,
+        "evidence": "Finite-difference J=0 Morse nuclear model; FCI parameterization is not direct ab initio spectroscopy",
+        "models": models, "spectra": spectra, "isotope_ratios": ratios,
+        "units": {"length": "angstrom", "energy": "Hartree above model potential minimum", "wavenumber": "cm^-1",
+            "wavefunction": "angstrom^-1/2", "nuclear_masses_amu": NUCLEAR_MASS_AMU,
+            "atomic_mass_constant_kg": AMU_KG, "Hartree_J": HARTREE_J, "Planck_J_s": H_PLANCK,
+            "speed_of_light_m_s": C_LIGHT, "kB_J_K": K_B, "Hartree_to_cm_inverse": HARTREE_TO_CM},
+        "counts": {"unique_tridiagonal_eigenproblems": len(cache),
+            "total_interior_grid_nodes": sum(r["interior_nodes"] for r in cache.values()),
+            "total_returned_bound_eigenstates": sum(r["bound_states_returned"] for r in cache.values()),
+            "isotope_model_summary_rows": len(spectra), "finest_grid_level_rows": len(levels),
+            "grid_domain_diagnostic_rows": len(diagnostics), "grid_convergence_rows": len(convergence),
+            "bound_partition_temperature_cases": len(partitions), "actual_FCI_curve_points_compared": len(residuals),
+            "new_electronic_structure_jobs": 0, "nonlinear_Morse_fits": 0},
+        "domain_control": "Dirichlet radial domains; full-line exact Morse comparison is not an identity for a hard half-line wall",
+        "partition_scope": "Bound J=0 vibrational states only; continuum/dissociation, rotation, translation, spin weights, solvent and standard states omitted",
+        "limitations": ["Finite grid error and finite-domain effects are measured separately; high near-dissociation states can remain domain-sensitive",
+            "Morse shape residual against the actual FCI curve is a model error, distinct from nuclear eigensolver error",
+            "Mass substitution uses one Born-Oppenheimer PES; nonadiabatic, relativistic, QED and diagonal BO isotope corrections omitted",
+            "FCI accuracy remains limited by each electronic basis; no experimental line assignment or dipole intensity calculation",
+            "The negative-wall control deliberately violates the negligible-boundary assumption and must not be discarded"],
+        "runtime_seconds": time.perf_counter()-started,
+        "versions": {"python": platform.python_version(), "numpy": np.__version__, "scipy": scipy.__version__},
+        "sources": REFERENCES, "inputs_sha256": inputs,
+        "executed_source_snapshot": {"file": snapshot.name, "sha256": sha(snapshot)},
+        "outputs_sha256": {p.name:sha(p) for p in sorted(out.iterdir()) if p.is_file() and p.name not in ("summary.json", "test_results.txt", "read_only_audit.json")}}
+    dump(out/"summary.json", summary)
+    print(json.dumps({"pilot": pilot, "counts": summary["counts"], "spectra": spectra, "ratios": ratios}, indent=2))
+    return summary
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--pilot", action="store_true")
+    run_study(parser.parse_args().pilot)

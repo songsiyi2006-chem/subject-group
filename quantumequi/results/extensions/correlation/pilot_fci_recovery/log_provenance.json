@@ -1,0 +1,44 @@
+[
+  {
+    "job_id": "j0000_sto-3g_FCI",
+    "path": "logs/j0000_sto-3g_FCI.out",
+    "raw_decoded_text_sha256": "ae9e169320a090727d909a58787a6ec98e4b49b552a41e3f07ea7f8c07b6101b",
+    "public_file_sha256": "922d8855fd26251324ab0c2a19454303b1e31d89b00a55575b2ae0f575ce9f0f",
+    "redaction": "Local absolute paths and hostname only; numerical text retained."
+  },
+  {
+    "job_id": "j0001_sto-3g_FCI",
+    "path": "logs/j0001_sto-3g_FCI.out",
+    "raw_decoded_text_sha256": "0290d641e250b687ab5f51609182e00e316a2fdb98c44ef87bdeef3b4ceef09a",
+    "public_file_sha256": "8d07ce4f5e740c3dea7e54f7f0052dd734a734d67d607c6665da342829c52141",
+    "redaction": "Local absolute paths and hostname only; numerical text retained."
+  },
+  {
+    "job_id": "j0002_sto-3g_FCI",
+    "path": "logs/j0002_sto-3g_FCI.out",
+    "raw_decoded_text_sha256": "d7d1c3daf2bdacfe63b5e09be15f77966bd6581e2277b6ff6874a4d70ed252b4",
+    "public_file_sha256": "4c400dc07b8fe38f7b9261dd3be87909fac2a42c534289a58eebf075b961a87b",
+    "redaction": "Local absolute paths and hostname only; numerical text retained."
+  },
+  {
+    "job_id": "j0003_cc-pvdz_FCI",
+    "path": "logs/j0003_cc-pvdz_FCI.out",
+    "raw_decoded_text_sha256": "3f252893f03993580346f3101a85f55b0f70a447fa06c1b975644df9bcaba5ab",
+    "public_file_sha256": "e2031f8997e2f2499a2d7523c9b3ac1dffc8148fafea268546be6877353af6a0",
+    "redaction": "Local absolute paths and hostname only; numerical text retained."
+  },
+  {
+    "job_id": "j0004_cc-pvdz_FCI",
+    "path": "logs/j0004_cc-pvdz_FCI.out",
+    "raw_decoded_text_sha256": "039b933be16ef8a837825969cfd7212c7b988c5b73a1f5132b20960419a3d3d2",
+    "public_file_sha256": "9e60b8c1f532994dc79d9b082f5d410b6827efe956b4847c8750f744f90348a6",
+    "redaction": "Local absolute paths and hostname only; numerical text retained."
+  },
+  {
+    "job_id": "j0005_cc-pvdz_FCI",
+    "path": "logs/j0005_cc-pvdz_FCI.out",
+    "raw_decoded_text_sha256": "978a3fdd0988a845cede1911741ff387a8bbce140b6aeab128c554fb3db7d8bc",
+    "public_file_sha256": "0ed6daf7447cb460951ceacf9f14bb6c2ae3df6775ceb3244da2383ed129936a",
+    "redaction": "Local absolute paths and hostname only; numerical text retained."
+  }
+]

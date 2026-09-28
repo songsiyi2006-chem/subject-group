@@ -1,0 +1,239 @@
+{
+  "scope": "trained scalar distance-message H2 models; one-molecule radial interpolation/extrapolation only",
+  "pilot": false,
+  "architecture": {
+    "name": "HydrogenDistanceMPNN",
+    "width": 16,
+    "layers": 2,
+    "parameter_count": 3537,
+    "dtype": "float64"
+  },
+  "training": {
+    "seeds": [
+      7301,
+      7302,
+      7303
+    ],
+    "epochs_per_run": 800,
+    "batch_size": 17,
+    "optimizer": "Adam",
+    "initial_learning_rate": 0.003,
+    "schedule": "cosine to 0.00015",
+    "gradient_norm_clip": 5.0,
+    "weight_decay": 0.0,
+    "joint_gradient_loss_weight": 1.0,
+    "objective": "MSE(E/sigma_E) plus optional MSE(dE/dR/sigma_gradient); scales from train only",
+    "checkpoint_selection": "joint validation energy and gradient normalized RMSE sum for BOTH objectives",
+    "checkpoint_retention": "initial, best validation, final and every 200 epochs in each run archive"
+  },
+  "data_access": {
+    "training_only_preprocessing": true,
+    "validation_gradient_used_for_both_objectives": true,
+    "test_OOD_used_for_selection": false,
+    "pilot_test_OOD_evaluated": false,
+    "split_counts": {
+      "train": 17,
+      "validation": 8,
+      "test": 8,
+      "ood_stretch": 9
+    }
+  },
+  "runs": [
+    {
+      "objective": "energy_only",
+      "seed": 7301,
+      "epochs": 800,
+      "selected_epoch": 800,
+      "selected_validation_score": 0.03323402835895685,
+      "parameter_count": 3537,
+      "initial_state_sha256": "e4fdf1918345aa5bd7deb2b5772ac92add0b11127a69e757b198d3b4769c9063",
+      "selected_state_sha256": "583e1e322474f604b5ec35e1d6c5bb249aee068a2b9f720ae7c30fbb9b6374b9",
+      "fit_seconds": 6.542362899985164,
+      "training_counts": {
+        "forward_batches": 1600,
+        "molecular_energy_evaluations": 20000,
+        "training_batches": 800,
+        "validation_batches": 800,
+        "training_geometries_per_batch": 17,
+        "validation_geometries_per_batch": 8,
+        "coordinate_gradient_batches": 800,
+        "optimizer_steps": 800
+      },
+      "total_model_forward_batches_including_postselection_checks": 1622,
+      "total_molecular_energy_evaluations_including_postselection_checks": 20195
+    },
+    {
+      "objective": "energy_gradient",
+      "seed": 7301,
+      "epochs": 800,
+      "selected_epoch": 800,
+      "selected_validation_score": 0.015600889726183925,
+      "parameter_count": 3537,
+      "initial_state_sha256": "e4fdf1918345aa5bd7deb2b5772ac92add0b11127a69e757b198d3b4769c9063",
+      "selected_state_sha256": "21d15fc22ce39e417b8109b4d194d4cf5c59c8c4839fb2a20cef08231a48434f",
+      "fit_seconds": 7.8975456999614835,
+      "training_counts": {
+        "forward_batches": 1600,
+        "molecular_energy_evaluations": 20000,
+        "training_batches": 800,
+        "validation_batches": 800,
+        "training_geometries_per_batch": 17,
+        "validation_geometries_per_batch": 8,
+        "coordinate_gradient_batches": 1600,
+        "optimizer_steps": 800
+      },
+      "total_model_forward_batches_including_postselection_checks": 1622,
+      "total_molecular_energy_evaluations_including_postselection_checks": 20195
+    },
+    {
+      "objective": "energy_only",
+      "seed": 7302,
+      "epochs": 800,
+      "selected_epoch": 800,
+      "selected_validation_score": 0.040737425475948254,
+      "parameter_count": 3537,
+      "initial_state_sha256": "8762a44d9fdd9699a01cbfe5a9b9217f837760d66334a382563e27d37ca60974",
+      "selected_state_sha256": "6d4c1fe9db33d43cbb1d43ed4f6ff4aa24416d8690e92539d674a627a240b900",
+      "fit_seconds": 6.249967199983075,
+      "training_counts": {
+        "forward_batches": 1600,
+        "molecular_energy_evaluations": 20000,
+        "training_batches": 800,
+        "validation_batches": 800,
+        "training_geometries_per_batch": 17,
+        "validation_geometries_per_batch": 8,
+        "coordinate_gradient_batches": 800,
+        "optimizer_steps": 800
+      },
+      "total_model_forward_batches_including_postselection_checks": 1622,
+      "total_molecular_energy_evaluations_including_postselection_checks": 20195
+    },
+    {
+      "objective": "energy_gradient",
+      "seed": 7302,
+      "epochs": 800,
+      "selected_epoch": 800,
+      "selected_validation_score": 0.018272816897395336,
+      "parameter_count": 3537,
+      "initial_state_sha256": "8762a44d9fdd9699a01cbfe5a9b9217f837760d66334a382563e27d37ca60974",
+      "selected_state_sha256": "93ae2bda005e4a5a5a525cd894aca33e7e16b58c30ab8d9dbf86dbde6097289b",
+      "fit_seconds": 8.037360200076364,
+      "training_counts": {
+        "forward_batches": 1600,
+        "molecular_energy_evaluations": 20000,
+        "training_batches": 800,
+        "validation_batches": 800,
+        "training_geometries_per_batch": 17,
+        "validation_geometries_per_batch": 8,
+        "coordinate_gradient_batches": 1600,
+        "optimizer_steps": 800
+      },
+      "total_model_forward_batches_including_postselection_checks": 1622,
+      "total_molecular_energy_evaluations_including_postselection_checks": 20195
+    },
+    {
+      "objective": "energy_only",
+      "seed": 7303,
+      "epochs": 800,
+      "selected_epoch": 800,
+      "selected_validation_score": 0.013185379375335409,
+      "parameter_count": 3537,
+      "initial_state_sha256": "fdb0d66140ce5a10d7ec2512f9d5850d3393ae9668b554fd3e54b77952d02af8",
+      "selected_state_sha256": "3d7f11a670a93dd7db39505648e4623d7dd01f771be26df379d7a8712d0e9128",
+      "fit_seconds": 5.753153199912049,
+      "training_counts": {
+        "forward_batches": 1600,
+        "molecular_energy_evaluations": 20000,
+        "training_batches": 800,
+        "validation_batches": 800,
+        "training_geometries_per_batch": 17,
+        "validation_geometries_per_batch": 8,
+        "coordinate_gradient_batches": 800,
+        "optimizer_steps": 800
+      },
+      "total_model_forward_batches_including_postselection_checks": 1622,
+      "total_molecular_energy_evaluations_including_postselection_checks": 20195
+    },
+    {
+      "objective": "energy_gradient",
+      "seed": 7303,
+      "epochs": 800,
+      "selected_epoch": 800,
+      "selected_validation_score": 0.008675293503096775,
+      "parameter_count": 3537,
+      "initial_state_sha256": "fdb0d66140ce5a10d7ec2512f9d5850d3393ae9668b554fd3e54b77952d02af8",
+      "selected_state_sha256": "300c37029dcb338cd45fa5b17cecfd6bddb8b8603d19c7aa2ff91ce3fa0e03e2",
+      "fit_seconds": 6.962365899933502,
+      "training_counts": {
+        "forward_batches": 1600,
+        "molecular_energy_evaluations": 20000,
+        "training_batches": 800,
+        "validation_batches": 800,
+        "training_geometries_per_batch": 17,
+        "validation_geometries_per_batch": 8,
+        "coordinate_gradient_batches": 1600,
+        "optimizer_steps": 800
+      },
+      "total_model_forward_batches_including_postselection_checks": 1622,
+      "total_molecular_energy_evaluations_including_postselection_checks": 20195
+    }
+  ],
+  "counts": {
+    "training_runs": 6,
+    "optimizer_steps": 4800,
+    "validation_epochs": 4800,
+    "main_metric_rows": 24,
+    "prediction_rows": 252,
+    "covariance_rows": 36,
+    "full_Cartesian_FD_rows": 72,
+    "molecular_energy_evaluations": 121170,
+    "model_forward_batches": 9732,
+    "new_quantum_jobs": 0,
+    "experiments": 0
+  },
+  "counts_scope": "Only this run; pilot, original study and unit tests excluded from main counts. Batched geometry evaluations are distinct from Python forward calls.",
+  "limits": [
+    "H2 one-distance regression does not establish molecular GNN transfer",
+    "RHF/STO-3G labels retain physical approximation error",
+    "Three-seed spread is not calibrated predictive uncertainty",
+    "No FCI/DFT/Cu/electrode training labels",
+    "Energy-only fitting still uses validation gradient labels and train gradient scale for selection"
+  ],
+  "code_sha256": "a36c3945ea015eb9d9a011b10120454fed3643e063367d761ceb6a3d13aae33f",
+  "inputs_sha256": {
+    "frozen_H2_reference": "051310fdb0652ee8f871956f25581965c2ab07ec83ceefddfc8de4f9c4aca643",
+    "frozen_split": "942ec6e7e1646ee88f2712ba7c056361b6bfd78dafd68ebfa7ca456ca0e557bb",
+    "frozen_baseline_metrics": "752659842dd54ba10c6129c047a10e33bf54f3743f1a5bf7b0227e6bc4c08550"
+  },
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.4.6",
+    "torch": "2.10.0",
+    "threads": 1
+  },
+  "sources": [
+    "https://proceedings.mlr.press/v70/gilmer17a.html",
+    "https://proceedings.neurips.cc/paper/2017/hash/303ed4c69846ab36c2904d3ba8573050-Abstract.html",
+    "https://docs.pytorch.org/docs/stable/generated/torch.autograd.grad.html"
+  ],
+  "license_note": "Original compact implementation; method attribution only, not a SchNet reproduction. No model or data download.",
+  "wall_seconds": 41.7918623998994,
+  "output_sha256": {
+    "checkpoints/energy_gradient_seed7301.pt": "c5bf4688ea68a89b2f2d1d78a68eb16f96bc68fe2a049c9708f9541590791531",
+    "checkpoints/energy_gradient_seed7302.pt": "586a8d3b779f26c01cbe228350bfe1a5e1c8afa0d6669fd589c13fad259ad95e",
+    "checkpoints/energy_gradient_seed7303.pt": "20fc21346533a7a34d426d52c542c01bfed105d9b238def541fc7c545eab9261",
+    "checkpoints/energy_only_seed7301.pt": "fd74337e6028eb2b0698272e44e18f4b2dbb9c2ba37fd06920cfc56bbff564db",
+    "checkpoints/energy_only_seed7302.pt": "767aee1101f18fe45fbebcad42f2e889c90a8666bbe04b33989d586701023530",
+    "checkpoints/energy_only_seed7303.pt": "690824662298a254653fed43a742c5cb125fe01108a72a367d799b2f55c98de1",
+    "covariance.csv": "74e7f81c122e3152c059e03884e97f9231a6be061b9ac7e70823754d1f6f5c72",
+    "ensemble_diagnostics.csv": "83e475491c1d2c3386a50dad41bf6dae365adfbbae5b49d0b8e9661c233afe3b",
+    "ensemble_predictions.csv": "803a38106a04ddf1e8dc9c034c9e99fde1c3cbda1498538055a0cd7917b04e4b",
+    "executed_code.py.txt": "a36c3945ea015eb9d9a011b10120454fed3643e063367d761ceb6a3d13aae33f",
+    "force_finite_differences.csv": "be2429a6c72fae9cf664bdb8edd54492b90d3d203a8c41f5dfe152671be4acbf",
+    "frozen_baseline_metrics.csv": "752659842dd54ba10c6129c047a10e33bf54f3743f1a5bf7b0227e6bc4c08550",
+    "learning_curves.csv": "2259ccd0b0cf186e10dd2d392396fb17f44ff77c3dbd4e7493ade57d9c096447",
+    "metrics.csv": "81509670ce9460451e1f70de5fdc14fc8c3db95ea534016fdc3f93841ea18eca",
+    "predictions.csv": "7d1cfe520457d08fd164d19d3b97c456597bd2a3c0fa4cdbe227b867570d1d60",
+    "preprocessing.json": "ea5f70e4f0843bc48a16e9302a973ae77f7c1ec17cbdc3d0de3bf3873e22f748"
+  }
+}

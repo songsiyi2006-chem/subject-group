@@ -1,0 +1,399 @@
+{
+  "figure_count": 7,
+  "languages": [
+    "english",
+    "chinese"
+  ],
+  "formats": [
+    "png",
+    "svg"
+  ],
+  "generator_sha256": "c98270961c8f9e31c4f1d3ee66a3ea2826a9d42ea6b3e3aaab7a1e73c08247a8",
+  "source_hash_base": "quantumequi/results/extensions",
+  "figures": [
+    {
+      "file": "Ext1_Dissociation_english.png",
+      "format": "png",
+      "sha256": "112471b8aaff4888e04321101bc36fb0dbbd0a49179c73c7839dced27fa4f3b7",
+      "sources": {
+        "correlation/curve.csv": "8715857664e8903afd775a4e94aec2a08f6873809211c238faa341b751220025"
+      },
+      "pixels": [
+        2700,
+        1440
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "Ext1_Dissociation_english.svg",
+      "format": "svg",
+      "sha256": "ec1a1e4a4e7c696668a059d73de437edf3d471b57abeb04d384256dca948f8e7",
+      "sources": {
+        "correlation/curve.csv": "8715857664e8903afd775a4e94aec2a08f6873809211c238faa341b751220025"
+      },
+      "editable_text": true,
+      "embedded_raster": false
+    },
+    {
+      "file": "Ext2_Correlation_Spin_english.png",
+      "format": "png",
+      "sha256": "84fd77800473608d8f61fd03be5debe0e09a64be1971ae007bc31df41b558d93",
+      "sources": {
+        "correlation/curve.csv": "8715857664e8903afd775a4e94aec2a08f6873809211c238faa341b751220025"
+      },
+      "pixels": [
+        2700,
+        1440
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "Ext2_Correlation_Spin_english.svg",
+      "format": "svg",
+      "sha256": "7bfcce3e29ab5f414c7ca26504002d6dc8e7a32f5a3d4851f3cd30cc5e02f35e",
+      "sources": {
+        "correlation/curve.csv": "8715857664e8903afd775a4e94aec2a08f6873809211c238faa341b751220025"
+      },
+      "editable_text": true,
+      "embedded_raster": false
+    },
+    {
+      "file": "Ext3_Learning_english.png",
+      "format": "png",
+      "sha256": "657c2de1a80a3217c398621cdfa528df982d9b8bca707cb9347620018cf06361",
+      "sources": {
+        "learning/learning_curves.csv": "2259ccd0b0cf186e10dd2d392396fb17f44ff77c3dbd4e7493ade57d9c096447",
+        "learning/ensemble_predictions.csv": "803a38106a04ddf1e8dc9c034c9e99fde1c3cbda1498538055a0cd7917b04e4b",
+        "learning/predictions.csv": "7d1cfe520457d08fd164d19d3b97c456597bd2a3c0fa4cdbe227b867570d1d60"
+      },
+      "pixels": [
+        2700,
+        1440
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "Ext3_Learning_english.svg",
+      "format": "svg",
+      "sha256": "be6b4ed4b5e1724a7cefeb5a046854ba41fcbb8c1536dfde28825210a434e475",
+      "sources": {
+        "learning/learning_curves.csv": "2259ccd0b0cf186e10dd2d392396fb17f44ff77c3dbd4e7493ade57d9c096447",
+        "learning/ensemble_predictions.csv": "803a38106a04ddf1e8dc9c034c9e99fde1c3cbda1498538055a0cd7917b04e4b",
+        "learning/predictions.csv": "7d1cfe520457d08fd164d19d3b97c456597bd2a3c0fa4cdbe227b867570d1d60"
+      },
+      "editable_text": true,
+      "embedded_raster": false
+    },
+    {
+      "file": "Ext4_Generalization_english.png",
+      "format": "png",
+      "sha256": "fd08a3109edc44e6ff54e4ff4caa0192b43a7e9dfea0978c45a7fd01d1da85e7",
+      "sources": {
+        "learning/metrics.csv": "81509670ce9460451e1f70de5fdc14fc8c3db95ea534016fdc3f93841ea18eca",
+        "../electronic/surrogate_metrics.csv": "752659842dd54ba10c6129c047a10e33bf54f3743f1a5bf7b0227e6bc4c08550"
+      },
+      "pixels": [
+        2700,
+        1440
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "Ext4_Generalization_english.svg",
+      "format": "svg",
+      "sha256": "e285e382249fa6e33ae26bf4bee800a4e704dfa63b5bfb7c3720f1371ab014ad",
+      "sources": {
+        "learning/metrics.csv": "81509670ce9460451e1f70de5fdc14fc8c3db95ea534016fdc3f93841ea18eca",
+        "../electronic/surrogate_metrics.csv": "752659842dd54ba10c6129c047a10e33bf54f3743f1a5bf7b0227e6bc4c08550"
+      },
+      "editable_text": true,
+      "embedded_raster": false
+    },
+    {
+      "file": "Ext5_Anharmonic_Levels_english.png",
+      "format": "png",
+      "sha256": "0d6afbf02b2f744eea3724bb7aa0a6faee8a713e3709f705ea268359b0b4e64e",
+      "sources": {
+        "vibration/model_parameters.json": "45e1827f034c8abdf4549a375640df153b090c92c4992a67cd695d60529a6f8a",
+        "vibration/isotope_levels.csv": "824fe2859cdc359e144d4ea4e54d82e273446297dfd119526c62c9cfc1f7409d"
+      },
+      "pixels": [
+        2700,
+        1440
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "Ext5_Anharmonic_Levels_english.svg",
+      "format": "svg",
+      "sha256": "4f42be7275e42d067ce53ec5f520c0743aad87f52e9baef19c033d67625634fc",
+      "sources": {
+        "vibration/model_parameters.json": "45e1827f034c8abdf4549a375640df153b090c92c4992a67cd695d60529a6f8a",
+        "vibration/isotope_levels.csv": "824fe2859cdc359e144d4ea4e54d82e273446297dfd119526c62c9cfc1f7409d"
+      },
+      "editable_text": true,
+      "embedded_raster": false
+    },
+    {
+      "file": "Ext6_Numerical_Limits_english.png",
+      "format": "png",
+      "sha256": "912d05d1d260ba7b2b774f43c58343bcfe12511d4cfedb603c10f016a9502746",
+      "sources": {
+        "vibration/grid_and_domain_diagnostics.csv": "79deaf6d1ec9e90ded83aebad483f61a9328490049b41c0088a104f25779c099",
+        "vibration/partition_bound_only.csv": "dd497129d1806430d9ec0e451c882b77906b3334ce7b82102b70423cc689e94f"
+      },
+      "pixels": [
+        2700,
+        1440
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "Ext6_Numerical_Limits_english.svg",
+      "format": "svg",
+      "sha256": "43cfde56e754972318b4ca8bde0b7f084b5b3439b6e46ff5cb67f53f6196feff",
+      "sources": {
+        "vibration/grid_and_domain_diagnostics.csv": "79deaf6d1ec9e90ded83aebad483f61a9328490049b41c0088a104f25779c099",
+        "vibration/partition_bound_only.csv": "dd497129d1806430d9ec0e451c882b77906b3334ce7b82102b70423cc689e94f"
+      },
+      "editable_text": true,
+      "embedded_raster": false
+    },
+    {
+      "file": "Ext7_Error_Budget_english.png",
+      "format": "png",
+      "sha256": "578646533bbfa6ffb0bc2f2b973002ae20d947235626b9e0301b6b8c661fbf68",
+      "sources": {
+        "error_budget/matched_error_components.csv": "f569e871bf83a8c6ca98b10bf45863f584d703ebcc95a5da73f0754aebe6c900"
+      },
+      "pixels": [
+        2700,
+        1440
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "Ext7_Error_Budget_english.svg",
+      "format": "svg",
+      "sha256": "0ce075a58245ba41458731469f91c833479d7f67bb13aa140c0c4e329842c397",
+      "sources": {
+        "error_budget/matched_error_components.csv": "f569e871bf83a8c6ca98b10bf45863f584d703ebcc95a5da73f0754aebe6c900"
+      },
+      "editable_text": true,
+      "embedded_raster": false
+    },
+    {
+      "file": "Ext1_Dissociation_chinese.png",
+      "format": "png",
+      "sha256": "7537e6dbf8437f2f5d3d5d56bfc7d0acab2a201ddfc75187ce1012b64f128610",
+      "sources": {
+        "correlation/curve.csv": "8715857664e8903afd775a4e94aec2a08f6873809211c238faa341b751220025"
+      },
+      "pixels": [
+        2700,
+        1440
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "Ext1_Dissociation_chinese.svg",
+      "format": "svg",
+      "sha256": "8552febdca7e2b0b53b56d35445cc6251a3e8051cc3d62f5ce56b8129123b41d",
+      "sources": {
+        "correlation/curve.csv": "8715857664e8903afd775a4e94aec2a08f6873809211c238faa341b751220025"
+      },
+      "editable_text": true,
+      "embedded_raster": false
+    },
+    {
+      "file": "Ext2_Correlation_Spin_chinese.png",
+      "format": "png",
+      "sha256": "4c66b670f526f4a82744a18946e64806115a919dcf4b93a051aaba3b59cc323e",
+      "sources": {
+        "correlation/curve.csv": "8715857664e8903afd775a4e94aec2a08f6873809211c238faa341b751220025"
+      },
+      "pixels": [
+        2700,
+        1440
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "Ext2_Correlation_Spin_chinese.svg",
+      "format": "svg",
+      "sha256": "8c1519327696a6e7deff2bdf202980ac8c81f987d3256939a745f65c137f84d2",
+      "sources": {
+        "correlation/curve.csv": "8715857664e8903afd775a4e94aec2a08f6873809211c238faa341b751220025"
+      },
+      "editable_text": true,
+      "embedded_raster": false
+    },
+    {
+      "file": "Ext3_Learning_chinese.png",
+      "format": "png",
+      "sha256": "02ab239c0863cac347463b80681ef6667dd091a2fa5efbb358cd63bc685fbf4a",
+      "sources": {
+        "learning/learning_curves.csv": "2259ccd0b0cf186e10dd2d392396fb17f44ff77c3dbd4e7493ade57d9c096447",
+        "learning/ensemble_predictions.csv": "803a38106a04ddf1e8dc9c034c9e99fde1c3cbda1498538055a0cd7917b04e4b",
+        "learning/predictions.csv": "7d1cfe520457d08fd164d19d3b97c456597bd2a3c0fa4cdbe227b867570d1d60"
+      },
+      "pixels": [
+        2700,
+        1440
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "Ext3_Learning_chinese.svg",
+      "format": "svg",
+      "sha256": "8340e93bb793eb8f5740d23206742d26615b14a19d83ceec7e24410d8d70b558",
+      "sources": {
+        "learning/learning_curves.csv": "2259ccd0b0cf186e10dd2d392396fb17f44ff77c3dbd4e7493ade57d9c096447",
+        "learning/ensemble_predictions.csv": "803a38106a04ddf1e8dc9c034c9e99fde1c3cbda1498538055a0cd7917b04e4b",
+        "learning/predictions.csv": "7d1cfe520457d08fd164d19d3b97c456597bd2a3c0fa4cdbe227b867570d1d60"
+      },
+      "editable_text": true,
+      "embedded_raster": false
+    },
+    {
+      "file": "Ext4_Generalization_chinese.png",
+      "format": "png",
+      "sha256": "91ba486df7b28109bad7942fb61d23e96f84040403b6dfd7d053f6a7b635ad23",
+      "sources": {
+        "learning/metrics.csv": "81509670ce9460451e1f70de5fdc14fc8c3db95ea534016fdc3f93841ea18eca",
+        "../electronic/surrogate_metrics.csv": "752659842dd54ba10c6129c047a10e33bf54f3743f1a5bf7b0227e6bc4c08550"
+      },
+      "pixels": [
+        2700,
+        1440
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "Ext4_Generalization_chinese.svg",
+      "format": "svg",
+      "sha256": "bc5895294563cc93f47b0fd7582207f82a4d76f19da65d0d2c8e0a24a165cfcc",
+      "sources": {
+        "learning/metrics.csv": "81509670ce9460451e1f70de5fdc14fc8c3db95ea534016fdc3f93841ea18eca",
+        "../electronic/surrogate_metrics.csv": "752659842dd54ba10c6129c047a10e33bf54f3743f1a5bf7b0227e6bc4c08550"
+      },
+      "editable_text": true,
+      "embedded_raster": false
+    },
+    {
+      "file": "Ext5_Anharmonic_Levels_chinese.png",
+      "format": "png",
+      "sha256": "6941aecb69e56583d2ffee94f754ace7cda79e20ddb6103c3f4b8a359ef0747f",
+      "sources": {
+        "vibration/model_parameters.json": "45e1827f034c8abdf4549a375640df153b090c92c4992a67cd695d60529a6f8a",
+        "vibration/isotope_levels.csv": "824fe2859cdc359e144d4ea4e54d82e273446297dfd119526c62c9cfc1f7409d"
+      },
+      "pixels": [
+        2700,
+        1440
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "Ext5_Anharmonic_Levels_chinese.svg",
+      "format": "svg",
+      "sha256": "6ced53f3eff3e0044d986dd2fce37e7f66100db3bf3546f57e36d64923bad3d6",
+      "sources": {
+        "vibration/model_parameters.json": "45e1827f034c8abdf4549a375640df153b090c92c4992a67cd695d60529a6f8a",
+        "vibration/isotope_levels.csv": "824fe2859cdc359e144d4ea4e54d82e273446297dfd119526c62c9cfc1f7409d"
+      },
+      "editable_text": true,
+      "embedded_raster": false
+    },
+    {
+      "file": "Ext6_Numerical_Limits_chinese.png",
+      "format": "png",
+      "sha256": "2d983490cef11c052a837d20242bb2e39b84c93714fcae61c92ed38528cf85b7",
+      "sources": {
+        "vibration/grid_and_domain_diagnostics.csv": "79deaf6d1ec9e90ded83aebad483f61a9328490049b41c0088a104f25779c099",
+        "vibration/partition_bound_only.csv": "dd497129d1806430d9ec0e451c882b77906b3334ce7b82102b70423cc689e94f"
+      },
+      "pixels": [
+        2700,
+        1440
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "Ext6_Numerical_Limits_chinese.svg",
+      "format": "svg",
+      "sha256": "a470acb7ba41a7ea870943a2fe6cea4b9eced3c6b7b7569011e628f3ccd27a9f",
+      "sources": {
+        "vibration/grid_and_domain_diagnostics.csv": "79deaf6d1ec9e90ded83aebad483f61a9328490049b41c0088a104f25779c099",
+        "vibration/partition_bound_only.csv": "dd497129d1806430d9ec0e451c882b77906b3334ce7b82102b70423cc689e94f"
+      },
+      "editable_text": true,
+      "embedded_raster": false
+    },
+    {
+      "file": "Ext7_Error_Budget_chinese.png",
+      "format": "png",
+      "sha256": "d47d2bf6583b3f75eb9fb3c1e85a10fc89e18a450451e4a4934d800a17a9e458",
+      "sources": {
+        "error_budget/matched_error_components.csv": "f569e871bf83a8c6ca98b10bf45863f584d703ebcc95a5da73f0754aebe6c900"
+      },
+      "pixels": [
+        2700,
+        1440
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "Ext7_Error_Budget_chinese.svg",
+      "format": "svg",
+      "sha256": "0b97ec056698d20de6970c17101df4b2fde38af628dec1873a3cbacfa468fcd6",
+      "sources": {
+        "error_budget/matched_error_components.csv": "f569e871bf83a8c6ca98b10bf45863f584d703ebcc95a5da73f0754aebe6c900"
+      },
+      "editable_text": true,
+      "embedded_raster": false
+    }
+  ]
+}

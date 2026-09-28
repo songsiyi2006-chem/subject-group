@@ -1,0 +1,12 @@
+{
+  "rows": 150,
+  "quantum_calls_in_browser": 0,
+  "network_dependencies": [],
+  "scope": "Offline display of saved total energies and spin diagnostics; no additional scientific calculation.",
+  "inputs_sha256": {
+    "results/extensions/correlation/curve.csv": "8715857664e8903afd775a4e94aec2a08f6873809211c238faa341b751220025",
+    "scripts/quantum_explorer_template.html": "8a3895a94d475a3add88ce765f4d9d65fe1239ae0c322c4283c634872591995c",
+    "scripts/build_explorer.py": "17dc39a6f35f5e45917cf1b434c9b11f71979de050924e7da724664d3d820826"
+  },
+  "output_sha256": "f6a7b6c9726fdcf7505f839b1211dff947275072d9e9b60760f042e2735f3839"
+}

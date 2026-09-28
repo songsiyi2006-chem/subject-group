@@ -1,0 +1,10 @@
+[
+  {
+    "model_id": "analytic_control",
+    "basis": "designed_model",
+    "D_e_Hartree": 0.2,
+    "a_A_inverse": 1.8,
+    "R_e_A": 1.0,
+    "evidence": "Predeclared mathematical Morse parameters, not fitted chemical data"
+  }
+]

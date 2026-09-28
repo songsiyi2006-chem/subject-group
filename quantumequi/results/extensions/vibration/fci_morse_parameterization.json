@@ -1,0 +1,119 @@
+[
+  {
+    "model_id": "FCI_sto-3g",
+    "basis": "sto-3g",
+    "D_e_Hartree": 0.20414235210759024,
+    "a_A_inverse": 2.0427769944189986,
+    "R_e_A": 0.7348652274787866,
+    "E_min_Hartree": -1.1373060512221411,
+    "E_infinity_Hartree": -0.9331636991145509,
+    "curvature_Hartree_A2": 1.7037466953577032,
+    "parameterization": "De from actual 2H reference minus FCI minimum; re from FCI optimization; a=sqrt(k/(2De))",
+    "is_nonlinear_fit": false,
+    "source_equilibrium_record": {
+      "basis": "sto-3g",
+      "method": "FCI",
+      "R_e_A": 0.7348652274787866,
+      "E_min_Hartree": -1.1373060512221411,
+      "atomic_H_energy_Hartree": -0.46658184955727544,
+      "E_infinity_Hartree": -0.9331636991145509,
+      "D_e_Hartree": 0.20414235210759024,
+      "curvature_step_A": 0.0025,
+      "optimization_success": true,
+      "optimization_message": "Solution found.",
+      "optimization_calls": 10,
+      "optimization_bounds_A": [
+        0.6,
+        0.9
+      ],
+      "optimization_job_ids": [
+        "j0152_sto-3g_FCI",
+        "j0153_sto-3g_FCI",
+        "j0154_sto-3g_FCI",
+        "j0155_sto-3g_FCI",
+        "j0156_sto-3g_FCI",
+        "j0157_sto-3g_FCI",
+        "j0158_sto-3g_FCI",
+        "j0159_sto-3g_FCI",
+        "j0160_sto-3g_FCI",
+        "j0161_sto-3g_FCI"
+      ],
+      "curvature_job_ids": [
+        "j0162_sto-3g_FCI",
+        "j0163_sto-3g_FCI",
+        "j0164_sto-3g_FCI",
+        "j0165_sto-3g_FCI",
+        "j0166_sto-3g_FCI"
+      ],
+      "gradient_5point_Hartree_A": 1.448500578741611e-09,
+      "curvature_Hartree_A2": 1.7037466953577032,
+      "curvature_central_h_Hartree_A2": 1.703780776196595,
+      "curvature_central_2h_Hartree_A2": 1.703883018766561,
+      "central_curvature_step_difference_Hartree_A2": 0.00010224256996593795,
+      "scope": "Clamped-nuclei finite-basis FCI total energies; 2 isolated H energies define dissociation reference; no ZPVE."
+    },
+    "evidence": "Morse model parameterized by actual FCI data, not direct nuclear propagation on the FCI curve",
+    "curve_points_checked": 25,
+    "curve_RMSE_Hartree": 0.007572822857748381,
+    "curve_max_abs_error_Hartree": 0.01506216236118163
+  },
+  {
+    "model_id": "FCI_cc-pvdz",
+    "basis": "cc-pvdz",
+    "D_e_Hartree": 0.16511617435685166,
+    "a_A_inverse": 1.9901629894446744,
+    "R_e_A": 0.7608934449673254,
+    "E_min_Hartree": -1.1636729811960178,
+    "E_infinity_Hartree": -0.9985568068391661,
+    "curvature_Hartree_A2": 1.3079673539747223,
+    "parameterization": "De from actual 2H reference minus FCI minimum; re from FCI optimization; a=sqrt(k/(2De))",
+    "is_nonlinear_fit": false,
+    "source_equilibrium_record": {
+      "basis": "cc-pvdz",
+      "method": "FCI",
+      "R_e_A": 0.7608934449673254,
+      "E_min_Hartree": -1.1636729811960178,
+      "atomic_H_energy_Hartree": -0.49927840341958307,
+      "E_infinity_Hartree": -0.9985568068391661,
+      "D_e_Hartree": 0.16511617435685166,
+      "curvature_step_A": 0.0025,
+      "optimization_success": true,
+      "optimization_message": "Solution found.",
+      "optimization_calls": 11,
+      "optimization_bounds_A": [
+        0.6,
+        0.9
+      ],
+      "optimization_job_ids": [
+        "j0167_cc-pvdz_FCI",
+        "j0168_cc-pvdz_FCI",
+        "j0169_cc-pvdz_FCI",
+        "j0170_cc-pvdz_FCI",
+        "j0171_cc-pvdz_FCI",
+        "j0172_cc-pvdz_FCI",
+        "j0173_cc-pvdz_FCI",
+        "j0174_cc-pvdz_FCI",
+        "j0175_cc-pvdz_FCI",
+        "j0176_cc-pvdz_FCI",
+        "j0177_cc-pvdz_FCI"
+      ],
+      "curvature_job_ids": [
+        "j0178_cc-pvdz_FCI",
+        "j0179_cc-pvdz_FCI",
+        "j0180_cc-pvdz_FCI",
+        "j0181_cc-pvdz_FCI",
+        "j0182_cc-pvdz_FCI"
+      ],
+      "gradient_5point_Hartree_A": 5.784600946393918e-08,
+      "curvature_Hartree_A2": 1.3079673539747223,
+      "curvature_central_h_Hartree_A2": 1.3079935476412174,
+      "curvature_central_2h_Hartree_A2": 1.308072128622939,
+      "central_curvature_step_difference_Hartree_A2": 7.858098172164318e-05,
+      "scope": "Clamped-nuclei finite-basis FCI total energies; 2 isolated H energies define dissociation reference; no ZPVE."
+    },
+    "evidence": "Morse model parameterized by actual FCI data, not direct nuclear propagation on the FCI curve",
+    "curve_points_checked": 25,
+    "curve_RMSE_Hartree": 0.004206542413097394,
+    "curve_max_abs_error_Hartree": 0.007792121788705808
+  }
+]

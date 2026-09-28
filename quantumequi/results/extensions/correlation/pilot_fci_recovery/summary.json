@@ -1,0 +1,118 @@
+{
+  "study": "Actual H2 method/basis correlation extension",
+  "pilot": true,
+  "sources_browsed": [
+    "https://psicode.org/psi4manual/master/autodir_options_c/scf__guess_mix.html",
+    "https://psi4.github.io/psi4docs/master/scf.html",
+    "https://psicode.org/psi4manual/master/detci.html",
+    "https://psicode.org/psi4manual/master/autodir_options_c/module__detci.html"
+  ],
+  "settings": {
+    "bases": [
+      "sto-3g",
+      "cc-pvdz"
+    ],
+    "methods": [
+      "RHF",
+      "UHF",
+      "FCI"
+    ],
+    "threads": 1,
+    "memory_bytes": 500000000,
+    "distances_A": [
+      0.74,
+      1.6,
+      3.0
+    ],
+    "symmetry": "c1",
+    "SCF_type": "PK",
+    "guess": "CORE",
+    "UHF_guess_mix": true,
+    "UHF_stability": "FOLLOW",
+    "RHF_stability": "CHECK",
+    "FCI_reference": "RHF",
+    "frozen_docc": [
+      0
+    ],
+    "frozen_uocc": [
+      0
+    ],
+    "SCF_energy_convergence": 1e-12,
+    "SCF_density_convergence": 1e-12,
+    "CI_energy_convergence": 1e-12,
+    "CI_residual_convergence": 1e-10
+  },
+  "counts": {
+    "configurations_attempted": 6,
+    "energy_driver_calls": 6,
+    "converged_energy_drivers": 6,
+    "failed_configurations": 0,
+    "curve_rows": 6,
+    "method_comparison_rows": 0,
+    "explicit_FCI_drivers": 6,
+    "SCF_convergence_messages": 6,
+    "gradient_driver_calls": 0,
+    "by_role": {
+      "curve": 6
+    },
+    "by_method": {
+      "RHF": 0,
+      "UHF": 0,
+      "FCI": 6
+    }
+  },
+  "call_budget": {
+    "this_run_limit": 6,
+    "planned_pilot_plus_main_maximum": 206,
+    "parent_explicit_energy_driver_limit": 250,
+    "note": "FCI energy drivers include an underlying SCF; UHF FOLLOW may perform additional internal SCF optimizations. Log convergence occurrences are reported, not hidden."
+  },
+  "results": {
+    "variational_order_all_pass": null,
+    "lower_spin_broken_UHF_points": 0,
+    "restricted_like_UHF_points": 0,
+    "max_RHF_minus_FCI_Hartree": null
+  },
+  "failures": [],
+  "extraction_warnings": [],
+  "execution": {
+    "Psi4": "1.11",
+    "Python": "3.12.14",
+    "NumPy": "2.5.2",
+    "SciPy": "1.18.0",
+    "threads": 1,
+    "elapsed_seconds": 2.695079500088468,
+    "executed_source_sha256": "4191155276e50a2b34e8e02b7ca97a5dda7028be8bc8e2c4e0c9e33f6dd5159d"
+  },
+  "executed_source_snapshot": "executed_code.py.txt",
+  "inputs_sha256": {
+    "scripts/correlation_extension.py": "4191155276e50a2b34e8e02b7ca97a5dda7028be8bc8e2c4e0c9e33f6dd5159d"
+  },
+  "input_hash_scope": "Relative to quantumequi; historical executed source retained verbatim as executed_code.py.txt.",
+  "output_hash_scope": "Relative to this result directory; excludes summary itself, scratch, raw timer and pilot subtree.",
+  "limitations": [
+    "FCI is exact only for the chosen nonrelativistic finite orbital basis and specified electron sector.",
+    "UHF spin-contaminated branches and local internal stability do not prove a global Hartree-Fock minimum.",
+    "Contracted STO-3G and cc-pVDZ are not nested bases; their observed energy ordering is not a general variational theorem.",
+    "A finite 4-Angstrom point is not infinity; dissociation reference uses two separately computed neutral H atoms.",
+    "No nuclear zero-point, thermal, relativistic, solvent or electrode corrections are included."
+  ],
+  "finalizer_source_sha256": "528d9d75703a37d2cc23f150ef46da16da653ffb36705895a0a756d1b2ed0e7d",
+  "finalizer_source_scope": "Postprocessing only; execution source hash and exact archived code above are authoritative for quantum jobs.",
+  "outputs_sha256": {
+    "curve.csv": "e5f49852876dfcbe8eb42d2c1504fa4827087188bc4ee3666fbf5089b53f9486",
+    "energy_driver_jobs.json": "005b1a3e757c0cd0b77adc14fedda69b79d6d045c9be5d2eb78a4f9c5e66bcd6",
+    "executed_code.py.txt": "4191155276e50a2b34e8e02b7ca97a5dda7028be8bc8e2c4e0c9e33f6dd5159d",
+    "execution.json": "154e8cb457b22122c5ae92c5a7adeb57ae97f2775951d44b1f0b500da772ba8b",
+    "log_provenance.json": "fe7babedf8f79de1e33c1d84ed90cfaa31b2a0c83228effc895078bd56956873",
+    "logs/j0000_sto-3g_FCI.out": "922d8855fd26251324ab0c2a19454303b1e31d89b00a55575b2ae0f575ce9f0f",
+    "logs/j0001_sto-3g_FCI.out": "8d07ce4f5e740c3dea7e54f7f0052dd734a734d67d607c6665da342829c52141",
+    "logs/j0002_sto-3g_FCI.out": "4c400dc07b8fe38f7b9261dd3be87909fac2a42c534289a58eebf075b961a87b",
+    "logs/j0003_cc-pvdz_FCI.out": "e2031f8997e2f2499a2d7523c9b3ac1dffc8148fafea268546be6877353af6a0",
+    "logs/j0004_cc-pvdz_FCI.out": "9e60b8c1f532994dc79d9b082f5d410b6827efe956b4847c8750f744f90348a6",
+    "logs/j0005_cc-pvdz_FCI.out": "0ed6daf7447cb460951ceacf9f14bb6c2ae3df6775ceb3244da2383ed129936a",
+    "metadata_corrections.json": "11d6370683e7575aafd7dfe1384dfd46e925cebe4ce2b26e9943dfd90526b3ea",
+    "psi4_timer.txt": "bcbd995c85a5045ca88674ef0aa17e609db4c773047935221e2f85b37e106f7c",
+    "reference_orbitals.json": "09c731820b59b5a1962ce8d16c6aa78520c678a30e113d014079ea189e56d3a8"
+  }
+}

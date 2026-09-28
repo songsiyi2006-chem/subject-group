@@ -1,0 +1,343 @@
+
+Scratch directory: [LOCAL_PATH]
+   => Libint2 <=
+
+    Primary   basis highest AM E, G, H:  7, 6, -
+    Auxiliary basis highest AM E, G, H:  7, 7, -
+    Onebody   basis highest AM E, G, H:  -, -, -
+    Solid Harmonics ordering:            Gaussian
+
+*** tstart() called on [LOCAL_HOST]
+*** at Mon Sep 28 20:12:19 2026
+
+   => Loading Basis Set <=
+
+    Name: CC-PVDZ
+    Role: ORBITAL
+    Keyword: BASIS
+    atoms 1-2 entry H          line    22 file [LOCAL_PATH]
+
+
+         ---------------------------------------------------------
+                                   SCF
+               by Justin Turney, Rob Parrish, Andy Simmonett
+                          and Daniel G. A. Smith
+                              RHF Reference
+                        1 Threads,    476 MiB Core
+         ---------------------------------------------------------
+
+  ==> Geometry <==
+
+    Molecular point group: c1
+    Full point group: D_inf_h
+
+    Geometry (in Angstrom), charge = 0, multiplicity = 1:
+
+       Center              X                  Y                   Z               Mass       
+    ------------   -----------------  -----------------  -----------------  -----------------
+         H            0.000000000000     0.000000000000    -0.900000000000     1.007825032230
+         H            0.000000000000     0.000000000000     0.900000000000     1.007825032230
+
+  Running in c1 symmetry.
+
+  Rotational constants: A = ************  B =     10.32515  C =     10.32515 [cm^-1]
+  Rotational constants: A = ************  B = 309540.18918  C = 309540.18918 [MHz]
+  Nuclear repulsion =    0.293987339261111
+
+  Charge       = 0
+  Multiplicity = 1
+  Electrons    = 2
+  Nalpha       = 1
+  Nbeta        = 1
+
+  ==> Algorithm <==
+
+  SCF Algorithm Type is PK.
+  DIIS enabled.
+  MOM disabled.
+  Fractional occupation disabled.
+  Guess Type is CORE.
+  Energy threshold   = 1.00e-12
+  Density threshold  = 1.00e-12
+  Integral threshold = 1.00e-12
+
+  ==> Primary Basis <==
+
+  Basis Set: CC-PVDZ
+    Blend: CC-PVDZ
+    Number of shells: 6
+    Number of basis functions: 10
+    Number of Cartesian functions: 10
+    Spherical Harmonics?: true
+    Max angular momentum: 1
+
+  ==> Integral Setup <==
+
+  Using in-core PK algorithm.
+   Calculation information:
+      Number of atoms:                   2
+      Number of AO shells:               6
+      Number of primitives:             10
+      Number of atomic orbitals:        10
+      Number of basis functions:        10
+
+      Integral cutoff                 1.00e-12
+      Number of threads:                 1
+
+  Performing in-core PK
+  Using 3080 doubles for integral storage.
+  We computed 231 shell quartets total.
+  Whereas there are 231 unique shell quartets.
+
+  ==> DiskJK: Disk-Based J/K Matrices <==
+
+    J tasked:                  Yes
+    K tasked:                  Yes
+    wK tasked:                  No
+    Memory [MiB]:              357
+    Schwarz Cutoff:          1E-12
+
+    OpenMP threads:              1
+
+  Minimum eigenvalue in the overlap matrix is 2.0189459119E-01.
+  Reciprocal condition number of the overlap matrix is 9.0573522202E-02.
+    Using symmetric orthogonalization.
+
+  ==> Pre-Iterations <==
+
+  SCF Guess: Core (One-Electron) Hamiltonian.
+
+   -------------------------------------------------------
+    Irrep   Nso     Nmo     Nalpha   Nbeta   Ndocc  Nsocc
+   -------------------------------------------------------
+     A         10      10       1       1       1       0
+   -------------------------------------------------------
+    Total      10      10       1       1       1       0
+   -------------------------------------------------------
+
+  ==> Iterations <==
+
+                        Total Energy        Delta E     RMS |[F,P]|
+
+   @RHF iter   1:    -0.92679622915421   -9.26796e-01   1.51298e-02 ADIIS/DIIS
+   @RHF iter   2:    -0.95020398920276   -2.34078e-02   2.59150e-03 ADIIS/DIIS
+   @RHF iter   3:    -0.95093855395970   -7.34565e-04   9.37616e-05 DIIS
+   @RHF iter   4:    -0.95093935830313   -8.04343e-07   5.57986e-07 DIIS
+   @RHF iter   5:    -0.95093935833299   -2.98548e-11   1.51451e-11 DIIS
+   @RHF iter   6:    -0.95093935833299   -2.22045e-16   7.05463e-16 DIIS
+  Energy and wave function converged.
+
+
+  ==> Post-Iterations <==
+
+    Orbital Energies [Eh]
+    ---------------------
+
+    Doubly Occupied:                                                      
+
+       1A     -0.404465  
+
+    Virtual:                                                              
+
+       2A     -0.009150     3A      0.655217     4A      0.675752  
+       5A      1.276283     6A      1.435497     7A      1.435497  
+       8A      1.532930     9A      1.532930    10A      1.850442  
+
+    Final Occupation by Irrep:
+              A 
+    DOCC [     1 ]
+    NA   [     1 ]
+    NB   [     1 ]
+
+  @RHF Final Energy:    -0.95093935833299
+
+   => Energetics <=
+
+    Nuclear Repulsion Energy =              0.2939873392611111
+    One-Electron Energy =                  -1.6809235534731228
+    Two-Electron Energy =                   0.4359968558790244
+    Total Energy =                         -0.9509393583329873
+
+Computation Completed
+
+
+Properties will be evaluated at   0.000000,   0.000000,   0.000000 [a0]
+
+Properties computed using the SCF density matrix
+
+
+ Multipole Moments:
+
+ ------------------------------------------------------------------------------------
+     Multipole            Electronic (a.u.)      Nuclear  (a.u.)        Total (a.u.)
+ ------------------------------------------------------------------------------------
+
+ L = 1.  Multiply by 2.5417464519 to convert [e a0] to [Debye]
+ Dipole X            :          0.0000000            0.0000000            0.0000000
+ Dipole Y            :          0.0000000            0.0000000            0.0000000
+ Dipole Z            :         -0.0000000            0.0000000           -0.0000000
+ Magnitude           :                                                    0.0000000
+
+ ------------------------------------------------------------------------------------
+
+*** tstop() called on [LOCAL_HOST]
+Module time:
+	user time   =        nan seconds =        nan minutes
+	system time =        nan seconds =        nan minutes
+	total time  =          0 seconds =       0.00 minutes
+Total time:
+	user time   =        nan seconds =        nan minutes
+	system time =        nan seconds =        nan minutes
+	total time  =         43 seconds =       0.72 minutes
+ MINTS: Wrapper to libmints.
+   by Justin Turney
+
+   Calculation information:
+      Number of threads:                 1
+      Number of atoms:                   2
+      Number of AO shells:               6
+      Number of SO shells:               6
+      Number of primitives:             10
+      Number of atomic orbitals:        10
+      Number of basis functions:        10
+
+      Number of irreps:                  1
+      Integral cutoff                 1.00e-12
+      Number of functions per irrep: [  10 ]
+
+ OEINTS: Overlap, kinetic, potential, dipole, and quadrupole integrals
+         stored in file 35.
+
+      Computing two-electron integrals...done
+      Computed 512 non-zero two-electron integrals.
+        Stored in file 33.
+
+
+         ---------------------------------------------------------
+                          Configuration Interaction
+                            (a 'D E T C I' module)
+
+                 C. David Sherrill, Daniel G. A. Smith, and
+                              Matt L. Leininger
+         ---------------------------------------------------------
+
+
+   ==> Parameters <==
+
+    EX LEVEL       =        2      H0 BLOCKSIZE  =     1000
+    VAL EX LEVEL   =        0      H0 GUESS SIZE =     1000
+    H0COUPLINGSIZE =        0      H0 COUPLING   =       NO
+    MAXITER        =      100      NUM PRINT     =       20
+    NUM ROOTS      =        1      ICORE         =        1
+    PRINT LVL      =        1      FCI           =      YES
+    R CONV         = 1.00e-10      MIXED         =      YES
+    E CONV         = 1.00e-12      MIXED4        =      YES
+    R4S            =       NO      REPL OTF      =       NO
+    DIAG METHOD    =      SEM      FOLLOW ROOT   =        0
+    PRECONDITIONER = DAVIDSON      UPDATE        = DAVIDSON
+    S              =   0.0000      Ms0           =      YES
+    GUESS VECTOR   =  H0BLOCK      OPENTYPE      =     NONE
+    COLLAPSE SIZE  =        1      HD AVG        = EVANGELISTI
+    MAX NUM VECS   =      101      REF SYM       =     AUTO
+    IOPEN        =       NO
+
+    EX ALLOW       =  1  1 
+    STATE AVERAGE  =  0(1.00) 
+
+   ==> CI Orbital and Space information <==
+
+   ------------------------------------
+               Space    Total     A
+   ------------------------------------
+                 Nso       10    10
+                 Nmo       10    10
+               Ndocc        1     1
+               Nsocc        0     0
+   ------------------------------------
+              CI Spaces
+   ------------------------------------
+        Dropped DOCC        0     0
+              Active       10    10
+        Dropped UOCC        0     0
+   ------------------------------------
+
+   ==> Setting up CI strings <==
+
+    There are 10 alpha and 10 beta strings
+    The CI space requires 100 (1.00E+02) determinants and 1 blocks
+
+   ==> Transforming CI integrals <==
+
+	Presorting SO-basis two-electron integrals.
+	Sorting File: SO Ints (nn|nn) nbuckets = 1
+	Constructing frozen core operators
+	Starting first half-transformation.
+	Sorting half-transformed integrals.
+	First half integral transformation complete.
+	Starting second half-transformation.
+	Two-electron integral transformation complete.
+
+   ==> Starting CI iterations <==
+
+    H0 Block Eigenvalue =  -1.00938787
+
+    Simultaneous Expansion Method (Block Davidson Method)
+    Using 1 initial trial vectors
+
+     Iter   Root       Total Energy       Delta E      C RMS
+
+   @CI  0:     0     -1.009387874373   -1.3034E+00   1.7041E-01  
+   @CI  1:     0     -1.028981013035   -1.9593E-02   4.2616E-02  
+   @CI  2:     0     -1.030353012083   -1.3720E-03   8.8460E-03  
+   @CI  3:     0     -1.030434314294   -8.1302E-05   2.6405E-03  
+   @CI  4:     0     -1.030438814494   -4.5002E-06   9.1716E-05  
+   @CI  5:     0     -1.030438818982   -4.4889E-09   7.2832E-06  
+   @CI  6:     0     -1.030438819004   -2.2099E-11   5.1047E-07  
+    Warning: Norm of correction (root 0) is < 1.0E-13
+   @CI  7:     0     -1.030438819005   -1.1302E-13   5.5958E-08  
+    Warning: Norm of correction (root 0) is < 1.0E-13
+   @CI  8:     0     -1.030438819005   -2.2204E-15   4.2974E-09  
+    Warning: Norm of correction (root 0) is < 1.0E-13
+   @CI  9:     0     -1.030438819005   8.8818E-16   3.4653E-10  
+    Warning: Norm of correction (root 0) is < 1.0E-13
+   @CI 10:     0     -1.030438819005   -4.4409E-16   1.0424E-11 c
+
+   ==> Energetics <==
+
+    SCF energy =           -0.950939358332987
+    Total CI energy =      -1.030438819004605
+
+   ==> FCI root 0 information <==
+
+    FCI Root 0 energy =    -1.030438819004605
+
+   The 20 most important determinants:
+
+    *   1    0.913562  (    0,    0)  1AX 
+    *   2   -0.376863  (    1,    1)  2AX 
+    *   3   -0.089157  (    1,    2)  2AA 3AB 
+    *   4   -0.089157  (    2,    1)  2AB 3AA 
+    *   5    0.051243  (    0,    3)  1AA 4AB 
+    *   6    0.051243  (    3,    0)  1AB 4AA 
+    *   7   -0.028198  (    2,    2)  3AX 
+    *   8    0.015546  (    0,    4)  1AA 5AB 
+    *   9    0.015546  (    4,    0)  1AB 5AA 
+    *  10   -0.015464  (    4,    4)  5AX 
+    *  11   -0.011838  (    3,    3)  4AX 
+    *  12   -0.011560  (    6,    6)  7AX 
+    *  13   -0.011560  (    5,    5)  6AX 
+    *  14    0.007203  (    1,    9)  2AA 10AB 
+    *  15    0.007203  (    9,    1)  2AB 10AA 
+    *  16    0.007029  (    3,    4)  4AA 5AB 
+    *  17    0.007029  (    4,    3)  4AB 5AA 
+    *  18   -0.005613  (    7,    7)  8AX 
+    *  19   -0.005613  (    8,    8)  9AX 
+    *  20   -0.003997  (    9,    9)  10AX 
+
+		 "A good bug is a dead bug" 
+
+			 - Starship Troopers
+
+		 "I didn't write FORTRAN.  That's the problem."
+
+			 - Edward Valeev

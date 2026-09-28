@@ -1,0 +1,9 @@
+{
+  "Psi4": "1.11",
+  "Python": "3.12.14",
+  "NumPy": "2.5.2",
+  "SciPy": "1.18.0",
+  "threads": 1,
+  "elapsed_seconds": 2.695079500088468,
+  "executed_source_sha256": "4191155276e50a2b34e8e02b7ca97a5dda7028be8bc8e2c4e0c9e33f6dd5159d"
+}

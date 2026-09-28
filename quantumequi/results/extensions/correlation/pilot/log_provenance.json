@@ -1,0 +1,142 @@
+[
+  {
+    "job_id": "j0000_sto-3g_RHF",
+    "path": "logs/j0000_sto-3g_RHF.out",
+    "raw_decoded_text_sha256": "702f06ff70e8e6e06f0e27ef459ce5df225f0a31f0a419003cd09a70a4cf54b3",
+    "public_file_sha256": "e7058e10a484348ff43db0838d35bf412e700de497de203b9950523a3e8a4231",
+    "redaction": "Local absolute paths and hostname only; numerical text retained."
+  },
+  {
+    "job_id": "j0001_sto-3g_UHF",
+    "path": "logs/j0001_sto-3g_UHF.out",
+    "raw_decoded_text_sha256": "6bf62c84a23caff61f3a44ec00a3935f11d2c4ee7ae55c7b99117588b588767a",
+    "public_file_sha256": "fdee29958c529d634bd6198a8a5909641f178fe596a755abb22a656595099019",
+    "redaction": "Local absolute paths and hostname only; numerical text retained."
+  },
+  {
+    "job_id": "j0002_sto-3g_FCI",
+    "path": "logs/j0002_sto-3g_FCI.out",
+    "raw_decoded_text_sha256": "32e494d0cd0a4e88726c88a43cbfe2191d7c8c586da485057029c99e4c722b80",
+    "public_file_sha256": "24fc2cd1d47986667dcd297185dbec92d159e2fd35a537fd9433d4bf32052df9",
+    "redaction": "Local absolute paths and hostname only; numerical text retained."
+  },
+  {
+    "job_id": "j0003_sto-3g_RHF",
+    "path": "logs/j0003_sto-3g_RHF.out",
+    "raw_decoded_text_sha256": "0a2cb587040a7f56ce686195a8580a670ff2e606b109b5121212babf80d5160f",
+    "public_file_sha256": "12817358939b225fb730e46b9b60e511aaafcc3b4dc4eb354c5dc04527cba200",
+    "redaction": "Local absolute paths and hostname only; numerical text retained."
+  },
+  {
+    "job_id": "j0004_sto-3g_UHF",
+    "path": "logs/j0004_sto-3g_UHF.out",
+    "raw_decoded_text_sha256": "de70bcfacf170224f247643cd70e8e302b07bc201abce5ad56e2951f76f0f5f4",
+    "public_file_sha256": "1508dfaff5082509bffef1ee99cab97f25a2718fdd9fc2ec63369783556c96b6",
+    "redaction": "Local absolute paths and hostname only; numerical text retained."
+  },
+  {
+    "job_id": "j0005_sto-3g_FCI",
+    "path": "logs/j0005_sto-3g_FCI.out",
+    "raw_decoded_text_sha256": "32e494d0cd0a4e88726c88a43cbfe2191d7c8c586da485057029c99e4c722b80",
+    "public_file_sha256": "24fc2cd1d47986667dcd297185dbec92d159e2fd35a537fd9433d4bf32052df9",
+    "redaction": "Local absolute paths and hostname only; numerical text retained."
+  },
+  {
+    "job_id": "j0006_sto-3g_RHF",
+    "path": "logs/j0006_sto-3g_RHF.out",
+    "raw_decoded_text_sha256": "89807c1905c93ddd6eacc38c1abe916284c407967b5a131e68306023f116e6f9",
+    "public_file_sha256": "a8a3003718aedc91960b96eda3cd73500a387087f09d83ee86778d4c0b70b6ab",
+    "redaction": "Local absolute paths and hostname only; numerical text retained."
+  },
+  {
+    "job_id": "j0007_sto-3g_UHF",
+    "path": "logs/j0007_sto-3g_UHF.out",
+    "raw_decoded_text_sha256": "d95b85e9cd368785c71aa46f72cd929bbf44538d4e4665e06aa7a636204868e3",
+    "public_file_sha256": "2475ca15b3c37d00db2cbf9f491220fc7a2f12057b95dc5b41afd5cac29df760",
+    "redaction": "Local absolute paths and hostname only; numerical text retained."
+  },
+  {
+    "job_id": "j0008_sto-3g_FCI",
+    "path": "logs/j0008_sto-3g_FCI.out",
+    "raw_decoded_text_sha256": "32e494d0cd0a4e88726c88a43cbfe2191d7c8c586da485057029c99e4c722b80",
+    "public_file_sha256": "24fc2cd1d47986667dcd297185dbec92d159e2fd35a537fd9433d4bf32052df9",
+    "redaction": "Local absolute paths and hostname only; numerical text retained."
+  },
+  {
+    "job_id": "j0009_sto-3g_UHF",
+    "path": "logs/j0009_sto-3g_UHF.out",
+    "raw_decoded_text_sha256": "4a4d2c0d53b118630abd1db59bfb57176b4212c878c85e24e0a928eef89f3336",
+    "public_file_sha256": "9155638ba406860fcff738562cd6caffe77e2ca97aed253a74b32576f73604e5",
+    "redaction": "Local absolute paths and hostname only; numerical text retained."
+  },
+  {
+    "job_id": "j0010_cc-pvdz_RHF",
+    "path": "logs/j0010_cc-pvdz_RHF.out",
+    "raw_decoded_text_sha256": "817f81baed21cca0e5b5ff0538d9f0826822750b4f1fc9d3b74de8cf34325a5c",
+    "public_file_sha256": "cb9742f3d1e6e2abad877569c4c45b8fdceb8b077132d267e65f89aacbd0aa47",
+    "redaction": "Local absolute paths and hostname only; numerical text retained."
+  },
+  {
+    "job_id": "j0011_cc-pvdz_UHF",
+    "path": "logs/j0011_cc-pvdz_UHF.out",
+    "raw_decoded_text_sha256": "3ab7059a11e88df599e2652a8e997a7748ad1e5a4e231b40b7cc759fcdf8ea74",
+    "public_file_sha256": "3d0919bbd309a28e407729d62794f93289920396d61a2a23c59c1cfa8effc894",
+    "redaction": "Local absolute paths and hostname only; numerical text retained."
+  },
+  {
+    "job_id": "j0012_cc-pvdz_FCI",
+    "path": "logs/j0012_cc-pvdz_FCI.out",
+    "raw_decoded_text_sha256": "32e494d0cd0a4e88726c88a43cbfe2191d7c8c586da485057029c99e4c722b80",
+    "public_file_sha256": "24fc2cd1d47986667dcd297185dbec92d159e2fd35a537fd9433d4bf32052df9",
+    "redaction": "Local absolute paths and hostname only; numerical text retained."
+  },
+  {
+    "job_id": "j0013_cc-pvdz_RHF",
+    "path": "logs/j0013_cc-pvdz_RHF.out",
+    "raw_decoded_text_sha256": "a3631b1c31244b215ed5696f50da30691c6803b62d5d39515d9ec2fb4216c385",
+    "public_file_sha256": "82751d00d360a8e6ebd5935bfbdcb1482938a55017b308608edcd5ffa06c076d",
+    "redaction": "Local absolute paths and hostname only; numerical text retained."
+  },
+  {
+    "job_id": "j0014_cc-pvdz_UHF",
+    "path": "logs/j0014_cc-pvdz_UHF.out",
+    "raw_decoded_text_sha256": "e0f2d0f0fc3d4e7793cc6dcfac7244be15ac5acebcd489553d8a011ecd05aac1",
+    "public_file_sha256": "f3abde6f82a8ac36c02ed0c0b3b56339c8e57359662bf14dad0f8c51c6c307fa",
+    "redaction": "Local absolute paths and hostname only; numerical text retained."
+  },
+  {
+    "job_id": "j0015_cc-pvdz_FCI",
+    "path": "logs/j0015_cc-pvdz_FCI.out",
+    "raw_decoded_text_sha256": "32e494d0cd0a4e88726c88a43cbfe2191d7c8c586da485057029c99e4c722b80",
+    "public_file_sha256": "24fc2cd1d47986667dcd297185dbec92d159e2fd35a537fd9433d4bf32052df9",
+    "redaction": "Local absolute paths and hostname only; numerical text retained."
+  },
+  {
+    "job_id": "j0016_cc-pvdz_RHF",
+    "path": "logs/j0016_cc-pvdz_RHF.out",
+    "raw_decoded_text_sha256": "ba4a047f4d2dd21857a5bb104e37fbca6bea518df69c8022af671bc19e2d7026",
+    "public_file_sha256": "6eae1fc8cf85136be31adee86f43d690a9fe32f6e1a8e104beeb6d110ff46d68",
+    "redaction": "Local absolute paths and hostname only; numerical text retained."
+  },
+  {
+    "job_id": "j0017_cc-pvdz_UHF",
+    "path": "logs/j0017_cc-pvdz_UHF.out",
+    "raw_decoded_text_sha256": "14eb8cb5c47ff96997e7ad20e6eccd0675d78c0bec37cf9b3869876244557cc8",
+    "public_file_sha256": "3528a474b0bdcafe41b9ae0d8df8ea72818d061a99136e6b024e843a5724be87",
+    "redaction": "Local absolute paths and hostname only; numerical text retained."
+  },
+  {
+    "job_id": "j0018_cc-pvdz_FCI",
+    "path": "logs/j0018_cc-pvdz_FCI.out",
+    "raw_decoded_text_sha256": "32e494d0cd0a4e88726c88a43cbfe2191d7c8c586da485057029c99e4c722b80",
+    "public_file_sha256": "24fc2cd1d47986667dcd297185dbec92d159e2fd35a537fd9433d4bf32052df9",
+    "redaction": "Local absolute paths and hostname only; numerical text retained."
+  },
+  {
+    "job_id": "j0019_cc-pvdz_UHF",
+    "path": "logs/j0019_cc-pvdz_UHF.out",
+    "raw_decoded_text_sha256": "78366bfe39be87046180d8c995ade5f5d0390cf0980669893039c070082083d4",
+    "public_file_sha256": "60fbbf3f665671704936b5dcf3cd3d204ac8ff1642f01fefa76970a272e644be",
+    "redaction": "Local absolute paths and hostname only; numerical text retained."
+  }
+]

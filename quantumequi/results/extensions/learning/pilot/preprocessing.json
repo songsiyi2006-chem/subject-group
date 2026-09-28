@@ -1,0 +1,27 @@
+{
+  "training_point_ids": [
+    "scan_000",
+    "scan_002",
+    "scan_004",
+    "scan_006",
+    "scan_008",
+    "scan_010",
+    "scan_012",
+    "scan_014",
+    "scan_016",
+    "scan_018",
+    "scan_020",
+    "scan_022",
+    "scan_024",
+    "scan_026",
+    "scan_028",
+    "scan_030",
+    "scan_032"
+  ],
+  "distance_mean": 1.14,
+  "distance_std": 0.3919183588453085,
+  "energy_mean": -1.0010483851947871,
+  "energy_std": 0.09370460709562088,
+  "gradient_mean": 0.13180031178262902,
+  "gradient_std": 0.3187903479156144
+}

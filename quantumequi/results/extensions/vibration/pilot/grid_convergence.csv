@@ -1,0 +1,3 @@
+model_id,isotope,coarse_intervals,fine_intervals,ZPE_observed_order,first3_Richardson_max_error_cm_1
+analytic_control,H2,400,800,2.00181682753279,0.04537854891313778
+analytic_control,D2,400,800,2.00255558484712,0.0671278608754997

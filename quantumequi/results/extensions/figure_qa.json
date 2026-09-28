@@ -1,0 +1,58 @@
+{
+  "date": "2026-09-28",
+  "reviewer": "primary agent visual inspection",
+  "png_files_visually_reviewed": 14,
+  "svg_files_rendered_and_visually_reviewed": 14,
+  "generator_sha256": "c98270961c8f9e31c4f1d3ee66a3ea2826a9d42ea6b3e3aaab7a1e73c08247a8",
+  "reviewed_figure_hashes": {
+    "Ext1_Dissociation_english.png": "112471b8aaff4888e04321101bc36fb0dbbd0a49179c73c7839dced27fa4f3b7",
+    "Ext1_Dissociation_english.svg": "ec1a1e4a4e7c696668a059d73de437edf3d471b57abeb04d384256dca948f8e7",
+    "Ext2_Correlation_Spin_english.png": "84fd77800473608d8f61fd03be5debe0e09a64be1971ae007bc31df41b558d93",
+    "Ext2_Correlation_Spin_english.svg": "7bfcce3e29ab5f414c7ca26504002d6dc8e7a32f5a3d4851f3cd30cc5e02f35e",
+    "Ext3_Learning_english.png": "657c2de1a80a3217c398621cdfa528df982d9b8bca707cb9347620018cf06361",
+    "Ext3_Learning_english.svg": "be6b4ed4b5e1724a7cefeb5a046854ba41fcbb8c1536dfde28825210a434e475",
+    "Ext4_Generalization_english.png": "fd08a3109edc44e6ff54e4ff4caa0192b43a7e9dfea0978c45a7fd01d1da85e7",
+    "Ext4_Generalization_english.svg": "e285e382249fa6e33ae26bf4bee800a4e704dfa63b5bfb7c3720f1371ab014ad",
+    "Ext5_Anharmonic_Levels_english.png": "0d6afbf02b2f744eea3724bb7aa0a6faee8a713e3709f705ea268359b0b4e64e",
+    "Ext5_Anharmonic_Levels_english.svg": "4f42be7275e42d067ce53ec5f520c0743aad87f52e9baef19c033d67625634fc",
+    "Ext6_Numerical_Limits_english.png": "912d05d1d260ba7b2b774f43c58343bcfe12511d4cfedb603c10f016a9502746",
+    "Ext6_Numerical_Limits_english.svg": "43cfde56e754972318b4ca8bde0b7f084b5b3439b6e46ff5cb67f53f6196feff",
+    "Ext7_Error_Budget_english.png": "578646533bbfa6ffb0bc2f2b973002ae20d947235626b9e0301b6b8c661fbf68",
+    "Ext7_Error_Budget_english.svg": "0ce075a58245ba41458731469f91c833479d7f67bb13aa140c0c4e329842c397",
+    "Ext1_Dissociation_chinese.png": "7537e6dbf8437f2f5d3d5d56bfc7d0acab2a201ddfc75187ce1012b64f128610",
+    "Ext1_Dissociation_chinese.svg": "8552febdca7e2b0b53b56d35445cc6251a3e8051cc3d62f5ce56b8129123b41d",
+    "Ext2_Correlation_Spin_chinese.png": "4c66b670f526f4a82744a18946e64806115a919dcf4b93a051aaba3b59cc323e",
+    "Ext2_Correlation_Spin_chinese.svg": "8c1519327696a6e7deff2bdf202980ac8c81f987d3256939a745f65c137f84d2",
+    "Ext3_Learning_chinese.png": "02ab239c0863cac347463b80681ef6667dd091a2fa5efbb358cd63bc685fbf4a",
+    "Ext3_Learning_chinese.svg": "8340e93bb793eb8f5740d23206742d26615b14a19d83ceec7e24410d8d70b558",
+    "Ext4_Generalization_chinese.png": "91ba486df7b28109bad7942fb61d23e96f84040403b6dfd7d053f6a7b635ad23",
+    "Ext4_Generalization_chinese.svg": "bc5895294563cc93f47b0fd7582207f82a4d76f19da65d0d2c8e0a24a165cfcc",
+    "Ext5_Anharmonic_Levels_chinese.png": "6941aecb69e56583d2ffee94f754ace7cda79e20ddb6103c3f4b8a359ef0747f",
+    "Ext5_Anharmonic_Levels_chinese.svg": "6ced53f3eff3e0044d986dd2fce37e7f66100db3bf3546f57e36d64923bad3d6",
+    "Ext6_Numerical_Limits_chinese.png": "2d983490cef11c052a837d20242bb2e39b84c93714fcae61c92ed38528cf85b7",
+    "Ext6_Numerical_Limits_chinese.svg": "a470acb7ba41a7ea870943a2fe6cea4b9eced3c6b7b7569011e628f3ccd27a9f",
+    "Ext7_Error_Budget_chinese.png": "d47d2bf6583b3f75eb9fb3c1e85a10fc89e18a450451e4a4934d800a17a9e458",
+    "Ext7_Error_Budget_chinese.svg": "0b97ec056698d20de6970c17101df4b2fde38af628dec1873a3cbacfa468fcd6"
+  },
+  "renderer": {
+    "sharp": "0.35.4",
+    "libvips": "8.18.6",
+    "librsvg": "2.62.91",
+    "density": 180,
+    "render_size": [
+      4050,
+      2160
+    ]
+  },
+  "checks": [
+    "All English and Chinese PNGs visually inspected at tool display resolution.",
+    "All SVGs independently rendered and visually inspected at tool display resolution.",
+    "Axes, units, legends, panel letters, numerical signs and Chinese glyphs were legible; no observed clipping.",
+    "SVG has editable text and no embedded raster; PNG metadata separately checked for 2700x1440 and 300 DPI."
+  ],
+  "limitations": [
+    "Visual inspection is not external peer review or experimental validation.",
+    "Tool displayed large renders at 2048x1092."
+  ],
+  "blocking_findings": []
+}

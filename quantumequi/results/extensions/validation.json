@@ -1,0 +1,5725 @@
+{
+  "passed": true,
+  "checks": 1429,
+  "failed": [],
+  "scope": "Saved numerical evidence, publication and QA; no chemical or experimental validation.",
+  "validator_sha256": "67225bc3b55af555ca88aa6267ac1df75526f230f1deb00c98aabb1a20db43fc",
+  "items": [
+    {
+      "check": "correlation output atomic_reference.csv",
+      "passed": true
+    },
+    {
+      "check": "correlation output curvature_points.csv",
+      "passed": true
+    },
+    {
+      "check": "correlation output curve.csv",
+      "passed": true
+    },
+    {
+      "check": "correlation output energy_driver_jobs.json",
+      "passed": true
+    },
+    {
+      "check": "correlation output equilibrium_reference.json",
+      "passed": true
+    },
+    {
+      "check": "correlation output executed_code.py.txt",
+      "passed": true
+    },
+    {
+      "check": "correlation output execution.json",
+      "passed": true
+    },
+    {
+      "check": "correlation output log_provenance.json",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0000_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0001_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0002_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0003_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0004_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0005_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0006_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0007_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0008_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0009_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0010_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0011_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0012_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0013_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0014_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0015_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0016_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0017_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0018_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0019_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0020_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0021_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0022_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0023_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0024_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0025_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0026_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0027_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0028_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0029_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0030_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0031_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0032_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0033_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0034_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0035_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0036_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0037_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0038_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0039_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0040_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0041_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0042_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0043_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0044_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0045_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0046_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0047_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0048_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0049_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0050_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0051_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0052_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0053_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0054_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0055_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0056_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0057_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0058_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0059_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0060_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0061_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0062_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0063_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0064_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0065_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0066_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0067_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0068_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0069_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0070_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0071_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0072_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0073_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0074_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0075_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0076_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0077_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0078_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0079_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0080_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0081_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0082_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0083_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0084_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0085_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0086_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0087_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0088_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0089_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0090_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0091_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0092_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0093_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0094_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0095_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0096_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0097_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0098_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0099_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0100_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0101_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0102_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0103_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0104_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0105_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0106_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0107_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0108_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0109_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0110_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0111_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0112_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0113_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0114_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0115_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0116_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0117_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0118_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0119_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0120_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0121_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0122_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0123_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0124_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0125_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0126_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0127_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0128_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0129_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0130_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0131_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0132_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0133_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0134_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0135_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0136_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0137_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0138_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0139_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0140_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0141_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0142_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0143_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0144_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0145_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0146_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0147_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0148_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0149_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0150_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0151_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0152_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0153_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0154_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0155_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0156_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0157_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0158_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0159_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0160_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0161_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0162_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0163_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0164_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0165_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0166_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0167_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0168_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0169_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0170_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0171_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0172_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0173_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0174_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0175_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0176_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0177_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0178_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0179_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0180_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0181_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output logs/j0182_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation output method_comparison.csv",
+      "passed": true
+    },
+    {
+      "check": "correlation output psi4_timer.txt",
+      "passed": true
+    },
+    {
+      "check": "correlation output reference_orbitals.json",
+      "passed": true
+    },
+    {
+      "check": "correlation output test_record.json",
+      "passed": true
+    },
+    {
+      "check": "correlation exact executed source",
+      "passed": true
+    },
+    {
+      "check": "correlation current finalizer hash",
+      "passed": true
+    },
+    {
+      "check": "correlation/pilot output atomic_reference.csv",
+      "passed": true
+    },
+    {
+      "check": "correlation/pilot output curve.csv",
+      "passed": true
+    },
+    {
+      "check": "correlation/pilot output energy_driver_jobs.json",
+      "passed": true
+    },
+    {
+      "check": "correlation/pilot output executed_code.py.txt",
+      "passed": true
+    },
+    {
+      "check": "correlation/pilot output execution.json",
+      "passed": true
+    },
+    {
+      "check": "correlation/pilot output log_provenance.json",
+      "passed": true
+    },
+    {
+      "check": "correlation/pilot output logs/j0000_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation/pilot output logs/j0001_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation/pilot output logs/j0002_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation/pilot output logs/j0003_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation/pilot output logs/j0004_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation/pilot output logs/j0005_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation/pilot output logs/j0006_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation/pilot output logs/j0007_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation/pilot output logs/j0008_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation/pilot output logs/j0009_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation/pilot output logs/j0010_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation/pilot output logs/j0011_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation/pilot output logs/j0012_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation/pilot output logs/j0013_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation/pilot output logs/j0014_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation/pilot output logs/j0015_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation/pilot output logs/j0016_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation/pilot output logs/j0017_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation/pilot output logs/j0018_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation/pilot output logs/j0019_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "correlation/pilot output psi4_timer.txt",
+      "passed": true
+    },
+    {
+      "check": "correlation/pilot output reference_orbitals.json",
+      "passed": true
+    },
+    {
+      "check": "correlation/pilot exact executed source",
+      "passed": true
+    },
+    {
+      "check": "correlation/pilot current finalizer hash",
+      "passed": true
+    },
+    {
+      "check": "correlation/pilot_fci_recovery output curve.csv",
+      "passed": true
+    },
+    {
+      "check": "correlation/pilot_fci_recovery output energy_driver_jobs.json",
+      "passed": true
+    },
+    {
+      "check": "correlation/pilot_fci_recovery output executed_code.py.txt",
+      "passed": true
+    },
+    {
+      "check": "correlation/pilot_fci_recovery output execution.json",
+      "passed": true
+    },
+    {
+      "check": "correlation/pilot_fci_recovery output log_provenance.json",
+      "passed": true
+    },
+    {
+      "check": "correlation/pilot_fci_recovery output logs/j0000_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation/pilot_fci_recovery output logs/j0001_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation/pilot_fci_recovery output logs/j0002_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation/pilot_fci_recovery output logs/j0003_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation/pilot_fci_recovery output logs/j0004_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation/pilot_fci_recovery output logs/j0005_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "correlation/pilot_fci_recovery output metadata_corrections.json",
+      "passed": true
+    },
+    {
+      "check": "correlation/pilot_fci_recovery output psi4_timer.txt",
+      "passed": true
+    },
+    {
+      "check": "correlation/pilot_fci_recovery output reference_orbitals.json",
+      "passed": true
+    },
+    {
+      "check": "correlation/pilot_fci_recovery exact executed source",
+      "passed": true
+    },
+    {
+      "check": "correlation/pilot_fci_recovery current finalizer hash",
+      "passed": true
+    },
+    {
+      "check": "150 converged method-basis-geometry points",
+      "passed": true
+    },
+    {
+      "check": "within-basis variational order ('sto-3g', '0.5')",
+      "passed": true
+    },
+    {
+      "check": "within-basis variational order ('sto-3g', '0.54')",
+      "passed": true
+    },
+    {
+      "check": "within-basis variational order ('sto-3g', '0.58')",
+      "passed": true
+    },
+    {
+      "check": "within-basis variational order ('sto-3g', '0.62')",
+      "passed": true
+    },
+    {
+      "check": "within-basis variational order ('sto-3g', '0.66')",
+      "passed": true
+    },
+    {
+      "check": "within-basis variational order ('sto-3g', '0.7')",
+      "passed": true
+    },
+    {
+      "check": "within-basis variational order ('sto-3g', '0.74')",
+      "passed": true
+    },
+    {
+      "check": "within-basis variational order ('sto-3g', '0.78')",
+      "passed": true
+    },
+    {
+      "check": "within-basis variational order ('sto-3g', '0.82')",
+      "passed": true
+    },
+    {
+      "check": "within-basis variational order ('sto-3g', '0.94')",
+      "passed": true
+    },
+    {
+      "check": "within-basis variational order ('sto-3g', '1.1')",
+      "passed": true
+    },
+    {
+      "check": "within-basis variational order ('sto-3g', '1.26')",
+      "passed": true
+    },
+    {
+      "check": "within-basis variational order ('sto-3g', '1.3')",
+      "passed": true
+    },
+    {
+      "check": "within-basis variational order ('sto-3g', '1.42')",
+      "passed": true
+    },
+    {
+      "check": "within-basis variational order ('sto-3g', '1.58')",
+      "passed": true
+    },
+    {
+      "check": "within-basis variational order ('sto-3g', '1.74')",
+      "passed": true
+    },
+    {
+      "check": "within-basis variational order ('sto-3g', '1.8')",
+      "passed": true
+    },
+    {
+      "check": "within-basis variational order ('sto-3g', '1.9')",
+      "passed": true
+    },
+    {
+      "check": "within-basis variational order ('sto-3g', '2.1')",
+      "passed": true
+    },
+    {
+      "check": "within-basis variational order ('sto-3g', '2.3')",
+      "passed": true
+    },
+    {
+      "check": "within-basis variational order ('sto-3g', '2.5')",
+      "passed": true
+    },
+    {
+      "check": "within-basis variational order ('sto-3g', '2.7')",
+      "passed": true
+    },
+    {
+      "check": "within-basis variational order ('sto-3g', '3.0')",
+      "passed": true
+    },
+    {
+      "check": "within-basis variational order ('sto-3g', '3.5')",
+      "passed": true
+    },
+    {
+      "check": "within-basis variational order ('sto-3g', '4.0')",
+      "passed": true
+    },
+    {
+      "check": "within-basis variational order ('cc-pvdz', '0.5')",
+      "passed": true
+    },
+    {
+      "check": "within-basis variational order ('cc-pvdz', '0.54')",
+      "passed": true
+    },
+    {
+      "check": "within-basis variational order ('cc-pvdz', '0.58')",
+      "passed": true
+    },
+    {
+      "check": "within-basis variational order ('cc-pvdz', '0.62')",
+      "passed": true
+    },
+    {
+      "check": "within-basis variational order ('cc-pvdz', '0.66')",
+      "passed": true
+    },
+    {
+      "check": "within-basis variational order ('cc-pvdz', '0.7')",
+      "passed": true
+    },
+    {
+      "check": "within-basis variational order ('cc-pvdz', '0.74')",
+      "passed": true
+    },
+    {
+      "check": "within-basis variational order ('cc-pvdz', '0.78')",
+      "passed": true
+    },
+    {
+      "check": "within-basis variational order ('cc-pvdz', '0.82')",
+      "passed": true
+    },
+    {
+      "check": "within-basis variational order ('cc-pvdz', '0.94')",
+      "passed": true
+    },
+    {
+      "check": "within-basis variational order ('cc-pvdz', '1.1')",
+      "passed": true
+    },
+    {
+      "check": "within-basis variational order ('cc-pvdz', '1.26')",
+      "passed": true
+    },
+    {
+      "check": "within-basis variational order ('cc-pvdz', '1.3')",
+      "passed": true
+    },
+    {
+      "check": "within-basis variational order ('cc-pvdz', '1.42')",
+      "passed": true
+    },
+    {
+      "check": "within-basis variational order ('cc-pvdz', '1.58')",
+      "passed": true
+    },
+    {
+      "check": "within-basis variational order ('cc-pvdz', '1.74')",
+      "passed": true
+    },
+    {
+      "check": "within-basis variational order ('cc-pvdz', '1.8')",
+      "passed": true
+    },
+    {
+      "check": "within-basis variational order ('cc-pvdz', '1.9')",
+      "passed": true
+    },
+    {
+      "check": "within-basis variational order ('cc-pvdz', '2.1')",
+      "passed": true
+    },
+    {
+      "check": "within-basis variational order ('cc-pvdz', '2.3')",
+      "passed": true
+    },
+    {
+      "check": "within-basis variational order ('cc-pvdz', '2.5')",
+      "passed": true
+    },
+    {
+      "check": "within-basis variational order ('cc-pvdz', '2.7')",
+      "passed": true
+    },
+    {
+      "check": "within-basis variational order ('cc-pvdz', '3.0')",
+      "passed": true
+    },
+    {
+      "check": "within-basis variational order ('cc-pvdz', '3.5')",
+      "passed": true
+    },
+    {
+      "check": "within-basis variational order ('cc-pvdz', '4.0')",
+      "passed": true
+    },
+    {
+      "check": "UHF stretched spin breaking is recorded",
+      "passed": true
+    },
+    {
+      "check": "learning output checkpoints/energy_gradient_seed7301.pt",
+      "passed": true
+    },
+    {
+      "check": "learning output checkpoints/energy_gradient_seed7302.pt",
+      "passed": true
+    },
+    {
+      "check": "learning output checkpoints/energy_gradient_seed7303.pt",
+      "passed": true
+    },
+    {
+      "check": "learning output checkpoints/energy_only_seed7301.pt",
+      "passed": true
+    },
+    {
+      "check": "learning output checkpoints/energy_only_seed7302.pt",
+      "passed": true
+    },
+    {
+      "check": "learning output checkpoints/energy_only_seed7303.pt",
+      "passed": true
+    },
+    {
+      "check": "learning output covariance.csv",
+      "passed": true
+    },
+    {
+      "check": "learning output ensemble_diagnostics.csv",
+      "passed": true
+    },
+    {
+      "check": "learning output ensemble_predictions.csv",
+      "passed": true
+    },
+    {
+      "check": "learning output executed_code.py.txt",
+      "passed": true
+    },
+    {
+      "check": "learning output force_finite_differences.csv",
+      "passed": true
+    },
+    {
+      "check": "learning output frozen_baseline_metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "learning output learning_curves.csv",
+      "passed": true
+    },
+    {
+      "check": "learning output metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "learning output predictions.csv",
+      "passed": true
+    },
+    {
+      "check": "learning output preprocessing.json",
+      "passed": true
+    },
+    {
+      "check": "learning source snapshot",
+      "passed": true
+    },
+    {
+      "check": "learning/pilot output checkpoints/energy_gradient_seed7301.pt",
+      "passed": true
+    },
+    {
+      "check": "learning/pilot output checkpoints/energy_only_seed7301.pt",
+      "passed": true
+    },
+    {
+      "check": "learning/pilot output executed_code.py.txt",
+      "passed": true
+    },
+    {
+      "check": "learning/pilot output learning_curves.csv",
+      "passed": true
+    },
+    {
+      "check": "learning/pilot output metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "learning/pilot output predictions.csv",
+      "passed": true
+    },
+    {
+      "check": "learning/pilot output preprocessing.json",
+      "passed": true
+    },
+    {
+      "check": "learning/pilot source snapshot",
+      "passed": true
+    },
+    {
+      "check": "current learning source frozen",
+      "passed": true
+    },
+    {
+      "check": "six matched neural runs and no new quantum calls",
+      "passed": true
+    },
+    {
+      "check": "paired initialization 7301",
+      "passed": true
+    },
+    {
+      "check": "paired initialization 7302",
+      "passed": true
+    },
+    {
+      "check": "paired initialization 7303",
+      "passed": true
+    },
+    {
+      "check": "learning table sizes",
+      "passed": true
+    },
+    {
+      "check": "validation-only checkpoint energy_only7301",
+      "passed": true
+    },
+    {
+      "check": "validation-only checkpoint energy_gradient7301",
+      "passed": true
+    },
+    {
+      "check": "validation-only checkpoint energy_only7302",
+      "passed": true
+    },
+    {
+      "check": "validation-only checkpoint energy_gradient7302",
+      "passed": true
+    },
+    {
+      "check": "validation-only checkpoint energy_only7303",
+      "passed": true
+    },
+    {
+      "check": "validation-only checkpoint energy_gradient7303",
+      "passed": true
+    },
+    {
+      "check": "independent energy metrics ('energy_only', '7301', 'train')",
+      "passed": true
+    },
+    {
+      "check": "independent gradient metrics ('energy_only', '7301', 'train')",
+      "passed": true
+    },
+    {
+      "check": "independent energy metrics ('energy_only', '7301', 'validation')",
+      "passed": true
+    },
+    {
+      "check": "independent gradient metrics ('energy_only', '7301', 'validation')",
+      "passed": true
+    },
+    {
+      "check": "independent energy metrics ('energy_only', '7301', 'test')",
+      "passed": true
+    },
+    {
+      "check": "independent gradient metrics ('energy_only', '7301', 'test')",
+      "passed": true
+    },
+    {
+      "check": "independent energy metrics ('energy_only', '7301', 'ood_stretch')",
+      "passed": true
+    },
+    {
+      "check": "independent gradient metrics ('energy_only', '7301', 'ood_stretch')",
+      "passed": true
+    },
+    {
+      "check": "independent energy metrics ('energy_gradient', '7301', 'train')",
+      "passed": true
+    },
+    {
+      "check": "independent gradient metrics ('energy_gradient', '7301', 'train')",
+      "passed": true
+    },
+    {
+      "check": "independent energy metrics ('energy_gradient', '7301', 'validation')",
+      "passed": true
+    },
+    {
+      "check": "independent gradient metrics ('energy_gradient', '7301', 'validation')",
+      "passed": true
+    },
+    {
+      "check": "independent energy metrics ('energy_gradient', '7301', 'test')",
+      "passed": true
+    },
+    {
+      "check": "independent gradient metrics ('energy_gradient', '7301', 'test')",
+      "passed": true
+    },
+    {
+      "check": "independent energy metrics ('energy_gradient', '7301', 'ood_stretch')",
+      "passed": true
+    },
+    {
+      "check": "independent gradient metrics ('energy_gradient', '7301', 'ood_stretch')",
+      "passed": true
+    },
+    {
+      "check": "independent energy metrics ('energy_only', '7302', 'train')",
+      "passed": true
+    },
+    {
+      "check": "independent gradient metrics ('energy_only', '7302', 'train')",
+      "passed": true
+    },
+    {
+      "check": "independent energy metrics ('energy_only', '7302', 'validation')",
+      "passed": true
+    },
+    {
+      "check": "independent gradient metrics ('energy_only', '7302', 'validation')",
+      "passed": true
+    },
+    {
+      "check": "independent energy metrics ('energy_only', '7302', 'test')",
+      "passed": true
+    },
+    {
+      "check": "independent gradient metrics ('energy_only', '7302', 'test')",
+      "passed": true
+    },
+    {
+      "check": "independent energy metrics ('energy_only', '7302', 'ood_stretch')",
+      "passed": true
+    },
+    {
+      "check": "independent gradient metrics ('energy_only', '7302', 'ood_stretch')",
+      "passed": true
+    },
+    {
+      "check": "independent energy metrics ('energy_gradient', '7302', 'train')",
+      "passed": true
+    },
+    {
+      "check": "independent gradient metrics ('energy_gradient', '7302', 'train')",
+      "passed": true
+    },
+    {
+      "check": "independent energy metrics ('energy_gradient', '7302', 'validation')",
+      "passed": true
+    },
+    {
+      "check": "independent gradient metrics ('energy_gradient', '7302', 'validation')",
+      "passed": true
+    },
+    {
+      "check": "independent energy metrics ('energy_gradient', '7302', 'test')",
+      "passed": true
+    },
+    {
+      "check": "independent gradient metrics ('energy_gradient', '7302', 'test')",
+      "passed": true
+    },
+    {
+      "check": "independent energy metrics ('energy_gradient', '7302', 'ood_stretch')",
+      "passed": true
+    },
+    {
+      "check": "independent gradient metrics ('energy_gradient', '7302', 'ood_stretch')",
+      "passed": true
+    },
+    {
+      "check": "independent energy metrics ('energy_only', '7303', 'train')",
+      "passed": true
+    },
+    {
+      "check": "independent gradient metrics ('energy_only', '7303', 'train')",
+      "passed": true
+    },
+    {
+      "check": "independent energy metrics ('energy_only', '7303', 'validation')",
+      "passed": true
+    },
+    {
+      "check": "independent gradient metrics ('energy_only', '7303', 'validation')",
+      "passed": true
+    },
+    {
+      "check": "independent energy metrics ('energy_only', '7303', 'test')",
+      "passed": true
+    },
+    {
+      "check": "independent gradient metrics ('energy_only', '7303', 'test')",
+      "passed": true
+    },
+    {
+      "check": "independent energy metrics ('energy_only', '7303', 'ood_stretch')",
+      "passed": true
+    },
+    {
+      "check": "independent gradient metrics ('energy_only', '7303', 'ood_stretch')",
+      "passed": true
+    },
+    {
+      "check": "independent energy metrics ('energy_gradient', '7303', 'train')",
+      "passed": true
+    },
+    {
+      "check": "independent gradient metrics ('energy_gradient', '7303', 'train')",
+      "passed": true
+    },
+    {
+      "check": "independent energy metrics ('energy_gradient', '7303', 'validation')",
+      "passed": true
+    },
+    {
+      "check": "independent gradient metrics ('energy_gradient', '7303', 'validation')",
+      "passed": true
+    },
+    {
+      "check": "independent energy metrics ('energy_gradient', '7303', 'test')",
+      "passed": true
+    },
+    {
+      "check": "independent gradient metrics ('energy_gradient', '7303', 'test')",
+      "passed": true
+    },
+    {
+      "check": "independent energy metrics ('energy_gradient', '7303', 'ood_stretch')",
+      "passed": true
+    },
+    {
+      "check": "independent gradient metrics ('energy_gradient', '7303', 'ood_stretch')",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_onlyscan_000",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_onlyscan_001",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_onlyscan_002",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_onlyscan_003",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_onlyscan_004",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_onlyscan_005",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_onlyscan_006",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_onlyscan_007",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_onlyscan_008",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_onlyscan_009",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_onlyscan_010",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_onlyscan_011",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_onlyscan_012",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_onlyscan_013",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_onlyscan_014",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_onlyscan_015",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_onlyscan_016",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_onlyscan_017",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_onlyscan_018",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_onlyscan_019",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_onlyscan_020",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_onlyscan_021",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_onlyscan_022",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_onlyscan_023",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_onlyscan_024",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_onlyscan_025",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_onlyscan_026",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_onlyscan_027",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_onlyscan_028",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_onlyscan_029",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_onlyscan_030",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_onlyscan_031",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_onlyscan_032",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_onlyood_000",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_onlyood_001",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_onlyood_002",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_onlyood_003",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_onlyood_004",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_onlyood_005",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_onlyood_006",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_onlyood_007",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_onlyood_008",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_gradientscan_000",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_gradientscan_001",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_gradientscan_002",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_gradientscan_003",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_gradientscan_004",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_gradientscan_005",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_gradientscan_006",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_gradientscan_007",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_gradientscan_008",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_gradientscan_009",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_gradientscan_010",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_gradientscan_011",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_gradientscan_012",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_gradientscan_013",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_gradientscan_014",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_gradientscan_015",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_gradientscan_016",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_gradientscan_017",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_gradientscan_018",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_gradientscan_019",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_gradientscan_020",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_gradientscan_021",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_gradientscan_022",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_gradientscan_023",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_gradientscan_024",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_gradientscan_025",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_gradientscan_026",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_gradientscan_027",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_gradientscan_028",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_gradientscan_029",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_gradientscan_030",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_gradientscan_031",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_gradientscan_032",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_gradientood_000",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_gradientood_001",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_gradientood_002",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_gradientood_003",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_gradientood_004",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_gradientood_005",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_gradientood_006",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_gradientood_007",
+      "passed": true
+    },
+    {
+      "check": "three-seed ensemble energy_gradientood_008",
+      "passed": true
+    },
+    {
+      "check": "pilot excluded held-out predictions",
+      "passed": true
+    },
+    {
+      "check": "vibration output executed_script.py.txt",
+      "passed": true
+    },
+    {
+      "check": "vibration output fci_curve_residuals.csv",
+      "passed": true
+    },
+    {
+      "check": "vibration output fci_morse_parameterization.json",
+      "passed": true
+    },
+    {
+      "check": "vibration output grid_and_domain_diagnostics.csv",
+      "passed": true
+    },
+    {
+      "check": "vibration output grid_convergence.csv",
+      "passed": true
+    },
+    {
+      "check": "vibration output isotope_levels.csv",
+      "passed": true
+    },
+    {
+      "check": "vibration output isotope_ratios.csv",
+      "passed": true
+    },
+    {
+      "check": "vibration output isotope_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "vibration output model_parameters.json",
+      "passed": true
+    },
+    {
+      "check": "vibration output partition_bound_only.csv",
+      "passed": true
+    },
+    {
+      "check": "vibration output spectrum_analytic_control_D2.npz",
+      "passed": true
+    },
+    {
+      "check": "vibration output spectrum_analytic_control_H2.npz",
+      "passed": true
+    },
+    {
+      "check": "vibration output spectrum_FCI_cc-pvdz_D2.npz",
+      "passed": true
+    },
+    {
+      "check": "vibration output spectrum_FCI_cc-pvdz_H2.npz",
+      "passed": true
+    },
+    {
+      "check": "vibration output spectrum_FCI_sto-3g_D2.npz",
+      "passed": true
+    },
+    {
+      "check": "vibration output spectrum_FCI_sto-3g_H2.npz",
+      "passed": true
+    },
+    {
+      "check": "vibration input quantumequi/results/extensions/correlation/equilibrium_reference.json",
+      "passed": true
+    },
+    {
+      "check": "vibration input quantumequi/results/extensions/correlation/curve.csv",
+      "passed": true
+    },
+    {
+      "check": "vibration executed source",
+      "passed": true
+    },
+    {
+      "check": "vibration/pilot output executed_script.py.txt",
+      "passed": true
+    },
+    {
+      "check": "vibration/pilot output grid_and_domain_diagnostics.csv",
+      "passed": true
+    },
+    {
+      "check": "vibration/pilot output grid_convergence.csv",
+      "passed": true
+    },
+    {
+      "check": "vibration/pilot output isotope_levels.csv",
+      "passed": true
+    },
+    {
+      "check": "vibration/pilot output isotope_ratios.csv",
+      "passed": true
+    },
+    {
+      "check": "vibration/pilot output isotope_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "vibration/pilot output model_parameters.json",
+      "passed": true
+    },
+    {
+      "check": "vibration/pilot output partition_bound_only.csv",
+      "passed": true
+    },
+    {
+      "check": "vibration/pilot output spectrum_analytic_control_D2.npz",
+      "passed": true
+    },
+    {
+      "check": "vibration/pilot output spectrum_analytic_control_H2.npz",
+      "passed": true
+    },
+    {
+      "check": "vibration/pilot executed source",
+      "passed": true
+    },
+    {
+      "check": "vibration/tail_followup output diagnostics.csv",
+      "passed": true
+    },
+    {
+      "check": "vibration/tail_followup output executed_script.py.txt",
+      "passed": true
+    },
+    {
+      "check": "vibration/tail_followup output levels.csv",
+      "passed": true
+    },
+    {
+      "check": "vibration/tail_followup input quantumequi/results/extensions/vibration/model_parameters.json",
+      "passed": true
+    },
+    {
+      "check": "vibration/tail_followup executed source",
+      "passed": true
+    },
+    {
+      "check": "current vibration code frozen",
+      "passed": true
+    },
+    {
+      "check": "six isotope-model summaries",
+      "passed": true
+    },
+    {
+      "check": "spectrum identities analytic_controlH2",
+      "passed": true
+    },
+    {
+      "check": "spectrum identities analytic_controlD2",
+      "passed": true
+    },
+    {
+      "check": "spectrum identities FCI_sto-3gH2",
+      "passed": true
+    },
+    {
+      "check": "spectrum identities FCI_sto-3gD2",
+      "passed": true
+    },
+    {
+      "check": "spectrum identities FCI_cc-pvdzH2",
+      "passed": true
+    },
+    {
+      "check": "spectrum identities FCI_cc-pvdzD2",
+      "passed": true
+    },
+    {
+      "check": "independent bound-state partition analytic_controlH2100.0",
+      "passed": true
+    },
+    {
+      "check": "independent bound-state partition analytic_controlH2298.15",
+      "passed": true
+    },
+    {
+      "check": "independent bound-state partition analytic_controlH2600.0",
+      "passed": true
+    },
+    {
+      "check": "independent bound-state partition analytic_controlH21000.0",
+      "passed": true
+    },
+    {
+      "check": "independent bound-state partition analytic_controlH22000.0",
+      "passed": true
+    },
+    {
+      "check": "independent bound-state partition analytic_controlH24000.0",
+      "passed": true
+    },
+    {
+      "check": "independent bound-state partition analytic_controlD2100.0",
+      "passed": true
+    },
+    {
+      "check": "independent bound-state partition analytic_controlD2298.15",
+      "passed": true
+    },
+    {
+      "check": "independent bound-state partition analytic_controlD2600.0",
+      "passed": true
+    },
+    {
+      "check": "independent bound-state partition analytic_controlD21000.0",
+      "passed": true
+    },
+    {
+      "check": "independent bound-state partition analytic_controlD22000.0",
+      "passed": true
+    },
+    {
+      "check": "independent bound-state partition analytic_controlD24000.0",
+      "passed": true
+    },
+    {
+      "check": "independent bound-state partition FCI_sto-3gH2100.0",
+      "passed": true
+    },
+    {
+      "check": "independent bound-state partition FCI_sto-3gH2298.15",
+      "passed": true
+    },
+    {
+      "check": "independent bound-state partition FCI_sto-3gH2600.0",
+      "passed": true
+    },
+    {
+      "check": "independent bound-state partition FCI_sto-3gH21000.0",
+      "passed": true
+    },
+    {
+      "check": "independent bound-state partition FCI_sto-3gH22000.0",
+      "passed": true
+    },
+    {
+      "check": "independent bound-state partition FCI_sto-3gH24000.0",
+      "passed": true
+    },
+    {
+      "check": "independent bound-state partition FCI_sto-3gD2100.0",
+      "passed": true
+    },
+    {
+      "check": "independent bound-state partition FCI_sto-3gD2298.15",
+      "passed": true
+    },
+    {
+      "check": "independent bound-state partition FCI_sto-3gD2600.0",
+      "passed": true
+    },
+    {
+      "check": "independent bound-state partition FCI_sto-3gD21000.0",
+      "passed": true
+    },
+    {
+      "check": "independent bound-state partition FCI_sto-3gD22000.0",
+      "passed": true
+    },
+    {
+      "check": "independent bound-state partition FCI_sto-3gD24000.0",
+      "passed": true
+    },
+    {
+      "check": "independent bound-state partition FCI_cc-pvdzH2100.0",
+      "passed": true
+    },
+    {
+      "check": "independent bound-state partition FCI_cc-pvdzH2298.15",
+      "passed": true
+    },
+    {
+      "check": "independent bound-state partition FCI_cc-pvdzH2600.0",
+      "passed": true
+    },
+    {
+      "check": "independent bound-state partition FCI_cc-pvdzH21000.0",
+      "passed": true
+    },
+    {
+      "check": "independent bound-state partition FCI_cc-pvdzH22000.0",
+      "passed": true
+    },
+    {
+      "check": "independent bound-state partition FCI_cc-pvdzH24000.0",
+      "passed": true
+    },
+    {
+      "check": "independent bound-state partition FCI_cc-pvdzD2100.0",
+      "passed": true
+    },
+    {
+      "check": "independent bound-state partition FCI_cc-pvdzD2298.15",
+      "passed": true
+    },
+    {
+      "check": "independent bound-state partition FCI_cc-pvdzD2600.0",
+      "passed": true
+    },
+    {
+      "check": "independent bound-state partition FCI_cc-pvdzD21000.0",
+      "passed": true
+    },
+    {
+      "check": "independent bound-state partition FCI_cc-pvdzD22000.0",
+      "passed": true
+    },
+    {
+      "check": "independent bound-state partition FCI_cc-pvdzD24000.0",
+      "passed": true
+    },
+    {
+      "check": "error budget input scripts/error_budget_extension.py",
+      "passed": true
+    },
+    {
+      "check": "error budget input results/extensions/learning/predictions.csv",
+      "passed": true
+    },
+    {
+      "check": "error budget input results/extensions/correlation/curve.csv",
+      "passed": true
+    },
+    {
+      "check": "error budget input results/electronic/h2_reference.csv",
+      "passed": true
+    },
+    {
+      "check": "error budget output matched_error_components.csv",
+      "passed": true
+    },
+    {
+      "check": "matched geometry arithmetic rows",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_only7301scan_000",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_only7301scan_000",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_only7301scan_001",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_only7301scan_001",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_only7301scan_002",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_only7301scan_002",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_only7301scan_003",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_only7301scan_003",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_only7301scan_004",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_only7301scan_004",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_only7301scan_005",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_only7301scan_005",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_only7301scan_006",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_only7301scan_006",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_only7301scan_007",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_only7301scan_007",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_only7301scan_008",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_only7301scan_008",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_only7301scan_011",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_only7301scan_011",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_only7301scan_015",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_only7301scan_015",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_only7301scan_019",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_only7301scan_019",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_only7301scan_020",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_only7301scan_020",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_only7301scan_023",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_only7301scan_023",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_only7301scan_027",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_only7301scan_027",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_only7301scan_031",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_only7301scan_031",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_only7301ood_000",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_only7301ood_000",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_only7301ood_002",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_only7301ood_002",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_only7301ood_004",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_only7301ood_004",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_only7301ood_006",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_only7301ood_006",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_only7301ood_008",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_only7301ood_008",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_gradient7301scan_000",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_gradient7301scan_000",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_gradient7301scan_001",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_gradient7301scan_001",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_gradient7301scan_002",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_gradient7301scan_002",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_gradient7301scan_003",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_gradient7301scan_003",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_gradient7301scan_004",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_gradient7301scan_004",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_gradient7301scan_005",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_gradient7301scan_005",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_gradient7301scan_006",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_gradient7301scan_006",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_gradient7301scan_007",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_gradient7301scan_007",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_gradient7301scan_008",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_gradient7301scan_008",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_gradient7301scan_011",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_gradient7301scan_011",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_gradient7301scan_015",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_gradient7301scan_015",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_gradient7301scan_019",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_gradient7301scan_019",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_gradient7301scan_020",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_gradient7301scan_020",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_gradient7301scan_023",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_gradient7301scan_023",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_gradient7301scan_027",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_gradient7301scan_027",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_gradient7301scan_031",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_gradient7301scan_031",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_gradient7301ood_000",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_gradient7301ood_000",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_gradient7301ood_002",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_gradient7301ood_002",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_gradient7301ood_004",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_gradient7301ood_004",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_gradient7301ood_006",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_gradient7301ood_006",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_gradient7301ood_008",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_gradient7301ood_008",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_only7302scan_000",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_only7302scan_000",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_only7302scan_001",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_only7302scan_001",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_only7302scan_002",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_only7302scan_002",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_only7302scan_003",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_only7302scan_003",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_only7302scan_004",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_only7302scan_004",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_only7302scan_005",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_only7302scan_005",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_only7302scan_006",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_only7302scan_006",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_only7302scan_007",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_only7302scan_007",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_only7302scan_008",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_only7302scan_008",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_only7302scan_011",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_only7302scan_011",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_only7302scan_015",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_only7302scan_015",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_only7302scan_019",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_only7302scan_019",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_only7302scan_020",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_only7302scan_020",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_only7302scan_023",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_only7302scan_023",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_only7302scan_027",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_only7302scan_027",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_only7302scan_031",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_only7302scan_031",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_only7302ood_000",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_only7302ood_000",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_only7302ood_002",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_only7302ood_002",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_only7302ood_004",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_only7302ood_004",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_only7302ood_006",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_only7302ood_006",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_only7302ood_008",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_only7302ood_008",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_gradient7302scan_000",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_gradient7302scan_000",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_gradient7302scan_001",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_gradient7302scan_001",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_gradient7302scan_002",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_gradient7302scan_002",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_gradient7302scan_003",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_gradient7302scan_003",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_gradient7302scan_004",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_gradient7302scan_004",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_gradient7302scan_005",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_gradient7302scan_005",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_gradient7302scan_006",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_gradient7302scan_006",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_gradient7302scan_007",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_gradient7302scan_007",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_gradient7302scan_008",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_gradient7302scan_008",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_gradient7302scan_011",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_gradient7302scan_011",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_gradient7302scan_015",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_gradient7302scan_015",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_gradient7302scan_019",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_gradient7302scan_019",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_gradient7302scan_020",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_gradient7302scan_020",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_gradient7302scan_023",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_gradient7302scan_023",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_gradient7302scan_027",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_gradient7302scan_027",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_gradient7302scan_031",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_gradient7302scan_031",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_gradient7302ood_000",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_gradient7302ood_000",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_gradient7302ood_002",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_gradient7302ood_002",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_gradient7302ood_004",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_gradient7302ood_004",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_gradient7302ood_006",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_gradient7302ood_006",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_gradient7302ood_008",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_gradient7302ood_008",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_only7303scan_000",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_only7303scan_000",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_only7303scan_001",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_only7303scan_001",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_only7303scan_002",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_only7303scan_002",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_only7303scan_003",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_only7303scan_003",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_only7303scan_004",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_only7303scan_004",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_only7303scan_005",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_only7303scan_005",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_only7303scan_006",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_only7303scan_006",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_only7303scan_007",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_only7303scan_007",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_only7303scan_008",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_only7303scan_008",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_only7303scan_011",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_only7303scan_011",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_only7303scan_015",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_only7303scan_015",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_only7303scan_019",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_only7303scan_019",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_only7303scan_020",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_only7303scan_020",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_only7303scan_023",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_only7303scan_023",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_only7303scan_027",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_only7303scan_027",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_only7303scan_031",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_only7303scan_031",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_only7303ood_000",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_only7303ood_000",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_only7303ood_002",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_only7303ood_002",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_only7303ood_004",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_only7303ood_004",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_only7303ood_006",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_only7303ood_006",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_only7303ood_008",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_only7303ood_008",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_gradient7303scan_000",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_gradient7303scan_000",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_gradient7303scan_001",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_gradient7303scan_001",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_gradient7303scan_002",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_gradient7303scan_002",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_gradient7303scan_003",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_gradient7303scan_003",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_gradient7303scan_004",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_gradient7303scan_004",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_gradient7303scan_005",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_gradient7303scan_005",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_gradient7303scan_006",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_gradient7303scan_006",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_gradient7303scan_007",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_gradient7303scan_007",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_gradient7303scan_008",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_gradient7303scan_008",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_gradient7303scan_011",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_gradient7303scan_011",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_gradient7303scan_015",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_gradient7303scan_015",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_gradient7303scan_019",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_gradient7303scan_019",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_gradient7303scan_020",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_gradient7303scan_020",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_gradient7303scan_023",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_gradient7303scan_023",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_gradient7303scan_027",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_gradient7303scan_027",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_gradient7303scan_031",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_gradient7303scan_031",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_gradient7303ood_000",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_gradient7303ood_000",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_gradient7303ood_002",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_gradient7303ood_002",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_gradient7303ood_004",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_gradient7303ood_004",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_gradient7303ood_006",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_gradient7303ood_006",
+      "passed": true
+    },
+    {
+      "check": "energy-error identity energy_gradient7303ood_008",
+      "passed": true
+    },
+    {
+      "check": "independent four-energy reconstruction energy_gradient7303ood_008",
+      "passed": true
+    },
+    {
+      "check": "28 static figures",
+      "passed": true
+    },
+    {
+      "check": "current plotting code",
+      "passed": true
+    },
+    {
+      "check": "figure Ext1_Dissociation_english.png",
+      "passed": true
+    },
+    {
+      "check": "Ext1_Dissociation_english.png data correlation/curve.csv",
+      "passed": true
+    },
+    {
+      "check": "PNG layout Ext1_Dissociation_english.png",
+      "passed": true
+    },
+    {
+      "check": "figure Ext1_Dissociation_english.svg",
+      "passed": true
+    },
+    {
+      "check": "Ext1_Dissociation_english.svg data correlation/curve.csv",
+      "passed": true
+    },
+    {
+      "check": "editable SVG Ext1_Dissociation_english.svg",
+      "passed": true
+    },
+    {
+      "check": "figure Ext2_Correlation_Spin_english.png",
+      "passed": true
+    },
+    {
+      "check": "Ext2_Correlation_Spin_english.png data correlation/curve.csv",
+      "passed": true
+    },
+    {
+      "check": "PNG layout Ext2_Correlation_Spin_english.png",
+      "passed": true
+    },
+    {
+      "check": "figure Ext2_Correlation_Spin_english.svg",
+      "passed": true
+    },
+    {
+      "check": "Ext2_Correlation_Spin_english.svg data correlation/curve.csv",
+      "passed": true
+    },
+    {
+      "check": "editable SVG Ext2_Correlation_Spin_english.svg",
+      "passed": true
+    },
+    {
+      "check": "figure Ext3_Learning_english.png",
+      "passed": true
+    },
+    {
+      "check": "Ext3_Learning_english.png data learning/learning_curves.csv",
+      "passed": true
+    },
+    {
+      "check": "Ext3_Learning_english.png data learning/ensemble_predictions.csv",
+      "passed": true
+    },
+    {
+      "check": "Ext3_Learning_english.png data learning/predictions.csv",
+      "passed": true
+    },
+    {
+      "check": "PNG layout Ext3_Learning_english.png",
+      "passed": true
+    },
+    {
+      "check": "figure Ext3_Learning_english.svg",
+      "passed": true
+    },
+    {
+      "check": "Ext3_Learning_english.svg data learning/learning_curves.csv",
+      "passed": true
+    },
+    {
+      "check": "Ext3_Learning_english.svg data learning/ensemble_predictions.csv",
+      "passed": true
+    },
+    {
+      "check": "Ext3_Learning_english.svg data learning/predictions.csv",
+      "passed": true
+    },
+    {
+      "check": "editable SVG Ext3_Learning_english.svg",
+      "passed": true
+    },
+    {
+      "check": "figure Ext4_Generalization_english.png",
+      "passed": true
+    },
+    {
+      "check": "Ext4_Generalization_english.png data learning/metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "Ext4_Generalization_english.png data ../electronic/surrogate_metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "PNG layout Ext4_Generalization_english.png",
+      "passed": true
+    },
+    {
+      "check": "figure Ext4_Generalization_english.svg",
+      "passed": true
+    },
+    {
+      "check": "Ext4_Generalization_english.svg data learning/metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "Ext4_Generalization_english.svg data ../electronic/surrogate_metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "editable SVG Ext4_Generalization_english.svg",
+      "passed": true
+    },
+    {
+      "check": "figure Ext5_Anharmonic_Levels_english.png",
+      "passed": true
+    },
+    {
+      "check": "Ext5_Anharmonic_Levels_english.png data vibration/model_parameters.json",
+      "passed": true
+    },
+    {
+      "check": "Ext5_Anharmonic_Levels_english.png data vibration/isotope_levels.csv",
+      "passed": true
+    },
+    {
+      "check": "PNG layout Ext5_Anharmonic_Levels_english.png",
+      "passed": true
+    },
+    {
+      "check": "figure Ext5_Anharmonic_Levels_english.svg",
+      "passed": true
+    },
+    {
+      "check": "Ext5_Anharmonic_Levels_english.svg data vibration/model_parameters.json",
+      "passed": true
+    },
+    {
+      "check": "Ext5_Anharmonic_Levels_english.svg data vibration/isotope_levels.csv",
+      "passed": true
+    },
+    {
+      "check": "editable SVG Ext5_Anharmonic_Levels_english.svg",
+      "passed": true
+    },
+    {
+      "check": "figure Ext6_Numerical_Limits_english.png",
+      "passed": true
+    },
+    {
+      "check": "Ext6_Numerical_Limits_english.png data vibration/grid_and_domain_diagnostics.csv",
+      "passed": true
+    },
+    {
+      "check": "Ext6_Numerical_Limits_english.png data vibration/partition_bound_only.csv",
+      "passed": true
+    },
+    {
+      "check": "PNG layout Ext6_Numerical_Limits_english.png",
+      "passed": true
+    },
+    {
+      "check": "figure Ext6_Numerical_Limits_english.svg",
+      "passed": true
+    },
+    {
+      "check": "Ext6_Numerical_Limits_english.svg data vibration/grid_and_domain_diagnostics.csv",
+      "passed": true
+    },
+    {
+      "check": "Ext6_Numerical_Limits_english.svg data vibration/partition_bound_only.csv",
+      "passed": true
+    },
+    {
+      "check": "editable SVG Ext6_Numerical_Limits_english.svg",
+      "passed": true
+    },
+    {
+      "check": "figure Ext7_Error_Budget_english.png",
+      "passed": true
+    },
+    {
+      "check": "Ext7_Error_Budget_english.png data error_budget/matched_error_components.csv",
+      "passed": true
+    },
+    {
+      "check": "PNG layout Ext7_Error_Budget_english.png",
+      "passed": true
+    },
+    {
+      "check": "figure Ext7_Error_Budget_english.svg",
+      "passed": true
+    },
+    {
+      "check": "Ext7_Error_Budget_english.svg data error_budget/matched_error_components.csv",
+      "passed": true
+    },
+    {
+      "check": "editable SVG Ext7_Error_Budget_english.svg",
+      "passed": true
+    },
+    {
+      "check": "figure Ext1_Dissociation_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "Ext1_Dissociation_chinese.png data correlation/curve.csv",
+      "passed": true
+    },
+    {
+      "check": "PNG layout Ext1_Dissociation_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "figure Ext1_Dissociation_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "Ext1_Dissociation_chinese.svg data correlation/curve.csv",
+      "passed": true
+    },
+    {
+      "check": "editable SVG Ext1_Dissociation_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "figure Ext2_Correlation_Spin_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "Ext2_Correlation_Spin_chinese.png data correlation/curve.csv",
+      "passed": true
+    },
+    {
+      "check": "PNG layout Ext2_Correlation_Spin_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "figure Ext2_Correlation_Spin_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "Ext2_Correlation_Spin_chinese.svg data correlation/curve.csv",
+      "passed": true
+    },
+    {
+      "check": "editable SVG Ext2_Correlation_Spin_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "figure Ext3_Learning_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "Ext3_Learning_chinese.png data learning/learning_curves.csv",
+      "passed": true
+    },
+    {
+      "check": "Ext3_Learning_chinese.png data learning/ensemble_predictions.csv",
+      "passed": true
+    },
+    {
+      "check": "Ext3_Learning_chinese.png data learning/predictions.csv",
+      "passed": true
+    },
+    {
+      "check": "PNG layout Ext3_Learning_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "figure Ext3_Learning_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "Ext3_Learning_chinese.svg data learning/learning_curves.csv",
+      "passed": true
+    },
+    {
+      "check": "Ext3_Learning_chinese.svg data learning/ensemble_predictions.csv",
+      "passed": true
+    },
+    {
+      "check": "Ext3_Learning_chinese.svg data learning/predictions.csv",
+      "passed": true
+    },
+    {
+      "check": "editable SVG Ext3_Learning_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "figure Ext4_Generalization_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "Ext4_Generalization_chinese.png data learning/metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "Ext4_Generalization_chinese.png data ../electronic/surrogate_metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "PNG layout Ext4_Generalization_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "figure Ext4_Generalization_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "Ext4_Generalization_chinese.svg data learning/metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "Ext4_Generalization_chinese.svg data ../electronic/surrogate_metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "editable SVG Ext4_Generalization_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "figure Ext5_Anharmonic_Levels_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "Ext5_Anharmonic_Levels_chinese.png data vibration/model_parameters.json",
+      "passed": true
+    },
+    {
+      "check": "Ext5_Anharmonic_Levels_chinese.png data vibration/isotope_levels.csv",
+      "passed": true
+    },
+    {
+      "check": "PNG layout Ext5_Anharmonic_Levels_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "figure Ext5_Anharmonic_Levels_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "Ext5_Anharmonic_Levels_chinese.svg data vibration/model_parameters.json",
+      "passed": true
+    },
+    {
+      "check": "Ext5_Anharmonic_Levels_chinese.svg data vibration/isotope_levels.csv",
+      "passed": true
+    },
+    {
+      "check": "editable SVG Ext5_Anharmonic_Levels_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "figure Ext6_Numerical_Limits_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "Ext6_Numerical_Limits_chinese.png data vibration/grid_and_domain_diagnostics.csv",
+      "passed": true
+    },
+    {
+      "check": "Ext6_Numerical_Limits_chinese.png data vibration/partition_bound_only.csv",
+      "passed": true
+    },
+    {
+      "check": "PNG layout Ext6_Numerical_Limits_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "figure Ext6_Numerical_Limits_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "Ext6_Numerical_Limits_chinese.svg data vibration/grid_and_domain_diagnostics.csv",
+      "passed": true
+    },
+    {
+      "check": "Ext6_Numerical_Limits_chinese.svg data vibration/partition_bound_only.csv",
+      "passed": true
+    },
+    {
+      "check": "editable SVG Ext6_Numerical_Limits_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "figure Ext7_Error_Budget_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "Ext7_Error_Budget_chinese.png data error_budget/matched_error_components.csv",
+      "passed": true
+    },
+    {
+      "check": "PNG layout Ext7_Error_Budget_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "figure Ext7_Error_Budget_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "Ext7_Error_Budget_chinese.svg data error_budget/matched_error_components.csv",
+      "passed": true
+    },
+    {
+      "check": "editable SVG Ext7_Error_Budget_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "all static figures visually reviewed",
+      "passed": true
+    },
+    {
+      "check": "explorer input results/extensions/correlation/curve.csv",
+      "passed": true
+    },
+    {
+      "check": "explorer input scripts/quantum_explorer_template.html",
+      "passed": true
+    },
+    {
+      "check": "explorer input scripts/build_explorer.py",
+      "passed": true
+    },
+    {
+      "check": "explorer output",
+      "passed": true
+    },
+    {
+      "check": "embedded quantum point identities",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('sto-3g', 'RHF', 0.5)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('sto-3g', 'UHF', 0.5)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('sto-3g', 'FCI', 0.5)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('sto-3g', 'RHF', 0.54)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('sto-3g', 'UHF', 0.54)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('sto-3g', 'FCI', 0.54)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('sto-3g', 'RHF', 0.58)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('sto-3g', 'UHF', 0.58)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('sto-3g', 'FCI', 0.58)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('sto-3g', 'RHF', 0.62)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('sto-3g', 'UHF', 0.62)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('sto-3g', 'FCI', 0.62)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('sto-3g', 'RHF', 0.66)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('sto-3g', 'UHF', 0.66)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('sto-3g', 'FCI', 0.66)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('sto-3g', 'RHF', 0.7)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('sto-3g', 'UHF', 0.7)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('sto-3g', 'FCI', 0.7)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('sto-3g', 'RHF', 0.74)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('sto-3g', 'UHF', 0.74)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('sto-3g', 'FCI', 0.74)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('sto-3g', 'RHF', 0.78)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('sto-3g', 'UHF', 0.78)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('sto-3g', 'FCI', 0.78)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('sto-3g', 'RHF', 0.82)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('sto-3g', 'UHF', 0.82)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('sto-3g', 'FCI', 0.82)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('sto-3g', 'RHF', 0.94)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('sto-3g', 'UHF', 0.94)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('sto-3g', 'FCI', 0.94)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('sto-3g', 'RHF', 1.1)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('sto-3g', 'UHF', 1.1)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('sto-3g', 'FCI', 1.1)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('sto-3g', 'RHF', 1.26)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('sto-3g', 'UHF', 1.26)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('sto-3g', 'FCI', 1.26)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('sto-3g', 'RHF', 1.3)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('sto-3g', 'UHF', 1.3)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('sto-3g', 'FCI', 1.3)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('sto-3g', 'RHF', 1.42)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('sto-3g', 'UHF', 1.42)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('sto-3g', 'FCI', 1.42)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('sto-3g', 'RHF', 1.58)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('sto-3g', 'UHF', 1.58)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('sto-3g', 'FCI', 1.58)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('sto-3g', 'RHF', 1.74)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('sto-3g', 'UHF', 1.74)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('sto-3g', 'FCI', 1.74)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('sto-3g', 'RHF', 1.8)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('sto-3g', 'UHF', 1.8)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('sto-3g', 'FCI', 1.8)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('sto-3g', 'RHF', 1.9)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('sto-3g', 'UHF', 1.9)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('sto-3g', 'FCI', 1.9)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('sto-3g', 'RHF', 2.1)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('sto-3g', 'UHF', 2.1)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('sto-3g', 'FCI', 2.1)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('sto-3g', 'RHF', 2.3)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('sto-3g', 'UHF', 2.3)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('sto-3g', 'FCI', 2.3)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('sto-3g', 'RHF', 2.5)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('sto-3g', 'UHF', 2.5)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('sto-3g', 'FCI', 2.5)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('sto-3g', 'RHF', 2.7)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('sto-3g', 'UHF', 2.7)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('sto-3g', 'FCI', 2.7)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('sto-3g', 'RHF', 3.0)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('sto-3g', 'UHF', 3.0)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('sto-3g', 'FCI', 3.0)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('sto-3g', 'RHF', 3.5)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('sto-3g', 'UHF', 3.5)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('sto-3g', 'FCI', 3.5)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('sto-3g', 'RHF', 4.0)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('sto-3g', 'UHF', 4.0)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('sto-3g', 'FCI', 4.0)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('cc-pvdz', 'RHF', 0.5)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('cc-pvdz', 'UHF', 0.5)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('cc-pvdz', 'FCI', 0.5)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('cc-pvdz', 'RHF', 0.54)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('cc-pvdz', 'UHF', 0.54)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('cc-pvdz', 'FCI', 0.54)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('cc-pvdz', 'RHF', 0.58)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('cc-pvdz', 'UHF', 0.58)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('cc-pvdz', 'FCI', 0.58)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('cc-pvdz', 'RHF', 0.62)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('cc-pvdz', 'UHF', 0.62)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('cc-pvdz', 'FCI', 0.62)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('cc-pvdz', 'RHF', 0.66)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('cc-pvdz', 'UHF', 0.66)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('cc-pvdz', 'FCI', 0.66)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('cc-pvdz', 'RHF', 0.7)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('cc-pvdz', 'UHF', 0.7)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('cc-pvdz', 'FCI', 0.7)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('cc-pvdz', 'RHF', 0.74)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('cc-pvdz', 'UHF', 0.74)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('cc-pvdz', 'FCI', 0.74)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('cc-pvdz', 'RHF', 0.78)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('cc-pvdz', 'UHF', 0.78)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('cc-pvdz', 'FCI', 0.78)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('cc-pvdz', 'RHF', 0.82)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('cc-pvdz', 'UHF', 0.82)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('cc-pvdz', 'FCI', 0.82)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('cc-pvdz', 'RHF', 0.94)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('cc-pvdz', 'UHF', 0.94)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('cc-pvdz', 'FCI', 0.94)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('cc-pvdz', 'RHF', 1.1)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('cc-pvdz', 'UHF', 1.1)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('cc-pvdz', 'FCI', 1.1)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('cc-pvdz', 'RHF', 1.26)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('cc-pvdz', 'UHF', 1.26)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('cc-pvdz', 'FCI', 1.26)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('cc-pvdz', 'RHF', 1.3)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('cc-pvdz', 'UHF', 1.3)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('cc-pvdz', 'FCI', 1.3)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('cc-pvdz', 'RHF', 1.42)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('cc-pvdz', 'UHF', 1.42)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('cc-pvdz', 'FCI', 1.42)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('cc-pvdz', 'RHF', 1.58)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('cc-pvdz', 'UHF', 1.58)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('cc-pvdz', 'FCI', 1.58)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('cc-pvdz', 'RHF', 1.74)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('cc-pvdz', 'UHF', 1.74)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('cc-pvdz', 'FCI', 1.74)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('cc-pvdz', 'RHF', 1.8)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('cc-pvdz', 'UHF', 1.8)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('cc-pvdz', 'FCI', 1.8)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('cc-pvdz', 'RHF', 1.9)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('cc-pvdz', 'UHF', 1.9)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('cc-pvdz', 'FCI', 1.9)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('cc-pvdz', 'RHF', 2.1)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('cc-pvdz', 'UHF', 2.1)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('cc-pvdz', 'FCI', 2.1)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('cc-pvdz', 'RHF', 2.3)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('cc-pvdz', 'UHF', 2.3)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('cc-pvdz', 'FCI', 2.3)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('cc-pvdz', 'RHF', 2.5)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('cc-pvdz', 'UHF', 2.5)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('cc-pvdz', 'FCI', 2.5)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('cc-pvdz', 'RHF', 2.7)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('cc-pvdz', 'UHF', 2.7)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('cc-pvdz', 'FCI', 2.7)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('cc-pvdz', 'RHF', 3.0)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('cc-pvdz', 'UHF', 3.0)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('cc-pvdz', 'FCI', 3.0)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('cc-pvdz', 'RHF', 3.5)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('cc-pvdz', 'UHF', 3.5)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('cc-pvdz', 'FCI', 3.5)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('cc-pvdz', 'RHF', 4.0)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('cc-pvdz', 'UHF', 4.0)",
+      "passed": true
+    },
+    {
+      "check": "embedded energy and spin ('cc-pvdz', 'FCI', 4.0)",
+      "passed": true
+    },
+    {
+      "check": "interactive page reviewed",
+      "passed": true
+    },
+    {
+      "check": "english six sections",
+      "passed": true
+    },
+    {
+      "check": "english seven PNG and SVG links",
+      "passed": true
+    },
+    {
+      "check": "english balanced code",
+      "passed": true
+    },
+    {
+      "check": "english link ../EXTENSIONS.md",
+      "passed": true
+    },
+    {
+      "check": "english link ../results/extensions/validation.json",
+      "passed": true
+    },
+    {
+      "check": "english link ../results/extensions/figure_qa.json",
+      "passed": true
+    },
+    {
+      "check": "english link figures/extensions/Ext1_Dissociation_english.png",
+      "passed": true
+    },
+    {
+      "check": "english link figures/extensions/Ext1_Dissociation_english.svg",
+      "passed": true
+    },
+    {
+      "check": "english link figures/extensions/Ext2_Correlation_Spin_english.png",
+      "passed": true
+    },
+    {
+      "check": "english link figures/extensions/Ext2_Correlation_Spin_english.svg",
+      "passed": true
+    },
+    {
+      "check": "english link figures/extensions/Ext3_Learning_english.png",
+      "passed": true
+    },
+    {
+      "check": "english link figures/extensions/Ext3_Learning_english.svg",
+      "passed": true
+    },
+    {
+      "check": "english link figures/extensions/Ext4_Generalization_english.png",
+      "passed": true
+    },
+    {
+      "check": "english link figures/extensions/Ext4_Generalization_english.svg",
+      "passed": true
+    },
+    {
+      "check": "english link figures/extensions/Ext7_Error_Budget_english.png",
+      "passed": true
+    },
+    {
+      "check": "english link figures/extensions/Ext7_Error_Budget_english.svg",
+      "passed": true
+    },
+    {
+      "check": "english link figures/extensions/Ext5_Anharmonic_Levels_english.png",
+      "passed": true
+    },
+    {
+      "check": "english link figures/extensions/Ext5_Anharmonic_Levels_english.svg",
+      "passed": true
+    },
+    {
+      "check": "english link figures/extensions/Ext6_Numerical_Limits_english.png",
+      "passed": true
+    },
+    {
+      "check": "english link figures/extensions/Ext6_Numerical_Limits_english.svg",
+      "passed": true
+    },
+    {
+      "check": "english link quantum_explorer.html",
+      "passed": true
+    },
+    {
+      "check": "english link ../correlation_extension_notes.md",
+      "passed": true
+    },
+    {
+      "check": "english link ../learning_extension_notes.md",
+      "passed": true
+    },
+    {
+      "check": "english link ../vibration_extension_notes.md",
+      "passed": true
+    },
+    {
+      "check": "english link ../results/extensions/explorer_qa.json",
+      "passed": true
+    },
+    {
+      "check": "english link ../results/extensions/cross_review.json",
+      "passed": true
+    },
+    {
+      "check": "chinese six sections",
+      "passed": true
+    },
+    {
+      "check": "chinese seven PNG and SVG links",
+      "passed": true
+    },
+    {
+      "check": "chinese balanced code",
+      "passed": true
+    },
+    {
+      "check": "chinese link ../EXTENSIONS.md",
+      "passed": true
+    },
+    {
+      "check": "chinese link ../results/extensions/validation.json",
+      "passed": true
+    },
+    {
+      "check": "chinese link ../results/extensions/figure_qa.json",
+      "passed": true
+    },
+    {
+      "check": "chinese link figures/extensions/Ext1_Dissociation_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "chinese link figures/extensions/Ext1_Dissociation_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "chinese link figures/extensions/Ext2_Correlation_Spin_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "chinese link figures/extensions/Ext2_Correlation_Spin_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "chinese link figures/extensions/Ext3_Learning_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "chinese link figures/extensions/Ext3_Learning_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "chinese link figures/extensions/Ext4_Generalization_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "chinese link figures/extensions/Ext4_Generalization_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "chinese link figures/extensions/Ext7_Error_Budget_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "chinese link figures/extensions/Ext7_Error_Budget_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "chinese link figures/extensions/Ext5_Anharmonic_Levels_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "chinese link figures/extensions/Ext5_Anharmonic_Levels_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "chinese link figures/extensions/Ext6_Numerical_Limits_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "chinese link figures/extensions/Ext6_Numerical_Limits_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "chinese link quantum_explorer.html",
+      "passed": true
+    },
+    {
+      "check": "chinese link ../correlation_extension_notes.md",
+      "passed": true
+    },
+    {
+      "check": "chinese link ../learning_extension_notes.md",
+      "passed": true
+    },
+    {
+      "check": "chinese link ../vibration_extension_notes.md",
+      "passed": true
+    },
+    {
+      "check": "chinese link ../results/extensions/explorer_qa.json",
+      "passed": true
+    },
+    {
+      "check": "chinese link ../results/extensions/cross_review.json",
+      "passed": true
+    },
+    {
+      "check": "bilingual table numerical parity",
+      "passed": true
+    },
+    {
+      "check": "English report has no Chinese prose",
+      "passed": true
+    },
+    {
+      "check": "cross-review no unresolved blockers",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/atomic_reference.csv",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/curvature_points.csv",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/curve.csv",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/energy_driver_jobs.json",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/equilibrium_reference.json",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/executed_code.py.txt",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/execution.json",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/log_provenance.json",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0000_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0001_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0002_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0003_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0004_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0005_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0006_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0007_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0008_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0009_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0010_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0011_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0012_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0013_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0014_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0015_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0016_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0017_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0018_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0019_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0020_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0021_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0022_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0023_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0024_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0025_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0026_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0027_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0028_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0029_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0030_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0031_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0032_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0033_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0034_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0035_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0036_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0037_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0038_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0039_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0040_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0041_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0042_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0043_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0044_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0045_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0046_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0047_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0048_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0049_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0050_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0051_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0052_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0053_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0054_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0055_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0056_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0057_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0058_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0059_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0060_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0061_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0062_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0063_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0064_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0065_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0066_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0067_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0068_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0069_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0070_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0071_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0072_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0073_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0074_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0075_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0076_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0077_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0078_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0079_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0080_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0081_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0082_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0083_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0084_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0085_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0086_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0087_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0088_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0089_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0090_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0091_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0092_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0093_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0094_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0095_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0096_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0097_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0098_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0099_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0100_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0101_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0102_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0103_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0104_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0105_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0106_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0107_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0108_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0109_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0110_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0111_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0112_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0113_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0114_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0115_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0116_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0117_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0118_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0119_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0120_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0121_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0122_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0123_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0124_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0125_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0126_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0127_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0128_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0129_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0130_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0131_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0132_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0133_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0134_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0135_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0136_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0137_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0138_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0139_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0140_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0141_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0142_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0143_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0144_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0145_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0146_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0147_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0148_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0149_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0150_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0151_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0152_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0153_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0154_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0155_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0156_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0157_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0158_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0159_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0160_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0161_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0162_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0163_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0164_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0165_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0166_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0167_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0168_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0169_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0170_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0171_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0172_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0173_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0174_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0175_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0176_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0177_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0178_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0179_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0180_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0181_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/logs/j0182_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/method_comparison.csv",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/pilot/atomic_reference.csv",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/pilot/curve.csv",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/pilot/energy_driver_jobs.json",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/pilot/executed_code.py.txt",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/pilot/execution.json",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/pilot/log_provenance.json",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/pilot/logs/j0000_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/pilot/logs/j0001_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/pilot/logs/j0002_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/pilot/logs/j0003_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/pilot/logs/j0004_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/pilot/logs/j0005_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/pilot/logs/j0006_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/pilot/logs/j0007_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/pilot/logs/j0008_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/pilot/logs/j0009_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/pilot/logs/j0010_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/pilot/logs/j0011_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/pilot/logs/j0012_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/pilot/logs/j0013_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/pilot/logs/j0014_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/pilot/logs/j0015_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/pilot/logs/j0016_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/pilot/logs/j0017_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/pilot/logs/j0018_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/pilot/logs/j0019_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/pilot/psi4_timer.txt",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/pilot/reference_orbitals.json",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/pilot/summary.json",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/pilot_fci_recovery/curve.csv",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/pilot_fci_recovery/energy_driver_jobs.json",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/pilot_fci_recovery/executed_code.py.txt",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/pilot_fci_recovery/execution.json",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/pilot_fci_recovery/log_provenance.json",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/pilot_fci_recovery/logs/j0000_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/pilot_fci_recovery/logs/j0001_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/pilot_fci_recovery/logs/j0002_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/pilot_fci_recovery/logs/j0003_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/pilot_fci_recovery/logs/j0004_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/pilot_fci_recovery/logs/j0005_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/pilot_fci_recovery/metadata_corrections.json",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/pilot_fci_recovery/psi4_timer.txt",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/pilot_fci_recovery/reference_orbitals.json",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/pilot_fci_recovery/summary.json",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/psi4_timer.txt",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/reference_orbitals.json",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/summary.json",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/correlation/test_record.json",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/error_budget/matched_error_components.csv",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/error_budget/summary.json",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/learning/checkpoints/energy_gradient_seed7301.pt",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/learning/checkpoints/energy_gradient_seed7302.pt",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/learning/checkpoints/energy_gradient_seed7303.pt",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/learning/checkpoints/energy_only_seed7301.pt",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/learning/checkpoints/energy_only_seed7302.pt",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/learning/checkpoints/energy_only_seed7303.pt",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/learning/covariance.csv",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/learning/ensemble_diagnostics.csv",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/learning/ensemble_predictions.csv",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/learning/executed_code.py.txt",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/learning/force_finite_differences.csv",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/learning/frozen_baseline_metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/learning/learning_curves.csv",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/learning/metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/learning/pilot/checkpoints/energy_gradient_seed7301.pt",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/learning/pilot/checkpoints/energy_only_seed7301.pt",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/learning/pilot/executed_code.py.txt",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/learning/pilot/learning_curves.csv",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/learning/pilot/metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/learning/pilot/predictions.csv",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/learning/pilot/preprocessing.json",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/learning/pilot/summary.json",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/learning/predictions.csv",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/learning/preprocessing.json",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/learning/summary.json",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/vibration/executed_script.py.txt",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/vibration/fci_curve_residuals.csv",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/vibration/fci_morse_parameterization.json",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/vibration/grid_and_domain_diagnostics.csv",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/vibration/grid_convergence.csv",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/vibration/isotope_levels.csv",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/vibration/isotope_ratios.csv",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/vibration/isotope_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/vibration/model_parameters.json",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/vibration/partition_bound_only.csv",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/vibration/pilot/executed_script.py.txt",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/vibration/pilot/grid_and_domain_diagnostics.csv",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/vibration/pilot/grid_convergence.csv",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/vibration/pilot/isotope_levels.csv",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/vibration/pilot/isotope_ratios.csv",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/vibration/pilot/isotope_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/vibration/pilot/model_parameters.json",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/vibration/pilot/partition_bound_only.csv",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/vibration/pilot/spectrum_analytic_control_D2.npz",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/vibration/pilot/spectrum_analytic_control_H2.npz",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/vibration/pilot/summary.json",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/vibration/read_only_audit.json",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/vibration/spectrum_analytic_control_D2.npz",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/vibration/spectrum_analytic_control_H2.npz",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/vibration/spectrum_FCI_cc-pvdz_D2.npz",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/vibration/spectrum_FCI_cc-pvdz_H2.npz",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/vibration/spectrum_FCI_sto-3g_D2.npz",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/vibration/spectrum_FCI_sto-3g_H2.npz",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/vibration/summary.json",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/vibration/tail_followup/diagnostics.csv",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/vibration/tail_followup/executed_script.py.txt",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/vibration/tail_followup/levels.csv",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/vibration/tail_followup/summary.json",
+      "passed": true
+    },
+    {
+      "check": "cross-review results/extensions/vibration/test_results.txt",
+      "passed": true
+    },
+    {
+      "check": "cross-review scripts/correlation_extension.py",
+      "passed": true
+    },
+    {
+      "check": "cross-review scripts/error_budget_extension.py",
+      "passed": true
+    },
+    {
+      "check": "cross-review scripts/learning_extension.py",
+      "passed": true
+    },
+    {
+      "check": "cross-review scripts/vibration_extension.py",
+      "passed": true
+    },
+    {
+      "check": "cross-review scripts/plot_extensions.py",
+      "passed": true
+    },
+    {
+      "check": "cross-review scripts/build_explorer.py",
+      "passed": true
+    },
+    {
+      "check": "cross-review scripts/quantum_explorer_template.html",
+      "passed": true
+    },
+    {
+      "check": "cross-review scripts/validate_extensions.py",
+      "passed": true
+    }
+  ]
+}

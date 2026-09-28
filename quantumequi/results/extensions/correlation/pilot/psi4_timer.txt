@@ -1,0 +1,50 @@
+
+Host: [LOCAL_HOST]
+
+Timers On : Mon Sep 28 20:09:50 2026
+Timers Off: Mon Sep 28 20:09:55 2026
+
+Wall Time:        5.17 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+Total PK formation time             :      0.000u      0.000s      0.053w     14 calls
+Libint2ERI::Libint2ERI              :      0.000u      0.000s      0.028w     34 calls
+HF: Form core H                     :      0.000u      0.000s      0.020w     14 calls
+HF: Form S/X                        :      0.000u      0.000s      0.010w     14 calls
+HF: Guess                           :      0.000u      0.000s      0.003w     14 calls
+HF: Form G                          :      0.000u      0.000s      0.005w     93 calls
+JK: D                               :      0.000u      0.000s      0.001w    107 calls
+JK: USO2AO                          :      0.000u      0.000s      0.000w    107 calls
+JK: JK                              :      0.000u      0.000s      0.003w    107 calls
+PK computes JK                      :      0.000u      0.000s      0.003w    107 calls
+JK: AO2USO                          :      0.000u      0.000s      0.000w    107 calls
+HF: Form F                          :      0.000u      0.000s      0.001w     93 calls
+HF: DIIS                            :      0.000u      0.000s      0.502w     93 calls
+HF: Form C                          :      0.000u      0.000s      0.058w     93 calls
+HF: Form D                          :      0.000u      0.000s      0.000w     93 calls
+
+--------------------------------------------------------------------------------------
+Total PK formation time             :      0.000u      0.000s      0.053w     14 calls
+| Libint2ERI::Libint2ERI            :      0.000u      0.000s      0.028w     28 calls
+HF: Form core H                     :      0.000u      0.000s      0.020w     14 calls
+HF: Form S/X                        :      0.000u      0.000s      0.010w     14 calls
+HF: Guess                           :      0.000u      0.000s      0.003w     14 calls
+HF: Form G                          :      0.000u      0.000s      0.005w     93 calls
+| JK: D                             :      0.000u      0.000s      0.001w     93 calls
+| JK: USO2AO                        :      0.000u      0.000s      0.000w     93 calls
+| JK: JK                            :      0.000u      0.000s      0.002w     93 calls
+| | PK computes JK                  :      0.000u      0.000s      0.002w     93 calls
+| JK: AO2USO                        :      0.000u      0.000s      0.000w     93 calls
+HF: Form F                          :      0.000u      0.000s      0.001w     93 calls
+HF: DIIS                            :      0.000u      0.000s      0.502w     93 calls
+HF: Form C                          :      0.000u      0.000s      0.058w     93 calls
+HF: Form D                          :      0.000u      0.000s      0.000w     93 calls
+Libint2ERI::Libint2ERI              :      0.000u      0.000s      0.001w      6 calls
+JK: D                               :      0.000u      0.000s      0.000w     14 calls
+JK: USO2AO                          :      0.000u      0.000s      0.000w     14 calls
+JK: JK                              :      0.000u      0.000s      0.001w     14 calls
+| PK computes JK                    :      0.000u      0.000s      0.001w     14 calls
+JK: AO2USO                          :      0.000u      0.000s      0.000w     14 calls
+
+**************************************************************************************

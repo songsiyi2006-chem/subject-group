@@ -1,0 +1,131 @@
+{
+  "pilot": true,
+  "evidence": "Finite-difference J=0 Morse nuclear model; FCI parameterization is not direct ab initio spectroscopy",
+  "models": [
+    {
+      "model_id": "analytic_control",
+      "basis": "designed_model",
+      "D_e_Hartree": 0.2,
+      "a_A_inverse": 1.8,
+      "R_e_A": 1.0,
+      "evidence": "Predeclared mathematical Morse parameters, not fitted chemical data"
+    }
+  ],
+  "spectra": [
+    {
+      "model_id": "analytic_control",
+      "basis": "designed_model",
+      "isotope": "H2",
+      "reduced_nuclear_mass_amu": 0.50363823328945,
+      "harmonic_frequency_cm_1": 4363.636490523279,
+      "ZPE_harmonic_Hartree": 0.009941095386334737,
+      "ZPE_numerical_Hartree": 0.009813645397660244,
+      "ZPE_full_line_Morse_Hartree": 0.00981756366448448,
+      "gap01_numerical_cm_1": 4143.667768000173,
+      "gap01_full_line_Morse_cm_1": 4146.739857605365,
+      "bound_states_numerical": 20,
+      "bound_states_full_line_Morse": 20,
+      "finest_intervals": 800,
+      "radial_domain_A": [
+        0.0,
+        8.0
+      ],
+      "transition_scope": "J=0 vibrational level gap; no IR/Raman intensity or selection-rule calculation"
+    },
+    {
+      "model_id": "analytic_control",
+      "basis": "designed_model",
+      "isotope": "D2",
+      "reduced_nuclear_mass_amu": 1.006776606272,
+      "harmonic_frequency_cm_1": 3086.322840986699,
+      "ZPE_harmonic_Hartree": 0.007031160781129395,
+      "ZPE_numerical_Hartree": 0.006965406434443156,
+      "ZPE_full_line_Morse_Hartree": 0.00696936425371678,
+      "gap01_numerical_cm_1": 2974.608129292445,
+      "gap01_full_line_Morse_cm_1": 2977.8206803994512,
+      "bound_states_numerical": 28,
+      "bound_states_full_line_Morse": 28,
+      "finest_intervals": 800,
+      "radial_domain_A": [
+        0.0,
+        8.0
+      ],
+      "transition_scope": "J=0 vibrational level gap; no IR/Raman intensity or selection-rule calculation"
+    }
+  ],
+  "isotope_ratios": [
+    {
+      "model_id": "analytic_control",
+      "H2_over_D2_harmonic_frequency": 1.4138626175375166,
+      "H2_over_D2_numerical_gap01": 1.3930129912560303,
+      "H2_over_D2_exact_Morse_gap01": 1.3925418292981673,
+      "H2_over_D2_numerical_ZPE": 1.4089120986727874
+    }
+  ],
+  "units": {
+    "length": "angstrom",
+    "energy": "Hartree above model potential minimum",
+    "wavenumber": "cm^-1",
+    "wavefunction": "angstrom^-1/2",
+    "nuclear_masses_amu": {
+      "H2": 1.0072764665789,
+      "D2": 2.013553212544
+    },
+    "atomic_mass_constant_kg": 1.66053906892e-27,
+    "Hartree_J": 4.359744722206e-18,
+    "Planck_J_s": 6.62607015e-34,
+    "speed_of_light_m_s": 299792458.0,
+    "kB_J_K": 1.380649e-23,
+    "Hartree_to_cm_inverse": 219474.63136314112
+  },
+  "counts": {
+    "unique_tridiagonal_eigenproblems": 6,
+    "total_interior_grid_nodes": 3994,
+    "total_returned_bound_eigenstates": 139,
+    "isotope_model_summary_rows": 2,
+    "finest_grid_level_rows": 48,
+    "grid_domain_diagnostic_rows": 6,
+    "grid_convergence_rows": 2,
+    "bound_partition_temperature_cases": 2,
+    "actual_FCI_curve_points_compared": 0,
+    "new_electronic_structure_jobs": 0,
+    "nonlinear_Morse_fits": 0
+  },
+  "domain_control": "Dirichlet radial domains; full-line exact Morse comparison is not an identity for a hard half-line wall",
+  "partition_scope": "Bound J=0 vibrational states only; continuum/dissociation, rotation, translation, spin weights, solvent and standard states omitted",
+  "limitations": [
+    "Finite grid error and finite-domain effects are measured separately; high near-dissociation states can remain domain-sensitive",
+    "Morse shape residual against the actual FCI curve is a model error, distinct from nuclear eigensolver error",
+    "Mass substitution uses one Born-Oppenheimer PES; nonadiabatic, relativistic, QED and diagonal BO isotope corrections omitted",
+    "FCI accuracy remains limited by each electronic basis; no experimental line assignment or dipole intensity calculation",
+    "The negative-wall control deliberately violates the negligible-boundary assumption and must not be discarded"
+  ],
+  "runtime_seconds": 0.0878371000289917,
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.4.6",
+    "scipy": "1.18.0"
+  },
+  "sources": [
+    "https://journals.aps.org/pr/abstract/10.1103/PhysRev.34.57",
+    "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+    "https://docs.scipy.org/doc/scipy/reference/generated/scipy.linalg.eigh_tridiagonal.html"
+  ],
+  "inputs_sha256": {},
+  "executed_source_snapshot": {
+    "file": "executed_script.py.txt",
+    "sha256": "19e5c6e56c173b81f57965c95774c51ea82d90f4dcd6ec1b9dfc28cf3e70d097"
+  },
+  "outputs_sha256": {
+    "executed_script.py.txt": "19e5c6e56c173b81f57965c95774c51ea82d90f4dcd6ec1b9dfc28cf3e70d097",
+    "grid_and_domain_diagnostics.csv": "14bb4b54713e2a4623b1cf7f2af41178da80077b22b546c94e3c51c08ad09e74",
+    "grid_convergence.csv": "7ed0cddf2607e781b9ef23b64e04da0fbf8c382b3bc94d93093333130c4ae91b",
+    "isotope_levels.csv": "2f86bf53004d51f424d819995f91933d7fdb19e574112669143cee9400f47865",
+    "isotope_ratios.csv": "b05af17c779cd9484ea0404fbe792e2434d21acbe7be9147602ee3ccd2709a5f",
+    "isotope_summary.csv": "76b38a16e888232eeb1d5427bd909597a34df71001ab7178e6f28fa6d2c5daa2",
+    "model_parameters.json": "a42ec87eb299096bf2a231bc6fa981b191ef0b6d7a791d5cec71fc48a5f963c8",
+    "partition_bound_only.csv": "e038eb584775c99fab361c94abbb3c338973f1b54552fa792e68801028f03a66",
+    "spectrum_analytic_control_D2.npz": "e54548e22c8b3241e76191b7466e0d6f06c15101d8acfcba95bf2d79abdbec34",
+    "spectrum_analytic_control_H2.npz": "26ca4aec4ec1ec96cd148d677e0c79d5e7bf965a48f7e8896acafe47abf33301"
+  }
+}

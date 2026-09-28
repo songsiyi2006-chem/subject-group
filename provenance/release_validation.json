@@ -1,7 +1,7 @@
 {
   "passed": true,
-  "checks": 1697,
-  "scientific_tests_run": 324,
+  "checks": 2089,
+  "scientific_tests_run": 381,
   "scientific_failures": 0,
   "scientific_errors": 0,
   "failed": [],
@@ -158,6 +158,10 @@
     },
     {
       "check": "QuantumEqui publication validation",
+      "passed": true
+    },
+    {
+      "check": "QuantumEqui extended calculations validation",
       "passed": true
     },
     {
@@ -1313,6 +1317,30 @@
       "passed": true
     },
     {
+      "check": "JSON parses quantumequi/results/extensions/cross_review.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses quantumequi/results/extensions/explorer_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses quantumequi/results/extensions/explorer_qa.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses quantumequi/results/extensions/figure_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses quantumequi/results/extensions/figure_qa.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses quantumequi/results/extensions/validation.json",
+      "passed": true
+    },
+    {
       "check": "JSON parses quantumequi/results/original/captured_results.json",
       "passed": true
     },
@@ -1382,6 +1410,126 @@
     },
     {
       "check": "JSON parses quantumequi/results/electronic/pilot/summary.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses quantumequi/results/extensions/correlation/energy_driver_jobs.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses quantumequi/results/extensions/correlation/equilibrium_reference.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses quantumequi/results/extensions/correlation/execution.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses quantumequi/results/extensions/correlation/log_provenance.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses quantumequi/results/extensions/correlation/reference_orbitals.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses quantumequi/results/extensions/correlation/summary.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses quantumequi/results/extensions/correlation/test_record.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses quantumequi/results/extensions/error_budget/summary.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses quantumequi/results/extensions/learning/preprocessing.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses quantumequi/results/extensions/learning/summary.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses quantumequi/results/extensions/vibration/fci_morse_parameterization.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses quantumequi/results/extensions/vibration/model_parameters.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses quantumequi/results/extensions/vibration/read_only_audit.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses quantumequi/results/extensions/vibration/summary.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses quantumequi/results/extensions/correlation/pilot/energy_driver_jobs.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses quantumequi/results/extensions/correlation/pilot/execution.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses quantumequi/results/extensions/correlation/pilot/log_provenance.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses quantumequi/results/extensions/correlation/pilot/reference_orbitals.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses quantumequi/results/extensions/correlation/pilot/summary.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses quantumequi/results/extensions/correlation/pilot_fci_recovery/energy_driver_jobs.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses quantumequi/results/extensions/correlation/pilot_fci_recovery/execution.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses quantumequi/results/extensions/correlation/pilot_fci_recovery/log_provenance.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses quantumequi/results/extensions/correlation/pilot_fci_recovery/metadata_corrections.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses quantumequi/results/extensions/correlation/pilot_fci_recovery/reference_orbitals.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses quantumequi/results/extensions/correlation/pilot_fci_recovery/summary.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses quantumequi/results/extensions/learning/pilot/preprocessing.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses quantumequi/results/extensions/learning/pilot/summary.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses quantumequi/results/extensions/vibration/pilot/model_parameters.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses quantumequi/results/extensions/vibration/pilot/summary.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses quantumequi/results/extensions/vibration/tail_followup/summary.json",
       "passed": true
     },
     {
@@ -3233,11 +3381,23 @@
       "passed": true
     },
     {
+      "check": "SHA256 quantumequi/EXTENSIONS.md",
+      "passed": true
+    },
+    {
       "check": "SHA256 quantumequi/README.md",
       "passed": true
     },
     {
+      "check": "SHA256 quantumequi/correlation_extension_notes.md",
+      "passed": true
+    },
+    {
       "check": "SHA256 quantumequi/electronic_notes.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/learning_extension_notes.md",
       "passed": true
     },
     {
@@ -3246,6 +3406,14 @@
     },
     {
       "check": "SHA256 quantumequi/potential_notes.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/reports/extension_report_chinese.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/reports/extension_report_english.md",
       "passed": true
     },
     {
@@ -3314,6 +3482,126 @@
     },
     {
       "check": "SHA256 quantumequi/reports/figures/README.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/reports/figures/extensions/Ext1_Dissociation_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/reports/figures/extensions/Ext1_Dissociation_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/reports/figures/extensions/Ext1_Dissociation_english.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/reports/figures/extensions/Ext1_Dissociation_english.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/reports/figures/extensions/Ext2_Correlation_Spin_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/reports/figures/extensions/Ext2_Correlation_Spin_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/reports/figures/extensions/Ext2_Correlation_Spin_english.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/reports/figures/extensions/Ext2_Correlation_Spin_english.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/reports/figures/extensions/Ext3_Learning_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/reports/figures/extensions/Ext3_Learning_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/reports/figures/extensions/Ext3_Learning_english.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/reports/figures/extensions/Ext3_Learning_english.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/reports/figures/extensions/Ext4_Generalization_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/reports/figures/extensions/Ext4_Generalization_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/reports/figures/extensions/Ext4_Generalization_english.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/reports/figures/extensions/Ext4_Generalization_english.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/reports/figures/extensions/Ext5_Anharmonic_Levels_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/reports/figures/extensions/Ext5_Anharmonic_Levels_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/reports/figures/extensions/Ext5_Anharmonic_Levels_english.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/reports/figures/extensions/Ext5_Anharmonic_Levels_english.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/reports/figures/extensions/Ext6_Numerical_Limits_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/reports/figures/extensions/Ext6_Numerical_Limits_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/reports/figures/extensions/Ext6_Numerical_Limits_english.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/reports/figures/extensions/Ext6_Numerical_Limits_english.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/reports/figures/extensions/Ext7_Error_Budget_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/reports/figures/extensions/Ext7_Error_Budget_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/reports/figures/extensions/Ext7_Error_Budget_english.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/reports/figures/extensions/Ext7_Error_Budget_english.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/reports/figures/extensions/README.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/reports/quantum_explorer.html",
       "passed": true
     },
     {
@@ -3705,6 +3993,1234 @@
       "passed": true
     },
     {
+      "check": "SHA256 quantumequi/results/extensions/correlation/atomic_reference.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/curvature_points.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/curve.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/energy_driver_jobs.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/equilibrium_reference.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/executed_code.py.txt",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/execution.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/log_provenance.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0000_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0001_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0002_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0003_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0004_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0005_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0006_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0007_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0008_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0009_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0010_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0011_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0012_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0013_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0014_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0015_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0016_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0017_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0018_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0019_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0020_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0021_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0022_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0023_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0024_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0025_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0026_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0027_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0028_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0029_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0030_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0031_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0032_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0033_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0034_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0035_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0036_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0037_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0038_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0039_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0040_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0041_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0042_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0043_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0044_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0045_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0046_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0047_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0048_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0049_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0050_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0051_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0052_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0053_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0054_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0055_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0056_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0057_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0058_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0059_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0060_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0061_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0062_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0063_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0064_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0065_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0066_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0067_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0068_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0069_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0070_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0071_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0072_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0073_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0074_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0075_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0076_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0077_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0078_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0079_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0080_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0081_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0082_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0083_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0084_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0085_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0086_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0087_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0088_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0089_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0090_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0091_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0092_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0093_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0094_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0095_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0096_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0097_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0098_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0099_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0100_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0101_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0102_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0103_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0104_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0105_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0106_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0107_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0108_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0109_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0110_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0111_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0112_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0113_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0114_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0115_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0116_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0117_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0118_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0119_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0120_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0121_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0122_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0123_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0124_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0125_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0126_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0127_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0128_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0129_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0130_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0131_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0132_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0133_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0134_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0135_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0136_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0137_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0138_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0139_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0140_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0141_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0142_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0143_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0144_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0145_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0146_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0147_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0148_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0149_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0150_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0151_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0152_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0153_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0154_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0155_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0156_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0157_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0158_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0159_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0160_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0161_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0162_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0163_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0164_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0165_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0166_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0167_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0168_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0169_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0170_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0171_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0172_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0173_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0174_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0175_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0176_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0177_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0178_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0179_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0180_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0181_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/logs/j0182_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/method_comparison.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/pilot/atomic_reference.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/pilot/curve.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/pilot/energy_driver_jobs.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/pilot/executed_code.py.txt",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/pilot/execution.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/pilot/log_provenance.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/pilot/logs/j0000_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/pilot/logs/j0001_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/pilot/logs/j0002_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/pilot/logs/j0003_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/pilot/logs/j0004_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/pilot/logs/j0005_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/pilot/logs/j0006_sto-3g_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/pilot/logs/j0007_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/pilot/logs/j0008_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/pilot/logs/j0009_sto-3g_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/pilot/logs/j0010_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/pilot/logs/j0011_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/pilot/logs/j0012_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/pilot/logs/j0013_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/pilot/logs/j0014_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/pilot/logs/j0015_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/pilot/logs/j0016_cc-pvdz_RHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/pilot/logs/j0017_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/pilot/logs/j0018_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/pilot/logs/j0019_cc-pvdz_UHF.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/pilot/psi4_timer.txt",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/pilot/reference_orbitals.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/pilot/summary.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/pilot_fci_recovery/curve.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/pilot_fci_recovery/energy_driver_jobs.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/pilot_fci_recovery/executed_code.py.txt",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/pilot_fci_recovery/execution.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/pilot_fci_recovery/log_provenance.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/pilot_fci_recovery/logs/j0000_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/pilot_fci_recovery/logs/j0001_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/pilot_fci_recovery/logs/j0002_sto-3g_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/pilot_fci_recovery/logs/j0003_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/pilot_fci_recovery/logs/j0004_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/pilot_fci_recovery/logs/j0005_cc-pvdz_FCI.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/pilot_fci_recovery/metadata_corrections.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/pilot_fci_recovery/psi4_timer.txt",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/pilot_fci_recovery/reference_orbitals.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/pilot_fci_recovery/summary.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/psi4_timer.txt",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/reference_orbitals.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/summary.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/correlation/test_record.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/cross_review.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/error_budget/matched_error_components.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/error_budget/summary.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/explorer_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/explorer_qa.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/figure_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/figure_qa.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/learning/checkpoints/energy_gradient_seed7301.pt",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/learning/checkpoints/energy_gradient_seed7302.pt",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/learning/checkpoints/energy_gradient_seed7303.pt",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/learning/checkpoints/energy_only_seed7301.pt",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/learning/checkpoints/energy_only_seed7302.pt",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/learning/checkpoints/energy_only_seed7303.pt",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/learning/covariance.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/learning/ensemble_diagnostics.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/learning/ensemble_predictions.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/learning/executed_code.py.txt",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/learning/force_finite_differences.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/learning/frozen_baseline_metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/learning/learning_curves.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/learning/metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/learning/pilot/checkpoints/energy_gradient_seed7301.pt",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/learning/pilot/checkpoints/energy_only_seed7301.pt",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/learning/pilot/executed_code.py.txt",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/learning/pilot/learning_curves.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/learning/pilot/metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/learning/pilot/predictions.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/learning/pilot/preprocessing.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/learning/pilot/summary.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/learning/predictions.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/learning/preprocessing.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/learning/summary.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/validation.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/vibration/executed_script.py.txt",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/vibration/fci_curve_residuals.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/vibration/fci_morse_parameterization.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/vibration/grid_and_domain_diagnostics.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/vibration/grid_convergence.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/vibration/isotope_levels.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/vibration/isotope_ratios.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/vibration/isotope_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/vibration/model_parameters.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/vibration/partition_bound_only.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/vibration/pilot/executed_script.py.txt",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/vibration/pilot/grid_and_domain_diagnostics.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/vibration/pilot/grid_convergence.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/vibration/pilot/isotope_levels.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/vibration/pilot/isotope_ratios.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/vibration/pilot/isotope_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/vibration/pilot/model_parameters.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/vibration/pilot/partition_bound_only.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/vibration/pilot/spectrum_analytic_control_D2.npz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/vibration/pilot/spectrum_analytic_control_H2.npz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/vibration/pilot/summary.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/vibration/read_only_audit.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/vibration/spectrum_FCI_cc-pvdz_D2.npz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/vibration/spectrum_FCI_cc-pvdz_H2.npz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/vibration/spectrum_FCI_sto-3g_D2.npz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/vibration/spectrum_FCI_sto-3g_H2.npz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/vibration/spectrum_analytic_control_D2.npz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/vibration/spectrum_analytic_control_H2.npz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/vibration/summary.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/vibration/tail_followup/diagnostics.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/vibration/tail_followup/executed_script.py.txt",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/vibration/tail_followup/levels.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/vibration/tail_followup/summary.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/results/extensions/vibration/test_results.txt",
+      "passed": true
+    },
+    {
       "check": "SHA256 quantumequi/results/figure_manifest.json",
       "passed": true
     },
@@ -3937,11 +5453,31 @@
       "passed": true
     },
     {
+      "check": "SHA256 quantumequi/scripts/build_explorer.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/scripts/correlation_extension.py",
+      "passed": true
+    },
+    {
       "check": "SHA256 quantumequi/scripts/electronic_reviewed.py",
       "passed": true
     },
     {
+      "check": "SHA256 quantumequi/scripts/error_budget_extension.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/scripts/learning_extension.py",
+      "passed": true
+    },
+    {
       "check": "SHA256 quantumequi/scripts/path_reviewed.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/scripts/plot_extensions.py",
       "passed": true
     },
     {
@@ -3953,6 +5489,10 @@
       "passed": true
     },
     {
+      "check": "SHA256 quantumequi/scripts/quantum_explorer_template.html",
+      "passed": true
+    },
+    {
       "check": "SHA256 quantumequi/scripts/run_source.py",
       "passed": true
     },
@@ -3961,7 +5501,15 @@
       "passed": true
     },
     {
+      "check": "SHA256 quantumequi/scripts/validate_extensions.py",
+      "passed": true
+    },
+    {
       "check": "SHA256 quantumequi/scripts/validate_quantumequi.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/scripts/vibration_extension.py",
       "passed": true
     },
     {
@@ -3978,6 +5526,10 @@
     },
     {
       "check": "SHA256 quantumequi/thermochemistry_notes.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 quantumequi/vibration_extension_notes.md",
       "passed": true
     },
     {
@@ -6505,7 +8057,19 @@
       "passed": true
     },
     {
+      "check": "SHA256 tests/test_quantumequi_correlation_extension.py",
+      "passed": true
+    },
+    {
       "check": "SHA256 tests/test_quantumequi_electronic.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 tests/test_quantumequi_error_budget_extension.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 tests/test_quantumequi_learning_extension.py",
       "passed": true
     },
     {
@@ -6518,6 +8082,10 @@
     },
     {
       "check": "SHA256 tests/test_quantumequi_thermochemistry.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 tests/test_quantumequi_vibration_extension.py",
       "passed": true
     },
     {

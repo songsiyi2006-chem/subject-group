@@ -1,0 +1,43 @@
+{
+  "historical_jobs_sha256": "204750dd775d6e0b0ac959acc9ed11d7cce77612d83d129623254c01b67dc99a",
+  "corrected_jobs_sha256": "005b1a3e757c0cd0b77adc14fedda69b79d6d045c9be5d2eb78a4f9c5e66bcd6",
+  "corrections": [
+    {
+      "job_id": "j0000_sto-3g_FCI",
+      "historical_ndet_api_return": 2089649647632,
+      "corrected_log_determinants": 4,
+      "reason": "Installed CIWavefunction.ndet() returned a pointer-like invalid integer; numerical log explicitly gives CI-space size. No energy rerun or energy change."
+    },
+    {
+      "job_id": "j0001_sto-3g_FCI",
+      "historical_ndet_api_return": 2089650132400,
+      "corrected_log_determinants": 4,
+      "reason": "Installed CIWavefunction.ndet() returned a pointer-like invalid integer; numerical log explicitly gives CI-space size. No energy rerun or energy change."
+    },
+    {
+      "job_id": "j0002_sto-3g_FCI",
+      "historical_ndet_api_return": 2089650132400,
+      "corrected_log_determinants": 4,
+      "reason": "Installed CIWavefunction.ndet() returned a pointer-like invalid integer; numerical log explicitly gives CI-space size. No energy rerun or energy change."
+    },
+    {
+      "job_id": "j0003_cc-pvdz_FCI",
+      "historical_ndet_api_return": 2089620684816,
+      "corrected_log_determinants": 100,
+      "reason": "Installed CIWavefunction.ndet() returned a pointer-like invalid integer; numerical log explicitly gives CI-space size. No energy rerun or energy change."
+    },
+    {
+      "job_id": "j0004_cc-pvdz_FCI",
+      "historical_ndet_api_return": 2089657036816,
+      "corrected_log_determinants": 100,
+      "reason": "Installed CIWavefunction.ndet() returned a pointer-like invalid integer; numerical log explicitly gives CI-space size. No energy rerun or energy change."
+    },
+    {
+      "job_id": "j0005_cc-pvdz_FCI",
+      "historical_ndet_api_return": 2089620684816,
+      "corrected_log_determinants": 100,
+      "reason": "Installed CIWavefunction.ndet() returned a pointer-like invalid integer; numerical log explicitly gives CI-space size. No energy rerun or energy change."
+    }
+  ],
+  "postprocessor_source_sha256": "2340153c6dae9b2f4c93d7921716718ba559bbf556773cb1e7cae3e1aa451b98"
+}

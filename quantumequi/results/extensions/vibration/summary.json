@@ -1,0 +1,363 @@
+{
+  "pilot": false,
+  "evidence": "Finite-difference J=0 Morse nuclear model; FCI parameterization is not direct ab initio spectroscopy",
+  "models": [
+    {
+      "model_id": "analytic_control",
+      "basis": "designed_model",
+      "D_e_Hartree": 0.2,
+      "a_A_inverse": 1.8,
+      "R_e_A": 1.0,
+      "evidence": "Predeclared mathematical Morse parameters, not fitted chemical data"
+    },
+    {
+      "model_id": "FCI_sto-3g",
+      "basis": "sto-3g",
+      "D_e_Hartree": 0.20414235210759024,
+      "a_A_inverse": 2.0427769944189986,
+      "R_e_A": 0.7348652274787866,
+      "E_min_Hartree": -1.1373060512221411,
+      "E_infinity_Hartree": -0.9331636991145509,
+      "curvature_Hartree_A2": 1.7037466953577032,
+      "parameterization": "De from actual 2H reference minus FCI minimum; re from FCI optimization; a=sqrt(k/(2De))",
+      "is_nonlinear_fit": false,
+      "source_equilibrium_record": {
+        "basis": "sto-3g",
+        "method": "FCI",
+        "R_e_A": 0.7348652274787866,
+        "E_min_Hartree": -1.1373060512221411,
+        "atomic_H_energy_Hartree": -0.46658184955727544,
+        "E_infinity_Hartree": -0.9331636991145509,
+        "D_e_Hartree": 0.20414235210759024,
+        "curvature_step_A": 0.0025,
+        "optimization_success": true,
+        "optimization_message": "Solution found.",
+        "optimization_calls": 10,
+        "optimization_bounds_A": [
+          0.6,
+          0.9
+        ],
+        "optimization_job_ids": [
+          "j0152_sto-3g_FCI",
+          "j0153_sto-3g_FCI",
+          "j0154_sto-3g_FCI",
+          "j0155_sto-3g_FCI",
+          "j0156_sto-3g_FCI",
+          "j0157_sto-3g_FCI",
+          "j0158_sto-3g_FCI",
+          "j0159_sto-3g_FCI",
+          "j0160_sto-3g_FCI",
+          "j0161_sto-3g_FCI"
+        ],
+        "curvature_job_ids": [
+          "j0162_sto-3g_FCI",
+          "j0163_sto-3g_FCI",
+          "j0164_sto-3g_FCI",
+          "j0165_sto-3g_FCI",
+          "j0166_sto-3g_FCI"
+        ],
+        "gradient_5point_Hartree_A": 1.448500578741611e-09,
+        "curvature_Hartree_A2": 1.7037466953577032,
+        "curvature_central_h_Hartree_A2": 1.703780776196595,
+        "curvature_central_2h_Hartree_A2": 1.703883018766561,
+        "central_curvature_step_difference_Hartree_A2": 0.00010224256996593795,
+        "scope": "Clamped-nuclei finite-basis FCI total energies; 2 isolated H energies define dissociation reference; no ZPVE."
+      },
+      "evidence": "Morse model parameterized by actual FCI data, not direct nuclear propagation on the FCI curve",
+      "curve_points_checked": 25,
+      "curve_RMSE_Hartree": 0.007572822857748381,
+      "curve_max_abs_error_Hartree": 0.01506216236118163
+    },
+    {
+      "model_id": "FCI_cc-pvdz",
+      "basis": "cc-pvdz",
+      "D_e_Hartree": 0.16511617435685166,
+      "a_A_inverse": 1.9901629894446744,
+      "R_e_A": 0.7608934449673254,
+      "E_min_Hartree": -1.1636729811960178,
+      "E_infinity_Hartree": -0.9985568068391661,
+      "curvature_Hartree_A2": 1.3079673539747223,
+      "parameterization": "De from actual 2H reference minus FCI minimum; re from FCI optimization; a=sqrt(k/(2De))",
+      "is_nonlinear_fit": false,
+      "source_equilibrium_record": {
+        "basis": "cc-pvdz",
+        "method": "FCI",
+        "R_e_A": 0.7608934449673254,
+        "E_min_Hartree": -1.1636729811960178,
+        "atomic_H_energy_Hartree": -0.49927840341958307,
+        "E_infinity_Hartree": -0.9985568068391661,
+        "D_e_Hartree": 0.16511617435685166,
+        "curvature_step_A": 0.0025,
+        "optimization_success": true,
+        "optimization_message": "Solution found.",
+        "optimization_calls": 11,
+        "optimization_bounds_A": [
+          0.6,
+          0.9
+        ],
+        "optimization_job_ids": [
+          "j0167_cc-pvdz_FCI",
+          "j0168_cc-pvdz_FCI",
+          "j0169_cc-pvdz_FCI",
+          "j0170_cc-pvdz_FCI",
+          "j0171_cc-pvdz_FCI",
+          "j0172_cc-pvdz_FCI",
+          "j0173_cc-pvdz_FCI",
+          "j0174_cc-pvdz_FCI",
+          "j0175_cc-pvdz_FCI",
+          "j0176_cc-pvdz_FCI",
+          "j0177_cc-pvdz_FCI"
+        ],
+        "curvature_job_ids": [
+          "j0178_cc-pvdz_FCI",
+          "j0179_cc-pvdz_FCI",
+          "j0180_cc-pvdz_FCI",
+          "j0181_cc-pvdz_FCI",
+          "j0182_cc-pvdz_FCI"
+        ],
+        "gradient_5point_Hartree_A": 5.784600946393918e-08,
+        "curvature_Hartree_A2": 1.3079673539747223,
+        "curvature_central_h_Hartree_A2": 1.3079935476412174,
+        "curvature_central_2h_Hartree_A2": 1.308072128622939,
+        "central_curvature_step_difference_Hartree_A2": 7.858098172164318e-05,
+        "scope": "Clamped-nuclei finite-basis FCI total energies; 2 isolated H energies define dissociation reference; no ZPVE."
+      },
+      "evidence": "Morse model parameterized by actual FCI data, not direct nuclear propagation on the FCI curve",
+      "curve_points_checked": 25,
+      "curve_RMSE_Hartree": 0.004206542413097394,
+      "curve_max_abs_error_Hartree": 0.007792121788705808
+    }
+  ],
+  "spectra": [
+    {
+      "model_id": "analytic_control",
+      "basis": "designed_model",
+      "isotope": "H2",
+      "reduced_nuclear_mass_amu": 0.50363823328945,
+      "harmonic_frequency_cm_1": 4363.636490523279,
+      "ZPE_harmonic_Hartree": 0.009941095386334737,
+      "ZPE_numerical_Hartree": 0.00981582261716405,
+      "ZPE_full_line_Morse_Hartree": 0.00981756366448448,
+      "D0_numerical_Morse_Hartree": 0.19018417738283597,
+      "D0_full_line_Morse_Hartree": 0.19018243633551554,
+      "gap01_numerical_cm_1": 4145.3751486085375,
+      "gap01_full_line_Morse_cm_1": 4146.739857605365,
+      "bound_states_numerical": 20,
+      "bound_states_full_line_Morse": 20,
+      "finest_intervals": 1200,
+      "radial_domain_A": [
+        0.0,
+        8.0
+      ],
+      "transition_scope": "J=0 vibrational level gap; no IR/Raman intensity or selection-rule calculation"
+    },
+    {
+      "model_id": "analytic_control",
+      "basis": "designed_model",
+      "isotope": "D2",
+      "reduced_nuclear_mass_amu": 1.006776606272,
+      "harmonic_frequency_cm_1": 3086.322840986699,
+      "ZPE_harmonic_Hartree": 0.007031160781129395,
+      "ZPE_numerical_Hartree": 0.006967605796927853,
+      "ZPE_full_line_Morse_Hartree": 0.00696936425371678,
+      "D0_numerical_Morse_Hartree": 0.19303239420307217,
+      "D0_full_line_Morse_Hartree": 0.19303063574628324,
+      "gap01_numerical_cm_1": 2976.3938425950223,
+      "gap01_full_line_Morse_cm_1": 2977.8206803994512,
+      "bound_states_numerical": 28,
+      "bound_states_full_line_Morse": 28,
+      "finest_intervals": 1200,
+      "radial_domain_A": [
+        0.0,
+        8.0
+      ],
+      "transition_scope": "J=0 vibrational level gap; no IR/Raman intensity or selection-rule calculation"
+    },
+    {
+      "model_id": "FCI_sto-3g",
+      "basis": "sto-3g",
+      "isotope": "H2",
+      "reduced_nuclear_mass_amu": 0.50363823328945,
+      "harmonic_frequency_cm_1": 5003.208218765049,
+      "ZPE_harmonic_Hartree": 0.011398146992412025,
+      "ZPE_numerical_Hartree": 0.011236765744220242,
+      "ZPE_full_line_Morse_Hartree": 0.01123904507955643,
+      "D0_numerical_Morse_Hartree": 0.19290558636337,
+      "D0_full_line_Morse_Hartree": 0.19290330702803382,
+      "gap01_numerical_cm_1": 4722.0972166164465,
+      "gap01_full_line_Morse_cm_1": 4723.8575493798335,
+      "bound_states_numerical": 18,
+      "bound_states_full_line_Morse": 18,
+      "finest_intervals": 1200,
+      "radial_domain_A": [
+        0.0,
+        8.0
+      ],
+      "transition_scope": "J=0 vibrational level gap; no IR/Raman intensity or selection-rule calculation"
+    },
+    {
+      "model_id": "FCI_sto-3g",
+      "basis": "sto-3g",
+      "isotope": "D2",
+      "reduced_nuclear_mass_amu": 1.006776606272,
+      "harmonic_frequency_cm_1": 3538.6806021358657,
+      "ZPE_harmonic_Hartree": 0.008061707588155805,
+      "ZPE_numerical_Hartree": 0.007979812120310998,
+      "ZPE_full_line_Morse_Hartree": 0.00798211713501618,
+      "D0_numerical_Morse_Hartree": 0.19616253998727926,
+      "D0_full_line_Morse_Hartree": 0.19616023497257407,
+      "gap01_numerical_cm_1": 3397.0844245171293,
+      "gap01_full_line_Morse_cm_1": 3398.935919233107,
+      "bound_states_numerical": 25,
+      "bound_states_full_line_Morse": 25,
+      "finest_intervals": 1200,
+      "radial_domain_A": [
+        0.0,
+        8.0
+      ],
+      "transition_scope": "J=0 vibrational level gap; no IR/Raman intensity or selection-rule calculation"
+    },
+    {
+      "model_id": "FCI_cc-pvdz",
+      "basis": "cc-pvdz",
+      "isotope": "H2",
+      "reduced_nuclear_mass_amu": 0.50363823328945,
+      "harmonic_frequency_cm_1": 4383.737255338475,
+      "ZPE_harmonic_Hartree": 0.009986888298003734,
+      "ZPE_numerical_Hartree": 0.00983413228447651,
+      "ZPE_full_line_Morse_Hartree": 0.009835876535731964,
+      "D0_numerical_Morse_Hartree": 0.15528204207237514,
+      "D0_full_line_Morse_Hartree": 0.1552802978211197,
+      "gap01_numerical_cm_1": 4117.259492107982,
+      "gap01_full_line_Morse_cm_1": 4118.591248489714,
+      "bound_states_numerical": 16,
+      "bound_states_full_line_Morse": 17,
+      "finest_intervals": 1200,
+      "radial_domain_A": [
+        0.0,
+        8.0
+      ],
+      "transition_scope": "J=0 vibrational level gap; no IR/Raman intensity or selection-rule calculation"
+    },
+    {
+      "model_id": "FCI_cc-pvdz",
+      "basis": "cc-pvdz",
+      "isotope": "D2",
+      "reduced_nuclear_mass_amu": 1.006776606272,
+      "harmonic_frequency_cm_1": 3100.5397560998554,
+      "ZPE_harmonic_Hartree": 0.00706354929688827,
+      "ZPE_numerical_Hartree": 0.00698624037404463,
+      "ZPE_full_line_Morse_Hartree": 0.006988005927403249,
+      "D0_numerical_Morse_Hartree": 0.15812993398280703,
+      "D0_full_line_Morse_Hartree": 0.1581281684294484,
+      "gap01_numerical_cm_1": 2966.493791696835,
+      "gap01_full_line_Morse_cm_1": 2967.9009307426195,
+      "bound_states_numerical": 23,
+      "bound_states_full_line_Morse": 23,
+      "finest_intervals": 1200,
+      "radial_domain_A": [
+        0.0,
+        8.0
+      ],
+      "transition_scope": "J=0 vibrational level gap; no IR/Raman intensity or selection-rule calculation"
+    }
+  ],
+  "isotope_ratios": [
+    {
+      "model_id": "analytic_control",
+      "H2_over_D2_harmonic_frequency": 1.4138626175375166,
+      "H2_over_D2_numerical_gap01": 1.392750881716083,
+      "H2_over_D2_exact_Morse_gap01": 1.3925418292981673,
+      "H2_over_D2_numerical_ZPE": 1.4087798453655387
+    },
+    {
+      "model_id": "FCI_sto-3g",
+      "H2_over_D2_harmonic_frequency": 1.4138626175375164,
+      "H2_over_D2_numerical_gap01": 1.3900441162240642,
+      "H2_over_D2_exact_Morse_gap01": 1.389804827637252,
+      "H2_over_D2_numerical_ZPE": 1.4081491612589885
+    },
+    {
+      "model_id": "FCI_cc-pvdz",
+      "H2_over_D2_harmonic_frequency": 1.4138626175375166,
+      "H2_over_D2_numerical_gap01": 1.3879211558210975,
+      "H2_over_D2_exact_Morse_gap01": 1.3877118356033442,
+      "H2_over_D2_numerical_ZPE": 1.4076429893555347
+    }
+  ],
+  "units": {
+    "length": "angstrom",
+    "energy": "Hartree above model potential minimum",
+    "wavenumber": "cm^-1",
+    "wavefunction": "angstrom^-1/2",
+    "nuclear_masses_amu": {
+      "H2": 1.0072764665789,
+      "D2": 2.013553212544
+    },
+    "atomic_mass_constant_kg": 1.66053906892e-27,
+    "Hartree_J": 4.359744722206e-18,
+    "Planck_J_s": 6.62607015e-34,
+    "speed_of_light_m_s": 299792458.0,
+    "kB_J_K": 1.380649e-23,
+    "Hartree_to_cm_inverse": 219474.63136314112
+  },
+  "counts": {
+    "unique_tridiagonal_eigenproblems": 38,
+    "total_interior_grid_nodes": 27562,
+    "total_returned_bound_eigenstates": 783,
+    "isotope_model_summary_rows": 6,
+    "finest_grid_level_rows": 130,
+    "grid_domain_diagnostic_rows": 38,
+    "grid_convergence_rows": 12,
+    "bound_partition_temperature_cases": 36,
+    "actual_FCI_curve_points_compared": 50,
+    "new_electronic_structure_jobs": 0,
+    "nonlinear_Morse_fits": 0
+  },
+  "domain_control": "Dirichlet radial domains; full-line exact Morse comparison is not an identity for a hard half-line wall",
+  "partition_scope": "Bound J=0 vibrational states only; continuum/dissociation, rotation, translation, spin weights, solvent and standard states omitted",
+  "limitations": [
+    "Finite grid error and finite-domain effects are measured separately; high near-dissociation states can remain domain-sensitive",
+    "Morse shape residual against the actual FCI curve is a model error, distinct from nuclear eigensolver error",
+    "Mass substitution uses one Born-Oppenheimer PES; nonadiabatic, relativistic, QED and diagonal BO isotope corrections omitted",
+    "FCI accuracy remains limited by each electronic basis; no experimental line assignment or dipole intensity calculation",
+    "The negative-wall control deliberately violates the negligible-boundary assumption and must not be discarded"
+  ],
+  "runtime_seconds": 0.4185785000445321,
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.4.6",
+    "scipy": "1.18.0"
+  },
+  "sources": [
+    "https://journals.aps.org/pr/abstract/10.1103/PhysRev.34.57",
+    "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+    "https://docs.scipy.org/doc/scipy/reference/generated/scipy.linalg.eigh_tridiagonal.html"
+  ],
+  "inputs_sha256": {
+    "quantumequi/results/extensions/correlation/equilibrium_reference.json": "8eac5ad1c7fef63341ce8c97ac2de86596d6f2f71aa70c0d4298734b66880936",
+    "quantumequi/results/extensions/correlation/curve.csv": "8715857664e8903afd775a4e94aec2a08f6873809211c238faa341b751220025"
+  },
+  "executed_source_snapshot": {
+    "file": "executed_script.py.txt",
+    "sha256": "c06296f845fa179cef90831ab086a652f4e2679c619c5e73a502a221018029a3"
+  },
+  "outputs_sha256": {
+    "executed_script.py.txt": "c06296f845fa179cef90831ab086a652f4e2679c619c5e73a502a221018029a3",
+    "fci_curve_residuals.csv": "2f3a01bd9cfed0e1d16723a5d74fb6a93a1cea81c4c81599c86ef787a3294caf",
+    "fci_morse_parameterization.json": "04973b6bb555fc8a745914c5fd25a116c5b149eaf78b4fbe2159646b76da1a11",
+    "grid_and_domain_diagnostics.csv": "79deaf6d1ec9e90ded83aebad483f61a9328490049b41c0088a104f25779c099",
+    "grid_convergence.csv": "bcbc60389b7de07d1399e2d0f0e380f337d9b3c7e1d2435c75ab4ce099152c54",
+    "isotope_levels.csv": "824fe2859cdc359e144d4ea4e54d82e273446297dfd119526c62c9cfc1f7409d",
+    "isotope_ratios.csv": "97a4cb5d699f8486f1269e5f4a88c1331c46ae1b6339df09de205a0143c4089f",
+    "isotope_summary.csv": "a1bea6095636b95cdedecfcc42eff6ea13f2aa9dcef1ec91eb7fe19755493abc",
+    "model_parameters.json": "45e1827f034c8abdf4549a375640df153b090c92c4992a67cd695d60529a6f8a",
+    "partition_bound_only.csv": "dd497129d1806430d9ec0e451c882b77906b3334ce7b82102b70423cc689e94f",
+    "spectrum_analytic_control_D2.npz": "9852708868c9d3310b6cf2a8249ee9f68763a3ba7a0d9393a8719807e2032bf0",
+    "spectrum_analytic_control_H2.npz": "76953b4051eca7ce058a4d42a43383461329a6647398bb225266441c84be628e",
+    "spectrum_FCI_cc-pvdz_D2.npz": "0de4edd51b53b2e651de7d621042fbd50760065d1de7bf21f75461b94625f06c",
+    "spectrum_FCI_cc-pvdz_H2.npz": "29e142e324954060d9815e2803bc0607949b53741875396e4ccdb059d95b3fd9",
+    "spectrum_FCI_sto-3g_D2.npz": "d344ccd692e793186bace63e06aa24ff82a885cf2eef4848ca05a3167d8311f6",
+    "spectrum_FCI_sto-3g_H2.npz": "4d7361c7301eff5b90214a7256edb72d03e91ca8b59776e9554303d94cc0c21a"
+  }
+}

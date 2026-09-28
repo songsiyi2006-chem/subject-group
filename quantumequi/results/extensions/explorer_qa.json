@@ -1,0 +1,22 @@
+{
+  "date": "2026-09-28",
+  "html_sha256": "f6a7b6c9726fdcf7505f839b1211dff947275072d9e9b60760f042e2735f3839",
+  "passed": true,
+  "browser": "Codex in-app browser, desktop viewport 1197x1004",
+  "mode": "Local HTTP functional and visual review; artifact is self-contained HTML.",
+  "verified": [
+    "Initial STO-3G at 0.74 Angstrom has RHF -1.1167593074 and FCI -1.1372838345 Hartree.",
+    "Basis changed to cc-pVDZ and all displayed curves/data updated.",
+    "Energy reference changed to common FCI grid minimum; total-energy table retained raw values.",
+    "Geometry slider selected 4.00 Angstrom; cc-pVDZ FCI -0.9986061861 Hartree and UHF S2 0.999765 displayed.",
+    "All three method controls unchecked via keyboard; clear empty-selection prompt appeared; all controls restored.",
+    "Chart, controls, table, bilingual labels and scope text visually inspected.",
+    "No captured JavaScript error or warning logs at final inspection."
+  ],
+  "limitations": [
+    "Desktop only; no mobile, screen-reader or cross-browser certification.",
+    "No live quantum computation; the 150 saved curve records are embedded.",
+    "Pointer automation had native-select focus/coordinate issues; keyboard control completed the visibility checks."
+  ],
+  "screenshot_sha256": "997af520639ed3b1d761a327afa78a034c7c50ab3b80103d9b2e0cf767911b8e"
+}
