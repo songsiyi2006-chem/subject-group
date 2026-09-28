@@ -1,0 +1,14 @@
+{
+  "mode": "original",
+  "exit_code": 1,
+  "started_utc": "2026-09-28T07:08:07.174657+00:00",
+  "elapsed_seconds": 5.250093700014986,
+  "source_sha256": "c8bd0afd2eba64823be74967acc4dd84cb5d3325eda7f70f98507ece8bfdd45e",
+  "command": "python synthapore/scripts/run_source.py --child original",
+  "physical_instrument_connected": false,
+  "role": "Retained source demonstration; printed claims are not endorsements",
+  "output_sha256": {
+    "stderr.log": "8e85235d1be1916ad43e2c83493662cd323c60435b97264c14516bf1b4f7c35e",
+    "stdout.log": "ca07c28f1945302a987e6b14e906e5eb2e73cbf69ddb7e6fa1a2e7e70d13baad"
+  }
+}

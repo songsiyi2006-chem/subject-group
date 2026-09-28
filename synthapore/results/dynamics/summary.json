@@ -1,0 +1,721 @@
+{
+  "schema_version": 1,
+  "pilot": false,
+  "evidence": "Numerical algorithms on designed analytic potentials; no chemical reaction barrier or trained MLIP",
+  "units": {
+    "length": "angstrom",
+    "time": "fs",
+    "energy": "eV",
+    "force": "eV/angstrom",
+    "mass": "amu",
+    "mass_conversion_eV_fs2_A2_per_amu": 103.64269652680505,
+    "kB_eV_K": 8.617333262145179e-05,
+    "eV_to_kcal_mol": 23.06054783061903,
+    "mass_constant_kg_per_amu": 1.6605390666e-27
+  },
+  "counts": {
+    "NVE_trajectories": 20,
+    "thermostat_trajectories": 24,
+    "MD_integration_steps": 350000,
+    "MD_energy_force_evaluations": 350044,
+    "reviewed_NEB_cases": 18,
+    "reviewed_NEB_iterations": 3129,
+    "reviewed_NEB_energy_force_point_evaluations": 37337,
+    "reviewed_NEB_endpoint_check_point_evaluations": 36,
+    "source_NEB_cases": 12,
+    "source_NEB_iterations": 618,
+    "source_NEB_point_energy_force_calls": 7210,
+    "source_NEB_postupdate_audit_point_evaluations": 140,
+    "endpoint_optimizations": 2,
+    "endpoint_energy_force_point_evaluations": 778,
+    "pilot_excluded_from_main_counts": true,
+    "tests_excluded_from_study_counts": true,
+    "DFT_calculations": 0,
+    "experimental_runs": 0
+  },
+  "harmonic_reference": {
+    "potential": "0.5*k*sum_i|r_i-mean(r)|^2",
+    "k_eV_A2": 2.0,
+    "equal_mass_amu": 12.011,
+    "atoms": 8,
+    "removed_dof": "3 center-of-mass translations; no rotational or bond constraints",
+    "normal_mode_frequency_fs_1": 0.04008261640434527,
+    "NVE_seeds": [
+      101,
+      102,
+      103,
+      104
+    ]
+  },
+  "NVE_convergence_orders": [
+    {
+      "seed": 101,
+      "fine_dt_fs": 0.25,
+      "coarse_dt_fs": 0.5,
+      "energy_error_order": 2.0002228742494337,
+      "position_error_order": 1.9998450578480007
+    },
+    {
+      "seed": 101,
+      "fine_dt_fs": 0.5,
+      "coarse_dt_fs": 1.0,
+      "energy_error_order": 2.000894736556954,
+      "position_error_order": 1.9993810499589384
+    },
+    {
+      "seed": 101,
+      "fine_dt_fs": 1.0,
+      "coarse_dt_fs": 2.0,
+      "energy_error_order": 2.00356825582106,
+      "position_error_order": 1.9975378777222221
+    },
+    {
+      "seed": 101,
+      "fine_dt_fs": 2.0,
+      "coarse_dt_fs": 4.0,
+      "energy_error_order": 2.0142806761467806,
+      "position_error_order": 1.9904077443796468
+    },
+    {
+      "seed": 102,
+      "fine_dt_fs": 0.25,
+      "coarse_dt_fs": 0.5,
+      "energy_error_order": 2.00069382039575,
+      "position_error_order": 1.9999780942744987
+    },
+    {
+      "seed": 102,
+      "fine_dt_fs": 0.5,
+      "coarse_dt_fs": 1.0,
+      "energy_error_order": 2.0027913934927657,
+      "position_error_order": 1.9999115963090277
+    },
+    {
+      "seed": 102,
+      "fine_dt_fs": 1.0,
+      "coarse_dt_fs": 2.0,
+      "energy_error_order": 2.011126126051189,
+      "position_error_order": 1.9996340423261802
+    },
+    {
+      "seed": 102,
+      "fine_dt_fs": 2.0,
+      "coarse_dt_fs": 4.0,
+      "energy_error_order": 2.044089025084465,
+      "position_error_order": 1.998348265735955
+    },
+    {
+      "seed": 103,
+      "fine_dt_fs": 0.25,
+      "coarse_dt_fs": 0.5,
+      "energy_error_order": 1.9994583985117154,
+      "position_error_order": 1.9999785666794703
+    },
+    {
+      "seed": 103,
+      "fine_dt_fs": 0.5,
+      "coarse_dt_fs": 1.0,
+      "energy_error_order": 1.9978300933448812,
+      "position_error_order": 1.9999125366039694
+    },
+    {
+      "seed": 103,
+      "fine_dt_fs": 1.0,
+      "coarse_dt_fs": 2.0,
+      "energy_error_order": 1.9912904876083948,
+      "position_error_order": 1.9996225453229515
+    },
+    {
+      "seed": 103,
+      "fine_dt_fs": 2.0,
+      "coarse_dt_fs": 4.0,
+      "energy_error_order": 1.9645697234345927,
+      "position_error_order": 1.9980538398377528
+    },
+    {
+      "seed": 104,
+      "fine_dt_fs": 0.25,
+      "coarse_dt_fs": 0.5,
+      "energy_error_order": 2.0006832397615346,
+      "position_error_order": 2.000055751172262
+    },
+    {
+      "seed": 104,
+      "fine_dt_fs": 0.5,
+      "coarse_dt_fs": 1.0,
+      "energy_error_order": 2.002729239953421,
+      "position_error_order": 2.0002224512388778
+    },
+    {
+      "seed": 104,
+      "fine_dt_fs": 1.0,
+      "coarse_dt_fs": 2.0,
+      "energy_error_order": 2.010896894971082,
+      "position_error_order": 2.000880998831478
+    },
+    {
+      "seed": 104,
+      "fine_dt_fs": 2.0,
+      "coarse_dt_fs": 4.0,
+      "energy_error_order": 2.0430689126429415,
+      "position_error_order": 2.003386091239055
+    }
+  ],
+  "thermostat_summary": [
+    {
+      "thermostat": "langevin_baoab",
+      "replicas": 8,
+      "replicate_mean_temperature_K": 302.50822781753413,
+      "mean_within_trajectory_temperature_variance_K2": 8423.370489226494,
+      "canonical_reference_variance_temperature_K2": 8571.42857142857,
+      "variance_ratio_to_canonical": 0.9827265570764244,
+      "replicate_mean_kinetic_eV": 0.273715492432686,
+      "replicate_mean_potential_eV": 0.27345219115466746,
+      "uncertainty_scope": "Correlated finite trajectories; replica summaries are diagnostic, no calibrated confidence interval"
+    },
+    {
+      "thermostat": "berendsen",
+      "replicas": 8,
+      "replicate_mean_temperature_K": 299.9997048893729,
+      "mean_within_trajectory_temperature_variance_K2": 0.002660183441313208,
+      "canonical_reference_variance_temperature_K2": 8571.42857142857,
+      "variance_ratio_to_canonical": 3.103547348198743e-07,
+      "replicate_mean_kinetic_eV": 0.27144573073557776,
+      "replicate_mean_potential_eV": 0.27147358112959963,
+      "uncertainty_scope": "Correlated finite trajectories; replica summaries are diagnostic, no calibrated confidence interval"
+    },
+    {
+      "thermostat": "berendsen_source_dof",
+      "replicas": 8,
+      "replicate_mean_temperature_K": 342.8567395930628,
+      "mean_within_trajectory_temperature_variance_K2": 0.003124546006159195,
+      "canonical_reference_variance_temperature_K2": 8571.42857142857,
+      "variance_ratio_to_canonical": 3.6453036738523943e-07,
+      "replicate_mean_kinetic_eV": 0.3102236325558245,
+      "replicate_mean_potential_eV": 0.3102555317549519,
+      "uncertainty_scope": "Correlated finite trajectories; replica summaries are diagnostic, no calibrated confidence interval"
+    }
+  ],
+  "NEB_reference": {
+    "potential": "(x^2-1)^2 + 4*(y-0.65*(1-x^2))^2",
+    "known_minima_A": [
+      [
+        -1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0
+      ]
+    ],
+    "known_saddle_A": [
+      0.0,
+      0.65
+    ],
+    "known_barrier_eV": 1.0,
+    "saddle_Hessian_eigenvalues_eV_A2": [
+      -4.0,
+      8.0
+    ],
+    "valley_is_not_assumed_to_be_MEP": true,
+    "optimizer": "FIRE-style inertial relaxation of NEB projected force",
+    "tangent": "Henkelman-Jonsson energy-weighted tangent",
+    "climb_after_iterations": 50,
+    "spring_eV_A2": 4.5,
+    "fixed_endpoint_policy": "minimized first; reject endpoints above force tolerance"
+  },
+  "NEB_cases": [
+    {
+      "case": "images7_tol0.001_seed1",
+      "n_images": 7,
+      "seed": 1,
+      "tolerance_eV_A": 0.001,
+      "iteration_cap": 6000,
+      "iterations_executed": 113,
+      "converged": true,
+      "stop_reason": "force_tolerance",
+      "energy_force_point_evaluations": 798,
+      "climbing_index": 3,
+      "max_NEB_force_eV_A": 0.0009073167573751293,
+      "climbing_true_force_eV_A": 0.0002430325599219634,
+      "endpoint_max_force_eV_A": 9.614368577651706e-12,
+      "barrier_eV": 1.0000000033084202,
+      "barrier_error_eV": 3.3084202044619815e-09,
+      "saddle_coordinate_error_A": 3.1916699512818584e-05,
+      "saddle_negative_hessian_eigenvalues": 1,
+      "saddle_hessian_eigenvalues_eV_A2": [
+        -3.99968956815654,
+        8.000000001151186
+      ],
+      "potential_energy_not_free_energy": true
+    },
+    {
+      "case": "images7_tol0.001_seed2",
+      "n_images": 7,
+      "seed": 2,
+      "tolerance_eV_A": 0.001,
+      "iteration_cap": 6000,
+      "iterations_executed": 165,
+      "converged": true,
+      "stop_reason": "force_tolerance",
+      "energy_force_point_evaluations": 1162,
+      "climbing_index": 3,
+      "max_NEB_force_eV_A": 0.00081790304226098,
+      "climbing_true_force_eV_A": 0.0008179030422609799,
+      "endpoint_max_force_eV_A": 9.614368577651706e-12,
+      "barrier_eV": 0.9999999163793372,
+      "barrier_error_eV": -8.362066283851277e-08,
+      "saddle_coordinate_error_A": 0.00020447575842497654,
+      "saddle_negative_hessian_eigenvalues": 1,
+      "saddle_hessian_eigenvalues_eV_A2": [
+        -3.999999541137448,
+        8.000000376850487
+      ],
+      "potential_energy_not_free_energy": true
+    },
+    {
+      "case": "images7_tol0.001_seed3",
+      "n_images": 7,
+      "seed": 3,
+      "tolerance_eV_A": 0.001,
+      "iteration_cap": 6000,
+      "iterations_executed": 152,
+      "converged": true,
+      "stop_reason": "force_tolerance",
+      "energy_force_point_evaluations": 1071,
+      "climbing_index": 3,
+      "max_NEB_force_eV_A": 0.0009529774378247662,
+      "climbing_true_force_eV_A": 0.000485960828311249,
+      "endpoint_max_force_eV_A": 9.614368577651706e-12,
+      "barrier_eV": 0.9999999704807621,
+      "barrier_error_eV": -2.9519237942920995e-08,
+      "saddle_coordinate_error_A": 0.00012148967552141715,
+      "saddle_negative_hessian_eigenvalues": 1,
+      "saddle_hessian_eigenvalues_eV_A2": [
+        -4.00000182120195,
+        8.000000133034057
+      ],
+      "potential_energy_not_free_energy": true
+    },
+    {
+      "case": "images7_tol1e-05_seed1",
+      "n_images": 7,
+      "seed": 1,
+      "tolerance_eV_A": 1e-05,
+      "iteration_cap": 6000,
+      "iterations_executed": 153,
+      "converged": true,
+      "stop_reason": "force_tolerance",
+      "energy_force_point_evaluations": 1078,
+      "climbing_index": 3,
+      "max_NEB_force_eV_A": 9.722218232741588e-06,
+      "climbing_true_force_eV_A": 1.8990257850131667e-06,
+      "endpoint_max_force_eV_A": 9.614368577651706e-12,
+      "barrier_eV": 1.0000000000002147,
+      "barrier_error_eV": 2.1471713296250527e-13,
+      "saddle_coordinate_error_A": 2.4289257962298835e-07,
+      "saddle_negative_hessian_eigenvalues": 1,
+      "saddle_hessian_eigenvalues_eV_A2": [
+        -3.9999975506812153,
+        8.000000000000032
+      ],
+      "potential_energy_not_free_energy": true
+    },
+    {
+      "case": "images7_tol1e-05_seed2",
+      "n_images": 7,
+      "seed": 2,
+      "tolerance_eV_A": 1e-05,
+      "iteration_cap": 6000,
+      "iterations_executed": 251,
+      "converged": true,
+      "stop_reason": "force_tolerance",
+      "energy_force_point_evaluations": 1764,
+      "climbing_index": 3,
+      "max_NEB_force_eV_A": 9.335918966012898e-06,
+      "climbing_true_force_eV_A": 7.262400947935191e-07,
+      "endpoint_max_force_eV_A": 9.614368577651706e-12,
+      "barrier_eV": 0.999999999999934,
+      "barrier_error_eV": -6.59472476627343e-14,
+      "saddle_coordinate_error_A": 1.8156002187057476e-07,
+      "saddle_negative_hessian_eigenvalues": 1,
+      "saddle_hessian_eigenvalues_eV_A2": [
+        -4.000000000153923,
+        8.000000000000298
+      ],
+      "potential_energy_not_free_energy": true
+    },
+    {
+      "case": "images7_tol1e-05_seed3",
+      "n_images": 7,
+      "seed": 3,
+      "tolerance_eV_A": 1e-05,
+      "iteration_cap": 6000,
+      "iterations_executed": 247,
+      "converged": true,
+      "stop_reason": "force_tolerance",
+      "energy_force_point_evaluations": 1736,
+      "climbing_index": 3,
+      "max_NEB_force_eV_A": 8.776425683327468e-06,
+      "climbing_true_force_eV_A": 8.77642568332747e-06,
+      "endpoint_max_force_eV_A": 9.614368577651706e-12,
+      "barrier_eV": 0.9999999999903717,
+      "barrier_error_eV": -9.628298158759208e-12,
+      "saddle_coordinate_error_A": 2.194106420846222e-06,
+      "saddle_negative_hessian_eigenvalues": 1,
+      "saddle_hessian_eigenvalues_eV_A2": [
+        -3.9999999999164935,
+        8.00000000004339
+      ],
+      "potential_energy_not_free_energy": true
+    },
+    {
+      "case": "images11_tol0.001_seed1",
+      "n_images": 11,
+      "seed": 1,
+      "tolerance_eV_A": 0.001,
+      "iteration_cap": 6000,
+      "iterations_executed": 104,
+      "converged": true,
+      "stop_reason": "force_tolerance",
+      "energy_force_point_evaluations": 1155,
+      "climbing_index": 5,
+      "max_NEB_force_eV_A": 0.0009852614891181534,
+      "climbing_true_force_eV_A": 0.0009852614891181534,
+      "endpoint_max_force_eV_A": 9.614368577651706e-12,
+      "barrier_eV": 0.9999998790766165,
+      "barrier_error_eV": -1.209233835286483e-07,
+      "saddle_coordinate_error_A": 0.0002461016462911207,
+      "saddle_negative_hessian_eigenvalues": 1,
+      "saddle_hessian_eigenvalues_eV_A2": [
+        -4.000060193780234,
+        8.000000545582756
+      ],
+      "potential_energy_not_free_energy": true
+    },
+    {
+      "case": "images11_tol0.001_seed2",
+      "n_images": 11,
+      "seed": 2,
+      "tolerance_eV_A": 0.001,
+      "iteration_cap": 6000,
+      "iterations_executed": 113,
+      "converged": true,
+      "stop_reason": "force_tolerance",
+      "energy_force_point_evaluations": 1254,
+      "climbing_index": 5,
+      "max_NEB_force_eV_A": 0.000996780062105785,
+      "climbing_true_force_eV_A": 0.0009967800621057843,
+      "endpoint_max_force_eV_A": 9.614368577651706e-12,
+      "barrier_eV": 0.9999998760462461,
+      "barrier_error_eV": -1.2395375392770802e-07,
+      "saddle_coordinate_error_A": 0.0002490726048370494,
+      "saddle_negative_hessian_eigenvalues": 1,
+      "saddle_hessian_eigenvalues_eV_A2": [
+        -4.0000454561405485,
+        8.000000558976213
+      ],
+      "potential_energy_not_free_energy": true
+    },
+    {
+      "case": "images11_tol0.001_seed3",
+      "n_images": 11,
+      "seed": 3,
+      "tolerance_eV_A": 0.001,
+      "iteration_cap": 6000,
+      "iterations_executed": 137,
+      "converged": true,
+      "stop_reason": "force_tolerance",
+      "energy_force_point_evaluations": 1518,
+      "climbing_index": 5,
+      "max_NEB_force_eV_A": 0.0009866193866714605,
+      "climbing_true_force_eV_A": 0.0006528199974480955,
+      "endpoint_max_force_eV_A": 9.614368577651706e-12,
+      "barrier_eV": 0.9999999467289127,
+      "barrier_error_eV": -5.327108731911778e-08,
+      "saddle_coordinate_error_A": 0.00016320447664606327,
+      "saddle_negative_hessian_eigenvalues": 1,
+      "saddle_hessian_eigenvalues_eV_A2": [
+        -4.000001879433845,
+        8.000000240075893
+      ],
+      "potential_energy_not_free_energy": true
+    },
+    {
+      "case": "images11_tol1e-05_seed1",
+      "n_images": 11,
+      "seed": 1,
+      "tolerance_eV_A": 1e-05,
+      "iteration_cap": 6000,
+      "iterations_executed": 160,
+      "converged": true,
+      "stop_reason": "force_tolerance",
+      "energy_force_point_evaluations": 1771,
+      "climbing_index": 5,
+      "max_NEB_force_eV_A": 9.666842831713047e-06,
+      "climbing_true_force_eV_A": 1.2357722389377779e-06,
+      "endpoint_max_force_eV_A": 9.614368577651706e-12,
+      "barrier_eV": 0.9999999999998487,
+      "barrier_error_eV": -1.5132339825640884e-13,
+      "saddle_coordinate_error_A": 2.9252899300468635e-07,
+      "saddle_negative_hessian_eigenvalues": 1,
+      "saddle_hessian_eigenvalues_eV_A2": [
+        -3.9999994033908237,
+        8.00000000000074
+      ],
+      "potential_energy_not_free_energy": true
+    },
+    {
+      "case": "images11_tol1e-05_seed2",
+      "n_images": 11,
+      "seed": 2,
+      "tolerance_eV_A": 1e-05,
+      "iteration_cap": 6000,
+      "iterations_executed": 175,
+      "converged": true,
+      "stop_reason": "force_tolerance",
+      "energy_force_point_evaluations": 1936,
+      "climbing_index": 5,
+      "max_NEB_force_eV_A": 8.669697515499972e-06,
+      "climbing_true_force_eV_A": 1.921721587879041e-06,
+      "endpoint_max_force_eV_A": 9.614368577651706e-12,
+      "barrier_eV": 0.999999999999559,
+      "barrier_error_eV": -4.409805853811122e-13,
+      "saddle_coordinate_error_A": 4.750050222204752e-07,
+      "saddle_negative_hessian_eigenvalues": 1,
+      "saddle_hessian_eigenvalues_eV_A2": [
+        -4.000000432297792,
+        8.000000000002018
+      ],
+      "potential_energy_not_free_energy": true
+    },
+    {
+      "case": "images11_tol1e-05_seed3",
+      "n_images": 11,
+      "seed": 3,
+      "tolerance_eV_A": 1e-05,
+      "iteration_cap": 6000,
+      "iterations_executed": 187,
+      "converged": true,
+      "stop_reason": "force_tolerance",
+      "energy_force_point_evaluations": 2068,
+      "climbing_index": 5,
+      "max_NEB_force_eV_A": 7.593068077754116e-06,
+      "climbing_true_force_eV_A": 1.8052635918087139e-06,
+      "endpoint_max_force_eV_A": 9.614368577651706e-12,
+      "barrier_eV": 0.9999999999995932,
+      "barrier_error_eV": -4.0678571622265736e-13,
+      "saddle_coordinate_error_A": 4.5112057115557956e-07,
+      "saddle_negative_hessian_eigenvalues": 1,
+      "saddle_hessian_eigenvalues_eV_A2": [
+        -3.9999999202762475,
+        8.000000000001833
+      ],
+      "potential_energy_not_free_energy": true
+    },
+    {
+      "case": "images17_tol0.001_seed1",
+      "n_images": 17,
+      "seed": 1,
+      "tolerance_eV_A": 0.001,
+      "iteration_cap": 6000,
+      "iterations_executed": 155,
+      "converged": true,
+      "stop_reason": "force_tolerance",
+      "energy_force_point_evaluations": 2652,
+      "climbing_index": 8,
+      "max_NEB_force_eV_A": 0.00048439371953545217,
+      "climbing_true_force_eV_A": 0.00015222748261124335,
+      "endpoint_max_force_eV_A": 9.614368577651706e-12,
+      "barrier_eV": 0.9999999971100064,
+      "barrier_error_eV": -2.8899935777815244e-09,
+      "saddle_coordinate_error_A": 3.8034979662342916e-05,
+      "saddle_negative_hessian_eigenvalues": 1,
+      "saddle_hessian_eigenvalues_eV_A2": [
+        -4.000007715886313,
+        8.000000013034212
+      ],
+      "potential_energy_not_free_energy": true
+    },
+    {
+      "case": "images17_tol0.001_seed2",
+      "n_images": 17,
+      "seed": 2,
+      "tolerance_eV_A": 0.001,
+      "iteration_cap": 6000,
+      "iterations_executed": 188,
+      "converged": true,
+      "stop_reason": "force_tolerance",
+      "energy_force_point_evaluations": 3213,
+      "climbing_index": 9,
+      "max_NEB_force_eV_A": 0.0009519514539460329,
+      "climbing_true_force_eV_A": 2.7387367232247745e-05,
+      "endpoint_max_force_eV_A": 9.614368577651706e-12,
+      "barrier_eV": 0.9999999999064476,
+      "barrier_error_eV": -9.35523880585265e-11,
+      "saddle_coordinate_error_A": 6.843081490781675e-06,
+      "saddle_negative_hessian_eigenvalues": 1,
+      "saddle_hessian_eigenvalues_eV_A2": [
+        -3.9999986365709033,
+        8.00000000042192
+      ],
+      "potential_energy_not_free_energy": true
+    },
+    {
+      "case": "images17_tol0.001_seed3",
+      "n_images": 17,
+      "seed": 3,
+      "tolerance_eV_A": 0.001,
+      "iteration_cap": 6000,
+      "iterations_executed": 161,
+      "converged": true,
+      "stop_reason": "force_tolerance",
+      "energy_force_point_evaluations": 2754,
+      "climbing_index": 8,
+      "max_NEB_force_eV_A": 0.000692078561419295,
+      "climbing_true_force_eV_A": 0.0003136195958037008,
+      "endpoint_max_force_eV_A": 9.614368577651706e-12,
+      "barrier_eV": 0.9999999877731822,
+      "barrier_error_eV": -1.2226817780458532e-08,
+      "saddle_coordinate_error_A": 7.829679138432996e-05,
+      "saddle_negative_hessian_eigenvalues": 1,
+      "saddle_hessian_eigenvalues_eV_A2": [
+        -3.9999751437068065,
+        8.000000055204444
+      ],
+      "potential_energy_not_free_energy": true
+    },
+    {
+      "case": "images17_tol1e-05_seed1",
+      "n_images": 17,
+      "seed": 1,
+      "tolerance_eV_A": 1e-05,
+      "iteration_cap": 6000,
+      "iterations_executed": 198,
+      "converged": true,
+      "stop_reason": "force_tolerance",
+      "energy_force_point_evaluations": 3383,
+      "climbing_index": 8,
+      "max_NEB_force_eV_A": 9.955374620961404e-06,
+      "climbing_true_force_eV_A": 2.659120421506416e-06,
+      "endpoint_max_force_eV_A": 9.614368577651706e-12,
+      "barrier_eV": 0.9999999999991169,
+      "barrier_error_eV": -8.830713937868495e-13,
+      "saddle_coordinate_error_A": 6.646245928647149e-07,
+      "saddle_negative_hessian_eigenvalues": 1,
+      "saddle_hessian_eigenvalues_eV_A2": [
+        -3.9999999136553024,
+        8.00000000000398
+      ],
+      "potential_energy_not_free_energy": true
+    },
+    {
+      "case": "images17_tol1e-05_seed2",
+      "n_images": 17,
+      "seed": 2,
+      "tolerance_eV_A": 1e-05,
+      "iteration_cap": 6000,
+      "iterations_executed": 251,
+      "converged": true,
+      "stop_reason": "force_tolerance",
+      "energy_force_point_evaluations": 4284,
+      "climbing_index": 9,
+      "max_NEB_force_eV_A": 5.516431263581726e-06,
+      "climbing_true_force_eV_A": 2.660251117579629e-07,
+      "endpoint_max_force_eV_A": 9.614368577651706e-12,
+      "barrier_eV": 0.9999999999999911,
+      "barrier_error_eV": -8.881784197001252e-15,
+      "saddle_coordinate_error_A": 6.630789191944967e-08,
+      "saddle_negative_hessian_eigenvalues": 1,
+      "saddle_hessian_eigenvalues_eV_A2": [
+        -4.0000000308211625,
+        8.000000000000039
+      ],
+      "potential_energy_not_free_energy": true
+    },
+    {
+      "case": "images17_tol1e-05_seed3",
+      "n_images": 17,
+      "seed": 3,
+      "tolerance_eV_A": 1e-05,
+      "iteration_cap": 6000,
+      "iterations_executed": 219,
+      "converged": true,
+      "stop_reason": "force_tolerance",
+      "energy_force_point_evaluations": 3740,
+      "climbing_index": 8,
+      "max_NEB_force_eV_A": 7.946224114152664e-06,
+      "climbing_true_force_eV_A": 4.887330701042045e-06,
+      "endpoint_max_force_eV_A": 9.614368577651706e-12,
+      "barrier_eV": 0.9999999999970208,
+      "barrier_error_eV": -2.979172464279145e-12,
+      "saddle_coordinate_error_A": 1.2211505314307436e-06,
+      "saddle_negative_hessian_eigenvalues": 1,
+      "saddle_hessian_eigenvalues_eV_A2": [
+        -3.9999997548497292,
+        8.000000000013436
+      ],
+      "potential_energy_not_free_energy": true
+    }
+  ],
+  "checks": {
+    "all_reviewed_NEB_converged": true,
+    "all_reviewed_saddles_have_one_negative_mode": true,
+    "all_endpoints_converged": true,
+    "max_MD_COM_speed_A_fs": 4.9831653777891384e-17,
+    "source_false_convergence_declarations": 10
+  },
+  "source_MD_audit": [
+    "Source conversion eV/A to N is dimensionally correct, but the random MLIP energy scale is untrained",
+    "Source removes COM initially but uses laboratory-frame kinetic energy divided by 3N; internal thermal temperature needs COM-subtracted kinetic energy and 3N-3, especially if an external net force restores drift",
+    "Source records updated coordinates at step*dt rather than (step+1)*dt",
+    "Source records pre-rescaling kinetic energy and temperature although velocity has already been rescaled",
+    "Berendsen weak coupling does not establish canonical fluctuations or equilibrium"
+  ],
+  "limitations": [
+    "Equal-mass harmonic modes are a numerical benchmark, not a molecular force field",
+    "Langevin sampling has finite timestep bias and serial correlations; variance comparisons are descriptive",
+    "No full constrained dynamics, rigid rotation removal, electrochemical bath, or trained neural forces",
+    "Two-dimensional NEB convergence is not a molecular transition-state or free-energy validation",
+    "Image refinement tests this designed PES only; unknown higher-dimensional saddles may be missed"
+  ],
+  "sources": [
+    "https://journals.aps.org/pr/abstract/10.1103/PhysRev.159.98",
+    "https://pure.rug.nl/ws/files/64380902/1.448118.pdf",
+    "https://arxiv.org/abs/1203.5428",
+    "https://henkelmanlab.org/pubs/henkelman00_9978.pdf",
+    "https://doi.org/10.1063/1.1329672"
+  ],
+  "runtime_seconds": 24.1471818999853,
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.4.6",
+    "torch_for_unchanged_source_class": "2.10.0"
+  },
+  "source_sha256": {
+    "synthapore/scripts/dynamics_reviewed.py": "88b01c6a164ed5b29dce9f315c8ba6a399f183435194213c9ceeb1ed20833238",
+    "synthapore/source/synthapore_engine.py": "c8bd0afd2eba64823be74967acc4dd84cb5d3325eda7f70f98507ece8bfdd45e",
+    "tests/test_synthapore_dynamics.py": "9c4463ee0809acfdd2b3618a492669813baa20373e5f3cc87ad19effcb26adad"
+  },
+  "output_sha256": {
+    "berendsen_source_dof_trajectory.csv": "33592b8f2fbeb5b51a40391e6362f0f6868641a7005c46d1e6336058e8f13b73",
+    "berendsen_trajectory.csv": "16d2584d9b845b3fb7379279727a68f8554694ce7c74ae4b146253d0233b5ffd",
+    "endpoint_minimization.json": "91ca19a27ede6915afe9c5e717253ac542eec51647b4da7b9c6d13a46d7fff3d",
+    "langevin_baoab_trajectory.csv": "7536912053a57c6eab84e24434bc5c32a597858ef1c7e5da66192da932c78ab1",
+    "neb_final_bands.csv": "bf1ecbefa955cb81cb05f3dd67c20f4f48f9670e74059b7877d1e0ee2bb2eb35",
+    "neb_force_history.csv": "68ecd920dc048a0834f4fd4fc8f62c92798f693664a44f9675e862d7fc29e339",
+    "neb_summary.csv": "12caef1b7d7bfab6f5d51527fe86d5d909d5be02bee94fe25a403b4581a8ee1d",
+    "nve_convergence_orders.csv": "51fa15c45206fbc4cf45072a51e19db262bbf74a018d5f44523ca8c937f0269a",
+    "nve_dt0.25_trajectory.csv": "aa41a321d2e1d4db4bb5c8ca1893a0b8cd73663d903bada3e8c2cc3fd5b3da14",
+    "nve_dt0.5_trajectory.csv": "3064a3f82ccb410ff674ba1e39532b23c7d3c5f44d883ac30251b6c1638c31b9",
+    "nve_dt1_trajectory.csv": "9f1a74778af8a4ae2e013e706b2dc0bab46863caae8ce53e4054ad84f4a3bd38",
+    "nve_dt2_trajectory.csv": "2c2dcb3161b97118456d746b21b18d30d007a88bfadcad5bdcf67bba506d1d40",
+    "nve_dt4_trajectory.csv": "3c50cb20bdbabbf6b295fb229182028d310f2e9d089cf39766197c6ab0906267",
+    "nve_initial_final_states.json": "f3bd24109c205118c9ce3b5581af9969f43f492c60c5a8f881d087a247032347",
+    "nve_timestep_summary.csv": "3641dd7575df4af0cc611345dc19c96739ef2965d9532504d102e887abcce322",
+    "source_neb_probes.json": "0d84f841df0a5840bfa8f824feaa8a21ee1a89bc5318523eead03a0bcf292343",
+    "source_neb_summary.csv": "083a6db6912e237633cda0d6da6ea3a50a3e03827fb0ea64d300d08df4c81764",
+    "thermostat_replicas.csv": "bf78b9c47e53c90b6ecb7a4745d471294721e69ea1700770c4c8bf539dc90ccf",
+    "thermostat_summary.csv": "3bf4529479f31baa5286481e039270b710c27fd66e458eaa15189e4e3a7e393c"
+  }
+}

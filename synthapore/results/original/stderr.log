@@ -1,0 +1,40 @@
+Traceback (most recent call last):
+  File "<repository>\synthapore\scripts\run_source.py", line 117, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "<repository>\synthapore\scripts\run_source.py", line 80, in main
+    child(args.child)
+  File "<repository>\synthapore\scripts\run_source.py", line 57, in child
+    values = runpy.run_path(str(ORIGINAL if mode=='original' else COMPAT),run_name='__main__')
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen runpy>", line 287, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "<repository>\synthapore\source\synthapore_engine.py", line 537, in <module>
+    md_results = md_solver.run_md(atomic_numbers, r_init, masses, edge_index, 
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repository>\synthapore\source\synthapore_engine.py", line 219, in run_md
+    e_pot, forces = self.potential(atomic_numbers, pos, edge_index, e_field_vector)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<local-runtime-path>", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<local-runtime-path>", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repository>\synthapore\source\synthapore_engine.py", line 165, in forward
+    h = self.embedding(atomic_numbers)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<local-runtime-path>", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<local-runtime-path>", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<local-runtime-path>", line 191, in forward
+    return F.embedding(
+           ^^^^^^^^^^^^
+  File "<local-runtime-path>", line 2567, in embedding
+    return torch.embedding(weight, input, padding_idx, scale_grad_by_freq, sparse)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: index out of range in self

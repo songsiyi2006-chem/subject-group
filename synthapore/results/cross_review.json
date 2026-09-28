@@ -1,0 +1,111 @@
+{
+  "date": "2026-09-28",
+  "scope": "Agent-reported read-only cross-review of source, implementations and saved numerical evidence. Small independent validation probes are distinct from study counts. Not independent human scientific peer review.",
+  "reviews": [
+    {
+      "reviewer": "electrograph_kinetics",
+      "target": "source_audit",
+      "blocking_findings": [],
+      "checks": [
+        "Original and compatible MLIP, MD and NEB class ASTs unchanged",
+        "Eight input/output hashes matched",
+        "45 x 7 replay evaluations plus seven final-band checks",
+        "Exact captured result replay, stale-energy differences, projected forces and timestamp correction"
+      ],
+      "new_model_calls_during_cross_review": 0
+    },
+    {
+      "reviewer": "electrograph_kinetics",
+      "target": "equivariant_and_pore",
+      "blocking_findings": [],
+      "checks": [
+        "33 hashes matched",
+        "368 distinct clean-shape distance fingerprints",
+        "17664 coordinates and all 24 aggregate error rows independently recomputed",
+        "Three smoothing coefficients fitted only on training data; validation epochs 57, 60, 60",
+        "Negative warped-shape result for seed 4441 preserved",
+        "Captured 55394-parameter checkpoint and force-origin identity inspected",
+        "All 90 analytic geometry areas independently recomputed",
+        "All 152 BET fit parameters independently recomputed; four negative-C outcomes retained",
+        "100 additional periodic-distance points compared against 25 image cells"
+      ],
+      "geometry_area_max_difference_A2": 1.14e-13,
+      "periodic_validation_max_difference_A": 3.55e-15,
+      "BET_fit_parameter_max_difference": 0.0,
+      "scope_note": "Coordinate differences up to 2.56e-9 from float64 versus stored float32 vanish when the original dtype is retained; 100 periodic probes are validation work, not study points."
+    },
+    {
+      "reviewer": "electrograph_learning",
+      "target": "saved_numeric_evidence",
+      "blocking_findings": [],
+      "checks": [
+        "Three main modules and pilots have consistent recorded workloads and hashes",
+        "20 NVE final states independently compared with exact harmonic evolution and energy arithmetic",
+        "MD replica aggregation and NEB force/barrier/Hessian records checked",
+        "BET regressions reconstructed from saved deterministic and noisy observations",
+        "Bilingual tables match and figure files reference current source data"
+      ],
+      "retained_negative_results": [
+        "Untrained field force depends on coordinate origin",
+        "One EGNN seed loses to smoother on warped shapes",
+        "Berendsen kinetic variance collapses",
+        "10 of 12 source analytic NEB cases falsely report convergence",
+        "Negative-C fits retain blank apparent areas"
+      ]
+    },
+    {
+      "reviewer": "coordinating_assistant",
+      "target": "dynamics_implementation_and_figures",
+      "blocking_findings": [],
+      "checks": [
+        "Read unit conversion, Verlet and COM-projected BAOAB implementation",
+        "Reviewed analytic gradient/Hessian, energy-weighted NEB tangent, force stopping and final-energy refresh",
+        "Inspected all eight PNGs and independently rendered all eight SVGs"
+      ],
+      "scope_note": "Targeted implementation and visual review, not independent replication of the complete study."
+    },
+    {
+      "reviewer": "electrograph_structure",
+      "target": "bilingual_reports",
+      "blocking_findings": [],
+      "checks": [
+        "Six main sections in each edition",
+        "47 numeric table rows match",
+        "Captions agree with the final four panels",
+        "PCA OOD axis clipping identified and fixed by coordinator"
+      ]
+    }
+  ],
+  "reviewed_artifact_sha256": {
+    "source_audit": {
+      "scripts/run_source.py": "e57d19fd1cb47adb997ed8fe6289a1a1f2aa4025ace0b986ebcb14548242125d",
+      "scripts/audit_source.py": "0c7242b701a3efbadc9053fca9d1a0947d9a3aa45ba8e17a84fc2fc663ea294f",
+      "source/synthapore_engine.py": "c8bd0afd2eba64823be74967acc4dd84cb5d3325eda7f70f98507ece8bfdd45e",
+      "source/synthapore_engine_compat.py": "90c21568413f59113ffc58ee59a31554ec8ab44478da7a7f920bc5003e6637d6",
+      "results/source_audit.json": "09abc3585719611a3df86a7ce0766c97aa7ada536d7d899c428f880e5892b5d1",
+      "results/source_audit/NEB_replay_evaluations.csv": "c79199f5030512e7f3044cdcb89406191ce176567b4a21f12aaabd4b74f3fd7a",
+      "results/source_audit/NEB_final_images.csv": "dbf58940ee9131763b3908e41b3f902560ef9400ffa2566fa0c6f963c7ea0e8d"
+    },
+    "equivariant": {
+      "scripts/equivariant_reviewed.py": "aef29ee0d6ddd049f6426977b9fd46ba6eb521edfd190246ea71212199fb784d",
+      "results/equivariant/summary.json": "15373b9c57523af506d8460514adfbef335961d427cbd4f472e7e7eb1254c0f0",
+      "results/equivariant/predicted_coordinates.csv": "dbcf69853e09295411692ed2338bc7097f974bb8394d1491443bee462f74d0eb",
+      "results/equivariant/denoising_metrics.csv": "d74cb54066c661c6e981c62335a8e93eb8666978dd93dce3e96afb918e4d13bf",
+      "results/equivariant/captured_source_audit.json": "9643a81beb10697637d66b93fabba47c4e139d2dc4bc6902682522e73d0862be"
+    },
+    "dynamics": {
+      "scripts/dynamics_reviewed.py": "88b01c6a164ed5b29dce9f315c8ba6a399f183435194213c9ceeb1ed20833238",
+      "results/dynamics/summary.json": "021408f7b49e794aa8f67a47b4c3586dead0d1b138a778994e6faa99a0306795",
+      "results/dynamics/nve_initial_final_states.json": "f3bd24109c205118c9ce3b5581af9969f43f492c60c5a8f881d087a247032347",
+      "results/dynamics/neb_summary.csv": "12caef1b7d7bfab6f5d51527fe86d5d909d5be02bee94fe25a403b4581a8ee1d",
+      "results/dynamics/thermostat_summary.csv": "3bf4529479f31baa5286481e039270b710c27fd66e458eaa15189e4e3a7e393c"
+    },
+    "pore": {
+      "scripts/pore_reviewed.py": "57dacb7d6e4c4e44e40276f97e2f45c95738c391bc6e6296845bcbc183e84419",
+      "results/pore/summary.json": "94249cf6ec120adc4d7f803582ecb89ea46146c2335def462f0810c585e1e851",
+      "results/pore/geometry_grid_convergence.csv": "0a435865125c6c858cc5e1cd08073f27120f3a12dadda46d8abd8bbbcf61ed7b",
+      "results/pore/BET_window_fits.csv": "9b681bb6d9415bbdaa4c8583b4298ca72b6fafe1e7de25f50a245af41d3c0b3d",
+      "results/pore/noise_BET_fits.csv": "76eb8a970bbc1d18124f9c3df63cda94629cd25dd2008986a16b565c6d5a373e"
+    }
+  }
+}

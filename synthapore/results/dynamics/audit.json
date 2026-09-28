@@ -1,0 +1,1435 @@
+{
+  "schema_version": 1,
+  "scope": "Read-only saved-data arithmetic and SHA256 checks; no trajectory integration, optimizer, training, or physical validation rerun",
+  "checks_total": 356,
+  "checks_passed": 356,
+  "checks_failed": 0,
+  "all_passed": true,
+  "full_summary_sha256": "021408f7b49e794aa8f67a47b4c3586dead0d1b138a778994e6faa99a0306795",
+  "checks": [
+    {
+      "check": "dynamics:source_hash:synthapore/scripts/dynamics_reviewed.py",
+      "passed": true
+    },
+    {
+      "check": "dynamics:source_hash:synthapore/source/synthapore_engine.py",
+      "passed": true
+    },
+    {
+      "check": "dynamics:source_hash:tests/test_synthapore_dynamics.py",
+      "passed": true
+    },
+    {
+      "check": "dynamics:output_hash:berendsen_source_dof_trajectory.csv",
+      "passed": true
+    },
+    {
+      "check": "dynamics:output_hash:berendsen_trajectory.csv",
+      "passed": true
+    },
+    {
+      "check": "dynamics:output_hash:endpoint_minimization.json",
+      "passed": true
+    },
+    {
+      "check": "dynamics:output_hash:langevin_baoab_trajectory.csv",
+      "passed": true
+    },
+    {
+      "check": "dynamics:output_hash:neb_final_bands.csv",
+      "passed": true
+    },
+    {
+      "check": "dynamics:output_hash:neb_force_history.csv",
+      "passed": true
+    },
+    {
+      "check": "dynamics:output_hash:neb_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "dynamics:output_hash:nve_convergence_orders.csv",
+      "passed": true
+    },
+    {
+      "check": "dynamics:output_hash:nve_dt0.25_trajectory.csv",
+      "passed": true
+    },
+    {
+      "check": "dynamics:output_hash:nve_dt0.5_trajectory.csv",
+      "passed": true
+    },
+    {
+      "check": "dynamics:output_hash:nve_dt1_trajectory.csv",
+      "passed": true
+    },
+    {
+      "check": "dynamics:output_hash:nve_dt2_trajectory.csv",
+      "passed": true
+    },
+    {
+      "check": "dynamics:output_hash:nve_dt4_trajectory.csv",
+      "passed": true
+    },
+    {
+      "check": "dynamics:output_hash:nve_initial_final_states.json",
+      "passed": true
+    },
+    {
+      "check": "dynamics:output_hash:nve_timestep_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "dynamics:output_hash:source_neb_probes.json",
+      "passed": true
+    },
+    {
+      "check": "dynamics:output_hash:source_neb_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "dynamics:output_hash:thermostat_replicas.csv",
+      "passed": true
+    },
+    {
+      "check": "dynamics:output_hash:thermostat_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "pilot:source_hash:synthapore/scripts/dynamics_reviewed.py",
+      "passed": true
+    },
+    {
+      "check": "pilot:source_hash:synthapore/source/synthapore_engine.py",
+      "passed": true
+    },
+    {
+      "check": "pilot:source_hash:tests/test_synthapore_dynamics.py",
+      "passed": true
+    },
+    {
+      "check": "pilot:output_hash:berendsen_source_dof_trajectory.csv",
+      "passed": true
+    },
+    {
+      "check": "pilot:output_hash:berendsen_trajectory.csv",
+      "passed": true
+    },
+    {
+      "check": "pilot:output_hash:endpoint_minimization.json",
+      "passed": true
+    },
+    {
+      "check": "pilot:output_hash:langevin_baoab_trajectory.csv",
+      "passed": true
+    },
+    {
+      "check": "pilot:output_hash:neb_final_bands.csv",
+      "passed": true
+    },
+    {
+      "check": "pilot:output_hash:neb_force_history.csv",
+      "passed": true
+    },
+    {
+      "check": "pilot:output_hash:neb_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "pilot:output_hash:nve_dt1_trajectory.csv",
+      "passed": true
+    },
+    {
+      "check": "pilot:output_hash:nve_initial_final_states.json",
+      "passed": true
+    },
+    {
+      "check": "pilot:output_hash:nve_timestep_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "pilot:output_hash:source_neb_probes.json",
+      "passed": true
+    },
+    {
+      "check": "pilot:output_hash:source_neb_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "pilot:output_hash:thermostat_replicas.csv",
+      "passed": true
+    },
+    {
+      "check": "pilot:output_hash:thermostat_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "MD trajectory counts",
+      "passed": true
+    },
+    {
+      "check": "MD integration count",
+      "passed": true
+    },
+    {
+      "check": "MD energy force count",
+      "passed": true
+    },
+    {
+      "check": "MD mean K/T identity:nve:101:0.25",
+      "passed": true
+    },
+    {
+      "check": "MD variance K/T identity:nve:101:0.25",
+      "passed": true
+    },
+    {
+      "check": "MD time count identity:nve:101:0.25",
+      "passed": true
+    },
+    {
+      "check": "MD mean K/T identity:nve:101:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD variance K/T identity:nve:101:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD time count identity:nve:101:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD mean K/T identity:nve:101:1.0",
+      "passed": true
+    },
+    {
+      "check": "MD variance K/T identity:nve:101:1.0",
+      "passed": true
+    },
+    {
+      "check": "MD time count identity:nve:101:1.0",
+      "passed": true
+    },
+    {
+      "check": "MD mean K/T identity:nve:101:2.0",
+      "passed": true
+    },
+    {
+      "check": "MD variance K/T identity:nve:101:2.0",
+      "passed": true
+    },
+    {
+      "check": "MD time count identity:nve:101:2.0",
+      "passed": true
+    },
+    {
+      "check": "MD mean K/T identity:nve:101:4.0",
+      "passed": true
+    },
+    {
+      "check": "MD variance K/T identity:nve:101:4.0",
+      "passed": true
+    },
+    {
+      "check": "MD time count identity:nve:101:4.0",
+      "passed": true
+    },
+    {
+      "check": "MD mean K/T identity:nve:102:0.25",
+      "passed": true
+    },
+    {
+      "check": "MD variance K/T identity:nve:102:0.25",
+      "passed": true
+    },
+    {
+      "check": "MD time count identity:nve:102:0.25",
+      "passed": true
+    },
+    {
+      "check": "MD mean K/T identity:nve:102:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD variance K/T identity:nve:102:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD time count identity:nve:102:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD mean K/T identity:nve:102:1.0",
+      "passed": true
+    },
+    {
+      "check": "MD variance K/T identity:nve:102:1.0",
+      "passed": true
+    },
+    {
+      "check": "MD time count identity:nve:102:1.0",
+      "passed": true
+    },
+    {
+      "check": "MD mean K/T identity:nve:102:2.0",
+      "passed": true
+    },
+    {
+      "check": "MD variance K/T identity:nve:102:2.0",
+      "passed": true
+    },
+    {
+      "check": "MD time count identity:nve:102:2.0",
+      "passed": true
+    },
+    {
+      "check": "MD mean K/T identity:nve:102:4.0",
+      "passed": true
+    },
+    {
+      "check": "MD variance K/T identity:nve:102:4.0",
+      "passed": true
+    },
+    {
+      "check": "MD time count identity:nve:102:4.0",
+      "passed": true
+    },
+    {
+      "check": "MD mean K/T identity:nve:103:0.25",
+      "passed": true
+    },
+    {
+      "check": "MD variance K/T identity:nve:103:0.25",
+      "passed": true
+    },
+    {
+      "check": "MD time count identity:nve:103:0.25",
+      "passed": true
+    },
+    {
+      "check": "MD mean K/T identity:nve:103:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD variance K/T identity:nve:103:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD time count identity:nve:103:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD mean K/T identity:nve:103:1.0",
+      "passed": true
+    },
+    {
+      "check": "MD variance K/T identity:nve:103:1.0",
+      "passed": true
+    },
+    {
+      "check": "MD time count identity:nve:103:1.0",
+      "passed": true
+    },
+    {
+      "check": "MD mean K/T identity:nve:103:2.0",
+      "passed": true
+    },
+    {
+      "check": "MD variance K/T identity:nve:103:2.0",
+      "passed": true
+    },
+    {
+      "check": "MD time count identity:nve:103:2.0",
+      "passed": true
+    },
+    {
+      "check": "MD mean K/T identity:nve:103:4.0",
+      "passed": true
+    },
+    {
+      "check": "MD variance K/T identity:nve:103:4.0",
+      "passed": true
+    },
+    {
+      "check": "MD time count identity:nve:103:4.0",
+      "passed": true
+    },
+    {
+      "check": "MD mean K/T identity:nve:104:0.25",
+      "passed": true
+    },
+    {
+      "check": "MD variance K/T identity:nve:104:0.25",
+      "passed": true
+    },
+    {
+      "check": "MD time count identity:nve:104:0.25",
+      "passed": true
+    },
+    {
+      "check": "MD mean K/T identity:nve:104:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD variance K/T identity:nve:104:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD time count identity:nve:104:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD mean K/T identity:nve:104:1.0",
+      "passed": true
+    },
+    {
+      "check": "MD variance K/T identity:nve:104:1.0",
+      "passed": true
+    },
+    {
+      "check": "MD time count identity:nve:104:1.0",
+      "passed": true
+    },
+    {
+      "check": "MD mean K/T identity:nve:104:2.0",
+      "passed": true
+    },
+    {
+      "check": "MD variance K/T identity:nve:104:2.0",
+      "passed": true
+    },
+    {
+      "check": "MD time count identity:nve:104:2.0",
+      "passed": true
+    },
+    {
+      "check": "MD mean K/T identity:nve:104:4.0",
+      "passed": true
+    },
+    {
+      "check": "MD variance K/T identity:nve:104:4.0",
+      "passed": true
+    },
+    {
+      "check": "MD time count identity:nve:104:4.0",
+      "passed": true
+    },
+    {
+      "check": "MD mean K/T identity:langevin_baoab:201:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD variance K/T identity:langevin_baoab:201:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD time count identity:langevin_baoab:201:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD mean K/T identity:langevin_baoab:202:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD variance K/T identity:langevin_baoab:202:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD time count identity:langevin_baoab:202:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD mean K/T identity:langevin_baoab:203:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD variance K/T identity:langevin_baoab:203:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD time count identity:langevin_baoab:203:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD mean K/T identity:langevin_baoab:204:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD variance K/T identity:langevin_baoab:204:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD time count identity:langevin_baoab:204:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD mean K/T identity:langevin_baoab:205:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD variance K/T identity:langevin_baoab:205:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD time count identity:langevin_baoab:205:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD mean K/T identity:langevin_baoab:206:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD variance K/T identity:langevin_baoab:206:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD time count identity:langevin_baoab:206:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD mean K/T identity:langevin_baoab:207:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD variance K/T identity:langevin_baoab:207:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD time count identity:langevin_baoab:207:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD mean K/T identity:langevin_baoab:208:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD variance K/T identity:langevin_baoab:208:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD time count identity:langevin_baoab:208:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD mean K/T identity:berendsen:201:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD variance K/T identity:berendsen:201:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD time count identity:berendsen:201:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD mean K/T identity:berendsen:202:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD variance K/T identity:berendsen:202:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD time count identity:berendsen:202:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD mean K/T identity:berendsen:203:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD variance K/T identity:berendsen:203:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD time count identity:berendsen:203:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD mean K/T identity:berendsen:204:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD variance K/T identity:berendsen:204:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD time count identity:berendsen:204:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD mean K/T identity:berendsen:205:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD variance K/T identity:berendsen:205:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD time count identity:berendsen:205:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD mean K/T identity:berendsen:206:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD variance K/T identity:berendsen:206:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD time count identity:berendsen:206:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD mean K/T identity:berendsen:207:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD variance K/T identity:berendsen:207:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD time count identity:berendsen:207:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD mean K/T identity:berendsen:208:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD variance K/T identity:berendsen:208:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD time count identity:berendsen:208:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD mean K/T identity:berendsen_source_dof:201:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD variance K/T identity:berendsen_source_dof:201:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD time count identity:berendsen_source_dof:201:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD mean K/T identity:berendsen_source_dof:202:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD variance K/T identity:berendsen_source_dof:202:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD time count identity:berendsen_source_dof:202:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD mean K/T identity:berendsen_source_dof:203:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD variance K/T identity:berendsen_source_dof:203:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD time count identity:berendsen_source_dof:203:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD mean K/T identity:berendsen_source_dof:204:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD variance K/T identity:berendsen_source_dof:204:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD time count identity:berendsen_source_dof:204:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD mean K/T identity:berendsen_source_dof:205:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD variance K/T identity:berendsen_source_dof:205:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD time count identity:berendsen_source_dof:205:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD mean K/T identity:berendsen_source_dof:206:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD variance K/T identity:berendsen_source_dof:206:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD time count identity:berendsen_source_dof:206:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD mean K/T identity:berendsen_source_dof:207:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD variance K/T identity:berendsen_source_dof:207:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD time count identity:berendsen_source_dof:207:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD mean K/T identity:berendsen_source_dof:208:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD variance K/T identity:berendsen_source_dof:208:0.5",
+      "passed": true
+    },
+    {
+      "check": "MD time count identity:berendsen_source_dof:208:0.5",
+      "passed": true
+    },
+    {
+      "check": "NVE saved state energy:nve_s101_dt0.25:initial",
+      "passed": true
+    },
+    {
+      "check": "NVE saved state energy:nve_s101_dt0.25:final",
+      "passed": true
+    },
+    {
+      "check": "NVE saved state energy:nve_s101_dt0.5:initial",
+      "passed": true
+    },
+    {
+      "check": "NVE saved state energy:nve_s101_dt0.5:final",
+      "passed": true
+    },
+    {
+      "check": "NVE saved state energy:nve_s101_dt1.0:initial",
+      "passed": true
+    },
+    {
+      "check": "NVE saved state energy:nve_s101_dt1.0:final",
+      "passed": true
+    },
+    {
+      "check": "NVE saved state energy:nve_s101_dt2.0:initial",
+      "passed": true
+    },
+    {
+      "check": "NVE saved state energy:nve_s101_dt2.0:final",
+      "passed": true
+    },
+    {
+      "check": "NVE saved state energy:nve_s101_dt4.0:initial",
+      "passed": true
+    },
+    {
+      "check": "NVE saved state energy:nve_s101_dt4.0:final",
+      "passed": true
+    },
+    {
+      "check": "NVE saved state energy:nve_s102_dt0.25:initial",
+      "passed": true
+    },
+    {
+      "check": "NVE saved state energy:nve_s102_dt0.25:final",
+      "passed": true
+    },
+    {
+      "check": "NVE saved state energy:nve_s102_dt0.5:initial",
+      "passed": true
+    },
+    {
+      "check": "NVE saved state energy:nve_s102_dt0.5:final",
+      "passed": true
+    },
+    {
+      "check": "NVE saved state energy:nve_s102_dt1.0:initial",
+      "passed": true
+    },
+    {
+      "check": "NVE saved state energy:nve_s102_dt1.0:final",
+      "passed": true
+    },
+    {
+      "check": "NVE saved state energy:nve_s102_dt2.0:initial",
+      "passed": true
+    },
+    {
+      "check": "NVE saved state energy:nve_s102_dt2.0:final",
+      "passed": true
+    },
+    {
+      "check": "NVE saved state energy:nve_s102_dt4.0:initial",
+      "passed": true
+    },
+    {
+      "check": "NVE saved state energy:nve_s102_dt4.0:final",
+      "passed": true
+    },
+    {
+      "check": "NVE saved state energy:nve_s103_dt0.25:initial",
+      "passed": true
+    },
+    {
+      "check": "NVE saved state energy:nve_s103_dt0.25:final",
+      "passed": true
+    },
+    {
+      "check": "NVE saved state energy:nve_s103_dt0.5:initial",
+      "passed": true
+    },
+    {
+      "check": "NVE saved state energy:nve_s103_dt0.5:final",
+      "passed": true
+    },
+    {
+      "check": "NVE saved state energy:nve_s103_dt1.0:initial",
+      "passed": true
+    },
+    {
+      "check": "NVE saved state energy:nve_s103_dt1.0:final",
+      "passed": true
+    },
+    {
+      "check": "NVE saved state energy:nve_s103_dt2.0:initial",
+      "passed": true
+    },
+    {
+      "check": "NVE saved state energy:nve_s103_dt2.0:final",
+      "passed": true
+    },
+    {
+      "check": "NVE saved state energy:nve_s103_dt4.0:initial",
+      "passed": true
+    },
+    {
+      "check": "NVE saved state energy:nve_s103_dt4.0:final",
+      "passed": true
+    },
+    {
+      "check": "NVE saved state energy:nve_s104_dt0.25:initial",
+      "passed": true
+    },
+    {
+      "check": "NVE saved state energy:nve_s104_dt0.25:final",
+      "passed": true
+    },
+    {
+      "check": "NVE saved state energy:nve_s104_dt0.5:initial",
+      "passed": true
+    },
+    {
+      "check": "NVE saved state energy:nve_s104_dt0.5:final",
+      "passed": true
+    },
+    {
+      "check": "NVE saved state energy:nve_s104_dt1.0:initial",
+      "passed": true
+    },
+    {
+      "check": "NVE saved state energy:nve_s104_dt1.0:final",
+      "passed": true
+    },
+    {
+      "check": "NVE saved state energy:nve_s104_dt2.0:initial",
+      "passed": true
+    },
+    {
+      "check": "NVE saved state energy:nve_s104_dt2.0:final",
+      "passed": true
+    },
+    {
+      "check": "NVE saved state energy:nve_s104_dt4.0:initial",
+      "passed": true
+    },
+    {
+      "check": "NVE saved state energy:nve_s104_dt4.0:final",
+      "passed": true
+    },
+    {
+      "check": "Telemetry timestamp:berendsen_source_dof_trajectory.csv",
+      "passed": true
+    },
+    {
+      "check": "Telemetry energy identity:berendsen_source_dof_trajectory.csv",
+      "passed": true
+    },
+    {
+      "check": "Telemetry COM DOF temperature:berendsen_source_dof_trajectory.csv",
+      "passed": true
+    },
+    {
+      "check": "Telemetry final time:berendsen_source_dof_trajectory.csv",
+      "passed": true
+    },
+    {
+      "check": "Telemetry timestamp:berendsen_trajectory.csv",
+      "passed": true
+    },
+    {
+      "check": "Telemetry energy identity:berendsen_trajectory.csv",
+      "passed": true
+    },
+    {
+      "check": "Telemetry COM DOF temperature:berendsen_trajectory.csv",
+      "passed": true
+    },
+    {
+      "check": "Telemetry final time:berendsen_trajectory.csv",
+      "passed": true
+    },
+    {
+      "check": "Telemetry timestamp:langevin_baoab_trajectory.csv",
+      "passed": true
+    },
+    {
+      "check": "Telemetry energy identity:langevin_baoab_trajectory.csv",
+      "passed": true
+    },
+    {
+      "check": "Telemetry COM DOF temperature:langevin_baoab_trajectory.csv",
+      "passed": true
+    },
+    {
+      "check": "Telemetry final time:langevin_baoab_trajectory.csv",
+      "passed": true
+    },
+    {
+      "check": "Telemetry timestamp:nve_dt0.25_trajectory.csv",
+      "passed": true
+    },
+    {
+      "check": "Telemetry energy identity:nve_dt0.25_trajectory.csv",
+      "passed": true
+    },
+    {
+      "check": "Telemetry COM DOF temperature:nve_dt0.25_trajectory.csv",
+      "passed": true
+    },
+    {
+      "check": "Telemetry final time:nve_dt0.25_trajectory.csv",
+      "passed": true
+    },
+    {
+      "check": "Telemetry timestamp:nve_dt0.5_trajectory.csv",
+      "passed": true
+    },
+    {
+      "check": "Telemetry energy identity:nve_dt0.5_trajectory.csv",
+      "passed": true
+    },
+    {
+      "check": "Telemetry COM DOF temperature:nve_dt0.5_trajectory.csv",
+      "passed": true
+    },
+    {
+      "check": "Telemetry final time:nve_dt0.5_trajectory.csv",
+      "passed": true
+    },
+    {
+      "check": "Telemetry timestamp:nve_dt1_trajectory.csv",
+      "passed": true
+    },
+    {
+      "check": "Telemetry energy identity:nve_dt1_trajectory.csv",
+      "passed": true
+    },
+    {
+      "check": "Telemetry COM DOF temperature:nve_dt1_trajectory.csv",
+      "passed": true
+    },
+    {
+      "check": "Telemetry final time:nve_dt1_trajectory.csv",
+      "passed": true
+    },
+    {
+      "check": "Telemetry timestamp:nve_dt2_trajectory.csv",
+      "passed": true
+    },
+    {
+      "check": "Telemetry energy identity:nve_dt2_trajectory.csv",
+      "passed": true
+    },
+    {
+      "check": "Telemetry COM DOF temperature:nve_dt2_trajectory.csv",
+      "passed": true
+    },
+    {
+      "check": "Telemetry final time:nve_dt2_trajectory.csv",
+      "passed": true
+    },
+    {
+      "check": "Telemetry timestamp:nve_dt4_trajectory.csv",
+      "passed": true
+    },
+    {
+      "check": "Telemetry energy identity:nve_dt4_trajectory.csv",
+      "passed": true
+    },
+    {
+      "check": "Telemetry COM DOF temperature:nve_dt4_trajectory.csv",
+      "passed": true
+    },
+    {
+      "check": "Telemetry final time:nve_dt4_trajectory.csv",
+      "passed": true
+    },
+    {
+      "check": "NEB counts",
+      "passed": true
+    },
+    {
+      "check": "NEB iteration accounting",
+      "passed": true
+    },
+    {
+      "check": "NEB evaluation accounting",
+      "passed": true
+    },
+    {
+      "check": "NEB saved final energies:images7_tol0.001_seed1",
+      "passed": true
+    },
+    {
+      "check": "NEB saddle Hessian:images7_tol0.001_seed1",
+      "passed": true
+    },
+    {
+      "check": "NEB CI true force:images7_tol0.001_seed1",
+      "passed": true
+    },
+    {
+      "check": "NEB history consistency:images7_tol0.001_seed1",
+      "passed": true
+    },
+    {
+      "check": "NEB final barrier:images7_tol0.001_seed1",
+      "passed": true
+    },
+    {
+      "check": "NEB saved final energies:images7_tol0.001_seed2",
+      "passed": true
+    },
+    {
+      "check": "NEB saddle Hessian:images7_tol0.001_seed2",
+      "passed": true
+    },
+    {
+      "check": "NEB CI true force:images7_tol0.001_seed2",
+      "passed": true
+    },
+    {
+      "check": "NEB history consistency:images7_tol0.001_seed2",
+      "passed": true
+    },
+    {
+      "check": "NEB final barrier:images7_tol0.001_seed2",
+      "passed": true
+    },
+    {
+      "check": "NEB saved final energies:images7_tol0.001_seed3",
+      "passed": true
+    },
+    {
+      "check": "NEB saddle Hessian:images7_tol0.001_seed3",
+      "passed": true
+    },
+    {
+      "check": "NEB CI true force:images7_tol0.001_seed3",
+      "passed": true
+    },
+    {
+      "check": "NEB history consistency:images7_tol0.001_seed3",
+      "passed": true
+    },
+    {
+      "check": "NEB final barrier:images7_tol0.001_seed3",
+      "passed": true
+    },
+    {
+      "check": "NEB saved final energies:images7_tol1e-05_seed1",
+      "passed": true
+    },
+    {
+      "check": "NEB saddle Hessian:images7_tol1e-05_seed1",
+      "passed": true
+    },
+    {
+      "check": "NEB CI true force:images7_tol1e-05_seed1",
+      "passed": true
+    },
+    {
+      "check": "NEB history consistency:images7_tol1e-05_seed1",
+      "passed": true
+    },
+    {
+      "check": "NEB final barrier:images7_tol1e-05_seed1",
+      "passed": true
+    },
+    {
+      "check": "NEB saved final energies:images7_tol1e-05_seed2",
+      "passed": true
+    },
+    {
+      "check": "NEB saddle Hessian:images7_tol1e-05_seed2",
+      "passed": true
+    },
+    {
+      "check": "NEB CI true force:images7_tol1e-05_seed2",
+      "passed": true
+    },
+    {
+      "check": "NEB history consistency:images7_tol1e-05_seed2",
+      "passed": true
+    },
+    {
+      "check": "NEB final barrier:images7_tol1e-05_seed2",
+      "passed": true
+    },
+    {
+      "check": "NEB saved final energies:images7_tol1e-05_seed3",
+      "passed": true
+    },
+    {
+      "check": "NEB saddle Hessian:images7_tol1e-05_seed3",
+      "passed": true
+    },
+    {
+      "check": "NEB CI true force:images7_tol1e-05_seed3",
+      "passed": true
+    },
+    {
+      "check": "NEB history consistency:images7_tol1e-05_seed3",
+      "passed": true
+    },
+    {
+      "check": "NEB final barrier:images7_tol1e-05_seed3",
+      "passed": true
+    },
+    {
+      "check": "NEB saved final energies:images11_tol0.001_seed1",
+      "passed": true
+    },
+    {
+      "check": "NEB saddle Hessian:images11_tol0.001_seed1",
+      "passed": true
+    },
+    {
+      "check": "NEB CI true force:images11_tol0.001_seed1",
+      "passed": true
+    },
+    {
+      "check": "NEB history consistency:images11_tol0.001_seed1",
+      "passed": true
+    },
+    {
+      "check": "NEB final barrier:images11_tol0.001_seed1",
+      "passed": true
+    },
+    {
+      "check": "NEB saved final energies:images11_tol0.001_seed2",
+      "passed": true
+    },
+    {
+      "check": "NEB saddle Hessian:images11_tol0.001_seed2",
+      "passed": true
+    },
+    {
+      "check": "NEB CI true force:images11_tol0.001_seed2",
+      "passed": true
+    },
+    {
+      "check": "NEB history consistency:images11_tol0.001_seed2",
+      "passed": true
+    },
+    {
+      "check": "NEB final barrier:images11_tol0.001_seed2",
+      "passed": true
+    },
+    {
+      "check": "NEB saved final energies:images11_tol0.001_seed3",
+      "passed": true
+    },
+    {
+      "check": "NEB saddle Hessian:images11_tol0.001_seed3",
+      "passed": true
+    },
+    {
+      "check": "NEB CI true force:images11_tol0.001_seed3",
+      "passed": true
+    },
+    {
+      "check": "NEB history consistency:images11_tol0.001_seed3",
+      "passed": true
+    },
+    {
+      "check": "NEB final barrier:images11_tol0.001_seed3",
+      "passed": true
+    },
+    {
+      "check": "NEB saved final energies:images11_tol1e-05_seed1",
+      "passed": true
+    },
+    {
+      "check": "NEB saddle Hessian:images11_tol1e-05_seed1",
+      "passed": true
+    },
+    {
+      "check": "NEB CI true force:images11_tol1e-05_seed1",
+      "passed": true
+    },
+    {
+      "check": "NEB history consistency:images11_tol1e-05_seed1",
+      "passed": true
+    },
+    {
+      "check": "NEB final barrier:images11_tol1e-05_seed1",
+      "passed": true
+    },
+    {
+      "check": "NEB saved final energies:images11_tol1e-05_seed2",
+      "passed": true
+    },
+    {
+      "check": "NEB saddle Hessian:images11_tol1e-05_seed2",
+      "passed": true
+    },
+    {
+      "check": "NEB CI true force:images11_tol1e-05_seed2",
+      "passed": true
+    },
+    {
+      "check": "NEB history consistency:images11_tol1e-05_seed2",
+      "passed": true
+    },
+    {
+      "check": "NEB final barrier:images11_tol1e-05_seed2",
+      "passed": true
+    },
+    {
+      "check": "NEB saved final energies:images11_tol1e-05_seed3",
+      "passed": true
+    },
+    {
+      "check": "NEB saddle Hessian:images11_tol1e-05_seed3",
+      "passed": true
+    },
+    {
+      "check": "NEB CI true force:images11_tol1e-05_seed3",
+      "passed": true
+    },
+    {
+      "check": "NEB history consistency:images11_tol1e-05_seed3",
+      "passed": true
+    },
+    {
+      "check": "NEB final barrier:images11_tol1e-05_seed3",
+      "passed": true
+    },
+    {
+      "check": "NEB saved final energies:images17_tol0.001_seed1",
+      "passed": true
+    },
+    {
+      "check": "NEB saddle Hessian:images17_tol0.001_seed1",
+      "passed": true
+    },
+    {
+      "check": "NEB CI true force:images17_tol0.001_seed1",
+      "passed": true
+    },
+    {
+      "check": "NEB history consistency:images17_tol0.001_seed1",
+      "passed": true
+    },
+    {
+      "check": "NEB final barrier:images17_tol0.001_seed1",
+      "passed": true
+    },
+    {
+      "check": "NEB saved final energies:images17_tol0.001_seed2",
+      "passed": true
+    },
+    {
+      "check": "NEB saddle Hessian:images17_tol0.001_seed2",
+      "passed": true
+    },
+    {
+      "check": "NEB CI true force:images17_tol0.001_seed2",
+      "passed": true
+    },
+    {
+      "check": "NEB history consistency:images17_tol0.001_seed2",
+      "passed": true
+    },
+    {
+      "check": "NEB final barrier:images17_tol0.001_seed2",
+      "passed": true
+    },
+    {
+      "check": "NEB saved final energies:images17_tol0.001_seed3",
+      "passed": true
+    },
+    {
+      "check": "NEB saddle Hessian:images17_tol0.001_seed3",
+      "passed": true
+    },
+    {
+      "check": "NEB CI true force:images17_tol0.001_seed3",
+      "passed": true
+    },
+    {
+      "check": "NEB history consistency:images17_tol0.001_seed3",
+      "passed": true
+    },
+    {
+      "check": "NEB final barrier:images17_tol0.001_seed3",
+      "passed": true
+    },
+    {
+      "check": "NEB saved final energies:images17_tol1e-05_seed1",
+      "passed": true
+    },
+    {
+      "check": "NEB saddle Hessian:images17_tol1e-05_seed1",
+      "passed": true
+    },
+    {
+      "check": "NEB CI true force:images17_tol1e-05_seed1",
+      "passed": true
+    },
+    {
+      "check": "NEB history consistency:images17_tol1e-05_seed1",
+      "passed": true
+    },
+    {
+      "check": "NEB final barrier:images17_tol1e-05_seed1",
+      "passed": true
+    },
+    {
+      "check": "NEB saved final energies:images17_tol1e-05_seed2",
+      "passed": true
+    },
+    {
+      "check": "NEB saddle Hessian:images17_tol1e-05_seed2",
+      "passed": true
+    },
+    {
+      "check": "NEB CI true force:images17_tol1e-05_seed2",
+      "passed": true
+    },
+    {
+      "check": "NEB history consistency:images17_tol1e-05_seed2",
+      "passed": true
+    },
+    {
+      "check": "NEB final barrier:images17_tol1e-05_seed2",
+      "passed": true
+    },
+    {
+      "check": "NEB saved final energies:images17_tol1e-05_seed3",
+      "passed": true
+    },
+    {
+      "check": "NEB saddle Hessian:images17_tol1e-05_seed3",
+      "passed": true
+    },
+    {
+      "check": "NEB CI true force:images17_tol1e-05_seed3",
+      "passed": true
+    },
+    {
+      "check": "NEB history consistency:images17_tol1e-05_seed3",
+      "passed": true
+    },
+    {
+      "check": "NEB final barrier:images17_tol1e-05_seed3",
+      "passed": true
+    },
+    {
+      "check": "Source NEB counts",
+      "passed": true
+    },
+    {
+      "check": "Source NEB retained negative and positive results",
+      "passed": true
+    },
+    {
+      "check": "Source replay final energies:7:1",
+      "passed": true
+    },
+    {
+      "check": "Source replay final energies:7:10",
+      "passed": true
+    },
+    {
+      "check": "Source replay final energies:7:45",
+      "passed": true
+    },
+    {
+      "check": "Source replay final energies:7:150",
+      "passed": true
+    },
+    {
+      "check": "Source replay final energies:11:1",
+      "passed": true
+    },
+    {
+      "check": "Source replay final energies:11:10",
+      "passed": true
+    },
+    {
+      "check": "Source replay final energies:11:45",
+      "passed": true
+    },
+    {
+      "check": "Source replay final energies:11:150",
+      "passed": true
+    },
+    {
+      "check": "Source replay final energies:17:1",
+      "passed": true
+    },
+    {
+      "check": "Source replay final energies:17:10",
+      "passed": true
+    },
+    {
+      "check": "Source replay final energies:17:45",
+      "passed": true
+    },
+    {
+      "check": "Source replay final energies:17:150",
+      "passed": true
+    },
+    {
+      "check": "Endpoint minimization count",
+      "passed": true
+    },
+    {
+      "check": "Endpoint stationary minima",
+      "passed": true
+    },
+    {
+      "check": "Saved unit test result",
+      "passed": true
+    }
+  ]
+}

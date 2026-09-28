@@ -1,0 +1,10 @@
+{
+  "noise_level_to_alpha": {
+    "0.08": 0.13093705412331738,
+    "0.16": 0.3031026387901144,
+    "0.24": 0.4277799639804822
+  },
+  "fit_partition": "train",
+  "definition": "alpha minimizes train squared error for noisy+alpha*(mean of cycle neighbors-noisy)",
+  "PCA_scope": "per-input best plane; strong known-planarity prior, possibly unsuitable for warped OOD"
+}

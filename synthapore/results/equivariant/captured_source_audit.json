@@ -1,0 +1,101 @@
+{
+  "scope": "EXACT captured untrained source weights and source initial typed coordinate array; no MD/NEB rerun",
+  "num_species": 30,
+  "hidden_dim": 48,
+  "layers": 3,
+  "model_parameter_count": 55394,
+  "embedding_repair_note": "Changing embedding size from 10 to 30 changes initialization RNG consumption. This audit loads the actual captured repaired-run weights, not a separately reseeded approximation.",
+  "base_energy_arbitrary_units": -1.4249467849731445,
+  "field_vector": [
+    0.0,
+    0.0,
+    0.05000000074505806
+  ],
+  "translation": [
+    4.0,
+    -3.0,
+    7.0
+  ],
+  "unconstrained_total_charge": 2.807387590408325,
+  "per_atom_charges": [
+    0.27084827423095703,
+    0.2711983323097229,
+    0.2709307074546814,
+    0.39332935214042664,
+    0.27120766043663025,
+    0.5242639780044556,
+    0.5242311954498291,
+    0.28137800097465515
+  ],
+  "total_charge_gradient": [
+    [
+      0.0019271832425147295,
+      0.0033141737803816795,
+      0.0
+    ],
+    [
+      0.0012891250662505627,
+      -0.0016928091645240784,
+      0.0
+    ],
+    [
+      -0.0009989045793190598,
+      -0.0006505957571789622,
+      0.0
+    ],
+    [
+      -0.0014022119576111436,
+      -0.0004149277228862047,
+      0.0
+    ],
+    [
+      -0.001533197471871972,
+      -0.0007341279997490346,
+      0.0
+    ],
+    [
+      0.0022887480445206165,
+      0.003798209596425295,
+      0.0
+    ],
+    [
+      -0.001307995873503387,
+      -0.0023672610986977816,
+      0.0
+    ],
+    [
+      -0.00026274664560332894,
+      -0.0012526616919785738,
+      0.0
+    ]
+  ],
+  "translated_energy": -2.4075324535369873,
+  "observed_energy_shift": -0.9825856685638428,
+  "expected_shift_minus_Q_E_dot_t": -0.9825856399095798,
+  "origin_force_identity_max_error": 9.348283511873001e-09,
+  "origin_force_change_max": 0.0013293726369738579,
+  "cutoff8_scalar_change": 0.03726375102996826,
+  "cutoff8_coordinate_change": 0.019687175750732422,
+  "double_failure": "index_add_(): self (Float) and source (Double) must have the same scalar type",
+  "counts": {
+    "energy_force_forwards": 157,
+    "charge_only_forwards": 1,
+    "extra_layer_forwards": 2,
+    "expected_double_failure_probe": 1,
+    "transform_rows": 11,
+    "finite_difference_rows": 3,
+    "training_runs": 0,
+    "MD_trajectories": 0,
+    "NEB_runs": 0
+  },
+  "source_sha256": {
+    "synthapore/source/synthapore_engine.py": "c8bd0afd2eba64823be74967acc4dd84cb5d3325eda7f70f98507ece8bfdd45e",
+    "synthapore/results/compatibility/untrained_source_weights.pt": "2e6f71c4210190ddb2df06ee2d3daad2c89a9a276cca740140ece9497e07917e",
+    "synthapore/results/compatibility/captured_results.json": "c9fe4d7b5e12708ca2b8b1d11c7d9659a70b435161317cbe47d0b0b83fc11f4c",
+    "synthapore/results/equivariant/audit_captured_source.py": "19de1837591f73f2bf34638c506c8f34584cf50257eca819dd45d85d169764fb"
+  },
+  "output_sha256": {
+    "captured_source_transformations.csv": "a4970e55023998fac76c79aed55e0414ed801440617b35b264c5dd24da829e41",
+    "captured_source_finite_differences.csv": "fa7b98ee92ea64dab19c4ad86de893b480698e89c03b84bb167275991e783e47"
+  }
+}

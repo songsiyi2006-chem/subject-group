@@ -1,0 +1,3 @@
+n_images,iterations_executed,source_reported_status,source_point_energy_force_calls,source_rounded_barrier_kcal_mol,source_preupdate_barrier_eV,fresh_postupdate_barrier_eV,maximum_stale_energy_difference_eV,fresh_max_NEB_force_eV_A,fresh_climbing_true_force_eV_A,passes_independent_1e_5_force_check,original_energy_conversion_eV_to_kcal_mol,scope
+7,1,converged,7,62.03,2.6900000000000004,1.781456,0.9085440000000005,3.536,3.536,False,23.0605,Unchanged source class on analytic benchmark; no neural potential or chemical barrier
+7,45,converged,315,23.06,1.000000000000003,1.0000000000000013,2.9691540653908888e-06,4.9987044219318434e-05,1.5097478378578444e-07,False,23.0605,Unchanged source class on analytic benchmark; no neural potential or chemical barrier

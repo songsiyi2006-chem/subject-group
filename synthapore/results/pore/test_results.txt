@@ -1,0 +1,21 @@
+test_channel_area_scale_covariance (test_synthapore_pore.PoreBenchmarkTests.test_channel_area_scale_covariance) ... ok
+test_circle_erosion_analytic_and_closure (test_synthapore_pore.PoreBenchmarkTests.test_circle_erosion_analytic_and_closure) ... ok
+test_clearance_cdf_normalized_monotone_and_not_diameter (test_synthapore_pore.PoreBenchmarkTests.test_clearance_cdf_normalized_monotone_and_not_diameter) ... ok
+test_exact_bet_inverse_recovers_prescribed_parameters (test_synthapore_pore.PoreBenchmarkTests.test_exact_bet_inverse_recovers_prescribed_parameters) ... ok
+test_fit_window_failure_not_hidden_by_high_r_squared (test_synthapore_pore.PoreBenchmarkTests.test_fit_window_failure_not_hidden_by_high_r_squared) ... ok
+test_geometry_invalid_parameters_rejected (test_synthapore_pore.PoreBenchmarkTests.test_geometry_invalid_parameters_rejected) ... ok
+test_grid_rule_midpoints_excludes_duplicate_endpoints (test_synthapore_pore.PoreBenchmarkTests.test_grid_rule_midpoints_excludes_duplicate_endpoints) ... ok
+test_hexagon_uses_apothem_not_circumradius (test_synthapore_pore.PoreBenchmarkTests.test_hexagon_uses_apothem_not_circumradius) ... ok
+test_invalid_bet_inputs_rejected (test_synthapore_pore.PoreBenchmarkTests.test_invalid_bet_inputs_rejected) ... ok
+test_midpoint_geometry_agrees_with_exact_area (test_synthapore_pore.PoreBenchmarkTests.test_midpoint_geometry_agrees_with_exact_area) ... ok
+test_minimum_image_far_integer_translation_invariance (test_synthapore_pore.PoreBenchmarkTests.test_minimum_image_far_integer_translation_invariance) ... ok
+test_minimum_image_matches_explicit_neighbor_cells (test_synthapore_pore.PoreBenchmarkTests.test_minimum_image_matches_explicit_neighbor_cells) ... ok
+test_periodic_area_accounts_for_overlapping_exclusion_disks (test_synthapore_pore.PoreBenchmarkTests.test_periodic_area_accounts_for_overlapping_exclusion_disks) ... ok
+test_probe_increase_cannot_increase_grid_access (test_synthapore_pore.PoreBenchmarkTests.test_probe_increase_cannot_increase_grid_access) ... ok
+test_source_branch_discontinuity_and_probe_audit (test_synthapore_pore.PoreBenchmarkTests.test_source_branch_discontinuity_and_probe_audit) ... ok
+test_unphysical_fit_retained_with_rejection_flags (test_synthapore_pore.PoreBenchmarkTests.test_unphysical_fit_retained_with_rejection_flags) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.200s
+
+OK

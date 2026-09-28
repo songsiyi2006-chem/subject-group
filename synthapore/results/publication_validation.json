@@ -1,0 +1,2546 @@
+{
+  "passed": true,
+  "checks": 634,
+  "failed": [],
+  "scope": "Saved provenance, independent arithmetic from stored coordinates/trajectories/fits, negative outcomes, bilingual structure/table parity, local links and recorded visual QA. No training, MD, NEB, pore simulation or physical validation performed by this validator.",
+  "cross_review_required": true,
+  "validator_sha256": "858febd06932558b93d06ce364a73ab64535b43cee5c35067190ea11dc6e20e0",
+  "items": [
+    {
+      "check": "results/equivariant/summary.json pilot label",
+      "passed": true
+    },
+    {
+      "check": "results/equivariant/summary.json source nonempty hash inventory",
+      "passed": true
+    },
+    {
+      "check": "results/equivariant/summary.json source synthapore/scripts/equivariant_reviewed.py",
+      "passed": true
+    },
+    {
+      "check": "results/equivariant/summary.json source synthapore/source/synthapore_engine.py",
+      "passed": true
+    },
+    {
+      "check": "results/equivariant/summary.json output nonempty hash inventory",
+      "passed": true
+    },
+    {
+      "check": "results/equivariant/summary.json output baseline_coefficients.json",
+      "passed": true
+    },
+    {
+      "check": "results/equivariant/summary.json output denoiser_seed4441.pt",
+      "passed": true
+    },
+    {
+      "check": "results/equivariant/summary.json output denoiser_seed4442.pt",
+      "passed": true
+    },
+    {
+      "check": "results/equivariant/summary.json output denoiser_seed4443.pt",
+      "passed": true
+    },
+    {
+      "check": "results/equivariant/summary.json output denoising_metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "results/equivariant/summary.json output equivariance_probes.csv",
+      "passed": true
+    },
+    {
+      "check": "results/equivariant/summary.json output force_finite_differences.csv",
+      "passed": true
+    },
+    {
+      "check": "results/equivariant/summary.json output per_shape_metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "results/equivariant/summary.json output predicted_coordinates.csv",
+      "passed": true
+    },
+    {
+      "check": "results/equivariant/summary.json output source_and_reviewed_audit.json",
+      "passed": true
+    },
+    {
+      "check": "results/equivariant/summary.json output synthetic_shapes.json",
+      "passed": true
+    },
+    {
+      "check": "results/equivariant/summary.json output training_losses.csv",
+      "passed": true
+    },
+    {
+      "check": "results/equivariant/pilot/summary.json pilot label",
+      "passed": true
+    },
+    {
+      "check": "results/equivariant/pilot/summary.json historical source preserved without rewriting its hash",
+      "passed": true
+    },
+    {
+      "check": "results/equivariant/pilot/summary.json source nonempty hash inventory",
+      "passed": true
+    },
+    {
+      "check": "results/equivariant/pilot/summary.json source synthapore/source/synthapore_engine.py",
+      "passed": true
+    },
+    {
+      "check": "results/equivariant/pilot/summary.json output nonempty hash inventory",
+      "passed": true
+    },
+    {
+      "check": "results/equivariant/pilot/summary.json output baseline_coefficients.json",
+      "passed": true
+    },
+    {
+      "check": "results/equivariant/pilot/summary.json output denoiser_seed4441.pt",
+      "passed": true
+    },
+    {
+      "check": "results/equivariant/pilot/summary.json output denoising_metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "results/equivariant/pilot/summary.json output equivariance_probes.csv",
+      "passed": true
+    },
+    {
+      "check": "results/equivariant/pilot/summary.json output force_finite_differences.csv",
+      "passed": true
+    },
+    {
+      "check": "results/equivariant/pilot/summary.json output per_shape_metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "results/equivariant/pilot/summary.json output predicted_coordinates.csv",
+      "passed": true
+    },
+    {
+      "check": "results/equivariant/pilot/summary.json output source_and_reviewed_audit.json",
+      "passed": true
+    },
+    {
+      "check": "results/equivariant/pilot/summary.json output synthetic_shapes.json",
+      "passed": true
+    },
+    {
+      "check": "results/equivariant/pilot/summary.json output training_losses.csv",
+      "passed": true
+    },
+    {
+      "check": "results/dynamics/summary.json pilot label",
+      "passed": true
+    },
+    {
+      "check": "results/dynamics/summary.json source nonempty hash inventory",
+      "passed": true
+    },
+    {
+      "check": "results/dynamics/summary.json source synthapore/scripts/dynamics_reviewed.py",
+      "passed": true
+    },
+    {
+      "check": "results/dynamics/summary.json source synthapore/source/synthapore_engine.py",
+      "passed": true
+    },
+    {
+      "check": "results/dynamics/summary.json source tests/test_synthapore_dynamics.py",
+      "passed": true
+    },
+    {
+      "check": "results/dynamics/summary.json output nonempty hash inventory",
+      "passed": true
+    },
+    {
+      "check": "results/dynamics/summary.json output berendsen_source_dof_trajectory.csv",
+      "passed": true
+    },
+    {
+      "check": "results/dynamics/summary.json output berendsen_trajectory.csv",
+      "passed": true
+    },
+    {
+      "check": "results/dynamics/summary.json output endpoint_minimization.json",
+      "passed": true
+    },
+    {
+      "check": "results/dynamics/summary.json output langevin_baoab_trajectory.csv",
+      "passed": true
+    },
+    {
+      "check": "results/dynamics/summary.json output neb_final_bands.csv",
+      "passed": true
+    },
+    {
+      "check": "results/dynamics/summary.json output neb_force_history.csv",
+      "passed": true
+    },
+    {
+      "check": "results/dynamics/summary.json output neb_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "results/dynamics/summary.json output nve_convergence_orders.csv",
+      "passed": true
+    },
+    {
+      "check": "results/dynamics/summary.json output nve_dt0.25_trajectory.csv",
+      "passed": true
+    },
+    {
+      "check": "results/dynamics/summary.json output nve_dt0.5_trajectory.csv",
+      "passed": true
+    },
+    {
+      "check": "results/dynamics/summary.json output nve_dt1_trajectory.csv",
+      "passed": true
+    },
+    {
+      "check": "results/dynamics/summary.json output nve_dt2_trajectory.csv",
+      "passed": true
+    },
+    {
+      "check": "results/dynamics/summary.json output nve_dt4_trajectory.csv",
+      "passed": true
+    },
+    {
+      "check": "results/dynamics/summary.json output nve_initial_final_states.json",
+      "passed": true
+    },
+    {
+      "check": "results/dynamics/summary.json output nve_timestep_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "results/dynamics/summary.json output source_neb_probes.json",
+      "passed": true
+    },
+    {
+      "check": "results/dynamics/summary.json output source_neb_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "results/dynamics/summary.json output thermostat_replicas.csv",
+      "passed": true
+    },
+    {
+      "check": "results/dynamics/summary.json output thermostat_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "results/dynamics/pilot/summary.json pilot label",
+      "passed": true
+    },
+    {
+      "check": "results/dynamics/pilot/summary.json source nonempty hash inventory",
+      "passed": true
+    },
+    {
+      "check": "results/dynamics/pilot/summary.json source synthapore/scripts/dynamics_reviewed.py",
+      "passed": true
+    },
+    {
+      "check": "results/dynamics/pilot/summary.json source synthapore/source/synthapore_engine.py",
+      "passed": true
+    },
+    {
+      "check": "results/dynamics/pilot/summary.json source tests/test_synthapore_dynamics.py",
+      "passed": true
+    },
+    {
+      "check": "results/dynamics/pilot/summary.json output nonempty hash inventory",
+      "passed": true
+    },
+    {
+      "check": "results/dynamics/pilot/summary.json output berendsen_source_dof_trajectory.csv",
+      "passed": true
+    },
+    {
+      "check": "results/dynamics/pilot/summary.json output berendsen_trajectory.csv",
+      "passed": true
+    },
+    {
+      "check": "results/dynamics/pilot/summary.json output endpoint_minimization.json",
+      "passed": true
+    },
+    {
+      "check": "results/dynamics/pilot/summary.json output langevin_baoab_trajectory.csv",
+      "passed": true
+    },
+    {
+      "check": "results/dynamics/pilot/summary.json output neb_final_bands.csv",
+      "passed": true
+    },
+    {
+      "check": "results/dynamics/pilot/summary.json output neb_force_history.csv",
+      "passed": true
+    },
+    {
+      "check": "results/dynamics/pilot/summary.json output neb_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "results/dynamics/pilot/summary.json output nve_dt1_trajectory.csv",
+      "passed": true
+    },
+    {
+      "check": "results/dynamics/pilot/summary.json output nve_initial_final_states.json",
+      "passed": true
+    },
+    {
+      "check": "results/dynamics/pilot/summary.json output nve_timestep_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "results/dynamics/pilot/summary.json output source_neb_probes.json",
+      "passed": true
+    },
+    {
+      "check": "results/dynamics/pilot/summary.json output source_neb_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "results/dynamics/pilot/summary.json output thermostat_replicas.csv",
+      "passed": true
+    },
+    {
+      "check": "results/dynamics/pilot/summary.json output thermostat_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "results/pore/summary.json pilot label",
+      "passed": true
+    },
+    {
+      "check": "results/pore/summary.json source nonempty hash inventory",
+      "passed": true
+    },
+    {
+      "check": "results/pore/summary.json source synthapore/scripts/pore_reviewed.py",
+      "passed": true
+    },
+    {
+      "check": "results/pore/summary.json source synthapore/source/synthapore_engine.py",
+      "passed": true
+    },
+    {
+      "check": "results/pore/summary.json output nonempty hash inventory",
+      "passed": true
+    },
+    {
+      "check": "results/pore/summary.json output BET_window_fits.csv",
+      "passed": true
+    },
+    {
+      "check": "results/pore/summary.json output clearance_CDF.csv",
+      "passed": true
+    },
+    {
+      "check": "results/pore/summary.json output clearance_histogram.csv",
+      "passed": true
+    },
+    {
+      "check": "results/pore/summary.json output endpoint_bias.csv",
+      "passed": true
+    },
+    {
+      "check": "results/pore/summary.json output geometry_grid_convergence.csv",
+      "passed": true
+    },
+    {
+      "check": "results/pore/summary.json output noise_BET_fits.csv",
+      "passed": true
+    },
+    {
+      "check": "results/pore/summary.json output noise_observations.csv",
+      "passed": true
+    },
+    {
+      "check": "results/pore/summary.json output noise_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "results/pore/summary.json output source_isotherm_points.csv",
+      "passed": true
+    },
+    {
+      "check": "results/pore/summary.json output source_pore_audit.json",
+      "passed": true
+    },
+    {
+      "check": "results/pore/summary.json output test_results.txt",
+      "passed": true
+    },
+    {
+      "check": "results/pore/pilot/summary.json pilot label",
+      "passed": true
+    },
+    {
+      "check": "results/pore/pilot/summary.json source nonempty hash inventory",
+      "passed": true
+    },
+    {
+      "check": "results/pore/pilot/summary.json source synthapore/scripts/pore_reviewed.py",
+      "passed": true
+    },
+    {
+      "check": "results/pore/pilot/summary.json source synthapore/source/synthapore_engine.py",
+      "passed": true
+    },
+    {
+      "check": "results/pore/pilot/summary.json output nonempty hash inventory",
+      "passed": true
+    },
+    {
+      "check": "results/pore/pilot/summary.json output BET_window_fits.csv",
+      "passed": true
+    },
+    {
+      "check": "results/pore/pilot/summary.json output clearance_CDF.csv",
+      "passed": true
+    },
+    {
+      "check": "results/pore/pilot/summary.json output clearance_histogram.csv",
+      "passed": true
+    },
+    {
+      "check": "results/pore/pilot/summary.json output endpoint_bias.csv",
+      "passed": true
+    },
+    {
+      "check": "results/pore/pilot/summary.json output geometry_grid_convergence.csv",
+      "passed": true
+    },
+    {
+      "check": "results/pore/pilot/summary.json output noise_BET_fits.csv",
+      "passed": true
+    },
+    {
+      "check": "results/pore/pilot/summary.json output noise_observations.csv",
+      "passed": true
+    },
+    {
+      "check": "results/pore/pilot/summary.json output noise_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "results/pore/pilot/summary.json output source_isotherm_points.csv",
+      "passed": true
+    },
+    {
+      "check": "results/pore/pilot/summary.json output source_pore_audit.json",
+      "passed": true
+    },
+    {
+      "check": "captured model supplementary audit source nonempty hash inventory",
+      "passed": true
+    },
+    {
+      "check": "captured model supplementary audit source synthapore/source/synthapore_engine.py",
+      "passed": true
+    },
+    {
+      "check": "captured model supplementary audit source synthapore/results/compatibility/untrained_source_weights.pt",
+      "passed": true
+    },
+    {
+      "check": "captured model supplementary audit source synthapore/results/compatibility/captured_results.json",
+      "passed": true
+    },
+    {
+      "check": "captured model supplementary audit source synthapore/results/equivariant/audit_captured_source.py",
+      "passed": true
+    },
+    {
+      "check": "captured model supplementary output nonempty hash inventory",
+      "passed": true
+    },
+    {
+      "check": "captured model supplementary output captured_source_transformations.csv",
+      "passed": true
+    },
+    {
+      "check": "captured model supplementary output captured_source_finite_differences.csv",
+      "passed": true
+    },
+    {
+      "check": "archived specification bytes",
+      "passed": true
+    },
+    {
+      "check": "original source and execution bytes",
+      "passed": true
+    },
+    {
+      "check": "compatibility source execution and audit bytes",
+      "passed": true
+    },
+    {
+      "check": "original execution output nonempty hash inventory",
+      "passed": true
+    },
+    {
+      "check": "original execution output stderr.log",
+      "passed": true
+    },
+    {
+      "check": "original execution output stdout.log",
+      "passed": true
+    },
+    {
+      "check": "compatibility execution output nonempty hash inventory",
+      "passed": true
+    },
+    {
+      "check": "compatibility execution output captured_results.json",
+      "passed": true
+    },
+    {
+      "check": "compatibility execution output stderr.log",
+      "passed": true
+    },
+    {
+      "check": "compatibility execution output stdout.log",
+      "passed": true
+    },
+    {
+      "check": "compatibility execution output synthapore_flagship_results.json",
+      "passed": true
+    },
+    {
+      "check": "compatibility execution output untrained_source_weights.pt",
+      "passed": true
+    },
+    {
+      "check": "original failure and repaired completion retained",
+      "passed": true
+    },
+    {
+      "check": "execution uses no physical instrument",
+      "passed": true
+    },
+    {
+      "check": "exactly one species-table execution repair",
+      "passed": true
+    },
+    {
+      "check": "embedding repair RNG caveat explicit",
+      "passed": true
+    },
+    {
+      "check": "source audit captured result and weight identity",
+      "passed": true
+    },
+    {
+      "check": "source audit script bytes",
+      "passed": true
+    },
+    {
+      "check": "source audit output nonempty hash inventory",
+      "passed": true
+    },
+    {
+      "check": "source audit output results/source_audit/MD_telemetry_audit.csv",
+      "passed": true
+    },
+    {
+      "check": "source audit output results/source_audit/NEB_final_coordinates.json",
+      "passed": true
+    },
+    {
+      "check": "source audit output results/source_audit/NEB_final_images.csv",
+      "passed": true
+    },
+    {
+      "check": "source audit output results/source_audit/NEB_replay_evaluations.csv",
+      "passed": true
+    },
+    {
+      "check": "source audit bounded costs",
+      "passed": true
+    },
+    {
+      "check": "results/source_audit/MD_telemetry_audit.csv row count",
+      "passed": true
+    },
+    {
+      "check": "results/source_audit/NEB_final_images.csv row count",
+      "passed": true
+    },
+    {
+      "check": "results/source_audit/NEB_replay_evaluations.csv row count",
+      "passed": true
+    },
+    {
+      "check": "source replay 45 iterations by seven images",
+      "passed": true
+    },
+    {
+      "check": "source MD timestamp offset retained",
+      "passed": true
+    },
+    {
+      "check": "source temperature mean from 30 saved samples",
+      "passed": true
+    },
+    {
+      "check": "source stale band energies retained",
+      "passed": true
+    },
+    {
+      "check": "source final force and pair-distance diagnostics retained",
+      "passed": true
+    },
+    {
+      "check": "source NEB convergence and free-energy limitations explicit",
+      "passed": true
+    },
+    {
+      "check": "untrained source has no diffusion or experimental evidence",
+      "passed": true
+    },
+    {
+      "check": "source atom inventory and graph declared",
+      "passed": true
+    },
+    {
+      "check": "pilot denoising cost partition",
+      "passed": true
+    },
+    {
+      "check": "results/equivariant/pilot/training_losses.csv row count",
+      "passed": true
+    },
+    {
+      "check": "results/equivariant/pilot/denoising_metrics.csv row count",
+      "passed": true
+    },
+    {
+      "check": "results/equivariant/pilot/per_shape_metrics.csv row count",
+      "passed": true
+    },
+    {
+      "check": "results/equivariant/pilot/predicted_coordinates.csv row count",
+      "passed": true
+    },
+    {
+      "check": "results/equivariant/pilot/equivariance_probes.csv row count",
+      "passed": true
+    },
+    {
+      "check": "results/equivariant/pilot/force_finite_differences.csv row count",
+      "passed": true
+    },
+    {
+      "check": "pilot and main use the identical fixed denoising dataset",
+      "passed": true
+    },
+    {
+      "check": "results/dynamics/pilot/nve_timestep_summary.csv row count",
+      "passed": true
+    },
+    {
+      "check": "results/dynamics/pilot/thermostat_replicas.csv row count",
+      "passed": true
+    },
+    {
+      "check": "results/dynamics/pilot/neb_summary.csv row count",
+      "passed": true
+    },
+    {
+      "check": "results/dynamics/pilot/source_neb_summary.csv row count",
+      "passed": true
+    },
+    {
+      "check": "pilot dynamics costs separate from main",
+      "passed": true
+    },
+    {
+      "check": "results/pore/pilot/geometry_grid_convergence.csv row count",
+      "passed": true
+    },
+    {
+      "check": "results/pore/pilot/BET_window_fits.csv row count",
+      "passed": true
+    },
+    {
+      "check": "results/pore/pilot/noise_BET_fits.csv row count",
+      "passed": true
+    },
+    {
+      "check": "results/pore/pilot/noise_observations.csv row count",
+      "passed": true
+    },
+    {
+      "check": "pilot pore costs separate from main",
+      "passed": true
+    },
+    {
+      "check": "main denoising accounting",
+      "passed": true
+    },
+    {
+      "check": "pilot plus main four fits and 182 epochs",
+      "passed": true
+    },
+    {
+      "check": "368 unique shape IDs with disjoint partitions",
+      "passed": true
+    },
+    {
+      "check": "no exact clean-coordinate duplicates across or within partitions",
+      "passed": true
+    },
+    {
+      "check": "four independent data seeds and three noise levels",
+      "passed": true
+    },
+    {
+      "check": "centered noise and finite eight-node coordinates",
+      "passed": true
+    },
+    {
+      "check": "smoother coefficient fitted only on train at sigma 0.08",
+      "passed": true
+    },
+    {
+      "check": "smoother coefficient fitted only on train at sigma 0.16",
+      "passed": true
+    },
+    {
+      "check": "smoother coefficient fitted only on train at sigma 0.24",
+      "passed": true
+    },
+    {
+      "check": "results/equivariant/training_losses.csv row count",
+      "passed": true
+    },
+    {
+      "check": "three fixed training seeds and 60 recorded epochs",
+      "passed": true
+    },
+    {
+      "check": "validation-only checkpoint selection seed 4441",
+      "passed": true
+    },
+    {
+      "check": "validation-only checkpoint selection seed 4442",
+      "passed": true
+    },
+    {
+      "check": "validation-only checkpoint selection seed 4443",
+      "passed": true
+    },
+    {
+      "check": "results/equivariant/denoising_metrics.csv row count",
+      "passed": true
+    },
+    {
+      "check": "results/equivariant/per_shape_metrics.csv row count",
+      "passed": true
+    },
+    {
+      "check": "results/equivariant/predicted_coordinates.csv row count",
+      "passed": true
+    },
+    {
+      "check": "six models each predict every unique shape once",
+      "passed": true
+    },
+    {
+      "check": "all 2208 per-shape metrics recompute from saved coordinates",
+      "passed": true
+    },
+    {
+      "check": "aggregate RMS metrics identity train",
+      "passed": true
+    },
+    {
+      "check": "aggregate RMS metrics identity validation",
+      "passed": true
+    },
+    {
+      "check": "aggregate RMS metrics identity test",
+      "passed": true
+    },
+    {
+      "check": "aggregate RMS metrics identity ood_warped",
+      "passed": true
+    },
+    {
+      "check": "aggregate RMS metrics PCA_plane_projection train",
+      "passed": true
+    },
+    {
+      "check": "aggregate RMS metrics PCA_plane_projection validation",
+      "passed": true
+    },
+    {
+      "check": "aggregate RMS metrics PCA_plane_projection test",
+      "passed": true
+    },
+    {
+      "check": "aggregate RMS metrics PCA_plane_projection ood_warped",
+      "passed": true
+    },
+    {
+      "check": "aggregate RMS metrics training_fitted_cycle_smoother train",
+      "passed": true
+    },
+    {
+      "check": "aggregate RMS metrics training_fitted_cycle_smoother validation",
+      "passed": true
+    },
+    {
+      "check": "aggregate RMS metrics training_fitted_cycle_smoother test",
+      "passed": true
+    },
+    {
+      "check": "aggregate RMS metrics training_fitted_cycle_smoother ood_warped",
+      "passed": true
+    },
+    {
+      "check": "aggregate RMS metrics EGNN_seed4441 train",
+      "passed": true
+    },
+    {
+      "check": "aggregate RMS metrics EGNN_seed4441 validation",
+      "passed": true
+    },
+    {
+      "check": "aggregate RMS metrics EGNN_seed4441 test",
+      "passed": true
+    },
+    {
+      "check": "aggregate RMS metrics EGNN_seed4441 ood_warped",
+      "passed": true
+    },
+    {
+      "check": "aggregate RMS metrics EGNN_seed4442 train",
+      "passed": true
+    },
+    {
+      "check": "aggregate RMS metrics EGNN_seed4442 validation",
+      "passed": true
+    },
+    {
+      "check": "aggregate RMS metrics EGNN_seed4442 test",
+      "passed": true
+    },
+    {
+      "check": "aggregate RMS metrics EGNN_seed4442 ood_warped",
+      "passed": true
+    },
+    {
+      "check": "aggregate RMS metrics EGNN_seed4443 train",
+      "passed": true
+    },
+    {
+      "check": "aggregate RMS metrics EGNN_seed4443 validation",
+      "passed": true
+    },
+    {
+      "check": "aggregate RMS metrics EGNN_seed4443 test",
+      "passed": true
+    },
+    {
+      "check": "aggregate RMS metrics EGNN_seed4443 ood_warped",
+      "passed": true
+    },
+    {
+      "check": "saved baseline independently reconstructs identity",
+      "passed": true
+    },
+    {
+      "check": "saved baseline independently reconstructs PCA_plane_projection",
+      "passed": true
+    },
+    {
+      "check": "saved baseline independently reconstructs training_fitted_cycle_smoother",
+      "passed": true
+    },
+    {
+      "check": "negative OOD outcomes retained",
+      "passed": true
+    },
+    {
+      "check": "results/equivariant/equivariance_probes.csv row count",
+      "passed": true
+    },
+    {
+      "check": "results/equivariant/force_finite_differences.csv row count",
+      "passed": true
+    },
+    {
+      "check": "small audit exact evaluation accounting",
+      "passed": true
+    },
+    {
+      "check": "source charge and energy translation accounting",
+      "passed": true
+    },
+    {
+      "check": "reviewed charge and energy translation accounting",
+      "passed": true
+    },
+    {
+      "check": "reviewed fixed neutral charge and force covariance",
+      "passed": true
+    },
+    {
+      "check": "source cutoff leak and double-conversion failure retained",
+      "passed": true
+    },
+    {
+      "check": "reviewed central finite difference agreement",
+      "passed": true
+    },
+    {
+      "check": "trained double-precision geometric covariance",
+      "passed": true
+    },
+    {
+      "check": "results/equivariant/captured_source_transformations.csv row count",
+      "passed": true
+    },
+    {
+      "check": "results/equivariant/captured_source_finite_differences.csv row count",
+      "passed": true
+    },
+    {
+      "check": "supplement audits actual 55394-parameter captured model",
+      "passed": true
+    },
+    {
+      "check": "captured float32 charge and field translation identity",
+      "passed": true
+    },
+    {
+      "check": "results/dynamics/nve_timestep_summary.csv row count",
+      "passed": true
+    },
+    {
+      "check": "results/dynamics/thermostat_replicas.csv row count",
+      "passed": true
+    },
+    {
+      "check": "results/dynamics/thermostat_summary.csv row count",
+      "passed": true
+    },
+    {
+      "check": "results/dynamics/nve_convergence_orders.csv row count",
+      "passed": true
+    },
+    {
+      "check": "MD steps and force evaluation accounting",
+      "passed": true
+    },
+    {
+      "check": "harmonic frequency and mass conversion",
+      "passed": true
+    },
+    {
+      "check": "MD DOF, burn-in and canonical reference balances",
+      "passed": true
+    },
+    {
+      "check": "20 NVE coordinate and velocity snapshots",
+      "passed": true
+    },
+    {
+      "check": "independent exact harmonic solution nve_s101_dt0.25",
+      "passed": true
+    },
+    {
+      "check": "independent exact harmonic solution nve_s101_dt0.5",
+      "passed": true
+    },
+    {
+      "check": "independent exact harmonic solution nve_s101_dt1.0",
+      "passed": true
+    },
+    {
+      "check": "independent exact harmonic solution nve_s101_dt2.0",
+      "passed": true
+    },
+    {
+      "check": "independent exact harmonic solution nve_s101_dt4.0",
+      "passed": true
+    },
+    {
+      "check": "independent exact harmonic solution nve_s102_dt0.25",
+      "passed": true
+    },
+    {
+      "check": "independent exact harmonic solution nve_s102_dt0.5",
+      "passed": true
+    },
+    {
+      "check": "independent exact harmonic solution nve_s102_dt1.0",
+      "passed": true
+    },
+    {
+      "check": "independent exact harmonic solution nve_s102_dt2.0",
+      "passed": true
+    },
+    {
+      "check": "independent exact harmonic solution nve_s102_dt4.0",
+      "passed": true
+    },
+    {
+      "check": "independent exact harmonic solution nve_s103_dt0.25",
+      "passed": true
+    },
+    {
+      "check": "independent exact harmonic solution nve_s103_dt0.5",
+      "passed": true
+    },
+    {
+      "check": "independent exact harmonic solution nve_s103_dt1.0",
+      "passed": true
+    },
+    {
+      "check": "independent exact harmonic solution nve_s103_dt2.0",
+      "passed": true
+    },
+    {
+      "check": "independent exact harmonic solution nve_s103_dt4.0",
+      "passed": true
+    },
+    {
+      "check": "independent exact harmonic solution nve_s104_dt0.25",
+      "passed": true
+    },
+    {
+      "check": "independent exact harmonic solution nve_s104_dt0.5",
+      "passed": true
+    },
+    {
+      "check": "independent exact harmonic solution nve_s104_dt1.0",
+      "passed": true
+    },
+    {
+      "check": "independent exact harmonic solution nve_s104_dt2.0",
+      "passed": true
+    },
+    {
+      "check": "independent exact harmonic solution nve_s104_dt4.0",
+      "passed": true
+    },
+    {
+      "check": "saved NVE convergence order 101 0.25",
+      "passed": true
+    },
+    {
+      "check": "saved NVE convergence order 101 0.5",
+      "passed": true
+    },
+    {
+      "check": "saved NVE convergence order 101 1.0",
+      "passed": true
+    },
+    {
+      "check": "saved NVE convergence order 101 2.0",
+      "passed": true
+    },
+    {
+      "check": "saved NVE convergence order 102 0.25",
+      "passed": true
+    },
+    {
+      "check": "saved NVE convergence order 102 0.5",
+      "passed": true
+    },
+    {
+      "check": "saved NVE convergence order 102 1.0",
+      "passed": true
+    },
+    {
+      "check": "saved NVE convergence order 102 2.0",
+      "passed": true
+    },
+    {
+      "check": "saved NVE convergence order 103 0.25",
+      "passed": true
+    },
+    {
+      "check": "saved NVE convergence order 103 0.5",
+      "passed": true
+    },
+    {
+      "check": "saved NVE convergence order 103 1.0",
+      "passed": true
+    },
+    {
+      "check": "saved NVE convergence order 103 2.0",
+      "passed": true
+    },
+    {
+      "check": "saved NVE convergence order 104 0.25",
+      "passed": true
+    },
+    {
+      "check": "saved NVE convergence order 104 0.5",
+      "passed": true
+    },
+    {
+      "check": "saved NVE convergence order 104 1.0",
+      "passed": true
+    },
+    {
+      "check": "saved NVE convergence order 104 2.0",
+      "passed": true
+    },
+    {
+      "check": "berendsen_source_dof_trajectory.csv saved energy and temperature balances",
+      "passed": true
+    },
+    {
+      "check": "berendsen_trajectory.csv saved energy and temperature balances",
+      "passed": true
+    },
+    {
+      "check": "langevin_baoab_trajectory.csv saved energy and temperature balances",
+      "passed": true
+    },
+    {
+      "check": "nve_dt0.25_trajectory.csv saved energy and temperature balances",
+      "passed": true
+    },
+    {
+      "check": "nve_dt0.5_trajectory.csv saved energy and temperature balances",
+      "passed": true
+    },
+    {
+      "check": "nve_dt1_trajectory.csv saved energy and temperature balances",
+      "passed": true
+    },
+    {
+      "check": "nve_dt2_trajectory.csv saved energy and temperature balances",
+      "passed": true
+    },
+    {
+      "check": "nve_dt4_trajectory.csv saved energy and temperature balances",
+      "passed": true
+    },
+    {
+      "check": "thermostat replica summaries langevin_baoab",
+      "passed": true
+    },
+    {
+      "check": "thermostat replica summaries berendsen",
+      "passed": true
+    },
+    {
+      "check": "thermostat replica summaries berendsen_source_dof",
+      "passed": true
+    },
+    {
+      "check": "Berendsen suppressed fluctuations and wrong-DOF temperature retained",
+      "passed": true
+    },
+    {
+      "check": "results/dynamics/neb_summary.csv row count",
+      "passed": true
+    },
+    {
+      "check": "results/dynamics/neb_final_bands.csv row count",
+      "passed": true
+    },
+    {
+      "check": "results/dynamics/neb_force_history.csv row count",
+      "passed": true
+    },
+    {
+      "check": "reviewed NEB counts and point costs",
+      "passed": true
+    },
+    {
+      "check": "analytic final-band energies images7_tol0.001_seed1",
+      "passed": true
+    },
+    {
+      "check": "actual final-force and saddle convergence images7_tol0.001_seed1",
+      "passed": true
+    },
+    {
+      "check": "NEB trace final-state consistency images7_tol0.001_seed1",
+      "passed": true
+    },
+    {
+      "check": "analytic final-band energies images7_tol0.001_seed2",
+      "passed": true
+    },
+    {
+      "check": "actual final-force and saddle convergence images7_tol0.001_seed2",
+      "passed": true
+    },
+    {
+      "check": "NEB trace final-state consistency images7_tol0.001_seed2",
+      "passed": true
+    },
+    {
+      "check": "analytic final-band energies images7_tol0.001_seed3",
+      "passed": true
+    },
+    {
+      "check": "actual final-force and saddle convergence images7_tol0.001_seed3",
+      "passed": true
+    },
+    {
+      "check": "NEB trace final-state consistency images7_tol0.001_seed3",
+      "passed": true
+    },
+    {
+      "check": "analytic final-band energies images7_tol1e-05_seed1",
+      "passed": true
+    },
+    {
+      "check": "actual final-force and saddle convergence images7_tol1e-05_seed1",
+      "passed": true
+    },
+    {
+      "check": "NEB trace final-state consistency images7_tol1e-05_seed1",
+      "passed": true
+    },
+    {
+      "check": "analytic final-band energies images7_tol1e-05_seed2",
+      "passed": true
+    },
+    {
+      "check": "actual final-force and saddle convergence images7_tol1e-05_seed2",
+      "passed": true
+    },
+    {
+      "check": "NEB trace final-state consistency images7_tol1e-05_seed2",
+      "passed": true
+    },
+    {
+      "check": "analytic final-band energies images7_tol1e-05_seed3",
+      "passed": true
+    },
+    {
+      "check": "actual final-force and saddle convergence images7_tol1e-05_seed3",
+      "passed": true
+    },
+    {
+      "check": "NEB trace final-state consistency images7_tol1e-05_seed3",
+      "passed": true
+    },
+    {
+      "check": "analytic final-band energies images11_tol0.001_seed1",
+      "passed": true
+    },
+    {
+      "check": "actual final-force and saddle convergence images11_tol0.001_seed1",
+      "passed": true
+    },
+    {
+      "check": "NEB trace final-state consistency images11_tol0.001_seed1",
+      "passed": true
+    },
+    {
+      "check": "analytic final-band energies images11_tol0.001_seed2",
+      "passed": true
+    },
+    {
+      "check": "actual final-force and saddle convergence images11_tol0.001_seed2",
+      "passed": true
+    },
+    {
+      "check": "NEB trace final-state consistency images11_tol0.001_seed2",
+      "passed": true
+    },
+    {
+      "check": "analytic final-band energies images11_tol0.001_seed3",
+      "passed": true
+    },
+    {
+      "check": "actual final-force and saddle convergence images11_tol0.001_seed3",
+      "passed": true
+    },
+    {
+      "check": "NEB trace final-state consistency images11_tol0.001_seed3",
+      "passed": true
+    },
+    {
+      "check": "analytic final-band energies images11_tol1e-05_seed1",
+      "passed": true
+    },
+    {
+      "check": "actual final-force and saddle convergence images11_tol1e-05_seed1",
+      "passed": true
+    },
+    {
+      "check": "NEB trace final-state consistency images11_tol1e-05_seed1",
+      "passed": true
+    },
+    {
+      "check": "analytic final-band energies images11_tol1e-05_seed2",
+      "passed": true
+    },
+    {
+      "check": "actual final-force and saddle convergence images11_tol1e-05_seed2",
+      "passed": true
+    },
+    {
+      "check": "NEB trace final-state consistency images11_tol1e-05_seed2",
+      "passed": true
+    },
+    {
+      "check": "analytic final-band energies images11_tol1e-05_seed3",
+      "passed": true
+    },
+    {
+      "check": "actual final-force and saddle convergence images11_tol1e-05_seed3",
+      "passed": true
+    },
+    {
+      "check": "NEB trace final-state consistency images11_tol1e-05_seed3",
+      "passed": true
+    },
+    {
+      "check": "analytic final-band energies images17_tol0.001_seed1",
+      "passed": true
+    },
+    {
+      "check": "actual final-force and saddle convergence images17_tol0.001_seed1",
+      "passed": true
+    },
+    {
+      "check": "NEB trace final-state consistency images17_tol0.001_seed1",
+      "passed": true
+    },
+    {
+      "check": "analytic final-band energies images17_tol0.001_seed2",
+      "passed": true
+    },
+    {
+      "check": "actual final-force and saddle convergence images17_tol0.001_seed2",
+      "passed": true
+    },
+    {
+      "check": "NEB trace final-state consistency images17_tol0.001_seed2",
+      "passed": true
+    },
+    {
+      "check": "analytic final-band energies images17_tol0.001_seed3",
+      "passed": true
+    },
+    {
+      "check": "actual final-force and saddle convergence images17_tol0.001_seed3",
+      "passed": true
+    },
+    {
+      "check": "NEB trace final-state consistency images17_tol0.001_seed3",
+      "passed": true
+    },
+    {
+      "check": "analytic final-band energies images17_tol1e-05_seed1",
+      "passed": true
+    },
+    {
+      "check": "actual final-force and saddle convergence images17_tol1e-05_seed1",
+      "passed": true
+    },
+    {
+      "check": "NEB trace final-state consistency images17_tol1e-05_seed1",
+      "passed": true
+    },
+    {
+      "check": "analytic final-band energies images17_tol1e-05_seed2",
+      "passed": true
+    },
+    {
+      "check": "actual final-force and saddle convergence images17_tol1e-05_seed2",
+      "passed": true
+    },
+    {
+      "check": "NEB trace final-state consistency images17_tol1e-05_seed2",
+      "passed": true
+    },
+    {
+      "check": "analytic final-band energies images17_tol1e-05_seed3",
+      "passed": true
+    },
+    {
+      "check": "actual final-force and saddle convergence images17_tol1e-05_seed3",
+      "passed": true
+    },
+    {
+      "check": "NEB trace final-state consistency images17_tol1e-05_seed3",
+      "passed": true
+    },
+    {
+      "check": "results/dynamics/source_neb_summary.csv row count",
+      "passed": true
+    },
+    {
+      "check": "source NEB costs and false convergence counted",
+      "passed": true
+    },
+    {
+      "check": "stationary endpoint optimization accounting",
+      "passed": true
+    },
+    {
+      "check": "analytic dynamics has no DFT or experiment",
+      "passed": true
+    },
+    {
+      "check": "results/pore/geometry_grid_convergence.csv row count",
+      "passed": true
+    },
+    {
+      "check": "results/pore/clearance_CDF.csv row count",
+      "passed": true
+    },
+    {
+      "check": "results/pore/clearance_histogram.csv row count",
+      "passed": true
+    },
+    {
+      "check": "results/pore/endpoint_bias.csv row count",
+      "passed": true
+    },
+    {
+      "check": "results/pore/source_isotherm_points.csv row count",
+      "passed": true
+    },
+    {
+      "check": "results/pore/BET_window_fits.csv row count",
+      "passed": true
+    },
+    {
+      "check": "results/pore/noise_observations.csv row count",
+      "passed": true
+    },
+    {
+      "check": "results/pore/noise_BET_fits.csv row count",
+      "passed": true
+    },
+    {
+      "check": "results/pore/noise_summary.csv row count",
+      "passed": true
+    },
+    {
+      "check": "pore grid and inverse-fit accounting",
+      "passed": true
+    },
+    {
+      "check": "90 accessibility rows reconstruct analytic areas and midpoint counts",
+      "passed": true
+    },
+    {
+      "check": "probe accessibility monotone circle 40",
+      "passed": true
+    },
+    {
+      "check": "probe accessibility monotone hexagon 40",
+      "passed": true
+    },
+    {
+      "check": "probe accessibility monotone periodic_disk 40",
+      "passed": true
+    },
+    {
+      "check": "probe accessibility monotone circle 80",
+      "passed": true
+    },
+    {
+      "check": "probe accessibility monotone hexagon 80",
+      "passed": true
+    },
+    {
+      "check": "probe accessibility monotone periodic_disk 80",
+      "passed": true
+    },
+    {
+      "check": "probe accessibility monotone circle 160",
+      "passed": true
+    },
+    {
+      "check": "probe accessibility monotone hexagon 160",
+      "passed": true
+    },
+    {
+      "check": "probe accessibility monotone periodic_disk 160",
+      "passed": true
+    },
+    {
+      "check": "probe accessibility monotone circle 320",
+      "passed": true
+    },
+    {
+      "check": "probe accessibility monotone hexagon 320",
+      "passed": true
+    },
+    {
+      "check": "probe accessibility monotone periodic_disk 320",
+      "passed": true
+    },
+    {
+      "check": "probe accessibility monotone circle 640",
+      "passed": true
+    },
+    {
+      "check": "probe accessibility monotone hexagon 640",
+      "passed": true
+    },
+    {
+      "check": "probe accessibility monotone periodic_disk 640",
+      "passed": true
+    },
+    {
+      "check": "clearance CDF bounds and errors",
+      "passed": true
+    },
+    {
+      "check": "clearance histograms retain normalized point probabilities",
+      "passed": true
+    },
+    {
+      "check": "endpoint bias percentage-point arithmetic",
+      "passed": true
+    },
+    {
+      "check": "BET area unit conversion",
+      "passed": true
+    },
+    {
+      "check": "152 BET slope/intercept and area conversions independently recompute",
+      "passed": true
+    },
+    {
+      "check": "24 deterministic regressions recompute from saved isotherm points",
+      "passed": true
+    },
+    {
+      "check": "128 noisy regressions use recorded observations",
+      "passed": true
+    },
+    {
+      "check": "noise replication quantiles fitted_Vm_cm3_g 0.01",
+      "passed": true
+    },
+    {
+      "check": "noise replication quantiles fitted_C 0.01",
+      "passed": true
+    },
+    {
+      "check": "noise replication quantiles apparent_area_m2_g 0.01",
+      "passed": true
+    },
+    {
+      "check": "noise replication quantiles fitted_Vm_cm3_g 0.05",
+      "passed": true
+    },
+    {
+      "check": "noise replication quantiles fitted_C 0.05",
+      "passed": true
+    },
+    {
+      "check": "noise replication quantiles apparent_area_m2_g 0.05",
+      "passed": true
+    },
+    {
+      "check": "unphysical fitted BET constants retained",
+      "passed": true
+    },
+    {
+      "check": "source probe argument does not change outputs",
+      "passed": true
+    },
+    {
+      "check": "piecewise synthetic isotherm discontinuity preserved",
+      "passed": true
+    },
+    {
+      "check": "pore study has no atomistic adsorption or experiment",
+      "passed": true
+    },
+    {
+      "check": "16 reviewed figures with specified names",
+      "passed": true
+    },
+    {
+      "check": "figure current bytes Fig1_Equivariance_Denoising_english.png",
+      "passed": true
+    },
+    {
+      "check": "Fig1_Equivariance_Denoising_english.png source nonempty hash inventory",
+      "passed": true
+    },
+    {
+      "check": "Fig1_Equivariance_Denoising_english.png source results/equivariant/denoising_metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "Fig1_Equivariance_Denoising_english.png source results/equivariant/training_losses.csv",
+      "passed": true
+    },
+    {
+      "check": "PNG pixels and resolution Fig1_Equivariance_Denoising_english.png",
+      "passed": true
+    },
+    {
+      "check": "figure current bytes Fig1_Equivariance_Denoising_english.svg",
+      "passed": true
+    },
+    {
+      "check": "Fig1_Equivariance_Denoising_english.svg source nonempty hash inventory",
+      "passed": true
+    },
+    {
+      "check": "Fig1_Equivariance_Denoising_english.svg source results/equivariant/denoising_metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "Fig1_Equivariance_Denoising_english.svg source results/equivariant/training_losses.csv",
+      "passed": true
+    },
+    {
+      "check": "editable SVG without embedded raster Fig1_Equivariance_Denoising_english.svg",
+      "passed": true
+    },
+    {
+      "check": "visible figure evidence boundary Fig1_Equivariance_Denoising_english.svg",
+      "passed": true
+    },
+    {
+      "check": "figure current bytes Fig2_MD_Validation_english.png",
+      "passed": true
+    },
+    {
+      "check": "Fig2_MD_Validation_english.png source nonempty hash inventory",
+      "passed": true
+    },
+    {
+      "check": "Fig2_MD_Validation_english.png source results/dynamics/nve_timestep_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "Fig2_MD_Validation_english.png source results/dynamics/thermostat_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "PNG pixels and resolution Fig2_MD_Validation_english.png",
+      "passed": true
+    },
+    {
+      "check": "figure current bytes Fig2_MD_Validation_english.svg",
+      "passed": true
+    },
+    {
+      "check": "Fig2_MD_Validation_english.svg source nonempty hash inventory",
+      "passed": true
+    },
+    {
+      "check": "Fig2_MD_Validation_english.svg source results/dynamics/nve_timestep_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "Fig2_MD_Validation_english.svg source results/dynamics/thermostat_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "editable SVG without embedded raster Fig2_MD_Validation_english.svg",
+      "passed": true
+    },
+    {
+      "check": "visible figure evidence boundary Fig2_MD_Validation_english.svg",
+      "passed": true
+    },
+    {
+      "check": "figure current bytes Fig3_NEB_Validation_english.png",
+      "passed": true
+    },
+    {
+      "check": "Fig3_NEB_Validation_english.png source nonempty hash inventory",
+      "passed": true
+    },
+    {
+      "check": "Fig3_NEB_Validation_english.png source results/dynamics/neb_final_bands.csv",
+      "passed": true
+    },
+    {
+      "check": "Fig3_NEB_Validation_english.png source results/dynamics/neb_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "PNG pixels and resolution Fig3_NEB_Validation_english.png",
+      "passed": true
+    },
+    {
+      "check": "figure current bytes Fig3_NEB_Validation_english.svg",
+      "passed": true
+    },
+    {
+      "check": "Fig3_NEB_Validation_english.svg source nonempty hash inventory",
+      "passed": true
+    },
+    {
+      "check": "Fig3_NEB_Validation_english.svg source results/dynamics/neb_final_bands.csv",
+      "passed": true
+    },
+    {
+      "check": "Fig3_NEB_Validation_english.svg source results/dynamics/neb_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "editable SVG without embedded raster Fig3_NEB_Validation_english.svg",
+      "passed": true
+    },
+    {
+      "check": "visible figure evidence boundary Fig3_NEB_Validation_english.svg",
+      "passed": true
+    },
+    {
+      "check": "figure current bytes Fig4_Pore_Adsorption_english.png",
+      "passed": true
+    },
+    {
+      "check": "Fig4_Pore_Adsorption_english.png source nonempty hash inventory",
+      "passed": true
+    },
+    {
+      "check": "Fig4_Pore_Adsorption_english.png source results/pore/geometry_grid_convergence.csv",
+      "passed": true
+    },
+    {
+      "check": "Fig4_Pore_Adsorption_english.png source results/pore/source_isotherm_points.csv",
+      "passed": true
+    },
+    {
+      "check": "Fig4_Pore_Adsorption_english.png source results/pore/BET_window_fits.csv",
+      "passed": true
+    },
+    {
+      "check": "PNG pixels and resolution Fig4_Pore_Adsorption_english.png",
+      "passed": true
+    },
+    {
+      "check": "figure current bytes Fig4_Pore_Adsorption_english.svg",
+      "passed": true
+    },
+    {
+      "check": "Fig4_Pore_Adsorption_english.svg source nonempty hash inventory",
+      "passed": true
+    },
+    {
+      "check": "Fig4_Pore_Adsorption_english.svg source results/pore/geometry_grid_convergence.csv",
+      "passed": true
+    },
+    {
+      "check": "Fig4_Pore_Adsorption_english.svg source results/pore/source_isotherm_points.csv",
+      "passed": true
+    },
+    {
+      "check": "Fig4_Pore_Adsorption_english.svg source results/pore/BET_window_fits.csv",
+      "passed": true
+    },
+    {
+      "check": "editable SVG without embedded raster Fig4_Pore_Adsorption_english.svg",
+      "passed": true
+    },
+    {
+      "check": "visible figure evidence boundary Fig4_Pore_Adsorption_english.svg",
+      "passed": true
+    },
+    {
+      "check": "figure current bytes Fig1_Equivariance_Denoising_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "Fig1_Equivariance_Denoising_chinese.png source nonempty hash inventory",
+      "passed": true
+    },
+    {
+      "check": "Fig1_Equivariance_Denoising_chinese.png source results/equivariant/denoising_metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "Fig1_Equivariance_Denoising_chinese.png source results/equivariant/training_losses.csv",
+      "passed": true
+    },
+    {
+      "check": "PNG pixels and resolution Fig1_Equivariance_Denoising_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "figure current bytes Fig1_Equivariance_Denoising_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "Fig1_Equivariance_Denoising_chinese.svg source nonempty hash inventory",
+      "passed": true
+    },
+    {
+      "check": "Fig1_Equivariance_Denoising_chinese.svg source results/equivariant/denoising_metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "Fig1_Equivariance_Denoising_chinese.svg source results/equivariant/training_losses.csv",
+      "passed": true
+    },
+    {
+      "check": "editable SVG without embedded raster Fig1_Equivariance_Denoising_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "visible figure evidence boundary Fig1_Equivariance_Denoising_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "figure current bytes Fig2_MD_Validation_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "Fig2_MD_Validation_chinese.png source nonempty hash inventory",
+      "passed": true
+    },
+    {
+      "check": "Fig2_MD_Validation_chinese.png source results/dynamics/nve_timestep_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "Fig2_MD_Validation_chinese.png source results/dynamics/thermostat_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "PNG pixels and resolution Fig2_MD_Validation_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "figure current bytes Fig2_MD_Validation_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "Fig2_MD_Validation_chinese.svg source nonempty hash inventory",
+      "passed": true
+    },
+    {
+      "check": "Fig2_MD_Validation_chinese.svg source results/dynamics/nve_timestep_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "Fig2_MD_Validation_chinese.svg source results/dynamics/thermostat_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "editable SVG without embedded raster Fig2_MD_Validation_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "visible figure evidence boundary Fig2_MD_Validation_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "figure current bytes Fig3_NEB_Validation_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "Fig3_NEB_Validation_chinese.png source nonempty hash inventory",
+      "passed": true
+    },
+    {
+      "check": "Fig3_NEB_Validation_chinese.png source results/dynamics/neb_final_bands.csv",
+      "passed": true
+    },
+    {
+      "check": "Fig3_NEB_Validation_chinese.png source results/dynamics/neb_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "PNG pixels and resolution Fig3_NEB_Validation_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "figure current bytes Fig3_NEB_Validation_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "Fig3_NEB_Validation_chinese.svg source nonempty hash inventory",
+      "passed": true
+    },
+    {
+      "check": "Fig3_NEB_Validation_chinese.svg source results/dynamics/neb_final_bands.csv",
+      "passed": true
+    },
+    {
+      "check": "Fig3_NEB_Validation_chinese.svg source results/dynamics/neb_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "editable SVG without embedded raster Fig3_NEB_Validation_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "visible figure evidence boundary Fig3_NEB_Validation_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "figure current bytes Fig4_Pore_Adsorption_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "Fig4_Pore_Adsorption_chinese.png source nonempty hash inventory",
+      "passed": true
+    },
+    {
+      "check": "Fig4_Pore_Adsorption_chinese.png source results/pore/geometry_grid_convergence.csv",
+      "passed": true
+    },
+    {
+      "check": "Fig4_Pore_Adsorption_chinese.png source results/pore/source_isotherm_points.csv",
+      "passed": true
+    },
+    {
+      "check": "Fig4_Pore_Adsorption_chinese.png source results/pore/BET_window_fits.csv",
+      "passed": true
+    },
+    {
+      "check": "PNG pixels and resolution Fig4_Pore_Adsorption_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "figure current bytes Fig4_Pore_Adsorption_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "Fig4_Pore_Adsorption_chinese.svg source nonempty hash inventory",
+      "passed": true
+    },
+    {
+      "check": "Fig4_Pore_Adsorption_chinese.svg source results/pore/geometry_grid_convergence.csv",
+      "passed": true
+    },
+    {
+      "check": "Fig4_Pore_Adsorption_chinese.svg source results/pore/source_isotherm_points.csv",
+      "passed": true
+    },
+    {
+      "check": "Fig4_Pore_Adsorption_chinese.svg source results/pore/BET_window_fits.csv",
+      "passed": true
+    },
+    {
+      "check": "editable SVG without embedded raster Fig4_Pore_Adsorption_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "visible figure evidence boundary Fig4_Pore_Adsorption_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "visual QA covers all current eight PNG and eight SVG",
+      "passed": true
+    },
+    {
+      "check": "visual QA identifies current generator",
+      "passed": true
+    },
+    {
+      "check": "cross-review records have no unresolved blocking findings",
+      "passed": true
+    },
+    {
+      "check": "cross-review current evidence source_audit nonempty hash inventory",
+      "passed": true
+    },
+    {
+      "check": "cross-review current evidence source_audit scripts/run_source.py",
+      "passed": true
+    },
+    {
+      "check": "cross-review current evidence source_audit scripts/audit_source.py",
+      "passed": true
+    },
+    {
+      "check": "cross-review current evidence source_audit source/synthapore_engine.py",
+      "passed": true
+    },
+    {
+      "check": "cross-review current evidence source_audit source/synthapore_engine_compat.py",
+      "passed": true
+    },
+    {
+      "check": "cross-review current evidence source_audit results/source_audit.json",
+      "passed": true
+    },
+    {
+      "check": "cross-review current evidence source_audit results/source_audit/NEB_replay_evaluations.csv",
+      "passed": true
+    },
+    {
+      "check": "cross-review current evidence source_audit results/source_audit/NEB_final_images.csv",
+      "passed": true
+    },
+    {
+      "check": "cross-review current evidence equivariant nonempty hash inventory",
+      "passed": true
+    },
+    {
+      "check": "cross-review current evidence equivariant scripts/equivariant_reviewed.py",
+      "passed": true
+    },
+    {
+      "check": "cross-review current evidence equivariant results/equivariant/summary.json",
+      "passed": true
+    },
+    {
+      "check": "cross-review current evidence equivariant results/equivariant/predicted_coordinates.csv",
+      "passed": true
+    },
+    {
+      "check": "cross-review current evidence equivariant results/equivariant/denoising_metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "cross-review current evidence equivariant results/equivariant/captured_source_audit.json",
+      "passed": true
+    },
+    {
+      "check": "cross-review current evidence dynamics nonempty hash inventory",
+      "passed": true
+    },
+    {
+      "check": "cross-review current evidence dynamics scripts/dynamics_reviewed.py",
+      "passed": true
+    },
+    {
+      "check": "cross-review current evidence dynamics results/dynamics/summary.json",
+      "passed": true
+    },
+    {
+      "check": "cross-review current evidence dynamics results/dynamics/nve_initial_final_states.json",
+      "passed": true
+    },
+    {
+      "check": "cross-review current evidence dynamics results/dynamics/neb_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "cross-review current evidence dynamics results/dynamics/thermostat_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "cross-review current evidence pore nonempty hash inventory",
+      "passed": true
+    },
+    {
+      "check": "cross-review current evidence pore scripts/pore_reviewed.py",
+      "passed": true
+    },
+    {
+      "check": "cross-review current evidence pore results/pore/summary.json",
+      "passed": true
+    },
+    {
+      "check": "cross-review current evidence pore results/pore/geometry_grid_convergence.csv",
+      "passed": true
+    },
+    {
+      "check": "cross-review current evidence pore results/pore/BET_window_fits.csv",
+      "passed": true
+    },
+    {
+      "check": "cross-review current evidence pore results/pore/noise_BET_fits.csv",
+      "passed": true
+    },
+    {
+      "check": "english six ordered main sections",
+      "passed": true
+    },
+    {
+      "check": "english subsection numbering follows main sections",
+      "passed": true
+    },
+    {
+      "check": "english figure 1 caption and PNG SVG links",
+      "passed": true
+    },
+    {
+      "check": "english figure 2 caption and PNG SVG links",
+      "passed": true
+    },
+    {
+      "check": "english figure 3 caption and PNG SVG links",
+      "passed": true
+    },
+    {
+      "check": "english figure 4 caption and PNG SVG links",
+      "passed": true
+    },
+    {
+      "check": "english no placeholders and balanced math or code fences",
+      "passed": true
+    },
+    {
+      "check": "chinese six ordered main sections",
+      "passed": true
+    },
+    {
+      "check": "chinese subsection numbering follows main sections",
+      "passed": true
+    },
+    {
+      "check": "chinese figure 1 caption and PNG SVG links",
+      "passed": true
+    },
+    {
+      "check": "chinese figure 2 caption and PNG SVG links",
+      "passed": true
+    },
+    {
+      "check": "chinese figure 3 caption and PNG SVG links",
+      "passed": true
+    },
+    {
+      "check": "chinese figure 4 caption and PNG SVG links",
+      "passed": true
+    },
+    {
+      "check": "chinese no placeholders and balanced math or code fences",
+      "passed": true
+    },
+    {
+      "check": "separate English report contains no Chinese prose",
+      "passed": true
+    },
+    {
+      "check": "English Chinese numerical table parity",
+      "passed": true
+    },
+    {
+      "check": "module README present",
+      "passed": true
+    },
+    {
+      "check": "authored documentation available",
+      "passed": true
+    },
+    {
+      "check": "dynamics_notes.md local link scripts/dynamics_reviewed.py",
+      "passed": true
+    },
+    {
+      "check": "dynamics_notes.md local link results/dynamics/summary.json",
+      "passed": true
+    },
+    {
+      "check": "dynamics_notes.md local link results/dynamics/nve_timestep_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "dynamics_notes.md local link results/dynamics/thermostat_replicas.csv",
+      "passed": true
+    },
+    {
+      "check": "dynamics_notes.md local link results/dynamics/neb_force_history.csv",
+      "passed": true
+    },
+    {
+      "check": "dynamics_notes.md local link results/dynamics/neb_final_bands.csv",
+      "passed": true
+    },
+    {
+      "check": "dynamics_notes.md local link results/dynamics/source_neb_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "dynamics_notes.md local link results/dynamics/test_results.txt",
+      "passed": true
+    },
+    {
+      "check": "equivariant_notes.md local link results/equivariant/captured_source_audit.json",
+      "passed": true
+    },
+    {
+      "check": "equivariant_notes.md local link results/equivariant/pilot/equivariant_pilot_source.py.txt",
+      "passed": true
+    },
+    {
+      "check": "equivariant_notes.md local link results/equivariant/summary.json",
+      "passed": true
+    },
+    {
+      "check": "equivariant_notes.md local link results/equivariant/denoising_metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "equivariant_notes.md local link results/equivariant/source_and_reviewed_audit.json",
+      "passed": true
+    },
+    {
+      "check": "equivariant_notes.md local link results/equivariant/test_results.txt",
+      "passed": true
+    },
+    {
+      "check": "pore_notes.md local link scripts/pore_reviewed.py",
+      "passed": true
+    },
+    {
+      "check": "pore_notes.md local link results/pore/summary.json",
+      "passed": true
+    },
+    {
+      "check": "pore_notes.md local link results/pore/geometry_grid_convergence.csv",
+      "passed": true
+    },
+    {
+      "check": "pore_notes.md local link results/pore/endpoint_bias.csv",
+      "passed": true
+    },
+    {
+      "check": "pore_notes.md local link results/pore/clearance_CDF.csv",
+      "passed": true
+    },
+    {
+      "check": "pore_notes.md local link results/pore/source_pore_audit.json",
+      "passed": true
+    },
+    {
+      "check": "pore_notes.md local link results/pore/BET_window_fits.csv",
+      "passed": true
+    },
+    {
+      "check": "pore_notes.md local link results/pore/noise_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "pore_notes.md local link results/pore/test_results.txt",
+      "passed": true
+    },
+    {
+      "check": "README.md local link reports/synthapore_report_chinese.md",
+      "passed": true
+    },
+    {
+      "check": "README.md local link reports/synthapore_report_english.md",
+      "passed": true
+    },
+    {
+      "check": "README.md local link reports/figures/README.md",
+      "passed": true
+    },
+    {
+      "check": "README.md local link source/specification.md",
+      "passed": true
+    },
+    {
+      "check": "README.md local link source/synthapore_engine.py",
+      "passed": true
+    },
+    {
+      "check": "README.md local link source/compatibility.patch",
+      "passed": true
+    },
+    {
+      "check": "README.md local link results/compatibility/synthapore_flagship_results.json",
+      "passed": true
+    },
+    {
+      "check": "README.md local link results/source_audit.json",
+      "passed": true
+    },
+    {
+      "check": "README.md local link results/publication_validation.json",
+      "passed": true
+    },
+    {
+      "check": "README.md local link results/cross_review.json",
+      "passed": true
+    },
+    {
+      "check": "README.md local link results/figure_qa.json",
+      "passed": true
+    },
+    {
+      "check": "README.md local link scripts/equivariant_reviewed.py",
+      "passed": true
+    },
+    {
+      "check": "README.md local link equivariant_notes.md",
+      "passed": true
+    },
+    {
+      "check": "README.md local link results/equivariant/summary.json",
+      "passed": true
+    },
+    {
+      "check": "README.md local link results/equivariant/captured_source_audit.json",
+      "passed": true
+    },
+    {
+      "check": "README.md local link scripts/dynamics_reviewed.py",
+      "passed": true
+    },
+    {
+      "check": "README.md local link dynamics_notes.md",
+      "passed": true
+    },
+    {
+      "check": "README.md local link results/dynamics/summary.json",
+      "passed": true
+    },
+    {
+      "check": "README.md local link scripts/pore_reviewed.py",
+      "passed": true
+    },
+    {
+      "check": "README.md local link pore_notes.md",
+      "passed": true
+    },
+    {
+      "check": "README.md local link results/pore/summary.json",
+      "passed": true
+    },
+    {
+      "check": "README.md local link results/original/stderr.log",
+      "passed": true
+    },
+    {
+      "check": "README.md local link results/compatibility/execution.json",
+      "passed": true
+    },
+    {
+      "check": "README.md local link scripts/audit_source.py",
+      "passed": true
+    },
+    {
+      "check": "reports/figures/README.md local link Fig1_Equivariance_Denoising_english.png",
+      "passed": true
+    },
+    {
+      "check": "reports/figures/README.md local link Fig1_Equivariance_Denoising_english.svg",
+      "passed": true
+    },
+    {
+      "check": "reports/figures/README.md local link Fig1_Equivariance_Denoising_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "reports/figures/README.md local link Fig1_Equivariance_Denoising_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "reports/figures/README.md local link Fig2_MD_Validation_english.png",
+      "passed": true
+    },
+    {
+      "check": "reports/figures/README.md local link Fig2_MD_Validation_english.svg",
+      "passed": true
+    },
+    {
+      "check": "reports/figures/README.md local link Fig2_MD_Validation_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "reports/figures/README.md local link Fig2_MD_Validation_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "reports/figures/README.md local link Fig3_NEB_Validation_english.png",
+      "passed": true
+    },
+    {
+      "check": "reports/figures/README.md local link Fig3_NEB_Validation_english.svg",
+      "passed": true
+    },
+    {
+      "check": "reports/figures/README.md local link Fig3_NEB_Validation_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "reports/figures/README.md local link Fig3_NEB_Validation_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "reports/figures/README.md local link Fig4_Pore_Adsorption_english.png",
+      "passed": true
+    },
+    {
+      "check": "reports/figures/README.md local link Fig4_Pore_Adsorption_english.svg",
+      "passed": true
+    },
+    {
+      "check": "reports/figures/README.md local link Fig4_Pore_Adsorption_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "reports/figures/README.md local link Fig4_Pore_Adsorption_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "reports/figures/README.md local link ../../results/figure_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "reports/figures/README.md local link ../../results/figure_qa.json",
+      "passed": true
+    },
+    {
+      "check": "reports/figures/README.md local link ../../scripts/plot_reviewed.py",
+      "passed": true
+    },
+    {
+      "check": "reports/figures/README.md local link ../synthapore_report_english.md",
+      "passed": true
+    },
+    {
+      "check": "reports/figures/README.md local link ../synthapore_report_chinese.md",
+      "passed": true
+    },
+    {
+      "check": "reports/synthapore_report_chinese.md local link ../source/specification.md",
+      "passed": true
+    },
+    {
+      "check": "reports/synthapore_report_chinese.md local link ../source/source_record.json",
+      "passed": true
+    },
+    {
+      "check": "reports/synthapore_report_chinese.md local link ../results/compatibility/captured_results.json",
+      "passed": true
+    },
+    {
+      "check": "reports/synthapore_report_chinese.md local link figures/Fig1_Equivariance_Denoising_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "reports/synthapore_report_chinese.md local link figures/Fig1_Equivariance_Denoising_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "reports/synthapore_report_chinese.md local link figures/Fig2_MD_Validation_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "reports/synthapore_report_chinese.md local link figures/Fig2_MD_Validation_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "reports/synthapore_report_chinese.md local link ../results/source_audit.json",
+      "passed": true
+    },
+    {
+      "check": "reports/synthapore_report_chinese.md local link figures/Fig3_NEB_Validation_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "reports/synthapore_report_chinese.md local link figures/Fig3_NEB_Validation_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "reports/synthapore_report_chinese.md local link figures/Fig4_Pore_Adsorption_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "reports/synthapore_report_chinese.md local link figures/Fig4_Pore_Adsorption_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "reports/synthapore_report_chinese.md local link ../results/equivariant/summary.json",
+      "passed": true
+    },
+    {
+      "check": "reports/synthapore_report_chinese.md local link ../results/dynamics/summary.json",
+      "passed": true
+    },
+    {
+      "check": "reports/synthapore_report_chinese.md local link ../results/pore/summary.json",
+      "passed": true
+    },
+    {
+      "check": "reports/synthapore_report_chinese.md local link ../README.md",
+      "passed": true
+    },
+    {
+      "check": "reports/synthapore_report_chinese.md local link ../results/publication_validation.json",
+      "passed": true
+    },
+    {
+      "check": "reports/synthapore_report_chinese.md local link ../results/figure_qa.json",
+      "passed": true
+    },
+    {
+      "check": "reports/synthapore_report_english.md local link ../source/specification.md",
+      "passed": true
+    },
+    {
+      "check": "reports/synthapore_report_english.md local link ../source/source_record.json",
+      "passed": true
+    },
+    {
+      "check": "reports/synthapore_report_english.md local link ../results/compatibility/captured_results.json",
+      "passed": true
+    },
+    {
+      "check": "reports/synthapore_report_english.md local link figures/Fig1_Equivariance_Denoising_english.png",
+      "passed": true
+    },
+    {
+      "check": "reports/synthapore_report_english.md local link figures/Fig1_Equivariance_Denoising_english.svg",
+      "passed": true
+    },
+    {
+      "check": "reports/synthapore_report_english.md local link figures/Fig2_MD_Validation_english.png",
+      "passed": true
+    },
+    {
+      "check": "reports/synthapore_report_english.md local link figures/Fig2_MD_Validation_english.svg",
+      "passed": true
+    },
+    {
+      "check": "reports/synthapore_report_english.md local link ../results/source_audit.json",
+      "passed": true
+    },
+    {
+      "check": "reports/synthapore_report_english.md local link figures/Fig3_NEB_Validation_english.png",
+      "passed": true
+    },
+    {
+      "check": "reports/synthapore_report_english.md local link figures/Fig3_NEB_Validation_english.svg",
+      "passed": true
+    },
+    {
+      "check": "reports/synthapore_report_english.md local link figures/Fig4_Pore_Adsorption_english.png",
+      "passed": true
+    },
+    {
+      "check": "reports/synthapore_report_english.md local link figures/Fig4_Pore_Adsorption_english.svg",
+      "passed": true
+    },
+    {
+      "check": "reports/synthapore_report_english.md local link ../results/equivariant/summary.json",
+      "passed": true
+    },
+    {
+      "check": "reports/synthapore_report_english.md local link ../results/dynamics/summary.json",
+      "passed": true
+    },
+    {
+      "check": "reports/synthapore_report_english.md local link ../results/pore/summary.json",
+      "passed": true
+    },
+    {
+      "check": "reports/synthapore_report_english.md local link ../README.md",
+      "passed": true
+    },
+    {
+      "check": "reports/synthapore_report_english.md local link ../results/publication_validation.json",
+      "passed": true
+    },
+    {
+      "check": "reports/synthapore_report_english.md local link ../results/figure_qa.json",
+      "passed": true
+    }
+  ]
+}

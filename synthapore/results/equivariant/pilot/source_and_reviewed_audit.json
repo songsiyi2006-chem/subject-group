@@ -1,0 +1,81 @@
+{
+  "references": {
+    "source": {
+      "energy": -0.039720017462968826,
+      "charge_sum": -1.4551456198096275,
+      "charges": [
+        -0.30208998918533325,
+        -0.2876783609390259,
+        -0.28791680932044983,
+        -0.08637479692697525,
+        -0.11988015472888947,
+        -0.37120550870895386
+      ],
+      "translated_energy": 2.6377477645874023,
+      "translated_charge_sum": -1.4551455602049828,
+      "translation_expected_energy_shift_minus_Q_E_dot_t": 2.6774679404497146,
+      "observed_energy_shift": 2.677467782050371
+    },
+    "reviewed": {
+      "energy": 0.4060380600115784,
+      "charge_sum": -1.6653345369377348e-16,
+      "charges": [
+        0.013867166615852355,
+        -0.03754645760805758,
+        -0.03753564870818216,
+        -0.017018327361279617,
+        0.1495949609882712,
+        -0.07136169392660435
+      ],
+      "translated_energy": 0.4060380600115783,
+      "translated_charge_sum": 0.0,
+      "translation_expected_energy_shift_minus_Q_E_dot_t": 3.064215547965432e-16,
+      "observed_energy_shift": -1.1102230246251565e-16
+    }
+  },
+  "cutoff": {
+    "source_max_scalar_change_from_edges_at_distance_8": 0.024426937103271484,
+    "source_max_coordinate_change_from_edges_at_distance_8": 0.012105150148272514,
+    "reviewed_max_scalar_change_from_edges_at_distance_8": 0.0,
+    "reviewed_max_coordinate_change_from_edges_at_distance_8": 0.0
+  },
+  "dtype": {
+    "source_double_succeeded": false,
+    "error": "index_add_(): self (Float) and source (Double) must have the same scalar type"
+  },
+  "source_force_origin_identity_max_error": 1.540407538395787e-08,
+  "counts": {
+    "potential_energy_force_evaluations": {
+      "source": 123,
+      "reviewed": 121
+    },
+    "source_charge_only_forwards": 124,
+    "transformation_rows": 22,
+    "finite_difference_rows": 6,
+    "extra_cutoff_layer_forwards": 4,
+    "expected_dtype_failure_probes": 1
+  },
+  "scope": "Random small models and typed synthetic cluster; numerical covariance is not force accuracy",
+  "source_constructor": {
+    "num_species": 30,
+    "hidden_dim": 16,
+    "num_layers": 2,
+    "seed": 991
+  },
+  "reviewed_constructor": {
+    "width": 24,
+    "layers": 2,
+    "total_charge": 0,
+    "seed": 991
+  },
+  "field_vector": [
+    0.15,
+    -0.08,
+    0.04
+  ],
+  "translation_vector": [
+    8.0,
+    -6.0,
+    4.0
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "class_only_execution_count": 8,
+  "calls": [
+    {
+      "cell_A": 24.5,
+      "probe_A": 0.0,
+      "source_reported_porosity_pct": 48.25,
+      "source_reported_BET_area_m2_g": 631.2
+    },
+    {
+      "cell_A": 24.5,
+      "probe_A": 1.82,
+      "source_reported_porosity_pct": 48.25,
+      "source_reported_BET_area_m2_g": 631.2
+    },
+    {
+      "cell_A": 24.5,
+      "probe_A": 4.0,
+      "source_reported_porosity_pct": 48.25,
+      "source_reported_BET_area_m2_g": 631.2
+    },
+    {
+      "cell_A": 24.5,
+      "probe_A": 10.0,
+      "source_reported_porosity_pct": 48.25,
+      "source_reported_BET_area_m2_g": 631.2
+    },
+    {
+      "cell_A": 26.0,
+      "probe_A": 0.0,
+      "source_reported_porosity_pct": 42.5,
+      "source_reported_BET_area_m2_g": 631.2
+    },
+    {
+      "cell_A": 26.0,
+      "probe_A": 1.82,
+      "source_reported_porosity_pct": 42.5,
+      "source_reported_BET_area_m2_g": 631.2
+    },
+    {
+      "cell_A": 26.0,
+      "probe_A": 4.0,
+      "source_reported_porosity_pct": 42.5,
+      "source_reported_BET_area_m2_g": 631.2
+    },
+    {
+      "cell_A": 26.0,
+      "probe_A": 10.0,
+      "source_reported_porosity_pct": 42.5,
+      "source_reported_BET_area_m2_g": 631.2
+    }
+  ],
+  "probe_argument_read_in_body": false,
+  "source_mask_shape": "circle: X^2+Y^2 < 9.8^2 on an endpoint-including square grid",
+  "topology_claim_supported_by_graph": false,
+  "atomic_framework_coordinates_supplied": false,
+  "atomic_masses_or_material_mass_used": false,
+  "PSD_computed": false,
+  "source_area_derivation": "145 cm3(STP)/g prescribed monolayer times prescribed 4.353 conversion; independent of cell geometry",
+  "source_type_IV_label_validated": false,
+  "source_unit_cell_26_output": {
+    "topology_type": "2D Honeycomb (hcb) Reticular Architecture",
+    "unit_cell_dimension_A": 26.0,
+    "nominal_pore_diameter_A": 19.6,
+    "calculated_void_porosity_pct": 42.5,
+    "bet_specific_surface_area_m2_g": 631.2,
+    "relative_pressures_p_p0": [
+      0.01,
+      0.05947368421052632,
+      0.10894736842105263,
+      0.15842105263157896,
+      0.20789473684210527,
+      0.2573684210526316,
+      0.3068421052631579,
+      0.3563157894736842,
+      0.40578947368421053,
+      0.45526315789473687,
+      0.5047368421052632,
+      0.5542105263157895,
+      0.6036842105263158,
+      0.6531578947368422,
+      0.7026315789473684,
+      0.7521052631578947,
+      0.8015789473684211,
+      0.8510526315789474,
+      0.9005263157894737,
+      0.95
+    ],
+    "n2_adsorption_isotherm_cm3_g": [
+      78.71,
+      135.53,
+      151.92,
+      164.69,
+      177.19,
+      190.47,
+      205.16,
+      427.63,
+      450.77,
+      469.58,
+      484.86,
+      497.27,
+      507.35,
+      515.54,
+      522.19,
+      527.6,
+      531.99,
+      535.55,
+      538.45,
+      540.81
+    ]
+  },
+  "branch_boundary_p": 0.35,
+  "BET_left_limit_cm3_g": 219.53169080308444,
+  "empirical_right_value_cm3_g": 424.31105766211516,
+  "jump_cm3_g": 204.77936685903072,
+  "relative_jump_vs_left": 0.9328009368939527,
+  "interpretation": "Discontinuity imposed by switching formula, not evidence of capillary condensation or hysteresis"
+}

@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "pilot": true,
+  "evidence": "Synthetic geometry supervised denoising and untrained energy-model mathematical audit; not molecular diffusion or calibrated MLIP",
+  "data": {
+    "split_sizes": {
+      "train": 192,
+      "validation": 48,
+      "test": 64,
+      "ood_warped": 64
+    },
+    "nodes_per_shape": 8,
+    "seeds": {
+      "train": 33001,
+      "validation": 33002,
+      "test": 33003,
+      "ood_warped": 33004
+    },
+    "units": "arbitrary length; all energy audit values arbitrary",
+    "families": "planar random ellipses for train/validation/test; sinusoidally warped cycles OOD only",
+    "noise_sigma": [
+      0.08,
+      0.16,
+      0.24
+    ],
+    "noise_convention": "Gaussian node noise minus per-graph centroid noise",
+    "topology": "known labeled eight-node cycle, no molecular bonds or species in denoising",
+    "partition_rule": "independent fixed generator seeds; each clean shape appears once, no augmented copies across partitions"
+  },
+  "training": {
+    "fits": [
+      {
+        "seed": 4441,
+        "epochs": 2,
+        "selected_epoch": 2,
+        "validation_coordinate_MSE": 0.026005204766988754,
+        "parameters": 13176
+      }
+    ],
+    "optimizer": "Adam lr=0.003 weight_decay=1e-5 batch=32 grad_norm_cap=5",
+    "selection": "minimum validation loss epoch only; test and OOD never select checkpoints",
+    "coordinate_updates": "subtract graph-mean update, preserving the input centroid",
+    "no_diffusion_claim": "no learned time-dependent score, forward schedule or reverse sampling chain"
+  },
+  "counts": {
+    "neural_training_runs": 1,
+    "training_epochs": 2,
+    "synthetic_shapes": 368,
+    "noisy_nodes": 2944,
+    "metric_rows": 16,
+    "per_shape_metric_rows": 1472,
+    "predicted_coordinate_rows": 11776,
+    "energy_audit": {
+      "potential_energy_force_evaluations": {
+        "source": 123,
+        "reviewed": 121
+      },
+      "source_charge_only_forwards": 124,
+      "transformation_rows": 22,
+      "finite_difference_rows": 6,
+      "extra_cutoff_layer_forwards": 4,
+      "expected_dtype_failure_probes": 1
+    },
+    "DFT": 0,
+    "new_experiments": 0
+  },
+  "trained_covariance_checks": [
+    {
+      "seed": 4441,
+      "reflection_rotation_translation_max_error": 8.881784197001252e-16
+    }
+  ],
+  "source_repairs_reviewed_only": [
+    "dtype-preserving buffers/aggregation",
+    "cutoff gates entire messages and vector updates",
+    "fixed total-charge projection; neutral origin invariance",
+    "one-step denoising training and disjoint saved partitions"
+  ],
+  "limitations": [
+    "Source and reviewed potential weights remain untrained; forces cannot be interpreted as accurate chemistry",
+    "Charge constraint repairs conservation and origin covariance, not local charge accuracy",
+    "Reflection covariance requires rotating/reflection-transforming external field jointly",
+    "Cycle denoiser assumes ordered cycle adjacency; arbitrary relabeling requires relabeling graph edges",
+    "Centering noise removes centroid recovery difficulty and limits the synthetic task",
+    "PCA baseline knows planarity; OOD warped shapes test sensitivity to that prior",
+    "Three training seeds on one fixed synthetic dataset do not establish generalization confidence"
+  ],
+  "runtime_seconds": 4.914714599959552,
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.4.6",
+    "torch": "2.10.0"
+  },
+  "threads": {
+    "torch": 1,
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1"
+  },
+  "sources": [
+    "https://proceedings.mlr.press/v139/satorras21a.html",
+    "https://proceedings.neurips.cc/paper/2020/hash/4c5bcfec8584af0d967f1ab10179ca4b-Abstract.html"
+  ],
+  "source_sha256": {
+    "synthapore/scripts/equivariant_reviewed.py": "b5673baaf910e1b3da3a6f09b350a406cb255b9fdbf27483b6fbccdb89ecfa77",
+    "synthapore/source/synthapore_engine.py": "c8bd0afd2eba64823be74967acc4dd84cb5d3325eda7f70f98507ece8bfdd45e"
+  },
+  "output_sha256": {
+    "baseline_coefficients.json": "18844b2ab8e4ba22be01db1d60b20c49445421bfacf13b09400902fc0f22ea28",
+    "denoiser_seed4441.pt": "3ab811a6f2f9eff553ba7c9215a7ab2d915d09266da61da831c70448a0f59d63",
+    "denoising_metrics.csv": "93068c51e5b0d216ad24a21449cb31ec831c6630d3f3219b8fd22f46858de11d",
+    "equivariance_probes.csv": "844cc582d9a5ed108130b1bda34c984d4030b933f2b775484f1379d6f210fa5e",
+    "force_finite_differences.csv": "a81368f53d323b66bb28bf1a00cfd53db68639ed7c5dd1080fadc1e11dc2cc6c",
+    "per_shape_metrics.csv": "74fc7c0e0c3dd7859779936577f75f1188db1d65f2239a13ac7b569d0f3d4288",
+    "predicted_coordinates.csv": "fa9801e48b666215792d848b218f5fab389d8fde148985a24505f417fe5be004",
+    "source_and_reviewed_audit.json": "b807cebe3c386dbf68d769c2a04c1a97d4a0cd53d0e6af41640b41efcc22cfef",
+    "synthetic_shapes.json": "12afa4778480313c3547415c70c9cdf978a6d9061d42059c009a2fb091d3d2fa",
+    "training_losses.csv": "d641fc1eb88b5f04a75e86e5b825b0ecfc64f809472c3acdebbd04e94b71a793"
+  },
+  "archived_source_snapshot": {
+    "file": "equivariant_pilot_source.py.txt",
+    "sha256": "b5673baaf910e1b3da3a6f09b350a406cb255b9fdbf27483b6fbccdb89ecfa77",
+    "reason": "Original successful pilot before optional graph-adjacency API extension; final model will expose explicit permutation-consistent graph input"
+  }
+}

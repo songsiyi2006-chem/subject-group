@@ -1,0 +1,257 @@
+{
+  "figure_count": 4,
+  "languages": [
+    "english",
+    "chinese"
+  ],
+  "formats": [
+    "png",
+    "svg"
+  ],
+  "figures": [
+    {
+      "file": "Fig1_Equivariance_Denoising_english.png",
+      "format": "png",
+      "sha256": "f9da1cd73d46ffe7c70f71a106c5ab8eb66e92359abe6c44bf9cc0fb2cd403f3",
+      "sources": {
+        "results/equivariant/denoising_metrics.csv": "d74cb54066c661c6e981c62335a8e93eb8666978dd93dce3e96afb918e4d13bf",
+        "results/equivariant/training_losses.csv": "9c5c05f8578a0459abb76dceaf1ecf6e20706f746aa5b6eca9ead95797725b2b"
+      },
+      "evidence": "Synthetic shapes or explicitly assumed analytical models; no molecular or material validation",
+      "pixels": [
+        2400,
+        1380
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "Fig1_Equivariance_Denoising_english.svg",
+      "format": "svg",
+      "sha256": "32b02c8616f6d67ab16936e2bb97ab1754ec36d68d3686d9c6c0c8edb6e497a8",
+      "sources": {
+        "results/equivariant/denoising_metrics.csv": "d74cb54066c661c6e981c62335a8e93eb8666978dd93dce3e96afb918e4d13bf",
+        "results/equivariant/training_losses.csv": "9c5c05f8578a0459abb76dceaf1ecf6e20706f746aa5b6eca9ead95797725b2b"
+      },
+      "evidence": "Synthetic shapes or explicitly assumed analytical models; no molecular or material validation",
+      "editable_text": true,
+      "embedded_raster": false
+    },
+    {
+      "file": "Fig2_MD_Validation_english.png",
+      "format": "png",
+      "sha256": "d5aaba55959f17d8061d6795e4baf9c8f3e343d376eb57173b4af32cd2ba8415",
+      "sources": {
+        "results/dynamics/nve_timestep_summary.csv": "3641dd7575df4af0cc611345dc19c96739ef2965d9532504d102e887abcce322",
+        "results/dynamics/thermostat_summary.csv": "3bf4529479f31baa5286481e039270b710c27fd66e458eaa15189e4e3a7e393c"
+      },
+      "evidence": "Synthetic shapes or explicitly assumed analytical models; no molecular or material validation",
+      "pixels": [
+        2400,
+        1380
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "Fig2_MD_Validation_english.svg",
+      "format": "svg",
+      "sha256": "1e23956f341b2e63b428980b63f04d519697cd6a1dfddbcd42d3d8a53aa08a5b",
+      "sources": {
+        "results/dynamics/nve_timestep_summary.csv": "3641dd7575df4af0cc611345dc19c96739ef2965d9532504d102e887abcce322",
+        "results/dynamics/thermostat_summary.csv": "3bf4529479f31baa5286481e039270b710c27fd66e458eaa15189e4e3a7e393c"
+      },
+      "evidence": "Synthetic shapes or explicitly assumed analytical models; no molecular or material validation",
+      "editable_text": true,
+      "embedded_raster": false
+    },
+    {
+      "file": "Fig3_NEB_Validation_english.png",
+      "format": "png",
+      "sha256": "617622cc0117a2f400a6f81d0198aaab5df359376ee53bfb5d7c828aad5edf47",
+      "sources": {
+        "results/dynamics/neb_final_bands.csv": "bf1ecbefa955cb81cb05f3dd67c20f4f48f9670e74059b7877d1e0ee2bb2eb35",
+        "results/dynamics/neb_summary.csv": "12caef1b7d7bfab6f5d51527fe86d5d909d5be02bee94fe25a403b4581a8ee1d"
+      },
+      "evidence": "Synthetic shapes or explicitly assumed analytical models; no molecular or material validation",
+      "pixels": [
+        2400,
+        1380
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "Fig3_NEB_Validation_english.svg",
+      "format": "svg",
+      "sha256": "cf08a51f4a69c627f9f743480733f3aacc559cbe48aee4f9156a9e53eabf8468",
+      "sources": {
+        "results/dynamics/neb_final_bands.csv": "bf1ecbefa955cb81cb05f3dd67c20f4f48f9670e74059b7877d1e0ee2bb2eb35",
+        "results/dynamics/neb_summary.csv": "12caef1b7d7bfab6f5d51527fe86d5d909d5be02bee94fe25a403b4581a8ee1d"
+      },
+      "evidence": "Synthetic shapes or explicitly assumed analytical models; no molecular or material validation",
+      "editable_text": true,
+      "embedded_raster": false
+    },
+    {
+      "file": "Fig4_Pore_Adsorption_english.png",
+      "format": "png",
+      "sha256": "1c916580132c6a96549d666a5325616a9fb85d0ba66d2a13ccbb80d1f6b1ab50",
+      "sources": {
+        "results/pore/geometry_grid_convergence.csv": "0a435865125c6c858cc5e1cd08073f27120f3a12dadda46d8abd8bbbcf61ed7b",
+        "results/pore/source_isotherm_points.csv": "e0327827f90038080defd0be6028307280ed230761629c73ef0ca466ec1b7834",
+        "results/pore/BET_window_fits.csv": "9b681bb6d9415bbdaa4c8583b4298ca72b6fafe1e7de25f50a245af41d3c0b3d"
+      },
+      "evidence": "Synthetic shapes or explicitly assumed analytical models; no molecular or material validation",
+      "pixels": [
+        2400,
+        1380
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "Fig4_Pore_Adsorption_english.svg",
+      "format": "svg",
+      "sha256": "ac113b20de7eb0efcc1b88690b57698f82e20113813c694ab1b3fe26db87b027",
+      "sources": {
+        "results/pore/geometry_grid_convergence.csv": "0a435865125c6c858cc5e1cd08073f27120f3a12dadda46d8abd8bbbcf61ed7b",
+        "results/pore/source_isotherm_points.csv": "e0327827f90038080defd0be6028307280ed230761629c73ef0ca466ec1b7834",
+        "results/pore/BET_window_fits.csv": "9b681bb6d9415bbdaa4c8583b4298ca72b6fafe1e7de25f50a245af41d3c0b3d"
+      },
+      "evidence": "Synthetic shapes or explicitly assumed analytical models; no molecular or material validation",
+      "editable_text": true,
+      "embedded_raster": false
+    },
+    {
+      "file": "Fig1_Equivariance_Denoising_chinese.png",
+      "format": "png",
+      "sha256": "38c09d4f25bbb33aafa90fc6370747f1b861b00da7b85de7b7e8a1770c33aac4",
+      "sources": {
+        "results/equivariant/denoising_metrics.csv": "d74cb54066c661c6e981c62335a8e93eb8666978dd93dce3e96afb918e4d13bf",
+        "results/equivariant/training_losses.csv": "9c5c05f8578a0459abb76dceaf1ecf6e20706f746aa5b6eca9ead95797725b2b"
+      },
+      "evidence": "Synthetic shapes or explicitly assumed analytical models; no molecular or material validation",
+      "pixels": [
+        2400,
+        1380
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "Fig1_Equivariance_Denoising_chinese.svg",
+      "format": "svg",
+      "sha256": "54c626f138d15df0207a7ec4cbd8f3c3a3fb769eddf0aaa6bc615ead5a19af8e",
+      "sources": {
+        "results/equivariant/denoising_metrics.csv": "d74cb54066c661c6e981c62335a8e93eb8666978dd93dce3e96afb918e4d13bf",
+        "results/equivariant/training_losses.csv": "9c5c05f8578a0459abb76dceaf1ecf6e20706f746aa5b6eca9ead95797725b2b"
+      },
+      "evidence": "Synthetic shapes or explicitly assumed analytical models; no molecular or material validation",
+      "editable_text": true,
+      "embedded_raster": false
+    },
+    {
+      "file": "Fig2_MD_Validation_chinese.png",
+      "format": "png",
+      "sha256": "3db24dde9bc95cadbeedf1761f27501937035a3a9a2f3cdd7d27b1fa21f68d0c",
+      "sources": {
+        "results/dynamics/nve_timestep_summary.csv": "3641dd7575df4af0cc611345dc19c96739ef2965d9532504d102e887abcce322",
+        "results/dynamics/thermostat_summary.csv": "3bf4529479f31baa5286481e039270b710c27fd66e458eaa15189e4e3a7e393c"
+      },
+      "evidence": "Synthetic shapes or explicitly assumed analytical models; no molecular or material validation",
+      "pixels": [
+        2400,
+        1380
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "Fig2_MD_Validation_chinese.svg",
+      "format": "svg",
+      "sha256": "1970e3c86112d44bdb73a3e12549f81d1349654e406072afcc733a7671f7605c",
+      "sources": {
+        "results/dynamics/nve_timestep_summary.csv": "3641dd7575df4af0cc611345dc19c96739ef2965d9532504d102e887abcce322",
+        "results/dynamics/thermostat_summary.csv": "3bf4529479f31baa5286481e039270b710c27fd66e458eaa15189e4e3a7e393c"
+      },
+      "evidence": "Synthetic shapes or explicitly assumed analytical models; no molecular or material validation",
+      "editable_text": true,
+      "embedded_raster": false
+    },
+    {
+      "file": "Fig3_NEB_Validation_chinese.png",
+      "format": "png",
+      "sha256": "967c82f2212a95b5e5a22333f937d33d4bbc518043250655517ecb23f5d8a02c",
+      "sources": {
+        "results/dynamics/neb_final_bands.csv": "bf1ecbefa955cb81cb05f3dd67c20f4f48f9670e74059b7877d1e0ee2bb2eb35",
+        "results/dynamics/neb_summary.csv": "12caef1b7d7bfab6f5d51527fe86d5d909d5be02bee94fe25a403b4581a8ee1d"
+      },
+      "evidence": "Synthetic shapes or explicitly assumed analytical models; no molecular or material validation",
+      "pixels": [
+        2400,
+        1380
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "Fig3_NEB_Validation_chinese.svg",
+      "format": "svg",
+      "sha256": "1c0bfecd4a04ba0e52b9ba6b123c8fd59cc223b5ac7d48f87ecb66d703552e57",
+      "sources": {
+        "results/dynamics/neb_final_bands.csv": "bf1ecbefa955cb81cb05f3dd67c20f4f48f9670e74059b7877d1e0ee2bb2eb35",
+        "results/dynamics/neb_summary.csv": "12caef1b7d7bfab6f5d51527fe86d5d909d5be02bee94fe25a403b4581a8ee1d"
+      },
+      "evidence": "Synthetic shapes or explicitly assumed analytical models; no molecular or material validation",
+      "editable_text": true,
+      "embedded_raster": false
+    },
+    {
+      "file": "Fig4_Pore_Adsorption_chinese.png",
+      "format": "png",
+      "sha256": "887173ecb63bb1e8df5c647191e59852b0c9c67b122812dab9397e759327d68c",
+      "sources": {
+        "results/pore/geometry_grid_convergence.csv": "0a435865125c6c858cc5e1cd08073f27120f3a12dadda46d8abd8bbbcf61ed7b",
+        "results/pore/source_isotherm_points.csv": "e0327827f90038080defd0be6028307280ed230761629c73ef0ca466ec1b7834",
+        "results/pore/BET_window_fits.csv": "9b681bb6d9415bbdaa4c8583b4298ca72b6fafe1e7de25f50a245af41d3c0b3d"
+      },
+      "evidence": "Synthetic shapes or explicitly assumed analytical models; no molecular or material validation",
+      "pixels": [
+        2400,
+        1380
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "Fig4_Pore_Adsorption_chinese.svg",
+      "format": "svg",
+      "sha256": "43cb14f32adfdebbf60e1dfa02021b51a2a1ace7bf27d246ff9753f5e4c92f48",
+      "sources": {
+        "results/pore/geometry_grid_convergence.csv": "0a435865125c6c858cc5e1cd08073f27120f3a12dadda46d8abd8bbbcf61ed7b",
+        "results/pore/source_isotherm_points.csv": "e0327827f90038080defd0be6028307280ed230761629c73ef0ca466ec1b7834",
+        "results/pore/BET_window_fits.csv": "9b681bb6d9415bbdaa4c8583b4298ca72b6fafe1e7de25f50a245af41d3c0b3d"
+      },
+      "evidence": "Synthetic shapes or explicitly assumed analytical models; no molecular or material validation",
+      "editable_text": true,
+      "embedded_raster": false
+    }
+  ]
+}

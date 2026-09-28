@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "pilot": false,
+  "evidence": "Executed analytic 2D geometry and synthetic inverse-model benchmarks; no physical porous material validated",
+  "geometry": {
+    "cell_A": 26.0,
+    "channel_inradius_A": 9.8,
+    "disk_radius_A": 3.0,
+    "periodic_disk_center_A": [
+      12.4,
+      2.5
+    ],
+    "grid_rule": "Equal-area cell centers, strict clearance > probe",
+    "resolutions": [
+      40,
+      80,
+      160,
+      320,
+      640
+    ],
+    "channel_probes_A": [
+      0.0,
+      1.2,
+      1.82,
+      3.0,
+      6.0,
+      9.8,
+      10.0
+    ],
+    "periodic_probes_A": [
+      0.0,
+      1.82,
+      3.0,
+      6.0
+    ],
+    "exact_channel_area": "circle pi*(R-rp)^2; regular hexagon 2*sqrt(3)*(a-rp)^2; zero once rp >= inradius",
+    "hexagon_convention": "apothem/inradius 9.8 A, circumradius 2*a/sqrt(3); six half-plane normals",
+    "periodic_geometry": "One artificial solid disk in a periodic square; excluded distance expanded by probe radius",
+    "clearance_definition": "Area-weighted distance of free 2D points to nearest wall; not a histogram of pore diameters"
+  },
+  "adsorption": {
+    "source_prescribed_Vm_cm3_g": 145.0,
+    "source_prescribed_C": 115.0,
+    "branch_switch": 0.35,
+    "STP_molar_volume_cm3_mol": 22414.0,
+    "STP_convention": "273.15 K and 1 atm, rounded ideal-gas molar volume 22414 cm3/mol",
+    "nitrogen_cross_section_m2": 1.62e-19,
+    "Avogadro_mol_1": 6.02214076e+23,
+    "derived_area_factor_m2_per_cm3_STP": 4.352577867047381,
+    "source_area_factor": 4.353,
+    "regression": "Unweighted OLS on p/[V*(1-p)] versus p, intercept and slope retained",
+    "validity_scope": "Positive parameters, V*(1-p) monotonicity and monolayer pressure placement are diagnostics only; no complete standard-compliance claim",
+    "noise": "64 seeds (pilot 8), 1% lognormal multiplicative error, positive mean-one factor; no inferred measurement noise"
+  },
+  "counts": {
+    "clearance_fields": 15,
+    "clearance_point_evaluations": 1636800,
+    "probe_masks": 90,
+    "endpoint_or_midpoint_bias_cases": 20,
+    "clearance_CDF_rows": 123,
+    "clearance_histogram_rows": 120,
+    "source_class_calls": 8,
+    "source_isotherm_points": 20,
+    "deterministic_BET_fits": 24,
+    "noise_seeds": 64,
+    "noise_observations": 384,
+    "noise_BET_fits": 128,
+    "total_BET_fits": 152,
+    "GCMC_runs": 0,
+    "atomistic_frameworks": 0,
+    "experimental_measurements": 0
+  },
+  "numerical_checks": {
+    "minimum_image_vs_nine_images_max_A": 3.552713678800501e-15,
+    "source_probe_has_no_effect": true,
+    "exact_control_max_Vm_abs_error_cm3_g": 8.526512829121202e-14,
+    "exact_control_max_C_abs_error": 3.439026841078885e-12,
+    "finest_max_area_fraction_error": 0.00047491206378440665,
+    "clearance_CDF_max_error": 0.0006874453975062034
+  },
+  "limitations": [
+    "2D analytic geometry is not a chemical hcb/sql framework; no connectivity/chemistry assignment is made.",
+    "Area of allowed probe centers differs from probe-occupiable area, surface area and 3D volume.",
+    "Clearance histograms are not experimental or atomistic pore-size distributions.",
+    "BET areas derive from prescribed synthetic mass-normalized uptake, not from atomistic mass or geometry.",
+    "Good R2 or positive BET C does not validate a fitting window or a physical material.",
+    "Noise quantiles are conditional synthetic-repeat variability; no adsorption/desorption hysteresis or experiment is supplied."
+  ],
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.4.6",
+    "elapsed_seconds": 0.313270999933593
+  },
+  "sources": [
+    {
+      "url": "https://www.zeoplusplus.org/examples.html",
+      "role": "Definitions distinguish probe-accessible centers, occupied volume, surface, and PSD; software not executed"
+    },
+    {
+      "url": "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication960-17.pdf",
+      "role": "BET linearization, limitations and conventional N2 cross-section"
+    },
+    {
+      "url": "https://mail.goldbook.iupac.org/terms/view/13997",
+      "role": "BET area is isotherm-derived with conventional molecular cross-section; search-index evidence, main host returned 403"
+    }
+  ],
+  "license_note": "No external structure, dataset or model downloaded; original source retained elsewhere. Analytic benchmark data generated locally.",
+  "source_sha256": {
+    "synthapore/scripts/pore_reviewed.py": "57dacb7d6e4c4e44e40276f97e2f45c95738c391bc6e6296845bcbc183e84419",
+    "synthapore/source/synthapore_engine.py": "c8bd0afd2eba64823be74967acc4dd84cb5d3325eda7f70f98507ece8bfdd45e"
+  },
+  "output_sha256": {
+    "BET_window_fits.csv": "9b681bb6d9415bbdaa4c8583b4298ca72b6fafe1e7de25f50a245af41d3c0b3d",
+    "clearance_CDF.csv": "2e4dd91d90cab2e6a143a72dfd6cf68fc6f1b6e0ab907de37b574b0fbd2aac57",
+    "clearance_histogram.csv": "f4755cf936cdb70da86c035e6a600c583409f2c5773b498953d4226349d97f08",
+    "endpoint_bias.csv": "7a900607080d26cdb3f92ab2633f92b91d44e61c3c6d69a07b87e73ec6947fa6",
+    "geometry_grid_convergence.csv": "0a435865125c6c858cc5e1cd08073f27120f3a12dadda46d8abd8bbbcf61ed7b",
+    "noise_BET_fits.csv": "76eb8a970bbc1d18124f9c3df63cda94629cd25dd2008986a16b565c6d5a373e",
+    "noise_observations.csv": "53774992452b1a05df7d1f0a6d9548346189d1582728fecb76a65e24add8d679",
+    "noise_summary.csv": "b62ac5dc0d22d3a4581e0248c02ab98af7118653bcd50a4ea7008bf560b2e7ad",
+    "source_isotherm_points.csv": "e0327827f90038080defd0be6028307280ed230761629c73ef0ca466ec1b7834",
+    "source_pore_audit.json": "86bcee260a05ce2f38fa690812de2233ec771be70df962955ed61a8b70b47c03",
+    "test_results.txt": "e721cd8d664b860784c977055e1fef310c0622d1e056868adc95c3cd24fdfbb4"
+  }
+}

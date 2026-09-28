@@ -1,0 +1,470 @@
+"""Equivariance/force audit and supervised SYNTHETIC shape denoising.
+
+No trained molecular potential or reverse diffusion sampler is claimed.
+Energy and geometry are arbitrary numerical units, not calibrated eV/Angstrom.
+"""
+from __future__ import annotations
+import argparse
+import copy
+import csv
+import hashlib
+import importlib.util
+import json
+import math
+import os
+from pathlib import Path
+import platform
+import time
+
+import numpy as np
+import torch
+from torch import nn
+
+ROOT = Path(__file__).resolve().parents[2]
+OUT = ROOT / 'synthapore/results/equivariant'
+SOURCE = ROOT / 'synthapore/source/synthapore_engine.py'
+SOURCES = ['https://proceedings.mlr.press/v139/satorras21a.html',
+           'https://proceedings.neurips.cc/paper/2020/hash/4c5bcfec8584af0d967f1ab10179ca4b-Abstract.html']
+
+
+def sha(path):
+    return hashlib.sha256(Path(path).read_bytes()).hexdigest()
+
+
+def dump(path, value):
+    Path(path).write_text(json.dumps(value, indent=2, allow_nan=False) + '\n', encoding='utf-8')
+
+
+def table(path, rows):
+    with Path(path).open('w', newline='', encoding='utf-8') as stream:
+        writer = csv.DictWriter(stream, list(rows[0]), lineterminator='\n')
+        writer.writeheader()
+        writer.writerows(rows)
+
+
+def complete_edges(n):
+    if n < 1:
+        raise ValueError('At least one node required')
+    return torch.tensor([(i, j) for i in range(n) for j in range(n) if i != j], dtype=torch.long).reshape(-1, 2).T
+
+
+def orthogonal(rng, reflection=False):
+    q, _ = np.linalg.qr(rng.normal(size=(3, 3)))
+    if np.linalg.det(q) < 0:
+        q[:, 0] *= -1
+    if reflection:
+        q[:, 0] *= -1
+    return q
+
+
+class SmoothRadial(nn.Module):
+    def __init__(self, count=8, cutoff=6.0):
+        super().__init__()
+        if count < 2 or cutoff <= 0 or not math.isfinite(cutoff):
+            raise ValueError('Require at least two radial centers and positive cutoff')
+        self.cutoff = float(cutoff)
+        centers = torch.linspace(0., cutoff, count)
+        self.register_buffer('centers', centers)
+        self.register_buffer('beta', (centers[1] - centers[0]).pow(-2))
+
+    def forward(self, distance):
+        gate = torch.where(distance < self.cutoff,
+                           .5 * (torch.cos(distance * math.pi / self.cutoff) + 1),
+                           torch.zeros_like(distance))
+        radial = torch.exp(-self.beta * (distance.unsqueeze(-1) - self.centers) ** 2)
+        return radial, gate
+
+
+class EquivariantLayer(nn.Module):
+    """Dense batched scalar/vector update, including full-message cutoff gating."""
+    def __init__(self, width=24, cutoff=6.0):
+        super().__init__()
+        self.radial = SmoothRadial(8, cutoff)
+        self.message = nn.Sequential(nn.Linear(2 * width + 8, width), nn.SiLU(), nn.Linear(width, width), nn.SiLU())
+        self.coordinate = nn.Sequential(nn.Linear(width, width), nn.SiLU(), nn.Linear(width, 1, bias=False))
+        self.node = nn.Sequential(nn.Linear(2 * width, width), nn.SiLU(), nn.Linear(width, width))
+
+    def forward(self, h, positions, adjacency=None, center_update=False):
+        batch, n, width = h.shape
+        if positions.shape != (batch, n, 3):
+            raise ValueError('Positions and node shapes disagree')
+        relative = positions[:, :, None, :] - positions[:, None, :, :]
+        distance = torch.sqrt((relative ** 2).sum(-1) + 1e-12)
+        radial, gate = self.radial(distance)
+        diagonal_mask = 1 - torch.eye(n, dtype=h.dtype, device=h.device)[None]
+        if adjacency is not None:
+            if adjacency.shape not in ((n, n), (batch, n, n)):
+                raise ValueError('Bad adjacency shape')
+            if not torch.isfinite(adjacency).all() or (adjacency < 0).any() or (adjacency > 1).any():
+                raise ValueError('Adjacency weights must be finite and between zero and one')
+            diagonal_mask = diagonal_mask * adjacency
+        gate = gate * diagonal_mask
+        hi = h[:, :, None, :].expand(-1, -1, n, -1)
+        hj = h[:, None, :, :].expand(-1, n, -1, -1)
+        raw_messages = self.message(torch.cat([hi, hj, radial], dim=-1))
+        # Gating only radial inputs leaks through MLP biases. Gate both outputs.
+        messages = raw_messages * gate.unsqueeze(-1)
+        coefficients = self.coordinate(raw_messages).squeeze(-1) * gate
+        delta = (relative * coefficients.unsqueeze(-1)).sum(2) / max(n - 1, 1)
+        if center_update:
+            delta = delta - delta.mean(1, keepdim=True)
+        updated_pos = positions + .1 * delta
+        updated_h = h + self.node(torch.cat([h, messages.sum(2) / max(n - 1, 1)], dim=-1))
+        return updated_h, updated_pos
+
+
+class ChargeConstrainedPotential(nn.Module):
+    """UNTRAINED audit model. Charge projection fixes total Q, not charge accuracy."""
+    def __init__(self, width=24, layers=2, total_charge=0.0):
+        super().__init__()
+        if not math.isfinite(total_charge):
+            raise ValueError('Finite fixed total charge required')
+        self.total_charge = float(total_charge)
+        self.embedding = nn.Embedding(119, width)
+        self.layers = nn.ModuleList([EquivariantLayer(width) for _ in range(layers)])
+        self.energy_head = nn.Sequential(nn.Linear(width, 16), nn.SiLU(), nn.Linear(16, 1))
+        self.charge_head = nn.Sequential(nn.Linear(width, 16), nn.SiLU(), nn.Linear(16, 1))
+
+    def energy_charges(self, atomic_numbers, positions, field=None):
+        if positions.ndim != 2 or positions.shape != (len(atomic_numbers), 3) or not len(atomic_numbers):
+            raise ValueError('Nonempty (N,3) positions required')
+        if atomic_numbers.dtype != torch.long or int(atomic_numbers.min()) < 1 or int(atomic_numbers.max()) > 118:
+            raise ValueError('Atomic numbers must be integer indices in 1..118')
+        if not torch.isfinite(positions).all():
+            raise ValueError('Finite coordinates required')
+        h = self.embedding(atomic_numbers).unsqueeze(0)
+        coordinates = positions.unsqueeze(0)
+        for layer in self.layers:
+            h, coordinates = layer(h, coordinates)
+        energy = self.energy_head(h).sum()
+        raw = self.charge_head(h).reshape(-1)
+        charges = raw - raw.mean() + self.total_charge / len(raw)
+        if field is not None:
+            if field.shape != (3,) or not torch.isfinite(field).all():
+                raise ValueError('Finite three-vector field required')
+            energy = energy - ((charges[:, None] * positions).sum(0) * field).sum()
+        return energy, charges
+
+    def forward(self, atomic_numbers, positions, field=None):
+        positions = positions.detach().clone().requires_grad_(True)
+        energy, charges = self.energy_charges(atomic_numbers, positions, field)
+        forces = -torch.autograd.grad(energy, positions, create_graph=False)[0]
+        return energy.detach(), forces.detach(), charges.detach()
+
+
+class GeometryDenoiser(nn.Module):
+    """One-step supervised coordinate denoiser; no time chain or reverse sampler."""
+    def __init__(self, width=24, layers=3):
+        super().__init__()
+        self.embedding = nn.Sequential(nn.Linear(2, width), nn.SiLU())
+        self.layers = nn.ModuleList([EquivariantLayer(width) for _ in range(layers)])
+
+    def forward(self, noisy, sigma, adjacency=None):
+        if noisy.ndim != 3 or noisy.shape[-1] != 3 or noisy.shape[1] < 3 or not len(noisy):
+            raise ValueError('Need (batch,nodes>=3,3) noisy coordinates')
+        if not torch.isfinite(noisy).all():
+            raise ValueError('Finite coordinates required')
+        if sigma.shape != (len(noisy),) or not torch.isfinite(sigma).all() or (sigma <= 0).any():
+            raise ValueError('One positive noise level per graph required')
+        n = noisy.shape[1]
+        features = torch.stack([torch.ones_like(sigma), sigma / .16], dim=-1)
+        h = self.embedding(features)[:, None, :].expand(-1, n, -1)
+        current = noisy
+        # The default represents a known ordered cycle. Relabelings must supply
+        # the correspondingly relabeled adjacency, just as for any graph model.
+        if adjacency is None:
+            ids = torch.arange(n, device=noisy.device)
+            adjacency = (((ids[:, None] - ids[None, :]).abs() == 1) |
+                         ((ids[:, None] - ids[None, :]).abs() == n - 1)).to(noisy.dtype)
+        for layer in self.layers:
+            h, current = layer(h, current, adjacency=adjacency, center_update=True)
+        return current
+
+
+def synthetic_dataset():
+    rows = []
+    for split, count, seed in [('train', 192, 33001), ('validation', 48, 33002),
+                               ('test', 64, 33003), ('ood_warped', 64, 33004)]:
+        rng = np.random.default_rng(seed)
+        for i in range(count):
+            theta = np.arange(8) * 2 * np.pi / 8 + rng.uniform(0, 2 * np.pi)
+            radius, ellipticity = rng.uniform(.8, 1.6), rng.uniform(.75, 1.25)
+            local = np.column_stack([radius * np.cos(theta), radius * ellipticity * np.sin(theta), np.zeros(8)])
+            if split == 'ood_warped':
+                local[:, 2] = rng.uniform(.25, .45) * np.sin(2 * theta)
+            clean = local @ orthogonal(rng, reflection=bool(i % 2)).T + rng.uniform(-2, 2, 3)
+            sigma = [.08, .16, .24][i % 3]
+            noise = rng.normal(scale=sigma, size=(8, 3))
+            noise -= noise.mean(axis=0, keepdims=True)
+            rows.append({'shape_id': f'{split}_{i:04d}', 'split': split,
+                         'family': 'warped_cycle' if split == 'ood_warped' else 'planar_ellipse_cycle',
+                         'noise_sigma': sigma, 'radius': radius, 'ellipticity': ellipticity,
+                         'clean': clean.tolist(), 'noisy': (clean + noise).tolist()})
+    return rows
+
+
+def pca_plane(noisy):
+    center = noisy.mean(axis=1, keepdims=True)
+    centered = noisy - center
+    _, _, right = np.linalg.svd(centered, full_matrices=False)
+    normal = right[:, -1]
+    return noisy - np.sum(centered * normal[:, None, :], axis=2)[:, :, None] * normal[:, None, :]
+
+
+def cycle_laplacian(noisy):
+    return (np.roll(noisy, 1, axis=1) + np.roll(noisy, -1, axis=1)) / 2 - noisy
+
+
+def denoising_metrics(clean, predictions):
+    errors = predictions - clean
+    a, b = np.triu_indices(clean.shape[1], k=1)
+    correct = np.linalg.norm(clean[:, a] - clean[:, b], axis=-1)
+    predicted = np.linalg.norm(predictions[:, a] - predictions[:, b], axis=-1)
+    return {'coordinate_RMSE': float(np.sqrt(np.mean(errors ** 2))),
+            'pair_distance_RMSE': float(np.sqrt(np.mean((predicted - correct) ** 2))),
+            'centroid_RMS_error': float(np.sqrt(np.mean(errors.mean(axis=1) ** 2)))}
+
+
+def source_module():
+    spec = importlib.util.spec_from_file_location('synthapore_immutable_source_audit', SOURCE)
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    return module
+
+
+def source_charges(model, z, positions, edges):
+    h, current = model.embedding(z), positions
+    for layer in model.layers:
+        h, current = layer(h, current, edges)
+    return model.charge_head(h).reshape(-1)
+
+
+def audit_models():
+    module = source_module()
+    torch.manual_seed(991)
+    original = module.NeuralInteratomicPotential(num_species=30, hidden_dim=16, num_layers=2)
+    torch.manual_seed(991)
+    reviewed = ChargeConstrainedPotential(width=24, total_charge=0).double()
+    z = torch.tensor([6, 1, 1, 8, 7, 29], dtype=torch.long)
+    x = torch.tensor([[0, 0, 0], [1.1, .1, .2], [-.4, .9, .2], [.2, -1.2, .3],
+                      [-1.1, -.5, -.4], [.4, .7, 1.4]], dtype=torch.float64)
+    field = torch.tensor([.15, -.08, .04], dtype=torch.float64)
+    shift = torch.tensor([8., -6., 4.], dtype=torch.float64)
+    edges = complete_edges(len(z))
+    rng = np.random.default_rng(992)
+    rows, finite_difference = [], []
+    evaluation_count = {'source': 0, 'reviewed': 0}
+
+    def evaluate(which, positions, zvalues=z, e=field):
+        evaluation_count[which] += 1
+        if which == 'source':
+            xx = positions.float().detach().clone().requires_grad_(True)
+            energy, force = original(zvalues, xx, edges, None if e is None else e.float())
+            charge = source_charges(original, zvalues, xx, edges)
+            return float(energy.detach()), force.detach().double().numpy(), charge.detach().double().numpy()
+        energy, force, charge = reviewed(zvalues, positions.double(), e)
+        return float(energy), force.numpy(), charge.numpy()
+
+    references = {}
+    for which in ('source', 'reviewed'):
+        e0, f0, q0 = evaluate(which, x)
+        references[which] = {'energy': e0, 'charge_sum': float(q0.sum()), 'charges': q0.tolist()}
+        for reflection in (False, True):
+            for rep in range(4):
+                rotation = torch.tensor(orthogonal(rng, reflection), dtype=torch.float64)
+                e1, f1, _ = evaluate(which, x @ rotation.T, e=rotation @ field)
+                rows.append({'model': which, 'probe': 'reflection' if reflection else 'rotation', 'replica': rep,
+                             'energy_error': abs(e1 - e0), 'force_max_error': float(np.max(abs(f1 - f0 @ rotation.numpy().T)))})
+        permutation = torch.tensor([4, 1, 5, 0, 3, 2])
+        ep, fp, _ = evaluate(which, x[permutation], z[permutation])
+        rows.append({'model': which, 'probe': 'permutation', 'replica': 0,
+                     'energy_error': abs(ep - e0), 'force_max_error': float(np.max(abs(fp - f0[permutation])))})
+        et, ft, qt = evaluate(which, x + shift)
+        rows.append({'model': which, 'probe': 'translation_with_field', 'replica': 0,
+                     'energy_error': abs(et - e0), 'force_max_error': float(np.max(abs(ft - f0)))})
+        references[which].update({'translated_energy': et, 'translated_charge_sum': float(qt.sum()),
+                                 'translation_expected_energy_shift_minus_Q_E_dot_t': -float(q0.sum()) * float(torch.dot(field, shift)),
+                                 'observed_energy_shift': et - e0})
+        en, fn, _ = evaluate(which, x, e=None)
+        ent, fnt, _ = evaluate(which, x + shift, e=None)
+        rows.append({'model': which, 'probe': 'translation_no_field', 'replica': 0,
+                     'energy_error': abs(ent - en), 'force_max_error': float(np.max(abs(fnt - fn)))})
+        for step in ([.01, .001, .0001] if which == 'source' else [.001, .0001, .00001]):
+            approximate = np.zeros((len(z), 3))
+            for i in range(len(z)):
+                for axis in range(3):
+                    dx = torch.zeros_like(x); dx[i, axis] = step
+                    plus, _, _ = evaluate(which, x + dx)
+                    minus, _, _ = evaluate(which, x - dx)
+                    approximate[i, axis] = -(plus - minus) / (2 * step)
+            finite_difference.append({'model': which, 'step': step,
+                                      'force_max_abs_error': float(np.max(abs(approximate - f0))),
+                                      'force_RMS_error': float(np.sqrt(np.mean((approximate - f0) ** 2)))})
+    xx = x.float().clone().requires_grad_(True)
+    raw_q = source_charges(original, z, xx, edges)
+    dq = torch.autograd.grad(raw_q.sum(), xx)[0].double().numpy()
+    _, f0, _ = evaluate('source', x)
+    _, ft, _ = evaluate('source', x + shift)
+    origin_identity_error = float(np.max(abs((ft - f0) - float(torch.dot(field, shift)) * dq)))
+    torch.manual_seed(993)
+    source_layer = module.EquivariantEGNNLayer(node_dim=16, edge_dim=0, hidden_dim=16)
+    hs = torch.randn(2, 16); far = torch.tensor([[0., 0, 0], [8., 0, 0]])
+    full, empty = complete_edges(2), torch.empty((2, 0), dtype=torch.long)
+    hfull, xfull = source_layer(hs, far, full)
+    hempty, xempty = source_layer(hs, far, empty)
+    torch.manual_seed(993)
+    reviewed_layer = EquivariantLayer(width=16).double()
+    hr, xr = reviewed_layer(hs.double()[None], far.double()[None])
+    he, xe = reviewed_layer(hs.double()[None], far.double()[None], adjacency=torch.zeros(2, 2, dtype=torch.float64))
+    cutoff = {'source_max_scalar_change_from_edges_at_distance_8': float((hfull - hempty).detach().abs().max()),
+              'source_max_coordinate_change_from_edges_at_distance_8': float((xfull - xempty).detach().abs().max()),
+              'reviewed_max_scalar_change_from_edges_at_distance_8': float((hr - he).detach().abs().max()),
+              'reviewed_max_coordinate_change_from_edges_at_distance_8': float((xr - xe).detach().abs().max())}
+    try:
+        original.double()(z, x.clone().requires_grad_(True), edges, field)
+        double_audit = {'source_double_succeeded': True, 'error': None}
+    except RuntimeError as error:
+        double_audit = {'source_double_succeeded': False, 'error': str(error)}
+    return {'equivariance_rows': rows, 'force_difference_rows': finite_difference,
+            'references': references, 'cutoff': cutoff, 'dtype': double_audit,
+            'source_force_origin_identity_max_error': origin_identity_error,
+            'counts': {'potential_energy_force_evaluations': evaluation_count,
+                       'source_charge_only_forwards': evaluation_count['source'] + 1,
+                       'transformation_rows': len(rows), 'finite_difference_rows': len(finite_difference),
+                       'extra_cutoff_layer_forwards': 4, 'expected_dtype_failure_probes': 1},
+            'scope': 'Random small models and typed synthetic cluster; numerical covariance is not force accuracy',
+            'source_constructor': {'num_species': 30, 'hidden_dim': 16, 'num_layers': 2, 'seed': 991},
+            'reviewed_constructor': {'width': 24, 'layers': 2, 'total_charge': 0, 'seed': 991},
+            'field_vector': field.tolist(), 'translation_vector': shift.tolist()}
+
+
+def run_study(pilot=False):
+    started = time.perf_counter()
+    torch.set_num_threads(1)
+    torch.use_deterministic_algorithms(True)
+    out = OUT / 'pilot' if pilot else OUT
+    out.mkdir(parents=True, exist_ok=True)
+    records = synthetic_dataset()
+    dump(out / 'synthetic_shapes.json', records)
+    clean = np.array([r['clean'] for r in records])
+    noisy = np.array([r['noisy'] for r in records])
+    sigma = np.array([r['noise_sigma'] for r in records])
+    ids = {name: np.array([i for i, r in enumerate(records) if r['split'] == name])
+           for name in ('train', 'validation', 'test', 'ood_warped')}
+    xt, yt, st = torch.tensor(noisy, dtype=torch.float32), torch.tensor(clean, dtype=torch.float32), torch.tensor(sigma, dtype=torch.float32)
+    lap = cycle_laplacian(noisy)
+    coef = {}
+    alpha = np.empty(len(records))
+    for s in [.08, .16, .24]:
+        train = ids['train'][sigma[ids['train']] == s]
+        coefficient = float(np.sum(lap[train] * (clean[train] - noisy[train])) / np.sum(lap[train] ** 2))
+        coef[str(s)] = coefficient
+        alpha[sigma == s] = coefficient
+    predictions = {'identity': noisy, 'PCA_plane_projection': pca_plane(noisy),
+                   'training_fitted_cycle_smoother': noisy + alpha[:, None, None] * lap}
+    seeds = [4441] if pilot else [4441, 4442, 4443]
+    epochs = 2 if pilot else 60
+    losses, fits, model_checks = [], [], []
+    for seed in seeds:
+        torch.manual_seed(seed)
+        rng = np.random.default_rng(seed)
+        model = GeometryDenoiser()
+        optimizer = torch.optim.Adam(model.parameters(), lr=.003, weight_decay=1e-5)
+        best, best_epoch, state = float('inf'), None, None
+        for epoch in range(1, epochs + 1):
+            model.train(); order = rng.permutation(ids['train']); total = 0.
+            for start in range(0, len(order), 32):
+                batch = order[start:start + 32]
+                optimizer.zero_grad()
+                pred = model(xt[batch], st[batch])
+                loss = ((pred - yt[batch]) ** 2).mean()
+                loss.backward(); nn.utils.clip_grad_norm_(model.parameters(), 5.)
+                optimizer.step(); total += float(loss.detach()) * len(batch)
+            model.eval()
+            with torch.no_grad():
+                v = float(((model(xt[ids['validation']], st[ids['validation']]) - yt[ids['validation']]) ** 2).mean())
+            losses.append({'seed': seed, 'epoch': epoch, 'train_coordinate_MSE': total / len(order), 'validation_coordinate_MSE': v})
+            if v < best:
+                best, best_epoch, state = v, epoch, copy.deepcopy(model.state_dict())
+        model.load_state_dict(state); model.eval()
+        with torch.no_grad():
+            predictions[f'EGNN_seed{seed}'] = model(xt, st).numpy()
+        torch.save({'state_dict': state, 'seed': seed, 'width': 24, 'layers': 3, 'best_epoch': best_epoch,
+                    'scope': 'synthetic one-step cycle denoising, arbitrary length units'}, out / f'denoiser_seed{seed}.pt')
+        fits.append({'seed': seed, 'epochs': epochs, 'selected_epoch': best_epoch,
+                     'validation_coordinate_MSE': best, 'parameters': sum(p.numel() for p in model.parameters())})
+        # Numerical E(3) covariance on held-out graphs, double precision copy.
+        m = copy.deepcopy(model).double()
+        sample = torch.tensor(noisy[ids['test'][:4]], dtype=torch.float64)
+        ss = torch.tensor(sigma[ids['test'][:4]], dtype=torch.float64)
+        R = torch.tensor(orthogonal(np.random.default_rng(17), reflection=True), dtype=torch.float64)
+        shift = torch.tensor([2., -3., 1.], dtype=torch.float64)
+        with torch.no_grad():
+            expected = m(sample, ss) @ R.T + shift
+            actual = m(sample @ R.T + shift, ss)
+        model_checks.append({'seed': seed, 'reflection_rotation_translation_max_error': float((expected - actual).abs().max())})
+        print(f'Finished denoiser seed {seed}, selected epoch {best_epoch}', flush=True)
+    metrics, per_shape, coordinates = [], [], []
+    for name, pred in predictions.items():
+        for split, ix in ids.items():
+            metrics.append({'model': name, 'split': split, 'shapes': len(ix), **denoising_metrics(clean[ix], pred[ix])})
+        for i, record in enumerate(records):
+            per_shape.append({'model': name, 'shape_id': record['shape_id'], 'split': record['split'],
+                              'noise_sigma': record['noise_sigma'], **denoising_metrics(clean[i:i+1], pred[i:i+1])})
+            for atom in range(8):
+                coordinates.append({'model': name, 'shape_id': record['shape_id'], 'split': record['split'], 'node': atom,
+                                    'x': float(pred[i, atom, 0]), 'y': float(pred[i, atom, 1]), 'z': float(pred[i, atom, 2])})
+    table(out / 'training_losses.csv', losses)
+    table(out / 'denoising_metrics.csv', metrics)
+    table(out / 'per_shape_metrics.csv', per_shape)
+    table(out / 'predicted_coordinates.csv', coordinates)
+    dump(out / 'baseline_coefficients.json', {'noise_level_to_alpha': coef, 'fit_partition': 'train',
+         'definition': 'alpha minimizes train squared error for noisy+alpha*(mean of cycle neighbors-noisy)',
+         'PCA_scope': 'per-input best plane; strong known-planarity prior, possibly unsuitable for warped OOD'})
+    audit = audit_models()
+    table(out / 'equivariance_probes.csv', audit.pop('equivariance_rows'))
+    table(out / 'force_finite_differences.csv', audit.pop('force_difference_rows'))
+    dump(out / 'source_and_reviewed_audit.json', audit)
+    summary = {'schema_version': 1, 'pilot': pilot,
+        'evidence': 'Synthetic geometry supervised denoising and untrained energy-model mathematical audit; not molecular diffusion or calibrated MLIP',
+        'data': {'split_sizes': {k: len(v) for k, v in ids.items()}, 'nodes_per_shape': 8,
+                 'seeds': {'train': 33001, 'validation': 33002, 'test': 33003, 'ood_warped': 33004},
+                 'units': 'arbitrary length; all energy audit values arbitrary',
+                 'families': 'planar random ellipses for train/validation/test; sinusoidally warped cycles OOD only',
+                 'noise_sigma': [.08, .16, .24], 'noise_convention': 'Gaussian node noise minus per-graph centroid noise',
+                 'topology': 'known labeled eight-node cycle, no molecular bonds or species in denoising',
+                 'partition_rule': 'independent fixed generator seeds; each clean shape appears once, no augmented copies across partitions'},
+        'training': {'fits': fits, 'optimizer': 'Adam lr=0.003 weight_decay=1e-5 batch=32 grad_norm_cap=5',
+                     'selection': 'minimum validation loss epoch only; test and OOD never select checkpoints',
+                     'coordinate_updates': 'subtract graph-mean update, preserving the input centroid',
+                     'no_diffusion_claim': 'no learned time-dependent score, forward schedule or reverse sampling chain'},
+        'counts': {'neural_training_runs': len(fits), 'training_epochs': len(losses), 'synthetic_shapes': len(records),
+                   'noisy_nodes': len(records) * 8, 'metric_rows': len(metrics), 'per_shape_metric_rows': len(per_shape),
+                   'predicted_coordinate_rows': len(coordinates), 'energy_audit': audit['counts'], 'DFT': 0, 'new_experiments': 0},
+        'trained_covariance_checks': model_checks,
+        'source_repairs_reviewed_only': ['dtype-preserving buffers/aggregation', 'cutoff gates entire messages and vector updates',
+                                        'fixed total-charge projection; neutral origin invariance', 'one-step denoising training and disjoint saved partitions'],
+        'limitations': ['Source and reviewed potential weights remain untrained; forces cannot be interpreted as accurate chemistry',
+                        'Charge constraint repairs conservation and origin covariance, not local charge accuracy',
+                        'Reflection covariance requires rotating/reflection-transforming external field jointly',
+                        'Cycle denoiser assumes ordered cycle adjacency; arbitrary relabeling requires relabeling graph edges',
+                        'Centering noise removes centroid recovery difficulty and limits the synthetic task',
+                        'PCA baseline knows planarity; OOD warped shapes test sensitivity to that prior',
+                        'Three training seeds on one fixed synthetic dataset do not establish generalization confidence'],
+        'runtime_seconds': time.perf_counter() - started,
+        'versions': {'python': platform.python_version(), 'numpy': np.__version__, 'torch': torch.__version__},
+        'threads': {'torch': torch.get_num_threads(), **{k: os.environ.get(k) for k in ['OMP_NUM_THREADS', 'MKL_NUM_THREADS', 'OPENBLAS_NUM_THREADS']}},
+        'sources': SOURCES,
+        'source_sha256': {p.relative_to(ROOT).as_posix(): sha(p) for p in [Path(__file__), SOURCE]},
+        'output_sha256': {p.name: sha(p) for p in sorted(out.iterdir()) if p.is_file() and p.name != 'summary.json' and p.suffix in ('.csv', '.json', '.pt')}}
+    dump(out / 'summary.json', summary)
+    print(json.dumps({'counts': summary['counts'], 'fits': fits,
+                      'test_metrics': [r for r in metrics if r['split'] in ['test', 'ood_warped']],
+                      'runtime_seconds': summary['runtime_seconds']}, indent=2), flush=True)
+    return summary
+
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--pilot', action='store_true')
+    run_study(parser.parse_args().pilot)

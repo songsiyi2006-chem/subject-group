@@ -1,0 +1,930 @@
+[
+  {
+    "n_images": 7,
+    "iterations_executed": 1,
+    "source_reported_status": "converged",
+    "source_point_energy_force_calls": 7,
+    "source_rounded_barrier_kcal_mol": 62.03,
+    "source_preupdate_barrier_eV": 2.6900000000000004,
+    "fresh_postupdate_barrier_eV": 1.781456,
+    "maximum_stale_energy_difference_eV": 0.9085440000000005,
+    "fresh_max_NEB_force_eV_A": 3.536,
+    "fresh_climbing_true_force_eV_A": 3.536,
+    "passes_independent_1e_5_force_check": false,
+    "band_A": [
+      [
+        -1.0,
+        0.0
+      ],
+      [
+        -0.6666666714488888,
+        0.11555555555555554
+      ],
+      [
+        -0.3333333371591111,
+        0.18488888888888888
+      ],
+      [
+        -2.997602121523891e-17,
+        0.20800000000000002
+      ],
+      [
+        0.333333337159111,
+        0.1848888888888889
+      ],
+      [
+        0.6666666714488888,
+        0.11555555555555554
+      ],
+      [
+        1.0,
+        0.0
+      ]
+    ],
+    "fresh_energies_eV": [
+      0.0,
+      0.5498320835388372,
+      1.4075701630944852,
+      1.781456,
+      1.4075701630944852,
+      0.5498320835388372,
+      0.0
+    ],
+    "original_energy_conversion_eV_to_kcal_mol": 23.0605,
+    "scope": "Unchanged source class on analytic benchmark; no neural potential or chemical barrier"
+  },
+  {
+    "n_images": 7,
+    "iterations_executed": 10,
+    "source_reported_status": "converged",
+    "source_point_energy_force_calls": 70,
+    "source_rounded_barrier_kcal_mol": 23.1,
+    "source_preupdate_barrier_eV": 1.0016332291901802,
+    "fresh_postupdate_barrier_eV": 1.0007552051775392,
+    "maximum_stale_energy_difference_eV": 0.0011865219509565317,
+    "fresh_max_NEB_force_eV_A": 0.10992398664817493,
+    "fresh_climbing_true_force_eV_A": 0.10992398664817493,
+    "passes_independent_1e_5_force_check": false,
+    "band_A": [
+      [
+        -1.0,
+        0.0
+      ],
+      [
+        -0.7690079358460242,
+        0.3431110101684254
+      ],
+      [
+        -0.4214323213454124,
+        0.579643582162169
+      ],
+      [
+        -3.3956430792817317e-17,
+        0.6362595016689782
+      ],
+      [
+        0.42143232134541236,
+        0.5796435821621689
+      ],
+      [
+        0.7690079358460242,
+        0.34311101016842543
+      ],
+      [
+        1.0,
+        0.0
+      ]
+    ],
+    "fresh_energies_eV": [
+      0.0,
+      0.19100308539977034,
+      0.684464541615432,
+      1.0007552051775392,
+      0.684464541615432,
+      0.19100308539977037,
+      0.0
+    ],
+    "original_energy_conversion_eV_to_kcal_mol": 23.0605,
+    "scope": "Unchanged source class on analytic benchmark; no neural potential or chemical barrier"
+  },
+  {
+    "n_images": 7,
+    "iterations_executed": 45,
+    "source_reported_status": "converged",
+    "source_point_energy_force_calls": 315,
+    "source_rounded_barrier_kcal_mol": 23.06,
+    "source_preupdate_barrier_eV": 1.000000000000003,
+    "fresh_postupdate_barrier_eV": 1.0000000000000013,
+    "maximum_stale_energy_difference_eV": 2.9691540653908888e-06,
+    "fresh_max_NEB_force_eV_A": 4.9987044219318434e-05,
+    "fresh_climbing_true_force_eV_A": 1.5097478378578444e-07,
+    "passes_independent_1e_5_force_check": false,
+    "band_A": [
+      [
+        -1.0,
+        0.0
+      ],
+      [
+        -0.7645161128536918,
+        0.35044463516189855
+      ],
+      [
+        -0.41823743297849386,
+        0.5920321231024119
+      ],
+      [
+        -2.984936354575949e-20,
+        0.649999981128152
+      ],
+      [
+        0.41823743297849386,
+        0.5920321231024119
+      ],
+      [
+        0.7645161128536918,
+        0.35044463516189855
+      ],
+      [
+        1.0,
+        0.0
+      ]
+    ],
+    "fresh_energies_eV": [
+      0.0,
+      0.1984836065621842,
+      0.693176923506405,
+      1.0000000000000013,
+      0.693176923506405,
+      0.1984836065621842,
+      0.0
+    ],
+    "original_energy_conversion_eV_to_kcal_mol": 23.0605,
+    "scope": "Unchanged source class on analytic benchmark; no neural potential or chemical barrier"
+  },
+  {
+    "n_images": 7,
+    "iterations_executed": 150,
+    "source_reported_status": "converged",
+    "source_point_energy_force_calls": 1050,
+    "source_rounded_barrier_kcal_mol": 23.06,
+    "source_preupdate_barrier_eV": 1.0,
+    "fresh_postupdate_barrier_eV": 1.0,
+    "maximum_stale_energy_difference_eV": 3.6637359812630166e-15,
+    "fresh_max_NEB_force_eV_A": 6.364018256248898e-14,
+    "fresh_climbing_true_force_eV_A": 8.881784197001252e-16,
+    "passes_independent_1e_5_force_check": true,
+    "band_A": [
+      [
+        -1.0,
+        0.0
+      ],
+      [
+        -0.7645090255443605,
+        0.350453408219377
+      ],
+      [
+        -0.41822700045895717,
+        0.5920364240977847
+      ],
+      [
+        -3.343955694320206e-28,
+        0.6499999999999999
+      ],
+      [
+        0.41822700045895717,
+        0.5920364240977847
+      ],
+      [
+        0.7645090255443605,
+        0.350453408219377
+      ],
+      [
+        1.0,
+        0.0
+      ]
+    ],
+    "fresh_energies_eV": [
+      0.0,
+      0.19849372397322768,
+      0.693190712205128,
+      1.0,
+      0.693190712205128,
+      0.19849372397322768,
+      0.0
+    ],
+    "original_energy_conversion_eV_to_kcal_mol": 23.0605,
+    "scope": "Unchanged source class on analytic benchmark; no neural potential or chemical barrier"
+  },
+  {
+    "n_images": 11,
+    "iterations_executed": 1,
+    "source_reported_status": "converged",
+    "source_point_energy_force_calls": 11,
+    "source_rounded_barrier_kcal_mol": 62.03,
+    "source_preupdate_barrier_eV": 2.6900000000000004,
+    "fresh_postupdate_barrier_eV": 1.781456,
+    "maximum_stale_energy_difference_eV": 0.9085440000000005,
+    "fresh_max_NEB_force_eV_A": 3.536,
+    "fresh_climbing_true_force_eV_A": 3.536,
+    "passes_independent_1e_5_force_check": false,
+    "band_A": [
+      [
+        -1.0,
+        0.0
+      ],
+      [
+        -0.8000000061977598,
+        0.07487999999999997
+      ],
+      [
+        -0.6000000082636797,
+        0.13312
+      ],
+      [
+        -0.4000000072307197,
+        0.17472000000000001
+      ],
+      [
+        -0.20000000413183983,
+        0.19968
+      ],
+      [
+        0.0,
+        0.20800000000000002
+      ],
+      [
+        0.2000000041318398,
+        0.19968
+      ],
+      [
+        0.4000000072307197,
+        0.17472000000000001
+      ],
+      [
+        0.6000000082636797,
+        0.13312
+      ],
+      [
+        0.8000000061977598,
+        0.07487999999999997
+      ],
+      [
+        1.0,
+        0.0
+      ]
+    ],
+    "fresh_energies_eV": [
+      0.0,
+      0.23087668225510063,
+      0.7296843503201785,
+      1.2569953327138865,
+      1.6417898427800446,
+      1.781456,
+      1.6417898427800446,
+      1.2569953327138865,
+      0.7296843503201785,
+      0.23087668225510063,
+      0.0
+    ],
+    "original_energy_conversion_eV_to_kcal_mol": 23.0605,
+    "scope": "Unchanged source class on analytic benchmark; no neural potential or chemical barrier"
+  },
+  {
+    "n_images": 11,
+    "iterations_executed": 10,
+    "source_reported_status": "converged",
+    "source_point_energy_force_calls": 110,
+    "source_rounded_barrier_kcal_mol": 23.1,
+    "source_preupdate_barrier_eV": 1.0016332291901802,
+    "fresh_postupdate_barrier_eV": 1.0007552051775392,
+    "maximum_stale_energy_difference_eV": 0.001444702468487713,
+    "fresh_max_NEB_force_eV_A": 0.10992398664817493,
+    "fresh_climbing_true_force_eV_A": 0.10992398664817493,
+    "passes_independent_1e_5_force_check": false,
+    "band_A": [
+      [
+        -1.0,
+        0.0
+      ],
+      [
+        -0.8714672129584848,
+        0.21291384136591954
+      ],
+      [
+        -0.7099118810980394,
+        0.4065865930649682
+      ],
+      [
+        -0.4966420137753925,
+        0.5477642715656641
+      ],
+      [
+        -0.25108295187534624,
+        0.6164001790139737
+      ],
+      [
+        -4.996003842523009e-18,
+        0.6362595016689782
+      ],
+      [
+        0.25108295187534624,
+        0.6164001790139737
+      ],
+      [
+        0.4966420137753925,
+        0.5477642715656641
+      ],
+      [
+        0.7099118810980394,
+        0.4065865930649682
+      ],
+      [
+        0.8714672129584848,
+        0.21291384136591954
+      ],
+      [
+        1.0,
+        0.0
+      ]
+    ],
+    "fresh_energies_eV": [
+      0.0,
+      0.07065782721907557,
+      0.27437945435185207,
+      0.5810285515427479,
+      0.8781068117870515,
+      1.0007552051775392,
+      0.8781068117870515,
+      0.5810285515427479,
+      0.27437945435185207,
+      0.07065782721907557,
+      0.0
+    ],
+    "original_energy_conversion_eV_to_kcal_mol": 23.0605,
+    "scope": "Unchanged source class on analytic benchmark; no neural potential or chemical barrier"
+  },
+  {
+    "n_images": 11,
+    "iterations_executed": 45,
+    "source_reported_status": "converged",
+    "source_point_energy_force_calls": 495,
+    "source_rounded_barrier_kcal_mol": 23.06,
+    "source_preupdate_barrier_eV": 1.000000000000003,
+    "fresh_postupdate_barrier_eV": 1.0000000000000013,
+    "maximum_stale_energy_difference_eV": 4.4422911458452674e-05,
+    "fresh_max_NEB_force_eV_A": 0.0008194756917859077,
+    "fresh_climbing_true_force_eV_A": 1.5097478378578444e-07,
+    "passes_independent_1e_5_force_check": false,
+    "band_A": [
+      [
+        -1.0,
+        0.0
+      ],
+      [
+        -0.8687744339708298,
+        0.2173289537492157
+      ],
+      [
+        -0.7069363759107145,
+        0.41307762490356564
+      ],
+      [
+        -0.4975974920303266,
+        0.5572261435831587
+      ],
+      [
+        -0.2535959175884614,
+        0.629038529028508
+      ],
+      [
+        -1.3116865214506654e-20,
+        0.649999981128152
+      ],
+      [
+        0.2535959175884614,
+        0.629038529028508
+      ],
+      [
+        0.4975974920303266,
+        0.5572261435831587
+      ],
+      [
+        0.7069363759107145,
+        0.41307762490356564
+      ],
+      [
+        0.8687744339708298,
+        0.2173289537492157
+      ],
+      [
+        1.0,
+        0.0
+      ]
+    ],
+    "fresh_energies_eV": [
+      0.0,
+      0.07356122533635304,
+      0.2811614278863062,
+      0.584688497769654,
+      0.8772514352881136,
+      1.0000000000000013,
+      0.8772514352881136,
+      0.584688497769654,
+      0.2811614278863062,
+      0.07356122533635304,
+      0.0
+    ],
+    "original_energy_conversion_eV_to_kcal_mol": 23.0605,
+    "scope": "Unchanged source class on analytic benchmark; no neural potential or chemical barrier"
+  },
+  {
+    "n_images": 11,
+    "iterations_executed": 150,
+    "source_reported_status": "converged",
+    "source_point_energy_force_calls": 1650,
+    "source_rounded_barrier_kcal_mol": 23.06,
+    "source_preupdate_barrier_eV": 1.0,
+    "fresh_postupdate_barrier_eV": 1.0,
+    "maximum_stale_energy_difference_eV": 2.6158456511993222e-08,
+    "fresh_max_NEB_force_eV_A": 4.818035210665656e-07,
+    "fresh_climbing_true_force_eV_A": 8.881784197001252e-16,
+    "passes_independent_1e_5_force_check": true,
+    "band_A": [
+      [
+        -1.0,
+        0.0
+      ],
+      [
+        -0.8686085947218789,
+        0.21757326047637604
+      ],
+      [
+        -0.7065967682532068,
+        0.41341510795295516
+      ],
+      [
+        -0.49716789918281856,
+        0.5574340962723575
+      ],
+      [
+        -0.2533073874087265,
+        0.6290862489019374
+      ],
+      [
+        -1.4694532216795123e-28,
+        0.6499999999999999
+      ],
+      [
+        0.2533073874087265,
+        0.6290862489019374
+      ],
+      [
+        0.49716789918281856,
+        0.5574340962723575
+      ],
+      [
+        0.7065967682532068,
+        0.41341510795295516
+      ],
+      [
+        0.8686085947218789,
+        0.21757326047637604
+      ],
+      [
+        1.0,
+        0.0
+      ]
+    ],
+    "fresh_energies_eV": [
+      0.0,
+      0.07372906330607523,
+      0.28165984156694146,
+      0.585293687902606,
+      0.8775172736861262,
+      1.0,
+      0.8775172736861262,
+      0.585293687902606,
+      0.28165984156694146,
+      0.07372906330607523,
+      0.0
+    ],
+    "original_energy_conversion_eV_to_kcal_mol": 23.0605,
+    "scope": "Unchanged source class on analytic benchmark; no neural potential or chemical barrier"
+  },
+  {
+    "n_images": 17,
+    "iterations_executed": 1,
+    "source_reported_status": "converged",
+    "source_point_energy_force_calls": 17,
+    "source_rounded_barrier_kcal_mol": 62.03,
+    "source_preupdate_barrier_eV": 2.6900000000000004,
+    "fresh_postupdate_barrier_eV": 1.781456,
+    "maximum_stale_energy_difference_eV": 0.9085440000000005,
+    "fresh_max_NEB_force_eV_A": 3.536,
+    "fresh_climbing_true_force_eV_A": 3.536,
+    "passes_independent_1e_5_force_check": false,
+    "band_A": [
+      [
+        -1.0,
+        0.0
+      ],
+      [
+        -0.8750000070612496,
+        0.04875
+      ],
+      [
+        -0.7500000112979993,
+        0.091
+      ],
+      [
+        -0.6250000131137492,
+        0.12675
+      ],
+      [
+        -0.5000000129119992,
+        0.15600000000000003
+      ],
+      [
+        -0.37500001109624936,
+        0.17875
+      ],
+      [
+        -0.2500000080699995,
+        0.195
+      ],
+      [
+        -0.12500000423674976,
+        0.20475000000000002
+      ],
+      [
+        0.0,
+        0.20800000000000002
+      ],
+      [
+        0.12500000423674976,
+        0.20475000000000002
+      ],
+      [
+        0.2500000080699995,
+        0.195
+      ],
+      [
+        0.37500001109624936,
+        0.17875
+      ],
+      [
+        0.5000000129119992,
+        0.15600000000000003
+      ],
+      [
+        0.6250000131137492,
+        0.12675
+      ],
+      [
+        0.7500000112979993,
+        0.091
+      ],
+      [
+        0.8750000070612496,
+        0.04875
+      ],
+      [
+        1.0,
+        0.0
+      ]
+    ],
+    "fresh_energies_eV": [
+      0.0,
+      0.09785828833215701,
+      0.3409817806303216,
+      0.6615220703445813,
+      1.0020689583742965,
+      1.3156504575396109,
+      1.5657327962399599,
+      1.7262204212995766,
+      1.781456,
+      1.7262204212995766,
+      1.5657327962399599,
+      1.3156504575396109,
+      1.0020689583742965,
+      0.6615220703445813,
+      0.3409817806303216,
+      0.09785828833215701,
+      0.0
+    ],
+    "original_energy_conversion_eV_to_kcal_mol": 23.0605,
+    "scope": "Unchanged source class on analytic benchmark; no neural potential or chemical barrier"
+  },
+  {
+    "n_images": 17,
+    "iterations_executed": 10,
+    "source_reported_status": "converged",
+    "source_point_energy_force_calls": 170,
+    "source_rounded_barrier_kcal_mol": 23.1,
+    "source_preupdate_barrier_eV": 1.0016332291901802,
+    "fresh_postupdate_barrier_eV": 1.0007552051775392,
+    "maximum_stale_energy_difference_eV": 0.001349115736560491,
+    "fresh_max_NEB_force_eV_A": 0.10992398664817493,
+    "fresh_climbing_true_force_eV_A": 0.10992398664817493,
+    "passes_independent_1e_5_force_check": false,
+    "band_A": [
+      [
+        -1.0,
+        0.0
+      ],
+      [
+        -0.9227728962004307,
+        0.1340907631345991
+      ],
+      [
+        -0.8355519908405687,
+        0.2642561918116283
+      ],
+      [
+        -0.7320596986070603,
+        0.38587368795409965
+      ],
+      [
+        -0.6062570886149652,
+        0.48805572092374094
+      ],
+      [
+        -0.4613784703605117,
+        0.560430407061789
+      ],
+      [
+        -0.3084270053934398,
+        0.6050092267275291
+      ],
+      [
+        -0.15408153377860717,
+        0.6288010009146481
+      ],
+      [
+        0.0,
+        0.6362595016689782
+      ],
+      [
+        0.15408153377860717,
+        0.6288010009146481
+      ],
+      [
+        0.3084270053934398,
+        0.6050092267275291
+      ],
+      [
+        0.4613784703605117,
+        0.560430407061789
+      ],
+      [
+        0.6062570886149652,
+        0.48805572092374094
+      ],
+      [
+        0.7320596986070603,
+        0.38587368795409965
+      ],
+      [
+        0.8355519908405687,
+        0.2642561918116283
+      ],
+      [
+        0.9227728962004307,
+        0.1340907631345991
+      ],
+      [
+        1.0,
+        0.0
+      ]
+    ],
+    "fresh_energies_eV": [
+      0.0,
+      0.027695998424129207,
+      0.10963935953512088,
+      0.24374763212874534,
+      0.42368837755739364,
+      0.6290976763914092,
+      0.8199293530621836,
+      0.9532144483222157,
+      1.0007552051775392,
+      0.9532144483222157,
+      0.8199293530621836,
+      0.6290976763914092,
+      0.42368837755739364,
+      0.24374763212874534,
+      0.10963935953512088,
+      0.027695998424129207,
+      0.0
+    ],
+    "original_energy_conversion_eV_to_kcal_mol": 23.0605,
+    "scope": "Unchanged source class on analytic benchmark; no neural potential or chemical barrier"
+  },
+  {
+    "n_images": 17,
+    "iterations_executed": 45,
+    "source_reported_status": "converged",
+    "source_point_energy_force_calls": 765,
+    "source_rounded_barrier_kcal_mol": 23.06,
+    "source_preupdate_barrier_eV": 1.000000000000003,
+    "fresh_postupdate_barrier_eV": 1.0000000000000013,
+    "maximum_stale_energy_difference_eV": 2.7229864349026522e-05,
+    "fresh_max_NEB_force_eV_A": 0.0006500588265698637,
+    "fresh_climbing_true_force_eV_A": 1.5097478378578444e-07,
+    "passes_independent_1e_5_force_check": false,
+    "band_A": [
+      [
+        -1.0,
+        0.0
+      ],
+      [
+        -0.9207406075857357,
+        0.1374772278992617
+      ],
+      [
+        -0.8323583515761321,
+        0.2693814200530987
+      ],
+      [
+        -0.7301276170861843,
+        0.3910541208620156
+      ],
+      [
+        -0.6086085620088809,
+        0.4936914277982466
+      ],
+      [
+        -0.46807994783932255,
+        0.5684297388642795
+      ],
+      [
+        -0.31608156775686463,
+        0.615814244947916
+      ],
+      [
+        -0.15899414474075227,
+        0.6417661381488583
+      ],
+      [
+        0.0,
+        0.649999981128152
+      ],
+      [
+        0.15899414474075227,
+        0.6417661381488583
+      ],
+      [
+        0.31608156775686463,
+        0.615814244947916
+      ],
+      [
+        0.46807994783932255,
+        0.5684297388642795
+      ],
+      [
+        0.6086085620088809,
+        0.4936914277982466
+      ],
+      [
+        0.7301276170861843,
+        0.3910541208620156
+      ],
+      [
+        0.8323583515761321,
+        0.2693814200530987
+      ],
+      [
+        0.9207406075857357,
+        0.1374772278992617
+      ],
+      [
+        1.0,
+        0.0
+      ]
+    ],
+    "fresh_energies_eV": [
+      0.0,
+      0.02911221735856475,
+      0.11379984670927165,
+      0.24867555103888517,
+      0.4249207414145,
+      0.6246145866932772,
+      0.8139496778561476,
+      0.9503495598304518,
+      1.0000000000000013,
+      0.9503495598304518,
+      0.8139496778561476,
+      0.6246145866932772,
+      0.4249207414145,
+      0.24867555103888517,
+      0.11379984670927165,
+      0.02911221735856475,
+      0.0
+    ],
+    "original_energy_conversion_eV_to_kcal_mol": 23.0605,
+    "scope": "Unchanged source class on analytic benchmark; no neural potential or chemical barrier"
+  },
+  {
+    "n_images": 17,
+    "iterations_executed": 150,
+    "source_reported_status": "converged",
+    "source_point_energy_force_calls": 2550,
+    "source_rounded_barrier_kcal_mol": 23.06,
+    "source_preupdate_barrier_eV": 1.0,
+    "fresh_postupdate_barrier_eV": 1.0,
+    "maximum_stale_energy_difference_eV": 1.2525914996341925e-06,
+    "fresh_max_NEB_force_eV_A": 2.5258626702716785e-05,
+    "fresh_climbing_true_force_eV_A": 8.881784197001252e-16,
+    "passes_independent_1e_5_force_check": false,
+    "band_A": [
+      [
+        -1.0,
+        0.0
+      ],
+      [
+        -0.9205681116141207,
+        0.13775777862738148
+      ],
+      [
+        -0.8320200819641078,
+        0.2698432092103798
+      ],
+      [
+        -0.7296583443976898,
+        0.3915422390717786
+      ],
+      [
+        -0.6080795595651167,
+        0.49405483374978576
+      ],
+      [
+        -0.4676081987498598,
+        0.568619036727641
+      ],
+      [
+        -0.31575518763613053,
+        0.6158878220257002
+      ],
+      [
+        -0.15883353859400462,
+        0.6417824854821992
+      ],
+      [
+        0.0,
+        0.6499999999999999
+      ],
+      [
+        0.15883353859400462,
+        0.6417824854821992
+      ],
+      [
+        0.31575518763613053,
+        0.6158878220257002
+      ],
+      [
+        0.4676081987498598,
+        0.568619036727641
+      ],
+      [
+        0.6080795595651167,
+        0.49405483374978576
+      ],
+      [
+        0.7296583443976898,
+        0.3915422390717786
+      ],
+      [
+        0.8320200819641078,
+        0.2698432092103798
+      ],
+      [
+        0.9205681116141207,
+        0.13775777862738148
+      ],
+      [
+        1.0,
+        0.0
+      ]
+    ],
+    "fresh_energies_eV": [
+      0.0,
+      0.0292318828342383,
+      0.11419953798507826,
+      0.2493457458134804,
+      0.4256944933250985,
+      0.625256698803177,
+      0.8143060907941155,
+      0.9504479691262125,
+      1.0,
+      0.9504479691262125,
+      0.8143060907941155,
+      0.625256698803177,
+      0.4256944933250985,
+      0.2493457458134804,
+      0.11419953798507826,
+      0.0292318828342383,
+      0.0
+    ],
+    "original_energy_conversion_eV_to_kcal_mol": 23.0605,
+    "scope": "Unchanged source class on analytic benchmark; no neural potential or chemical barrier"
+  }
+]

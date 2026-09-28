@@ -1,0 +1,103 @@
+{
+  "scope": "Exact source NEB replay and saved MD/source-code accounting; no new physical evidence",
+  "source_sha256": "90c21568413f59113ffc58ee59a31554ec8ab44478da7a7f920bc5003e6637d6",
+  "captured_sha256": "c9fe4d7b5e12708ca2b8b1d11c7d9659a70b435161317cbe47d0b0b83fc11f4c",
+  "weights_sha256": "2e6f71c4210190ddb2df06ee2d3daad2c89a9a276cca740140ece9497e07917e",
+  "script_sha256": "0c7242b701a3efbadc9053fca9d1a0947d9a3aa45ba8e17a84fc2fc663ea294f",
+  "counts": {
+    "source_NEB_replays": 1,
+    "NEB_iterations": 45,
+    "NEB_images": 7,
+    "NEB_replay_energy_force_calls": 315,
+    "final_band_energy_force_calls": 7,
+    "saved_MD_frames_audited": 30,
+    "new_MD_trajectories": 0
+  },
+  "source_claims": {
+    "classes": [
+      "RadialBasisFunctions",
+      "EquivariantEGNNLayer",
+      "NeuralInteratomicPotential",
+      "VelocityVerletMDEngine",
+      "ClimbingImageNEB",
+      "ReticularPOPEngine"
+    ],
+    "trained_parameters": false,
+    "diffusion_noise_schedule": false,
+    "reverse_diffusion_sampler": false,
+    "atomic_framework_coordinates": false,
+    "DFT_or_experiments": 0
+  },
+  "input": {
+    "atomic_number_counts": {
+      "6": 4,
+      "7": 1,
+      "1": 2,
+      "29": 1
+    },
+    "formula_inventory": "C4H2CuN",
+    "directed_edges": 56,
+    "charge_spin_specified": false,
+    "note": "Eight-node manually assigned fragment; not a full 2-phenylindole molecule or Cu-N4 material"
+  },
+  "NEB": {
+    "exact_source_return_matches_capture": true,
+    "source_return": {
+      "status": "converged",
+      "num_images": 7,
+      "transition_state_image_idx": 3,
+      "calculated_activation_barrier_kcal_mol": 0.0,
+      "reaction_energy_kcal_mol": -0.05,
+      "mep_energy_profile_kcal_mol": [
+        0.0,
+        -0.03,
+        -0.04,
+        -0.03,
+        -0.06,
+        -0.04,
+        -0.05
+      ]
+    },
+    "reported_energy_max_image": 0,
+    "postupdate_energy_max_image": 0,
+    "postupdate_climbing_image": 3,
+    "max_stale_energy_difference_nominal_eV": 8.225440979003906e-06,
+    "final_max_projected_atomic_force_nominal_eV_A": 0.009773734956979752,
+    "endpoint_max_atomic_forces_nominal_eV_A": [
+      0.005495586432516575,
+      0.005935186054557562
+    ],
+    "minimum_final_band_pair_distance_A": 0.16980747878551483,
+    "source_has_force_tolerance": false,
+    "source_has_hessian_check": false,
+    "barrier_is_free_energy": false,
+    "source_NEB_uses_MD_external_field": false
+  },
+  "MD": {
+    "reported_mean_K": 330.59,
+    "recomputed_mean_K": 330.5864748925427,
+    "target_K": 298.15,
+    "first_actual_frame_fs": 0.5,
+    "last_actual_frame_fs": 145.5,
+    "reported_total_fs": 150.0,
+    "source_temperature_denominator_dof": 24,
+    "internal_dof_if_COM_removed_consistently": 21,
+    "temperature_caveat": "Initial COM is removed once, but field can recreate drift; internal temperature cannot be recovered without velocities",
+    "stored_trajectory_and_velocities": false,
+    "equilibrium_demonstrated": false,
+    "berendsen_canonical_sampling": false
+  },
+  "limitations": [
+    "Random neural energy/force scales are not calibrated eV or eV/Angstrom",
+    "Energy profiles are potential energy, not Gibbs free energy",
+    "NEB graph is fixed and endpoint charge/spin and stationary minima are unspecified",
+    "All field/model and geometry observations are implementation diagnostics"
+  ],
+  "elapsed_seconds": 3.386139399954118,
+  "output_sha256": {
+    "results/source_audit/MD_telemetry_audit.csv": "820f7792e8e952fc33aabff603613a755ee4b922502b11276b69bd9f0fc07f82",
+    "results/source_audit/NEB_final_coordinates.json": "e1baab7cdaab7a020346e18dc557d7a2c7d12a178387ac049fd0a4772f8e8893",
+    "results/source_audit/NEB_final_images.csv": "dbf58940ee9131763b3908e41b3f902560ef9400ffa2566fa0c6f963c7ea0e8d",
+    "results/source_audit/NEB_replay_evaluations.csv": "c79199f5030512e7f3044cdcb89406191ce176567b4a21f12aaabd4b74f3fd7a"
+  }
+}

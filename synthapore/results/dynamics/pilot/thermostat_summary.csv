@@ -1,0 +1,4 @@
+thermostat,replicas,replicate_mean_temperature_K,mean_within_trajectory_temperature_variance_K2,canonical_reference_variance_temperature_K2,variance_ratio_to_canonical,replicate_mean_kinetic_eV,replicate_mean_potential_eV,uncertainty_scope
+langevin_baoab,1,353.96852249285496,5146.08642226537,8571.42857142857,0.6003767492642932,0.32027779587615657,0.32220264352640415,"Correlated finite trajectories; replica summaries are diagnostic, no calibrated confidence interval"
+berendsen,1,364.43206357834754,117.24596219762421,8571.42857142857,0.013678695589722826,0.32974541704291954,0.3312824231481452,"Correlated finite trajectories; replica summaries are diagnostic, no calibrated confidence interval"
+berendsen_source_dof,1,382.899273873179,138.68852392340784,8571.42857142857,0.01618032779106425,0.3464549181238511,0.3482149234995407,"Correlated finite trajectories; replica summaries are diagnostic, no calibrated confidence interval"

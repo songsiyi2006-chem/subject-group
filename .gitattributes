@@ -30,4 +30,7 @@ electrograph/source/** -text -whitespace
 electrograph/results/** -text -whitespace
 electrograph/data/** -text -whitespace
 electrograph/reports/figures/** -text -whitespace
+synthapore/source/** -text -whitespace
+synthapore/results/** -text -whitespace
+synthapore/reports/figures/** -text -whitespace
 *.png binary

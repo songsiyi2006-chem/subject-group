@@ -1,0 +1,17 @@
+{
+  "mode": "compatibility",
+  "exit_code": 0,
+  "started_utc": "2026-09-28T07:08:12.426056+00:00",
+  "elapsed_seconds": 8.416032600100152,
+  "source_sha256": "90c21568413f59113ffc58ee59a31554ec8ab44478da7a7f920bc5003e6637d6",
+  "command": "python synthapore/scripts/run_source.py --child compatibility",
+  "physical_instrument_connected": false,
+  "role": "Retained source demonstration; printed claims are not endorsements",
+  "output_sha256": {
+    "captured_results.json": "c9fe4d7b5e12708ca2b8b1d11c7d9659a70b435161317cbe47d0b0b83fc11f4c",
+    "stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout.log": "959f89bd926ede05f1710f013bd663b2582121f3f1d444c13d988b4f35e23686",
+    "synthapore_flagship_results.json": "2cd66a5d6b78a9280397353a92346719ad59edd74bf9252f640f383166edcc0f",
+    "untrained_source_weights.pt": "2e6f71c4210190ddb2df06ee2d3daad2c89a9a276cca740140ece9497e07917e"
+  }
+}

@@ -1,0 +1,23 @@
+test_PCA_projection_reproduces_already_planar_points (test_synthapore_equivariant.TestSynthaPoreEquivariant.test_PCA_projection_reproduces_already_planar_points) ... ok
+test_archived_source_defects_retained (test_synthapore_equivariant.TestSynthaPoreEquivariant.test_archived_source_defects_retained) ... ok
+test_checkpoint_reload_matches_saved_coordinates (test_synthapore_equivariant.TestSynthaPoreEquivariant.test_checkpoint_reload_matches_saved_coordinates) ... ok
+test_dataset_disjoint_shapes_and_centered_noise (test_synthapore_equivariant.TestSynthaPoreEquivariant.test_dataset_disjoint_shapes_and_centered_noise) ... ok
+test_denoiser_permutation_with_relabelled_adjacency (test_synthapore_equivariant.TestSynthaPoreEquivariant.test_denoiser_permutation_with_relabelled_adjacency) ... ok
+test_denoiser_preserves_observed_centroid (test_synthapore_equivariant.TestSynthaPoreEquivariant.test_denoiser_preserves_observed_centroid) ... ok
+test_double_dtype_and_finite_training_gradients (test_synthapore_equivariant.TestSynthaPoreEquivariant.test_double_dtype_and_finite_training_gradients) ... ok
+test_fixed_charged_system_translation_law_and_net_force (test_synthapore_equivariant.TestSynthaPoreEquivariant.test_fixed_charged_system_translation_law_and_net_force) ... ok
+test_force_central_difference (test_synthapore_equivariant.TestSynthaPoreEquivariant.test_force_central_difference) ... ok
+test_full_message_and_coordinate_cutoff (test_synthapore_equivariant.TestSynthaPoreEquivariant.test_full_message_and_coordinate_cutoff) ... ok
+test_invalid_species_shapes_fields_and_noise (test_synthapore_equivariant.TestSynthaPoreEquivariant.test_invalid_species_shapes_fields_and_noise) ... ok
+test_layer_general_graph_permutation (test_synthapore_equivariant.TestSynthaPoreEquivariant.test_layer_general_graph_permutation) ... ok
+test_layer_rotations_reflections_translations (test_synthapore_equivariant.TestSynthaPoreEquivariant.test_layer_rotations_reflections_translations) ... ok
+test_neutral_charge_and_origin_invariance (test_synthapore_equivariant.TestSynthaPoreEquivariant.test_neutral_charge_and_origin_invariance) ... ok
+test_potential_force_joint_field_covariance (test_synthapore_equivariant.TestSynthaPoreEquivariant.test_potential_force_joint_field_covariance) ... ok
+test_radial_cutoff_value_and_first_derivative (test_synthapore_equivariant.TestSynthaPoreEquivariant.test_radial_cutoff_value_and_first_derivative) ... ok
+test_saved_smoother_fits_training_only (test_synthapore_equivariant.TestSynthaPoreEquivariant.test_saved_smoother_fits_training_only) ... ok
+test_study_accounting_and_output_hashes (test_synthapore_equivariant.TestSynthaPoreEquivariant.test_study_accounting_and_output_hashes) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.427s
+
+OK

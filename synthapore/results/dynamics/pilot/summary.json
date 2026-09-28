@@ -1,0 +1,192 @@
+{
+  "schema_version": 1,
+  "pilot": true,
+  "evidence": "Numerical algorithms on designed analytic potentials; no chemical reaction barrier or trained MLIP",
+  "units": {
+    "length": "angstrom",
+    "time": "fs",
+    "energy": "eV",
+    "force": "eV/angstrom",
+    "mass": "amu",
+    "mass_conversion_eV_fs2_A2_per_amu": 103.64269652680505,
+    "kB_eV_K": 8.617333262145179e-05,
+    "eV_to_kcal_mol": 23.06054783061903,
+    "mass_constant_kg_per_amu": 1.6605390666e-27
+  },
+  "counts": {
+    "NVE_trajectories": 1,
+    "thermostat_trajectories": 3,
+    "MD_integration_steps": 700,
+    "MD_energy_force_evaluations": 704,
+    "reviewed_NEB_cases": 1,
+    "reviewed_NEB_iterations": 135,
+    "reviewed_NEB_energy_force_point_evaluations": 952,
+    "reviewed_NEB_endpoint_check_point_evaluations": 2,
+    "source_NEB_cases": 2,
+    "source_NEB_iterations": 46,
+    "source_NEB_point_energy_force_calls": 322,
+    "source_NEB_postupdate_audit_point_evaluations": 14,
+    "endpoint_optimizations": 2,
+    "endpoint_energy_force_point_evaluations": 778,
+    "pilot_excluded_from_main_counts": true,
+    "tests_excluded_from_study_counts": true,
+    "DFT_calculations": 0,
+    "experimental_runs": 0
+  },
+  "harmonic_reference": {
+    "potential": "0.5*k*sum_i|r_i-mean(r)|^2",
+    "k_eV_A2": 2.0,
+    "equal_mass_amu": 12.011,
+    "atoms": 8,
+    "removed_dof": "3 center-of-mass translations; no rotational or bond constraints",
+    "normal_mode_frequency_fs_1": 0.04008261640434527,
+    "NVE_seeds": [
+      101
+    ]
+  },
+  "NVE_convergence_orders": [],
+  "thermostat_summary": [
+    {
+      "thermostat": "langevin_baoab",
+      "replicas": 1,
+      "replicate_mean_temperature_K": 353.96852249285496,
+      "mean_within_trajectory_temperature_variance_K2": 5146.08642226537,
+      "canonical_reference_variance_temperature_K2": 8571.42857142857,
+      "variance_ratio_to_canonical": 0.6003767492642932,
+      "replicate_mean_kinetic_eV": 0.32027779587615657,
+      "replicate_mean_potential_eV": 0.32220264352640415,
+      "uncertainty_scope": "Correlated finite trajectories; replica summaries are diagnostic, no calibrated confidence interval"
+    },
+    {
+      "thermostat": "berendsen",
+      "replicas": 1,
+      "replicate_mean_temperature_K": 364.43206357834754,
+      "mean_within_trajectory_temperature_variance_K2": 117.24596219762421,
+      "canonical_reference_variance_temperature_K2": 8571.42857142857,
+      "variance_ratio_to_canonical": 0.013678695589722826,
+      "replicate_mean_kinetic_eV": 0.32974541704291954,
+      "replicate_mean_potential_eV": 0.3312824231481452,
+      "uncertainty_scope": "Correlated finite trajectories; replica summaries are diagnostic, no calibrated confidence interval"
+    },
+    {
+      "thermostat": "berendsen_source_dof",
+      "replicas": 1,
+      "replicate_mean_temperature_K": 382.899273873179,
+      "mean_within_trajectory_temperature_variance_K2": 138.68852392340784,
+      "canonical_reference_variance_temperature_K2": 8571.42857142857,
+      "variance_ratio_to_canonical": 0.01618032779106425,
+      "replicate_mean_kinetic_eV": 0.3464549181238511,
+      "replicate_mean_potential_eV": 0.3482149234995407,
+      "uncertainty_scope": "Correlated finite trajectories; replica summaries are diagnostic, no calibrated confidence interval"
+    }
+  ],
+  "NEB_reference": {
+    "potential": "(x^2-1)^2 + 4*(y-0.65*(1-x^2))^2",
+    "known_minima_A": [
+      [
+        -1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0
+      ]
+    ],
+    "known_saddle_A": [
+      0.0,
+      0.65
+    ],
+    "known_barrier_eV": 1.0,
+    "saddle_Hessian_eigenvalues_eV_A2": [
+      -4.0,
+      8.0
+    ],
+    "valley_is_not_assumed_to_be_MEP": true,
+    "optimizer": "FIRE-style inertial relaxation of NEB projected force",
+    "tangent": "Henkelman-Jonsson energy-weighted tangent",
+    "climb_after_iterations": 50,
+    "spring_eV_A2": 4.5,
+    "fixed_endpoint_policy": "minimized first; reject endpoints above force tolerance"
+  },
+  "NEB_cases": [
+    {
+      "case": "images7_tol0.0001_seed1",
+      "n_images": 7,
+      "seed": 1,
+      "tolerance_eV_A": 0.0001,
+      "iteration_cap": 6000,
+      "iterations_executed": 135,
+      "converged": true,
+      "stop_reason": "force_tolerance",
+      "energy_force_point_evaluations": 952,
+      "climbing_index": 3,
+      "max_NEB_force_eV_A": 8.401988701964327e-05,
+      "climbing_true_force_eV_A": 3.3546460186374515e-05,
+      "endpoint_max_force_eV_A": 9.614368577651706e-12,
+      "barrier_eV": 1.000000000066682,
+      "barrier_error_eV": 6.668199326043123e-11,
+      "saddle_coordinate_error_A": 4.300838255572503e-06,
+      "saddle_negative_hessian_eigenvalues": 1,
+      "saddle_hessian_eigenvalues_eV_A2": [
+        -3.9999567687748345,
+        8.000000000010976
+      ],
+      "potential_energy_not_free_energy": true
+    }
+  ],
+  "checks": {
+    "all_reviewed_NEB_converged": true,
+    "all_reviewed_saddles_have_one_negative_mode": true,
+    "all_endpoints_converged": true,
+    "max_MD_COM_speed_A_fs": 3.721649315406478e-18,
+    "source_false_convergence_declarations": 2
+  },
+  "source_MD_audit": [
+    "Source conversion eV/A to N is dimensionally correct, but the random MLIP energy scale is untrained",
+    "Source removes COM initially but uses laboratory-frame kinetic energy divided by 3N; internal thermal temperature needs COM-subtracted kinetic energy and 3N-3, especially if an external net force restores drift",
+    "Source records updated coordinates at step*dt rather than (step+1)*dt",
+    "Source records pre-rescaling kinetic energy and temperature although velocity has already been rescaled",
+    "Berendsen weak coupling does not establish canonical fluctuations or equilibrium"
+  ],
+  "limitations": [
+    "Equal-mass harmonic modes are a numerical benchmark, not a molecular force field",
+    "Langevin sampling has finite timestep bias and serial correlations; variance comparisons are descriptive",
+    "No full constrained dynamics, rigid rotation removal, electrochemical bath, or trained neural forces",
+    "Two-dimensional NEB convergence is not a molecular transition-state or free-energy validation",
+    "Image refinement tests this designed PES only; unknown higher-dimensional saddles may be missed"
+  ],
+  "sources": [
+    "https://journals.aps.org/pr/abstract/10.1103/PhysRev.159.98",
+    "https://pure.rug.nl/ws/files/64380902/1.448118.pdf",
+    "https://arxiv.org/abs/1203.5428",
+    "https://henkelmanlab.org/pubs/henkelman00_9978.pdf",
+    "https://doi.org/10.1063/1.1329672"
+  ],
+  "runtime_seconds": 2.515937899937853,
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.4.6",
+    "torch_for_unchanged_source_class": "2.10.0"
+  },
+  "source_sha256": {
+    "synthapore/scripts/dynamics_reviewed.py": "88b01c6a164ed5b29dce9f315c8ba6a399f183435194213c9ceeb1ed20833238",
+    "synthapore/source/synthapore_engine.py": "c8bd0afd2eba64823be74967acc4dd84cb5d3325eda7f70f98507ece8bfdd45e",
+    "tests/test_synthapore_dynamics.py": "9c4463ee0809acfdd2b3618a492669813baa20373e5f3cc87ad19effcb26adad"
+  },
+  "output_sha256": {
+    "berendsen_source_dof_trajectory.csv": "5c28256133df264fd57dab90838f0fbcca7a322a3e509b49d6e05de712575e69",
+    "berendsen_trajectory.csv": "a1dab54a4e7bb33b74b7d2dded4fdd9c647dec2e8b92c61fe7dc189fa3ef1281",
+    "endpoint_minimization.json": "91ca19a27ede6915afe9c5e717253ac542eec51647b4da7b9c6d13a46d7fff3d",
+    "langevin_baoab_trajectory.csv": "d5bec5c9334762bb4a1cccfa792e2bc7627a003198596ce7f1c8e770650672cc",
+    "neb_final_bands.csv": "6f7362d391f778a2008c781e2e4f6c659287f4de2dea9a7c7e80db14529bc895",
+    "neb_force_history.csv": "114d233b19431f47eb142e1b6303511d66ebc3608ac7a396e66400c36cc1088f",
+    "neb_summary.csv": "54c229162cad066afdfcc59ca4e47aaf9ed47dcc374e50d07811d540bacfa9de",
+    "nve_dt1_trajectory.csv": "d43bad9a872485beb60ed3c7db3f79051715a616a44fa5aef0bb7525efe8026d",
+    "nve_initial_final_states.json": "5586e43bf360f04c8ad044986370e322d64cfe13d6eadf175b476ee0fb904d0f",
+    "nve_timestep_summary.csv": "0ef4152eff1b2410508cebea0dccc30e836cb7cc2848bfc4d2fe973e4c2d1d32",
+    "source_neb_probes.json": "633219aa3937154519de8f4506b11c686419d92a11415058a9094a8db4da7fdb",
+    "source_neb_summary.csv": "3f413c07003942e2245a264bccfa33b6147da39120a3852d08a915d8a859a337",
+    "thermostat_replicas.csv": "8948d6d7be80d40afc272f08b24c0ca36ef9865226312895186fb66a55aae99c",
+    "thermostat_summary.csv": "d4fa69bf8156ebcc5b2caead9225d15e3e9fb959fcba004efddc6793dad50ea6"
+  }
+}

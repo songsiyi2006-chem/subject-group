@@ -1,0 +1,25 @@
+test_COM_temperature_uses_3N_minus_3 (test_synthapore_dynamics.TestSynthaPoreDynamics.test_COM_temperature_uses_3N_minus_3) ... ok
+test_analytic_minima_and_saddle_index (test_synthapore_dynamics.TestSynthaPoreDynamics.test_analytic_minima_and_saddle_index) ... ok
+test_climbing_image_has_no_spring_component (test_synthapore_dynamics.TestSynthaPoreDynamics.test_climbing_image_has_no_spring_component) ... ok
+test_curved_pes_gradient_and_hessian (test_synthapore_dynamics.TestSynthaPoreDynamics.test_curved_pes_gradient_and_hessian) ... ok
+test_endpoint_minimization_is_convergence_checked (test_synthapore_dynamics.TestSynthaPoreDynamics.test_endpoint_minimization_is_convergence_checked) ... ok
+test_harmonic_force_matches_finite_energy_difference (test_synthapore_dynamics.TestSynthaPoreDynamics.test_harmonic_force_matches_finite_energy_difference) ... ok
+test_harmonic_translation_invariance_and_zero_net_force (test_synthapore_dynamics.TestSynthaPoreDynamics.test_harmonic_translation_invariance_and_zero_net_force) ... ok
+test_improved_tangent_unit_and_degenerate_rejection (test_synthapore_dynamics.TestSynthaPoreDynamics.test_improved_tangent_unit_and_degenerate_rejection) ... ok
+test_invalid_md_inputs_and_unstable_timestep_rejected (test_synthapore_dynamics.TestSynthaPoreDynamics.test_invalid_md_inputs_and_unstable_timestep_rejected) ... ok
+test_iteration_limit_is_not_convergence_and_bad_endpoints_rejected (test_synthapore_dynamics.TestSynthaPoreDynamics.test_iteration_limit_is_not_convergence_and_bad_endpoints_rejected) ... ok
+test_kinetic_energy_matches_SI (test_synthapore_dynamics.TestSynthaPoreDynamics.test_kinetic_energy_matches_SI) ... ok
+test_langevin_explicit_seed_and_COM_constraint (test_synthapore_dynamics.TestSynthaPoreDynamics.test_langevin_explicit_seed_and_COM_constraint) ... ok
+test_mass_and_force_conversion_match_SI (test_synthapore_dynamics.TestSynthaPoreDynamics.test_mass_and_force_conversion_match_SI) ... ok
+test_mass_weighted_COM_removal (test_synthapore_dynamics.TestSynthaPoreDynamics.test_mass_weighted_COM_removal) ... ok
+test_original_class_unconditional_status_and_stale_energy (test_synthapore_dynamics.TestSynthaPoreDynamics.test_original_class_unconditional_status_and_stale_energy) ... ok
+test_recording_times_include_initial_and_final_states (test_synthapore_dynamics.TestSynthaPoreDynamics.test_recording_times_include_initial_and_final_states) ... ok
+test_reviewed_neb_converges_and_recomputes_final_energy (test_synthapore_dynamics.TestSynthaPoreDynamics.test_reviewed_neb_converges_and_recomputes_final_energy) ... ok
+test_thermostat_records_post_rescaling_energy_and_temperature (test_synthapore_dynamics.TestSynthaPoreDynamics.test_thermostat_records_post_rescaling_energy_and_temperature) ... ok
+test_verlet_second_order_energy_envelope (test_synthapore_dynamics.TestSynthaPoreDynamics.test_verlet_second_order_energy_envelope) ... ok
+test_verlet_time_reversal (test_synthapore_dynamics.TestSynthaPoreDynamics.test_verlet_time_reversal) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 3.265s
+
+OK

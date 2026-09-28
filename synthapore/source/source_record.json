@@ -1,0 +1,20 @@
+{
+  "specification_sha256": "e4e84c2957586c6c866e858604bf1f617786c10fd21db20a103ce3096429ffd9",
+  "original_python_sha256": "c8bd0afd2eba64823be74967acc4dd84cb5d3325eda7f70f98507ece8bfdd45e",
+  "compatibility_python_sha256": "90c21568413f59113ffc58ee59a31554ec8ab44478da7a7f920bc5003e6637d6",
+  "repairs": [
+    "Main model species-table length 10 -> 30 to admit direct atomic-number index 29"
+  ],
+  "scope": "Single execution repair; no training, physical calibration, mathematical or scientific correction",
+  "random_initialization_caveat": "Embedding expansion consumes additional random draws and changes downstream random weights",
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.4.6",
+    "scipy": "1.18.0",
+    "pandas": "2.3.3",
+    "torch": "2.10.0",
+    "matplotlib": "3.11.1"
+  },
+  "physical_instrument_connected": false,
+  "log_policy": "Local repository and runtime prefixes sanitized; errors and printed claims retained"
+}

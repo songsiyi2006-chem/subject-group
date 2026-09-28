@@ -1,0 +1,110 @@
+[
+  {
+    "n_images": 7,
+    "iterations_executed": 1,
+    "source_reported_status": "converged",
+    "source_point_energy_force_calls": 7,
+    "source_rounded_barrier_kcal_mol": 62.03,
+    "source_preupdate_barrier_eV": 2.6900000000000004,
+    "fresh_postupdate_barrier_eV": 1.781456,
+    "maximum_stale_energy_difference_eV": 0.9085440000000005,
+    "fresh_max_NEB_force_eV_A": 3.536,
+    "fresh_climbing_true_force_eV_A": 3.536,
+    "passes_independent_1e_5_force_check": false,
+    "band_A": [
+      [
+        -1.0,
+        0.0
+      ],
+      [
+        -0.6666666714488888,
+        0.11555555555555554
+      ],
+      [
+        -0.3333333371591111,
+        0.18488888888888888
+      ],
+      [
+        -2.997602121523891e-17,
+        0.20800000000000002
+      ],
+      [
+        0.333333337159111,
+        0.1848888888888889
+      ],
+      [
+        0.6666666714488888,
+        0.11555555555555554
+      ],
+      [
+        1.0,
+        0.0
+      ]
+    ],
+    "fresh_energies_eV": [
+      0.0,
+      0.5498320835388372,
+      1.4075701630944852,
+      1.781456,
+      1.4075701630944852,
+      0.5498320835388372,
+      0.0
+    ],
+    "original_energy_conversion_eV_to_kcal_mol": 23.0605,
+    "scope": "Unchanged source class on analytic benchmark; no neural potential or chemical barrier"
+  },
+  {
+    "n_images": 7,
+    "iterations_executed": 45,
+    "source_reported_status": "converged",
+    "source_point_energy_force_calls": 315,
+    "source_rounded_barrier_kcal_mol": 23.06,
+    "source_preupdate_barrier_eV": 1.000000000000003,
+    "fresh_postupdate_barrier_eV": 1.0000000000000013,
+    "maximum_stale_energy_difference_eV": 2.9691540653908888e-06,
+    "fresh_max_NEB_force_eV_A": 4.9987044219318434e-05,
+    "fresh_climbing_true_force_eV_A": 1.5097478378578444e-07,
+    "passes_independent_1e_5_force_check": false,
+    "band_A": [
+      [
+        -1.0,
+        0.0
+      ],
+      [
+        -0.7645161128536918,
+        0.35044463516189855
+      ],
+      [
+        -0.41823743297849386,
+        0.5920321231024119
+      ],
+      [
+        -2.984936354575949e-20,
+        0.649999981128152
+      ],
+      [
+        0.41823743297849386,
+        0.5920321231024119
+      ],
+      [
+        0.7645161128536918,
+        0.35044463516189855
+      ],
+      [
+        1.0,
+        0.0
+      ]
+    ],
+    "fresh_energies_eV": [
+      0.0,
+      0.1984836065621842,
+      0.693176923506405,
+      1.0000000000000013,
+      0.693176923506405,
+      0.1984836065621842,
+      0.0
+    ],
+    "original_energy_conversion_eV_to_kcal_mol": 23.0605,
+    "scope": "Unchanged source class on analytic benchmark; no neural potential or chemical barrier"
+  }
+]

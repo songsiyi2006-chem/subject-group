@@ -1,6 +1,6 @@
 {
   "passed": true,
-  "checks": 181,
+  "checks": 185,
   "scope": "Saved record and publication integrity, not chemical prediction accuracy or experimental validation.",
   "failed": [],
   "items": [
@@ -590,6 +590,22 @@
     },
     {
       "check": "README link ../provenance/SHA256SUMS.txt",
+      "passed": true
+    },
+    {
+      "check": "README link synthapore/reports/synthapore_report_chinese.md",
+      "passed": true
+    },
+    {
+      "check": "README link synthapore/reports/synthapore_report_english.md",
+      "passed": true
+    },
+    {
+      "check": "README link synthapore/README.md",
+      "passed": true
+    },
+    {
+      "check": "README link synthapore/reports/figures/README.md",
       "passed": true
     },
     {

@@ -2,7 +2,16 @@
 
 完整技术报告、可复现计算与证据审计。Updated 2026-09-28.
 
-## Latest ElectroGraph-kMC / 分子图学习、构象系综与随机动力学
+## Latest SynthaPore-Omni / 等变学习、分子动力学算法与孔隙计算核验
+
+- **[中文完整报告](synthapore/reports/synthapore_report_chinese.md)** · **[Complete English report](synthapore/reports/synthapore_report_english.md)**
+- [代码、原始结果与复现入口](synthapore/README.md) · [中英文 PNG/SVG 图表](synthapore/reports/figures/README.md)
+
+三个代理完成新增模块并交叉审查：368 个合成形状上的 3 次等变去噪训练（180 轮）、44 条解析势 MD 轨迹（350,000 步）、18 组修订 CI-NEB 与 12 组原算法对照、1,636,800 次几何点评估及 152 次合成 BET 拟合。原脚本的嵌入表越界失败、单处兼容修复和实际随机权重回放均保留。新增 54 项单元测试。
+
+The supplied 55,394-parameter potential is untrained, and its eight-atom fragment does not specify a complete chemical system. The additions verify algorithms on synthetic shapes and analytic potentials. One denoising seed loses to smoothing under distribution shift; Berendsen suppresses kinetic fluctuations; 10 of 12 source analytic NEB cases falsely claim convergence; negative BET constants remain visible. There is no validated chemical MLIP, reverse diffusion generator, activation free energy or atomistic POP adsorption prediction.
+
+## Earlier ElectroGraph-kMC / 分子图学习、构象系综与随机动力学
 
 - **[中文完整报告](electrograph/reports/electrograph_report_chinese.md)** · **[Complete English report](electrograph/reports/electrograph_report_english.md)**
 - [代码、数据与复现入口](electrograph/README.md) · [中英文 PNG/SVG 图表](electrograph/reports/figures/README.md)

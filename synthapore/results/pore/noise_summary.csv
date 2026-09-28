@@ -1,0 +1,7 @@
+lower,upper,parameter,total_fits,positive_fits,mean,sample_sd,p025,median,p975,interpretation
+0.01,0.3,fitted_Vm_cm3_g,64,64,144.60686787259283,1.0951528618819606,142.65298423194255,144.5831255562647,146.72078787533488,"Synthetic-noise repetition quantiles conditional on model, not experimental confidence intervals"
+0.01,0.3,fitted_C,64,64,118.38405739224444,9.327343646902937,104.43898026099804,117.38659263075425,136.165014452675,"Synthetic-noise repetition quantiles conditional on model, not experimental confidence intervals"
+0.01,0.3,apparent_area_m2_g,64,64,629.4126525252925,4.766738107661026,620.9082218362121,629.3093122447301,638.6136539419363,"Synthetic-noise repetition quantiles conditional on model, not experimental confidence intervals"
+0.05,0.3,fitted_Vm_cm3_g,64,64,144.51575211434405,1.3816086340656923,142.3044065903703,144.55563428671059,147.06069242386002,"Synthetic-noise repetition quantiles conditional on model, not experimental confidence intervals"
+0.05,0.3,fitted_C,64,64,122.99995720348431,20.54517856917576,93.96313398874953,119.64287699918643,166.29609497569683,"Synthetic-noise repetition quantiles conditional on model, not experimental confidence intervals"
+0.05,0.3,apparent_area_m2_g,64,64,629.0160640925997,6.013559161555897,619.3910105085572,629.1896543533319,640.0931149567556,"Synthetic-noise repetition quantiles conditional on model, not experimental confidence intervals"

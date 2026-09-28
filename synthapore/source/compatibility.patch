@@ -1,0 +1,11 @@
+--- original
++++ species-table repair
+@@ -502,7 +502,7 @@
+ 
+     # 1. Initialize Neural Machine Learning Potential
+     print("\n[1/5] Building Equivariant Neural Interatomic Potential (MLIP)...")
+-    mlip = NeuralInteratomicPotential(num_species=10, hidden_dim=48, num_layers=3)
++    mlip = NeuralInteratomicPotential(num_species=30, hidden_dim=48, num_layers=3)
+     
+     # 2. Setup Bioactive Model Coordinate Tensor: 2-Phenylindole Fragment
+     # 8-atom active reaction core [C, C, C, N, C, H, H, Cu]

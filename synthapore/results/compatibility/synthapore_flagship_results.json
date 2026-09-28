@@ -1,0 +1,17 @@
+{
+    "Platform": "SynthaPore-Omni v4.0-Strategic_Flagship",
+    "Target_Institution": "State Key Lab of Medicinal Resources, Guangxi Normal University",
+    "Molecular_Dynamics": {
+        "total_fs": 150.0,
+        "equilibrium_T": 330.59
+    },
+    "CI_NEB_Kinetics": {
+        "delta_G_activation_kcal_mol": 0.0,
+        "reaction_energy_kcal_mol": -0.05
+    },
+    "Reticular_POP_Porosity": {
+        "pore_diameter_A": 19.6,
+        "bet_surface_area_m2_g": 631.2
+    },
+    "Rendered_Visualizations": "figures_flagship\\SynthaPore_Omni_MultiScale_Panel.png"
+}
