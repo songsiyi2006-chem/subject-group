@@ -1,0 +1,79 @@
+{
+  "observed_date": "2026-09-29",
+  "owner": "songsiyi2006-chem",
+  "discovery": "All six public repositories visible on the linked GitHub profile. Authenticated list endpoint returned empty; per-repository metadata succeeded.",
+  "repositories": [
+    {
+      "name": "aqueous-solubility-ml-benchmark",
+      "metadata": {
+        "repository_full_name": "songsiyi2006-chem/aqueous-solubility-ml-benchmark",
+        "clone_url": "https://github.com/songsiyi2006-chem/aqueous-solubility-ml-benchmark.git",
+        "size": 237,
+        "default_branch": "main",
+        "visibility": "public",
+        "archived": false
+      },
+      "frozen_commit": "5939547a936ed4baf7fa7ee9fac6fa6e90bfa8fe"
+    },
+    {
+      "name": "ai4chem-complex-scaffolds-benchmark",
+      "metadata": {
+        "repository_full_name": "songsiyi2006-chem/ai4chem-complex-scaffolds-benchmark",
+        "clone_url": "https://github.com/songsiyi2006-chem/ai4chem-complex-scaffolds-benchmark.git",
+        "size": 247404,
+        "default_branch": "main",
+        "visibility": "public",
+        "archived": false
+      },
+      "frozen_commit": "5e19c519dbd11430926828fddf5375b919af67f0"
+    },
+    {
+      "name": "Paper-Analysis-ChemMLLM",
+      "metadata": {
+        "repository_full_name": "songsiyi2006-chem/Paper-Analysis-ChemMLLM",
+        "clone_url": "https://github.com/songsiyi2006-chem/Paper-Analysis-ChemMLLM.git",
+        "size": 11142,
+        "default_branch": "main",
+        "visibility": "public",
+        "archived": false
+      },
+      "frozen_commit": "c1d309a0c2f876ccc8b4d2ce753ece971d58fe97"
+    },
+    {
+      "name": "ai4pharm-lead-developability-suite",
+      "metadata": {
+        "repository_full_name": "songsiyi2006-chem/ai4pharm-lead-developability-suite",
+        "clone_url": "https://github.com/songsiyi2006-chem/ai4pharm-lead-developability-suite.git",
+        "size": 74190,
+        "default_branch": "main",
+        "visibility": "public",
+        "archived": false
+      },
+      "frozen_commit": "a7a2a4df501d5dad030dc488691b02c73fdb423f"
+    },
+    {
+      "name": "pincer-catmech-ai",
+      "metadata": {
+        "repository_full_name": "songsiyi2006-chem/pincer-catmech-ai",
+        "clone_url": "https://github.com/songsiyi2006-chem/pincer-catmech-ai.git",
+        "size": 896520,
+        "default_branch": "main",
+        "visibility": "public",
+        "archived": false
+      },
+      "frozen_commit": "2edffb123791bd61acbfdeff763f603ee50c2287"
+    },
+    {
+      "name": "subject-group",
+      "metadata": {
+        "repository_full_name": "songsiyi2006-chem/subject-group",
+        "clone_url": "https://github.com/songsiyi2006-chem/subject-group.git",
+        "size": 36745,
+        "default_branch": "main",
+        "visibility": "public",
+        "archived": false
+      },
+      "frozen_commit": "073bb3872d9112ec1ca46b3b9e80476d00ffbf97"
+    }
+  ]
+}

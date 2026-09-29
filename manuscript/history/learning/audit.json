@@ -1,0 +1,997 @@
+{
+  "schema_version": "1.0",
+  "scope": "Read-only pinned history audit, no new scientific solver/training calls.",
+  "repositories": [
+    {
+      "repository": "aqueous-solubility-ml-benchmark",
+      "commit": "5939547a936ed4baf7fa7ee9fac6fa6e90bfa8fe",
+      "commit_count": 1,
+      "remote_verified_by": "git ls-remote HEAD with TLS validation; 2026-09-29",
+      "url": "https://github.com/songsiyi2006-chem/aqueous-solubility-ml-benchmark"
+    },
+    {
+      "repository": "ai4chem-complex-scaffolds-benchmark",
+      "commit": "5e19c519dbd11430926828fddf5375b919af67f0",
+      "commit_count": 54,
+      "remote_verified_by": "git ls-remote HEAD with TLS validation; 2026-09-29",
+      "url": "https://github.com/songsiyi2006-chem/ai4chem-complex-scaffolds-benchmark"
+    }
+  ],
+  "deduplication": "sources/deduplication.json",
+  "source_artifacts": [
+    {
+      "id": "aqueous_LICENSE.txt",
+      "repository": "aqueous-solubility-ml-benchmark",
+      "commit": "5939547a936ed4baf7fa7ee9fac6fa6e90bfa8fe",
+      "original_path": "LICENSE",
+      "sha256": "986873f1521f996b89737cc6fbf4df946779c0485b8f9a31b572446343dcd9a1",
+      "bytes": 1101,
+      "snapshot": "sources/aqueous_LICENSE.txt",
+      "evidence_type": "license",
+      "selectors": [],
+      "url": "https://github.com/songsiyi2006-chem/aqueous-solubility-ml-benchmark/blob/5939547a936ed4baf7fa7ee9fac6fa6e90bfa8fe/LICENSE"
+    },
+    {
+      "id": "complex_LICENSE.txt",
+      "repository": "ai4chem-complex-scaffolds-benchmark",
+      "commit": "5e19c519dbd11430926828fddf5375b919af67f0",
+      "original_path": "LICENSE",
+      "sha256": "4aa3c099ba123766a5710f89f802442b2b94a65370ee851ca2b8e341cef9e739",
+      "bytes": 1074,
+      "snapshot": "sources/complex_LICENSE.txt",
+      "evidence_type": "license",
+      "selectors": [],
+      "url": "https://github.com/songsiyi2006-chem/ai4chem-complex-scaffolds-benchmark/blob/5e19c519dbd11430926828fddf5375b919af67f0/LICENSE"
+    },
+    {
+      "id": "aqueous_README.md",
+      "repository": "aqueous-solubility-ml-benchmark",
+      "commit": "5939547a936ed4baf7fa7ee9fac6fa6e90bfa8fe",
+      "original_path": "README.md",
+      "sha256": "138d32b9f36908bad6f2cb71045015b3321dbf76cb59277c13e9be995fbd2e46",
+      "bytes": 9292,
+      "snapshot": "sources/aqueous_README.md",
+      "evidence_type": "report_only",
+      "selectors": [],
+      "url": "https://github.com/songsiyi2006-chem/aqueous-solubility-ml-benchmark/blob/5939547a936ed4baf7fa7ee9fac6fa6e90bfa8fe/README.md"
+    },
+    {
+      "id": "aqueous_aqsol_model.py",
+      "repository": "aqueous-solubility-ml-benchmark",
+      "commit": "5939547a936ed4baf7fa7ee9fac6fa6e90bfa8fe",
+      "original_path": "aqsol_model.py",
+      "sha256": "89485db4b60a346e7092d0f7ff7b8bda2bb2d85f6fec54ce8b4b3f1250977ada",
+      "bytes": 8553,
+      "snapshot": "sources/aqueous_aqsol_model.py",
+      "evidence_type": "source_protocol",
+      "selectors": [],
+      "url": "https://github.com/songsiyi2006-chem/aqueous-solubility-ml-benchmark/blob/5939547a936ed4baf7fa7ee9fac6fa6e90bfa8fe/aqsol_model.py"
+    },
+    {
+      "id": "aqueous_esol_model.py",
+      "repository": "aqueous-solubility-ml-benchmark",
+      "commit": "5939547a936ed4baf7fa7ee9fac6fa6e90bfa8fe",
+      "original_path": "esol_model.py",
+      "sha256": "a1b8bf4e858c5d6a92adbac0cfc19b69cdf3ff5b8867774439141655a29bb796",
+      "bytes": 4414,
+      "snapshot": "sources/aqueous_esol_model.py",
+      "evidence_type": "source_protocol",
+      "selectors": [],
+      "url": "https://github.com/songsiyi2006-chem/aqueous-solubility-ml-benchmark/blob/5939547a936ed4baf7fa7ee9fac6fa6e90bfa8fe/esol_model.py"
+    },
+    {
+      "id": "aqueous_paclitaxel.py",
+      "repository": "aqueous-solubility-ml-benchmark",
+      "commit": "5939547a936ed4baf7fa7ee9fac6fa6e90bfa8fe",
+      "original_path": "paclitaxel.py",
+      "sha256": "a04302865152d2dea77e1e737d4468d33747247f82c80b545e415d9439f247bb",
+      "bytes": 2976,
+      "snapshot": "sources/aqueous_paclitaxel.py",
+      "evidence_type": "source_protocol",
+      "selectors": [],
+      "url": "https://github.com/songsiyi2006-chem/aqueous-solubility-ml-benchmark/blob/5939547a936ed4baf7fa7ee9fac6fa6e90bfa8fe/paclitaxel.py"
+    },
+    {
+      "id": "aqueous_predict_solubility.py",
+      "repository": "aqueous-solubility-ml-benchmark",
+      "commit": "5939547a936ed4baf7fa7ee9fac6fa6e90bfa8fe",
+      "original_path": "predict_solubility.py",
+      "sha256": "f87447c3c744f99cb66fe5eb9ec48dbade903c38e2e1ab46f18b67a61d919ce3",
+      "bytes": 2139,
+      "snapshot": "sources/aqueous_predict_solubility.py",
+      "evidence_type": "source_protocol",
+      "selectors": [],
+      "url": "https://github.com/songsiyi2006-chem/aqueous-solubility-ml-benchmark/blob/5939547a936ed4baf7fa7ee9fac6fa6e90bfa8fe/predict_solubility.py"
+    },
+    {
+      "id": "complex_EVIDENCE.md",
+      "repository": "ai4chem-complex-scaffolds-benchmark",
+      "commit": "5e19c519dbd11430926828fddf5375b919af67f0",
+      "original_path": "docs/EVIDENCE.md",
+      "sha256": "f0b8247e72aa354fdc6aa885f34e31363bbb6726b88002b092b4b4f530515e7b",
+      "bytes": 5022,
+      "snapshot": "sources/complex_EVIDENCE.md",
+      "evidence_type": "audit_document",
+      "selectors": [],
+      "url": "https://github.com/songsiyi2006-chem/ai4chem-complex-scaffolds-benchmark/blob/5e19c519dbd11430926828fddf5375b919af67f0/docs/EVIDENCE.md"
+    },
+    {
+      "id": "complex_PHASE_INDEX.md",
+      "repository": "ai4chem-complex-scaffolds-benchmark",
+      "commit": "5e19c519dbd11430926828fddf5375b919af67f0",
+      "original_path": "docs/PHASE_INDEX.md",
+      "sha256": "4d0e50da1d90ace333845cdb0da05106f5389e8b9c6fa3091f267bce1b3fd747",
+      "bytes": 15077,
+      "snapshot": "sources/complex_PHASE_INDEX.md",
+      "evidence_type": "audit_document",
+      "selectors": [],
+      "url": "https://github.com/songsiyi2006-chem/ai4chem-complex-scaffolds-benchmark/blob/5e19c519dbd11430926828fddf5375b919af67f0/docs/PHASE_INDEX.md"
+    },
+    {
+      "id": "complex_PHASE1_19_CLOSEOUT.md",
+      "repository": "ai4chem-complex-scaffolds-benchmark",
+      "commit": "5e19c519dbd11430926828fddf5375b919af67f0",
+      "original_path": "shared/audit/reports/PHASE1_19_CLOSEOUT.md",
+      "sha256": "d262d8b9c093cd8bf4984639b62d08d4d961fd16ee5ceae6147fd94890294e2c",
+      "bytes": 4416,
+      "snapshot": "sources/complex_PHASE1_19_CLOSEOUT.md",
+      "evidence_type": "audit_document",
+      "selectors": [],
+      "url": "https://github.com/songsiyi2006-chem/ai4chem-complex-scaffolds-benchmark/blob/5e19c519dbd11430926828fddf5375b919af67f0/shared/audit/reports/PHASE1_19_CLOSEOUT.md"
+    },
+    {
+      "id": "complex_PHASE1_5_AUDIT_FIXES.md",
+      "repository": "ai4chem-complex-scaffolds-benchmark",
+      "commit": "5e19c519dbd11430926828fddf5375b919af67f0",
+      "original_path": "shared/audit/reports/PHASE1_5_AUDIT_FIXES.md",
+      "sha256": "feb3ca5b5303a605f65c776f2ee5bb4bc2387133fe3c5510c573939fc536877f",
+      "bytes": 4892,
+      "snapshot": "sources/complex_PHASE1_5_AUDIT_FIXES.md",
+      "evidence_type": "audit_document",
+      "selectors": [],
+      "url": "https://github.com/songsiyi2006-chem/ai4chem-complex-scaffolds-benchmark/blob/5e19c519dbd11430926828fddf5375b919af67f0/shared/audit/reports/PHASE1_5_AUDIT_FIXES.md"
+    },
+    {
+      "id": "complex_PHASE11_13_AUDIT_FIXES.md",
+      "repository": "ai4chem-complex-scaffolds-benchmark",
+      "commit": "5e19c519dbd11430926828fddf5375b919af67f0",
+      "original_path": "shared/audit/reports/PHASE11_13_AUDIT_FIXES.md",
+      "sha256": "24388eeb73c21f6cb1a0b58968d59d8be5f4e762bb44e1b6baabee3b7250e862",
+      "bytes": 2406,
+      "snapshot": "sources/complex_PHASE11_13_AUDIT_FIXES.md",
+      "evidence_type": "audit_document",
+      "selectors": [],
+      "url": "https://github.com/songsiyi2006-chem/ai4chem-complex-scaffolds-benchmark/blob/5e19c519dbd11430926828fddf5375b919af67f0/shared/audit/reports/PHASE11_13_AUDIT_FIXES.md"
+    },
+    {
+      "id": "phase01_original.json",
+      "repository": "ai4chem-complex-scaffolds-benchmark",
+      "commit": "5e19c519dbd11430926828fddf5375b919af67f0",
+      "original_path": "projects/phase01/results/benchmark_results.json",
+      "sha256": "df0294d98cc63af3a1e482a2af8b00f22ee3c63e006ae752e21d814c6d794111",
+      "bytes": 27158,
+      "snapshot": "sources/phase01_original.json",
+      "evidence_type": "executed_forcefield",
+      "selectors": [
+        "/results"
+      ],
+      "url": "https://github.com/songsiyi2006-chem/ai4chem-complex-scaffolds-benchmark/blob/5e19c519dbd11430926828fddf5375b919af67f0/projects/phase01/results/benchmark_results.json"
+    },
+    {
+      "id": "phase01_audited.json",
+      "repository": "ai4chem-complex-scaffolds-benchmark",
+      "commit": "5e19c519dbd11430926828fddf5375b919af67f0",
+      "original_path": "shared/audit/evidence/phase1_19_rerun_20260910/phase01/20260910T135632/bench_results/benchmark_results.json",
+      "sha256": "484d2b8b8a94a017814fb8603eaaf211e37de765006f11a1e53a4ce14ddf6e0e",
+      "bytes": 27169,
+      "snapshot": "sources/phase01_audited.json",
+      "evidence_type": "executed_forcefield",
+      "selectors": [
+        "/results/*/conformers"
+      ],
+      "url": "https://github.com/songsiyi2006-chem/ai4chem-complex-scaffolds-benchmark/blob/5e19c519dbd11430926828fddf5375b919af67f0/shared/audit/evidence/phase1_19_rerun_20260910/phase01/20260910T135632/bench_results/benchmark_results.json"
+    },
+    {
+      "id": "phase01_acceptance.json",
+      "repository": "ai4chem-complex-scaffolds-benchmark",
+      "commit": "5e19c519dbd11430926828fddf5375b919af67f0",
+      "original_path": "shared/audit/evidence/phase1_19_rerun_20260910/phase01/20260910T135632/acceptance_review.json",
+      "sha256": "046acf05a7420e1e3042c90e00db1b3a4ae48487961817ca14c642d18cb143ce",
+      "bytes": 268,
+      "snapshot": "sources/phase01_acceptance.json",
+      "evidence_type": "acceptance_audit",
+      "selectors": [],
+      "url": "https://github.com/songsiyi2006-chem/ai4chem-complex-scaffolds-benchmark/blob/5e19c519dbd11430926828fddf5375b919af67f0/shared/audit/evidence/phase1_19_rerun_20260910/phase01/20260910T135632/acceptance_review.json"
+    },
+    {
+      "id": "phase11_results.json",
+      "repository": "ai4chem-complex-scaffolds-benchmark",
+      "commit": "5e19c519dbd11430926828fddf5375b919af67f0",
+      "original_path": "shared/audit/evidence/phase1_19_rerun_20260910/phase11/20260910T142310/results_phase11/phase11_results.json",
+      "sha256": "c861061178ff7e13d1f3261538514234eb5f2e4960eed298253cf2b884c5aebb",
+      "bytes": 174903,
+      "snapshot": "sources/phase11_results.json",
+      "evidence_type": "executed_vmc",
+      "selectors": [
+        "/systems/*/blocks",
+        "/systems/*/E_final",
+        "/self_tests"
+      ],
+      "url": "https://github.com/songsiyi2006-chem/ai4chem-complex-scaffolds-benchmark/blob/5e19c519dbd11430926828fddf5375b919af67f0/shared/audit/evidence/phase1_19_rerun_20260910/phase11/20260910T142310/results_phase11/phase11_results.json"
+    },
+    {
+      "id": "phase11_references.json",
+      "repository": "ai4chem-complex-scaffolds-benchmark",
+      "commit": "5e19c519dbd11430926828fddf5375b919af67f0",
+      "original_path": "shared/audit/evidence/phase1_19_rerun_20260910/phase11/20260910T142310/results_phase11/references.json",
+      "sha256": "ee6df331bd0d7595908bb72f40b59cbcc3b7e80a774be70b59ff7336d454c410",
+      "bytes": 1682,
+      "snapshot": "sources/phase11_references.json",
+      "evidence_type": "computed_reference",
+      "selectors": [],
+      "url": "https://github.com/songsiyi2006-chem/ai4chem-complex-scaffolds-benchmark/blob/5e19c519dbd11430926828fddf5375b919af67f0/shared/audit/evidence/phase1_19_rerun_20260910/phase11/20260910T142310/results_phase11/references.json"
+    },
+    {
+      "id": "phase11_acceptance.json",
+      "repository": "ai4chem-complex-scaffolds-benchmark",
+      "commit": "5e19c519dbd11430926828fddf5375b919af67f0",
+      "original_path": "shared/audit/evidence/phase1_19_rerun_20260910/phase11/20260910T142310/acceptance_review.json",
+      "sha256": "71fb8eceea34a5ec9e1be5c97c59395abbb4723e047ac10a8bfa6be7dbd0263e",
+      "bytes": 4230,
+      "snapshot": "sources/phase11_acceptance.json",
+      "evidence_type": "acceptance_audit",
+      "selectors": [
+        "/checks/chemical_accuracy",
+        "/checks/cusp"
+      ],
+      "url": "https://github.com/songsiyi2006-chem/ai4chem-complex-scaffolds-benchmark/blob/5e19c519dbd11430926828fddf5375b919af67f0/shared/audit/evidence/phase1_19_rerun_20260910/phase11/20260910T142310/acceptance_review.json"
+    },
+    {
+      "id": "phase24_metrics.json",
+      "repository": "ai4chem-complex-scaffolds-benchmark",
+      "commit": "5e19c519dbd11430926828fddf5375b919af67f0",
+      "original_path": "projects/phase24/results/metrics.json",
+      "sha256": "da034030be4634172540da4376bed315e6788a181ab4f683585d97301728b8cd",
+      "bytes": 1662,
+      "snapshot": "sources/phase24_metrics.json",
+      "evidence_type": "synthetic_response",
+      "selectors": [],
+      "url": "https://github.com/songsiyi2006-chem/ai4chem-complex-scaffolds-benchmark/blob/5e19c519dbd11430926828fddf5375b919af67f0/projects/phase24/results/metrics.json"
+    },
+    {
+      "id": "phase24_measurements.json",
+      "repository": "ai4chem-complex-scaffolds-benchmark",
+      "commit": "5e19c519dbd11430926828fddf5375b919af67f0",
+      "original_path": "projects/phase24/results/measurements.json",
+      "sha256": "6d8179c50c12b00e61864ca7f8f39deceb9b491b92ccb85f052391ca5f7f2cf6",
+      "bytes": 291868,
+      "snapshot": "sources/phase24_measurements.json",
+      "evidence_type": "synthetic_response",
+      "selectors": [
+        "/*/condition_id",
+        "/*/round",
+        "/*/yield_pct",
+        "/*/ee_abs_pct"
+      ],
+      "url": "https://github.com/songsiyi2006-chem/ai4chem-complex-scaffolds-benchmark/blob/5e19c519dbd11430926828fddf5375b919af67f0/projects/phase24/results/measurements.json"
+    },
+    {
+      "id": "phase25_27_acceptance.json",
+      "repository": "ai4chem-complex-scaffolds-benchmark",
+      "commit": "5e19c519dbd11430926828fddf5375b919af67f0",
+      "original_path": "shared/phase25_27/results/acceptance.json",
+      "sha256": "fac952107334a31e8d3abc29a41c8dbe7e3b5339d4048f19f800d0806864660e",
+      "bytes": 4539,
+      "snapshot": "sources/phase25_27_acceptance.json",
+      "evidence_type": "acceptance_audit",
+      "selectors": [
+        "/criteria"
+      ],
+      "url": "https://github.com/songsiyi2006-chem/ai4chem-complex-scaffolds-benchmark/blob/5e19c519dbd11430926828fddf5375b919af67f0/shared/phase25_27/results/acceptance.json"
+    },
+    {
+      "id": "phase28_trace_metrics.csv",
+      "repository": "ai4chem-complex-scaffolds-benchmark",
+      "commit": "5e19c519dbd11430926828fddf5375b919af67f0",
+      "original_path": "projects/phase28/results/run_20260920/published_trace_metrics.csv",
+      "sha256": "ea77ceefb1e70830d0f1b9a22266e670ab241218a99deb4af9eddff2557db6e5",
+      "bytes": 1960,
+      "snapshot": "sources/phase28_trace_metrics.csv",
+      "evidence_type": "published_measurement_reanalysis",
+      "selectors": [
+        "rows 2:4; trace_id,n_source_rows,unique_timestamps,timestamp_balanced_change"
+      ],
+      "url": "https://github.com/songsiyi2006-chem/ai4chem-complex-scaffolds-benchmark/blob/5e19c519dbd11430926828fddf5375b919af67f0/projects/phase28/results/run_20260920/published_trace_metrics.csv"
+    },
+    {
+      "id": "phase28_trace_summary.json",
+      "repository": "ai4chem-complex-scaffolds-benchmark",
+      "commit": "5e19c519dbd11430926828fddf5375b919af67f0",
+      "original_path": "projects/phase28/results/run_20260920/published_trace_summary.json",
+      "sha256": "133468f08373dc56c31fc28001111ce6959471e81c857e0759ec53d3bc5e225a",
+      "bytes": 4242,
+      "snapshot": "sources/phase28_trace_summary.json",
+      "evidence_type": "published_measurement_reanalysis",
+      "selectors": [],
+      "url": "https://github.com/songsiyi2006-chem/ai4chem-complex-scaffolds-benchmark/blob/5e19c519dbd11430926828fddf5375b919af67f0/projects/phase28/results/run_20260920/published_trace_summary.json"
+    },
+    {
+      "id": "phase28_hour_bins.csv",
+      "repository": "ai4chem-complex-scaffolds-benchmark",
+      "commit": "5e19c519dbd11430926828fddf5375b919af67f0",
+      "original_path": "projects/phase28/results/run_20260920/published_trace_hour_bins.csv",
+      "sha256": "c5732bbb12b43a3e9c8d6ea17514430f726aea517c51af71849381445e0a4b66",
+      "bytes": 30893,
+      "snapshot": "sources/phase28_hour_bins.csv",
+      "evidence_type": "published_measurement_reanalysis",
+      "selectors": [],
+      "url": "https://github.com/songsiyi2006-chem/ai4chem-complex-scaffolds-benchmark/blob/5e19c519dbd11430926828fddf5375b919af67f0/projects/phase28/results/run_20260920/published_trace_hour_bins.csv"
+    },
+    {
+      "id": "phase28_window_robustness.csv",
+      "repository": "ai4chem-complex-scaffolds-benchmark",
+      "commit": "5e19c519dbd11430926828fddf5375b919af67f0",
+      "original_path": "projects/phase28/results/additional_public_analysis/stability_window_robustness.csv",
+      "sha256": "dd5109cc6c9f83817cc6ec23432712d462d3774d6336f4bc5666e108aeee490a",
+      "bytes": 12428,
+      "snapshot": "sources/phase28_window_robustness.csv",
+      "evidence_type": "published_measurement_reanalysis",
+      "selectors": [
+        "72 data rows; trace_id,startup_exclusion_h,window_h,change"
+      ],
+      "url": "https://github.com/songsiyi2006-chem/ai4chem-complex-scaffolds-benchmark/blob/5e19c519dbd11430926828fddf5375b919af67f0/projects/phase28/results/additional_public_analysis/stability_window_robustness.csv"
+    },
+    {
+      "id": "phase28_additional_summary.json",
+      "repository": "ai4chem-complex-scaffolds-benchmark",
+      "commit": "5e19c519dbd11430926828fddf5375b919af67f0",
+      "original_path": "projects/phase28/results/additional_public_analysis/summary.json",
+      "sha256": "c84c51c320675479b1101ae8363a17d4b9b9816860dca010765b762f1144c53f",
+      "bytes": 2491,
+      "snapshot": "sources/phase28_additional_summary.json",
+      "evidence_type": "published_measurement_reanalysis",
+      "selectors": [],
+      "url": "https://github.com/songsiyi2006-chem/ai4chem-complex-scaffolds-benchmark/blob/5e19c519dbd11430926828fddf5375b919af67f0/projects/phase28/results/additional_public_analysis/summary.json"
+    },
+    {
+      "id": "phase28_source_manifest.json",
+      "repository": "ai4chem-complex-scaffolds-benchmark",
+      "commit": "5e19c519dbd11430926828fddf5375b919af67f0",
+      "original_path": "projects/phase28/data/literature/source_manifest.json",
+      "sha256": "6ad8663fbdf1f1183ebe06d35350c3ef7c5037a74a88a03b35e8753b9ba76d18",
+      "bytes": 3375,
+      "snapshot": "sources/phase28_source_manifest.json",
+      "evidence_type": "third_party_provenance",
+      "selectors": [],
+      "url": "https://github.com/songsiyi2006-chem/ai4chem-complex-scaffolds-benchmark/blob/5e19c519dbd11430926828fddf5375b919af67f0/projects/phase28/data/literature/source_manifest.json"
+    },
+    {
+      "id": "phase28_extraction_manifest.json",
+      "repository": "ai4chem-complex-scaffolds-benchmark",
+      "commit": "5e19c519dbd11430926828fddf5375b919af67f0",
+      "original_path": "projects/phase28/data/literature/extraction_manifest.json",
+      "sha256": "7adfe7d2521309e932a55ffb8252b239386095e330c1eb22cfe4a4b873f7b9e8",
+      "bytes": 1545,
+      "snapshot": "sources/phase28_extraction_manifest.json",
+      "evidence_type": "third_party_provenance",
+      "selectors": [],
+      "url": "https://github.com/songsiyi2006-chem/ai4chem-complex-scaffolds-benchmark/blob/5e19c519dbd11430926828fddf5375b919af67f0/projects/phase28/data/literature/extraction_manifest.json"
+    },
+    {
+      "id": "phase28_additional_source_manifest.json",
+      "repository": "ai4chem-complex-scaffolds-benchmark",
+      "commit": "5e19c519dbd11430926828fddf5375b919af67f0",
+      "original_path": "projects/phase28/data/additional_public/source_manifest.json",
+      "sha256": "15be2c093ed81c299013b0a7187f78f100a906b3522d2eaa80b5254d8ef103d1",
+      "bytes": 1042,
+      "snapshot": "sources/phase28_additional_source_manifest.json",
+      "evidence_type": "third_party_provenance",
+      "selectors": [],
+      "url": "https://github.com/songsiyi2006-chem/ai4chem-complex-scaffolds-benchmark/blob/5e19c519dbd11430926828fddf5375b919af67f0/projects/phase28/data/additional_public/source_manifest.json"
+    },
+    {
+      "id": "phase28_production_fe_inputs.csv",
+      "repository": "ai4chem-complex-scaffolds-benchmark",
+      "commit": "5e19c519dbd11430926828fddf5375b919af67f0",
+      "original_path": "projects/phase28/data/additional_public/production_fe_summary_inputs.csv",
+      "sha256": "339e43d1c17492907b5fc0daa63fc894578af2456fa40ff0e2eccd96b3736702",
+      "bytes": 3602,
+      "snapshot": "sources/phase28_production_fe_inputs.csv",
+      "evidence_type": "published_summary_measurements",
+      "selectors": [],
+      "url": "https://github.com/songsiyi2006-chem/ai4chem-complex-scaffolds-benchmark/blob/5e19c519dbd11430926828fddf5375b919af67f0/projects/phase28/data/additional_public/production_fe_summary_inputs.csv"
+    },
+    {
+      "id": "phase28_replicate_mean_intervals.csv",
+      "repository": "ai4chem-complex-scaffolds-benchmark",
+      "commit": "5e19c519dbd11430926828fddf5375b919af67f0",
+      "original_path": "projects/phase28/results/additional_public_analysis/replicate_mean_intervals.csv",
+      "sha256": "36e7dfdd7f3ef751020eaac4cd0f8449d7cad5450f47171b2bee72fecf76397c",
+      "bytes": 7192,
+      "snapshot": "sources/phase28_replicate_mean_intervals.csv",
+      "evidence_type": "published_measurement_reanalysis",
+      "selectors": [],
+      "url": "https://github.com/songsiyi2006-chem/ai4chem-complex-scaffolds-benchmark/blob/5e19c519dbd11430926828fddf5375b919af67f0/projects/phase28/results/additional_public_analysis/replicate_mean_intervals.csv"
+    },
+    {
+      "id": "phase28_time_contrasts.csv",
+      "repository": "ai4chem-complex-scaffolds-benchmark",
+      "commit": "5e19c519dbd11430926828fddf5375b919af67f0",
+      "original_path": "projects/phase28/results/additional_public_analysis/time_contrasts_correlation_sensitivity.csv",
+      "sha256": "cf33ee166fdfde37dbdbb224240a0e15d2a2a118f1b653a60bc282858541b688",
+      "bytes": 6676,
+      "snapshot": "sources/phase28_time_contrasts.csv",
+      "evidence_type": "published_measurement_reanalysis",
+      "selectors": [],
+      "url": "https://github.com/songsiyi2006-chem/ai4chem-complex-scaffolds-benchmark/blob/5e19c519dbd11430926828fddf5375b919af67f0/projects/phase28/results/additional_public_analysis/time_contrasts_correlation_sensitivity.csv"
+    },
+    {
+      "id": "phase29_acceptance.json",
+      "repository": "ai4chem-complex-scaffolds-benchmark",
+      "commit": "5e19c519dbd11430926828fddf5375b919af67f0",
+      "original_path": "projects/phase29/results/acceptance.json",
+      "sha256": "3f2670caece7d504a1e7443b01d57f9f1ee6acfa75b5811d54a2c2d0de8659e8",
+      "bytes": 3829,
+      "snapshot": "sources/phase29_acceptance.json",
+      "evidence_type": "acceptance_audit",
+      "selectors": [
+        "/computed"
+      ],
+      "url": "https://github.com/songsiyi2006-chem/ai4chem-complex-scaffolds-benchmark/blob/5e19c519dbd11430926828fddf5375b919af67f0/projects/phase29/results/acceptance.json"
+    },
+    {
+      "id": "phase29_xtb_manifest.json",
+      "repository": "ai4chem-complex-scaffolds-benchmark",
+      "commit": "5e19c519dbd11430926828fddf5375b919af67f0",
+      "original_path": "projects/phase29/results/xtb_matrix/manifest.json",
+      "sha256": "32b5cefeeef1c8407bbe1db3058716c748e4f148f986bf022875c908aefa65d1",
+      "bytes": 182609,
+      "snapshot": "sources/phase29_xtb_manifest.json",
+      "evidence_type": "executed_xtb_ledger",
+      "selectors": [],
+      "url": "https://github.com/songsiyi2006-chem/ai4chem-complex-scaffolds-benchmark/blob/5e19c519dbd11430926828fddf5375b919af67f0/projects/phase29/results/xtb_matrix/manifest.json"
+    },
+    {
+      "id": "phase29_xtb_analysis.json",
+      "repository": "ai4chem-complex-scaffolds-benchmark",
+      "commit": "5e19c519dbd11430926828fddf5375b919af67f0",
+      "original_path": "projects/phase29/results/xtb_matrix/analysis.json",
+      "sha256": "8a34865e0d782ba488813d4e954e3c6516db0964c4e95fb1f4a3ec6ad69939be",
+      "bytes": 11634,
+      "snapshot": "sources/phase29_xtb_analysis.json",
+      "evidence_type": "executed_xtb",
+      "selectors": [],
+      "url": "https://github.com/songsiyi2006-chem/ai4chem-complex-scaffolds-benchmark/blob/5e19c519dbd11430926828fddf5375b919af67f0/projects/phase29/results/xtb_matrix/analysis.json"
+    },
+    {
+      "id": "phase29_state_differences.csv",
+      "repository": "ai4chem-complex-scaffolds-benchmark",
+      "commit": "5e19c519dbd11430926828fddf5375b919af67f0",
+      "original_path": "projects/phase29/results/xtb_matrix/state_differences.csv",
+      "sha256": "f02cf7dcaa8ed17366b563396373008ac9520406892f832b648133be2aa2c01e",
+      "bytes": 11235,
+      "snapshot": "sources/phase29_state_differences.csv",
+      "evidence_type": "executed_xtb",
+      "selectors": [
+        "72 data rows; molecule_id,gfn,environment"
+      ],
+      "url": "https://github.com/songsiyi2006-chem/ai4chem-complex-scaffolds-benchmark/blob/5e19c519dbd11430926828fddf5375b919af67f0/projects/phase29/results/xtb_matrix/state_differences.csv"
+    },
+    {
+      "id": "phase29_dft_manifest.json",
+      "repository": "ai4chem-complex-scaffolds-benchmark",
+      "commit": "5e19c519dbd11430926828fddf5375b919af67f0",
+      "original_path": "projects/phase29/results/dft_crosscheck/manifest.json",
+      "sha256": "c6ecc5feb54b638fc853c52575815ea9124c8172b29e314f7ce29d19cf71e996",
+      "bytes": 3406,
+      "snapshot": "sources/phase29_dft_manifest.json",
+      "evidence_type": "executed_dft_ledger",
+      "selectors": [
+        "/jobs"
+      ],
+      "url": "https://github.com/songsiyi2006-chem/ai4chem-complex-scaffolds-benchmark/blob/5e19c519dbd11430926828fddf5375b919af67f0/projects/phase29/results/dft_crosscheck/manifest.json"
+    },
+    {
+      "id": "phase29_dft_summary.json",
+      "repository": "ai4chem-complex-scaffolds-benchmark",
+      "commit": "5e19c519dbd11430926828fddf5375b919af67f0",
+      "original_path": "projects/phase29/results/dft_crosscheck/summary.json",
+      "sha256": "9c6d37dd33ba038c1fa00d368619e6e2e5ef87d9d275bb96932b7ebcefeaf789",
+      "bytes": 1880,
+      "snapshot": "sources/phase29_dft_summary.json",
+      "evidence_type": "executed_dft",
+      "selectors": [],
+      "url": "https://github.com/songsiyi2006-chem/ai4chem-complex-scaffolds-benchmark/blob/5e19c519dbd11430926828fddf5375b919af67f0/projects/phase29/results/dft_crosscheck/summary.json"
+    },
+    {
+      "id": "phase29_dft_differences.csv",
+      "repository": "ai4chem-complex-scaffolds-benchmark",
+      "commit": "5e19c519dbd11430926828fddf5375b919af67f0",
+      "original_path": "projects/phase29/results/dft_crosscheck/energy_differences.csv",
+      "sha256": "95b72f8c8c6508b26b3845f677501c906b2e542a9b95714a3d5646d975073411",
+      "bytes": 611,
+      "snapshot": "sources/phase29_dft_differences.csv",
+      "evidence_type": "executed_dft",
+      "selectors": [
+        "4 data rows"
+      ],
+      "url": "https://github.com/songsiyi2006-chem/ai4chem-complex-scaffolds-benchmark/blob/5e19c519dbd11430926828fddf5375b919af67f0/projects/phase29/results/dft_crosscheck/energy_differences.csv"
+    },
+    {
+      "id": "phase29_comparison.csv",
+      "repository": "ai4chem-complex-scaffolds-benchmark",
+      "commit": "5e19c519dbd11430926828fddf5375b919af67f0",
+      "original_path": "projects/phase29/results/dft_crosscheck/comparison/comparison.csv",
+      "sha256": "0e5884d5d6e63247f8952ec967b79822dac792f3d96db53683cd7d2b22a317a7",
+      "bytes": 2049,
+      "snapshot": "sources/phase29_comparison.csv",
+      "evidence_type": "matched_method_comparison",
+      "selectors": [
+        "8 data rows; geometry_sha256,basis,gfn,PBE0_delta_E_eV,GFN_delta_E_eV"
+      ],
+      "url": "https://github.com/songsiyi2006-chem/ai4chem-complex-scaffolds-benchmark/blob/5e19c519dbd11430926828fddf5375b919af67f0/projects/phase29/results/dft_crosscheck/comparison/comparison.csv"
+    },
+    {
+      "id": "phase29_comparison_summary.json",
+      "repository": "ai4chem-complex-scaffolds-benchmark",
+      "commit": "5e19c519dbd11430926828fddf5375b919af67f0",
+      "original_path": "projects/phase29/results/dft_crosscheck/comparison/summary.json",
+      "sha256": "d8f475843cbb098844b9d451a6cc2c964070f7717b606501651002c50fcdcc64",
+      "bytes": 4043,
+      "snapshot": "sources/phase29_comparison_summary.json",
+      "evidence_type": "matched_method_comparison",
+      "selectors": [],
+      "url": "https://github.com/songsiyi2006-chem/ai4chem-complex-scaffolds-benchmark/blob/5e19c519dbd11430926828fddf5375b919af67f0/projects/phase29/results/dft_crosscheck/comparison/summary.json"
+    },
+    {
+      "id": "phase30_acceptance.json",
+      "repository": "ai4chem-complex-scaffolds-benchmark",
+      "commit": "5e19c519dbd11430926828fddf5375b919af67f0",
+      "original_path": "projects/phase30/results/acceptance.json",
+      "sha256": "f3b9506485c7dfff6dd4973b6f5e00e1b0d77cb4291d5d1fcddbb2e200783416",
+      "bytes": 895,
+      "snapshot": "sources/phase30_acceptance.json",
+      "evidence_type": "uncalibrated_reduced_scenario",
+      "selectors": [],
+      "url": "https://github.com/songsiyi2006-chem/ai4chem-complex-scaffolds-benchmark/blob/5e19c519dbd11430926828fddf5375b919af67f0/projects/phase30/results/acceptance.json"
+    },
+    {
+      "id": "phase31_status.json",
+      "repository": "ai4chem-complex-scaffolds-benchmark",
+      "commit": "5e19c519dbd11430926828fddf5375b919af67f0",
+      "original_path": "projects/phase31/results/local_pilot/results/status.json",
+      "sha256": "5ace4fb18a68be2cc174e55102cd7c8a0b3a903fb0affd5613058e91769f180a",
+      "bytes": 2923,
+      "snapshot": "sources/phase31_status.json",
+      "evidence_type": "role_execution_ledger",
+      "selectors": [],
+      "url": "https://github.com/songsiyi2006-chem/ai4chem-complex-scaffolds-benchmark/blob/5e19c519dbd11430926828fddf5375b919af67f0/projects/phase31/results/local_pilot/results/status.json"
+    },
+    {
+      "id": "phase31_leads.json",
+      "repository": "ai4chem-complex-scaffolds-benchmark",
+      "commit": "5e19c519dbd11430926828fddf5375b919af67f0",
+      "original_path": "projects/phase31/results/local_pilot/results/pareto_top_leads.json",
+      "sha256": "1188480874f54f16067c9399781718734f08d17f71b47e407aaac38da65243f7",
+      "bytes": 143,
+      "snapshot": "sources/phase31_leads.json",
+      "evidence_type": "acceptance_audit",
+      "selectors": [],
+      "url": "https://github.com/songsiyi2006-chem/ai4chem-complex-scaffolds-benchmark/blob/5e19c519dbd11430926828fddf5375b919af67f0/projects/phase31/results/local_pilot/results/pareto_top_leads.json"
+    },
+    {
+      "id": "phase29_Q01_def2-svp_cation.json",
+      "repository": "ai4chem-complex-scaffolds-benchmark",
+      "commit": "5e19c519dbd11430926828fddf5375b919af67f0",
+      "original_path": "projects/phase29/results/dft_crosscheck/raw/Q01_def2-svp_cation/result.json",
+      "sha256": "f907f478f50ac377c1bf2ab09fb74708ce999c678d0db1b4bc88e9d2bd92e009",
+      "bytes": 1126,
+      "snapshot": "sources/phase29_Q01_def2-svp_cation.json",
+      "evidence_type": "executed_dft_individual_result",
+      "selectors": [],
+      "url": "https://github.com/songsiyi2006-chem/ai4chem-complex-scaffolds-benchmark/blob/5e19c519dbd11430926828fddf5375b919af67f0/projects/phase29/results/dft_crosscheck/raw/Q01_def2-svp_cation/result.json"
+    },
+    {
+      "id": "phase29_Q01_def2-svp_radical.json",
+      "repository": "ai4chem-complex-scaffolds-benchmark",
+      "commit": "5e19c519dbd11430926828fddf5375b919af67f0",
+      "original_path": "projects/phase29/results/dft_crosscheck/raw/Q01_def2-svp_radical/result.json",
+      "sha256": "282a09d4e36d5a978c04c9f417f1b49ea85719bf250561441e2631f686743c3f",
+      "bytes": 1126,
+      "snapshot": "sources/phase29_Q01_def2-svp_radical.json",
+      "evidence_type": "executed_dft_individual_result",
+      "selectors": [],
+      "url": "https://github.com/songsiyi2006-chem/ai4chem-complex-scaffolds-benchmark/blob/5e19c519dbd11430926828fddf5375b919af67f0/projects/phase29/results/dft_crosscheck/raw/Q01_def2-svp_radical/result.json"
+    },
+    {
+      "id": "phase29_Q01_def2-tzvp_cation.json",
+      "repository": "ai4chem-complex-scaffolds-benchmark",
+      "commit": "5e19c519dbd11430926828fddf5375b919af67f0",
+      "original_path": "projects/phase29/results/dft_crosscheck/raw/Q01_def2-tzvp_cation/result.json",
+      "sha256": "7ee64b1e6092cabe9e902e40299fd7f177bf58a1f60d88a7c59ea5cb04d2824f",
+      "bytes": 1131,
+      "snapshot": "sources/phase29_Q01_def2-tzvp_cation.json",
+      "evidence_type": "executed_dft_individual_result",
+      "selectors": [],
+      "url": "https://github.com/songsiyi2006-chem/ai4chem-complex-scaffolds-benchmark/blob/5e19c519dbd11430926828fddf5375b919af67f0/projects/phase29/results/dft_crosscheck/raw/Q01_def2-tzvp_cation/result.json"
+    },
+    {
+      "id": "phase29_Q01_def2-tzvp_radical.json",
+      "repository": "ai4chem-complex-scaffolds-benchmark",
+      "commit": "5e19c519dbd11430926828fddf5375b919af67f0",
+      "original_path": "projects/phase29/results/dft_crosscheck/raw/Q01_def2-tzvp_radical/result.json",
+      "sha256": "7890241a85eeba7ada45565109132e937a974e15ba1a7a9401002dbd26495bea",
+      "bytes": 1129,
+      "snapshot": "sources/phase29_Q01_def2-tzvp_radical.json",
+      "evidence_type": "executed_dft_individual_result",
+      "selectors": [],
+      "url": "https://github.com/songsiyi2006-chem/ai4chem-complex-scaffolds-benchmark/blob/5e19c519dbd11430926828fddf5375b919af67f0/projects/phase29/results/dft_crosscheck/raw/Q01_def2-tzvp_radical/result.json"
+    },
+    {
+      "id": "phase29_Q02_def2-svp_cation.json",
+      "repository": "ai4chem-complex-scaffolds-benchmark",
+      "commit": "5e19c519dbd11430926828fddf5375b919af67f0",
+      "original_path": "projects/phase29/results/dft_crosscheck/raw/Q02_def2-svp_cation/result.json",
+      "sha256": "cfbf128735ee5b1be203597ce429fed017167c23b8c9298daf099404b73b8473",
+      "bytes": 1127,
+      "snapshot": "sources/phase29_Q02_def2-svp_cation.json",
+      "evidence_type": "executed_dft_individual_result",
+      "selectors": [],
+      "url": "https://github.com/songsiyi2006-chem/ai4chem-complex-scaffolds-benchmark/blob/5e19c519dbd11430926828fddf5375b919af67f0/projects/phase29/results/dft_crosscheck/raw/Q02_def2-svp_cation/result.json"
+    },
+    {
+      "id": "phase29_Q02_def2-svp_radical.json",
+      "repository": "ai4chem-complex-scaffolds-benchmark",
+      "commit": "5e19c519dbd11430926828fddf5375b919af67f0",
+      "original_path": "projects/phase29/results/dft_crosscheck/raw/Q02_def2-svp_radical/result.json",
+      "sha256": "8ad0cfa9380337c6c0fdd6712bcd866a509986fae8828cf9b8620caefc268e4c",
+      "bytes": 1125,
+      "snapshot": "sources/phase29_Q02_def2-svp_radical.json",
+      "evidence_type": "executed_dft_individual_result",
+      "selectors": [],
+      "url": "https://github.com/songsiyi2006-chem/ai4chem-complex-scaffolds-benchmark/blob/5e19c519dbd11430926828fddf5375b919af67f0/projects/phase29/results/dft_crosscheck/raw/Q02_def2-svp_radical/result.json"
+    },
+    {
+      "id": "phase29_Q03_def2-svp_cation.json",
+      "repository": "ai4chem-complex-scaffolds-benchmark",
+      "commit": "5e19c519dbd11430926828fddf5375b919af67f0",
+      "original_path": "projects/phase29/results/dft_crosscheck/raw/Q03_def2-svp_cation/result.json",
+      "sha256": "159420c2029725d4037531025a1a1c8e797866ef69e36739e9afbd4124b5012c",
+      "bytes": 1125,
+      "snapshot": "sources/phase29_Q03_def2-svp_cation.json",
+      "evidence_type": "executed_dft_individual_result",
+      "selectors": [],
+      "url": "https://github.com/songsiyi2006-chem/ai4chem-complex-scaffolds-benchmark/blob/5e19c519dbd11430926828fddf5375b919af67f0/projects/phase29/results/dft_crosscheck/raw/Q03_def2-svp_cation/result.json"
+    },
+    {
+      "id": "phase29_Q03_def2-svp_radical.json",
+      "repository": "ai4chem-complex-scaffolds-benchmark",
+      "commit": "5e19c519dbd11430926828fddf5375b919af67f0",
+      "original_path": "projects/phase29/results/dft_crosscheck/raw/Q03_def2-svp_radical/result.json",
+      "sha256": "1fd91d916108e7720a10765a5b2e88c40711e004f38aa7130df7d8fdce62df91",
+      "bytes": 1125,
+      "snapshot": "sources/phase29_Q03_def2-svp_radical.json",
+      "evidence_type": "executed_dft_individual_result",
+      "selectors": [],
+      "url": "https://github.com/songsiyi2006-chem/ai4chem-complex-scaffolds-benchmark/blob/5e19c519dbd11430926828fddf5375b919af67f0/projects/phase29/results/dft_crosscheck/raw/Q03_def2-svp_radical/result.json"
+    }
+  ],
+  "license": {
+    "repository_material": "MIT; both original license notices preserved.",
+    "third_party_data": "Phase28 source article/workbook rights remain with original authors/publisher. No article text, publisher figures or full workbooks redistributed. Selected numerical summaries and derived aggregates retained with DOI, extraction coordinates and original workbook hashes. No claim that repository MIT relicenses third-party material.",
+    "source_license_verification_limit": "Publisher article metadata verified via primary web search; live rights text unavailable behind publisher identity redirect. Do not label third-party source material CC-BY without separate verification.",
+    "aqsoldb": "No AqSolDB/ESOL raw measurements redistributed; only original MIT code and historical reported metrics."
+  },
+  "historical_review_scope": {
+    "all_commit_subjects_and_categories": true,
+    "all_commit_diffs_or_all_scientific_outputs": false,
+    "precedence": "Latest scoped acceptance and fresh-run ledgers supersede legacy figure/caption claims. Historical running statuses are not current job status.",
+    "current_head_covers_phases": "01-31; phase32 not in this pinned remote history"
+  },
+  "new_work_accounting": {
+    "quantum_energy_calls": 0,
+    "training_runs": 0,
+    "molecular_optimizations": 0,
+    "new_experiments": 0,
+    "analysis_kind": "deterministic arithmetic over frozen outputs"
+  },
+  "recompute_command": "python manuscript/history/learning/sources/recompute_history.py",
+  "integrity_hashes": {
+    "figures/Figure_L1_Conformer_chinese.png": "c212ccfe3a785205776758e6aec5b9863b4e16c93eff498e14e3d867fa8b7701",
+    "figures/Figure_L1_Conformer_chinese.svg": "091a37cc778f70c33f3794191882a433b1d2dbcfae1bf131c118bf9d33dd1f43",
+    "figures/Figure_L1_Conformer_english.png": "b21b5e71c216e96c29cf4171287204f10725f1f9331bd3e320c46323aa6d2721",
+    "figures/Figure_L1_Conformer_english.svg": "60fab2137e0fa39d4a495b40d4156cb144fa18df311363a9b89574550373a5af",
+    "figures/Figure_L2_VMC_chinese.png": "07b7689001893848bdaa02efaf5a72ffe5093d6e97b7f8563888022838af1f00",
+    "figures/Figure_L2_VMC_chinese.svg": "9ddf0e26d52f73d6fd0c3101c9ebde7c95216a8ee67bd61d839adb8bc5292b87",
+    "figures/Figure_L2_VMC_english.png": "37aba04fdd0f7a19be95ab05c8f2a09e85d1e2ec520783a7c0e90ac398b9d7e2",
+    "figures/Figure_L2_VMC_english.svg": "3079da1b193c25cfc8fa07649958dfd25b62f7e42927a722059be1d59acc053b",
+    "figures/Figure_L3_Trace_Windows_chinese.png": "ce3849fb01c34c567ff4d5bdddb32d334bc492d027a5fd11180a1b09accbbfa8",
+    "figures/Figure_L3_Trace_Windows_chinese.svg": "ee7e08f7344a957d4a97f8e309973a6544007c502d7c3a0857f6b1354211914f",
+    "figures/Figure_L3_Trace_Windows_english.png": "99508908d547b07e8c81476d6237617062c03d298998875d09bf060d2645f0b3",
+    "figures/Figure_L3_Trace_Windows_english.svg": "5ca7936ec7135637caee1b80cdc4233d72313eed5219457cf80528d95e9ebc23",
+    "figures/Figure_L4_Reference_Alignment_chinese.png": "64d42803d8eeefb23b278e5570e2d293df05412c2eb1c20db0fa6499180271bf",
+    "figures/Figure_L4_Reference_Alignment_chinese.svg": "67b704b3ea460b0ce4b3daa7eeef40f6c569baec738dbe53b59f4fe40d8cf76f",
+    "figures/Figure_L4_Reference_Alignment_english.png": "bc2b97e5596512205dd3c3798cb9526dcc0861e64be1678c61c32efb11dcdfb6",
+    "figures/Figure_L4_Reference_Alignment_english.svg": "7a6ed9783e652d39f9ad188defdc9836dae17f65e7db2ae9c338ebfca8c7ba3b",
+    "figures/Figure_L5_Rank_Reversals_chinese.png": "63109d027ab8b5ff6647496d770a623016f1a1ec667432e01123fc8e37223913",
+    "figures/Figure_L5_Rank_Reversals_chinese.svg": "91a06e9a247590f26d490f778f2864ecd232c4c1b9200f96d2283969f95afdc8",
+    "figures/Figure_L5_Rank_Reversals_english.png": "5f3bdb9dcee0e4a92d16bd597ec3a992379b4dd667761e04555c3298b556a4c8",
+    "figures/Figure_L5_Rank_Reversals_english.svg": "f52225689258c3ab5498a32d916b668feab62fc657cf40242d3352f168d15e91",
+    "figures/figure_manifest.json": "f6247ccd1bf21ab13e20d065c94684f5ecd45168912fa008f34d24a02f253cb8",
+    "plotting.py": "5070e6637a24a0453b9ee83e9250428f80d634496f72728022724ba1bdd76a41",
+    "section_chinese.md": "767125048e1a38bd41b82ca8431c1e22cc1b28d03f8c000704a17247a1c734f2",
+    "section_english.md": "d464d5db059d6e2ac0eac17c7c66a917f3c6f5afc3a5c791517fdcd4ce100b8a",
+    "sources/aqueous_aqsol_model.py": "89485db4b60a346e7092d0f7ff7b8bda2bb2d85f6fec54ce8b4b3f1250977ada",
+    "sources/aqueous_esol_model.py": "a1b8bf4e858c5d6a92adbac0cfc19b69cdf3ff5b8867774439141655a29bb796",
+    "sources/aqueous_history.csv": "89935f57f05dcc930b8a4655ead50a1e1696a53a0d5a2958c693af06e9801ff4",
+    "sources/aqueous_LICENSE.txt": "986873f1521f996b89737cc6fbf4df946779c0485b8f9a31b572446343dcd9a1",
+    "sources/aqueous_paclitaxel.py": "a04302865152d2dea77e1e737d4468d33747247f82c80b545e415d9439f247bb",
+    "sources/aqueous_predict_solubility.py": "f87447c3c744f99cb66fe5eb9ec48dbade903c38e2e1ab46f18b67a61d919ce3",
+    "sources/aqueous_README.md": "138d32b9f36908bad6f2cb71045015b3321dbf76cb59277c13e9be995fbd2e46",
+    "sources/collect_history.py": "81c558424e1051670d52e4329d25e744a462112c6e316c848bb6f1952df3e987",
+    "sources/complex_EVIDENCE.md": "f0b8247e72aa354fdc6aa885f34e31363bbb6726b88002b092b4b4f530515e7b",
+    "sources/complex_history.csv": "b7f1ae036d917c4479485a019edf58486f5d3f6bff7b955bb5244e3ef2241544",
+    "sources/complex_LICENSE.txt": "4aa3c099ba123766a5710f89f802442b2b94a65370ee851ca2b8e341cef9e739",
+    "sources/complex_PHASE11_13_AUDIT_FIXES.md": "24388eeb73c21f6cb1a0b58968d59d8be5f4e762bb44e1b6baabee3b7250e862",
+    "sources/complex_PHASE1_19_CLOSEOUT.md": "d262d8b9c093cd8bf4984639b62d08d4d961fd16ee5ceae6147fd94890294e2c",
+    "sources/complex_PHASE1_5_AUDIT_FIXES.md": "feb3ca5b5303a605f65c776f2ee5bb4bc2387133fe3c5510c573939fc536877f",
+    "sources/complex_PHASE_INDEX.md": "4d0e50da1d90ace333845cdb0da05106f5389e8b9c6fa3091f267bce1b3fd747",
+    "sources/cross_review_multiscale.json": "d72eb1c90b6e484724b2e2e1e8d3154bc484f7dd26be543de11491624325057c",
+    "sources/deduplication.json": "27084628553bbff13ffd2054afa2c8be69a530415f4a082773a52c14d380aa5c",
+    "sources/derived_conformers.csv": "ca760ed0e7288d96a5dfa1f5238fe52a24a784fc1bee6ef0f48392bdaa9deb3b",
+    "sources/derived_rank_reversals.csv": "851b3ac447fab133d5c712af49dc98801b6955e9d281f0597a6aae865287cc76",
+    "sources/derived_reference_alignment.csv": "6660f535b08bb0bf349ef47caac39cc1a54f879045ba1625bbd64c6601318614",
+    "sources/derived_synthetic_campaign.csv": "eebfdaecafcbd7257b94b0fd91d18f03793f8859ea23760530ae513e11d59306",
+    "sources/derived_trace_summary.csv": "237e5fd3d3d2d531f68271d66916392e6e704e59ea79a0a117b3960f7195a8ac",
+    "sources/derived_vmc.csv": "244bdebcc2973c5dcd8d3fd15febcb288117737e67530c585b21129d110c119e",
+    "sources/derived_vmc_blocks.csv": "4ec8145ed8dfbec13eb8b49af5df2d854c15ebb8b0512bea9077342f97d1ee35",
+    "sources/finalize_history.py": "4f0395acdfccd0a2252c7761043dfa6274fddd2da7b22bdbd9c9d7b0492fd769",
+    "sources/phase01_acceptance.json": "046acf05a7420e1e3042c90e00db1b3a4ae48487961817ca14c642d18cb143ce",
+    "sources/phase01_audited.json": "484d2b8b8a94a017814fb8603eaaf211e37de765006f11a1e53a4ce14ddf6e0e",
+    "sources/phase01_original.json": "df0294d98cc63af3a1e482a2af8b00f22ee3c63e006ae752e21d814c6d794111",
+    "sources/phase11_acceptance.json": "71fb8eceea34a5ec9e1be5c97c59395abbb4723e047ac10a8bfa6be7dbd0263e",
+    "sources/phase11_references.json": "ee6df331bd0d7595908bb72f40b59cbcc3b7e80a774be70b59ff7336d454c410",
+    "sources/phase11_results.json": "c861061178ff7e13d1f3261538514234eb5f2e4960eed298253cf2b884c5aebb",
+    "sources/phase24_measurements.json": "6d8179c50c12b00e61864ca7f8f39deceb9b491b92ccb85f052391ca5f7f2cf6",
+    "sources/phase24_metrics.json": "da034030be4634172540da4376bed315e6788a181ab4f683585d97301728b8cd",
+    "sources/phase25_27_acceptance.json": "fac952107334a31e8d3abc29a41c8dbe7e3b5339d4048f19f800d0806864660e",
+    "sources/phase28_additional_source_manifest.json": "15be2c093ed81c299013b0a7187f78f100a906b3522d2eaa80b5254d8ef103d1",
+    "sources/phase28_additional_summary.json": "c84c51c320675479b1101ae8363a17d4b9b9816860dca010765b762f1144c53f",
+    "sources/phase28_extraction_manifest.json": "7adfe7d2521309e932a55ffb8252b239386095e330c1eb22cfe4a4b873f7b9e8",
+    "sources/phase28_hour_bins.csv": "c5732bbb12b43a3e9c8d6ea17514430f726aea517c51af71849381445e0a4b66",
+    "sources/phase28_production_fe_inputs.csv": "339e43d1c17492907b5fc0daa63fc894578af2456fa40ff0e2eccd96b3736702",
+    "sources/phase28_replicate_mean_intervals.csv": "36e7dfdd7f3ef751020eaac4cd0f8449d7cad5450f47171b2bee72fecf76397c",
+    "sources/phase28_source_manifest.json": "6ad8663fbdf1f1183ebe06d35350c3ef7c5037a74a88a03b35e8753b9ba76d18",
+    "sources/phase28_time_contrasts.csv": "cf33ee166fdfde37dbdbb224240a0e15d2a2a118f1b653a60bc282858541b688",
+    "sources/phase28_trace_metrics.csv": "ea77ceefb1e70830d0f1b9a22266e670ab241218a99deb4af9eddff2557db6e5",
+    "sources/phase28_trace_summary.json": "133468f08373dc56c31fc28001111ce6959471e81c857e0759ec53d3bc5e225a",
+    "sources/phase28_window_robustness.csv": "dd5109cc6c9f83817cc6ec23432712d462d3774d6336f4bc5666e108aeee490a",
+    "sources/phase29_acceptance.json": "3f2670caece7d504a1e7443b01d57f9f1ee6acfa75b5811d54a2c2d0de8659e8",
+    "sources/phase29_comparison.csv": "0e5884d5d6e63247f8952ec967b79822dac792f3d96db53683cd7d2b22a317a7",
+    "sources/phase29_comparison_summary.json": "d8f475843cbb098844b9d451a6cc2c964070f7717b606501651002c50fcdcc64",
+    "sources/phase29_dft_differences.csv": "95b72f8c8c6508b26b3845f677501c906b2e542a9b95714a3d5646d975073411",
+    "sources/phase29_dft_manifest.json": "c6ecc5feb54b638fc853c52575815ea9124c8172b29e314f7ce29d19cf71e996",
+    "sources/phase29_dft_summary.json": "9c6d37dd33ba038c1fa00d368619e6e2e5ef87d9d275bb96932b7ebcefeaf789",
+    "sources/phase29_Q01_def2-svp_cation.json": "f907f478f50ac377c1bf2ab09fb74708ce999c678d0db1b4bc88e9d2bd92e009",
+    "sources/phase29_Q01_def2-svp_radical.json": "282a09d4e36d5a978c04c9f417f1b49ea85719bf250561441e2631f686743c3f",
+    "sources/phase29_Q01_def2-tzvp_cation.json": "7ee64b1e6092cabe9e902e40299fd7f177bf58a1f60d88a7c59ea5cb04d2824f",
+    "sources/phase29_Q01_def2-tzvp_radical.json": "7890241a85eeba7ada45565109132e937a974e15ba1a7a9401002dbd26495bea",
+    "sources/phase29_Q02_def2-svp_cation.json": "cfbf128735ee5b1be203597ce429fed017167c23b8c9298daf099404b73b8473",
+    "sources/phase29_Q02_def2-svp_radical.json": "8ad0cfa9380337c6c0fdd6712bcd866a509986fae8828cf9b8620caefc268e4c",
+    "sources/phase29_Q03_def2-svp_cation.json": "159420c2029725d4037531025a1a1c8e797866ef69e36739e9afbd4124b5012c",
+    "sources/phase29_Q03_def2-svp_radical.json": "1fd91d916108e7720a10765a5b2e88c40711e004f38aa7130df7d8fdce62df91",
+    "sources/phase29_state_differences.csv": "f02cf7dcaa8ed17366b563396373008ac9520406892f832b648133be2aa2c01e",
+    "sources/phase29_xtb_analysis.json": "8a34865e0d782ba488813d4e954e3c6516db0964c4e95fb1f4a3ec6ad69939be",
+    "sources/phase29_xtb_manifest.json": "32b5cefeeef1c8407bbe1db3058716c748e4f148f986bf022875c908aefa65d1",
+    "sources/phase30_acceptance.json": "f3b9506485c7dfff6dd4973b6f5e00e1b0d77cb4291d5d1fcddbb2e200783416",
+    "sources/phase31_leads.json": "1188480874f54f16067c9399781718734f08d17f71b47e407aaac38da65243f7",
+    "sources/phase31_status.json": "5ace4fb18a68be2cc174e55102cd7c8a0b3a903fb0affd5613058e91769f180a",
+    "sources/phase_coverage.json": "a65d6df3163e181bf3df7b0d9d2efa1661137244400beec4aad2f5f39d9eb343",
+    "sources/posthoc_summary.json": "23cbda13946a1927c7c3ca61c799837cb1b6591352022b5a075888b28ffb94da",
+    "sources/README.md": "299331f4d9ca691a14f197f3961587041fa8309b7f1363fe66ebbb2b3d512b73",
+    "sources/recompute_history.py": "4cc0ca634308c47704e689aa1e35a2f41616386da95737619112413d2de68c5d"
+  },
+  "posthoc_summary": "sources/posthoc_summary.json",
+  "figure_ready_tables": [
+    "sources/derived_conformers.csv",
+    "sources/derived_vmc.csv",
+    "sources/derived_vmc_blocks.csv",
+    "sources/derived_trace_summary.csv",
+    "sources/phase28_window_robustness.csv",
+    "sources/derived_reference_alignment.csv",
+    "sources/derived_rank_reversals.csv",
+    "sources/derived_synthetic_campaign.csv"
+  ],
+  "coverage_ledger": "sources/phase_coverage.json",
+  "principal_claims": [
+    {
+      "id": "shared_ancestry",
+      "evidence": "exact_git_object_and_byte_hash",
+      "source": "sources/deduplication.json",
+      "pointer": "/common_root_commit",
+      "value": "5939547a936ed4baf7fa7ee9fac6fa6e90bfa8fe",
+      "boundary": "Two repositories are not independent replications."
+    },
+    {
+      "id": "reported_solubility_RMSE",
+      "evidence": "report_only_not_recomputed",
+      "source": "sources/aqueous_README.md",
+      "text_selector": "0.635",
+      "value": 0.635,
+      "boundary": "No frozen predictions, labels, split IDs or weights in the committed tree."
+    },
+    {
+      "id": "random_not_scaffold",
+      "evidence": "source_protocol",
+      "source": "sources/aqueous_aqsol_model.py",
+      "text_selector": "KFold(n_splits=5, shuffle=True, random_state=42)",
+      "boundary": "No historical scaffold-split result; canonical identity exclusion does not establish analogue/source independence."
+    },
+    {
+      "id": "conformer_count",
+      "evidence": "executed_forcefield_recomputed",
+      "source": "sources/posthoc_summary.json",
+      "pointer": "/phase01/accepted_optimization_records",
+      "value": 500,
+      "boundary": "Records, not unique minima or QM calls; same 10 structures in original and audited output."
+    },
+    {
+      "id": "VMC_He_accuracy",
+      "evidence": "executed_vmc_recomputed",
+      "source": "sources/phase11_results.json",
+      "pointer": "/systems/He/d_fci",
+      "value": 1.6608865319498456,
+      "unit": "mEh",
+      "boundary": "Fails fixed 1.6 mEh point gate; computed CBS reference has uncertainty."
+    },
+    {
+      "id": "VMC_internal_check",
+      "evidence": "saved_selftest_same_run",
+      "source": "sources/phase11_results.json",
+      "pointer": "/self_tests/laplacian_fd_relerr",
+      "value": 3.515304116655698e-07,
+      "boundary": "Not variational accuracy or a trained-wavefunction cusp certificate."
+    },
+    {
+      "id": "trace_record_count",
+      "evidence": "published_aggregate_recomputed",
+      "source": "sources/posthoc_summary.json",
+      "pointer": "/phase28/published_trace_rows",
+      "value": 196496,
+      "boundary": "Only 39726 distinct within-trace timestamps; electrode count unknown."
+    },
+    {
+      "id": "trace_window_dependence",
+      "evidence": "same_trace_estimand_sensitivity",
+      "source": "sources/derived_trace_summary.csv",
+      "selector": {
+        "trace_id": "nature2023_constant_current"
+      },
+      "columns": [
+        "timestamp_balanced_1h_change",
+        "startup_ge10h_min",
+        "startup_ge10h_max"
+      ],
+      "values": [
+        0.0442499999999999,
+        -0.0040000000000000036,
+        0.00924999999999998
+      ],
+      "unit": "V",
+      "boundary": "Specification sensitivity, not between-electrode uncertainty."
+    },
+    {
+      "id": "xtb_count_dedup",
+      "evidence": "job_ledger_recomputed",
+      "source": "sources/posthoc_summary.json",
+      "pointer": "/phase29",
+      "boundary": "156 executions=12 initial+144 extension; 144 unique settings; all extension calls retain warnings."
+    },
+    {
+      "id": "DFT_calls",
+      "evidence": "individual_result_and_ledger",
+      "source": "sources/phase29_dft_manifest.json",
+      "pointer": "/jobs",
+      "count": 8,
+      "boundary": "Four charge-state pairs, not eight independent molecules."
+    },
+    {
+      "id": "reference_centered_Q03_GFN1",
+      "evidence": "matched_geometry_recomputed",
+      "source": "sources/derived_reference_alignment.csv",
+      "selector": {
+        "molecule_id": "Q03",
+        "gfn": "1"
+      },
+      "column": "double_difference_eV",
+      "value": 0.25673639503660706,
+      "unit": "eV",
+      "boundary": "PBE0 comparator; no physical redox calibration."
+    },
+    {
+      "id": "conservation_without_validation",
+      "evidence": "numerical_scenario",
+      "source": "sources/phase30_acceptance.json",
+      "pointer": "/checks/carbon_balance_mol_s",
+      "value": -4.1165801236558996e-19,
+      "boundary": "Uncalibrated scenario despite conservation."
+    }
+  ],
+  "paired_counterexamples": [
+    {
+      "identity": "same frozen Phase11 seed11 run",
+      "passed": "antisymmetry and Laplacian check",
+      "failed_or_missing": "He 1.6mEh gate; trained-wavefunction cusp validation",
+      "pairing_limit": "Run-level checks, not every trained-weight state revalidated; weights absent."
+    },
+    {
+      "identity": "same Phase29 geometry_sha256 within molecular method pairs",
+      "passed": "SCF convergence and stored arithmetic",
+      "failed_or_missing": "Physical electron-reference alignment and external chemistry accuracy",
+      "pairing_limit": "PBE0 is not truth; three molecules and one-parent basis test only."
+    },
+    {
+      "identity": "same three published traces",
+      "passed": "preserved data identity and numerical aggregation",
+      "failed_or_missing": "Window-independent degradation estimate and independent lifetime observations",
+      "pairing_limit": "No independently replicated electrodes inferred from rows."
+    }
+  ],
+  "proposed_figures": [
+    {
+      "number": "L1",
+      "files": [
+        "figures/Figure_L1_Conformer_english.png",
+        "figures/Figure_L1_Conformer_chinese.png"
+      ],
+      "purpose": "Historical conformer energy ranges. Every valid structure contributes 50 accepted optimization records; the hatched M07 bar uses UFF and all others use MMFF94. The ranges do not measure entropy or establish unique minima."
+    },
+    {
+      "number": "L2",
+      "files": [
+        "figures/Figure_L2_VMC_english.png",
+        "figures/Figure_L2_VMC_chinese.png"
+      ],
+      "purpose": "VMC errors against the saved computed FCI CBS reference. Error bars are ±1 block standard error from 20 saved production blocks per system; they exclude reference uncertainty. The 1.6 mEh line is the unchanged point-estimate gate. Distances are in bohr."
+    },
+    {
+      "number": "L3",
+      "files": [
+        "figures/Figure_L3_Trace_Windows_english.png",
+        "figures/Figure_L3_Trace_Windows_chinese.png"
+      ],
+      "purpose": "Endpoint-change sensitivity over all 72 saved window specifications, using the same three published traces. Voltage panels share the −5 to 45 mV color scale; the source-current panel has an independent −0.16 to 0.05 scale with unresolved current normalization. The black divider marks startup exclusion of at least 10 h. Values are descriptive contrasts, not independent-replicate confidence intervals [@yang2023; @yang2026]."
+    },
+    {
+      "number": "L4",
+      "files": [
+        "figures/Figure_L4_Reference_Alignment_english.png",
+        "figures/Figure_L4_Reference_Alignment_chinese.png"
+      ],
+      "purpose": "Fixed-geometry gas-phase comparison with PBE0/def2-SVP. Left: raw charge-state offsets. Right: double differences after subtracting each method’s Q01 value. The different vertical scales are intentional. PBE0 is a method comparator, and the raw offsets are not calibrated physical prediction errors."
+    },
+    {
+      "number": "L5",
+      "files": [
+        "figures/Figure_L5_Rank_Reversals_english.png",
+        "figures/Figure_L5_Rank_Reversals_chinese.png"
+      ],
+      "purpose": "All 15 method/environment comparisons from the 72 state differences. Each off-diagonal cell counts reversed orderings among the same 66 pairs of 12 molecules, not new calculations or errors against experiment. Diagonal zeros are identity comparisons."
+    }
+  ],
+  "publication_validation": {
+    "status": "passed",
+    "tables_each_language": 6,
+    "table_numeric_parity": true,
+    "english_word_count": 3233,
+    "chinese_character_count": 6071,
+    "figures_each_language": 5,
+    "png_files": 10,
+    "svg_files": 10,
+    "new_science_jobs": 0,
+    "DFT_difference_max_error_eV": 0.0,
+    "xTB_difference_max_error_eV": 0.0,
+    "history_categories": "All54 commit subjects inventoried; latest scoped status covers all31 phases.",
+    "visual_qa": "figures/figure_manifest.json"
+  }
+}

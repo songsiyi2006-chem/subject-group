@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "checks": {
+    "all_populations_exact": true,
+    "all_final_graphs_valid": true,
+    "all_no_dummy_atoms": true,
+    "finite_3d_scores": true,
+    "mpo_bounds": true,
+    "no_duplicate_final_smiles": true,
+    "best_score_not_decreased": true
+  }
+}

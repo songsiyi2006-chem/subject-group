@@ -1,0 +1,2109 @@
+{
+  "schema_version": 1,
+  "verified_on": "2026-09-29 (new entries); 2026-09-28 (inherited entries)",
+  "source_commit_for_local_evidence": "1ad05c243155a9f64b18e0d58c665424fde919a0",
+  "manuscript_author_as_provided": {
+    "english": "Siyi Song",
+    "chinese": "宋思毅",
+    "affiliation": "Guangxi Normal University / 广西师范大学",
+    "status": "User-provided authorship and affiliation; no external verification or inferred Tang-group membership."
+  },
+  "verification_policy": {
+    "scope": "Published references for method attribution, closest prior work and experimental motivation; not an exhaustive novelty search or journal-tier certification.",
+    "primary_sources_only_for_scientific_claims": true,
+    "no_preprints_included": true,
+    "access_recorded_per_reference": true,
+    "incomplete_author_lists_explicit": true,
+    "doi_null_does_not_mean_invalid_publication": true,
+    "classification_policy": "CAS major-category Zone 1, JCR Q1 and Scopus Q1 are distinct. No journal tier is inferred from title, reputation or JIF. Unverified entries are not represented as having passed a Q1 admission gate.",
+    "journal_classification_search_outcome": "No directly authoritative year-specific CAS/JCR record was inspected. Third-party aggregators, theses and publisher-hosted author biographies were not accepted as definitive journal classifications.",
+    "no_paywall_bypass": true
+  },
+  "reference_count": 41,
+  "tang_gxnu_author_verified_count": 6,
+  "references": [
+    {
+      "id": "R01",
+      "citation_key": "unke2021",
+      "title": "Machine Learning Force Fields",
+      "authors": [
+        "Oliver T. Unke",
+        "Stefan Chmiela",
+        "Huziel E. Sauceda",
+        "Michael Gastegger",
+        "Igor Poltavsky",
+        "Kristof T. Schütt",
+        "Alexandre Tkatchenko",
+        "Klaus-Robert Müller"
+      ],
+      "author_list_complete": true,
+      "year": 2021,
+      "journal": "Chemical Reviews",
+      "doi": "10.1021/acs.chemrev.0c01111",
+      "url": "https://pubs.acs.org/doi/10.1021/acs.chemrev.0c01111",
+      "publication_status": "published",
+      "reference_role": "review",
+      "verified_source": [
+        {
+          "url": "https://pubs.acs.org/toc/chreay/121/16",
+          "source_type": "publisher_issue",
+          "access_level": "indexed_metadata",
+          "verified_fields": [
+            "full_author_list",
+            "title",
+            "year",
+            "journal",
+            "pages",
+            "doi"
+          ]
+        },
+        {
+          "url": "https://pubs.acs.org/doi/abs/10.1021/acs.chemrev.0c01111",
+          "source_type": "publisher_article",
+          "access_level": "indexed_abstract_and_sections",
+          "verified_fields": [
+            "supported_claim"
+          ]
+        }
+      ],
+      "supported_claim": {
+        "english": "Established ML force-field constructions, symmetry constraints, training information and limitations provide context for distinguishing mathematical consistency from validated chemistry.",
+        "chinese": "已有机器学习力场构造、对称性、训练信息及局限，为区分数学一致性和化学验证提供背景。"
+      },
+      "does_not_support": [
+        "This literature does not validate the repository's own numerical outputs or establish its chemical transferability."
+      ],
+      "journal_classification": {
+        "classification": "unverified",
+        "system": null,
+        "year": null,
+        "category": null,
+        "evidence_url": null,
+        "reason": "No authoritative CAS major-category or JCR quartile record with an explicit year was verified. Journal reputation, impact factor and Scopus quartiles were not substituted."
+      },
+      "volume": "121",
+      "issue": "16",
+      "pages_or_article": "10142–10186"
+    },
+    {
+      "id": "R02",
+      "citation_key": "batzner2022",
+      "title": "E(3)-equivariant graph neural networks for data-efficient and accurate interatomic potentials",
+      "authors": [
+        "S. Batzner",
+        "A. Musaelian",
+        "L. Sun"
+      ],
+      "author_list_complete": false,
+      "year": 2022,
+      "journal": "Nature Communications",
+      "doi": "10.1038/s41467-022-29939-5",
+      "url": "https://www.nature.com/articles/s41467-022-29939-5",
+      "publication_status": "published",
+      "reference_role": "representation_method",
+      "verified_source": [
+        {
+          "url": "https://www.nature.com/articles/s41467-022-29939-5",
+          "source_type": "publisher_article",
+          "access_level": "indexed_publisher_text_and_citation",
+          "verified_fields": [
+            "title",
+            "first_three_authors",
+            "year",
+            "doi",
+            "article_number",
+            "supported_claim"
+          ]
+        }
+      ],
+      "supported_claim": {
+        "english": "NequIP establishes trained equivariant interatomic potentials and evaluates them on chemical and materials systems; equivariance alone is not training or chemical validation.",
+        "chinese": "NequIP建立并检验了经过训练的等变原子间势；具有等变性本身不能替代训练和化学验证。"
+      },
+      "does_not_support": [
+        "This literature does not validate the repository's own numerical outputs or establish its chemical transferability."
+      ],
+      "journal_classification": {
+        "classification": "unverified",
+        "system": null,
+        "year": null,
+        "category": null,
+        "evidence_url": null,
+        "reason": "No authoritative CAS major-category or JCR quartile record with an explicit year was verified. Journal reputation, impact factor and Scopus quartiles were not substituted."
+      },
+      "authors_display": "Batzner, S.; Musaelian, A.; Sun, L.; et al.",
+      "author_note": "Only the first three authors as displayed in the publisher's citation line are transcribed; no complete list is inferred.",
+      "volume": "13",
+      "pages_or_article": "2453",
+      "online_publication_date": "2022-05-04"
+    },
+    {
+      "id": "R03",
+      "citation_key": "evaluation",
+      "title": "Forces are not Enough: Benchmark and Critical Evaluation for Machine Learning Force Fields with Molecular Simulations",
+      "authors": [
+        "Xiang Fu",
+        "Zhenghao Wu",
+        "Wujie Wang",
+        "Tian Xie",
+        "Sinan Keten",
+        "Rafael Gómez-Bombarelli",
+        "Tommi Jaakkola"
+      ],
+      "author_list_complete": true,
+      "year": 2023,
+      "journal": "Transactions on Machine Learning Research",
+      "doi": null,
+      "url": "https://openreview.net/forum?id=A8pqQipwkt",
+      "publication_status": "published",
+      "reference_role": "closest_prior_work",
+      "verified_source": [
+        {
+          "url": "https://openreview.net/pdf?id=A8pqQipwkt",
+          "source_type": "journal_official_published_pdf",
+          "access_level": "indexed_published_pdf_header_authors_and_abstract",
+          "verified_fields": [
+            "title",
+            "full_author_list",
+            "published_in_TMLR_2023_04",
+            "supported_claim"
+          ]
+        }
+      ],
+      "supported_claim": {
+        "english": "Simulation-oriented evaluation of learned force fields already shows that force prediction errors alone are insufficient for judging molecular simulation behavior.",
+        "chinese": "面向模拟的机器学习力场评估已说明，单独的力预测误差不足以判断分子模拟表现。"
+      },
+      "does_not_support": [
+        "This literature does not validate the repository's own numerical outputs or establish its chemical transferability."
+      ],
+      "journal_classification": {
+        "classification": "unverified",
+        "system": null,
+        "year": null,
+        "category": null,
+        "evidence_url": null,
+        "reason": "No authoritative CAS major-category or JCR quartile record with an explicit year was verified. Journal reputation, impact factor and Scopus quartiles were not substituted."
+      },
+      "publication_date_precision": "2023-04",
+      "doi_status": "No DOI exposed in the inspected official publication record; null is deliberate.",
+      "version_note": "Cites the published TMLR version, not the 2022 workshop or preprint."
+    },
+    {
+      "id": "R04",
+      "citation_key": "uncertainty",
+      "title": "Evaluating Scalable Uncertainty Estimation Methods for Deep Learning-Based Molecular Property Prediction",
+      "authors": [
+        "Gabriele Scalia",
+        "Colin A. Grambow",
+        "Barbara Pernici",
+        "Yi-Pei Li",
+        "William H. Green"
+      ],
+      "author_list_complete": true,
+      "year": 2020,
+      "journal": "Journal of Chemical Information and Modeling",
+      "doi": "10.1021/acs.jcim.9b00975",
+      "url": "https://pubs.acs.org/doi/10.1021/acs.jcim.9b00975",
+      "publication_status": "published",
+      "reference_role": "closest_prior_work",
+      "verified_source": [
+        {
+          "url": "https://pubs.acs.org/jcisd8/article/60/6/2697/849650/Evaluating-Scalable-Uncertainty-Estimation-Methods",
+          "source_type": "publisher_article",
+          "access_level": "indexed_metadata_and_abstract",
+          "verified_fields": [
+            "title",
+            "full_author_list",
+            "year",
+            "doi",
+            "pages",
+            "supported_claim"
+          ]
+        }
+      ],
+      "supported_claim": {
+        "english": "Uncertainty estimation for molecular prediction requires explicit evaluation; ensemble variation is not automatically calibrated predictive coverage.",
+        "chinese": "分子性质预测的不确定度估计需要专门评估；模型集成离散度并不自动具有校准后的预测覆盖率。"
+      },
+      "does_not_support": [
+        "This literature does not validate the repository's own numerical outputs or establish its chemical transferability."
+      ],
+      "journal_classification": {
+        "classification": "unverified",
+        "system": null,
+        "year": null,
+        "category": null,
+        "evidence_url": null,
+        "reason": "No authoritative CAS major-category or JCR quartile record with an explicit year was verified. Journal reputation, impact factor and Scopus quartiles were not substituted."
+      },
+      "volume": "60",
+      "issue": "6",
+      "pages_or_article": "2697–2717",
+      "online_publication_date": "2020-04-24"
+    },
+    {
+      "id": "R05",
+      "citation_key": "leakage",
+      "title": "Leakage and the reproducibility crisis in machine-learning-based science",
+      "authors": [
+        "Sayash Kapoor",
+        "Arvind Narayanan"
+      ],
+      "author_list_complete": true,
+      "year": 2023,
+      "journal": "Patterns",
+      "doi": "10.1016/j.patter.2023.100804",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2666389923001599",
+      "publication_status": "published",
+      "reference_role": "evaluation_context",
+      "verified_source": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S2666389923001599",
+          "source_type": "publisher_article",
+          "access_level": "indexed_metadata_summary_and_highlights",
+          "verified_fields": [
+            "title",
+            "full_author_list",
+            "year",
+            "journal",
+            "doi",
+            "supported_claim"
+          ]
+        }
+      ],
+      "supported_claim": {
+        "english": "A published leakage taxonomy and model-info-sheet proposal precede this work; evaluation validity depends on information flow and intended deployment.",
+        "chinese": "已有研究给出数据泄漏分类及模型信息表；评估是否有效取决于信息流和预期使用范围。"
+      },
+      "does_not_support": [
+        "This literature does not validate the repository's own numerical outputs or establish its chemical transferability."
+      ],
+      "journal_classification": {
+        "classification": "unverified",
+        "system": null,
+        "year": null,
+        "category": null,
+        "evidence_url": null,
+        "reason": "No authoritative CAS major-category or JCR quartile record with an explicit year was verified. Journal reputation, impact factor and Scopus quartiles were not substituted."
+      },
+      "volume": "4",
+      "issue": "9",
+      "pages_or_article": "100804",
+      "issue_date": "2023-09-08"
+    },
+    {
+      "id": "R06",
+      "citation_key": "datasail",
+      "title": "Data splitting to avoid information leakage with DataSAIL",
+      "authors": [
+        "Roman Joeres",
+        "David B. Blumenthal",
+        "Olga V. Kalinina"
+      ],
+      "author_list_complete": true,
+      "year": 2025,
+      "journal": "Nature Communications",
+      "doi": "10.1038/s41467-025-58606-8",
+      "url": "https://www.nature.com/articles/s41467-025-58606-8",
+      "publication_status": "published",
+      "reference_role": "closest_prior_work",
+      "verified_source": [
+        {
+          "url": "https://www.nature.com/articles/s41467-025-58606-8",
+          "source_type": "publisher_article",
+          "access_level": "indexed_article_text",
+          "verified_fields": [
+            "title",
+            "full_author_list",
+            "year",
+            "doi",
+            "article_number",
+            "supported_claim"
+          ]
+        }
+      ],
+      "supported_claim": {
+        "english": "Similarity-aware, leakage-reduced splitting has an existing optimization formulation and empirical comparisons; this repository introduces no new splitting algorithm.",
+        "chinese": "相似性约束的数据拆分已有优化问题定义及实证比较；本仓库没有提出新的拆分算法。"
+      },
+      "does_not_support": [
+        "This literature does not validate the repository's own numerical outputs or establish its chemical transferability."
+      ],
+      "journal_classification": {
+        "classification": "unverified",
+        "system": null,
+        "year": null,
+        "category": null,
+        "evidence_url": null,
+        "reason": "No authoritative CAS major-category or JCR quartile record with an explicit year was verified. Journal reputation, impact factor and Scopus quartiles were not substituted."
+      },
+      "volume": "16",
+      "pages_or_article": "3337",
+      "online_publication_date": "2025-04-08",
+      "updates": [
+        {
+          "type": "addendum",
+          "reference_id": "R25",
+          "doi": "10.1038/s41467-025-67495-w",
+          "url": "https://www.nature.com/articles/s41467-025-67495-w",
+          "read": true,
+          "note": "The 2026 addendum compares pre-existing dataset splits; PINDER is a counterexample to universal superiority of DataSAIL's leakage score."
+        }
+      ]
+    },
+    {
+      "id": "R07",
+      "citation_key": "kamath2018",
+      "title": "Neural networks vs Gaussian process regression for representing potential energy surfaces: A comparative study of fit quality and vibrational spectrum accuracy",
+      "authors": [
+        "Aditya Kamath",
+        "Rodrigo A. Vargas-Hernández",
+        "Roman V. Krems",
+        "Tucker Carrington, Jr.",
+        "Sergei Manzhos"
+      ],
+      "author_list_complete": true,
+      "year": 2018,
+      "journal": "The Journal of Chemical Physics",
+      "doi": "10.1063/1.5003074",
+      "url": "https://pubs.aip.org/aip/jcp/article/148/24/241702/958880/Neural-networks-vs-Gaussian-process-regression-for",
+      "publication_status": "published",
+      "reference_role": "closest_prior_work",
+      "verified_source": [
+        {
+          "url": "https://pubs.aip.org/aip/jcp/article/148/24/241702/958880/Neural-networks-vs-Gaussian-process-regression-for",
+          "source_type": "publisher_article",
+          "access_level": "metadata_and_abstract_via_publisher_CDN_redirect",
+          "verified_fields": [
+            "title",
+            "full_author_list",
+            "year",
+            "doi",
+            "article_number",
+            "supported_claim"
+          ]
+        }
+      ],
+      "supported_claim": {
+        "english": "A matched-data NN/GP study already compares potential-surface errors with computed formaldehyde vibrational spectra using a common reference and numerical basis.",
+        "chinese": "已有相同数据的神经网络/高斯过程研究，在统一参考势与数值基组下比较甲醛势能面误差及振动谱误差。"
+      },
+      "does_not_support": [
+        "It does not show that the present Morse calculations are spectra of the trained neural potential; that coupling was not executed."
+      ],
+      "journal_classification": {
+        "classification": "unverified",
+        "system": null,
+        "year": null,
+        "category": null,
+        "evidence_url": null,
+        "reason": "No authoritative CAS major-category or JCR quartile record with an explicit year was verified. Journal reputation, impact factor and Scopus quartiles were not substituted."
+      },
+      "volume": "148",
+      "issue": "24",
+      "pages_or_article": "241702",
+      "online_publication_date": "2018-03-15"
+    },
+    {
+      "id": "R08",
+      "citation_key": "bond_dissociation",
+      "title": "Improving Bond Dissociations of Reactive Machine Learning Potentials through Physics-Constrained Data Augmentation",
+      "authors": [
+        "Luan G. F. dos Santos",
+        "Benjamin T. Nebgen",
+        "Alice E. A. Allen",
+        "Brenden W. Hamilton",
+        "Sakib Matin",
+        "Justin S. Smith",
+        "Richard A. Messerly"
+      ],
+      "author_list_complete": true,
+      "year": 2025,
+      "journal": "Journal of Chemical Information and Modeling",
+      "doi": "10.1021/acs.jcim.4c01847",
+      "url": "https://pubs.acs.org/doi/10.1021/acs.jcim.4c01847",
+      "publication_status": "published",
+      "reference_role": "closest_prior_work",
+      "verified_source": [
+        {
+          "url": "https://pubs.acs.org/doi/10.1021/acs.jcim.4c01847",
+          "source_type": "publisher_article",
+          "access_level": "indexed_metadata_and_abstract",
+          "verified_fields": [
+            "title",
+            "full_author_list",
+            "year",
+            "doi",
+            "pages",
+            "supported_claim"
+          ]
+        }
+      ],
+      "supported_claim": {
+        "english": "Morse-based data augmentation has already been used to improve bond dissociation curves and energies of a reactive MLIP, with a methane-combustion example.",
+        "chinese": "已有工作利用Morse数据增广改善反应机器学习势的断键曲线和键解离能，并研究甲烷燃烧案例。"
+      },
+      "does_not_support": [
+        "Morse parameterization in this repository is neither a new PCDA method nor a reproduction of this reactive-MLIP study."
+      ],
+      "journal_classification": {
+        "classification": "unverified",
+        "system": null,
+        "year": null,
+        "category": null,
+        "evidence_url": null,
+        "reason": "No authoritative CAS major-category or JCR quartile record with an explicit year was verified. Journal reputation, impact factor and Scopus quartiles were not substituted."
+      },
+      "volume": "65",
+      "issue": "3",
+      "pages_or_article": "1198–1210",
+      "online_publication_date": "2025-01-28"
+    },
+    {
+      "id": "R09",
+      "citation_key": "psi4",
+      "title": "Psi4 1.4: Open-source software for high-throughput quantum chemistry",
+      "authors": [
+        "D. G. A. Smith",
+        "L. A. Burns",
+        "A. C. Simmonett"
+      ],
+      "author_list_complete": false,
+      "year": 2020,
+      "journal": "The Journal of Chemical Physics",
+      "doi": "10.1063/5.0006002",
+      "url": "https://doi.org/10.1063/5.0006002",
+      "publication_status": "published",
+      "reference_role": "foundational_software",
+      "verified_source": [
+        {
+          "url": "https://crawford.chem.vt.edu/wp-content/uploads/2020/05/5.0006002.pdf",
+          "source_type": "author_hosted_published_pdf",
+          "access_level": "original_published_article_text",
+          "verified_fields": [
+            "title",
+            "authors",
+            "year",
+            "journal",
+            "doi",
+            "supported_claim"
+          ]
+        },
+        {
+          "url": "https://psicode.org/posts/software_pubs/",
+          "source_type": "official_software_publication_list",
+          "access_level": "citation_metadata",
+          "verified_fields": [
+            "title",
+            "authors",
+            "year",
+            "doi"
+          ]
+        }
+      ],
+      "supported_claim": {
+        "english": "Psi4 is the quantum-chemistry software lineage used for the repository's separately documented electronic calculations.",
+        "chinese": "Psi4是仓库电子结构计算使用的软件体系来源；具体执行版本和数值仍需依赖本地运行记录。"
+      },
+      "does_not_support": [
+        "The article describing Psi4 1.4 is not a claim that the present jobs ran version 1.4; the saved local runtime is Psi4 1.11.",
+        "A software citation does not validate a user's choice of basis, spin, geometry or method."
+      ],
+      "journal_classification": {
+        "classification": "unverified",
+        "system": null,
+        "year": null,
+        "category": null,
+        "evidence_url": null,
+        "reason": "No authoritative CAS major-category or JCR quartile record with an explicit year was verified. Journal reputation, impact factor and Scopus quartiles were not substituted."
+      },
+      "authors_display": "Smith, D. G. A.; Burns, L. A.; Simmonett, A. C.; et al.",
+      "author_note": "The first three author names are transcribed as initials; the long full author list is intentionally not reconstructed.",
+      "volume": "152",
+      "pages_or_article": "184108"
+    },
+    {
+      "id": "R10",
+      "citation_key": "dunning",
+      "title": "Gaussian basis sets for use in correlated molecular calculations. I. The atoms boron through neon and hydrogen",
+      "authors": [
+        "Thom H. Dunning, Jr."
+      ],
+      "author_list_complete": true,
+      "year": 1989,
+      "journal": "The Journal of Chemical Physics",
+      "doi": "10.1063/1.456153",
+      "url": "https://doi.org/10.1063/1.456153",
+      "publication_status": "published",
+      "reference_role": "foundational_method",
+      "verified_source": [
+        {
+          "url": "https://pubs.aip.org/aip/jcp/issue/90/2",
+          "source_type": "publisher_issue",
+          "access_level": "indexed_bibliographic_metadata",
+          "verified_fields": [
+            "title",
+            "author",
+            "year",
+            "journal",
+            "pages",
+            "doi"
+          ]
+        }
+      ],
+      "supported_claim": {
+        "english": "Attribution of the correlation-consistent basis-set family, including the cc-pVDZ label used in this benchmark.",
+        "chinese": "用于归属本基准采用的cc-pVDZ相关一致基组体系。"
+      },
+      "does_not_support": [
+        "This literature does not validate the repository's own numerical outputs or establish its chemical transferability."
+      ],
+      "journal_classification": {
+        "classification": "unverified",
+        "system": null,
+        "year": null,
+        "category": null,
+        "evidence_url": null,
+        "reason": "No authoritative CAS major-category or JCR quartile record with an explicit year was verified. Journal reputation, impact factor and Scopus quartiles were not substituted."
+      },
+      "volume": "90",
+      "pages_or_article": "1007–1023",
+      "verification_limit": "Bibliographic identity was verified; no detailed accuracy claim is drawn from inaccessible full text."
+    },
+    {
+      "id": "R11",
+      "citation_key": "morse",
+      "title": "Diatomic Molecules According to the Wave Mechanics. II. Vibrational Levels",
+      "authors": [
+        "Philip M. Morse"
+      ],
+      "author_list_complete": true,
+      "year": 1929,
+      "journal": "Physical Review",
+      "doi": "10.1103/PhysRev.34.57",
+      "url": "https://journals.aps.org/pr/abstract/10.1103/PhysRev.34.57",
+      "publication_status": "published",
+      "reference_role": "foundational_method",
+      "verified_source": [
+        {
+          "url": "https://journals.aps.org/pr/abstract/10.1103/PhysRev.34.57",
+          "source_type": "publisher_record",
+          "access_level": "metadata_and_abstract",
+          "verified_fields": [
+            "title",
+            "authors",
+            "year",
+            "journal",
+            "doi",
+            "supported_claim"
+          ]
+        }
+      ],
+      "supported_claim": {
+        "english": "The analytically solvable Morse vibrational model is an established reference, not a new potential proposed here.",
+        "chinese": "可解析求解的Morse振动模型是既有数值参照，而非本工作新提出的势能模型。"
+      },
+      "does_not_support": [
+        "This literature does not validate the repository's own numerical outputs or establish its chemical transferability."
+      ],
+      "journal_classification": {
+        "classification": "unverified",
+        "system": null,
+        "year": null,
+        "category": null,
+        "evidence_url": null,
+        "reason": "No authoritative CAS major-category or JCR quartile record with an explicit year was verified. Journal reputation, impact factor and Scopus quartiles were not substituted."
+      },
+      "volume": "34",
+      "pages_or_article": "57–64",
+      "online_publication_date": "1929-07-01",
+      "verification_limit": "Publisher metadata and abstract inspected; no claim of a newly derived full-dimensional molecular spectrum."
+    },
+    {
+      "id": "R12",
+      "citation_key": "neb",
+      "title": "A climbing image nudged elastic band method for finding saddle points and minimum energy paths",
+      "authors": [
+        "Graeme Henkelman",
+        "Blas P. Uberuaga",
+        "Hannes Jónsson"
+      ],
+      "author_list_complete": true,
+      "year": 2000,
+      "journal": "The Journal of Chemical Physics",
+      "doi": "10.1063/1.1329672",
+      "url": "https://doi.org/10.1063/1.1329672",
+      "publication_status": "published",
+      "reference_role": "foundational_method",
+      "verified_source": [
+        {
+          "url": "https://hj.hi.is/papers/paperCI-NEB.pdf",
+          "source_type": "author_hosted_published_pdf",
+          "access_level": "original_published_article_text",
+          "verified_fields": [
+            "title",
+            "full_author_list",
+            "year",
+            "journal",
+            "doi",
+            "pages",
+            "supported_claim"
+          ]
+        }
+      ],
+      "supported_claim": {
+        "english": "The climbing-image NEB construction is an established saddle-search method; the current force-stopped analytic tests validate an implementation only.",
+        "chinese": "攀爬图像NEB为既有鞍点搜索方法；本仓库带力收敛判据的解析测试仅验证相应实现。"
+      },
+      "does_not_support": [
+        "This literature does not validate the repository's own numerical outputs or establish its chemical transferability."
+      ],
+      "journal_classification": {
+        "classification": "unverified",
+        "system": null,
+        "year": null,
+        "category": null,
+        "evidence_url": null,
+        "reason": "No authoritative CAS major-category or JCR quartile record with an explicit year was verified. Journal reputation, impact factor and Scopus quartiles were not substituted."
+      },
+      "volume": "113",
+      "issue": "22",
+      "pages_or_article": "9901–9904"
+    },
+    {
+      "id": "R13",
+      "citation_key": "neb_tangent",
+      "title": "Improved tangent estimate in the nudged elastic band method for finding minimum energy paths and saddle points",
+      "authors": [
+        "Graeme Henkelman",
+        "Hannes Jónsson"
+      ],
+      "author_list_complete": true,
+      "year": 2000,
+      "journal": "The Journal of Chemical Physics",
+      "doi": "10.1063/1.1323224",
+      "url": "https://doi.org/10.1063/1.1323224",
+      "publication_status": "published",
+      "reference_role": "foundational_method",
+      "verified_source": [
+        {
+          "url": "https://hj.hi.is/topicRateTheory.html",
+          "source_type": "original_author_publication_list",
+          "access_level": "metadata_and_original_article_link",
+          "verified_fields": [
+            "title",
+            "authors",
+            "year",
+            "journal",
+            "pages"
+          ]
+        },
+        {
+          "url": "https://pubs.aip.org/aip/jcp/article-abstract/160/21/214114/3295839/Plugin-based-interoperability-and-ecosystem?redirectedFrom=fulltext",
+          "source_type": "publisher_reference_list",
+          "access_level": "bibliographic_metadata",
+          "verified_fields": [
+            "title",
+            "authors",
+            "year",
+            "journal",
+            "pages",
+            "doi"
+          ]
+        }
+      ],
+      "supported_claim": {
+        "english": "Attribution of the established improved NEB tangent method; no new tangent theory is claimed.",
+        "chinese": "归属既有改进NEB切向量方法；本工作不声称提出新的切向量理论。"
+      },
+      "does_not_support": [
+        "This literature does not validate the repository's own numerical outputs or establish its chemical transferability."
+      ],
+      "journal_classification": {
+        "classification": "unverified",
+        "system": null,
+        "year": null,
+        "category": null,
+        "evidence_url": null,
+        "reason": "No authoritative CAS major-category or JCR quartile record with an explicit year was verified. Journal reputation, impact factor and Scopus quartiles were not substituted."
+      },
+      "volume": "113",
+      "pages_or_article": "9978–9985",
+      "verification_limit": "Bibliographic identity verified. Linked original PDF timed out; detailed statements about its equations are not based on a newly inspected full text.",
+      "updates": [
+        {
+          "type": "author_listed_erratum",
+          "url": "https://www.henkelmanlab.org/pubs/henkelman00_9978e.pdf",
+          "listed_by": "https://www.henkelmanlab.org/pubs/",
+          "read": false,
+          "note": "Author site lists an erratum; the file was inaccessible to the browser. No claim about its content is made."
+        }
+      ]
+    },
+    {
+      "id": "R14",
+      "citation_key": "gillespie",
+      "title": "Exact stochastic simulation of coupled chemical reactions",
+      "authors": [
+        "Daniel T. Gillespie"
+      ],
+      "author_list_complete": true,
+      "year": 1977,
+      "journal": "The Journal of Physical Chemistry",
+      "doi": "10.1021/j100540a008",
+      "url": "https://pubs.acs.org/doi/10.1021/j100540a008",
+      "publication_status": "published",
+      "reference_role": "foundational_method",
+      "verified_source": [
+        {
+          "url": "https://pubs.acs.org/doi/10.1021/j100540a008",
+          "source_type": "publisher_record",
+          "access_level": "metadata_and_abstract",
+          "verified_fields": [
+            "title",
+            "authors",
+            "year",
+            "journal",
+            "doi",
+            "supported_claim"
+          ]
+        }
+      ],
+      "supported_claim": {
+        "english": "Attribution of exact stochastic simulation of a specified reaction network; mathematical correctness does not establish the network's experimental mechanism.",
+        "chinese": "归属给定反应网络的精确随机模拟方法；数学正确性不等于该网络已由实验机理证实。"
+      },
+      "does_not_support": [
+        "This literature does not validate the repository's own numerical outputs or establish its chemical transferability."
+      ],
+      "journal_classification": {
+        "classification": "unverified",
+        "system": null,
+        "year": null,
+        "category": null,
+        "evidence_url": null,
+        "reason": "No authoritative CAS major-category or JCR quartile record with an explicit year was verified. Journal reputation, impact factor and Scopus quartiles were not substituted."
+      },
+      "volume": "81",
+      "issue": "25",
+      "pages_or_article": "2340–2361",
+      "date_note": "Uses the 1977 issue year, not the later date of online digitization.",
+      "verification_limit": "Publisher bibliographic record inspected; full article not required for attributing the algorithm."
+    },
+    {
+      "id": "R15",
+      "citation_key": "berendsen",
+      "title": "Molecular dynamics with coupling to an external bath",
+      "authors": [
+        "H. J. C. Berendsen",
+        "J. P. M. Postma",
+        "W. F. van Gunsteren",
+        "A. DiNola",
+        "J. R. Haak"
+      ],
+      "author_list_complete": true,
+      "year": 1984,
+      "journal": "The Journal of Chemical Physics",
+      "doi": "10.1063/1.448118",
+      "url": "https://doi.org/10.1063/1.448118",
+      "publication_status": "published",
+      "reference_role": "foundational_method",
+      "verified_source": [
+        {
+          "url": "https://pure.rug.nl/ws/files/64380902/1.448118.pdf",
+          "source_type": "institution_hosted_version_of_record",
+          "access_level": "original_published_article_text",
+          "verified_fields": [
+            "title",
+            "full_author_list",
+            "year",
+            "journal",
+            "doi",
+            "pages",
+            "supported_claim"
+          ]
+        }
+      ],
+      "supported_claim": {
+        "english": "Attribution of weak bath coupling; the repository's own variance tests separately assess whether a sampled distribution matches its ensemble target.",
+        "chinese": "归属弱耦合恒温方法；采样分布是否符合目标系综，由仓库独立的涨落检验判断。"
+      },
+      "does_not_support": [
+        "This literature does not validate the repository's own numerical outputs or establish its chemical transferability."
+      ],
+      "journal_classification": {
+        "classification": "unverified",
+        "system": null,
+        "year": null,
+        "category": null,
+        "evidence_url": null,
+        "reason": "No authoritative CAS major-category or JCR quartile record with an explicit year was verified. Journal reputation, impact factor and Scopus quartiles were not substituted."
+      },
+      "volume": "81",
+      "issue": "8",
+      "pages_or_article": "3684–3690"
+    },
+    {
+      "id": "R16",
+      "citation_key": "freesolv",
+      "title": "FreeSolv: a database of experimental and calculated hydration free energies, with input files",
+      "authors": [
+        "David L. Mobley",
+        "J. Peter Guthrie"
+      ],
+      "author_list_complete": true,
+      "year": 2014,
+      "journal": "Journal of Computer-Aided Molecular Design",
+      "doi": "10.1007/s10822-014-9747-x",
+      "url": "https://link.springer.com/article/10.1007/s10822-014-9747-x",
+      "publication_status": "published",
+      "reference_role": "data_source",
+      "verified_source": [
+        {
+          "url": "https://link.springer.com/article/10.1007/s10822-014-9747-x",
+          "source_type": "publisher_record",
+          "access_level": "metadata_and_abstract",
+          "verified_fields": [
+            "title",
+            "authors",
+            "year",
+            "journal",
+            "doi",
+            "supported_claim"
+          ]
+        }
+      ],
+      "supported_claim": {
+        "english": "FreeSolv supplies hydration free-energy data; these labels do not become redox potentials or electrocatalytic yields.",
+        "chinese": "FreeSolv提供水合自由能数据；不能将此标签改称氧化还原电位或电催化产率。"
+      },
+      "does_not_support": [
+        "This literature does not validate the repository's own numerical outputs or establish its chemical transferability."
+      ],
+      "journal_classification": {
+        "classification": "unverified",
+        "system": null,
+        "year": null,
+        "category": null,
+        "evidence_url": null,
+        "reason": "No authoritative CAS major-category or JCR quartile record with an explicit year was verified. Journal reputation, impact factor and Scopus quartiles were not substituted."
+      },
+      "volume": "28",
+      "pages_or_article": "711–720",
+      "online_publication_date": "2014-06-14"
+    },
+    {
+      "id": "R17",
+      "citation_key": "moleculenet",
+      "title": "MoleculeNet: a benchmark for molecular machine learning",
+      "authors": [
+        "Zhenqin Wu",
+        "Bharath Ramsundar",
+        "Evan N. Feinberg",
+        "Joseph Gomes",
+        "Caleb Geniesse",
+        "Aneesh S. Pappu",
+        "Karl Leswing",
+        "Vijay Pande"
+      ],
+      "author_list_complete": true,
+      "year": 2018,
+      "journal": "Chemical Science",
+      "doi": "10.1039/C7SC02664A",
+      "url": "https://pubs.rsc.org/en/content/articlehtml/2018/sc/c7sc02664a",
+      "publication_status": "published",
+      "reference_role": "closest_prior_work",
+      "verified_source": [
+        {
+          "url": "https://pubs.rsc.org/en/content/articlehtml/2018/sc/c7sc02664a",
+          "source_type": "publisher_article",
+          "access_level": "article_text",
+          "verified_fields": [
+            "title",
+            "full_author_list",
+            "year",
+            "journal",
+            "doi",
+            "pages",
+            "supported_claim"
+          ]
+        }
+      ],
+      "supported_claim": {
+        "english": "Molecular ML benchmarks, datasets, task-dependent metrics and splitting choices have substantial prior art; the current small subset is not a replacement.",
+        "chinese": "分子机器学习数据基准、任务指标及拆分方式已有系统工作；本仓库的小样本测试不能替代其广度。"
+      },
+      "does_not_support": [
+        "This literature does not validate the repository's own numerical outputs or establish its chemical transferability."
+      ],
+      "journal_classification": {
+        "classification": "unverified",
+        "system": null,
+        "year": null,
+        "category": null,
+        "evidence_url": null,
+        "reason": "No authoritative CAS major-category or JCR quartile record with an explicit year was verified. Journal reputation, impact factor and Scopus quartiles were not substituted."
+      },
+      "volume": "9",
+      "pages_or_article": "513–530",
+      "online_publication_date": "2017-10-31",
+      "date_note": "The journal citation year is 2018 although first online publication was in 2017."
+    },
+    {
+      "id": "R18",
+      "citation_key": "digital_twin",
+      "title": "A knowledge graph framework for digital twins of chemical processes",
+      "authors": [
+        "Shuyuan Zhang",
+        "Jiyizhe Zhang",
+        "Alexei A. Lapkin"
+      ],
+      "author_list_complete": true,
+      "year": 2026,
+      "journal": "Nature Chemical Engineering",
+      "doi": "10.1038/s44286-026-00392-1",
+      "url": "https://www.nature.com/articles/s44286-026-00392-1",
+      "publication_status": "published",
+      "reference_role": "adjacent_prior_work",
+      "verified_source": [
+        {
+          "url": "https://www.nature.com/articles/s44286-026-00392-1",
+          "source_type": "publisher_article",
+          "access_level": "indexed_article_text",
+          "verified_fields": [
+            "title",
+            "full_author_list",
+            "year",
+            "journal",
+            "doi",
+            "pages",
+            "supported_claim"
+          ]
+        }
+      ],
+      "supported_claim": {
+        "english": "Knowledge-graph and agent-assisted construction and calibration of chemical-process digital twins is already published; a simulated uncalibrated loop has a narrower evidence scope.",
+        "chinese": "基于知识图谱和代理的化学过程数字孪生构造与校准已有发表工作；未经校准的模拟闭环证据范围更窄。"
+      },
+      "does_not_support": [
+        "This literature does not validate the repository's own numerical outputs or establish its chemical transferability."
+      ],
+      "journal_classification": {
+        "classification": "unverified",
+        "system": null,
+        "year": null,
+        "category": null,
+        "evidence_url": null,
+        "reason": "No authoritative CAS major-category or JCR quartile record with an explicit year was verified. Journal reputation, impact factor and Scopus quartiles were not substituted."
+      },
+      "volume": "3",
+      "pages_or_article": "286–297",
+      "online_publication_date": "2026-05-14"
+    },
+    {
+      "id": "R19",
+      "citation_key": "tang1",
+      "title": "Electrochemical Selective C2–H Hydroxymethylation of Pyridines via a Zinc Single-Atom Cathode and Anodic Iodide Relay-Mediated Strategy",
+      "authors": [
+        "Xiaodong Liu",
+        "Mao-Rui Wang",
+        "Yongle Chen",
+        "Junwei Tang",
+        "Xinyu Wang",
+        "Hai-Tao Tang",
+        "Ying-Ming Pan"
+      ],
+      "author_list_complete": true,
+      "year": 2026,
+      "journal": "Journal of the American Chemical Society",
+      "doi": "10.1021/jacs.6c07265",
+      "url": "https://pubs.acs.org/doi/abs/10.1021/jacs.6c07265",
+      "publication_status": "published",
+      "reference_role": "experimental_chemistry_context",
+      "verified_source": [
+        {
+          "url": "https://pubs.acs.org/doi/abs/10.1021/jacs.6c07265",
+          "source_type": "publisher_article",
+          "access_level": "indexed_author_affiliations_metadata_and_abstract",
+          "verified_fields": [
+            "title",
+            "full_author_list",
+            "Tang_affiliation",
+            "Tang_ORCID",
+            "year",
+            "journal",
+            "doi",
+            "pages",
+            "supported_claim"
+          ]
+        }
+      ],
+      "supported_claim": {
+        "english": "An experimentally reported zinc-single-atom/iodide electrosynthetic strategy motivates careful assignment of catalyst, electrode and selectivity observables.",
+        "chinese": "已报道的锌单原子/碘离子电合成策略，为准确区分催化剂、电极及选择性物理量提供实验背景。"
+      },
+      "does_not_support": [
+        "No reactions, catalyst properties or yields from this paper were reproduced by the present repository.",
+        "The publication does not establish that Siyi Song is a member or collaborator of the cited group."
+      ],
+      "journal_classification": {
+        "classification": "unverified",
+        "system": null,
+        "year": null,
+        "category": null,
+        "evidence_url": null,
+        "reason": "No authoritative CAS major-category or JCR quartile record with an explicit year was verified. Journal reputation, impact factor and Scopus quartiles were not substituted."
+      },
+      "volume": "148",
+      "issue": "30",
+      "pages_or_article": "32155–32166",
+      "online_publication_date": "2026-06-16",
+      "identity_verification": {
+        "author": "Hai-Tao Tang",
+        "affiliation": "School of Chemistry and Pharmaceutical Sciences, Guangxi Normal University, Guilin 541004, China",
+        "affiliation_verified_from": "publisher_author_information",
+        "corresponding_author": true,
+        "orcid": "0000-0001-7531-0458",
+        "institutional_email": "httang@gxnu.edu.cn",
+        "no_inferred_connection_to_manuscript_author": true
+      }
+    },
+    {
+      "id": "R20",
+      "citation_key": "tang2",
+      "title": "Single-Atom Iron Catalyst as an Advanced Redox Mediator for Anodic Oxidation of Organic Electrosynthesis",
+      "authors": [
+        "Xin-Yu Wang",
+        "Yong-Zhou Pan",
+        "Jiarui Yang",
+        "Wen-Hao Li",
+        "Tao Gan",
+        "Ying-Ming Pan",
+        "Hai-Tao Tang",
+        "Dingsheng Wang"
+      ],
+      "author_list_complete": true,
+      "year": 2024,
+      "journal": "Angewandte Chemie International Edition",
+      "doi": "10.1002/anie.202404295",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/anie.202404295",
+      "publication_status": "published",
+      "reference_role": "experimental_chemistry_context",
+      "verified_source": [
+        {
+          "url": "https://onlinelibrary.wiley.com/doi/10.1002/anie.202404295",
+          "source_type": "publisher_record",
+          "access_level": "metadata_and_abstract",
+          "verified_fields": [
+            "title",
+            "authors",
+            "year",
+            "journal",
+            "doi",
+            "supported_claim"
+          ]
+        }
+      ],
+      "supported_claim": {
+        "english": "The reported Fe-SA@NC redox mediator is experimentally applied to organic electro-oxidative transformations, including a cyclopropyl-amide ring opening.",
+        "chinese": "文献将Fe-SA@NC氧化还原介体用于实际有机电氧化，包括环丙基酰胺开环反应。"
+      },
+      "does_not_support": [
+        "The repository's assumed kinetic cycle and hand-constructed fragments are not validated mechanistic models of this paper.",
+        "This reference does not imply authorship, supervision or collaboration for the present manuscript."
+      ],
+      "journal_classification": {
+        "classification": "unverified",
+        "system": null,
+        "year": null,
+        "category": null,
+        "evidence_url": null,
+        "reason": "No authoritative CAS major-category or JCR quartile record with an explicit year was verified. Journal reputation, impact factor and Scopus quartiles were not substituted."
+      },
+      "volume": "63",
+      "issue": "27",
+      "pages_or_article": "e202404295",
+      "online_publication_date": "2024-04-22",
+      "identity_verification": {
+        "author": "Hai-Tao Tang",
+        "affiliation": "School of Chemistry and Pharmaceutical Sciences, Guangxi Normal University, Guilin 541004, China",
+        "affiliation_verified_from": "publisher_author_information",
+        "corresponding_author": true,
+        "no_inferred_connection_to_manuscript_author": true
+      }
+    },
+    {
+      "id": "R21",
+      "citation_key": "tang3",
+      "title": "Single-Atom Manganese-Catalyzed Oxygen Evolution Drives the Electrochemical Oxidation of Silane to Silanol",
+      "authors": [
+        "Hai-Tao Tang",
+        "He-Yang Zhou",
+        "Ying-Ming Pan",
+        "Jia-Lan Zhang",
+        "Fei-Hu Cui",
+        "Wen-Hao Li",
+        "Dingsheng Wang"
+      ],
+      "author_list_complete": true,
+      "year": 2024,
+      "journal": "Angewandte Chemie International Edition",
+      "doi": "10.1002/anie.202315032",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/anie.202315032",
+      "publication_status": "published",
+      "reference_role": "experimental_chemistry_context",
+      "verified_source": [
+        {
+          "url": "https://onlinelibrary.wiley.com/doi/10.1002/anie.202315032",
+          "source_type": "publisher_record",
+          "access_level": "metadata_and_abstract",
+          "verified_fields": [
+            "title",
+            "authors",
+            "year",
+            "journal",
+            "doi",
+            "supported_claim"
+          ]
+        }
+      ],
+      "supported_claim": {
+        "english": "The reported manganese-single-atom electrocatalytic system connects oxygen-evolution chemistry with silane oxidation to silanol.",
+        "chinese": "文献报道的锰单原子电催化体系将析氧相关化学与硅烷氧化为硅醇相联系。"
+      },
+      "does_not_support": [
+        "No silane/silanol reaction pathway or experimental performance was computed or reproduced in this repository.",
+        "This reference does not imply authorship, supervision or collaboration for the present manuscript."
+      ],
+      "journal_classification": {
+        "classification": "unverified",
+        "system": null,
+        "year": null,
+        "category": null,
+        "evidence_url": null,
+        "reason": "No authoritative CAS major-category or JCR quartile record with an explicit year was verified. Journal reputation, impact factor and Scopus quartiles were not substituted."
+      },
+      "volume": "63",
+      "issue": "3",
+      "pages_or_article": "e202315032",
+      "online_publication_date": "2023-12-06",
+      "date_note": "The issue citation year is 2024; the online publication date is in 2023.",
+      "identity_verification": {
+        "author": "Hai-Tao Tang",
+        "affiliation": "School of Chemistry and Pharmaceutical Sciences, Guangxi Normal University, Guilin 541004, China",
+        "affiliation_verified_from": "publisher_author_information",
+        "corresponding_author": true,
+        "no_inferred_connection_to_manuscript_author": true
+      }
+    },
+    {
+      "id": "R22",
+      "citation_key": "tang4",
+      "title": "Electrocatalytic three-component reactions: synthesis of tellurium-containing oxazolidinone for anticancer agents",
+      "authors": [
+        "Xue-Qi Zhou",
+        "Hai-Tao Tang",
+        "Fei-Hu Cui",
+        "Ying Liang",
+        "Shu-Hui Li",
+        "Ying-Ming Pan"
+      ],
+      "author_list_complete": true,
+      "year": 2023,
+      "journal": "Green Chemistry",
+      "doi": "10.1039/D3GC01288C",
+      "url": "https://pubs.rsc.org/en/content/articlelanding/2023/gc/d3gc01288c/unauth",
+      "publication_status": "published",
+      "reference_role": "experimental_chemistry_context",
+      "verified_source": [
+        {
+          "url": "https://pubs.rsc.org/en/content/articlelanding/2023/gc/d3gc01288c/unauth",
+          "source_type": "publisher_article",
+          "access_level": "indexed_metadata_affiliations_and_abstract",
+          "verified_fields": [
+            "title",
+            "full_author_list",
+            "Tang_affiliation",
+            "year",
+            "journal",
+            "doi",
+            "pages",
+            "supported_claim"
+          ]
+        }
+      ],
+      "supported_claim": {
+        "english": "An experimental electrosynthetic multicomponent route affords tellurium-containing oxazolidinones; the associated biological assay is separate from computational chemistry verification.",
+        "chinese": "文献通过实验电化学多组分反应合成含碲噁唑烷酮；相关生物测定不能由计算化学内部检验替代。"
+      },
+      "does_not_support": [
+        "This repository establishes neither anticancer efficacy nor the safety of the reported compounds.",
+        "No synthesis or biological assay from the paper was repeated by the manuscript author."
+      ],
+      "journal_classification": {
+        "classification": "unverified",
+        "system": null,
+        "year": null,
+        "category": null,
+        "evidence_url": null,
+        "reason": "No authoritative CAS major-category or JCR quartile record with an explicit year was verified. Journal reputation, impact factor and Scopus quartiles were not substituted."
+      },
+      "volume": "25",
+      "pages_or_article": "5024–5029",
+      "online_publication_date": "2023-06-06",
+      "identity_verification": {
+        "author": "Hai-Tao Tang",
+        "affiliation": "School of Chemistry and Pharmaceutical Sciences, Guangxi Normal University, Guilin 541004, China",
+        "affiliation_verified_from": "publisher_author_superscript_a_and_affiliation",
+        "corresponding_author": false,
+        "no_inferred_connection_to_manuscript_author": true
+      }
+    },
+    {
+      "id": "R23",
+      "citation_key": "mpnn",
+      "title": "Neural Message Passing for Quantum Chemistry",
+      "authors": [
+        "Justin Gilmer",
+        "Samuel S. Schoenholz",
+        "Patrick F. Riley",
+        "Oriol Vinyals",
+        "George E. Dahl"
+      ],
+      "author_list_complete": true,
+      "year": 2017,
+      "journal": "Proceedings of the 34th International Conference on Machine Learning; Proceedings of Machine Learning Research",
+      "doi": null,
+      "url": "https://proceedings.mlr.press/v70/gilmer17a.html",
+      "publication_status": "published",
+      "reference_role": "foundational_method",
+      "verified_source": [
+        {
+          "url": "https://proceedings.mlr.press/v70/gilmer17a.html",
+          "source_type": "publisher_record",
+          "access_level": "metadata_and_abstract",
+          "verified_fields": [
+            "title",
+            "authors",
+            "year",
+            "journal",
+            "doi",
+            "supported_claim"
+          ]
+        }
+      ],
+      "supported_claim": {
+        "english": "Message passing and graph-level aggregation are established molecular prediction constructions; the present H2 regressor is not a new MPNN principle.",
+        "chinese": "消息传递和图级聚合是既有分子预测构造；当前H2回归器并未提出新的MPNN原理。"
+      },
+      "does_not_support": [
+        "This literature does not validate the repository's own numerical outputs or establish its chemical transferability."
+      ],
+      "journal_classification": {
+        "classification": "not_applicable",
+        "system": null,
+        "year": null,
+        "category": null,
+        "evidence_url": null,
+        "reason": "Published conference proceedings, cited as a foundational method, not represented as an SCI Q1 journal."
+      },
+      "volume": "70",
+      "pages_or_article": "1263–1272",
+      "doi_status": "The publisher's BibTeX and record provide no DOI; null is deliberate.",
+      "publication_type": "peer_reviewed_conference_paper"
+    },
+    {
+      "id": "R24",
+      "citation_key": "schnet",
+      "title": "SchNet—A deep learning architecture for molecules and materials",
+      "authors": [
+        "K. T. Schütt",
+        "H. E. Sauceda",
+        "P.-J. Kindermans"
+      ],
+      "author_list_complete": false,
+      "year": 2018,
+      "journal": "The Journal of Chemical Physics",
+      "doi": "10.1063/1.5019779",
+      "url": "https://doi.org/10.1063/1.5019779",
+      "publication_status": "published",
+      "reference_role": "foundational_method",
+      "verified_source": [
+        {
+          "url": "https://pubs.aip.org/aip/jcp/issue/148/24",
+          "source_type": "publisher_issue",
+          "access_level": "bibliographic_record",
+          "verified_fields": [
+            "title",
+            "year",
+            "journal",
+            "doi",
+            "article_number"
+          ]
+        },
+        {
+          "url": "https://pubs.aip.org/aip/jcp/article-abstract/158/16/164111/2886901/Fast-uncertainty-estimates-in-deep-learning?redirectedFrom=PDF",
+          "source_type": "publisher_reference_list",
+          "access_level": "bibliographic_metadata",
+          "verified_fields": [
+            "first_three_authors",
+            "title",
+            "year",
+            "journal",
+            "doi",
+            "article_number"
+          ]
+        }
+      ],
+      "supported_claim": {
+        "english": "Attribution of the established SchNet family of continuous molecular-energy architectures; no exact architectural reproduction is claimed.",
+        "chinese": "归属既有SchNet连续分子能量架构；本仓库不声称完整复现其网络。"
+      },
+      "does_not_support": [
+        "This literature does not validate the repository's own numerical outputs or establish its chemical transferability."
+      ],
+      "journal_classification": {
+        "classification": "unverified",
+        "system": null,
+        "year": null,
+        "category": null,
+        "evidence_url": null,
+        "reason": "No authoritative CAS major-category or JCR quartile record with an explicit year was verified. Journal reputation, impact factor and Scopus quartiles were not substituted."
+      },
+      "authors_display": "Schütt, K. T.; Sauceda, H. E.; Kindermans, P.-J.; et al.",
+      "author_note": "Only the consistently verified first three authors are retained; complete author order was not reconstructed from inconsistent citing reference lists.",
+      "volume": "148",
+      "issue": "24",
+      "pages_or_article": "241722",
+      "verification_limit": "Publisher DOI redirects/full article access were unsuccessful. Detailed architectural claims are not inferred from unavailable article text."
+    },
+    {
+      "id": "R25",
+      "citation_key": "datasail_addendum",
+      "title": "Addendum: Data splitting against information leakage with DataSAIL",
+      "authors": [
+        "Roman Joeres",
+        "David B. Blumenthal",
+        "Olga V. Kalinina"
+      ],
+      "author_list_complete": true,
+      "year": 2026,
+      "journal": "Nature Communications",
+      "doi": "10.1038/s41467-025-67495-w",
+      "url": "https://www.nature.com/articles/s41467-025-67495-w",
+      "publication_status": "published",
+      "reference_role": "published_update",
+      "verified_source": [
+        {
+          "url": "https://www.nature.com/articles/s41467-025-67495-w",
+          "source_type": "publisher_addendum",
+          "access_level": "indexed_article_text",
+          "verified_fields": [
+            "title",
+            "full_author_list",
+            "year",
+            "journal",
+            "doi",
+            "article_number",
+            "supported_claim"
+          ]
+        }
+      ],
+      "supported_claim": {
+        "english": "The addendum compares predefined dataset splits and reports that the PINDER split has less leakage than the tested DataSAIL split; no universal splitting-method superiority follows.",
+        "chinese": "增补文献比较已有数据拆分，并报告PINDER原拆分的信息泄漏少于所测DataSAIL拆分；不能宣称某种拆分算法普遍最优。"
+      },
+      "does_not_support": [
+        "This literature does not validate the repository's own numerical outputs or establish its chemical transferability."
+      ],
+      "journal_classification": {
+        "classification": "unverified",
+        "system": null,
+        "year": null,
+        "category": null,
+        "evidence_url": null,
+        "reason": "No authoritative CAS major-category or JCR quartile record with an explicit year was verified. Journal reputation, impact factor and Scopus quartiles were not substituted."
+      },
+      "volume": "17",
+      "pages_or_article": "1597",
+      "online_publication_date": "2026-02-13",
+      "publication_type": "published_addendum",
+      "updates_reference_id": "R06"
+    },
+    {
+      "id": "R26",
+      "citation_key": "esol2004",
+      "title": "ESOL: Estimating Aqueous Solubility Directly from Molecular Structure",
+      "authors": [
+        "John S. Delaney"
+      ],
+      "author_list_complete": true,
+      "year": 2004,
+      "journal": "Journal of Chemical Information and Computer Sciences",
+      "volume": "44",
+      "issue": "3",
+      "pages_or_article": "1000–1005",
+      "doi": "10.1021/ci034243x",
+      "url": "https://pubs.acs.org/doi/abs/10.1021/ci034243x",
+      "publication_status": "published",
+      "reference_role": "method_or_dataset",
+      "verified_source": [
+        {
+          "url": "https://pubs.acs.org/doi/abs/10.1021/ci034243x",
+          "source_type": "primary_record",
+          "access_level": "publisher_metadata_and_abstract",
+          "verified_fields": [
+            "title",
+            "listed_authors",
+            "year",
+            "journal",
+            "volume",
+            "pages_or_article",
+            "doi"
+          ]
+        }
+      ],
+      "verification_note": "Original journal name retained; hosted under the current JCIM platform. Local formulas remain approximations",
+      "verified_on": "2026-09-29",
+      "journal_quartile_verified": false
+    },
+    {
+      "id": "R27",
+      "citation_key": "cns_mpo",
+      "title": "Moving beyond Rules: The Development of a Central Nervous System Multiparameter Optimization (CNS MPO) Approach To Enable Alignment of Druglike Properties",
+      "authors": [
+        "Travis T. Wager",
+        "Xinjun Hou",
+        "Patrick R. Verhoest",
+        "Anabella Villalobos"
+      ],
+      "author_list_complete": true,
+      "year": 2010,
+      "journal": "ACS Chemical Neuroscience",
+      "volume": "1",
+      "issue": "6",
+      "pages_or_article": "435–449",
+      "doi": "10.1021/cn100008c",
+      "url": "https://pubs.acs.org/doi/10.1021/cn100008c",
+      "publication_status": "published",
+      "reference_role": "method_or_dataset",
+      "verified_source": [
+        {
+          "url": "https://pubs.acs.org/doi/10.1021/cn100008c",
+          "source_type": "primary_record",
+          "access_level": "publisher_metadata_and_author_information",
+          "verified_fields": [
+            "title",
+            "listed_authors",
+            "year",
+            "journal",
+            "volume",
+            "pages_or_article",
+            "doi"
+          ]
+        }
+      ],
+      "verification_note": "Method lineage only; no transfer of original validation to local assumed pKa/logD values",
+      "verified_on": "2026-09-29",
+      "journal_quartile_verified": false
+    },
+    {
+      "id": "R28",
+      "citation_key": "chem_mllm",
+      "title": "Developing ChemMLLM as a multimodal large language model for chemistry",
+      "authors": [
+        "Qian Tan",
+        "Di Zhang",
+        "Ben Gao"
+      ],
+      "author_list_complete": false,
+      "year": 2026,
+      "journal": "Cell Reports Physical Science",
+      "volume": "7",
+      "issue": "5",
+      "pages_or_article": "103310",
+      "doi": "10.1016/j.xcrp.2026.103310",
+      "url": "https://www.cell.com/cell-reports-physical-science/fulltext/S2666-3864(26)00216-X",
+      "publication_status": "published",
+      "reference_role": "method_or_dataset",
+      "verified_source": [
+        {
+          "url": "https://www.cell.com/cell-reports-physical-science/fulltext/S2666-3864(26)00216-X",
+          "source_type": "primary_record",
+          "access_level": "publisher_metadata_author_affiliations_and_abstract",
+          "verified_fields": [
+            "title",
+            "listed_authors",
+            "year",
+            "journal",
+            "volume",
+            "pages_or_article",
+            "doi"
+          ]
+        }
+      ],
+      "verification_note": "Reading-project context only; no local ChemMLLM reproduction claimed; abbreviated verified authors",
+      "verified_on": "2026-09-29",
+      "journal_quartile_verified": false
+    },
+    {
+      "id": "R29",
+      "citation_key": "cu_data_driven",
+      "title": "Data-driven copper catalysis enables stereoselective fluorocyclopropanation",
+      "authors": [
+        "Chongyuan Yan",
+        "Jiewen Liu",
+        "Lin Tan",
+        "Yating Chen",
+        "Huw M. L. Davies",
+        "Zhunzhun Yu",
+        "Kuangbiao Liao"
+      ],
+      "author_list_complete": true,
+      "year": 2026,
+      "journal": "Chem",
+      "volume": "12",
+      "issue": "6",
+      "pages_or_article": "102922",
+      "doi": "10.1016/j.chempr.2025.102922",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2451929425005133",
+      "publication_status": "published",
+      "reference_role": "method_or_dataset",
+      "verified_source": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S2451929425005133",
+          "source_type": "primary_record",
+          "access_level": "publisher_abstract_highlights_and_author_laboratory_record",
+          "verified_fields": [
+            "title",
+            "listed_authors",
+            "year",
+            "journal",
+            "volume",
+            "pages_or_article",
+            "doi"
+          ]
+        },
+        {
+          "url": "https://www.daviesresearchgroup.com/publications",
+          "source_type": "author_laboratory_or_institution",
+          "access_level": "publication_metadata",
+          "verified_fields": [
+            "full_author_list",
+            "title",
+            "year",
+            "doi"
+          ]
+        }
+      ],
+      "verification_note": "Copper catalysis, not photocatalysis; issue year 2026 although DOI contains 2025; experimental context, not local calculations",
+      "verified_on": "2026-09-29",
+      "journal_quartile_verified": false
+    },
+    {
+      "id": "R30",
+      "citation_key": "single_atom_review",
+      "title": "Advanced organic electrosynthesis empowered by single-atom catalysis",
+      "authors": [
+        "Zezhao Li",
+        "Chang-Jie Yang",
+        "Wan-Jie Wei",
+        "Meiqi Zhu",
+        "Tianyou Zhao",
+        "Qixuan Zhang",
+        "Yong-Zhou Pan",
+        "Jiarui Yang",
+        "Xin-Yu Wang",
+        "Hai-Tao Tang",
+        "Wen-Hao Li",
+        "Dingsheng Wang"
+      ],
+      "author_list_complete": true,
+      "year": 2026,
+      "journal": "Chem",
+      "volume": "12",
+      "issue": "4",
+      "pages_or_article": "102838",
+      "doi": "10.1016/j.chempr.2025.102838",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S2451929425004292",
+      "publication_status": "published",
+      "reference_role": "method_or_dataset",
+      "verified_source": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S2451929425004292",
+          "source_type": "primary_record",
+          "access_level": "publisher_abstract_and_author_institution_record",
+          "verified_fields": [
+            "title",
+            "listed_authors",
+            "year",
+            "journal",
+            "volume",
+            "pages_or_article",
+            "doi"
+          ]
+        },
+        {
+          "url": "https://scholars.cityu.edu.hk/en/publications/advanced-organic-electrosynthesis-empowered-by-single-atom-cataly/",
+          "source_type": "author_laboratory_or_institution",
+          "access_level": "publication_metadata",
+          "verified_fields": [
+            "full_author_list",
+            "title",
+            "year",
+            "doi"
+          ]
+        }
+      ],
+      "verification_note": "Review article; issue year 2026 although DOI contains 2025; no new present-work calculation attributed to this review",
+      "verified_on": "2026-09-29",
+      "journal_quartile_verified": false
+    },
+    {
+      "id": "R31",
+      "citation_key": "yang2023",
+      "title": "CO₂-mediated organocatalytic chlorine evolution under industrial conditions",
+      "authors": [
+        "Jiarui Yang",
+        "Wen-Hao Li",
+        "Hai-Tao Tang",
+        "Ying-Ming Pan",
+        "Dingsheng Wang",
+        "Yadong Li"
+      ],
+      "author_list_complete": true,
+      "year": 2023,
+      "journal": "Nature",
+      "volume": "617",
+      "issue": null,
+      "pages_or_article": "519–523",
+      "doi": "10.1038/s41586-023-05886-z",
+      "url": "https://www.nature.com/articles/s41586-023-05886-z",
+      "publication_status": "published",
+      "reference_role": "method_or_dataset",
+      "verified_source": [
+        {
+          "url": "https://www.nature.com/articles/s41586-023-05886-z",
+          "source_type": "primary_record",
+          "access_level": "publisher_metadata_abstract_and_data_availability",
+          "verified_fields": [
+            "title",
+            "listed_authors",
+            "year",
+            "journal",
+            "volume",
+            "pages_or_article",
+            "doi"
+          ]
+        }
+      ],
+      "verification_note": "Original producer of reused source traces; Tang affiliation confirmed as Guangxi Normal University",
+      "verified_on": "2026-09-29",
+      "journal_quartile_verified": false
+    },
+    {
+      "id": "R32",
+      "citation_key": "yang2026",
+      "title": "High-efficiency organo-electrocatalysts enable both anodic and cathodic reactions",
+      "authors": [
+        "Jiarui Yang",
+        "Guo-Wei Lai",
+        "Hai-Tao Tang",
+        "Yong-Zhou Pan",
+        "Ying-Ming Pan",
+        "Wen-hao Li",
+        "Deyan Luan",
+        "Dingsheng Wang",
+        "Yadong Li",
+        "Xiong Wen David Lou"
+      ],
+      "author_list_complete": true,
+      "year": 2026,
+      "journal": "Nature Synthesis",
+      "volume": "5",
+      "issue": null,
+      "pages_or_article": "1032–1042",
+      "doi": "10.1038/s44160-026-01039-y",
+      "url": "https://www.nature.com/articles/s44160-026-01039-y",
+      "publication_status": "published",
+      "reference_role": "method_or_dataset",
+      "verified_source": [
+        {
+          "url": "https://www.nature.com/articles/s44160-026-01039-y",
+          "source_type": "primary_record",
+          "access_level": "publisher_metadata_abstract_and_data_availability",
+          "verified_fields": [
+            "title",
+            "listed_authors",
+            "year",
+            "journal",
+            "volume",
+            "pages_or_article",
+            "doi"
+          ]
+        }
+      ],
+      "verification_note": "Original producer of reused source traces; Tang affiliation confirmed as Guangxi Normal University",
+      "verified_on": "2026-09-29",
+      "journal_quartile_verified": false
+    },
+    {
+      "id": "R33",
+      "citation_key": "aqsoldb",
+      "title": "AqSolDB, a curated reference set of aqueous solubility and 2D descriptors for a diverse set of compounds",
+      "authors": [
+        "M. C. Sorkun",
+        "A. Khetan",
+        "S. Er"
+      ],
+      "author_list_complete": true,
+      "year": 2019,
+      "journal": "Scientific Data",
+      "volume": "6",
+      "issue": null,
+      "pages_or_article": "143",
+      "doi": "10.1038/s41597-019-0151-1",
+      "url": "https://www.nature.com/articles/s41597-019-0151-1",
+      "publication_status": "published",
+      "reference_role": "method_or_dataset",
+      "verified_source": [
+        {
+          "url": "https://www.nature.com/articles/s41597-019-0151-1",
+          "source_type": "primary_record",
+          "access_level": "publisher_indexed_metadata",
+          "verified_fields": [
+            "title",
+            "listed_authors",
+            "year",
+            "journal",
+            "volume",
+            "pages_or_article",
+            "doi"
+          ]
+        }
+      ],
+      "verification_note": "Dataset identity; no reconstruction of missing local predictions",
+      "verified_on": "2026-09-29",
+      "journal_quartile_verified": false
+    },
+    {
+      "id": "R34",
+      "citation_key": "etkdg",
+      "title": "Better Informed Distance Geometry: Using What We Know To Improve Conformation Generation",
+      "authors": [
+        "Sereina Riniker"
+      ],
+      "author_list_complete": false,
+      "year": 2015,
+      "journal": "Journal of Chemical Information and Modeling",
+      "volume": "55",
+      "issue": "12",
+      "pages_or_article": "2562–2574",
+      "doi": "10.1021/acs.jcim.5b00654",
+      "url": "https://pubs.acs.org/doi/abs/10.1021/acs.jcim.5b00654",
+      "publication_status": "published",
+      "reference_role": "method_or_dataset",
+      "verified_source": [
+        {
+          "url": "https://pubs.acs.org/doi/abs/10.1021/acs.jcim.5b00654",
+          "source_type": "primary_record",
+          "access_level": "publisher_indexed_metadata_and_abstract",
+          "verified_fields": [
+            "title",
+            "listed_authors",
+            "year",
+            "journal",
+            "volume",
+            "pages_or_article",
+            "doi"
+          ]
+        }
+      ],
+      "verification_note": "Author list deliberately abbreviated because the inspected publisher extract exposes the first author",
+      "verified_on": "2026-09-29",
+      "journal_quartile_verified": false
+    },
+    {
+      "id": "R35",
+      "citation_key": "etkdg2020",
+      "title": "Improving Conformer Generation for Small Rings and Macrocycles Based on Distance Geometry and Experimental Torsional-Angle Preferences",
+      "authors": [
+        "Shuzhe Wang",
+        "Jagna Witek"
+      ],
+      "author_list_complete": false,
+      "year": 2020,
+      "journal": "Journal of Chemical Information and Modeling",
+      "volume": "60",
+      "issue": "4",
+      "pages_or_article": "2044–2058",
+      "doi": "10.1021/acs.jcim.0c00025",
+      "url": "https://pubs.acs.org/doi/10.1021/acs.jcim.0c00025",
+      "publication_status": "published",
+      "reference_role": "method_or_dataset",
+      "verified_source": [
+        {
+          "url": "https://pubs.acs.org/doi/10.1021/acs.jcim.0c00025",
+          "source_type": "primary_record",
+          "access_level": "publisher_indexed_metadata_and_methods",
+          "verified_fields": [
+            "title",
+            "listed_authors",
+            "year",
+            "journal",
+            "volume",
+            "pages_or_article",
+            "doi"
+          ]
+        }
+      ],
+      "verification_note": "Conformer generation methods; abbreviated inspected author list",
+      "verified_on": "2026-09-29",
+      "journal_quartile_verified": false
+    },
+    {
+      "id": "R36",
+      "citation_key": "gfn2",
+      "title": "GFN2-xTB—An Accurate and Broadly Parametrized Self-Consistent Tight-Binding Quantum Chemical Method with Multipole Electrostatics and Density-Dependent Dispersion Contributions",
+      "authors": [
+        "Christoph Bannwarth",
+        "Sebastian Ehlert",
+        "Stefan Grimme"
+      ],
+      "author_list_complete": true,
+      "year": 2019,
+      "journal": "Journal of Chemical Theory and Computation",
+      "volume": "15",
+      "issue": "3",
+      "pages_or_article": "1652–1671",
+      "doi": "10.1021/acs.jctc.8b01176",
+      "url": "https://pubs.acs.org/doi/10.1021/acs.jctc.8b01176",
+      "publication_status": "published",
+      "reference_role": "method_or_dataset",
+      "verified_source": [
+        {
+          "url": "https://pubs.acs.org/doi/10.1021/acs.jctc.8b01176",
+          "source_type": "primary_record",
+          "access_level": "publisher_indexed_metadata_and_abstract",
+          "verified_fields": [
+            "title",
+            "listed_authors",
+            "year",
+            "journal",
+            "volume",
+            "pages_or_article",
+            "doi"
+          ]
+        }
+      ],
+      "verification_note": "Approximate electronic-structure method attribution",
+      "verified_on": "2026-09-29",
+      "journal_quartile_verified": false
+    },
+    {
+      "id": "R37",
+      "citation_key": "pyscf2020",
+      "title": "Recent developments in the PySCF program package",
+      "authors": [
+        "Qiming Sun",
+        "Xing Zhang",
+        "Samragni Banerjee"
+      ],
+      "author_list_complete": false,
+      "year": 2020,
+      "journal": "The Journal of Chemical Physics",
+      "volume": "153",
+      "issue": null,
+      "pages_or_article": "024109",
+      "doi": "10.1063/5.0006074",
+      "url": "https://pyscf.org/about.html",
+      "publication_status": "published",
+      "reference_role": "method_or_dataset",
+      "verified_source": [
+        {
+          "url": "https://pyscf.org/about.html",
+          "source_type": "primary_record",
+          "access_level": "official_software_citation_and_author_institution_record",
+          "verified_fields": [
+            "title",
+            "listed_authors",
+            "year",
+            "journal",
+            "volume",
+            "pages_or_article",
+            "doi"
+          ]
+        }
+      ],
+      "verification_note": "Official PySCF citation plus https://authors.library.caltech.edu/records/gn0fp-nth15; publisher direct access failed",
+      "verified_on": "2026-09-29",
+      "journal_quartile_verified": false
+    },
+    {
+      "id": "R38",
+      "citation_key": "openmm",
+      "title": "OpenMM 7: Rapid development of high performance algorithms for molecular dynamics",
+      "authors": [
+        "Peter Eastman",
+        "Jason Swails",
+        "John D. Chodera",
+        "Robert T. McGibbon",
+        "Yutong Zhao",
+        "Kyle A. Beauchamp",
+        "Lee-Ping Wang",
+        "Andrew C. Simmonett",
+        "Matthew P. Harrigan",
+        "Chaya D. Stern",
+        "Rafal P. Wiewiora",
+        "Bernard R. Brooks",
+        "Vijay S. Pande"
+      ],
+      "author_list_complete": true,
+      "year": 2017,
+      "journal": "PLOS Computational Biology",
+      "volume": "13",
+      "issue": "7",
+      "pages_or_article": "e1005659",
+      "doi": "10.1371/journal.pcbi.1005659",
+      "url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005659",
+      "publication_status": "published",
+      "reference_role": "method_or_dataset",
+      "verified_source": [
+        {
+          "url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005659",
+          "source_type": "primary_record",
+          "access_level": "publisher_full_text",
+          "verified_fields": [
+            "title",
+            "listed_authors",
+            "year",
+            "journal",
+            "volume",
+            "pages_or_article",
+            "doi"
+          ]
+        }
+      ],
+      "verification_note": "Molecular dynamics software attribution",
+      "verified_on": "2026-09-29",
+      "journal_quartile_verified": false
+    },
+    {
+      "id": "R39",
+      "citation_key": "wtmeta",
+      "title": "Well-Tempered Metadynamics: A Smoothly Converging and Tunable Free-Energy Method",
+      "authors": [
+        "Alessandro Barducci",
+        "Giovanni Bussi",
+        "Michele Parrinello"
+      ],
+      "author_list_complete": true,
+      "year": 2008,
+      "journal": "Physical Review Letters",
+      "volume": "100",
+      "issue": "2",
+      "pages_or_article": "020603",
+      "doi": "10.1103/PhysRevLett.100.020603",
+      "url": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.100.020603",
+      "publication_status": "published",
+      "reference_role": "method_or_dataset",
+      "verified_source": [
+        {
+          "url": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.100.020603",
+          "source_type": "primary_record",
+          "access_level": "publisher_metadata_and_abstract",
+          "verified_fields": [
+            "title",
+            "listed_authors",
+            "year",
+            "journal",
+            "volume",
+            "pages_or_article",
+            "doi"
+          ]
+        }
+      ],
+      "verification_note": "Method reference does not certify convergence of archived short trajectories",
+      "verified_on": "2026-09-29",
+      "journal_quartile_verified": false
+    },
+    {
+      "id": "R40",
+      "citation_key": "vina",
+      "title": "AutoDock Vina: Improving the speed and accuracy of docking with a new scoring function, efficient optimization, and multithreading",
+      "authors": [
+        "Oleg Trott",
+        "Arthur J. Olson"
+      ],
+      "author_list_complete": true,
+      "year": 2010,
+      "journal": "Journal of Computational Chemistry",
+      "volume": "31",
+      "issue": "2",
+      "pages_or_article": "455–461",
+      "doi": "10.1002/jcc.21334",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/jcc.21334",
+      "publication_status": "published",
+      "reference_role": "method_or_dataset",
+      "verified_source": [
+        {
+          "url": "https://onlinelibrary.wiley.com/doi/10.1002/jcc.21334",
+          "source_type": "primary_record",
+          "access_level": "publisher_metadata_and_abstract",
+          "verified_fields": [
+            "title",
+            "listed_authors",
+            "year",
+            "journal",
+            "volume",
+            "pages_or_article",
+            "doi"
+          ]
+        }
+      ],
+      "verification_note": "2010 issue year; first online 2009. Docking score is not binding free energy",
+      "verified_on": "2026-09-29",
+      "journal_quartile_verified": false
+    },
+    {
+      "id": "R41",
+      "citation_key": "qrrho",
+      "title": "Supramolecular Binding Thermodynamics by Dispersion-Corrected Density Functional Theory",
+      "authors": [
+        "Stefan Grimme"
+      ],
+      "author_list_complete": true,
+      "year": 2012,
+      "journal": "Chemistry – A European Journal",
+      "volume": "18",
+      "issue": "32",
+      "pages_or_article": "9955–9964",
+      "doi": "10.1002/chem.201200497",
+      "url": "https://chemistry-europe.onlinelibrary.wiley.com/doi/abs/10.1002/chem.201200497",
+      "publication_status": "published",
+      "reference_role": "method_or_dataset",
+      "verified_source": [
+        {
+          "url": "https://chemistry-europe.onlinelibrary.wiley.com/doi/abs/10.1002/chem.201200497",
+          "source_type": "primary_record",
+          "access_level": "publisher_metadata_and_abstract",
+          "verified_fields": [
+            "title",
+            "listed_authors",
+            "year",
+            "journal",
+            "volume",
+            "pages_or_article",
+            "doi"
+          ]
+        }
+      ],
+      "verification_note": "Soft-mode treatment precedent; simple frequency flooring is not claimed to reproduce this method",
+      "verified_on": "2026-09-29",
+      "journal_quartile_verified": false
+    }
+  ],
+  "additional_tang_coauthored_review_count": 1,
+  "expanded_source_inventory": "manuscript/history/repository_inventory.json"
+}

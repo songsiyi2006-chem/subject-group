@@ -1,0 +1,85 @@
+{
+  "common_root_commit": "5939547a936ed4baf7fa7ee9fac6fa6e90bfa8fe",
+  "shared_files": [
+    {
+      "aqueous_path": "aqsol_model.py",
+      "complex_path": "projects/legacy_solubility/code/aqsol_model.py",
+      "aqueous_sha256": "89485db4b60a346e7092d0f7ff7b8bda2bb2d85f6fec54ce8b4b3f1250977ada",
+      "complex_sha256": "89485db4b60a346e7092d0f7ff7b8bda2bb2d85f6fec54ce8b4b3f1250977ada",
+      "identical": true
+    },
+    {
+      "aqueous_path": "esol_model.py",
+      "complex_path": "projects/legacy_solubility/code/esol_model.py",
+      "aqueous_sha256": "a1b8bf4e858c5d6a92adbac0cfc19b69cdf3ff5b8867774439141655a29bb796",
+      "complex_sha256": "a1b8bf4e858c5d6a92adbac0cfc19b69cdf3ff5b8867774439141655a29bb796",
+      "identical": true
+    },
+    {
+      "aqueous_path": "molecules.py",
+      "complex_path": "projects/legacy_solubility/code/molecules.py",
+      "aqueous_sha256": "6b367b068d685980a14b0a0d9f49f25eb9928c8249a50361fe359b55b9743583",
+      "complex_sha256": "6b367b068d685980a14b0a0d9f49f25eb9928c8249a50361fe359b55b9743583",
+      "identical": true
+    },
+    {
+      "aqueous_path": "paclitaxel.py",
+      "complex_path": "projects/legacy_solubility/code/paclitaxel.py",
+      "aqueous_sha256": "a04302865152d2dea77e1e737d4468d33747247f82c80b545e415d9439f247bb",
+      "complex_sha256": "a04302865152d2dea77e1e737d4468d33747247f82c80b545e415d9439f247bb",
+      "identical": true
+    },
+    {
+      "aqueous_path": "predict_solubility.py",
+      "complex_path": "projects/legacy_solubility/code/predict_solubility.py",
+      "aqueous_sha256": "f87447c3c744f99cb66fe5eb9ec48dbade903c38e2e1ab46f18b67a61d919ce3",
+      "complex_sha256": "f87447c3c744f99cb66fe5eb9ec48dbade903c38e2e1ab46f18b67a61d919ce3",
+      "identical": true
+    },
+    {
+      "aqueous_path": "figures/aqsol_result.png",
+      "complex_path": "projects/phase01/figures/aqsol_result.png",
+      "aqueous_sha256": "91fb6394bc90c8a6c03e3266732d90283286cf4944ae8b96d38cd172833c7a58",
+      "complex_sha256": "91fb6394bc90c8a6c03e3266732d90283286cf4944ae8b96d38cd172833c7a58",
+      "identical": true
+    },
+    {
+      "aqueous_path": "figures/esol_result.png",
+      "complex_path": "projects/phase01/figures/esol_result.png",
+      "aqueous_sha256": "2684b88de902c6e68292fd0969e6dd95a4b11d932ba0b693b9955ef297d9655f",
+      "complex_sha256": "2684b88de902c6e68292fd0969e6dd95a4b11d932ba0b693b9955ef297d9655f",
+      "identical": true
+    },
+    {
+      "aqueous_path": "figures/paclitaxel.png",
+      "complex_path": "projects/phase01/figures/paclitaxel.png",
+      "aqueous_sha256": "7ec7ca30147465513d9fc91cbd012cfab33d025a1588ab5820de510cec7156d5",
+      "complex_sha256": "7ec7ca30147465513d9fc91cbd012cfab33d025a1588ab5820de510cec7156d5",
+      "identical": true
+    },
+    {
+      "aqueous_path": "figures/molecules.png",
+      "complex_path": "projects/phase01/figures/molecules.png",
+      "aqueous_sha256": "d8000f904956de33c8ebc10bc1777d73808de2b76f4e407eeb113ef86fb740a4",
+      "complex_sha256": "d8000f904956de33c8ebc10bc1777d73808de2b76f4e407eeb113ef86fb740a4",
+      "identical": true
+    }
+  ],
+  "aqueous_tree": [
+    ".gitignore",
+    "LICENSE",
+    "README.md",
+    "aqsol_model.py",
+    "esol_model.py",
+    "figures/aqsol_result.png",
+    "figures/esol_result.png",
+    "figures/molecules.png",
+    "figures/paclitaxel.png",
+    "molecules.py",
+    "paclitaxel.py",
+    "predict_solubility.py",
+    "requirements.txt"
+  ],
+  "aqueous_csv_json_prediction_or_model_artifacts": [],
+  "scope": "Exact committed bytes. No reconstruction of prediction points from raster images."
+}

@@ -1,0 +1,34 @@
+{
+  "verified_utc": "2026-09-21T04:06:40.268356+00:00",
+  "output_manifest_files_verified": 29,
+  "checkpoint_files_verified": 8,
+  "checkpoint_step": 1200,
+  "hill_count": 20,
+  "independent_gaussian_bias_max_error_kJ_mol": 7.460698725481052e-13,
+  "independent_well_tempered_height_max_error_kJ_mol": 6.9111383282915995e-15,
+  "all_recorded_numeric_values_finite": true,
+  "figure": {
+    "path": "outputs/figures/fig19_ternary_metadynamics_pmf_landscape.png",
+    "pixels": [
+      3900,
+      3000
+    ],
+    "dpi": [
+      299.9994,
+      299.9994
+    ],
+    "visual_review": "Whole four-panel figure viewed and labels legible"
+  },
+  "source": {
+    "executed_sha256": "b8078551a4774d35aebf6576709f2d24c84914e344abb1881ca8d473a0f19ef3",
+    "published_sha256": "f5f91fae8728cbe054c7887b14ef9356d5facb9abc96a73decd687b962c38893",
+    "difference": "After launching the archived fresh run, checkpoint metadata copying was added only to load_checkpoint() for complete restart archives. This branch was not executed in the archived fresh run. Its true source snapshot is preserved; no numerical trajectory was recomputed or relabeled.",
+    "unified_diff": "--- outputs/executed_driver.py\n+++ driver.py\n@@ -338,6 +338,7 @@\n     sim.context.loadCheckpoint(gzip.decompress((source/'latest.checkpoint.gz').read_bytes()))\n     if sim.currentStep!=metadata['step']:raise ValueError('Checkpoint step does not match its metadata')\n     for name in metadata['files_sha256']:shutil.copyfile(source/name,Path(out)/name)\n+    shutil.copyfile(source/'checkpoint_metadata.json',Path(out)/'checkpoint_metadata.json')\n     dump(Path(out)/'restart_provenance.json',dict(source_directory=str(source.resolve()),\n         checkpoint_metadata_sha256=sha(source/'checkpoint_metadata.json'),resumed_step=sim.currentStep))\n     return metadata\n"
+  },
+  "claims": {
+    "all_atom_engine_pilot": true,
+    "converged_pmf": false,
+    "cooperativity_computed": false,
+    "productive_degradation_basin_identified": false
+  }
+}

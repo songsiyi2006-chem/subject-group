@@ -1,6 +1,6 @@
 {
   "passed": true,
-  "checks": 2177,
+  "checks": 2584,
   "scientific_tests_run": 381,
   "scientific_failures": 0,
   "scientific_errors": 0,
@@ -166,6 +166,10 @@
     },
     {
       "check": "integrated manuscript numerical and publication validation",
+      "passed": true
+    },
+    {
+      "check": "expanded historical manuscript validation",
       "passed": true
     },
     {
@@ -1573,6 +1577,14 @@
       "passed": true
     },
     {
+      "check": "JSON parses manuscript/expanded/references_verified.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/history/repository_inventory.json",
+      "passed": true
+    },
+    {
       "check": "JSON parses manuscript/results/analysis_summary.json",
       "passed": true
     },
@@ -1618,6 +1630,382 @@
     },
     {
       "check": "JSON parses manuscript/assets/equations/equations_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/expanded/results/assembly.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/expanded/results/citation_audit.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/expanded/results/document_build.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/expanded/results/document_qa.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/expanded/results/document_qa_before_kinetics_legend_repair.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/expanded/results/multiscale_analysis.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/expanded/results/numeric_parity.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/expanded/results/validation.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/expanded/results/visual_catalysis.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/expanded/results/visual_learning.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/expanded/results/visual_pharmacology.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/expanded/results/visual_repair.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/expanded/results/visual_review.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/expanded/results/visual_root.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/expanded/assets/equations/equations.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/expanded/assets/equations/equations_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/history/catalysis/audit.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/history/learning/audit.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/history/pharmacology/audit.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/history/pharmacology/references_verification.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/history/catalysis/figures/manifest.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/history/catalysis/sources/C01_excerpt.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/history/catalysis/sources/C02_excerpt.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/history/catalysis/sources/C03_excerpt.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/history/catalysis/sources/C06_excerpt.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/history/catalysis/sources/C07_excerpt.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/history/catalysis/sources/C08_excerpt.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/history/catalysis/sources/C12_excerpt.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/history/catalysis/sources/C14_excerpt.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/history/catalysis/sources/C15_excerpt.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/history/catalysis/sources/C16_excerpt.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/history/catalysis/sources/C17_excerpt.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/history/catalysis/sources/C18_excerpt.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/history/catalysis/sources/C19_excerpt.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/history/catalysis/sources/C20_excerpt.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/history/catalysis/sources/C21_excerpt.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/history/catalysis/sources/C22_excerpt.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/history/catalysis/sources/C23_excerpt.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/history/catalysis/sources/catalog.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/history/catalysis/sources/commit_history.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/history/catalysis/sources/native_energy_checks.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/history/learning/figures/figure_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/history/learning/sources/cross_review_multiscale.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/history/learning/sources/deduplication.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/history/learning/sources/phase01_acceptance.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/history/learning/sources/phase01_audited.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/history/learning/sources/phase01_original.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/history/learning/sources/phase11_acceptance.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/history/learning/sources/phase11_references.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/history/learning/sources/phase11_results.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/history/learning/sources/phase24_measurements.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/history/learning/sources/phase24_metrics.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/history/learning/sources/phase25_27_acceptance.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/history/learning/sources/phase28_additional_source_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/history/learning/sources/phase28_additional_summary.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/history/learning/sources/phase28_extraction_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/history/learning/sources/phase28_source_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/history/learning/sources/phase28_trace_summary.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/history/learning/sources/phase29_acceptance.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/history/learning/sources/phase29_comparison_summary.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/history/learning/sources/phase29_dft_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/history/learning/sources/phase29_dft_summary.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/history/learning/sources/phase29_Q01_def2-svp_cation.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/history/learning/sources/phase29_Q01_def2-svp_radical.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/history/learning/sources/phase29_Q01_def2-tzvp_cation.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/history/learning/sources/phase29_Q01_def2-tzvp_radical.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/history/learning/sources/phase29_Q02_def2-svp_cation.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/history/learning/sources/phase29_Q02_def2-svp_radical.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/history/learning/sources/phase29_Q03_def2-svp_cation.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/history/learning/sources/phase29_Q03_def2-svp_radical.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/history/learning/sources/phase29_xtb_analysis.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/history/learning/sources/phase29_xtb_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/history/learning/sources/phase30_acceptance.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/history/learning/sources/phase31_leads.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/history/learning/sources/phase31_status.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/history/learning/sources/phase_coverage.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/history/learning/sources/posthoc_summary.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/history/pharmacology/figures/manifest.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/history/pharmacology/figures/visual_qa.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/history/pharmacology/sources/source_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/history/pharmacology/sources/ai4pharm-lead-developability-suite/projects/task02_tpd/manifest_task2.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/history/pharmacology/sources/ai4pharm-lead-developability-suite/projects/task19_metadynamics/EXECUTION_AUDIT.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/history/pharmacology/sources/ai4pharm-lead-developability-suite/projects/task01_lead_developability/data/reference_panel.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/history/pharmacology/sources/ai4pharm-lead-developability-suite/projects/task01_lead_developability/results_task1/developability_results.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/history/pharmacology/sources/ai4pharm-lead-developability-suite/projects/task01_lead_developability/results_task1/run_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/history/pharmacology/sources/ai4pharm-lead-developability-suite/projects/task03_covalent_kinetics/data_task3/lfer_regression.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/history/pharmacology/sources/ai4pharm-lead-developability-suite/projects/task03_covalent_kinetics/data_task3/run_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/history/pharmacology/sources/ai4pharm-lead-developability-suite/projects/task19_metadynamics/outputs/config.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/history/pharmacology/sources/ai4pharm-lead-developability-suite/projects/task19_metadynamics/outputs/run_metadata.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/history/pharmacology/sources/ai4pharm-lead-developability-suite/projects/task19_metadynamics/outputs/summary.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/history/pharmacology/sources/ai4pharm-lead-developability-suite/projects/task19_metadynamics/outputs/verification.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/history/pharmacology/sources/ai4pharm-lead-developability-suite/projects/task20_denovo/outputs/random_search_summary.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/history/pharmacology/sources/ai4pharm-lead-developability-suite/projects/task20_denovo/outputs/summary.json",
+      "passed": true
+    },
+    {
+      "check": "JSON parses manuscript/history/pharmacology/sources/ai4pharm-lead-developability-suite/projects/task20_denovo/outputs/verification.json",
       "passed": true
     },
     {
@@ -3173,6 +3561,342 @@
       "passed": true
     },
     {
+      "check": "SHA256 manuscript/expanded/README.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/assets/equations/eq_1cdcac043c6bbecd.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/assets/equations/eq_1cdcac043c6bbecd.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/assets/equations/eq_68420839c15b9b0b.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/assets/equations/eq_68420839c15b9b0b.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/assets/equations/eq_cd4fb9a1f6087c06.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/assets/equations/eq_cd4fb9a1f6087c06.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/assets/equations/eq_e0a2f0c899fcf21b.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/assets/equations/eq_e0a2f0c899fcf21b.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/assets/equations/equations.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/assets/equations/equations_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/bibliography.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/documents/manuscript_chinese.docx",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/documents/manuscript_chinese.pdf",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/documents/manuscript_english.docx",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/documents/manuscript_english.pdf",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/figures/M1_Hydration_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/figures/M1_Hydration_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/figures/M1_Hydration_english.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/figures/M1_Hydration_english.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/figures/M2_Network_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/figures/M2_Network_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/figures/M2_Network_english.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/figures/M2_Network_english.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/figures/M3_Optimization_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/figures/M3_Optimization_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/figures/M3_Optimization_english.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/figures/M3_Optimization_english.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/figures/M4_Kinetics_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/figures/M4_Kinetics_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/figures/M4_Kinetics_english.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/figures/M4_Kinetics_english.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/figures/M5_Thermostats_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/figures/M5_Thermostats_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/figures/M5_Thermostats_english.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/figures/M5_Thermostats_english.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/figures/M6_Analytical_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/figures/M6_Analytical_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/figures/M6_Analytical_english.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/figures/M6_Analytical_english.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/manuscript_chinese.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/manuscript_english.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/multiscale_chinese.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/multiscale_english.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/references.bib",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/references_verified.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/rendered/manuscript_chinese.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/rendered/manuscript_english.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/results/assembly.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/results/chromatography_grouped.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/results/citation_audit.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/results/document_build.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/results/document_qa.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/results/document_qa_before_kinetics_legend_repair.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/results/hydration_test_metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/results/kinetic_potential_comparison.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/results/multiscale_analysis.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/results/network_observables.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/results/numeric_parity.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/results/optimization_final.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/results/optimization_paired.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/results/thermostat_comparison.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/results/validation.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/results/visual_catalysis.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/results/visual_learning.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/results/visual_pharmacology.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/results/visual_repair.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/results/visual_review.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/results/visual_root.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/scope_chinese.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/scope_english.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/scripts/analyze_multiscale.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/scripts/assemble_manuscripts.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/scripts/build_documents.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/scripts/build_reference_registry.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/scripts/check_numeric_parity.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/scripts/fill_multiscale_tables.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/scripts/finalize_references.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/scripts/inspect_documents.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/scripts/prepare_publishers.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/scripts/render_equations.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/scripts/validate_expansion.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/synthesis_chinese.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/expanded/synthesis_english.md",
+      "passed": true
+    },
+    {
       "check": "SHA256 manuscript/figures/Fig1_Evidence_Design_chinese.png",
       "passed": true
     },
@@ -3234,6 +3958,910 @@
     },
     {
       "check": "SHA256 manuscript/figures/Fig6_Observable_Convergence_english.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/catalysis/audit.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/catalysis/figures/Figure_C1_Spin_Gates_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/catalysis/figures/Figure_C1_Spin_Gates_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/catalysis/figures/Figure_C1_Spin_Gates_english.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/catalysis/figures/Figure_C1_Spin_Gates_english.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/catalysis/figures/Figure_C2_Spin_Quality_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/catalysis/figures/Figure_C2_Spin_Quality_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/catalysis/figures/Figure_C2_Spin_Quality_english.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/catalysis/figures/Figure_C2_Spin_Quality_english.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/catalysis/figures/Figure_C3_EGNN_Baselines_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/catalysis/figures/Figure_C3_EGNN_Baselines_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/catalysis/figures/Figure_C3_EGNN_Baselines_english.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/catalysis/figures/Figure_C3_EGNN_Baselines_english.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/catalysis/figures/Figure_C4_Unaccepted_Paths_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/catalysis/figures/Figure_C4_Unaccepted_Paths_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/catalysis/figures/Figure_C4_Unaccepted_Paths_english.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/catalysis/figures/Figure_C4_Unaccepted_Paths_english.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/catalysis/figures/Figure_C5_Molecular_Preflight_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/catalysis/figures/Figure_C5_Molecular_Preflight_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/catalysis/figures/Figure_C5_Molecular_Preflight_english.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/catalysis/figures/Figure_C5_Molecular_Preflight_english.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/catalysis/figures/manifest.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/catalysis/plotting.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/catalysis/section_chinese.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/catalysis/section_english.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/catalysis/sources/C01_excerpt.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/catalysis/sources/C02_excerpt.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/catalysis/sources/C03_excerpt.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/catalysis/sources/C04_spin_states.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/catalysis/sources/C05_vertical_gaps.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/catalysis/sources/C06_excerpt.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/catalysis/sources/C07_excerpt.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/catalysis/sources/C08_excerpt.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/catalysis/sources/C09_association_energies.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/catalysis/sources/C10_association_thermochemistry.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/catalysis/sources/C11_many_body_nonadditivity.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/catalysis/sources/C12_excerpt.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/catalysis/sources/C13_attempts.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/catalysis/sources/C14_excerpt.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/catalysis/sources/C15_excerpt.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/catalysis/sources/C16_excerpt.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/catalysis/sources/C17_excerpt.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/catalysis/sources/C18_excerpt.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/catalysis/sources/C19_excerpt.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/catalysis/sources/C20_excerpt.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/catalysis/sources/C21_excerpt.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/catalysis/sources/C22_excerpt.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/catalysis/sources/C23_excerpt.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/catalysis/sources/C24_THIRD_PARTY_LICENSE.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/catalysis/sources/catalog.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/catalysis/sources/commit_history.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/catalysis/sources/finalize_audit.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/catalysis/sources/native_energy_checks.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/catalysis/sources/posthoc_dft_jobs.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/catalysis/sources/posthoc_egnn_metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/catalysis/sources/posthoc_phase4_jobs.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/catalysis/sources/posthoc_proton_wire.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/catalysis/sources/posthoc_solvation_selected.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/catalysis/sources/posthoc_spin_gates.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/catalysis/sources/reproduce_audit.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/audit.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/figures/Figure_L1_Conformer_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/figures/Figure_L1_Conformer_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/figures/Figure_L1_Conformer_english.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/figures/Figure_L1_Conformer_english.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/figures/Figure_L2_VMC_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/figures/Figure_L2_VMC_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/figures/Figure_L2_VMC_english.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/figures/Figure_L2_VMC_english.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/figures/Figure_L3_Trace_Windows_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/figures/Figure_L3_Trace_Windows_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/figures/Figure_L3_Trace_Windows_english.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/figures/Figure_L3_Trace_Windows_english.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/figures/Figure_L4_Reference_Alignment_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/figures/Figure_L4_Reference_Alignment_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/figures/Figure_L4_Reference_Alignment_english.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/figures/Figure_L4_Reference_Alignment_english.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/figures/Figure_L5_Rank_Reversals_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/figures/Figure_L5_Rank_Reversals_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/figures/Figure_L5_Rank_Reversals_english.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/figures/Figure_L5_Rank_Reversals_english.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/figures/figure_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/plotting.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/section_chinese.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/section_english.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/sources/README.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/sources/aqueous_LICENSE.txt",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/sources/aqueous_README.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/sources/aqueous_aqsol_model.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/sources/aqueous_esol_model.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/sources/aqueous_history.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/sources/aqueous_paclitaxel.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/sources/aqueous_predict_solubility.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/sources/collect_history.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/sources/complex_EVIDENCE.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/sources/complex_LICENSE.txt",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/sources/complex_PHASE11_13_AUDIT_FIXES.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/sources/complex_PHASE1_19_CLOSEOUT.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/sources/complex_PHASE1_5_AUDIT_FIXES.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/sources/complex_PHASE_INDEX.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/sources/complex_history.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/sources/cross_review_multiscale.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/sources/deduplication.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/sources/derived_conformers.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/sources/derived_rank_reversals.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/sources/derived_reference_alignment.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/sources/derived_synthetic_campaign.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/sources/derived_trace_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/sources/derived_vmc.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/sources/derived_vmc_blocks.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/sources/finalize_history.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/sources/phase01_acceptance.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/sources/phase01_audited.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/sources/phase01_original.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/sources/phase11_acceptance.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/sources/phase11_references.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/sources/phase11_results.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/sources/phase24_measurements.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/sources/phase24_metrics.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/sources/phase25_27_acceptance.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/sources/phase28_additional_source_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/sources/phase28_additional_summary.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/sources/phase28_extraction_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/sources/phase28_hour_bins.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/sources/phase28_production_fe_inputs.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/sources/phase28_replicate_mean_intervals.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/sources/phase28_source_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/sources/phase28_time_contrasts.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/sources/phase28_trace_metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/sources/phase28_trace_summary.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/sources/phase28_window_robustness.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/sources/phase29_Q01_def2-svp_cation.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/sources/phase29_Q01_def2-svp_radical.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/sources/phase29_Q01_def2-tzvp_cation.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/sources/phase29_Q01_def2-tzvp_radical.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/sources/phase29_Q02_def2-svp_cation.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/sources/phase29_Q02_def2-svp_radical.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/sources/phase29_Q03_def2-svp_cation.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/sources/phase29_Q03_def2-svp_radical.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/sources/phase29_acceptance.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/sources/phase29_comparison.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/sources/phase29_comparison_summary.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/sources/phase29_dft_differences.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/sources/phase29_dft_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/sources/phase29_dft_summary.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/sources/phase29_state_differences.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/sources/phase29_xtb_analysis.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/sources/phase29_xtb_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/sources/phase30_acceptance.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/sources/phase31_leads.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/sources/phase31_status.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/sources/phase_coverage.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/sources/posthoc_summary.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/learning/sources/recompute_history.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/pharmacology/audit.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/pharmacology/figures/Figure_P1_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/pharmacology/figures/Figure_P1_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/pharmacology/figures/Figure_P1_english.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/pharmacology/figures/Figure_P1_english.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/pharmacology/figures/Figure_P2_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/pharmacology/figures/Figure_P2_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/pharmacology/figures/Figure_P2_english.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/pharmacology/figures/Figure_P2_english.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/pharmacology/figures/Figure_P3_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/pharmacology/figures/Figure_P3_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/pharmacology/figures/Figure_P3_english.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/pharmacology/figures/Figure_P3_english.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/pharmacology/figures/Figure_P4_chinese.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/pharmacology/figures/Figure_P4_chinese.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/pharmacology/figures/Figure_P4_english.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/pharmacology/figures/Figure_P4_english.svg",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/pharmacology/figures/manifest.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/pharmacology/figures/visual_qa.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/pharmacology/plotting.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/pharmacology/references_verification.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/pharmacology/section_chinese.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/pharmacology/section_english.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/pharmacology/sources/Paper-Analysis-ChemMLLM/README.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/pharmacology/sources/ai4pharm-lead-developability-suite/LICENSE",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/pharmacology/sources/ai4pharm-lead-developability-suite/README.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/pharmacology/sources/ai4pharm-lead-developability-suite/data_omnibus/recompute/projects/task01_lead_developability/results_task1/developability_results.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/pharmacology/sources/ai4pharm-lead-developability-suite/data_omnibus/recompute/projects/task02_tpd/data_task2/equilibrium_metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/pharmacology/sources/ai4pharm-lead-developability-suite/data_omnibus/recompute/projects/task03_covalent_kinetics/data_task3/warhead_results.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/pharmacology/sources/ai4pharm-lead-developability-suite/projects/task01_lead_developability/MODEL_CARD.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/pharmacology/sources/ai4pharm-lead-developability-suite/projects/task01_lead_developability/data/reference_panel.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/pharmacology/sources/ai4pharm-lead-developability-suite/projects/task01_lead_developability/results_task1/developability_results.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/pharmacology/sources/ai4pharm-lead-developability-suite/projects/task01_lead_developability/results_task1/developability_results.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/pharmacology/sources/ai4pharm-lead-developability-suite/projects/task01_lead_developability/results_task1/group_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/pharmacology/sources/ai4pharm-lead-developability-suite/projects/task01_lead_developability/results_task1/run_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/pharmacology/sources/ai4pharm-lead-developability-suite/projects/task01_lead_developability/run_task1_mpo_admet_developability.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/pharmacology/sources/ai4pharm-lead-developability-suite/projects/task02_tpd/data_task2/equilibrium_metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/pharmacology/sources/ai4pharm-lead-developability-suite/projects/task02_tpd/data_task2/equilibrium_species.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/pharmacology/sources/ai4pharm-lead-developability-suite/projects/task02_tpd/data_task2/linker_conformers.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/pharmacology/sources/ai4pharm-lead-developability-suite/projects/task02_tpd/data_task2/linker_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/pharmacology/sources/ai4pharm-lead-developability-suite/projects/task02_tpd/manifest_task2.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/pharmacology/sources/ai4pharm-lead-developability-suite/projects/task02_tpd/run_task2_tpd_ternary_cooperativity.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/pharmacology/sources/ai4pharm-lead-developability-suite/projects/task03_covalent_kinetics/data_task3/kobs_concentration.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/pharmacology/sources/ai4pharm-lead-developability-suite/projects/task03_covalent_kinetics/data_task3/lfer_regression.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/pharmacology/sources/ai4pharm-lead-developability-suite/projects/task03_covalent_kinetics/data_task3/run_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/pharmacology/sources/ai4pharm-lead-developability-suite/projects/task03_covalent_kinetics/data_task3/warhead_results.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/pharmacology/sources/ai4pharm-lead-developability-suite/projects/task03_covalent_kinetics/run_task3_covalent_kinetics_residence_time.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/pharmacology/sources/ai4pharm-lead-developability-suite/projects/task19_metadynamics/EXECUTION_AUDIT.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/pharmacology/sources/ai4pharm-lead-developability-suite/projects/task19_metadynamics/inputs/5T35.pdb",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/pharmacology/sources/ai4pharm-lead-developability-suite/projects/task19_metadynamics/outputs/atomistic_cv_trajectory.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/pharmacology/sources/ai4pharm-lead-developability-suite/projects/task19_metadynamics/outputs/config.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/pharmacology/sources/ai4pharm-lead-developability-suite/projects/task19_metadynamics/outputs/executed_driver.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/pharmacology/sources/ai4pharm-lead-developability-suite/projects/task19_metadynamics/outputs/hill_history.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/pharmacology/sources/ai4pharm-lead-developability-suite/projects/task19_metadynamics/outputs/run_metadata.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/pharmacology/sources/ai4pharm-lead-developability-suite/projects/task19_metadynamics/outputs/summary.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/pharmacology/sources/ai4pharm-lead-developability-suite/projects/task19_metadynamics/outputs/verification.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/pharmacology/sources/ai4pharm-lead-developability-suite/projects/task20_denovo/driver.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/pharmacology/sources/ai4pharm-lead-developability-suite/projects/task20_denovo/outputs/docking/candidate_vina_scores.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/pharmacology/sources/ai4pharm-lead-developability-suite/projects/task20_denovo/outputs/evaluated_candidates.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/pharmacology/sources/ai4pharm-lead-developability-suite/projects/task20_denovo/outputs/generation_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/pharmacology/sources/ai4pharm-lead-developability-suite/projects/task20_denovo/outputs/random_search_control.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/pharmacology/sources/ai4pharm-lead-developability-suite/projects/task20_denovo/outputs/random_search_summary.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/pharmacology/sources/ai4pharm-lead-developability-suite/projects/task20_denovo/outputs/summary.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/pharmacology/sources/ai4pharm-lead-developability-suite/projects/task20_denovo/outputs/verification.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/pharmacology/sources/collect_sources.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/pharmacology/sources/derived/covalent_plot.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/pharmacology/sources/derived/mpo_plot.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/pharmacology/sources/derived/optimization_plot.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/pharmacology/sources/derived/tpd_plot.csv",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/pharmacology/sources/recompute_audit.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/pharmacology/sources/source_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 manuscript/history/repository_inventory.json",
       "passed": true
     },
     {

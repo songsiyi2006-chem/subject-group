@@ -1,0 +1,57 @@
+{
+  "scope": "Independent stdlib arithmetic and saved-output checks; no source execution, training or solver calls",
+  "inputs_pinned_commit_match": {
+    "electrograph/results/learning/regression_metrics.csv": true,
+    "electratwin/results/reaction_network/study_summary.json": true,
+    "electratwin/results/benchmark_extension/budget_prefixes.csv": true,
+    "electratwin/results/benchmark_extension/holdout_grouped_metrics.csv": true,
+    "electrograph/results/kinetics/potential_summary.csv": true,
+    "synthapore/results/dynamics/thermostat_summary.csv": true,
+    "synthapore/results/dynamics/nve_timestep_summary.csv": true,
+    "toolkit/results/audit/deconvolution_recovery.csv": true
+  },
+  "results": {
+    "optimization_max_discrepancy": 1.1102230246251565e-16,
+    "chromatography_max_discrepancy": 3.552713678800501e-15,
+    "network_independent_formula_discrepancies": {
+      "conversion_A_pct": 7.105427357601002e-15,
+      "net_P_yield_pct": 0.0,
+      "net_P_selectivity_pct": 8.881784197001252e-14,
+      "gross_AP_charge_fraction_pct": 0.0,
+      "net_P_faradaic_efficiency_pct": 0.0
+    },
+    "network_outlet_sum_mM": 49.999999999999915,
+    "channel_current_sum_mA": 73.3603391064061,
+    "kinetic_max_relative_discrepancy_percent": 0.20425662224476948,
+    "canonical_temperature_variance_K2": 8571.42857142857,
+    "thermostat_max_ratio_discrepancy": 0.0,
+    "bilingual_table_numeric_mismatches": [],
+    "optimization_endpoint_rows": 192,
+    "optimization_unique_endpoint_keys": 192
+  },
+  "issues": [
+    {
+      "severity": "editorial",
+      "file": "manuscript/expanded/multiscale_english.md",
+      "line": 11,
+      "finding": "English Table M1 header still contains Chinese: 模型 / Model. Replace with Model."
+    },
+    {
+      "severity": "robustness",
+      "file": "manuscript/expanded/scripts/analyze_multiscale.py",
+      "line": 42,
+      "finding": "Endpoint dictionary would silently overwrite duplicate method/seed/evaluation rows; current data has correct cardinality but assert duplicate absence to make future failures explicit."
+    },
+    {
+      "severity": "visual",
+      "file": "manuscript/expanded/figures/M3_Optimization_english.png",
+      "finding": "Adjacent Flow block labels in panel b visually run together; recommend spacing or rotation. Other displayed quantities/units and denominator are appropriate."
+    }
+  ],
+  "reviewed_hashes": {
+    "manuscript/expanded/scripts/analyze_multiscale.py": "06b2b4b6b74a443ab9efa91538fbbcb233111abf991710e8abd8e58e2acd6907",
+    "manuscript/expanded/multiscale_english.md": "ea017d4665d38fcbd5ec855ee219cd6d380b7faf31e988188ad2f4fe7caa53b8",
+    "manuscript/expanded/multiscale_chinese.md": "be0f40b8d752ec5ea03045970de414e72a7421ab81fade0dbd02875ce84cdee0",
+    "manuscript/expanded/figures/M3_Optimization_english.png": "e9b2dd8bbef454f9448ba0d2b352f1610eadc8597d7ebb68c3bbef3c1fcdf5fd"
+  }
+}

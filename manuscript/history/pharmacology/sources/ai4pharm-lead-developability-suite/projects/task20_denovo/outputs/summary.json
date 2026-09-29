@@ -1,0 +1,63 @@
+{
+  "task": 20,
+  "population": 100,
+  "generations": 20,
+  "history_rows": 2000,
+  "unique_graphs_evaluated": 1034,
+  "unique_graphs_including_random_control": 1597,
+  "random_search_control": {
+    "unique_graph_budget": 1034,
+    "seed": 20264922,
+    "rejected_proposals": 73,
+    "best_geometry_score": 20.652330269204537,
+    "selected_median_geometry_score": 15.329122333369664,
+    "selected_sa_below_3p5": 100,
+    "interpretation": "one equal-budget random-order control; not replicated optimization superiority"
+  },
+  "rejected_proposals": 55,
+  "final_pareto_size": 100,
+  "final_sa_below_3p5": 100,
+  "best_geometry_score_initial": 19.21995198226838,
+  "best_geometry_score_final": 20.669833162550738,
+  "docking": {
+    "status": "executed",
+    "candidate_docks": 12,
+    "redocking_controls": [
+      {
+        "seed": 20261022,
+        "vina_score_kcal_mol": -8.264,
+        "symmetry_aware_heavy_atom_rmsd_A_without_superposition": 1.2423638521691103,
+        "within_2A": true
+      },
+      {
+        "seed": 20261023,
+        "vina_score_kcal_mol": -8.368,
+        "symmetry_aware_heavy_atom_rmsd_A_without_superposition": 1.054641477971933,
+        "within_2A": true
+      }
+    ],
+    "vina_executable_sha256": "e0c4b2715e0c1a74f6e92d0f3be0328ac97542eafbc111e6b1efad897a73cce5",
+    "vina_version": "AutoDock Vina v1.2.7",
+    "receptor": "rigid chain A, default Meeko residue protonation; crystal waters removed; no microstate ensemble",
+    "nanomolar_affinity_validated": false
+  },
+  "affinity_nM": null,
+  "novelty_verified": false,
+  "synthesis_proven": false,
+  "clinical_recommendation": null,
+  "scientific_acceptance": "nanomolar binding and novel synthesizable lead claims not established",
+  "protein_atoms": 2349,
+  "pocket_atoms": 374,
+  "seconds": 385.0775827000034,
+  "runtime": {
+    "python": "3.14.6",
+    "rdkit": "2026.03.5",
+    "numpy": "2.5.2"
+  },
+  "source_sha256": "6f69d401f947ca8894a35c7efd8bbe1e9671771c0931dc424a39346f5ce89559",
+  "inputs_sha256": {
+    "6W63.pdb": "aef661942aa9afaaf0fb8b69cea88bfea39ee88286f58bd230938eeb1e065eae",
+    "6YB7.pdb": "1d428555323b2bae2370fc17b8e08fe7a8b8dbe8fe75d784fda45badfeaf4b5d",
+    "X77_ideal.sdf": "7fe4f261d60bae89265596cbc7fe7a8ad2b113aaebe37f56565275e3ee5daffb"
+  }
+}

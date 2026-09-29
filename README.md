@@ -1,8 +1,16 @@
 # AI4S Organic Electrosynthesis & Catalyst Informatics
 
-完整技术报告、可复现计算与证据审计。Updated 2026-09-28.
+完整技术报告、可复现计算与证据审计。Updated 2026-09-29.
 
-## Integrated research manuscript / 整合研究论文
+## Expanded research paper / 历史项目扩展论文
+
+**[中英扩展论文入口](manuscript/expanded/README.md)** · [中文 PDF](manuscript/expanded/documents/manuscript_chinese.pdf) · [English PDF](manuscript/expanded/documents/manuscript_english.pdf)
+
+分析六个公开仓库的固定提交及历史，整合相关计算、参考对齐和负面对照。两版分别为中文 45 页、英文 52 页，各含 26 幅图、28 张表和 38 篇实际引用文献；页数以最终 PDF 检查记录为准。正文在参考文献前均超过 30 页。新增历史证据包括构象与 VMC 记录、匹配电子参考、催化态质量、分子采样和对接，以及多尺度模型比较。共享提交、续算、重复时间戳与缓存查询保留独立计数口径。
+
+The expanded paper preserves original calculations and adds traceable retrospective arithmetic and bilingual figures. Actual electronic/atomistic runs, public experimental data, synthetic models and missing evidence remain distinguished. [Fixed repository inventory](manuscript/history/repository_inventory.json) · [Numerical/provenance validation](manuscript/expanded/results/validation.json) · [Verified literature](manuscript/expanded/references_verified.json). The earlier paper and its SI remain available below.
+
+## Earlier integrated research manuscript / 原整合研究论文
 
 **[论文、Word/PDF 与补充信息入口](manuscript/README.md)** · [中文正文](manuscript/rendered/manuscript_chinese.md) · [English manuscript](manuscript/rendered/manuscript_english.md)
 

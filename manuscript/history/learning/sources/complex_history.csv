@@ -1,0 +1,55 @@
+commit,author_timestamp,subject,review_category
+5939547a936ed4baf7fa7ee9fac6fa6e90bfa8fe,2026-09-01T18:29:32+08:00,Initial release: aqueous solubility ML benchmark (ESOL baseline -> AqSolDB + ECFP4 + HistGBR),initial_or_stage_addition
+b4d462499568a6af0af12d76b2e5c89387d1eb15,2026-09-03T13:30:22+08:00,feat(release): publication-grade 10-scaffold benchmark suite with bilingual reports and high-res assets,initial_or_stage_addition
+acb885a7016bb2b0305bf56a7c11e3542f4d019f,2026-09-03T20:21:49+08:00,Phase 2: heavy dynamics suite (torsion scans T01-T05 + OpenMM MD of T02),initial_or_stage_addition
+27d5ad63ef18a2fe7020ece9b6ddfffc1b8b99cc,2026-09-04T12:37:21+08:00,"feat(phase3): macromolecular complex dynamics, per-residue MM-GBSA decomposition & MACE ML-potential benchmarking",initial_or_stage_addition
+cbbf521f58246ecffa0061c0bfc8d2ac647be251,2026-09-04T21:37:02+08:00,"feat(phase4): CI-NEB reaction mechanism pipeline — GFN2-xTB endpoint opt, IDPP interpolation, climbing-image NEB (fmax<0.05 eV/A) & TS thermochemistry for cyclopropa[b]indole ring expansion",initial_or_stage_addition
+83e3a7d7daf8c49d52174451c7cc02f14efcfbf9,2026-09-04T23:21:48+08:00,"feat(phase4): autonomous transition state search, CI-NEB skeletal editing pathway & vibrational frequency verification",initial_or_stage_addition
+d24a05ad5519ccb3b521aa936831afa293576b31,2026-09-05T02:21:39+08:00,"feat(phase5): autonomous reaction network discovery, stiff microkinetic solver & TS-stabilizing generative catalyst design",initial_or_stage_addition
+7426aceeba10fa79da96444f17b488a8825a020d,2026-09-05T04:07:52+08:00,"chore(phase6): land explicit-solvent well-tempered metadynamics suite (TIP3P WTMetaD 2D FES, dDGsolv <= 0.26 kcal/mol) referenced by the pantheon README",initial_or_stage_addition
+d8f33a6bc6a35437ee7c6da025e7a191395370b0,2026-09-05T04:08:14+08:00,feat(phase7): multi-reference CASSCF quantum benchmark & the AI wall-of-sighs failure map,initial_or_stage_addition
+18f5134d4dd3b6ad9ba025e6bb8fea618dab2d7c,2026-09-05T05:10:56+08:00,feat(phase6): explicit solvent well-tempered metadynamics & 2D free energy surface reconstruction,initial_or_stage_addition
+85b2d37925df2872803988ddf2030d6eac35cd54,2026-09-05T08:30:29+08:00,"feat(phase9): self-driving lab compiler, Opentrons OT-2 hardware execution & closed-loop analytical twin",initial_or_stage_addition
+b5095c3585eeda0f19784f5f0871403d1c68a9a7,2026-09-05T10:33:54+08:00,"feat(phase8): excited-state TD-DFT, conical intersection search & Tully surface hopping photodynamics",initial_or_stage_addition
+7f4825ce8b9dce7fce63cd4a499729acc75e6b7e,2026-09-05T16:40:17+08:00,"feat(phase10): multi-scale continuous-flow digital twin, operando PAT & cyber-physical reinforcement control",initial_or_stage_addition
+a0f5e49e9c585c9627d8db3cc964c228456dd482,2026-09-05T16:41:08+08:00,feat(phase11): continuous neural wavefunction ansatz & variational quantum monte carlo solver,initial_or_stage_addition
+ad8c595760bb695a729b6128770de04366d79f98,2026-09-06T02:54:37+08:00,feat(phase15): quantum biology radical-pair engine & cryptochrome allosteric magnetoreception,initial_or_stage_addition
+01991a1e15c5895c76a21fde82aaef04dccda665,2026-09-06T03:18:33+08:00,"feat(phase12): autonomous Hamiltonian law discovery, symbolic ODE induction & repository pantheon completion",initial_or_stage_addition
+1593d2b41b59d391c1eff111e9cd25916f0686c2,2026-09-06T06:56:03+08:00,feat(phase14): active non-equilibrium biomolecular condensates & Cahn-Hilliard LLPS dynamics,initial_or_stage_addition
+39016584e09583732ba93a4c00f1da6bb7d1fd0c,2026-09-06T07:45:47+08:00,"feat(phase13): bioinorganic PCET quantum engine, proton tunneling & operando spectroscopic twin",initial_or_stage_addition
+4c203d66b16c6e2bf0d9de9b2fed610c3e3dda26,2026-09-07T04:52:29+08:00,"feat(phase18): whole-cell metabolic digital twin, thermodynamic flux (tFBA) & cybernetic dynamics",initial_or_stage_addition
+e01613d56de151ab5f953033bac5e3c88ae368b2,2026-09-07T08:35:37+08:00,feat(phase17): 4-component relativistic Dirac-Coulomb-Breit quantum engine & actinide covalency,initial_or_stage_addition
+79c97a3efe4a7081891825d91bbc229e460df87d,2026-09-08T00:45:05+08:00,"feat(phase16): mega-Dalton macromolecular dynamics, Cryo-EM MDFF fitting & NPC mesoscale transport",initial_or_stage_addition
+94bf6a6825e4f2db2d2e90a08e6a8972e78251c0,2026-09-08T22:37:00+08:00,"feat(phase19): active inference de novo enzyme design, SE(3) flow matching & Kemp elimination biocatalysis",initial_or_stage_addition
+6e91a0dcb091530d1c20fed9f4ab695d14647e91,2026-09-08T22:48:55+08:00,"feat(phase20): relativistic CISS quantum transport, spin-polarized catalysis & spintronic twin",initial_or_stage_addition
+396a8f56496050265ae7575cd04c601f1d6408e2,2026-09-09T10:18:07+08:00,"feat(phase21): cavity QED polaritonic chemistry, vacuum Rabi splitting & modified reaction kinetics",initial_or_stage_addition
+8bfbc6118bbf2050895ff06823124d9113be7076,2026-09-09T11:07:21+08:00,"feat(phase22): molecular spin qubits, clock transition protection & dynamical decoupling quantum engine",initial_or_stage_addition
+059bf1a5fc0b9f71128e77610e0326b328bda993,2026-09-09T18:14:00+08:00,"feat(phase23): in-materio neuromorphic computing, molecular memristors & physical reservoir engine",initial_or_stage_addition
+338422f171d3d0b072418e60b2f1604ca060b1c0,2026-09-09T23:17:40+08:00,"fix(phases1-5): correct energies and conformers, enforce validation gates",audit_or_repair
+d2e48346eeb22318fbd1c9a3f64dfb27691c25dd,2026-09-10T07:13:33+08:00,fix(phase6-10): correct scientific kernels and protocol isolation,audit_or_repair
+0d44af71c6200fca751e1f7fe68f51deff1789c0,2026-09-10T07:26:40+08:00,"fix(phase11-13): align wavefunction and audit metrics, correct PCET rates",audit_or_repair
+cd2090e4c91652d8cc82439ccfed9b5feec237cf,2026-09-10T07:37:23+08:00,"fix(phase14-17): correct thermodynamics, spin yields, transport and exchange",audit_or_repair
+4ac9fd806ef3812178e33c838f1995cdd8c72be6,2026-09-10T12:46:18+08:00,"fix(phase18-19): correct thermodynamics and QM scans, rerun audited calculations",audit_or_repair
+c776a1fbc6eac4e631ca3732e3ff8bf89c2ba479,2026-09-10T12:46:41+08:00,data(phase18-19): publish recalculated metabolic and isolated QM results,audit_or_repair
+ed92fcf5ea3856d404e59fb6357295b8a335add5,2026-09-10T13:23:49+08:00,feat(phase24): GXNU HTE active-learning pilot with audited simulation and OT-2 protocols,initial_or_stage_addition
+1dd9768c294f0c780835c2f00129138b45ea4976,2026-09-10T19:10:15+08:00,fix(phases1-19): numerical corrections and scoped fresh rerun evidence,audit_or_repair
+1127882c701b51ec652305fc48114b71f230fb7e,2026-09-10T19:32:53+08:00,fix(phase19): repair aromatic geometry and persist training checkpoints,audit_or_repair
+9acc95bd0441b2207e3d279e82ee5f5e3a950c5c,2026-09-10T20:16:27+08:00,fix(reruns): repair reaction pose and audit numerical diagnostics,audit_or_repair
+e4c30319c4b06f56f0f1fab97acefc8bc72a9a60,2026-09-10T20:28:17+08:00,fix(phase5): isolate stereoface caches on case-insensitive filesystems,audit_or_repair
+c55fc0778878f4a50c445906ea3a82527d94a72e,2026-09-10T21:56:07+08:00,"fix(reruns): preserve checkpoints, stabilize stiff kinetics and resume audited calculations",audit_or_repair
+93b9ab140e4100ffa7fbae016165f30d7d4e604c,2026-09-10T22:08:38+08:00,"Add evidence-gated Phase25-27 inputs, local DFT pilot and bilingual reports",initial_or_stage_addition
+78474760bbc9616e4d20a2bfcc9e29d9f996ddfe,2026-09-10T23:00:03+08:00,fix(phase5): bound near-zero-yield annotations and recover rendering with provenance,audit_or_repair
+375c006971ffe30a512322490ba1cf1522f64577,2026-09-10T23:14:46+08:00,fix(reruns): enforce complete MD trajectories and enable continuous pending queue,audit_or_repair
+5a339879dc7cd706e574271ef3fb989a60487442,2026-09-10T23:26:41+08:00,fix(phase16): restrict gradient selftest to supported grid domain,audit_or_repair
+c27d40f18c193adaa4b9353bac396b198f15943c,2026-09-10T23:36:18+08:00,"fix(science): improve immutable motif geometry, checkpoint training and mask mixed-basis scans",audit_or_repair
+d720f98de769e9f4b41002be1d6af2dfd587020a,2026-09-11T00:04:06+08:00,fix(reruns): integrate phase3/4/8/19 guards and verified NEB diagnostics,audit_or_repair
+355ad2e21b9b8df3f173f037e497d69efdfba210,2026-09-11T00:12:45+08:00,Add audited Phase25 full-system xTB pilot and E/Z DFT optimizations,initial_or_stage_addition
+2d84de2bcb36fa2cb6283c95a0397c48f0c060f8,2026-09-11T00:28:41+08:00,Audit new chemistry tools with Cu force checks and source verification,audit_or_repair
+cb7e1d616300504627420fb633479082e8f97817,2026-09-11T00:36:58+08:00,"fix(phase4,phase19): verify geometric saddle refinement and peptide loop closure",audit_or_repair
+deb53181f8a87d56626c69106653835de953817c,2026-09-11T00:36:59+08:00,Merge remote-tracking branch 'origin/main',organization_or_merge
+15efde6d29fbf81e3b1a1876734ed9d45e693979,2026-09-20T19:50:36+08:00,"docs: organize project overview, phase navigation and evidence boundaries",organization_or_merge
+d0a1476582c68a3aa7292857e575ae1545a707d1,2026-09-20T20:01:38+08:00,refactor: group all 27 phases into project folders with compatible runners,organization_or_merge
+73b1ea0ddcca2e1d671fb41f043143a69e4f0777,2026-09-20T20:43:33+08:00,feat: deliver phase 28 and 29 public-data analyses and local research pilots,initial_or_stage_addition
+c39f9572a7d9e3438076ddfa7f278994359ee4ee,2026-09-20T21:08:06+08:00,Extend phases 28 and 29 with public-data robustness and quantum crosschecks,initial_or_stage_addition
+db9bec08a5f92362b7b5cf393559896b749cbc69,2026-09-21T12:56:35+08:00,feat(phase30): add audited CO2RR multiscale specification and reduced-order pilot,initial_or_stage_addition
+5e19c519dbd11430926828fddf5375b919af67f0,2026-09-21T13:24:41+08:00,feat(phase31): add audited macrocycle QM/MM-FEP swarm specification and pilot,initial_or_stage_addition

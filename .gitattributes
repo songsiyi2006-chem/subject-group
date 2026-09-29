@@ -43,3 +43,8 @@ manuscript/figures/** -text -whitespace
 manuscript/assets/** -text -whitespace
 *.docx binary
 *.pdf binary
+manuscript/history/** -text -whitespace
+manuscript/expanded/results/** -text -whitespace
+manuscript/expanded/figures/** -text -whitespace
+manuscript/expanded/assets/** -text -whitespace
+manuscript/expanded/*.json -text -whitespace

@@ -1,0 +1,336 @@
+{
+  "document": "manuscript/expanded/documents/manuscript_chinese.pdf",
+  "pdf_sha256": "91392a6a3672ba7c623ab73b8e262782979c44921605f57d8fbf742c13c024ba",
+  "render_generation": "expanded-paper-pages-v2",
+  "review_date": "2026-09-29",
+  "reviewer": "AI agent electrograph_kinetics; not human editorial or peer review",
+  "scope": "Assigned Chinese PDF pages 24 through 45 inclusive; no claim to have reviewed pages 1-23 in this record.",
+  "pages_reviewed": [
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45
+  ],
+  "pages_reviewed_count": 22,
+  "individual_page_image_views": 22,
+  "page_records": [
+    {
+      "page": 24,
+      "page_image": "page-024.png",
+      "page_image_sha256": "cee8f3863d71fd4e2c27813f74d4e15683290b3599b2c227770e08e492b2fa76",
+      "pixels": [
+        918,
+        1188
+      ],
+      "review_method": "Individual full page displayed using view_image(detail=original).",
+      "status": "pass",
+      "findings": [],
+      "assessment": "Table 14 and Figure 15 remain together with captions; table cells, bars, units and body formulas are legible; no clipping or overlap."
+    },
+    {
+      "page": 25,
+      "page_image": "page-025.png",
+      "page_image_sha256": "e98c2c0d947e4bb873a040e4504efd4c7dd27d70aeb23c0d061a817b054f7659",
+      "pixels": [
+        918,
+        1188
+      ],
+      "review_method": "Individual full page displayed using view_image(detail=original).",
+      "status": "pass",
+      "findings": [],
+      "assessment": "Section 5.6 and Table 15 fit inside margins; spin notation, units and superscripts render correctly; no table row split."
+    },
+    {
+      "page": 26,
+      "page_image": "page-026.png",
+      "page_image_sha256": "f0998a79c0d7308a55215e582300008926287ac8a87f5586a02354bc11ff6720",
+      "pixels": [
+        918,
+        1188
+      ],
+      "review_method": "Individual full page displayed using view_image(detail=original).",
+      "status": "pass",
+      "findings": [],
+      "assessment": "Figure 16, Table 16 and following Section 5.7 are readable; long code paths wrap inside the text area; no figure-caption detachment."
+    },
+    {
+      "page": 27,
+      "page_image": "page-027.png",
+      "page_image_sha256": "6c6c8aa0480f28154073705e0a68d4051c1a73338ea0f44c44062562e564a905",
+      "pixels": [
+        918,
+        1188
+      ],
+      "review_method": "Individual full page displayed using view_image(detail=original).",
+      "status": "pass",
+      "findings": [],
+      "assessment": "Transition into Section 6, fixed commit strings and Table 17 are readable; wrapped header cells remain distinct and no row is clipped."
+    },
+    {
+      "page": 28,
+      "page_image": "page-028.png",
+      "page_image_sha256": "997cb9d8f1ce11494f4e601c80093d64c306baebee7dd6289b414c607fbaf3c7",
+      "pixels": [
+        918,
+        1188
+      ],
+      "review_method": "Individual full page displayed using view_image(detail=original).",
+      "status": "pass",
+      "findings": [],
+      "assessment": "Figure 17 and Table 18 are complete; corrected 12.688680% value is visible; numeric ranges and captions remain inside margins."
+    },
+    {
+      "page": 29,
+      "page_image": "page-029.png",
+      "page_image_sha256": "21f29b60a97c24ee1dd62eacf17b989e1154f98e4f0e02522de77c97af47b67c",
+      "pixels": [
+        918,
+        1188
+      ],
+      "review_method": "Individual full page displayed using view_image(detail=original).",
+      "status": "pass",
+      "findings": [],
+      "assessment": "Table 19 and Figure 18 have intact titles; logarithmic ticks and linker histogram are clear; inline rate expressions remain legible."
+    },
+    {
+      "page": 30,
+      "page_image": "page-030.png",
+      "page_image_sha256": "c5d032ea46182378e5a67344abad5ff9837c50a7ed7a3f922b1d8ab52a820abb",
+      "pixels": [
+        918,
+        1188
+      ],
+      "review_method": "Individual full page displayed using view_image(detail=original).",
+      "status": "pass",
+      "findings": [],
+      "assessment": "Table 20 retains all eight rows and scientific notation; Chinese Figure 19 has no legend-data overlap; Section 6.5 begins without clipping."
+    },
+    {
+      "page": 31,
+      "page_image": "page-031.png",
+      "page_image_sha256": "b90cbf9ebfdbc0a1c6c8cb3db2fb4c206195a22d2add9edfd3b166c667aab21e",
+      "pixels": [
+        918,
+        1188
+      ],
+      "review_method": "Individual full page displayed using view_image(detail=original).",
+      "status": "pass",
+      "findings": [],
+      "assessment": "Table 21 and the three-panel Figure 20 are complete; annotation and axes remain readable; figure caption is on the same page."
+    },
+    {
+      "page": 32,
+      "page_image": "page-032.png",
+      "page_image_sha256": "054a90786ee9935bc2c05f3b0a76d1c49f8b04e8249ea424473e9a049c32a26b",
+      "pixels": [
+        918,
+        1188
+      ],
+      "review_method": "Individual full page displayed using view_image(detail=original).",
+      "status": "pass",
+      "findings": [],
+      "assessment": "Literature-history paragraph shows resolved numerical citations; Table 22 is complete and technical identifiers fit their cells."
+    },
+    {
+      "page": 33,
+      "page_image": "page-033.png",
+      "page_image_sha256": "cb9be97e616da0b90287fc8a33fe4270892291236a178a4c6308018da6e216c8",
+      "pixels": [
+        918,
+        1188
+      ],
+      "review_method": "Individual full page displayed using view_image(detail=original).",
+      "status": "pass",
+      "findings": [],
+      "assessment": "Figure 21 and its caption are intact; section transition and conservation expressions fit; no text or legend clipping."
+    },
+    {
+      "page": 34,
+      "page_image": "page-034.png",
+      "page_image_sha256": "1504f5d37bfe3c0dd992947ae1613e95aac21f58983f171fbbb6f233ddca3465",
+      "pixels": [
+        918,
+        1188
+      ],
+      "review_method": "Individual full page displayed using view_image(detail=original).",
+      "status": "pass",
+      "findings": [],
+      "assessment": "Table 23 and Figure 22 are complete; reaction arrows and current units render; text continues normally onto the next page."
+    },
+    {
+      "page": 35,
+      "page_image": "page-035.png",
+      "page_image_sha256": "68b94f8b38145bb000d12c5c286ab4666329aabc70d93af0f297cfdf821998ac",
+      "pixels": [
+        918,
+        1188
+      ],
+      "review_method": "Individual full page displayed using view_image(detail=original).",
+      "status": "pass",
+      "findings": [],
+      "assessment": "Table 24 and Figure 23 are complete; both plot panels and legends remain within bounds; Section 7.4 starts legibly."
+    },
+    {
+      "page": 36,
+      "page_image": "page-036.png",
+      "page_image_sha256": "83dce199dc66c74c32e9947a284bf3158c95a8473a86324a05a6b01dd95bd428",
+      "pixels": [
+        918,
+        1188
+      ],
+      "review_method": "Individual full page displayed using view_image(detail=original).",
+      "status": "pass",
+      "findings": [],
+      "assessment": "Table 25 retains six rows; Figure 24 error bars and occupancy legend are visible; caption and Section 7.5 do not collide."
+    },
+    {
+      "page": 37,
+      "page_image": "page-037.png",
+      "page_image_sha256": "be23d9b196e2e68a67340ccdee9b3c77a6d6bf7b7374d5ee492666e127f5c5e4",
+      "pixels": [
+        918,
+        1188
+      ],
+      "review_method": "Individual full page displayed using view_image(detail=original).",
+      "status": "pass",
+      "findings": [],
+      "assessment": "Table 26 and Figure 25 are complete; log-axis exponents and variance values render; Section 7.6 begins within margins."
+    },
+    {
+      "page": 38,
+      "page_image": "page-038.png",
+      "page_image_sha256": "b9910b73d5aabcc31f37e04588f633c3fade14f979f536329432c8410f9530d7",
+      "pixels": [
+        918,
+        1188
+      ],
+      "review_method": "Individual full page displayed using view_image(detail=original).",
+      "status": "pass",
+      "findings": [],
+      "assessment": "Table 27 retains eight rows; Figure 26 legends, curves and captions are legible; no cropping or detached caption."
+    },
+    {
+      "page": 39,
+      "page_image": "page-039.png",
+      "page_image_sha256": "2fb8b3502f3d469ba8b256cb53960eebf9f576b6d670aef0314b4fc5b3d91d0f",
+      "pixels": [
+        918,
+        1188
+      ],
+      "review_method": "Individual full page displayed using view_image(detail=original).",
+      "status": "pass",
+      "findings": [],
+      "assessment": "Text-only discussion page has clear heading hierarchy, resolved citations, normal line spacing and no overflow."
+    },
+    {
+      "page": 40,
+      "page_image": "page-040.png",
+      "page_image_sha256": "7f123cb449f7756b2ad41d197d5ceb69e0535257273030e4d5eaa2ddcff3cdce",
+      "pixels": [
+        918,
+        1188
+      ],
+      "review_method": "Individual full page displayed using view_image(detail=original).",
+      "status": "pass",
+      "findings": [],
+      "assessment": "Discussion subsections and mathematical symbols are readable; paragraph wrapping remains within margins; no orphaned heading."
+    },
+    {
+      "page": 41,
+      "page_image": "page-041.png",
+      "page_image_sha256": "58916e32f566c5e069d7f63393e1b19c7be0628fecff112efb5b2e6c54c62964",
+      "pixels": [
+        918,
+        1188
+      ],
+      "review_method": "Individual full page displayed using view_image(detail=original).",
+      "status": "pass",
+      "findings": [],
+      "assessment": "Table 28 is complete on one page with intact headers and wrapped cell text; following paragraphs and Section 8.5 are readable."
+    },
+    {
+      "page": 42,
+      "page_image": "page-042.png",
+      "page_image_sha256": "f07eb5394bff12d0189b336d329a151631cc05d7cbb9fa352a6d2671c4ddd898",
+      "pixels": [
+        918,
+        1188
+      ],
+      "review_method": "Individual full page displayed using view_image(detail=original).",
+      "status": "pass",
+      "findings": [],
+      "assessment": "Discussion, conclusions and data/code availability headings are clear; commit hash stays inside margins; continuation is normal."
+    },
+    {
+      "page": 43,
+      "page_image": "page-043.png",
+      "page_image_sha256": "cf433c6132d140b1e5103f197d76fce30ee0dc178e9f83e3127cc051a010005f",
+      "pixels": [
+        918,
+        1188
+      ],
+      "review_method": "Individual full page displayed using view_image(detail=original).",
+      "status": "pass",
+      "findings": [],
+      "assessment": "Author statement and references 1-11 are readable with hanging indentation; long DOI links fit and page number is intact."
+    },
+    {
+      "page": 44,
+      "page_image": "page-044.png",
+      "page_image_sha256": "16c61924ca12ba0d3c1e8bd812548f9a02219e483d9756ecb674f4c0c7068437",
+      "pixels": [
+        918,
+        1188
+      ],
+      "review_method": "Individual full page displayed using view_image(detail=original).",
+      "status": "pass",
+      "findings": [],
+      "assessment": "References 12-28 are fully visible; author names, titles and DOI links wrap without overlap or clipping."
+    },
+    {
+      "page": 45,
+      "page_image": "page-045.png",
+      "page_image_sha256": "10ed369a9626d22f47ac04ab2065132dc8f75d6bae762b404e3ef5a79e45fc97",
+      "pixels": [
+        918,
+        1188
+      ],
+      "review_method": "Individual full page displayed using view_image(detail=original).",
+      "status": "pass",
+      "findings": [],
+      "assessment": "References 29-38 finish cleanly; accents, DOI text and footer are visible; no missing reference continuation."
+    }
+  ],
+  "criteria": [
+    "page cropping and margins",
+    "text/image overlap",
+    "table rows and header cells",
+    "figure/table captions and page breaks",
+    "glyphs, formulas, units and superscripts",
+    "reference wrapping and visible page numbering"
+  ],
+  "unresolved_defects": [],
+  "limitations": [
+    "Visual assessment does not certify scientific conclusions or independently reverify every reference.",
+    "External page PNGs are not copied into the repository; their SHA-256 hashes are retained.",
+    "This review covers the Chinese PDF v2; the separately corrected English pharmacology P3 figure is outside this PDF record."
+  ]
+}

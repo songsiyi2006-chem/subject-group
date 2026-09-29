@@ -1,0 +1,46 @@
+{
+  "source": {
+    "source_id": "C15",
+    "repository": "https://github.com/songsiyi2006-chem/pincer-catmech-ai",
+    "commit": "2edffb123791bd61acbfdeff763f603ee50c2287",
+    "path": "data/phase3/kinetics/software_verification/summary.json",
+    "sha256": "234e27cb68443dd672e7893fb952689bb805fa532abe5e57da00768b88b8c51b",
+    "bytes": 1494,
+    "git_blob_sha1": "433ae30741009107fec2f2d715d98847ed65ffed",
+    "url": "https://github.com/songsiyi2006-chem/pincer-catmech-ai/blob/2edffb123791bd61acbfdeff763f603ee50c2287/data/phase3/kinetics/software_verification/summary.json"
+  },
+  "selected_values": {
+    "/evidence_kind": "software_fixture_not_chemical_prediction",
+    "/grid_count": 40,
+    "/timepoints_per_grid": 500,
+    "/temperature_K": [
+      360.0,
+      370.0,
+      380.0,
+      383.15,
+      390.0,
+      400.0,
+      410.0,
+      420.0
+    ],
+    "/initial_free_base_equiv": [
+      0.01,
+      0.025,
+      0.05,
+      0.1,
+      0.2
+    ],
+    "/maximum_jacobian_central_difference_error": 9.630873876176338e-11,
+    "/maximum_metal_error_M": 3.642919299551295e-17,
+    "/maximum_base_equivalent_error_M": 4.996003610813204e-16,
+    "/maximum_metal_sensitivity_residual_M": 5.72390984436566e-17,
+    "/physical_catalyst_predictions": 0,
+    "/limitations": [
+      "Arbitrary rates test solver behavior only",
+      "Free base is not total added tBuOK",
+      "Neutral tBuOH reservoir activity 0.1 is a software fixture assumption",
+      "Batch sensitivities are not verified steady-state Campbell DRC",
+      "No activation/deactivation barrier inferred from reaction free energies"
+    ]
+  }
+}

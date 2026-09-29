@@ -1,0 +1,62 @@
+{
+  "source": {
+    "source_id": "C14",
+    "repository": "https://github.com/songsiyi2006-chem/pincer-catmech-ai",
+    "commit": "2edffb123791bd61acbfdeff763f603ee50c2287",
+    "path": "data/phase3/proton_wire/summary.json",
+    "sha256": "27634667e491a993140738ad2fee51adc1711c0b0e9f35bf4baefd9caf98045c",
+    "bytes": 5120,
+    "git_blob_sha1": "5a8dbc8a5e9e12492a6e40116d8fdf7fdbbf5509",
+    "url": "https://github.com/songsiyi2006-chem/pincer-catmech-ai/blob/2edffb123791bd61acbfdeff763f603ee50c2287/data/phase3/proton_wire/summary.json"
+  },
+  "selected_values": {
+    "/status": "completed_bounded_exploration",
+    "/method": "GFN2-xTB",
+    "/solvent": "toluene",
+    "/thermodynamic_baseline_temperature_K": 383.15,
+    "/electronic_smearing_temperature_K": 300.0,
+    "/tBuOK_total_base_equivalent_baseline": 0.05,
+    "/total_base_speciation_resolved": false,
+    "/potassium_explicit": false,
+    "/tert_butoxide_explicit": false,
+    "/scope": "Neutral micro-solvated dehydration hypothesis; no base kinetic order or activation free energy inferred",
+    "/accepted_TS_count": 0,
+    "/activation_free_energy_barrier_count": 0,
+    "/elapsed_seconds": 1182.0914974212646,
+    "/continuation_count": 1,
+    "/distinct_seed_attempt_count": 2,
+    "/attempts/0/status": "failed",
+    "/attempts/0/accepted_TS": false,
+    "/attempts/0/failure_reasons": [
+      "ValueError: CI-NEB did not converge within the bounded step allowance"
+    ],
+    "/attempts/0/actual_NEB_evaluation_reached": true,
+    "/attempts/0/last_reported_NEB_step": 100,
+    "/attempts/0/neb_converged": false,
+    "/attempts/0/accepted_endpoint_minima": 2,
+    "/attempts/0/imaginary_frequency_count": null,
+    "/attempts/0/free_energy_barrier_computed": false,
+    "/attempts/1/status": "failed",
+    "/attempts/1/accepted_TS": false,
+    "/attempts/1/failure_reasons": [
+      "ValueError: CI-NEB did not converge within the bounded step allowance"
+    ],
+    "/attempts/1/actual_NEB_evaluation_reached": true,
+    "/attempts/1/last_reported_NEB_step": 100,
+    "/attempts/1/neb_converged": false,
+    "/attempts/1/accepted_endpoint_minima": 2,
+    "/attempts/1/imaginary_frequency_count": null,
+    "/attempts/1/free_energy_barrier_computed": false,
+    "/attempts/2/status": "failed",
+    "/attempts/2/accepted_TS": false,
+    "/attempts/2/failure_reasons": [
+      "ValueError: CI-NEB did not converge within the bounded step allowance"
+    ],
+    "/attempts/2/actual_NEB_evaluation_reached": true,
+    "/attempts/2/last_reported_NEB_step": 200,
+    "/attempts/2/neb_converged": false,
+    "/attempts/2/accepted_endpoint_minima": 2,
+    "/attempts/2/imaginary_frequency_count": null,
+    "/attempts/2/free_energy_barrier_computed": false
+  }
+}

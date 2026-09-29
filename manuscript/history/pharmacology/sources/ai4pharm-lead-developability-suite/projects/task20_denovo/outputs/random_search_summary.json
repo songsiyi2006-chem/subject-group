@@ -1,0 +1,9 @@
+{
+  "unique_graph_budget": 1034,
+  "seed": 20264922,
+  "rejected_proposals": 73,
+  "best_geometry_score": 20.652330269204537,
+  "selected_median_geometry_score": 15.329122333369664,
+  "selected_sa_below_3p5": 100,
+  "interpretation": "one equal-budget random-order control; not replicated optimization superiority"
+}

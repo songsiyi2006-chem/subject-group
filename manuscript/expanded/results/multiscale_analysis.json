@@ -1,0 +1,239 @@
+{
+  "scope": "Retrospective arithmetic and plots of executed saved studies; synthetic/model results remain labeled.",
+  "source_commit": "073bb3872d9112ec1ca46b3b9e80476d00ffbf97",
+  "new_quantum_jobs": 0,
+  "new_training_runs": 0,
+  "new_PDE_solves": 0,
+  "new_experiments": 0,
+  "input_sha256": {
+    "electrograph/results/learning/regression_metrics.csv": "0dd058851087919eebb0d77c07a46816ecc2d7cc9e7c9ae95929223769225db7",
+    "electratwin/results/reaction_network/study_summary.json": "ea5694f09ac3af38312a134b668154c83108bfded75f9ec68213fbd2e12b9659",
+    "electratwin/results/benchmark_extension/budget_prefixes.csv": "fc1bb51ac26b0556916465cd7a9369667ea434853451bf2c150860988571add8",
+    "electratwin/results/benchmark_extension/holdout_grouped_metrics.csv": "b1eda720db45529877dd631a77301c82b801db3f8405d74bb8489964caeebf62",
+    "electrograph/results/kinetics/potential_summary.csv": "d3e464c5f221540c83a66d7a5c47918417a765126e31972482b1a26be1ba976f",
+    "synthapore/results/dynamics/thermostat_summary.csv": "3bf4529479f31baa5286481e039270b710c27fd66e458eaa15189e4e3a7e393c",
+    "synthapore/results/dynamics/nve_timestep_summary.csv": "3641dd7575df4af0cc611345dc19c96739ef2965d9532504d102e887abcce322",
+    "toolkit/results/audit/deconvolution_recovery.csv": "13dd461f9c7b2526d97e84c99da963e35c772f1058ec428beb747d61074805b2"
+  },
+  "counts": {
+    "hydration_test_models": 6,
+    "optimization_seed_policy_pairs": 192,
+    "optimization_paired_comparisons": 2,
+    "chromatography_cases": 80,
+    "chromatography_groups": 8,
+    "thermostat_summary_rows": 3,
+    "NVE_trajectories": 20,
+    "kinetic_potential_rows": 6
+  },
+  "optimization": [
+    {
+      "method": "gp_mc_ehvi",
+      "seeds": 64,
+      "mean_HV_fraction": 0.9920243548141017,
+      "sd_across_seeds": 0.001733723144300763,
+      "min_HV_fraction": 0.9871640352723074,
+      "max_HV_fraction": 0.9952861413966572
+    },
+    {
+      "method": "random",
+      "seeds": 64,
+      "mean_HV_fraction": 0.9827811820152843,
+      "sd_across_seeds": 0.015598261829925712,
+      "min_HV_fraction": 0.9292802483892956,
+      "max_HV_fraction": 0.9949517127334468
+    },
+    {
+      "method": "maximin_spacefill",
+      "seeds": 64,
+      "mean_HV_fraction": 0.9892176171140725,
+      "sd_across_seeds": 0.008467418213598565,
+      "min_HV_fraction": 0.9526522284353095,
+      "max_HV_fraction": 0.9948236216738984
+    }
+  ],
+  "paired": [
+    {
+      "left": "gp_mc_ehvi",
+      "right": "random",
+      "n": 64,
+      "mean_fraction_difference": 0.009243172798817267,
+      "wins": 45,
+      "losses": 19,
+      "ties": 0
+    },
+    {
+      "left": "gp_mc_ehvi",
+      "right": "maximin_spacefill",
+      "n": 64,
+      "mean_fraction_difference": 0.002806737700029099,
+      "wins": 33,
+      "losses": 31,
+      "ties": 0
+    }
+  ],
+  "analytical": [
+    {
+      "width_mismatch": "False",
+      "separation_min": 0.03,
+      "n": 10,
+      "mean_fitted_error_pct": 0.02101224181625727,
+      "mean_absolute_fitted_error_pct": 0.05438580237313695,
+      "mean_absolute_window_error_pct": 32.22138261509197
+    },
+    {
+      "width_mismatch": "False",
+      "separation_min": 0.06,
+      "n": 10,
+      "mean_fitted_error_pct": 0.01121113538098073,
+      "mean_absolute_fitted_error_pct": 0.02981096085677648,
+      "mean_absolute_window_error_pct": 30.041023053123023
+    },
+    {
+      "width_mismatch": "False",
+      "separation_min": 0.13,
+      "n": 10,
+      "mean_fitted_error_pct": 0.003159884368401089,
+      "mean_absolute_fitted_error_pct": 0.011026292371284496,
+      "mean_absolute_window_error_pct": 20.259836603409816
+    },
+    {
+      "width_mismatch": "False",
+      "separation_min": 0.25,
+      "n": 10,
+      "mean_fitted_error_pct": -0.003975839719416729,
+      "mean_absolute_fitted_error_pct": 0.014230033350230986,
+      "mean_absolute_window_error_pct": 2.11030374762716
+    },
+    {
+      "width_mismatch": "True",
+      "separation_min": 0.03,
+      "n": 10,
+      "mean_fitted_error_pct": -24.445617588329746,
+      "mean_absolute_fitted_error_pct": 24.445617588329746,
+      "mean_absolute_window_error_pct": 29.354524230429213
+    },
+    {
+      "width_mismatch": "True",
+      "separation_min": 0.06,
+      "n": 10,
+      "mean_fitted_error_pct": -15.327456336504113,
+      "mean_absolute_fitted_error_pct": 15.327456336504113,
+      "mean_absolute_window_error_pct": 27.174164668460275
+    },
+    {
+      "width_mismatch": "True",
+      "separation_min": 0.13,
+      "n": 10,
+      "mean_fitted_error_pct": -10.435115881833905,
+      "mean_absolute_fitted_error_pct": 10.435115881833905,
+      "mean_absolute_window_error_pct": 17.39297821874706
+    },
+    {
+      "width_mismatch": "True",
+      "separation_min": 0.25,
+      "n": 10,
+      "mean_fitted_error_pct": -8.249158314882582,
+      "mean_absolute_fitted_error_pct": 8.249158314882582,
+      "mean_absolute_window_error_pct": 0.7565546370356012
+    }
+  ],
+  "figures": [
+    {
+      "path": "manuscript/expanded/figures/M1_Hydration_english.png",
+      "sha256": "00440f4151253547f5c7eb1ed155d75dad2471604092a2bfdd56c53ec8b08bfc"
+    },
+    {
+      "path": "manuscript/expanded/figures/M1_Hydration_english.svg",
+      "sha256": "6b4bbba247a65e6aa6564a4a90867bb5c7b74a93531254d93746635272b167f5"
+    },
+    {
+      "path": "manuscript/expanded/figures/M2_Network_english.png",
+      "sha256": "cb5bc04873feffb6d3a948ee5fc575d1ea77a2c5efd77e340978c944a7674fe2"
+    },
+    {
+      "path": "manuscript/expanded/figures/M2_Network_english.svg",
+      "sha256": "e9dbfb18e1edf0dcd62541d2e478ecb16be735eccae1189920f4077633bbcf8d"
+    },
+    {
+      "path": "manuscript/expanded/figures/M3_Optimization_english.png",
+      "sha256": "e11714182935f4fb8ced837b7a9df6e01a51e0dfb902ecccf4503c148c6c6019"
+    },
+    {
+      "path": "manuscript/expanded/figures/M3_Optimization_english.svg",
+      "sha256": "4d09d595a54a495b69b4ec76803fa8520a038a13d4840fc83f80b7fe69f7c413"
+    },
+    {
+      "path": "manuscript/expanded/figures/M4_Kinetics_english.png",
+      "sha256": "20b91725c6c5363afb9e87c0c4b57f3973b0c1220f785e23884e388a77f5179d"
+    },
+    {
+      "path": "manuscript/expanded/figures/M4_Kinetics_english.svg",
+      "sha256": "9665120ca17d7008de35c6f137efa347c0b0194f1572fb70ddab8368c9f7c6d8"
+    },
+    {
+      "path": "manuscript/expanded/figures/M5_Thermostats_english.png",
+      "sha256": "a3b5507490793347281e8abdaa54e5f6a66ebeadaeca4d1f8be212d174056038"
+    },
+    {
+      "path": "manuscript/expanded/figures/M5_Thermostats_english.svg",
+      "sha256": "3d91adcc14854b6499e83e338aefabcdfd730a19505e75db59574816b0c254dd"
+    },
+    {
+      "path": "manuscript/expanded/figures/M6_Analytical_english.png",
+      "sha256": "24ac55ec5f70a54d673258229affec50751e95234d181f34d12c3615a03b6ad8"
+    },
+    {
+      "path": "manuscript/expanded/figures/M6_Analytical_english.svg",
+      "sha256": "b352cc64674a00f81cc6df2031742fe0c9bb8679d54e08f09beded25df3c280a"
+    },
+    {
+      "path": "manuscript/expanded/figures/M1_Hydration_chinese.png",
+      "sha256": "d1ce5894f401b59339834cb987d3f943e658b371ba7ae36499df31459a32e4bb"
+    },
+    {
+      "path": "manuscript/expanded/figures/M1_Hydration_chinese.svg",
+      "sha256": "89eb3c5f1ddd8fa1a0b4716df5270f9e273d65a905a75bfcbc96671226748633"
+    },
+    {
+      "path": "manuscript/expanded/figures/M2_Network_chinese.png",
+      "sha256": "8fd3c3d77ca1c12f497f56f0759ea79a6db8b0f4272e1befe9946985339f44a6"
+    },
+    {
+      "path": "manuscript/expanded/figures/M2_Network_chinese.svg",
+      "sha256": "c1a538e7adee73ac8aef57afb9c8eac72783e036a7ba90f509b9658b8c08173f"
+    },
+    {
+      "path": "manuscript/expanded/figures/M3_Optimization_chinese.png",
+      "sha256": "e6c4bc09fb0602b19062a2a8913975abd4085a4236149a79fd37c1bd0fd5d32a"
+    },
+    {
+      "path": "manuscript/expanded/figures/M3_Optimization_chinese.svg",
+      "sha256": "9329703a885c194818ccdb1a1701da348493081bb6bd1557b43d53bf3ae0244d"
+    },
+    {
+      "path": "manuscript/expanded/figures/M4_Kinetics_chinese.png",
+      "sha256": "22b2b8285d9b001b647b287955760930b94e350fed0f03250d7f32db975edeee"
+    },
+    {
+      "path": "manuscript/expanded/figures/M4_Kinetics_chinese.svg",
+      "sha256": "09ebe4d017ca6d68544f056e0abdc3cf22399563cacff682e2a7b44b60701538"
+    },
+    {
+      "path": "manuscript/expanded/figures/M5_Thermostats_chinese.png",
+      "sha256": "91e07c9ec6ec75485df124a06d980af01c1f0a7e61cce8697a8a40908ed5ba74"
+    },
+    {
+      "path": "manuscript/expanded/figures/M5_Thermostats_chinese.svg",
+      "sha256": "670935207607ab93f1bc45cadbc49d7d08afb20239da11cd044805bac468122c"
+    },
+    {
+      "path": "manuscript/expanded/figures/M6_Analytical_chinese.png",
+      "sha256": "6dbf7e3dd6e1368552c0635c0aaf23b7c87d3ed24adf8c1ed4c753dbd137060c"
+    },
+    {
+      "path": "manuscript/expanded/figures/M6_Analytical_chinese.svg",
+      "sha256": "0842b7d940d58f4f3776dceac623a7d8f6bec5b68cbb711a1442ece64336a58b"
+    }
+  ],
+  "generator_sha256": "3d3baa3c78fdef04300189dcf2b5dc6f36691494cdf8a9fad8feacddf9924fe8"
+}

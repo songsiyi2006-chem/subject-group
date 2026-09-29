@@ -1,0 +1,89 @@
+{
+  "parameters": {
+    "e_total_nm": 100.0,
+    "t_total_nm": 100.0,
+    "kd_e_nm": 10.0,
+    "kd_t_nm": 100.0,
+    "vmax_nm_h": 12.0,
+    "km_nm": 10.0,
+    "hours": 24.0,
+    "basal_turnover_h": 0.0,
+    "points": 181,
+    "heatmap_points": 41,
+    "conformers": 100,
+    "seed": 20260910,
+    "compatible_low_a": 8.0,
+    "compatible_high_a": 12.0
+  },
+  "versions": {
+    "python": "3.14.6",
+    "numpy": "2.5.2",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.1",
+    "rdkit": "2026.03.5"
+  },
+  "elapsed_seconds": 119.22176099999342,
+  "validation_status": "PASS",
+  "units": {
+    "concentration": "nM",
+    "time": "hour",
+    "distance": "angstrom",
+    "energy": "kcal/mol"
+  },
+  "synthetic_data": true,
+  "sha256": {
+    "README.md": "c5579507378226c9572acedc54aa57ae0212762ab132af0cde84a2b6bd7865e8",
+    "TPD_TERNARY_COOPERATIVITY_REPORT_ZH.md": "ad7fae37a66ec07c8fb27129db6962b2680a3afdaa0906dc94a969b99dd51b04",
+    "TPD_TERNARY_COOPERATIVITY_REPORT_EN.md": "622c2d44ed132e44e24ddbe1ed69420efe3ae337e120752a40ce4b4c6710d1b1",
+    "requirements_task2.txt": "80f2bb4fd804d10f11f18dd31206be2c0d653dd6feaa1bccb495d40b25f2b157",
+    "validation_task2.json": "801e069d37bd0d731ee2204539776392b7cb4e608f93e746dca7dda986cdb335",
+    "run_task2.log": "a5b22fa22091c0e7b8a96ec6296fe309b91e5c73b2bde041cc702b8744f51ccc",
+    "figures_task2/fig1_ternary_hook_effect_curves.png": "398327089085df8f249f09d65ddb3cfc5a935da49dd976e60984e3979d3d773d",
+    "figures_task2/fig2_cooperativity_alpha_heatmap.png": "a7b7fd0321d4e7ca803c01a7294dee239a750a3f7469137f8a741b104cc6a671",
+    "figures_task2/fig3_linker_conformational_histogram.png": "ca3ae9e5612bd8b537739a33419f81814f5c4ca5b453504f724b7d92c467a619",
+    "figures_task2/fig4_synthetic_western_blot_hibit.png": "9c9fcc0ce5e3dab7e0f0af785bc6a9b6c437628e092f1ffd8c11598cc0ec8f51",
+    "data_task2/affinity_cooperativity_heatmap.csv": "9a4a29db5264f977cbe8cc00cbfde3c1150fed549284b5ef8fdb57d1dbe1ebd9",
+    "data_task2/degradation_metrics.csv": "1f3bc878065bac56b8d6d551349b992be475b02a8b6ac11629c7d2f8e8e354d5",
+    "data_task2/degradation_timecourses.csv": "a7500ad0132088b571d41f495dc2e71c621824fd1080d9253f310a6843a2e13c",
+    "data_task2/equilibrium_metrics.csv": "d2f60c4e7f00a6a38283a22f9d7979c405fd8c93cd4a4c7de5bff1eea36ae3a4",
+    "data_task2/equilibrium_species.csv": "7a4a871dcd14b62fd84a39994ea507cb23c2c68caf94ecab94d894d8301ff4a0",
+    "data_task2/flexible_peg_atom_rmsf.csv": "3cd011ed77d07213a8bcf284b38958ac081bc277e1156e8e172bb69828ee7345",
+    "data_task2/flexible_peg_conformers.sdf": "3fc8975184ec2521f4f0e385cd31cfa464ebb7e0302ab6c884d38e01a2674345",
+    "data_task2/hibit_hill_fit.json": "ecd9976d8615afe7f7379397e98dcb70df3635febd9f2d6b7859fdc9e03c00d2",
+    "data_task2/linker_conformers.csv": "56bc54fbc6206208587f64c837292d53c0cd499f58cd50b658ef0f62e682ed17",
+    "data_task2/linker_summary.csv": "fdb2291f6102dcfc22f5668ba32b6e329c30aaa823937fb7b340c4ed881e04ce",
+    "data_task2/rigid_alkynyl_atom_rmsf.csv": "321f6325bae79ba3f0ebb270f909604d351d424f1dff134c0c030f0b5046b1c1",
+    "data_task2/rigid_alkynyl_conformers.sdf": "b07fa9df026230a0fc33f9e5d16fcd4bf75e4a0f882f19ab461b065930a1699e",
+    "data_task2/synthetic_hibit_replicates.csv": "64afd64d5c59ba953f4d606ae7390ba3a3fc106431ff550947c09ef85ea45fd0",
+    "data_task2/synthetic_western_lanes.csv": "5a5e95a7d18c85b4e9efc037f0c95769b44cb0aa91578648093035183b0634c0",
+    "run_task2_tpd_ternary_cooperativity.py": "bbee25c68bc79ef45e288637e858f00bec8679c7976b6ae197848c2b7dc2b579"
+  },
+  "figure_qa": "All four figures visually reviewed; labels positioned clear of data; numerical outputs reused after label-only edit.",
+  "repository_integration": "Task 2 artifacts at repository root; existing Tasks 1 and 3 retained; combined README indexed with updated SHA256; compatible shared dependencies retained.",
+  "shared_readme_updates": [
+    {
+      "reason": "Task 4 integration added PBPK links and completed the four-task index; scientific outputs unchanged.",
+      "previous_sha256": "771d5c9704fc52920835c46490f6f3d115799d30028694ce358a34878534de66",
+      "updated_sha256": "007e9ab7dbc63809c6b0318e93d0e00bd8a8c67bf3f7f563b72d225268917f4e"
+    },
+    {
+      "reason": "Tasks 5-7 integration added project directories, reports and evidence navigation; Task 2 scientific outputs unchanged.",
+      "previous_sha256": "007e9ab7dbc63809c6b0318e93d0e00bd8a8c67bf3f7f563b72d225268917f4e",
+      "updated_sha256": "b0543ddcf7c7dfc61dce3a6d19adff8b6d5a69c5f914cef05b75a053c94655f5"
+    }
+  ],
+  "layout_migration": {
+    "baseline_commit": "3785df88d244bf276de7f9b6e4d1d74995b530b9",
+    "original_manifest_path": "manifest_task2.json",
+    "current_sources_sha256": {
+      "projects/task02_tpd/run_task2_tpd_ternary_cooperativity.py": "bbee25c68bc79ef45e288637e858f00bec8679c7976b6ae197848c2b7dc2b579"
+    },
+    "previous_file_hashes": {
+      "README.md": "b0543ddcf7c7dfc61dce3a6d19adff8b6d5a69c5f914cef05b75a053c94655f5",
+      "TPD_TERNARY_COOPERATIVITY_REPORT_ZH.md": "6b8dd860c166cdbc796a698c756c185b2e6a119535831eb5bc7ff9cb483dfd4b",
+      "TPD_TERNARY_COOPERATIVITY_REPORT_EN.md": "7f452de96bc6c8b92122df40b83bfd59023b96d9e1ecf2dc77a5fcafd52d6498",
+      "run_task2_tpd_ternary_cooperativity.py": "aa56983585c2772b36c9009e3ceaf0ea546473d9ec590b6354e54c383fc0ab71"
+    },
+    "note": "Directory/import/default-output and navigation changes only. Original script_sha256/run metadata retain scientific-execution provenance; current source hashes are not evidence of a full scientific rerun. Existing scientific results and figures are preserved byte-for-byte."
+  }
+}

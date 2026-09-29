@@ -1,0 +1,51 @@
+{
+  "source": {
+    "source_id": "C16",
+    "repository": "https://github.com/songsiyi2006-chem/pincer-catmech-ai",
+    "commit": "2edffb123791bd61acbfdeff763f603ee50c2287",
+    "path": "data/phase4/PHASE4_STATUS.json",
+    "sha256": "75dc29941c138ebbea6764e0ad770533fa6d1537db069768d7cf5139b3ed2581",
+    "bytes": 4402,
+    "git_blob_sha1": "251773ab39b7ffae184ce1ddbfd61a44727e5d83",
+    "url": "https://github.com/songsiyi2006-chem/pincer-catmech-ai/blob/2edffb123791bd61acbfdeff763f603ee50c2287/data/phase4/PHASE4_STATUS.json"
+  },
+  "selected_values": {
+    "/scientific_status": "research_programme_incomplete_not_cns_ready",
+    "/actual_local_quantum_attempts": 9,
+    "/scf_converged": 2,
+    "/spin_quality_numeric_pass": 1,
+    "/production_spin_gaps_validated": 0,
+    "/new_TS_accepted": 0,
+    "/new_MECP_accepted": 0,
+    "/physical_kinetic_predictions": 0,
+    "/thermochemical_reanalysis_rows": 405,
+    "/baseline_rows_reconstructed": 27,
+    "/baseline_max_difference_kcal_mol": 0.0,
+    "/public_crystal_independent_molecules": 2,
+    "/public_crystal_atoms_each": 62,
+    "/hpc_inputs_prepared": 6,
+    "/hpc_jobs_submitted": 0,
+    "/quantum_attempt_count_definition": "3 Psi4 jobs plus 6 xTB native calls; optimization/Hessian internal evaluations are not separate jobs; 001 precheck starts zero calls",
+    "/psi4_diagnostic_attempts": 3,
+    "/xtb_precursor_native_calls": 6,
+    "/xtb_precursor_minimum_checked_endpoints": 2,
+    "/xtb_precursor_distinct_basins_established": false,
+    "/xtb_precursor_mapped_all_atom_RMSD_A": 0.00354291,
+    "/xtb_precheck_only_run_native_calls": 0,
+    "/new_experimental_observations": 0,
+    "/synthetic_math_audit": {
+      "states": 200,
+      "ode_integrations": 0,
+      "physical_rates_validated": false,
+      "checks": {
+        "max_dissipation_identity_defect_kcal_L_s": 1.4210854715202004e-14,
+        "min_entropy_production_kcal_L_K_s": 5.661088333800199e-08,
+        "max_inventory_derivative_defect_M_s": 8.881784197001252e-16,
+        "max_energy_reference_shift_rhs_defect_M_s": 4.085620730620576e-14,
+        "max_equilibrium_net_flux_M_s": 0.0,
+        "cycle_logK_sum": 0.0,
+        "all_three_zero_concentration_boundaries_point_inward": true
+      }
+    }
+  }
+}

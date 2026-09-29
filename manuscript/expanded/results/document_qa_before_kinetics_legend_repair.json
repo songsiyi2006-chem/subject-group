@@ -1,0 +1,1030 @@
+{
+  "scope": "Machine structure/text checks and all-page PNG rendering. Visual review is recorded separately; neither substitutes for scientific or human peer review.",
+  "passed": true,
+  "documents": [
+    {
+      "name": "manuscript_english",
+      "pdf": "expanded/documents/manuscript_english.pdf",
+      "docx": "expanded/documents/manuscript_english.docx",
+      "pdf_sha256": "6576c564dd8fa4bb1074bd66985b3d429ee3b95a0258fab5b98348b8c0252df2",
+      "docx_sha256": "0443a9132998438e2a5028e6ce50f924148355e9360366d0bba939a13756af91",
+      "page_count": 52,
+      "reference_start_page": 50,
+      "paragraph_count": 371,
+      "table_count": 28,
+      "inline_shapes": 30,
+      "pdf_text_characters": 142724,
+      "pages": [
+        {
+          "page": 1,
+          "text_characters": 3502,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "3981a2379ce96aae1432143ad3fe721b6c5ee87987a116049e00bfd2642c705f",
+          "letter_page": true
+        },
+        {
+          "page": 2,
+          "text_characters": 2618,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "d909c335c1daad09e6ab1ac3c43b813f29a7f473a3dcd7a509147c8ae110636f",
+          "letter_page": true
+        },
+        {
+          "page": 3,
+          "text_characters": 3863,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "301636889fcc755dc7a0c048c6f06cec6acdda5b956c4ec498f9df7e8eb2ae1c",
+          "letter_page": true
+        },
+        {
+          "page": 4,
+          "text_characters": 3100,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "4e1e0c3319b8e8161fccd866cccca5b262a1560100b1606cf52c9f9adc5b5c9d",
+          "letter_page": true
+        },
+        {
+          "page": 5,
+          "text_characters": 3532,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "bb71e78b13ac4ab8e48e1a495e26b1bb915e1438f4fd4daef33c3eeeae3f9f51",
+          "letter_page": true
+        },
+        {
+          "page": 6,
+          "text_characters": 3292,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "5c1845ef966f1f17863990f7d2d165590aa386a870129e94426c0675c173528b",
+          "letter_page": true
+        },
+        {
+          "page": 7,
+          "text_characters": 3509,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "c6d3f8dc34d3be22955a71ed96ab6ab8d3a8b1da8bd8cdb7521d561abd7881eb",
+          "letter_page": true
+        },
+        {
+          "page": 8,
+          "text_characters": 1679,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "7c05a03fd186599a264b87a5eaaf6ecf2e1481d60cc0225b59cbdc0686a20984",
+          "letter_page": true
+        },
+        {
+          "page": 9,
+          "text_characters": 1597,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "a986748f17491cd0abb7e174f54c55f586e3857d0be697805f24670aee30107c",
+          "letter_page": true
+        },
+        {
+          "page": 10,
+          "text_characters": 1916,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "1e1a0ba5fbed75608daec6a83411b9c63d342f7abad20bcd44494d6df45ab0e1",
+          "letter_page": true
+        },
+        {
+          "page": 11,
+          "text_characters": 2045,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "8cdd7e9a69b773c45e5bd4b5e10db0f5ec4bda1d082fb2734f644d07f6ea7e35",
+          "letter_page": true
+        },
+        {
+          "page": 12,
+          "text_characters": 2678,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "748b8168abbcfacb4001aa1b59943951c344cc49152326711ed92ad8590f93cf",
+          "letter_page": true
+        },
+        {
+          "page": 13,
+          "text_characters": 3176,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "35c93645c8e7db6b941c3270d5e83d60cd31df04415f78f8a7cdb5a5640ee862",
+          "letter_page": true
+        },
+        {
+          "page": 14,
+          "text_characters": 3842,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "618faf61bd59ded24bd503f97baacd6f1768adc8106f483af183f5fb8eee585f",
+          "letter_page": true
+        },
+        {
+          "page": 15,
+          "text_characters": 3339,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "6336d2113b21c0a9f04e9048e1b8bedbd854d9aceadf949097912fde868ef09b",
+          "letter_page": true
+        },
+        {
+          "page": 16,
+          "text_characters": 3275,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "35aed12fcbea38382aa4bf4855c47b2d33cd15efec345726fd26ed4cf8b5914d",
+          "letter_page": true
+        },
+        {
+          "page": 17,
+          "text_characters": 3664,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "c16beb507f4ebce4bb6f7187bd997df584c046b9255c08e89ccef399a544ce31",
+          "letter_page": true
+        },
+        {
+          "page": 18,
+          "text_characters": 2540,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "a4c8b01e540b92c2b469a53e8ede32662c6e5e2645937a86220e123cf8a76116",
+          "letter_page": true
+        },
+        {
+          "page": 19,
+          "text_characters": 2870,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "8b01ced26c8a864057e798fcf7f7b001583973223342aa9c16125fcba61e0a54",
+          "letter_page": true
+        },
+        {
+          "page": 20,
+          "text_characters": 1338,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "19491b7de8e30554a63ee7661ee6a287ee06a6902764949e7c393390ee8be51b",
+          "letter_page": true
+        },
+        {
+          "page": 21,
+          "text_characters": 816,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "a5883ec795e72a63880bc6b58442fba4f7f37609bcd3328b284b05056f5d16ab",
+          "letter_page": true
+        },
+        {
+          "page": 22,
+          "text_characters": 2667,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "ff23df1addde6537748ff7904b24a2fe34c05313467a4a15164283e12fd7a3ea",
+          "letter_page": true
+        },
+        {
+          "page": 23,
+          "text_characters": 2146,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "23a0faebec0c443f67dba2b8d1ca3c008b64caa9f7c73d102e98f2420841ebc0",
+          "letter_page": true
+        },
+        {
+          "page": 24,
+          "text_characters": 1460,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "b12f983f37625211059ba43623b76766341f01506837115d8b1ef555b63b4f1c",
+          "letter_page": true
+        },
+        {
+          "page": 25,
+          "text_characters": 3574,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "6c6c272dbf109a0e21114a3b0a4dcfb75cd551f14549b510c1fd2f0f807f8e7b",
+          "letter_page": true
+        },
+        {
+          "page": 26,
+          "text_characters": 2645,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "9f9577a389647d6fea959964a6d6ffc66a201a677ed5f8821a3cb4dad40937d5",
+          "letter_page": true
+        },
+        {
+          "page": 27,
+          "text_characters": 2091,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "7ee99e50e28c774a8b34d5bda5bced1a374a5ceee74cb5582ef2d0a4a27f08e6",
+          "letter_page": true
+        },
+        {
+          "page": 28,
+          "text_characters": 2433,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "72072e9fd55cb1dd59e803e48c134cdf18719ae2f1f4780bbf420622caae05c5",
+          "letter_page": true
+        },
+        {
+          "page": 29,
+          "text_characters": 2616,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "0f4f04d6c6be6c1e78412bba610fcfd9d775a08f191aad18f8d74c6d5f62f3a9",
+          "letter_page": true
+        },
+        {
+          "page": 30,
+          "text_characters": 3371,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "04c22431223c018b45247a260d5185a33edb22b2c6f24559be25853c81cd8a00",
+          "letter_page": true
+        },
+        {
+          "page": 31,
+          "text_characters": 3600,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "c4144e61fdf1310dccdd367ebc2801d0d9a2d6ced6a1964e98a7be2950eab83f",
+          "letter_page": true
+        },
+        {
+          "page": 32,
+          "text_characters": 2245,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "afab85c9939877d6019ec1fd87abb66ef0b36500bb80486802f8f6cf2b06e3af",
+          "letter_page": true
+        },
+        {
+          "page": 33,
+          "text_characters": 1807,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "0ecb37c9ff13d77b10568d74c9614af95110eee43c487d2dd203c4e9a4c5d08e",
+          "letter_page": true
+        },
+        {
+          "page": 34,
+          "text_characters": 1771,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "31a8b9453de48008a9ae74052c41057c24c4036083bee9874cf277f1bb59cb18",
+          "letter_page": true
+        },
+        {
+          "page": 35,
+          "text_characters": 2555,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "79826134c6b470b75827514df456ed5673b4dea456c0886a64f3ca27af40a23c",
+          "letter_page": true
+        },
+        {
+          "page": 36,
+          "text_characters": 2677,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "f1bb25a89c171177b9ef20967024ffc6a14ab93963c5a4bcd466b23a2f387fd6",
+          "letter_page": true
+        },
+        {
+          "page": 37,
+          "text_characters": 2257,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "4f2a606ab2f0862c22a46027beaf8d0f6ad27beaec550ed7bc60637899a7f1e3",
+          "letter_page": true
+        },
+        {
+          "page": 38,
+          "text_characters": 2170,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "a1740c170abc548f22b35f565014aac1d9debef3a00e0658e77a245354e09d46",
+          "letter_page": true
+        },
+        {
+          "page": 39,
+          "text_characters": 2705,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "893143b5918cdb029686478f44cfcb47ce6b4245fc0568ea15d25ef251bba2f4",
+          "letter_page": true
+        },
+        {
+          "page": 40,
+          "text_characters": 2488,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "eaab869073d466006c72220db160c0ba401f4dbe4dae3c3e0d02fa35a2d8c641",
+          "letter_page": true
+        },
+        {
+          "page": 41,
+          "text_characters": 1974,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "8538009446aa4e4b5e25c1a3a4f2a57d8c3c7dab0c8c32256397872800e473da",
+          "letter_page": true
+        },
+        {
+          "page": 42,
+          "text_characters": 2395,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "cdf47036fd0a32d2a8d93cb57af77d83739e18cfa1d416168d56ab0d891e4996",
+          "letter_page": true
+        },
+        {
+          "page": 43,
+          "text_characters": 2094,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "19f8efb466009a07f8ed51c233f186c00f97094b36d2756a598736c429931e4b",
+          "letter_page": true
+        },
+        {
+          "page": 44,
+          "text_characters": 2671,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "efc43ecee46b736af9e0c20df91d319bdc09a795f44d2c51c66bbef31dddb803",
+          "letter_page": true
+        },
+        {
+          "page": 45,
+          "text_characters": 4178,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "4f64b80b9fdc4ba81d9c876bc26569dd740405620cde620b279f54ff14dff180",
+          "letter_page": true
+        },
+        {
+          "page": 46,
+          "text_characters": 3563,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "8dbe97a365d54c861cd67106bad1bf6c0fbc55c717e6931407670205fa6eede6",
+          "letter_page": true
+        },
+        {
+          "page": 47,
+          "text_characters": 2952,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "1e10bc90efe70016b4cb9cf07586e2a0d252b78503c8dcc5ef732a7b40028ab0",
+          "letter_page": true
+        },
+        {
+          "page": 48,
+          "text_characters": 4183,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "ae7c4435fb5510f0b92be736824c348888d9eebc1a21dac9d89a9d1625a97e7c",
+          "letter_page": true
+        },
+        {
+          "page": 49,
+          "text_characters": 3610,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "f1fe8a021ff0387a10c2b71c581a0f3a75adb4408030d42b8f7e0dd5e1d54340",
+          "letter_page": true
+        },
+        {
+          "page": 50,
+          "text_characters": 4056,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "fa7535fe4a12589be92eefed0e7c45beca1b7442aaf34e04dd2a93fbf4032ddf",
+          "letter_page": true
+        },
+        {
+          "page": 51,
+          "text_characters": 4321,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "018cb9e98dd08a157f68ba2f67ce429eb3241a83123f91527fedde3633d4da61",
+          "letter_page": true
+        },
+        {
+          "page": 52,
+          "text_characters": 1207,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "676ad838f5de341d6be91dfd71f1ba7eaefffdcaad2f7344d5105e69247af257",
+          "letter_page": true
+        }
+      ],
+      "checks": {
+        "at_least_30_pages": true,
+        "all_pages_letter": true,
+        "no_empty_pages": true,
+        "no_replacement_character": true,
+        "no_unresolved_references": true,
+        "no_raw_display_latex": true,
+        "author_present": true,
+        "all_expected_main_figure_captions": true,
+        "document_has_hyperlinks": true,
+        "all_pages_rendered": true
+      }
+    },
+    {
+      "name": "manuscript_chinese",
+      "pdf": "expanded/documents/manuscript_chinese.pdf",
+      "docx": "expanded/documents/manuscript_chinese.docx",
+      "pdf_sha256": "91392a6a3672ba7c623ab73b8e262782979c44921605f57d8fbf742c13c024ba",
+      "docx_sha256": "8608422172e0d9e55c7df2058ad46bf449e626e989cdf1b417401a367013c73b",
+      "page_count": 45,
+      "reference_start_page": 43,
+      "paragraph_count": 371,
+      "table_count": 28,
+      "inline_shapes": 30,
+      "pdf_text_characters": 56735,
+      "pages": [
+        {
+          "page": 1,
+          "text_characters": 1245,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "2d1e788359db84b1de82fe96b155f9b72c709c2d5ec87512ac0ed865d0e4c191",
+          "letter_page": true
+        },
+        {
+          "page": 2,
+          "text_characters": 959,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "9054be368d12985f39c96a4c85baefd8aa9d29061e9de97bd04941b1b71bda8d",
+          "letter_page": true
+        },
+        {
+          "page": 3,
+          "text_characters": 1575,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "2b45d05645000d0202165efc007de076fcf2744b0434e72d646d6265f49f41f5",
+          "letter_page": true
+        },
+        {
+          "page": 4,
+          "text_characters": 1304,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "a2dba3c2352e9e45bb3f2d1345be0bcb43c1c2a69ffa7ad70a78be7e581156be",
+          "letter_page": true
+        },
+        {
+          "page": 5,
+          "text_characters": 1261,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "4d9465f63a24f41d3196bc754bfc511281660b9d82e34dbe76d31f61b360061b",
+          "letter_page": true
+        },
+        {
+          "page": 6,
+          "text_characters": 1356,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "6218b09ca5c28ff563b40f1e46645bba13f1c4e4a045e1ed7bb7ea98be784710",
+          "letter_page": true
+        },
+        {
+          "page": 7,
+          "text_characters": 872,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "8fff72eda6178d755691361efc6b89f270467bc75e6c9dd1c19c218b5bef274c",
+          "letter_page": true
+        },
+        {
+          "page": 8,
+          "text_characters": 497,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "6554aaf5a062e9e62c395c9f05cf8b1df6c37beb0bb84d9aabc58c7ce5dd6b55",
+          "letter_page": true
+        },
+        {
+          "page": 9,
+          "text_characters": 1180,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "a0c3bf92aec15f5498b6909128fb6857c57aed19df859ea81a95ee36f5e8ef16",
+          "letter_page": true
+        },
+        {
+          "page": 10,
+          "text_characters": 856,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "6677e9f6e829604b703e6649564578e041bac725d40bbf9ce334bf1aba945be8",
+          "letter_page": true
+        },
+        {
+          "page": 11,
+          "text_characters": 1264,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "6e8011875dd25eb3450c12de3379768aed6bedfb5da86959dc8472cbf5c019f0",
+          "letter_page": true
+        },
+        {
+          "page": 12,
+          "text_characters": 1748,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "d74163a52b030b68641edf0382225a119e436726e7335cdb1aa527176d66d0a8",
+          "letter_page": true
+        },
+        {
+          "page": 13,
+          "text_characters": 1383,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "fd19b6dc3e26b5378c38c394a81e2dc6c98024f546924d8c17e25a387151307b",
+          "letter_page": true
+        },
+        {
+          "page": 14,
+          "text_characters": 1474,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "42b6e8079201165d63640ee40f5e145565e5418bab4345b760f7f0c610a91c82",
+          "letter_page": true
+        },
+        {
+          "page": 15,
+          "text_characters": 1778,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "56c35b9e8ad84d22d7b6d60662fe038b3a8a40199464a7f7e730063f5ac4f913",
+          "letter_page": true
+        },
+        {
+          "page": 16,
+          "text_characters": 1358,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "c0c85cd5f16edee48d6dbb0112232f5340e7848763d2a9bde425baef1f28da52",
+          "letter_page": true
+        },
+        {
+          "page": 17,
+          "text_characters": 876,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "ddd72c06d33b80faf7de499e047395de74c4f2e45f22152aadca8974e89770cb",
+          "letter_page": true
+        },
+        {
+          "page": 18,
+          "text_characters": 287,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "002ae0f290b2b3a1ed8f515b982e94d2fe4849b23ba042c37232b83404a85152",
+          "letter_page": true
+        },
+        {
+          "page": 19,
+          "text_characters": 503,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "95462e690acb4218f70434ee9ac771120c90a63a4713d1bbe2a15a532b0c7d75",
+          "letter_page": true
+        },
+        {
+          "page": 20,
+          "text_characters": 1365,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "684e2ce88cbe6854c489fcb96b9a2004c6f4c80461aec152993b72549b94b618",
+          "letter_page": true
+        },
+        {
+          "page": 21,
+          "text_characters": 712,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "092e1a4d2e5127688d78b337ee0df7eb2e6bb7c718f8d35f42a264a2251aebb0",
+          "letter_page": true
+        },
+        {
+          "page": 22,
+          "text_characters": 1507,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "f68e8832b887308bdd4d68f8e4ce0d808b0c1d101640ddf6cb958fa774fb8f63",
+          "letter_page": true
+        },
+        {
+          "page": 23,
+          "text_characters": 1144,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "45478098ca72b3da5ff4c750e255fb1030ae28ee446b6d0827faf2e43aea8ae8",
+          "letter_page": true
+        },
+        {
+          "page": 24,
+          "text_characters": 1112,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "cee8f3863d71fd4e2c27813f74d4e15683290b3599b2c227770e08e492b2fa76",
+          "letter_page": true
+        },
+        {
+          "page": 25,
+          "text_characters": 1200,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "e98c2c0d947e4bb873a040e4504efd4c7dd27d70aeb23c0d061a817b054f7659",
+          "letter_page": true
+        },
+        {
+          "page": 26,
+          "text_characters": 1068,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "f0998a79c0d7308a55215e582300008926287ac8a87f5586a02354bc11ff6720",
+          "letter_page": true
+        },
+        {
+          "page": 27,
+          "text_characters": 1384,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "6c6c8aa0480f28154073705e0a68d4051c1a73338ea0f44c44062562e564a905",
+          "letter_page": true
+        },
+        {
+          "page": 28,
+          "text_characters": 915,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "997cb9d8f1ce11494f4e601c80093d64c306baebee7dd6289b414c607fbaf3c7",
+          "letter_page": true
+        },
+        {
+          "page": 29,
+          "text_characters": 853,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "21f29b60a97c24ee1dd62eacf17b989e1154f98e4f0e02522de77c97af47b67c",
+          "letter_page": true
+        },
+        {
+          "page": 30,
+          "text_characters": 867,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "c5d032ea46182378e5a67344abad5ff9837c50a7ed7a3f922b1d8ab52a820abb",
+          "letter_page": true
+        },
+        {
+          "page": 31,
+          "text_characters": 972,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "b90cbf9ebfdbc0a1c6c8cb3db2fb4c206195a22d2add9edfd3b166c667aab21e",
+          "letter_page": true
+        },
+        {
+          "page": 32,
+          "text_characters": 1297,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "054a90786ee9935bc2c05f3b0a76d1c49f8b04e8249ea424473e9a049c32a26b",
+          "letter_page": true
+        },
+        {
+          "page": 33,
+          "text_characters": 991,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "cb9be97e616da0b90287fc8a33fe4270892291236a178a4c6308018da6e216c8",
+          "letter_page": true
+        },
+        {
+          "page": 34,
+          "text_characters": 856,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "1504f5d37bfe3c0dd992947ae1613e95aac21f58983f171fbbb6f233ddca3465",
+          "letter_page": true
+        },
+        {
+          "page": 35,
+          "text_characters": 1004,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "68b94f8b38145bb000d12c5c286ab4666329aabc70d93af0f297cfdf821998ac",
+          "letter_page": true
+        },
+        {
+          "page": 36,
+          "text_characters": 893,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "83dce199dc66c74c32e9947a284bf3158c95a8473a86324a05a6b01dd95bd428",
+          "letter_page": true
+        },
+        {
+          "page": 37,
+          "text_characters": 991,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "be23d9b196e2e68a67340ccdee9b3c77a6d6bf7b7374d5ee492666e127f5c5e4",
+          "letter_page": true
+        },
+        {
+          "page": 38,
+          "text_characters": 783,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "b9910b73d5aabcc31f37e04588f633c3fade14f979f536329432c8410f9530d7",
+          "letter_page": true
+        },
+        {
+          "page": 39,
+          "text_characters": 1391,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "2fb8b3502f3d469ba8b256cb53960eebf9f576b6d670aef0314b4fc5b3d91d0f",
+          "letter_page": true
+        },
+        {
+          "page": 40,
+          "text_characters": 1281,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "7f123cb449f7756b2ad41d197d5ceb69e0535257273030e4d5eaa2ddcff3cdce",
+          "letter_page": true
+        },
+        {
+          "page": 41,
+          "text_characters": 1160,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "58916e32f566c5e069d7f63393e1b19c7be0628fecff112efb5b2e6c54c62964",
+          "letter_page": true
+        },
+        {
+          "page": 42,
+          "text_characters": 1392,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "f07eb5394bff12d0189b336d329a151631cc05d7cbb9fa352a6d2671c4ddd898",
+          "letter_page": true
+        },
+        {
+          "page": 43,
+          "text_characters": 3124,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "cf433c6132d140b1e5103f197d76fce30ee0dc178e9f83e3127cc051a010005f",
+          "letter_page": true
+        },
+        {
+          "page": 44,
+          "text_characters": 4300,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "16c61924ca12ba0d3c1e8bd812548f9a02219e483d9756ecb674f4c0c7068437",
+          "letter_page": true
+        },
+        {
+          "page": 45,
+          "text_characters": 2353,
+          "rendered_pixels": [
+            918,
+            1188
+          ],
+          "image_sha256": "10ed369a9626d22f47ac04ab2065132dc8f75d6bae762b404e3ef5a79e45fc97",
+          "letter_page": true
+        }
+      ],
+      "checks": {
+        "at_least_30_pages": true,
+        "all_pages_letter": true,
+        "no_empty_pages": true,
+        "no_replacement_character": true,
+        "no_unresolved_references": true,
+        "no_raw_display_latex": true,
+        "author_present": true,
+        "all_expected_main_figure_captions": true,
+        "document_has_hyperlinks": true,
+        "all_pages_rendered": true
+      }
+    }
+  ]
+}

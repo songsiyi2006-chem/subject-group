@@ -1,0 +1,36 @@
+{
+  "source": {
+    "source_id": "C12",
+    "repository": "https://github.com/songsiyi2006-chem/pincer-catmech-ai",
+    "commit": "2edffb123791bd61acbfdeff763f603ee50c2287",
+    "path": "data/phase3/solvation/summary.json",
+    "sha256": "271c169649730433309c0f546a1cd4474f970de098d6fcd207b794a5fc7c8c45",
+    "bytes": 204696,
+    "git_blob_sha1": "55f9aba614fb3b75a8ab080258775bd674cfe0f3",
+    "url": "https://github.com/songsiyi2006-chem/pincer-catmech-ai/blob/2edffb123791bd61acbfdeff763f603ee50c2287/data/phase3/solvation/summary.json"
+  },
+  "selected_values": {
+    "/protocol": {
+      "method": "GFN2-xTB",
+      "solvent": "toluene",
+      "solvation_state": "gsolv",
+      "charge": 0,
+      "unpaired_electrons": 0,
+      "electronic_temperature_K": 300.0,
+      "optimization_convergence": "extreme",
+      "accuracy": 0.5,
+      "energy_unit": "eV",
+      "energy_description": "GFN2 total model energy including ALPB excess solvation"
+    },
+    "/scope": "Open microsolvated hemiaminal minima, not TSs or barriers",
+    "/n_solvent": [
+      1,
+      2,
+      3
+    ],
+    "/orientation_seeds_per_size": 3,
+    "/program_version": "6.7.1 (edcfbbe) compiled by 'VssAdministrator@runnervm171ch' on 2026-06-10",
+    "/converged_optimizations": 9,
+    "/limitation": "Bounded conformer/motif sampling. No tBuOK ion pair, catalyst, TS/IRC or solution population determination."
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "scope": "Literal numeric-token comparison of corresponding table rows; does not prove semantic translation equivalence.",
+  "table_count": {
+    "english": 28,
+    "chinese": 28
+  },
+  "source_sha256": {
+    "english": "9c832fd85ec5bd2cf56c9b622bb0ca68170ad8b98579be86ece5eee11390f287",
+    "chinese": "a120d00969373b506cb9b619310625b52c5e0402a46e80c1ce65d5d3661d6761"
+  },
+  "passed": true,
+  "differences": []
+}

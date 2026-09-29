@@ -1,0 +1,82 @@
+{
+  "no_new_quantum_or_training": true,
+  "copied_snapshot_hashes_verified": 52,
+  "deduplication": {
+    "shared_ancestral_commit": "5939547a936ed4baf7fa7ee9fac6fa6e90bfa8fe",
+    "identical_code_and_figure_blobs": 9,
+    "aqueous_recomputable_prediction_artifacts": 0
+  },
+  "phase01": {
+    "valid_structures": 10,
+    "failed_original_inputs": 1,
+    "accepted_optimization_records": 500,
+    "forcefield_structure_counts": {
+      "MMFF94": 9,
+      "UFF": 1
+    },
+    "old_and_audited_rounded_energies_equal": true,
+    "independent_new_compounds_from_rerun": 0
+  },
+  "phase11": {
+    "systems": 5,
+    "production_blocks": 100,
+    "epochs": 4050,
+    "point_gate_passed": 4,
+    "point_gate_failed": 1,
+    "reference": "computed FCI CBS extrapolation; not error-free continuum truth"
+  },
+  "phase24": {
+    "synthetic_measurements": 312,
+    "qc_passed": 312,
+    "actual_experiments": 0
+  },
+  "phase28": {
+    "published_trace_rows": 196496,
+    "unique_timestamps_summed_within_traces": 39726,
+    "duplicate_rows": 156770,
+    "independent_electrode_count": null,
+    "window_specifications": 72,
+    "published_mean_sd_rows": 50
+  },
+  "phase29": {
+    "matrix_xtb_calls": 144,
+    "matrix_unique_settings": 144,
+    "matrix_warning_calls": 144,
+    "matrix_state_pairs": 72,
+    "initial_xtb_calls_separate": 12,
+    "repeated_initial_settings_within_matrix": 12,
+    "cumulative_xtb_executions": 156,
+    "unique_xtb_settings_across_initial_and_matrix": 144,
+    "new_distinct_settings_in_extension": 132,
+    "matrix_energy_arithmetic_max_error_eV": 0.0,
+    "DFT_energy_arithmetic_max_error_eV": 0.0,
+    "DFT_jobs": 8,
+    "DFT_converged": 8,
+    "DFT_state_pairs": 4,
+    "matched_DFT_GFNs_rows": 8,
+    "Q01_basis_increment_eV": -0.039813917897182804
+  },
+  "paclitaxel_conversion_check": {
+    "reported_MW_g_mol": 853.9,
+    "reported_mass_range_ug_mL": [
+      0.3,
+      1.0
+    ],
+    "converted_log10_mol_L": [
+      -6.454285758836911,
+      -5.931407013556574
+    ],
+    "source_printed_range": [
+      -6.1,
+      -5.6
+    ],
+    "interpretation": "Unit arithmetic only; literature mass range and identity not independently validated."
+  },
+  "limits": [
+    "No historical model retrained or sampled.",
+    "No missing solubility predictions inferred from plots.",
+    "Trace statistics recomputed from published aggregate snapshots, not independent electrodes.",
+    "No bootstrapping or confidence intervals newly computed; saved block SE independently reproduced.",
+    "Raw computational logs not independently re-parsed in this history audit; job ledgers and selected stored outputs used."
+  ]
+}

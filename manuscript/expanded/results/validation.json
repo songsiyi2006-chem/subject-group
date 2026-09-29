@@ -1,0 +1,2117 @@
+{
+  "passed": true,
+  "checks": 527,
+  "failed": [],
+  "scope": "Archived-data arithmetic, provenance and artifact integrity; not chemical validation or human peer review.",
+  "data_only": false,
+  "items": [
+    {
+      "name": "six distinct public repositories",
+      "passed": true
+    },
+    {
+      "name": "full frozen commit aqueous-solubility-ml-benchmark",
+      "passed": true
+    },
+    {
+      "name": "full frozen commit ai4chem-complex-scaffolds-benchmark",
+      "passed": true
+    },
+    {
+      "name": "full frozen commit Paper-Analysis-ChemMLLM",
+      "passed": true
+    },
+    {
+      "name": "full frozen commit ai4pharm-lead-developability-suite",
+      "passed": true
+    },
+    {
+      "name": "full frozen commit pincer-catmech-ai",
+      "passed": true
+    },
+    {
+      "name": "full frozen commit subject-group",
+      "passed": true
+    },
+    {
+      "name": "archived multiscale input electrograph/results/learning/regression_metrics.csv",
+      "passed": true
+    },
+    {
+      "name": "archived multiscale input electratwin/results/reaction_network/study_summary.json",
+      "passed": true
+    },
+    {
+      "name": "archived multiscale input electratwin/results/benchmark_extension/budget_prefixes.csv",
+      "passed": true
+    },
+    {
+      "name": "archived multiscale input electratwin/results/benchmark_extension/holdout_grouped_metrics.csv",
+      "passed": true
+    },
+    {
+      "name": "archived multiscale input electrograph/results/kinetics/potential_summary.csv",
+      "passed": true
+    },
+    {
+      "name": "archived multiscale input synthapore/results/dynamics/thermostat_summary.csv",
+      "passed": true
+    },
+    {
+      "name": "archived multiscale input synthapore/results/dynamics/nve_timestep_summary.csv",
+      "passed": true
+    },
+    {
+      "name": "archived multiscale input toolkit/results/audit/deconvolution_recovery.csv",
+      "passed": true
+    },
+    {
+      "name": "multiscale figure manuscript/expanded/figures/M1_Hydration_english.png",
+      "passed": true
+    },
+    {
+      "name": "multiscale figure manuscript/expanded/figures/M1_Hydration_english.svg",
+      "passed": true
+    },
+    {
+      "name": "multiscale figure manuscript/expanded/figures/M2_Network_english.png",
+      "passed": true
+    },
+    {
+      "name": "multiscale figure manuscript/expanded/figures/M2_Network_english.svg",
+      "passed": true
+    },
+    {
+      "name": "multiscale figure manuscript/expanded/figures/M3_Optimization_english.png",
+      "passed": true
+    },
+    {
+      "name": "multiscale figure manuscript/expanded/figures/M3_Optimization_english.svg",
+      "passed": true
+    },
+    {
+      "name": "multiscale figure manuscript/expanded/figures/M4_Kinetics_english.png",
+      "passed": true
+    },
+    {
+      "name": "multiscale figure manuscript/expanded/figures/M4_Kinetics_english.svg",
+      "passed": true
+    },
+    {
+      "name": "multiscale figure manuscript/expanded/figures/M5_Thermostats_english.png",
+      "passed": true
+    },
+    {
+      "name": "multiscale figure manuscript/expanded/figures/M5_Thermostats_english.svg",
+      "passed": true
+    },
+    {
+      "name": "multiscale figure manuscript/expanded/figures/M6_Analytical_english.png",
+      "passed": true
+    },
+    {
+      "name": "multiscale figure manuscript/expanded/figures/M6_Analytical_english.svg",
+      "passed": true
+    },
+    {
+      "name": "multiscale figure manuscript/expanded/figures/M1_Hydration_chinese.png",
+      "passed": true
+    },
+    {
+      "name": "multiscale figure manuscript/expanded/figures/M1_Hydration_chinese.svg",
+      "passed": true
+    },
+    {
+      "name": "multiscale figure manuscript/expanded/figures/M2_Network_chinese.png",
+      "passed": true
+    },
+    {
+      "name": "multiscale figure manuscript/expanded/figures/M2_Network_chinese.svg",
+      "passed": true
+    },
+    {
+      "name": "multiscale figure manuscript/expanded/figures/M3_Optimization_chinese.png",
+      "passed": true
+    },
+    {
+      "name": "multiscale figure manuscript/expanded/figures/M3_Optimization_chinese.svg",
+      "passed": true
+    },
+    {
+      "name": "multiscale figure manuscript/expanded/figures/M4_Kinetics_chinese.png",
+      "passed": true
+    },
+    {
+      "name": "multiscale figure manuscript/expanded/figures/M4_Kinetics_chinese.svg",
+      "passed": true
+    },
+    {
+      "name": "multiscale figure manuscript/expanded/figures/M5_Thermostats_chinese.png",
+      "passed": true
+    },
+    {
+      "name": "multiscale figure manuscript/expanded/figures/M5_Thermostats_chinese.svg",
+      "passed": true
+    },
+    {
+      "name": "multiscale figure manuscript/expanded/figures/M6_Analytical_chinese.png",
+      "passed": true
+    },
+    {
+      "name": "multiscale figure manuscript/expanded/figures/M6_Analytical_chinese.svg",
+      "passed": true
+    },
+    {
+      "name": "multiscale generator",
+      "passed": true
+    },
+    {
+      "name": "posthoc work not miscounted as new solvers",
+      "passed": true
+    },
+    {
+      "name": "64 unique seeds gp_mc_ehvi",
+      "passed": true
+    },
+    {
+      "name": "budget summary gp_mc_ehvi mean_HV_fraction",
+      "passed": true
+    },
+    {
+      "name": "budget summary gp_mc_ehvi sd_across_seeds",
+      "passed": true
+    },
+    {
+      "name": "budget summary gp_mc_ehvi min_HV_fraction",
+      "passed": true
+    },
+    {
+      "name": "budget summary gp_mc_ehvi max_HV_fraction",
+      "passed": true
+    },
+    {
+      "name": "64 unique seeds random",
+      "passed": true
+    },
+    {
+      "name": "budget summary random mean_HV_fraction",
+      "passed": true
+    },
+    {
+      "name": "budget summary random sd_across_seeds",
+      "passed": true
+    },
+    {
+      "name": "budget summary random min_HV_fraction",
+      "passed": true
+    },
+    {
+      "name": "budget summary random max_HV_fraction",
+      "passed": true
+    },
+    {
+      "name": "64 unique seeds maximin_spacefill",
+      "passed": true
+    },
+    {
+      "name": "budget summary maximin_spacefill mean_HV_fraction",
+      "passed": true
+    },
+    {
+      "name": "budget summary maximin_spacefill sd_across_seeds",
+      "passed": true
+    },
+    {
+      "name": "budget summary maximin_spacefill min_HV_fraction",
+      "passed": true
+    },
+    {
+      "name": "budget summary maximin_spacefill max_HV_fraction",
+      "passed": true
+    },
+    {
+      "name": "paired mean random",
+      "passed": true
+    },
+    {
+      "name": "paired outcomes random",
+      "passed": true
+    },
+    {
+      "name": "paired mean maximin_spacefill",
+      "passed": true
+    },
+    {
+      "name": "paired outcomes maximin_spacefill",
+      "passed": true
+    },
+    {
+      "name": "80 synthetic chromatograms",
+      "passed": true
+    },
+    {
+      "name": "ten chromatograms per condition ['0.03', 'False']",
+      "passed": true
+    },
+    {
+      "name": "chromatography ('False', '0.03', 'mean_absolute_fitted_error_pct')",
+      "passed": true
+    },
+    {
+      "name": "chromatography ('False', '0.03', 'mean_absolute_window_error_pct')",
+      "passed": true
+    },
+    {
+      "name": "ten chromatograms per condition ['0.06', 'False']",
+      "passed": true
+    },
+    {
+      "name": "chromatography ('False', '0.06', 'mean_absolute_fitted_error_pct')",
+      "passed": true
+    },
+    {
+      "name": "chromatography ('False', '0.06', 'mean_absolute_window_error_pct')",
+      "passed": true
+    },
+    {
+      "name": "ten chromatograms per condition ['0.13', 'False']",
+      "passed": true
+    },
+    {
+      "name": "chromatography ('False', '0.13', 'mean_absolute_fitted_error_pct')",
+      "passed": true
+    },
+    {
+      "name": "chromatography ('False', '0.13', 'mean_absolute_window_error_pct')",
+      "passed": true
+    },
+    {
+      "name": "ten chromatograms per condition ['0.25', 'False']",
+      "passed": true
+    },
+    {
+      "name": "chromatography ('False', '0.25', 'mean_absolute_fitted_error_pct')",
+      "passed": true
+    },
+    {
+      "name": "chromatography ('False', '0.25', 'mean_absolute_window_error_pct')",
+      "passed": true
+    },
+    {
+      "name": "ten chromatograms per condition ['0.03', 'True']",
+      "passed": true
+    },
+    {
+      "name": "chromatography ('True', '0.03', 'mean_absolute_fitted_error_pct')",
+      "passed": true
+    },
+    {
+      "name": "chromatography ('True', '0.03', 'mean_absolute_window_error_pct')",
+      "passed": true
+    },
+    {
+      "name": "ten chromatograms per condition ['0.06', 'True']",
+      "passed": true
+    },
+    {
+      "name": "chromatography ('True', '0.06', 'mean_absolute_fitted_error_pct')",
+      "passed": true
+    },
+    {
+      "name": "chromatography ('True', '0.06', 'mean_absolute_window_error_pct')",
+      "passed": true
+    },
+    {
+      "name": "ten chromatograms per condition ['0.13', 'True']",
+      "passed": true
+    },
+    {
+      "name": "chromatography ('True', '0.13', 'mean_absolute_fitted_error_pct')",
+      "passed": true
+    },
+    {
+      "name": "chromatography ('True', '0.13', 'mean_absolute_window_error_pct')",
+      "passed": true
+    },
+    {
+      "name": "ten chromatograms per condition ['0.25', 'True']",
+      "passed": true
+    },
+    {
+      "name": "chromatography ('True', '0.25', 'mean_absolute_fitted_error_pct')",
+      "passed": true
+    },
+    {
+      "name": "chromatography ('True', '0.25', 'mean_absolute_window_error_pct')",
+      "passed": true
+    },
+    {
+      "name": "canonical variance ratio langevin_baoab",
+      "passed": true
+    },
+    {
+      "name": "canonical variance ratio berendsen",
+      "passed": true
+    },
+    {
+      "name": "canonical variance ratio berendsen_source_dof",
+      "passed": true
+    },
+    {
+      "name": "finite-window relative error 0.2",
+      "passed": true
+    },
+    {
+      "name": "stationary occupations 0.2",
+      "passed": true
+    },
+    {
+      "name": "finite-window relative error 0.3",
+      "passed": true
+    },
+    {
+      "name": "stationary occupations 0.3",
+      "passed": true
+    },
+    {
+      "name": "finite-window relative error 0.4",
+      "passed": true
+    },
+    {
+      "name": "stationary occupations 0.4",
+      "passed": true
+    },
+    {
+      "name": "finite-window relative error 0.5",
+      "passed": true
+    },
+    {
+      "name": "stationary occupations 0.5",
+      "passed": true
+    },
+    {
+      "name": "finite-window relative error 0.6",
+      "passed": true
+    },
+    {
+      "name": "stationary occupations 0.6",
+      "passed": true
+    },
+    {
+      "name": "finite-window relative error 0.7",
+      "passed": true
+    },
+    {
+      "name": "stationary occupations 0.7",
+      "passed": true
+    },
+    {
+      "name": "learning snapshot sources/aqueous_LICENSE.txt",
+      "passed": true
+    },
+    {
+      "name": "learning snapshot sources/complex_LICENSE.txt",
+      "passed": true
+    },
+    {
+      "name": "learning snapshot sources/aqueous_README.md",
+      "passed": true
+    },
+    {
+      "name": "learning snapshot sources/aqueous_aqsol_model.py",
+      "passed": true
+    },
+    {
+      "name": "learning snapshot sources/aqueous_esol_model.py",
+      "passed": true
+    },
+    {
+      "name": "learning snapshot sources/aqueous_paclitaxel.py",
+      "passed": true
+    },
+    {
+      "name": "learning snapshot sources/aqueous_predict_solubility.py",
+      "passed": true
+    },
+    {
+      "name": "learning snapshot sources/complex_EVIDENCE.md",
+      "passed": true
+    },
+    {
+      "name": "learning snapshot sources/complex_PHASE_INDEX.md",
+      "passed": true
+    },
+    {
+      "name": "learning snapshot sources/complex_PHASE1_19_CLOSEOUT.md",
+      "passed": true
+    },
+    {
+      "name": "learning snapshot sources/complex_PHASE1_5_AUDIT_FIXES.md",
+      "passed": true
+    },
+    {
+      "name": "learning snapshot sources/complex_PHASE11_13_AUDIT_FIXES.md",
+      "passed": true
+    },
+    {
+      "name": "learning snapshot sources/phase01_original.json",
+      "passed": true
+    },
+    {
+      "name": "learning snapshot sources/phase01_audited.json",
+      "passed": true
+    },
+    {
+      "name": "learning snapshot sources/phase01_acceptance.json",
+      "passed": true
+    },
+    {
+      "name": "learning snapshot sources/phase11_results.json",
+      "passed": true
+    },
+    {
+      "name": "learning snapshot sources/phase11_references.json",
+      "passed": true
+    },
+    {
+      "name": "learning snapshot sources/phase11_acceptance.json",
+      "passed": true
+    },
+    {
+      "name": "learning snapshot sources/phase24_metrics.json",
+      "passed": true
+    },
+    {
+      "name": "learning snapshot sources/phase24_measurements.json",
+      "passed": true
+    },
+    {
+      "name": "learning snapshot sources/phase25_27_acceptance.json",
+      "passed": true
+    },
+    {
+      "name": "learning snapshot sources/phase28_trace_metrics.csv",
+      "passed": true
+    },
+    {
+      "name": "learning snapshot sources/phase28_trace_summary.json",
+      "passed": true
+    },
+    {
+      "name": "learning snapshot sources/phase28_hour_bins.csv",
+      "passed": true
+    },
+    {
+      "name": "learning snapshot sources/phase28_window_robustness.csv",
+      "passed": true
+    },
+    {
+      "name": "learning snapshot sources/phase28_additional_summary.json",
+      "passed": true
+    },
+    {
+      "name": "learning snapshot sources/phase28_source_manifest.json",
+      "passed": true
+    },
+    {
+      "name": "learning snapshot sources/phase28_extraction_manifest.json",
+      "passed": true
+    },
+    {
+      "name": "learning snapshot sources/phase28_additional_source_manifest.json",
+      "passed": true
+    },
+    {
+      "name": "learning snapshot sources/phase28_production_fe_inputs.csv",
+      "passed": true
+    },
+    {
+      "name": "learning snapshot sources/phase28_replicate_mean_intervals.csv",
+      "passed": true
+    },
+    {
+      "name": "learning snapshot sources/phase28_time_contrasts.csv",
+      "passed": true
+    },
+    {
+      "name": "learning snapshot sources/phase29_acceptance.json",
+      "passed": true
+    },
+    {
+      "name": "learning snapshot sources/phase29_xtb_manifest.json",
+      "passed": true
+    },
+    {
+      "name": "learning snapshot sources/phase29_xtb_analysis.json",
+      "passed": true
+    },
+    {
+      "name": "learning snapshot sources/phase29_state_differences.csv",
+      "passed": true
+    },
+    {
+      "name": "learning snapshot sources/phase29_dft_manifest.json",
+      "passed": true
+    },
+    {
+      "name": "learning snapshot sources/phase29_dft_summary.json",
+      "passed": true
+    },
+    {
+      "name": "learning snapshot sources/phase29_dft_differences.csv",
+      "passed": true
+    },
+    {
+      "name": "learning snapshot sources/phase29_comparison.csv",
+      "passed": true
+    },
+    {
+      "name": "learning snapshot sources/phase29_comparison_summary.json",
+      "passed": true
+    },
+    {
+      "name": "learning snapshot sources/phase30_acceptance.json",
+      "passed": true
+    },
+    {
+      "name": "learning snapshot sources/phase31_status.json",
+      "passed": true
+    },
+    {
+      "name": "learning snapshot sources/phase31_leads.json",
+      "passed": true
+    },
+    {
+      "name": "learning snapshot sources/phase29_Q01_def2-svp_cation.json",
+      "passed": true
+    },
+    {
+      "name": "learning snapshot sources/phase29_Q01_def2-svp_radical.json",
+      "passed": true
+    },
+    {
+      "name": "learning snapshot sources/phase29_Q01_def2-tzvp_cation.json",
+      "passed": true
+    },
+    {
+      "name": "learning snapshot sources/phase29_Q01_def2-tzvp_radical.json",
+      "passed": true
+    },
+    {
+      "name": "learning snapshot sources/phase29_Q02_def2-svp_cation.json",
+      "passed": true
+    },
+    {
+      "name": "learning snapshot sources/phase29_Q02_def2-svp_radical.json",
+      "passed": true
+    },
+    {
+      "name": "learning snapshot sources/phase29_Q03_def2-svp_cation.json",
+      "passed": true
+    },
+    {
+      "name": "learning snapshot sources/phase29_Q03_def2-svp_radical.json",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact figures/Figure_L1_Conformer_chinese.png",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact figures/Figure_L1_Conformer_chinese.svg",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact figures/Figure_L1_Conformer_english.png",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact figures/Figure_L1_Conformer_english.svg",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact figures/Figure_L2_VMC_chinese.png",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact figures/Figure_L2_VMC_chinese.svg",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact figures/Figure_L2_VMC_english.png",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact figures/Figure_L2_VMC_english.svg",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact figures/Figure_L3_Trace_Windows_chinese.png",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact figures/Figure_L3_Trace_Windows_chinese.svg",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact figures/Figure_L3_Trace_Windows_english.png",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact figures/Figure_L3_Trace_Windows_english.svg",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact figures/Figure_L4_Reference_Alignment_chinese.png",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact figures/Figure_L4_Reference_Alignment_chinese.svg",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact figures/Figure_L4_Reference_Alignment_english.png",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact figures/Figure_L4_Reference_Alignment_english.svg",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact figures/Figure_L5_Rank_Reversals_chinese.png",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact figures/Figure_L5_Rank_Reversals_chinese.svg",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact figures/Figure_L5_Rank_Reversals_english.png",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact figures/Figure_L5_Rank_Reversals_english.svg",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact figures/figure_manifest.json",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact plotting.py",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact section_chinese.md",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact section_english.md",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact sources/aqueous_aqsol_model.py",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact sources/aqueous_esol_model.py",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact sources/aqueous_history.csv",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact sources/aqueous_LICENSE.txt",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact sources/aqueous_paclitaxel.py",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact sources/aqueous_predict_solubility.py",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact sources/aqueous_README.md",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact sources/collect_history.py",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact sources/complex_EVIDENCE.md",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact sources/complex_history.csv",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact sources/complex_LICENSE.txt",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact sources/complex_PHASE11_13_AUDIT_FIXES.md",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact sources/complex_PHASE1_19_CLOSEOUT.md",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact sources/complex_PHASE1_5_AUDIT_FIXES.md",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact sources/complex_PHASE_INDEX.md",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact sources/cross_review_multiscale.json",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact sources/deduplication.json",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact sources/derived_conformers.csv",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact sources/derived_rank_reversals.csv",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact sources/derived_reference_alignment.csv",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact sources/derived_synthetic_campaign.csv",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact sources/derived_trace_summary.csv",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact sources/derived_vmc.csv",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact sources/derived_vmc_blocks.csv",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact sources/finalize_history.py",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact sources/phase01_acceptance.json",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact sources/phase01_audited.json",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact sources/phase01_original.json",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact sources/phase11_acceptance.json",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact sources/phase11_references.json",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact sources/phase11_results.json",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact sources/phase24_measurements.json",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact sources/phase24_metrics.json",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact sources/phase25_27_acceptance.json",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact sources/phase28_additional_source_manifest.json",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact sources/phase28_additional_summary.json",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact sources/phase28_extraction_manifest.json",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact sources/phase28_hour_bins.csv",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact sources/phase28_production_fe_inputs.csv",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact sources/phase28_replicate_mean_intervals.csv",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact sources/phase28_source_manifest.json",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact sources/phase28_time_contrasts.csv",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact sources/phase28_trace_metrics.csv",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact sources/phase28_trace_summary.json",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact sources/phase28_window_robustness.csv",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact sources/phase29_acceptance.json",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact sources/phase29_comparison.csv",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact sources/phase29_comparison_summary.json",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact sources/phase29_dft_differences.csv",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact sources/phase29_dft_manifest.json",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact sources/phase29_dft_summary.json",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact sources/phase29_Q01_def2-svp_cation.json",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact sources/phase29_Q01_def2-svp_radical.json",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact sources/phase29_Q01_def2-tzvp_cation.json",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact sources/phase29_Q01_def2-tzvp_radical.json",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact sources/phase29_Q02_def2-svp_cation.json",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact sources/phase29_Q02_def2-svp_radical.json",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact sources/phase29_Q03_def2-svp_cation.json",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact sources/phase29_Q03_def2-svp_radical.json",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact sources/phase29_state_differences.csv",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact sources/phase29_xtb_analysis.json",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact sources/phase29_xtb_manifest.json",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact sources/phase30_acceptance.json",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact sources/phase31_leads.json",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact sources/phase31_status.json",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact sources/phase_coverage.json",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact sources/posthoc_summary.json",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact sources/README.md",
+      "passed": true
+    },
+    {
+      "name": "learning derived artifact sources/recompute_history.py",
+      "passed": true
+    },
+    {
+      "name": "reference double difference Q01/1",
+      "passed": true
+    },
+    {
+      "name": "raw reference offset Q01/1",
+      "passed": true
+    },
+    {
+      "name": "reference double difference Q01/2",
+      "passed": true
+    },
+    {
+      "name": "raw reference offset Q01/2",
+      "passed": true
+    },
+    {
+      "name": "reference double difference Q02/1",
+      "passed": true
+    },
+    {
+      "name": "raw reference offset Q02/1",
+      "passed": true
+    },
+    {
+      "name": "reference double difference Q02/2",
+      "passed": true
+    },
+    {
+      "name": "raw reference offset Q02/2",
+      "passed": true
+    },
+    {
+      "name": "reference double difference Q03/1",
+      "passed": true
+    },
+    {
+      "name": "raw reference offset Q03/1",
+      "passed": true
+    },
+    {
+      "name": "reference double difference Q03/2",
+      "passed": true
+    },
+    {
+      "name": "raw reference offset Q03/2",
+      "passed": true
+    },
+    {
+      "name": "trace timestamp deduplication",
+      "passed": true
+    },
+    {
+      "name": "trace multiplicity nature2023_constant_potential",
+      "passed": true
+    },
+    {
+      "name": "trace multiplicity nature2023_constant_current",
+      "passed": true
+    },
+    {
+      "name": "trace multiplicity natsynth2026_constant_current",
+      "passed": true
+    },
+    {
+      "name": "pharmacology snapshot ai4pharm-lead-developability-suite/LICENSE",
+      "passed": true
+    },
+    {
+      "name": "pharmacology snapshot ai4pharm-lead-developability-suite/README.md",
+      "passed": true
+    },
+    {
+      "name": "pharmacology snapshot ai4pharm-lead-developability-suite/projects/task01_lead_developability/MODEL_CARD.md",
+      "passed": true
+    },
+    {
+      "name": "pharmacology snapshot ai4pharm-lead-developability-suite/projects/task01_lead_developability/data/reference_panel.json",
+      "passed": true
+    },
+    {
+      "name": "pharmacology snapshot ai4pharm-lead-developability-suite/projects/task01_lead_developability/results_task1/developability_results.csv",
+      "passed": true
+    },
+    {
+      "name": "pharmacology snapshot ai4pharm-lead-developability-suite/projects/task01_lead_developability/results_task1/developability_results.json",
+      "passed": true
+    },
+    {
+      "name": "pharmacology snapshot ai4pharm-lead-developability-suite/projects/task01_lead_developability/results_task1/group_summary.csv",
+      "passed": true
+    },
+    {
+      "name": "pharmacology snapshot ai4pharm-lead-developability-suite/projects/task01_lead_developability/results_task1/run_manifest.json",
+      "passed": true
+    },
+    {
+      "name": "pharmacology snapshot ai4pharm-lead-developability-suite/projects/task01_lead_developability/run_task1_mpo_admet_developability.py",
+      "passed": true
+    },
+    {
+      "name": "pharmacology snapshot ai4pharm-lead-developability-suite/projects/task02_tpd/run_task2_tpd_ternary_cooperativity.py",
+      "passed": true
+    },
+    {
+      "name": "pharmacology snapshot ai4pharm-lead-developability-suite/projects/task02_tpd/manifest_task2.json",
+      "passed": true
+    },
+    {
+      "name": "pharmacology snapshot ai4pharm-lead-developability-suite/projects/task02_tpd/data_task2/equilibrium_metrics.csv",
+      "passed": true
+    },
+    {
+      "name": "pharmacology snapshot ai4pharm-lead-developability-suite/projects/task02_tpd/data_task2/equilibrium_species.csv",
+      "passed": true
+    },
+    {
+      "name": "pharmacology snapshot ai4pharm-lead-developability-suite/projects/task02_tpd/data_task2/linker_summary.csv",
+      "passed": true
+    },
+    {
+      "name": "pharmacology snapshot ai4pharm-lead-developability-suite/projects/task02_tpd/data_task2/linker_conformers.csv",
+      "passed": true
+    },
+    {
+      "name": "pharmacology snapshot ai4pharm-lead-developability-suite/projects/task03_covalent_kinetics/run_task3_covalent_kinetics_residence_time.py",
+      "passed": true
+    },
+    {
+      "name": "pharmacology snapshot ai4pharm-lead-developability-suite/projects/task03_covalent_kinetics/data_task3/warhead_results.csv",
+      "passed": true
+    },
+    {
+      "name": "pharmacology snapshot ai4pharm-lead-developability-suite/projects/task03_covalent_kinetics/data_task3/kobs_concentration.csv",
+      "passed": true
+    },
+    {
+      "name": "pharmacology snapshot ai4pharm-lead-developability-suite/projects/task03_covalent_kinetics/data_task3/run_manifest.json",
+      "passed": true
+    },
+    {
+      "name": "pharmacology snapshot ai4pharm-lead-developability-suite/projects/task03_covalent_kinetics/data_task3/lfer_regression.json",
+      "passed": true
+    },
+    {
+      "name": "pharmacology snapshot ai4pharm-lead-developability-suite/projects/task19_metadynamics/outputs/executed_driver.py",
+      "passed": true
+    },
+    {
+      "name": "pharmacology snapshot ai4pharm-lead-developability-suite/projects/task19_metadynamics/outputs/summary.json",
+      "passed": true
+    },
+    {
+      "name": "pharmacology snapshot ai4pharm-lead-developability-suite/projects/task19_metadynamics/outputs/run_metadata.json",
+      "passed": true
+    },
+    {
+      "name": "pharmacology snapshot ai4pharm-lead-developability-suite/projects/task19_metadynamics/outputs/config.json",
+      "passed": true
+    },
+    {
+      "name": "pharmacology snapshot ai4pharm-lead-developability-suite/projects/task19_metadynamics/outputs/atomistic_cv_trajectory.csv",
+      "passed": true
+    },
+    {
+      "name": "pharmacology snapshot ai4pharm-lead-developability-suite/projects/task19_metadynamics/outputs/hill_history.csv",
+      "passed": true
+    },
+    {
+      "name": "pharmacology snapshot ai4pharm-lead-developability-suite/projects/task19_metadynamics/outputs/verification.json",
+      "passed": true
+    },
+    {
+      "name": "pharmacology snapshot ai4pharm-lead-developability-suite/projects/task19_metadynamics/inputs/5T35.pdb",
+      "passed": true
+    },
+    {
+      "name": "pharmacology snapshot ai4pharm-lead-developability-suite/projects/task19_metadynamics/EXECUTION_AUDIT.json",
+      "passed": true
+    },
+    {
+      "name": "pharmacology snapshot ai4pharm-lead-developability-suite/projects/task20_denovo/driver.py",
+      "passed": true
+    },
+    {
+      "name": "pharmacology snapshot ai4pharm-lead-developability-suite/projects/task20_denovo/outputs/summary.json",
+      "passed": true
+    },
+    {
+      "name": "pharmacology snapshot ai4pharm-lead-developability-suite/projects/task20_denovo/outputs/generation_summary.csv",
+      "passed": true
+    },
+    {
+      "name": "pharmacology snapshot ai4pharm-lead-developability-suite/projects/task20_denovo/outputs/evaluated_candidates.csv",
+      "passed": true
+    },
+    {
+      "name": "pharmacology snapshot ai4pharm-lead-developability-suite/projects/task20_denovo/outputs/random_search_control.csv",
+      "passed": true
+    },
+    {
+      "name": "pharmacology snapshot ai4pharm-lead-developability-suite/projects/task20_denovo/outputs/random_search_summary.json",
+      "passed": true
+    },
+    {
+      "name": "pharmacology snapshot ai4pharm-lead-developability-suite/projects/task20_denovo/outputs/docking/candidate_vina_scores.csv",
+      "passed": true
+    },
+    {
+      "name": "pharmacology snapshot ai4pharm-lead-developability-suite/projects/task20_denovo/outputs/verification.json",
+      "passed": true
+    },
+    {
+      "name": "pharmacology snapshot ai4pharm-lead-developability-suite/data_omnibus/recompute/projects/task01_lead_developability/results_task1/developability_results.csv",
+      "passed": true
+    },
+    {
+      "name": "pharmacology snapshot ai4pharm-lead-developability-suite/data_omnibus/recompute/projects/task02_tpd/data_task2/equilibrium_metrics.csv",
+      "passed": true
+    },
+    {
+      "name": "pharmacology snapshot ai4pharm-lead-developability-suite/data_omnibus/recompute/projects/task03_covalent_kinetics/data_task3/warhead_results.csv",
+      "passed": true
+    },
+    {
+      "name": "pharmacology snapshot Paper-Analysis-ChemMLLM/README.md",
+      "passed": true
+    },
+    {
+      "name": "sixteen pharmaceutical figure assets",
+      "passed": true
+    },
+    {
+      "name": "pharmacology figure figures/Figure_P1_english.png",
+      "passed": true
+    },
+    {
+      "name": "pharmacology plotted input sources/derived/mpo_plot.csv",
+      "passed": true
+    },
+    {
+      "name": "pharmacology figure figures/Figure_P1_english.svg",
+      "passed": true
+    },
+    {
+      "name": "pharmacology plotted input sources/derived/mpo_plot.csv",
+      "passed": true
+    },
+    {
+      "name": "pharmacology figure figures/Figure_P2_english.png",
+      "passed": true
+    },
+    {
+      "name": "pharmacology plotted input sources/derived/tpd_plot.csv",
+      "passed": true
+    },
+    {
+      "name": "pharmacology plotted input sources/ai4pharm-lead-developability-suite/projects/task02_tpd/data_task2/linker_conformers.csv",
+      "passed": true
+    },
+    {
+      "name": "pharmacology figure figures/Figure_P2_english.svg",
+      "passed": true
+    },
+    {
+      "name": "pharmacology plotted input sources/derived/tpd_plot.csv",
+      "passed": true
+    },
+    {
+      "name": "pharmacology plotted input sources/ai4pharm-lead-developability-suite/projects/task02_tpd/data_task2/linker_conformers.csv",
+      "passed": true
+    },
+    {
+      "name": "pharmacology figure figures/Figure_P3_english.png",
+      "passed": true
+    },
+    {
+      "name": "pharmacology plotted input sources/derived/covalent_plot.csv",
+      "passed": true
+    },
+    {
+      "name": "pharmacology figure figures/Figure_P3_english.svg",
+      "passed": true
+    },
+    {
+      "name": "pharmacology plotted input sources/derived/covalent_plot.csv",
+      "passed": true
+    },
+    {
+      "name": "pharmacology figure figures/Figure_P4_english.png",
+      "passed": true
+    },
+    {
+      "name": "pharmacology plotted input sources/ai4pharm-lead-developability-suite/projects/task19_metadynamics/outputs/atomistic_cv_trajectory.csv",
+      "passed": true
+    },
+    {
+      "name": "pharmacology plotted input sources/derived/optimization_plot.csv",
+      "passed": true
+    },
+    {
+      "name": "pharmacology plotted input sources/ai4pharm-lead-developability-suite/projects/task20_denovo/outputs/docking/candidate_vina_scores.csv",
+      "passed": true
+    },
+    {
+      "name": "pharmacology figure figures/Figure_P4_english.svg",
+      "passed": true
+    },
+    {
+      "name": "pharmacology plotted input sources/ai4pharm-lead-developability-suite/projects/task19_metadynamics/outputs/atomistic_cv_trajectory.csv",
+      "passed": true
+    },
+    {
+      "name": "pharmacology plotted input sources/derived/optimization_plot.csv",
+      "passed": true
+    },
+    {
+      "name": "pharmacology plotted input sources/ai4pharm-lead-developability-suite/projects/task20_denovo/outputs/docking/candidate_vina_scores.csv",
+      "passed": true
+    },
+    {
+      "name": "pharmacology figure figures/Figure_P1_chinese.png",
+      "passed": true
+    },
+    {
+      "name": "pharmacology plotted input sources/derived/mpo_plot.csv",
+      "passed": true
+    },
+    {
+      "name": "pharmacology figure figures/Figure_P1_chinese.svg",
+      "passed": true
+    },
+    {
+      "name": "pharmacology plotted input sources/derived/mpo_plot.csv",
+      "passed": true
+    },
+    {
+      "name": "pharmacology figure figures/Figure_P2_chinese.png",
+      "passed": true
+    },
+    {
+      "name": "pharmacology plotted input sources/derived/tpd_plot.csv",
+      "passed": true
+    },
+    {
+      "name": "pharmacology plotted input sources/ai4pharm-lead-developability-suite/projects/task02_tpd/data_task2/linker_conformers.csv",
+      "passed": true
+    },
+    {
+      "name": "pharmacology figure figures/Figure_P2_chinese.svg",
+      "passed": true
+    },
+    {
+      "name": "pharmacology plotted input sources/derived/tpd_plot.csv",
+      "passed": true
+    },
+    {
+      "name": "pharmacology plotted input sources/ai4pharm-lead-developability-suite/projects/task02_tpd/data_task2/linker_conformers.csv",
+      "passed": true
+    },
+    {
+      "name": "pharmacology figure figures/Figure_P3_chinese.png",
+      "passed": true
+    },
+    {
+      "name": "pharmacology plotted input sources/derived/covalent_plot.csv",
+      "passed": true
+    },
+    {
+      "name": "pharmacology figure figures/Figure_P3_chinese.svg",
+      "passed": true
+    },
+    {
+      "name": "pharmacology plotted input sources/derived/covalent_plot.csv",
+      "passed": true
+    },
+    {
+      "name": "pharmacology figure figures/Figure_P4_chinese.png",
+      "passed": true
+    },
+    {
+      "name": "pharmacology plotted input sources/ai4pharm-lead-developability-suite/projects/task19_metadynamics/outputs/atomistic_cv_trajectory.csv",
+      "passed": true
+    },
+    {
+      "name": "pharmacology plotted input sources/derived/optimization_plot.csv",
+      "passed": true
+    },
+    {
+      "name": "pharmacology plotted input sources/ai4pharm-lead-developability-suite/projects/task20_denovo/outputs/docking/candidate_vina_scores.csv",
+      "passed": true
+    },
+    {
+      "name": "pharmacology figure figures/Figure_P4_chinese.svg",
+      "passed": true
+    },
+    {
+      "name": "pharmacology plotted input sources/ai4pharm-lead-developability-suite/projects/task19_metadynamics/outputs/atomistic_cv_trajectory.csv",
+      "passed": true
+    },
+    {
+      "name": "pharmacology plotted input sources/derived/optimization_plot.csv",
+      "passed": true
+    },
+    {
+      "name": "pharmacology plotted input sources/ai4pharm-lead-developability-suite/projects/task20_denovo/outputs/docking/candidate_vina_scores.csv",
+      "passed": true
+    },
+    {
+      "name": "completed audit catalysis",
+      "passed": true
+    },
+    {
+      "name": "completed audit pharmacology",
+      "passed": true
+    },
+    {
+      "name": "catalysis excerpt C01",
+      "passed": true
+    },
+    {
+      "name": "catalysis excerpt C02",
+      "passed": true
+    },
+    {
+      "name": "catalysis excerpt C03",
+      "passed": true
+    },
+    {
+      "name": "catalysis excerpt C06",
+      "passed": true
+    },
+    {
+      "name": "catalysis excerpt C07",
+      "passed": true
+    },
+    {
+      "name": "catalysis excerpt C08",
+      "passed": true
+    },
+    {
+      "name": "catalysis excerpt C12",
+      "passed": true
+    },
+    {
+      "name": "catalysis excerpt C14",
+      "passed": true
+    },
+    {
+      "name": "catalysis excerpt C15",
+      "passed": true
+    },
+    {
+      "name": "catalysis excerpt C16",
+      "passed": true
+    },
+    {
+      "name": "catalysis excerpt C17",
+      "passed": true
+    },
+    {
+      "name": "catalysis excerpt C18",
+      "passed": true
+    },
+    {
+      "name": "catalysis excerpt C19",
+      "passed": true
+    },
+    {
+      "name": "catalysis excerpt C20",
+      "passed": true
+    },
+    {
+      "name": "catalysis excerpt C21",
+      "passed": true
+    },
+    {
+      "name": "catalysis excerpt C22",
+      "passed": true
+    },
+    {
+      "name": "catalysis excerpt C23",
+      "passed": true
+    },
+    {
+      "name": "ten native catalytic energy checks",
+      "passed": true
+    },
+    {
+      "name": "native energy identity Fe_bipyridine_pnnoh_iPr_M1",
+      "passed": true
+    },
+    {
+      "name": "native energy identity Fe_bipyridine_pnnoh_iPr_M3",
+      "passed": true
+    },
+    {
+      "name": "native energy identity Fe_bipyridine_pnnoh_Ph_M1",
+      "passed": true
+    },
+    {
+      "name": "native energy identity Fe_macho_pnp_iPr_M5",
+      "passed": true
+    },
+    {
+      "name": "native energy identity Mn_bipyridine_pnnoh_Ph_M1",
+      "passed": true
+    },
+    {
+      "name": "native energy identity Mn_bipyridine_pnnoh_iPr_M1",
+      "passed": true
+    },
+    {
+      "name": "native energy identity Mn_pyridine_pnn_Ph_M1",
+      "passed": true
+    },
+    {
+      "name": "native energy identity Mn_pyridine_pnn_iPr_M1",
+      "passed": true
+    },
+    {
+      "name": "native energy identity DFT001-pbe0-neutral",
+      "passed": true
+    },
+    {
+      "name": "native energy identity DFT003b-b3lyp-neutral",
+      "passed": true
+    },
+    {
+      "name": "EGNN baseline difference train",
+      "passed": true
+    },
+    {
+      "name": "EGNN baseline difference validation",
+      "passed": true
+    },
+    {
+      "name": "EGNN baseline difference test",
+      "passed": true
+    },
+    {
+      "name": "molecular preflight completed/timeout counts",
+      "passed": true
+    },
+    {
+      "name": "molecular preflight no completed anion",
+      "passed": true
+    },
+    {
+      "name": "learning plotting generator",
+      "passed": true
+    },
+    {
+      "name": "learning figure figures/Figure_L1_Conformer_english.png",
+      "passed": true
+    },
+    {
+      "name": "learning plotted input sources/derived_conformers.csv",
+      "passed": true
+    },
+    {
+      "name": "learning figure figures/Figure_L1_Conformer_english.svg",
+      "passed": true
+    },
+    {
+      "name": "learning plotted input sources/derived_conformers.csv",
+      "passed": true
+    },
+    {
+      "name": "learning figure figures/Figure_L2_VMC_english.png",
+      "passed": true
+    },
+    {
+      "name": "learning plotted input sources/derived_vmc.csv",
+      "passed": true
+    },
+    {
+      "name": "learning figure figures/Figure_L2_VMC_english.svg",
+      "passed": true
+    },
+    {
+      "name": "learning plotted input sources/derived_vmc.csv",
+      "passed": true
+    },
+    {
+      "name": "learning figure figures/Figure_L3_Trace_Windows_english.png",
+      "passed": true
+    },
+    {
+      "name": "learning plotted input sources/phase28_window_robustness.csv",
+      "passed": true
+    },
+    {
+      "name": "learning figure figures/Figure_L3_Trace_Windows_english.svg",
+      "passed": true
+    },
+    {
+      "name": "learning plotted input sources/phase28_window_robustness.csv",
+      "passed": true
+    },
+    {
+      "name": "learning figure figures/Figure_L4_Reference_Alignment_english.png",
+      "passed": true
+    },
+    {
+      "name": "learning plotted input sources/derived_reference_alignment.csv",
+      "passed": true
+    },
+    {
+      "name": "learning figure figures/Figure_L4_Reference_Alignment_english.svg",
+      "passed": true
+    },
+    {
+      "name": "learning plotted input sources/derived_reference_alignment.csv",
+      "passed": true
+    },
+    {
+      "name": "learning figure figures/Figure_L5_Rank_Reversals_english.png",
+      "passed": true
+    },
+    {
+      "name": "learning plotted input sources/derived_rank_reversals.csv",
+      "passed": true
+    },
+    {
+      "name": "learning figure figures/Figure_L5_Rank_Reversals_english.svg",
+      "passed": true
+    },
+    {
+      "name": "learning plotted input sources/derived_rank_reversals.csv",
+      "passed": true
+    },
+    {
+      "name": "learning figure figures/Figure_L1_Conformer_chinese.png",
+      "passed": true
+    },
+    {
+      "name": "learning plotted input sources/derived_conformers.csv",
+      "passed": true
+    },
+    {
+      "name": "learning figure figures/Figure_L1_Conformer_chinese.svg",
+      "passed": true
+    },
+    {
+      "name": "learning plotted input sources/derived_conformers.csv",
+      "passed": true
+    },
+    {
+      "name": "learning figure figures/Figure_L2_VMC_chinese.png",
+      "passed": true
+    },
+    {
+      "name": "learning plotted input sources/derived_vmc.csv",
+      "passed": true
+    },
+    {
+      "name": "learning figure figures/Figure_L2_VMC_chinese.svg",
+      "passed": true
+    },
+    {
+      "name": "learning plotted input sources/derived_vmc.csv",
+      "passed": true
+    },
+    {
+      "name": "learning figure figures/Figure_L3_Trace_Windows_chinese.png",
+      "passed": true
+    },
+    {
+      "name": "learning plotted input sources/phase28_window_robustness.csv",
+      "passed": true
+    },
+    {
+      "name": "learning figure figures/Figure_L3_Trace_Windows_chinese.svg",
+      "passed": true
+    },
+    {
+      "name": "learning plotted input sources/phase28_window_robustness.csv",
+      "passed": true
+    },
+    {
+      "name": "learning figure figures/Figure_L4_Reference_Alignment_chinese.png",
+      "passed": true
+    },
+    {
+      "name": "learning plotted input sources/derived_reference_alignment.csv",
+      "passed": true
+    },
+    {
+      "name": "learning figure figures/Figure_L4_Reference_Alignment_chinese.svg",
+      "passed": true
+    },
+    {
+      "name": "learning plotted input sources/derived_reference_alignment.csv",
+      "passed": true
+    },
+    {
+      "name": "learning figure figures/Figure_L5_Rank_Reversals_chinese.png",
+      "passed": true
+    },
+    {
+      "name": "learning plotted input sources/derived_rank_reversals.csv",
+      "passed": true
+    },
+    {
+      "name": "learning figure figures/Figure_L5_Rank_Reversals_chinese.svg",
+      "passed": true
+    },
+    {
+      "name": "learning plotted input sources/derived_rank_reversals.csv",
+      "passed": true
+    },
+    {
+      "name": "catalysis plotting generator",
+      "passed": true
+    },
+    {
+      "name": "catalysis figure figures/Figure_C1_Spin_Gates_english.png",
+      "passed": true
+    },
+    {
+      "name": "catalysis plotted input sources/posthoc_spin_gates.csv",
+      "passed": true
+    },
+    {
+      "name": "catalysis figure figures/Figure_C1_Spin_Gates_english.svg",
+      "passed": true
+    },
+    {
+      "name": "catalysis plotted input sources/posthoc_spin_gates.csv",
+      "passed": true
+    },
+    {
+      "name": "catalysis figure figures/Figure_C2_Spin_Quality_english.png",
+      "passed": true
+    },
+    {
+      "name": "catalysis plotted input sources/C04_spin_states.csv",
+      "passed": true
+    },
+    {
+      "name": "catalysis figure figures/Figure_C2_Spin_Quality_english.svg",
+      "passed": true
+    },
+    {
+      "name": "catalysis plotted input sources/C04_spin_states.csv",
+      "passed": true
+    },
+    {
+      "name": "catalysis figure figures/Figure_C3_EGNN_Baselines_english.png",
+      "passed": true
+    },
+    {
+      "name": "catalysis plotted input sources/posthoc_egnn_metrics.csv",
+      "passed": true
+    },
+    {
+      "name": "catalysis figure figures/Figure_C3_EGNN_Baselines_english.svg",
+      "passed": true
+    },
+    {
+      "name": "catalysis plotted input sources/posthoc_egnn_metrics.csv",
+      "passed": true
+    },
+    {
+      "name": "catalysis figure figures/Figure_C4_Unaccepted_Paths_english.png",
+      "passed": true
+    },
+    {
+      "name": "catalysis plotted input sources/posthoc_proton_wire.csv",
+      "passed": true
+    },
+    {
+      "name": "catalysis figure figures/Figure_C4_Unaccepted_Paths_english.svg",
+      "passed": true
+    },
+    {
+      "name": "catalysis plotted input sources/posthoc_proton_wire.csv",
+      "passed": true
+    },
+    {
+      "name": "catalysis figure figures/Figure_C5_Molecular_Preflight_english.png",
+      "passed": true
+    },
+    {
+      "name": "catalysis plotted input sources/C20_excerpt.json",
+      "passed": true
+    },
+    {
+      "name": "catalysis plotted input sources/C21_excerpt.json",
+      "passed": true
+    },
+    {
+      "name": "catalysis plotted input sources/C23_excerpt.json",
+      "passed": true
+    },
+    {
+      "name": "catalysis figure figures/Figure_C5_Molecular_Preflight_english.svg",
+      "passed": true
+    },
+    {
+      "name": "catalysis plotted input sources/C20_excerpt.json",
+      "passed": true
+    },
+    {
+      "name": "catalysis plotted input sources/C21_excerpt.json",
+      "passed": true
+    },
+    {
+      "name": "catalysis plotted input sources/C23_excerpt.json",
+      "passed": true
+    },
+    {
+      "name": "catalysis figure figures/Figure_C1_Spin_Gates_chinese.png",
+      "passed": true
+    },
+    {
+      "name": "catalysis plotted input sources/posthoc_spin_gates.csv",
+      "passed": true
+    },
+    {
+      "name": "catalysis figure figures/Figure_C1_Spin_Gates_chinese.svg",
+      "passed": true
+    },
+    {
+      "name": "catalysis plotted input sources/posthoc_spin_gates.csv",
+      "passed": true
+    },
+    {
+      "name": "catalysis figure figures/Figure_C2_Spin_Quality_chinese.png",
+      "passed": true
+    },
+    {
+      "name": "catalysis plotted input sources/C04_spin_states.csv",
+      "passed": true
+    },
+    {
+      "name": "catalysis figure figures/Figure_C2_Spin_Quality_chinese.svg",
+      "passed": true
+    },
+    {
+      "name": "catalysis plotted input sources/C04_spin_states.csv",
+      "passed": true
+    },
+    {
+      "name": "catalysis figure figures/Figure_C3_EGNN_Baselines_chinese.png",
+      "passed": true
+    },
+    {
+      "name": "catalysis plotted input sources/posthoc_egnn_metrics.csv",
+      "passed": true
+    },
+    {
+      "name": "catalysis figure figures/Figure_C3_EGNN_Baselines_chinese.svg",
+      "passed": true
+    },
+    {
+      "name": "catalysis plotted input sources/posthoc_egnn_metrics.csv",
+      "passed": true
+    },
+    {
+      "name": "catalysis figure figures/Figure_C4_Unaccepted_Paths_chinese.png",
+      "passed": true
+    },
+    {
+      "name": "catalysis plotted input sources/posthoc_proton_wire.csv",
+      "passed": true
+    },
+    {
+      "name": "catalysis figure figures/Figure_C4_Unaccepted_Paths_chinese.svg",
+      "passed": true
+    },
+    {
+      "name": "catalysis plotted input sources/posthoc_proton_wire.csv",
+      "passed": true
+    },
+    {
+      "name": "catalysis figure figures/Figure_C5_Molecular_Preflight_chinese.png",
+      "passed": true
+    },
+    {
+      "name": "catalysis plotted input sources/C20_excerpt.json",
+      "passed": true
+    },
+    {
+      "name": "catalysis plotted input sources/C21_excerpt.json",
+      "passed": true
+    },
+    {
+      "name": "catalysis plotted input sources/C23_excerpt.json",
+      "passed": true
+    },
+    {
+      "name": "catalysis figure figures/Figure_C5_Molecular_Preflight_chinese.svg",
+      "passed": true
+    },
+    {
+      "name": "catalysis plotted input sources/C20_excerpt.json",
+      "passed": true
+    },
+    {
+      "name": "catalysis plotted input sources/C21_excerpt.json",
+      "passed": true
+    },
+    {
+      "name": "catalysis plotted input sources/C23_excerpt.json",
+      "passed": true
+    },
+    {
+      "name": "assembly input manuscript\\manuscript_english.md",
+      "passed": true
+    },
+    {
+      "name": "assembly input manuscript\\expanded\\scope_english.md",
+      "passed": true
+    },
+    {
+      "name": "assembly input manuscript\\history\\learning\\section_english.md",
+      "passed": true
+    },
+    {
+      "name": "assembly input manuscript\\history\\catalysis\\section_english.md",
+      "passed": true
+    },
+    {
+      "name": "assembly input manuscript\\history\\pharmacology\\section_english.md",
+      "passed": true
+    },
+    {
+      "name": "assembly input manuscript\\expanded\\multiscale_english.md",
+      "passed": true
+    },
+    {
+      "name": "assembly input manuscript\\expanded\\synthesis_english.md",
+      "passed": true
+    },
+    {
+      "name": "assembly input manuscript\\manuscript_chinese.md",
+      "passed": true
+    },
+    {
+      "name": "assembly input manuscript\\expanded\\scope_chinese.md",
+      "passed": true
+    },
+    {
+      "name": "assembly input manuscript\\history\\learning\\section_chinese.md",
+      "passed": true
+    },
+    {
+      "name": "assembly input manuscript\\history\\catalysis\\section_chinese.md",
+      "passed": true
+    },
+    {
+      "name": "assembly input manuscript\\history\\pharmacology\\section_chinese.md",
+      "passed": true
+    },
+    {
+      "name": "assembly input manuscript\\expanded\\multiscale_chinese.md",
+      "passed": true
+    },
+    {
+      "name": "assembly input manuscript\\expanded\\synthesis_chinese.md",
+      "passed": true
+    },
+    {
+      "name": "assembly script",
+      "passed": true
+    },
+    {
+      "name": "assembled manuscript manuscript_english",
+      "passed": true
+    },
+    {
+      "name": "no unfinished placeholders manuscript_english",
+      "passed": true
+    },
+    {
+      "name": "substantial source-linked figures manuscript_english",
+      "passed": true
+    },
+    {
+      "name": "substantial tables manuscript_english",
+      "passed": true
+    },
+    {
+      "name": "authorship manuscript_english",
+      "passed": true
+    },
+    {
+      "name": "assembled manuscript manuscript_chinese",
+      "passed": true
+    },
+    {
+      "name": "no unfinished placeholders manuscript_chinese",
+      "passed": true
+    },
+    {
+      "name": "substantial source-linked figures manuscript_chinese",
+      "passed": true
+    },
+    {
+      "name": "substantial tables manuscript_chinese",
+      "passed": true
+    },
+    {
+      "name": "authorship manuscript_chinese",
+      "passed": true
+    },
+    {
+      "name": "bilingual figure/table inventory",
+      "passed": true
+    },
+    {
+      "name": "bilingual table numeric tokens",
+      "passed": true
+    },
+    {
+      "name": "numeric parity source english",
+      "passed": true
+    },
+    {
+      "name": "numeric parity source chinese",
+      "passed": true
+    },
+    {
+      "name": "verified references and bilingual citation parity",
+      "passed": true
+    },
+    {
+      "name": "document machine checks",
+      "passed": true
+    },
+    {
+      "name": "visual review record visual_learning.json",
+      "passed": true
+    },
+    {
+      "name": "visual review record visual_catalysis.json",
+      "passed": true
+    },
+    {
+      "name": "visual review record visual_root.json",
+      "passed": true
+    },
+    {
+      "name": "visual review record visual_pharmacology.json",
+      "passed": true
+    },
+    {
+      "name": "visual review record visual_repair.json",
+      "passed": true
+    },
+    {
+      "name": "visual review record document_qa_before_kinetics_legend_repair.json",
+      "passed": true
+    },
+    {
+      "name": "visual repair changed-page identity manuscript_english",
+      "passed": true
+    },
+    {
+      "name": "visual repair final PDF manuscript_english",
+      "passed": true
+    },
+    {
+      "name": "visual repair checked all changes manuscript_english",
+      "passed": true
+    },
+    {
+      "name": "visual repair changed-page identity manuscript_chinese",
+      "passed": true
+    },
+    {
+      "name": "visual repair final PDF manuscript_chinese",
+      "passed": true
+    },
+    {
+      "name": "visual repair checked all changes manuscript_chinese",
+      "passed": true
+    },
+    {
+      "name": "30 pages before references manuscript_english",
+      "passed": true
+    },
+    {
+      "name": "final manuscript_english.docx",
+      "passed": true
+    },
+    {
+      "name": "final manuscript_english.pdf",
+      "passed": true
+    },
+    {
+      "name": "all pages visually reviewed manuscript_english",
+      "passed": true
+    },
+    {
+      "name": "visual review matches PDF manuscript_english",
+      "passed": true
+    },
+    {
+      "name": "no unresolved layout defects manuscript_english",
+      "passed": true
+    },
+    {
+      "name": "30 pages before references manuscript_chinese",
+      "passed": true
+    },
+    {
+      "name": "final manuscript_chinese.docx",
+      "passed": true
+    },
+    {
+      "name": "final manuscript_chinese.pdf",
+      "passed": true
+    },
+    {
+      "name": "all pages visually reviewed manuscript_chinese",
+      "passed": true
+    },
+    {
+      "name": "visual review matches PDF manuscript_chinese",
+      "passed": true
+    },
+    {
+      "name": "no unresolved layout defects manuscript_chinese",
+      "passed": true
+    }
+  ]
+}

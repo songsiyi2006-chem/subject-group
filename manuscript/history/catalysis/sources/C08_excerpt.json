@@ -1,0 +1,30 @@
+{
+  "source": {
+    "source_id": "C08",
+    "repository": "https://github.com/songsiyi2006-chem/pincer-catmech-ai",
+    "commit": "2edffb123791bd61acbfdeff763f603ee50c2287",
+    "path": "data/phase3/egnn/dataset_manifest.json",
+    "sha256": "80e45275bd6119e24995bfe292f555985eda8caad49e4b04b7a95da829ed1098",
+    "bytes": 1791,
+    "git_blob_sha1": "cf56d77f7c13735aa06d2ae64600a73b0ddf29ec",
+    "url": "https://github.com/songsiyi2006-chem/pincer-catmech-ai/blob/2edffb123791bd61acbfdeff763f603ee50c2287/data/phase3/egnn/dataset_manifest.json"
+  },
+  "selected_values": {
+    "/eligible_structures": 610,
+    "/rejected_records": 202,
+    "/auxiliary_pairs": 540,
+    "/composition_groups": 70,
+    "/reference_policy": "Deterministic lowest original conformer index; self-pairs excluded; no energy-based baseline selection",
+    "/scientific_scope": "Converged electronic optimizations, not Hessian-certified minima; pairwise auxiliary energies only",
+    "/unsupported_targets": {
+      "activation_barrier_ev": "Zero validated TS activation-free-energy labels in Phase2",
+      "mecp_gap_ev": "GFN2 energies do not discriminate spin; new independent spin-gap labels required"
+    },
+    "/dataset_files_sha256": {
+      "structures.jsonl": "233949195fe64f6919967afd1d92866a64d6260d0cb066e5b4d78a1f4de099d6",
+      "pairs.jsonl": "5290f8f9930bb92c304548c5d0b026e3bffad869d3af3b602563ac894cb9bc92",
+      "rejected_sources.json": "4bc2af02112f9a46936ea3067a870394f6f7eecef6ae85e214eca5c164788321",
+      "reference_selection.json": "ec32822b63ddd93b95054df40e07691d68d4562eadcdbb171e775ffabf04566b"
+    }
+  }
+}

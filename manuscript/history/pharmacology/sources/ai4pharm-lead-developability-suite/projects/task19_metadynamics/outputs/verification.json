@@ -1,0 +1,7 @@
+{
+  "structure_identity_checked": true,
+  "ligand_present": true,
+  "no_cooperativity_overclaim": true,
+  "scientific_acceptance": "PMF/cooperativity/productive-geometry gates not passed",
+  "atomistic_engine_passed": true
+}

@@ -1,0 +1,276 @@
+{
+  "source": {
+    "source_id": "C20",
+    "repository": "https://github.com/songsiyi2006-chem/pincer-catmech-ai",
+    "commit": "2edffb123791bd61acbfdeff763f603ee50c2287",
+    "path": "projects/cu-np-electroreduction/results/pilot_summary.json",
+    "sha256": "35b8e36f917506b391dc6e7c2dd9d869bb74abcaedfebf478bf5a28dd0464918",
+    "bytes": 11165,
+    "git_blob_sha1": "18cebe6d895c7ba04be78bb25dab9a509efe7af7",
+    "url": "https://github.com/songsiyi2006-chem/pincer-catmech-ai/blob/2edffb123791bd61acbfdeff763f603ee50c2287/projects/cu-np-electroreduction/results/pilot_summary.json"
+  },
+  "selected_values": {
+    "/scope": "molecular fixed-charge preflight; not Cu-site reproduction, no kinetics or electrochemical potential",
+    "/native_calls": 20,
+    "/completed_native_calls": 20,
+    "/initial_minimum_rejected": true,
+    "/fixed_geometry_charging_energies": [
+      {
+        "gfn": 1,
+        "solvent": "gas",
+        "delta_E_qminus1_minus_q0_eV": -5.427561072162644,
+        "calculation_ids": [
+          "R003-gfn1-gas-q-1",
+          "R002-gfn1-gas-q0"
+        ],
+        "label": "EXECUTED RESULT"
+      },
+      {
+        "gfn": 1,
+        "solvent": "dmf",
+        "delta_E_qminus1_minus_q0_eV": -7.1166821388391694,
+        "calculation_ids": [
+          "R005-gfn1-dmf-q-1",
+          "R004-gfn1-dmf-q0"
+        ],
+        "label": "EXECUTED RESULT"
+      },
+      {
+        "gfn": 2,
+        "solvent": "gas",
+        "delta_E_qminus1_minus_q0_eV": -4.645913172163479,
+        "calculation_ids": [
+          "R007-gfn2-gas-q-1",
+          "R006-gfn2-gas-q0"
+        ],
+        "label": "EXECUTED RESULT"
+      },
+      {
+        "gfn": 2,
+        "solvent": "dmf",
+        "delta_E_qminus1_minus_q0_eV": -6.284702372413941,
+        "calculation_ids": [
+          "R009-gfn2-dmf-q-1",
+          "R008-gfn2-dmf-q0"
+        ],
+        "label": "EXECUTED RESULT"
+      }
+    ],
+    "/hamiltonian_spread_eV": {
+      "gas": 0.7816478999991645,
+      "dmf": 0.8319797664252286
+    },
+    "/predeclared_spread_threshold_eV": 0.2,
+    "/method_sensitivity_stop": true,
+    "/interpretation": "These are E(anion)-E(neutral) with the same nuclei. ALPB uses equilibrium implicit solvent polarization. This is NOT a nonequilibrium vertical electron affinity, electrode potential, ET barrier, free energy, selectivity, or Cu mechanism. No electron chemical potential/reference calibration is supplied.",
+    "/rows/0/id": "P000-neutral-gfn2-gas-opt",
+    "/rows/0/settings": {
+      "gfn": 2,
+      "charge": 0,
+      "unpaired": 0,
+      "solvent": "gas",
+      "task": "opt"
+    },
+    "/rows/0/energy_hartree": -33.288927637404,
+    "/rows/0/status": "completed",
+    "/rows/1/id": "P001-gfn1-gas-q0",
+    "/rows/1/settings": {
+      "gfn": 1,
+      "charge": 0,
+      "unpaired": 0,
+      "solvent": "gas",
+      "task": "sp"
+    },
+    "/rows/1/energy_hartree": -34.421131055134,
+    "/rows/1/status": "completed",
+    "/rows/2/id": "P002-gfn1-gas-q-1",
+    "/rows/2/settings": {
+      "gfn": 1,
+      "charge": -1,
+      "unpaired": 1,
+      "solvent": "gas",
+      "task": "sp"
+    },
+    "/rows/2/energy_hartree": -34.619979023004,
+    "/rows/2/status": "completed",
+    "/rows/3/id": "P003-gfn1-dmf-q0",
+    "/rows/3/settings": {
+      "gfn": 1,
+      "charge": 0,
+      "unpaired": 0,
+      "solvent": "dmf",
+      "task": "sp"
+    },
+    "/rows/3/energy_hartree": -34.440090133752,
+    "/rows/3/status": "completed",
+    "/rows/4/id": "P004-gfn1-dmf-q-1",
+    "/rows/4/settings": {
+      "gfn": 1,
+      "charge": -1,
+      "unpaired": 1,
+      "solvent": "dmf",
+      "task": "sp"
+    },
+    "/rows/4/energy_hartree": -34.701201152434,
+    "/rows/4/status": "completed",
+    "/rows/5/id": "P005-gfn2-gas-q0",
+    "/rows/5/settings": {
+      "gfn": 2,
+      "charge": 0,
+      "unpaired": 0,
+      "solvent": "gas",
+      "task": "sp"
+    },
+    "/rows/5/energy_hartree": -33.288927637395,
+    "/rows/5/status": "completed",
+    "/rows/6/id": "P006-gfn2-gas-q-1",
+    "/rows/6/settings": {
+      "gfn": 2,
+      "charge": -1,
+      "unpaired": 1,
+      "solvent": "gas",
+      "task": "sp"
+    },
+    "/rows/6/energy_hartree": -33.458904697136,
+    "/rows/6/status": "completed",
+    "/rows/7/id": "P007-gfn2-dmf-q0",
+    "/rows/7/settings": {
+      "gfn": 2,
+      "charge": 0,
+      "unpaired": 0,
+      "solvent": "dmf",
+      "task": "sp"
+    },
+    "/rows/7/energy_hartree": -33.307692478877,
+    "/rows/7/status": "completed",
+    "/rows/8/id": "P008-gfn2-dmf-q-1",
+    "/rows/8/settings": {
+      "gfn": 2,
+      "charge": -1,
+      "unpaired": 1,
+      "solvent": "dmf",
+      "task": "sp"
+    },
+    "/rows/8/energy_hartree": -33.538102582926,
+    "/rows/8/status": "completed",
+    "/rows/9/id": "P009-neutral-gfn2-gas-hess",
+    "/rows/9/settings": {
+      "gfn": 2,
+      "charge": 0,
+      "unpaired": 0,
+      "solvent": "gas",
+      "task": "hess"
+    },
+    "/rows/9/energy_hartree": -33.288927637404,
+    "/rows/9/status": "completed",
+    "/rows/9/frequency_count": 60,
+    "/rows/9/minimum_vibrational_frequency_cm1": -50.49,
+    "/rows/9/significant_imaginary_modes": 1,
+    "/rows/9/minimum_accepted": false,
+    "/rows/10/id": "R000-rotor-reopt",
+    "/rows/10/settings": {
+      "gfn": 2,
+      "charge": 0,
+      "unpaired": 0,
+      "solvent": "gas",
+      "task": "opt",
+      "optimization": "verytight"
+    },
+    "/rows/10/energy_hartree": -33.289389145391,
+    "/rows/10/status": "completed",
+    "/rows/11/id": "R001-rotor-hess",
+    "/rows/11/settings": {
+      "gfn": 2,
+      "charge": 0,
+      "unpaired": 0,
+      "solvent": "gas",
+      "task": "hess"
+    },
+    "/rows/11/energy_hartree": -33.28938914539,
+    "/rows/11/status": "completed",
+    "/rows/11/frequency_count": 60,
+    "/rows/11/minimum_vibrational_frequency_cm1": 78.64,
+    "/rows/11/significant_imaginary_modes": 0,
+    "/rows/11/minimum_accepted": true,
+    "/rows/12/id": "R002-gfn1-gas-q0",
+    "/rows/12/settings": {
+      "gfn": 1,
+      "charge": 0,
+      "unpaired": 0,
+      "solvent": "gas",
+      "task": "sp"
+    },
+    "/rows/12/energy_hartree": -34.421110219996,
+    "/rows/12/status": "completed",
+    "/rows/13/id": "R003-gfn1-gas-q-1",
+    "/rows/13/settings": {
+      "gfn": 1,
+      "charge": -1,
+      "unpaired": 1,
+      "solvent": "gas",
+      "task": "sp"
+    },
+    "/rows/13/energy_hartree": -34.620569410465,
+    "/rows/13/status": "completed",
+    "/rows/14/id": "R004-gfn1-dmf-q0",
+    "/rows/14/settings": {
+      "gfn": 1,
+      "charge": 0,
+      "unpaired": 0,
+      "solvent": "dmf",
+      "task": "sp"
+    },
+    "/rows/14/energy_hartree": -34.440001596247,
+    "/rows/14/status": "completed",
+    "/rows/15/id": "R005-gfn1-dmf-q-1",
+    "/rows/15/settings": {
+      "gfn": 1,
+      "charge": -1,
+      "unpaired": 1,
+      "solvent": "dmf",
+      "task": "sp"
+    },
+    "/rows/15/energy_hartree": -34.701534840989,
+    "/rows/15/status": "completed",
+    "/rows/16/id": "R006-gfn2-gas-q0",
+    "/rows/16/settings": {
+      "gfn": 2,
+      "charge": 0,
+      "unpaired": 0,
+      "solvent": "gas",
+      "task": "sp"
+    },
+    "/rows/16/energy_hartree": -33.289389145382,
+    "/rows/16/status": "completed",
+    "/rows/17/id": "R007-gfn2-gas-q-1",
+    "/rows/17/settings": {
+      "gfn": 2,
+      "charge": -1,
+      "unpaired": 1,
+      "solvent": "gas",
+      "task": "sp"
+    },
+    "/rows/17/energy_hartree": -33.460123305346,
+    "/rows/17/status": "completed",
+    "/rows/18/id": "R008-gfn2-dmf-q0",
+    "/rows/18/settings": {
+      "gfn": 2,
+      "charge": 0,
+      "unpaired": 0,
+      "solvent": "dmf",
+      "task": "sp"
+    },
+    "/rows/18/energy_hartree": -33.30814702704,
+    "/rows/18/status": "completed",
+    "/rows/19/id": "R009-gfn2-dmf-q-1",
+    "/rows/19/settings": {
+      "gfn": 2,
+      "charge": -1,
+      "unpaired": 1,
+      "solvent": "dmf",
+      "task": "sp"
+    },
+    "/rows/19/energy_hartree": -33.539105579302,
+    "/rows/19/status": "completed"
+  }
+}

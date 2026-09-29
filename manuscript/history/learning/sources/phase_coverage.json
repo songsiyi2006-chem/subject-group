@@ -1,0 +1,319 @@
+[
+  {
+    "phase": 1,
+    "topic": "conformer screening",
+    "evidence_type": "executed_forcefield",
+    "boundary": "Scoped checks pass; one original parse failure and one UFF substitution; untrained graph smoke is not predictive accuracy.",
+    "source_artifact_id": "complex_PHASE1_19_CLOSEOUT.md",
+    "matching_text_lines": [
+      1,
+      41,
+      42
+    ],
+    "inspection_scope": "Latest scoped status and selected outputs; not exhaustive all historical file validation"
+  },
+  {
+    "phase": 2,
+    "topic": "torsion and dynamics",
+    "evidence_type": "executed_forcefield",
+    "boundary": "Scoped checks pass with force-field/charge substitutions.",
+    "source_artifact_id": "complex_PHASE1_19_CLOSEOUT.md",
+    "matching_text_lines": [],
+    "inspection_scope": "Latest scoped status and selected outputs; not exhaustive all historical file validation"
+  },
+  {
+    "phase": 3,
+    "topic": "KRAS complex",
+    "evidence_type": "incomplete",
+    "boundary": "Complete MD and MM-GBSA acceptance pending; incomplete historical frames not production evidence.",
+    "source_artifact_id": "complex_PHASE1_19_CLOSEOUT.md",
+    "matching_text_lines": [
+      42,
+      49,
+      50,
+      55
+    ],
+    "inspection_scope": "Latest scoped status and selected outputs; not exhaustive all historical file validation"
+  },
+  {
+    "phase": 4,
+    "topic": "reaction path",
+    "evidence_type": "partial_quantum",
+    "boundary": "Independent saddle refinement passes stationarity and one imaginary-mode checks; original NEB not converged and IRC connectivity not verified.",
+    "source_artifact_id": "complex_PHASE1_19_CLOSEOUT.md",
+    "matching_text_lines": [
+      42
+    ],
+    "inspection_scope": "Latest scoped status and selected outputs; not exhaustive all historical file validation"
+  },
+  {
+    "phase": 5,
+    "topic": "reaction network",
+    "evidence_type": "failed_acceptance",
+    "boundary": "Multiple imaginary modes invalidate TS; near-zero yield retained.",
+    "source_artifact_id": "complex_PHASE1_19_CLOSEOUT.md",
+    "matching_text_lines": [],
+    "inspection_scope": "Latest scoped status and selected outputs; not exhaustive all historical file validation"
+  },
+  {
+    "phase": 6,
+    "topic": "explicit-solvent enhanced sampling",
+    "evidence_type": "incomplete_sampling",
+    "boundary": "Trajectory completed but product undersampled; no accepted free-energy barrier.",
+    "source_artifact_id": "complex_PHASE1_19_CLOSEOUT.md",
+    "matching_text_lines": [],
+    "inspection_scope": "Latest scoped status and selected outputs; not exhaustive all historical file validation"
+  },
+  {
+    "phase": 7,
+    "topic": "strong correlation",
+    "evidence_type": "incomplete",
+    "boundary": "Unified-basis complete-point review pending; fallback results separated.",
+    "source_artifact_id": "complex_PHASE1_19_CLOSEOUT.md",
+    "matching_text_lines": [
+      48
+    ],
+    "inspection_scope": "Latest scoped status and selected outputs; not exhaustive all historical file validation"
+  },
+  {
+    "phase": 8,
+    "topic": "photochemistry",
+    "evidence_type": "incomplete",
+    "boundary": "Full QC, dynamics and NTO acceptance pending.",
+    "source_artifact_id": "complex_PHASE1_19_CLOSEOUT.md",
+    "matching_text_lines": [
+      42
+    ],
+    "inspection_scope": "Latest scoped status and selected outputs; not exhaustive all historical file validation"
+  },
+  {
+    "phase": 9,
+    "topic": "self-driving protocol",
+    "evidence_type": "simulation",
+    "boundary": "Protocol simulation, not physical robot execution.",
+    "source_artifact_id": "complex_PHASE1_19_CLOSEOUT.md",
+    "matching_text_lines": [],
+    "inspection_scope": "Latest scoped status and selected outputs; not exhaustive all historical file validation"
+  },
+  {
+    "phase": 10,
+    "topic": "flow twin",
+    "evidence_type": "model",
+    "boundary": "Control-model execution, not validated hardware.",
+    "source_artifact_id": "complex_PHASE1_19_CLOSEOUT.md",
+    "matching_text_lines": [],
+    "inspection_scope": "Latest scoped status and selected outputs; not exhaustive all historical file validation"
+  },
+  {
+    "phase": 11,
+    "topic": "neural wavefunction",
+    "evidence_type": "executed_vmc",
+    "boundary": "Five-system fresh run complete; He point gate fails; actual trained-network cusp unverified; weights absent.",
+    "source_artifact_id": "phase11_acceptance.json",
+    "matching_text_lines": [
+      6
+    ],
+    "inspection_scope": "Latest scoped status and selected outputs; not exhaustive all historical file validation"
+  },
+  {
+    "phase": 12,
+    "topic": "law discovery",
+    "evidence_type": "incomplete",
+    "boundary": "Checkpoint repair does not establish completion of full training.",
+    "source_artifact_id": "complex_PHASE1_19_CLOSEOUT.md",
+    "matching_text_lines": [],
+    "inspection_scope": "Latest scoped status and selected outputs; not exhaustive all historical file validation"
+  },
+  {
+    "phase": 13,
+    "topic": "metalloenzyme PCET",
+    "evidence_type": "incomplete",
+    "boundary": "Full scientific computation pending acceptance.",
+    "source_artifact_id": "complex_PHASE1_19_CLOSEOUT.md",
+    "matching_text_lines": [],
+    "inspection_scope": "Latest scoped status and selected outputs; not exhaustive all historical file validation"
+  },
+  {
+    "phase": 14,
+    "topic": "condensates",
+    "evidence_type": "historical_snapshot",
+    "boundary": "Historical running state is not a live process or complete scientific acceptance.",
+    "source_artifact_id": "complex_PHASE1_19_CLOSEOUT.md",
+    "matching_text_lines": [],
+    "inspection_scope": "Latest scoped status and selected outputs; not exhaustive all historical file validation"
+  },
+  {
+    "phase": 15,
+    "topic": "spin/allostery",
+    "evidence_type": "incomplete",
+    "boundary": "Full production and window statistics pending acceptance.",
+    "source_artifact_id": "complex_PHASE1_19_CLOSEOUT.md",
+    "matching_text_lines": [],
+    "inspection_scope": "Latest scoped status and selected outputs; not exhaustive all historical file validation"
+  },
+  {
+    "phase": 16,
+    "topic": "NPC transport",
+    "evidence_type": "historical_snapshot",
+    "boundary": "Historical running snapshot; module acceptance pending.",
+    "source_artifact_id": "complex_PHASE1_19_CLOSEOUT.md",
+    "matching_text_lines": [],
+    "inspection_scope": "Latest scoped status and selected outputs; not exhaustive all historical file validation"
+  },
+  {
+    "phase": 17,
+    "topic": "relativistic quantum",
+    "evidence_type": "bounded_model",
+    "boundary": "Specified atomic/finite-basis checks; not a full actinide complex validation.",
+    "source_artifact_id": "complex_PHASE1_19_CLOSEOUT.md",
+    "matching_text_lines": [],
+    "inspection_scope": "Latest scoped status and selected outputs; not exhaustive all historical file validation"
+  },
+  {
+    "phase": 18,
+    "topic": "cell metabolism",
+    "evidence_type": "numerical_model",
+    "boundary": "Specified numerical checks, not experimental whole-cell validation.",
+    "source_artifact_id": "complex_PHASE1_19_CLOSEOUT.md",
+    "matching_text_lines": [],
+    "inspection_scope": "Latest scoped status and selected outputs; not exhaustive all historical file validation"
+  },
+  {
+    "phase": 19,
+    "topic": "enzyme geometry",
+    "evidence_type": "bounded_model",
+    "boundary": "Geometry tests and repairs, not complete enzyme evolution validation.",
+    "source_artifact_id": "complex_PHASE1_19_CLOSEOUT.md",
+    "matching_text_lines": [
+      42
+    ],
+    "inspection_scope": "Latest scoped status and selected outputs; not exhaustive all historical file validation"
+  },
+  {
+    "phase": 20,
+    "topic": "CISS transport",
+    "evidence_type": "effective_model",
+    "boundary": "Effective transport with assumed OER and analysis responses.",
+    "source_artifact_id": "complex_PHASE_INDEX.md",
+    "matching_text_lines": [
+      54
+    ],
+    "inspection_scope": "Latest scoped status and selected outputs; not exhaustive all historical file validation"
+  },
+  {
+    "phase": 21,
+    "topic": "cavity QED",
+    "evidence_type": "effective_model",
+    "boundary": "Harmonic Pauli-Fierz model; optical splitting does not prove catalysis.",
+    "source_artifact_id": "complex_PHASE_INDEX.md",
+    "matching_text_lines": [
+      55
+    ],
+    "inspection_scope": "Latest scoped status and selected outputs; not exhaustive all historical file validation"
+  },
+  {
+    "phase": 22,
+    "topic": "molecular spin qubits",
+    "evidence_type": "effective_model",
+    "boundary": "Specified spin model and synthetic bath, not measurement.",
+    "source_artifact_id": "complex_PHASE_INDEX.md",
+    "matching_text_lines": [
+      56
+    ],
+    "inspection_scope": "Latest scoped status and selected outputs; not exhaustive all historical file validation"
+  },
+  {
+    "phase": 23,
+    "topic": "molecular reservoir",
+    "evidence_type": "failed_target",
+    "boundary": "Effective circuit model; original performance target not reached.",
+    "source_artifact_id": "complex_PHASE_INDEX.md",
+    "matching_text_lines": [
+      57
+    ],
+    "inspection_scope": "Latest scoped status and selected outputs; not exhaustive all historical file validation"
+  },
+  {
+    "phase": 24,
+    "topic": "HTE learning",
+    "evidence_type": "synthetic_response",
+    "boundary": "312 simulated measurements, zero new chemical experiments or hardware execution.",
+    "source_artifact_id": "phase24_metrics.json",
+    "matching_text_lines": [],
+    "inspection_scope": "Latest scoped status and selected outputs; not exhaustive all historical file validation"
+  },
+  {
+    "phase": 25,
+    "topic": "asymmetric catalysis",
+    "evidence_type": "partial_quantum",
+    "boundary": "Preliminary minima/isolated-imine DFT; selectivity undetermined, no accepted DFT TS/IRC.",
+    "source_artifact_id": "phase25_27_acceptance.json",
+    "matching_text_lines": [
+      131
+    ],
+    "inspection_scope": "Latest scoped status and selected outputs; not exhaustive all historical file validation"
+  },
+  {
+    "phase": 26,
+    "topic": "constant-potential interface",
+    "evidence_type": "design",
+    "boundary": "48 conditions and 3 dry slabs, zero complete solvated interfaces.",
+    "source_artifact_id": "phase25_27_acceptance.json",
+    "matching_text_lines": [
+      132
+    ],
+    "inspection_scope": "Latest scoped status and selected outputs; not exhaustive all historical file validation"
+  },
+  {
+    "phase": 27,
+    "topic": "Ni photodynamics",
+    "evidence_type": "design",
+    "boundary": "Literature coordinates and protocol; zero new nonadiabatic trajectories.",
+    "source_artifact_id": "phase25_27_acceptance.json",
+    "matching_text_lines": [
+      133
+    ],
+    "inspection_scope": "Latest scoped status and selected outputs; not exhaustive all historical file validation"
+  },
+  {
+    "phase": 28,
+    "topic": "organoelectrocatalysis",
+    "evidence_type": "published_data_and_scenarios",
+    "boundary": "Real published-data reanalysis kept separate from synthetic lifetime/mechanism scenarios.",
+    "source_artifact_id": "complex_PHASE_INDEX.md",
+    "matching_text_lines": [
+      5,
+      74
+    ],
+    "inspection_scope": "Latest scoped status and selected outputs; not exhaustive all historical file validation"
+  },
+  {
+    "phase": 29,
+    "topic": "pyridine site control",
+    "evidence_type": "executed_quantum_and_scenarios",
+    "boundary": "Actual molecular xTB/DFT; warnings and reference limits retained; no demonstrated same-pair switch.",
+    "source_artifact_id": "phase29_acceptance.json",
+    "matching_text_lines": [
+      8
+    ],
+    "inspection_scope": "Latest scoped status and selected outputs; not exhaustive all historical file validation"
+  },
+  {
+    "phase": 30,
+    "topic": "CO2RR twin",
+    "evidence_type": "uncalibrated_scenario",
+    "boundary": "Numerical conservation checks pass; no DFT/AIMD, 3D CFD, operando or industrial validation.",
+    "source_artifact_id": "phase30_acceptance.json",
+    "matching_text_lines": [],
+    "inspection_scope": "Latest scoped status and selected outputs; not exhaustive all historical file validation"
+  },
+  {
+    "phase": 31,
+    "topic": "macrocycle pipeline",
+    "evidence_type": "bounded_forcefield",
+    "boundary": "18 MMFF convergences; QM/MM and FEP blocked; zero accepted candidates, zero actual provider tokens.",
+    "source_artifact_id": "phase31_status.json",
+    "matching_text_lines": [],
+    "inspection_scope": "Latest scoped status and selected outputs; not exhaustive all historical file validation"
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "source": {
+    "source_id": "C01",
+    "repository": "https://github.com/songsiyi2006-chem/pincer-catmech-ai",
+    "commit": "2edffb123791bd61acbfdeff763f603ee50c2287",
+    "path": "data/phase3/PHASE3_STATUS.json",
+    "sha256": "cd486e7c05663effbf8b0c5b7abbc41709dfdcb8817419b31cb8418bb35d117f",
+    "bytes": 1076764,
+    "git_blob_sha1": "dd0db43ce27294dae4bf5e6c5cf44f13bfa47f57",
+    "url": "https://github.com/songsiyi2006-chem/pincer-catmech-ai/blob/2edffb123791bd61acbfdeff763f603ee50c2287/data/phase3/PHASE3_STATUS.json"
+  },
+  "selected_values": {
+    "/scientific_status": "measured_partial_results_with_explicit_missing_chemical_targets",
+    "/design_count": 24,
+    "/temperature_base_grid_per_design": 40,
+    "/readiness_rows": 960,
+    "/accepted_physical_18_step_kinetic_predictions": 0,
+    "/conditions": {
+      "solvent": "toluene",
+      "implicit_model_for_xtb": "ALPB gsolv",
+      "baseline_temperature_K": 383.15,
+      "total_added_tBuOK_equiv": 0.05,
+      "total_base_scan_equiv": [
+        0.01,
+        0.025,
+        0.05,
+        0.1,
+        0.2
+      ],
+      "free_anion_activity_is_total_base": false,
+      "tbuoh_activity_measured": false
+    },
+    "/interpretation": "Verified code and real electronic/thermochemical attempts do not establish a complete catalytic mechanism or journal-level validation."
+  }
+}

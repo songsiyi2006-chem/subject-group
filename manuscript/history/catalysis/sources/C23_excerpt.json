@@ -1,0 +1,18 @@
+{
+  "source": {
+    "source_id": "C23",
+    "repository": "https://github.com/songsiyi2006-chem/pincer-catmech-ai",
+    "commit": "2edffb123791bd61acbfdeff763f603ee50c2287",
+    "path": "projects/cu-np-operando/data/dft_pilot/memory_preflight_rejection.json",
+    "sha256": "1a92c39716ed414d396e8483cd23b3507393c2539b29e39c08ab608ccef751da",
+    "bytes": 605,
+    "git_blob_sha1": "64d3aeea04553463591f102c70dd68bb50d17f32",
+    "url": "https://github.com/songsiyi2006-chem/pincer-catmech-ai/blob/2edffb123791bd61acbfdeff763f603ee50c2287/projects/cu-np-operando/data/dft_pilot/memory_preflight_rejection.json"
+  },
+  "selected_values": {
+    "/requested_job": "DFT002-pbe0-anion",
+    "/status": "resource_preflight_not_launched",
+    "/native_psi4_process_launched": false,
+    "/reason": "Available memory was below twice the 1 GiB sampled RSS cap"
+  }
+}

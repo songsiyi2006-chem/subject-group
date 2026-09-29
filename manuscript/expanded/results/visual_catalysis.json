@@ -1,0 +1,262 @@
+{
+  "document": "manuscript_english",
+  "pdf": "documents/manuscript_english.pdf",
+  "render_version": "v3",
+  "pdf_sha256": "6576c564dd8fa4bb1074bd66985b3d429ee3b95a0258fab5b98348b8c0252df2",
+  "pdf_sha256_verified_against_document_qa": true,
+  "document_qa_basis": "expanded-document-qa-v3.json archived before final re-export",
+  "pages_reviewed": [
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52
+  ],
+  "page_notes": [
+    {
+      "page": 27,
+      "image_file": "page-027.png",
+      "image_sha256": "7ee99e50e28c774a8b34d5bda5bced1a374a5ceee74cb5582ef2d0a4a27f08e6",
+      "matches_v3_document_qa": true,
+      "status": "pass",
+      "notes": "Section 5.5 and Table 14 are readable and intact. Lower whitespace accommodates the following figure; no orphaned caption."
+    },
+    {
+      "page": 28,
+      "image_file": "page-028.png",
+      "image_sha256": "72072e9fd55cb1dd59e803e48c134cdf18719ae2f1f4780bbf420622caae05c5",
+      "matches_v3_document_qa": true,
+      "status": "pass",
+      "notes": "Figure 15, its caption, and Table 15 remain together and readable; symmetry notation and gradient units display correctly."
+    },
+    {
+      "page": 29,
+      "image_file": "page-029.png",
+      "image_sha256": "0f4f04d6c6be6c1e78412bba610fcfd9d775a08f191aad18f8d74c6d5f62f3a9",
+      "matches_v3_document_qa": true,
+      "status": "pass",
+      "notes": "Figure 16 panels, axes, frequency units and caption are readable; no-Cu label is visible with no clipping."
+    },
+    {
+      "page": 30,
+      "image_file": "page-030.png",
+      "image_sha256": "04c22431223c018b45247a260d5185a33edb22b2c6f24559be25853c81cd8a00",
+      "matches_v3_document_qa": true,
+      "status": "pass",
+      "notes": "Table 16 is complete. Reproduction commands wrap within margins; section transition is clear."
+    },
+    {
+      "page": 31,
+      "image_file": "page-031.png",
+      "image_sha256": "c4144e61fdf1310dccdd367ebc2801d0d9a2d6ced6a1964e98a7be2950eab83f",
+      "matches_v3_document_qa": true,
+      "status": "pass",
+      "notes": "Table 17 fits the page with all six columns legible. Paragraphs and citations do not overlap."
+    },
+    {
+      "page": 32,
+      "image_file": "page-032.png",
+      "image_sha256": "afab85c9939877d6019ec1fd87abb66ef0b36500bb80486802f8f6cf2b06e3af",
+      "matches_v3_document_qa": true,
+      "status": "pass",
+      "notes": "Figure 17 is readable; Table 18 and caption remain together. Revised 12.688680% value is visible."
+    },
+    {
+      "page": 33,
+      "image_file": "page-033.png",
+      "image_sha256": "0ecb37c9ff13d77b10568d74c9614af95110eee43c487d2dd203c4e9a4c5d08e",
+      "matches_v3_document_qa": true,
+      "status": "pass",
+      "notes": "Table 19 and Figure 18 are intact. Curves, geometric-distance axes, caption and inline kinetic notation are readable."
+    },
+    {
+      "page": 34,
+      "image_file": "page-034.png",
+      "image_sha256": "31a8b9453de48008a9ae74052c41057c24c4036083bee9874cf277f1bb59cb18",
+      "matches_v3_document_qa": true,
+      "status": "pass",
+      "notes": "Table 20 is complete. Figure 19 legend is in the lower-left empty region and does not cover data points; caption matches both panels."
+    },
+    {
+      "page": 35,
+      "image_file": "page-035.png",
+      "image_sha256": "79826134c6b470b75827514df456ed5673b4dea456c0886a64f3ca27af40a23c",
+      "matches_v3_document_qa": true,
+      "status": "pass",
+      "notes": "Table 21 wraps long labels within cells without clipping or split rows. Surrounding references and paragraphs are clear."
+    },
+    {
+      "page": 36,
+      "image_file": "page-036.png",
+      "image_sha256": "f1bb25a89c171177b9ef20967024ffc6a14ab93963c5a4bcd466b23a2f387fd6",
+      "matches_v3_document_qa": true,
+      "status": "pass",
+      "notes": "Figure 20 three-panel layout and caption are readable; section 7 begins with attached text."
+    },
+    {
+      "page": 37,
+      "image_file": "page-037.png",
+      "image_sha256": "4f2a606ab2f0862c22a46027beaf8d0f6ad27beaec550ed7bc60637899a7f1e3",
+      "matches_v3_document_qa": true,
+      "status": "pass",
+      "notes": "Table 22 and Figure 21 fit with legible model identifiers, values and axes. Caption correctly follows the figure."
+    },
+    {
+      "page": 38,
+      "image_file": "page-038.png",
+      "image_sha256": "a1740c170abc548f22b35f565014aac1d9debef3a00e0658e77a245354e09d46",
+      "matches_v3_document_qa": true,
+      "status": "pass",
+      "notes": "Table 23 is intact and has its caption. Large lower whitespace precedes next-page Figure 22; no missing content indicated."
+    },
+    {
+      "page": 39,
+      "image_file": "page-039.png",
+      "image_sha256": "893143b5918cdb029686478f44cfcb47ce6b4245fc0568ea15d25ef251bba2f4",
+      "matches_v3_document_qa": true,
+      "status": "pass",
+      "notes": "Figure 22 panels and caption remain together; reaction arrows, units and subsequent optimization discussion are readable."
+    },
+    {
+      "page": 40,
+      "image_file": "page-040.png",
+      "image_sha256": "eaab869073d466006c72220db160c0ba401f4dbe4dae3c3e0d02fa35a2d8c641",
+      "matches_v3_document_qa": true,
+      "status": "pass",
+      "notes": "Table 24 and Figure 23 are complete; holdout group labels, dot distributions, axes and caption are readable."
+    },
+    {
+      "page": 41,
+      "image_file": "page-041.png",
+      "image_sha256": "8538009446aa4e4b5e25c1a3a4f2a57d8c3c7dab0c8c32256397872800e473da",
+      "matches_v3_document_qa": true,
+      "status": "requires_fix",
+      "notes": "Figure 24 left-panel upper-right legend covers upper portions of SSA standard-deviation error bars near 0.5 and 0.6 V. Table 25 and caption are otherwise intact. Requires legend relocation."
+    },
+    {
+      "page": 42,
+      "image_file": "page-042.png",
+      "image_sha256": "cdf47036fd0a32d2a8d93cb57af77d83739e18cfa1d416168d56ab0d891e4996",
+      "matches_v3_document_qa": true,
+      "status": "pass",
+      "notes": "Table 26 and Figure 25 are intact; logarithmic variance axis and scientific-notation values are readable."
+    },
+    {
+      "page": 43,
+      "image_file": "page-043.png",
+      "image_sha256": "19f8efb466009a07f8ed51c233f186c00f97094b36d2756a598736c429931e4b",
+      "matches_v3_document_qa": true,
+      "status": "pass",
+      "notes": "Table 27 keeps all eight rows with its caption; units, inequality-style symbols and body text are readable."
+    },
+    {
+      "page": 44,
+      "image_file": "page-044.png",
+      "image_sha256": "efc43ecee46b736af9e0c20df91d319bdc09a795f44d2c51c66bbef31dddb803",
+      "matches_v3_document_qa": true,
+      "status": "pass",
+      "notes": "Figure 26 and caption match, with no legend/data overlap. Discussion heading has following body text."
+    },
+    {
+      "page": 45,
+      "image_file": "page-045.png",
+      "image_sha256": "4f64b80b9fdc4ba81d9c876bc26569dd740405620cde620b279f54ff14dff180",
+      "matches_v3_document_qa": true,
+      "status": "pass",
+      "notes": "Discussion text, citations and section 8.2 heading are readable; no clipping or unwanted placeholder text."
+    },
+    {
+      "page": 46,
+      "image_file": "page-046.png",
+      "image_sha256": "8dbe97a365d54c861cd67106bad1bf6c0fbc55c717e6931407670205fa6eede6",
+      "matches_v3_document_qa": true,
+      "status": "pass",
+      "notes": "Limitations and section 8.4 text are readable. Table 28 is introduced before its full-page continuation; caption is not stranded here."
+    },
+    {
+      "page": 47,
+      "image_file": "page-047.png",
+      "image_sha256": "1e10bc90efe70016b4cb9cf07586e2a0d252b78503c8dcc5ef732a7b40028ab0",
+      "matches_v3_document_qa": true,
+      "status": "pass",
+      "notes": "Table 28 is complete on one page with readable wrapped cells. Following paragraphs remain within margins."
+    },
+    {
+      "page": 48,
+      "image_file": "page-048.png",
+      "image_sha256": "ae7c4435fb5510f0b92be736824c348888d9eebc1a21dac9d89a9d1625a97e7c",
+      "matches_v3_document_qa": true,
+      "status": "pass",
+      "notes": "Sections 8.5 and 8.6 are readable with continuous paragraphs; no isolated heading or overlapping elements."
+    },
+    {
+      "page": 49,
+      "image_file": "page-049.png",
+      "image_sha256": "f1fe8a021ff0387a10c2b71c581a0f3a75adb4408030d42b8f7e0dd5e1d54340",
+      "matches_v3_document_qa": true,
+      "status": "pass",
+      "notes": "Conclusions, data availability and author/preparation statements are complete and legible; references begin on the next page."
+    },
+    {
+      "page": 50,
+      "image_file": "page-050.png",
+      "image_sha256": "fa7535fe4a12589be92eefed0e7c45beca1b7442aaf34e04dd2a93fbf4032ddf",
+      "matches_v3_document_qa": true,
+      "status": "pass",
+      "notes": "Reference entries 1-16 display clear hanging indents, journal italics, DOI links and correct line wrapping without clipping."
+    },
+    {
+      "page": 51,
+      "image_file": "page-051.png",
+      "image_sha256": "018cb9e98dd08a157f68ba2f67ce429eb3241a83123f91527fedde3633d4da61",
+      "matches_v3_document_qa": true,
+      "status": "pass",
+      "notes": "Reference entries 17-34 remain readable; long DOI links wrap inside margins and no reference entry is split at the lower edge."
+    },
+    {
+      "page": 52,
+      "image_file": "page-052.png",
+      "image_sha256": "676ad838f5de341d6be91dfd71f1ba7eaefffdcaad2f7344d5105e69247af257",
+      "matches_v3_document_qa": true,
+      "status": "pass",
+      "notes": "Reference entries 35-38 are complete; remaining white space is normal for the final reference page, with page footer intact."
+    }
+  ],
+  "unresolved_defects": [
+    {
+      "id": "EN-FIG24-LEGEND",
+      "page": 41,
+      "figure": 24,
+      "severity": "blocking_for_visual_release",
+      "description": "Upper-right left-panel legend overlays SSA error-bar upper segments near overpotential 0.5 and 0.6 V. Move legend to an empty region and re-render.",
+      "reported_to_root": true,
+      "root_confirmed": true
+    }
+  ],
+  "passed": false,
+  "review_scope": "AI visual inspection of every listed full-page PNG through view_image, covering clipping, overlap, table/caption integrity, figure correspondence, fonts, inline scientific notation and references. Not a human review, not peer review, and not a new scientific validation. No unviewed page is claimed. v1 diagnostic views are excluded.",
+  "review_method": "Every v3 page 27-52 was actually opened and inspected; page hashes match the archived v3 document QA. Current PDF may be replaced by a later version and must not inherit this SHA without a new identity check.",
+  "scientific_calculations_added": 0,
+  "source_or_document_edits": false
+}

@@ -1,0 +1,207 @@
+{
+  "document": "expanded/documents/manuscript_english.pdf",
+  "pdf_sha256": "6576c564dd8fa4bb1074bd66985b3d429ee3b95a0258fab5b98348b8c0252df2",
+  "render_version": "v3",
+  "render_directory": "expanded-paper-pages-v3/manuscript_english",
+  "status": "passed_with_minor_notes",
+  "passed": true,
+  "page_count": 52,
+  "pages_reviewed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26
+  ],
+  "notes": [
+    {
+      "page": 1,
+      "status": "pass",
+      "note": "Title, author, affiliation, abstract and opening prose are readable; no visible clipping or overlap.",
+      "image_sha256": "3981a2379ce96aae1432143ad3fe721b6c5ee87987a116049e00bfd2642c705f"
+    },
+    {
+      "page": 2,
+      "status": "pass",
+      "note": "Figure 1 calculation-chain diagram, arrows, labels and matching caption are intact.",
+      "image_sha256": "d909c335c1daad09e6ab1ac3c43b813f29a7f473a3dcd7a509147c8ae110636f"
+    },
+    {
+      "page": 3,
+      "status": "pass",
+      "note": "Methods, commit identifier and quantum units fit the margins; normal paragraph continuation.",
+      "image_sha256": "301636889fcc755dc7a0c048c6f06cec6acdda5b956c4ec498f9df7e8eb2ae1c"
+    },
+    {
+      "page": 4,
+      "status": "pass",
+      "note": "Energy-error identity, MSE equation, triangle bounds and Morse expression render as mathematics without raw LaTeX.",
+      "image_sha256": "4e1e0c3319b8e8161fccd866cccca5b262a1560100b1606cf52c9f9adc5b5c9d"
+    },
+    {
+      "page": 5,
+      "status": "pass",
+      "note": "Nuclear-model and retrospective-provenance prose is readable; no isolated heading or clipped notation.",
+      "image_sha256": "bb71e78b13ac4ab8e48e1a495e26b1bb915e1438f4fd4daef33c3eeeae3f9f51"
+    },
+    {
+      "page": 6,
+      "status": "pass",
+      "note": "Table 1 repository provenance has complete headers and rows; methods continue normally below it.",
+      "image_sha256": "5c1845ef966f1f17863990f7d2d165590aa386a870129e94426c0675c173528b"
+    },
+    {
+      "page": 7,
+      "status": "pass",
+      "note": "Table 2 equilibrium quantities and units are intact with its caption; surrounding prose is readable.",
+      "image_sha256": "c6d3f8dc34d3be22955a71ed96ab6ab8d3a8b1da8bd8cdb7521d561abd7881eb"
+    },
+    {
+      "page": 8,
+      "status": "pass",
+      "note": "Figure 2 H2 energy curves, axes, legends and matching caption are intact; results text remains readable.",
+      "image_sha256": "7c05a03fd186599a264b87a5eaaf6ecf2e1481d60cc0225b59cbdc0686a20984"
+    },
+    {
+      "page": 9,
+      "status": "pass",
+      "note": "Table 3 has all six rows; Figure 3 paired improvements and seed legends are intact and unobstructed.",
+      "image_sha256": "a986748f17491cd0abb7e174f54c55f586e3857d0be697805f24670aee30107c"
+    },
+    {
+      "page": 10,
+      "status": "pass",
+      "note": "Figure 4 signed-MSE panels retain negative cross terms and have readable axes; caption explains panel scales.",
+      "image_sha256": "1e1a0ba5fbed75608daec6a83411b9c63d342f7abad20bcd44494d6df45ab0e1"
+    },
+    {
+      "page": 11,
+      "status": "pass",
+      "note": "Figure 5 H2/D2 levels and Table 4 Richardson quantities have matching captions and complete labels.",
+      "image_sha256": "8cdd7e9a69b773c45e5bd4b5e10db0f5ec4bda1d082fb2734f644d07f6ea7e35"
+    },
+    {
+      "page": 12,
+      "status": "pass",
+      "note": "Figure 6 shallow-state errors, residuals and Richardson panels are intact; new section begins cleanly below.",
+      "image_sha256": "748b8168abbcfacb4001aa1b59943951c344cc49152326711ed92ad8590f93cf"
+    },
+    {
+      "page": 13,
+      "status": "pass",
+      "note": "Table 5 evidence amounts and boundaries has complete rows and headers; provenance prose is readable.",
+      "image_sha256": "35c93645c8e7db6b941c3270d5e83d60cd31df04415f78f8a7cdb5a5640ee862"
+    },
+    {
+      "page": 14,
+      "status": "pass",
+      "note": "Table 6 begins with its caption, header and complete M01-M04 rows; continuation occurs between rows.",
+      "image_sha256": "618faf61bd59ded24bd503f97baacd6f1768adc8106f483af183f5fb8eee585f"
+    },
+    {
+      "page": 15,
+      "status": "pass",
+      "note": "Table 6 continues with a repeated header and complete M05-M10 rows; VMC prose is readable.",
+      "image_sha256": "6336d2113b21c0a9f04e9048e1b8bedbd854d9aceadf949097912fde868ef09b"
+    },
+    {
+      "page": 16,
+      "status": "pass_with_minor_note",
+      "note": "Table 7 and its caption are intact; five Computed reference cells wrap the last two digits onto a second line without losing signs or digits. This is a minor readable layout limitation, not numeric truncation.",
+      "image_sha256": "35aed12fcbea38382aa4bf4855c47b2d33cd15efec345726fd26ed4cf8b5914d"
+    },
+    {
+      "page": 17,
+      "status": "pass",
+      "note": "Table 8 trace counts and window ranges is intact; units, captions and following section heading are readable.",
+      "image_sha256": "c16beb507f4ebce4bb6f7187bd997df584c046b9255c08e89ccef399a544ce31"
+    },
+    {
+      "page": 18,
+      "status": "pass",
+      "note": "Table 9 reference contrasts has complete rows and values; surrounding reference-alignment discussion is readable.",
+      "image_sha256": "a4c8b01e540b92c2b469a53e8ede32662c6e5e2645937a86220e123cf8a76116"
+    },
+    {
+      "page": 19,
+      "status": "pass",
+      "note": "Table 10 acceptance-gate evidence is intact with legible units and complete rows; no clipping.",
+      "image_sha256": "8b01ced26c8a864057e798fcf7f7b001583973223342aa9c16125fcba61e0a54"
+    },
+    {
+      "page": 20,
+      "status": "pass",
+      "note": "Figures 7 and 8 have matching captions, visible axes, error bars and the fixed VMC threshold; no overlap.",
+      "image_sha256": "19491b7de8e30554a63ee7661ee6a287ee06a6902764949e7c393390ee8be51b"
+    },
+    {
+      "page": 21,
+      "status": "pass",
+      "note": "Figures 9 and 10 have readable cell values, axes, legends and reference-alignment captions; no obstruction.",
+      "image_sha256": "a5883ec795e72a63880bc6b58442fba4f7f37609bcd3328b284b05056f5d16ab"
+    },
+    {
+      "page": 22,
+      "status": "pass",
+      "note": "Figure 11 rank-reversal matrix and caption are intact; catalysis section begins below with readable provenance.",
+      "image_sha256": "ff23df1addde6537748ff7904b24a2fe34c05313467a4a15164283e12fd7a3ea"
+    },
+    {
+      "page": 23,
+      "status": "pass",
+      "note": "Table 11 spin-screen acceptance counts is intact and its caption stays with it; no orphaned heading.",
+      "image_sha256": "23a0faebec0c443f67dba2b8d1ca3c008b64caa9f7c73d102e98f2420841ebc0"
+    },
+    {
+      "page": 24,
+      "status": "pass",
+      "note": "Figures 12 and 13 spin-screen counts and contamination values are intact; labels and captions are readable.",
+      "image_sha256": "b12f983f37625211059ba43623b76766341f01506837115d8b1ef555b63b4f1c"
+    },
+    {
+      "page": 25,
+      "status": "pass",
+      "note": "Table 12 microsolvation energies and free energies is intact with units and complete rows; prose fits margins.",
+      "image_sha256": "6c6c272dbf109a0e21114a3b0a4dcfb75cd551f14549b510c1fd2f0f807f8e7b"
+    },
+    {
+      "page": 26,
+      "status": "pass",
+      "note": "Table 13 and Figure 14 failed-path diagnostics are intact; force and energy panels are clearly distinguished and captions match.",
+      "image_sha256": "9f9577a389647d6fea959964a6d6ffc66a201a677ed5f8821a3cb4dad40937d5"
+    }
+  ],
+  "unresolved_defects": [],
+  "minor_notes": [
+    {
+      "page": 16,
+      "item": "Table 7, Computed reference column",
+      "description": "Five numeric cells wrap their final two digits onto a second line; all signs and digits remain visible. Retained as a readable formatting limitation after parent review.",
+      "blocking": false
+    }
+  ],
+  "document_qa_pdf_hash_match": true,
+  "rendered_page_hashes_match_document_qa": true,
+  "review_scope": "AI visual inspection of every assigned final-v3 rendered page 1-26 at 918 x 1188 pixels using image views. Checked margins, clipping, overlap, table row and caption continuity, figure-caption correspondence, labels, fonts and equation rendering. Hash checks bind these images to the current document QA record. This is not human peer review, an independent revalidation of every scientific claim, or coverage of pages 27-52. Superseded v1/v2 inspections are excluded from final coverage."
+}

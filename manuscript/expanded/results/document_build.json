@@ -1,0 +1,23 @@
+{
+  "documents": [
+    {
+      "name": "manuscript_english",
+      "path": "manuscript/expanded/documents/manuscript_english.docx",
+      "sha256": "ea7dd9ee2127f6717e5350bfb505a0186b3044412ab924e5d008cfb2ee34d1dc",
+      "figures": 26,
+      "equations": 4,
+      "tables": 28,
+      "source_sha256": "25ebdded8295d09a1706e81fb085a8d85f9d3d3a8c5dc43ea02e219f7285bba1"
+    },
+    {
+      "name": "manuscript_chinese",
+      "path": "manuscript/expanded/documents/manuscript_chinese.docx",
+      "sha256": "50a51a001667c138828f5b9a5c8e99dea9c9668ce73c6a5cb9f21beb54dcab1a",
+      "figures": 26,
+      "equations": 4,
+      "tables": 28,
+      "source_sha256": "4f6957b4d49351782bd81ea8b5182132b604e0980b9809566fd0ba6aca1db207"
+    }
+  ],
+  "equation_representation": "Matplotlib mathtext high-resolution images; editable LaTeX source supplied in assets/equations/equations.json"
+}

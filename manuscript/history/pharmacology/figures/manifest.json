@@ -1,0 +1,230 @@
+{
+  "figures": [
+    {
+      "file": "figures/Figure_P1_english.png",
+      "sha256": "8d5013498c1aca1cb1e38e73401a84123f65f4bebb01dd7d3190d50aa28bb57c",
+      "format": "png",
+      "sources": {
+        "sources/derived/mpo_plot.csv": "1e36a9c9d15ff87fed5826cae9e66d7083e51339381d344cf80937044bb56c9d"
+      },
+      "pixels": [
+        2700,
+        1260
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "figures/Figure_P1_english.svg",
+      "sha256": "36896208d054ac9fd0e22da8727f9e7c0bc7f738ccb90a60fd7669c73c2183d5",
+      "format": "svg",
+      "sources": {
+        "sources/derived/mpo_plot.csv": "1e36a9c9d15ff87fed5826cae9e66d7083e51339381d344cf80937044bb56c9d"
+      },
+      "editable_text": true,
+      "embedded_raster": false
+    },
+    {
+      "file": "figures/Figure_P2_english.png",
+      "sha256": "b2c9e0466c0e0d1f4cf2341c89d101ae6dc3d9fd241770765791f86adac7da0b",
+      "format": "png",
+      "sources": {
+        "sources/derived/tpd_plot.csv": "1adf76da1f1607bb6605518f692c06be2ffa41932482a6c9975b174a9ed84a28",
+        "sources/ai4pharm-lead-developability-suite/projects/task02_tpd/data_task2/linker_conformers.csv": "56bc54fbc6206208587f64c837292d53c0cd499f58cd50b658ef0f62e682ed17"
+      },
+      "pixels": [
+        2700,
+        1260
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "figures/Figure_P2_english.svg",
+      "sha256": "b096fc1de4c0f60d8cbcacba9b5b9a68ee3a55b67d4ec7d9f89ac18150e91bfe",
+      "format": "svg",
+      "sources": {
+        "sources/derived/tpd_plot.csv": "1adf76da1f1607bb6605518f692c06be2ffa41932482a6c9975b174a9ed84a28",
+        "sources/ai4pharm-lead-developability-suite/projects/task02_tpd/data_task2/linker_conformers.csv": "56bc54fbc6206208587f64c837292d53c0cd499f58cd50b658ef0f62e682ed17"
+      },
+      "editable_text": true,
+      "embedded_raster": false
+    },
+    {
+      "file": "figures/Figure_P3_english.png",
+      "sha256": "47d0e6f8e20964bacacfb8ef9898e2677798333d2f6aac0dfcfe152d487b87d8",
+      "format": "png",
+      "sources": {
+        "sources/derived/covalent_plot.csv": "6a2809b0c0807fdc878736270eb2eecc88c8116d0ed580f88c87cb4dacb45375"
+      },
+      "pixels": [
+        2700,
+        1260
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "figures/Figure_P3_english.svg",
+      "sha256": "52306419866789331b9c5ec2482446fa5cf148c6f2df354d9025d13600e5c95c",
+      "format": "svg",
+      "sources": {
+        "sources/derived/covalent_plot.csv": "6a2809b0c0807fdc878736270eb2eecc88c8116d0ed580f88c87cb4dacb45375"
+      },
+      "editable_text": true,
+      "embedded_raster": false
+    },
+    {
+      "file": "figures/Figure_P4_english.png",
+      "sha256": "23a044f9e96b0ce7173720258839f6d9842414fba204e0977eaf10c7c3e2f03d",
+      "format": "png",
+      "sources": {
+        "sources/ai4pharm-lead-developability-suite/projects/task19_metadynamics/outputs/atomistic_cv_trajectory.csv": "6f659489971ea955667be77506c244a51ffc0db17f412a074a74500aa7c81cc4",
+        "sources/derived/optimization_plot.csv": "51229100b912f78deb9ad576f9b1f70cb13a394ea0f0ec7e840a68b090cc03a8",
+        "sources/ai4pharm-lead-developability-suite/projects/task20_denovo/outputs/docking/candidate_vina_scores.csv": "c92af6fda13c0ce261e99ef6b50b395ceca416b8753e564f1fb20641122bc479"
+      },
+      "pixels": [
+        2700,
+        1260
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "figures/Figure_P4_english.svg",
+      "sha256": "640c7bc36767f3a0e65457bc856f37d9d5aa38561f87facb17c92b11bdc757bb",
+      "format": "svg",
+      "sources": {
+        "sources/ai4pharm-lead-developability-suite/projects/task19_metadynamics/outputs/atomistic_cv_trajectory.csv": "6f659489971ea955667be77506c244a51ffc0db17f412a074a74500aa7c81cc4",
+        "sources/derived/optimization_plot.csv": "51229100b912f78deb9ad576f9b1f70cb13a394ea0f0ec7e840a68b090cc03a8",
+        "sources/ai4pharm-lead-developability-suite/projects/task20_denovo/outputs/docking/candidate_vina_scores.csv": "c92af6fda13c0ce261e99ef6b50b395ceca416b8753e564f1fb20641122bc479"
+      },
+      "editable_text": true,
+      "embedded_raster": false
+    },
+    {
+      "file": "figures/Figure_P1_chinese.png",
+      "sha256": "ca69c10f221021303bebaba4f8e85a26e1f800f25eac8399121f40f48c9744ec",
+      "format": "png",
+      "sources": {
+        "sources/derived/mpo_plot.csv": "1e36a9c9d15ff87fed5826cae9e66d7083e51339381d344cf80937044bb56c9d"
+      },
+      "pixels": [
+        2700,
+        1260
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "figures/Figure_P1_chinese.svg",
+      "sha256": "24612eb8b19c6af7ff52c8a080f28c727e3aa45a79629880b307d7c3a23a82c4",
+      "format": "svg",
+      "sources": {
+        "sources/derived/mpo_plot.csv": "1e36a9c9d15ff87fed5826cae9e66d7083e51339381d344cf80937044bb56c9d"
+      },
+      "editable_text": true,
+      "embedded_raster": false
+    },
+    {
+      "file": "figures/Figure_P2_chinese.png",
+      "sha256": "2e63017946bcbaaaf3a0beca0e634aef23825ff3d465840e0a2fc8089508bbf9",
+      "format": "png",
+      "sources": {
+        "sources/derived/tpd_plot.csv": "1adf76da1f1607bb6605518f692c06be2ffa41932482a6c9975b174a9ed84a28",
+        "sources/ai4pharm-lead-developability-suite/projects/task02_tpd/data_task2/linker_conformers.csv": "56bc54fbc6206208587f64c837292d53c0cd499f58cd50b658ef0f62e682ed17"
+      },
+      "pixels": [
+        2700,
+        1260
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "figures/Figure_P2_chinese.svg",
+      "sha256": "5b40aae3952b7d0d4e0065daf01f84decbd3972d018a43479bc8ea1620f621ef",
+      "format": "svg",
+      "sources": {
+        "sources/derived/tpd_plot.csv": "1adf76da1f1607bb6605518f692c06be2ffa41932482a6c9975b174a9ed84a28",
+        "sources/ai4pharm-lead-developability-suite/projects/task02_tpd/data_task2/linker_conformers.csv": "56bc54fbc6206208587f64c837292d53c0cd499f58cd50b658ef0f62e682ed17"
+      },
+      "editable_text": true,
+      "embedded_raster": false
+    },
+    {
+      "file": "figures/Figure_P3_chinese.png",
+      "sha256": "77bbe784546c841a2a0a2d13c7211c96121117e0b13177b741a84846646006ee",
+      "format": "png",
+      "sources": {
+        "sources/derived/covalent_plot.csv": "6a2809b0c0807fdc878736270eb2eecc88c8116d0ed580f88c87cb4dacb45375"
+      },
+      "pixels": [
+        2700,
+        1260
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "figures/Figure_P3_chinese.svg",
+      "sha256": "fc4ea6125a12d6992344decdd5f350a149f8d93deac66fc656d3f2c223489d36",
+      "format": "svg",
+      "sources": {
+        "sources/derived/covalent_plot.csv": "6a2809b0c0807fdc878736270eb2eecc88c8116d0ed580f88c87cb4dacb45375"
+      },
+      "editable_text": true,
+      "embedded_raster": false
+    },
+    {
+      "file": "figures/Figure_P4_chinese.png",
+      "sha256": "f24f76d151233d3d13ee19117c5801d5a369cf8e6f8c08cc45c3a48d35db05ce",
+      "format": "png",
+      "sources": {
+        "sources/ai4pharm-lead-developability-suite/projects/task19_metadynamics/outputs/atomistic_cv_trajectory.csv": "6f659489971ea955667be77506c244a51ffc0db17f412a074a74500aa7c81cc4",
+        "sources/derived/optimization_plot.csv": "51229100b912f78deb9ad576f9b1f70cb13a394ea0f0ec7e840a68b090cc03a8",
+        "sources/ai4pharm-lead-developability-suite/projects/task20_denovo/outputs/docking/candidate_vina_scores.csv": "c92af6fda13c0ce261e99ef6b50b395ceca416b8753e564f1fb20641122bc479"
+      },
+      "pixels": [
+        2700,
+        1260
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "figures/Figure_P4_chinese.svg",
+      "sha256": "7d0bee5a0a5a76979b4aaa5993aef48231e463965bbfb41197aad97701ad3d3c",
+      "format": "svg",
+      "sources": {
+        "sources/ai4pharm-lead-developability-suite/projects/task19_metadynamics/outputs/atomistic_cv_trajectory.csv": "6f659489971ea955667be77506c244a51ffc0db17f412a074a74500aa7c81cc4",
+        "sources/derived/optimization_plot.csv": "51229100b912f78deb9ad576f9b1f70cb13a394ea0f0ec7e840a68b090cc03a8",
+        "sources/ai4pharm-lead-developability-suite/projects/task20_denovo/outputs/docking/candidate_vina_scores.csv": "c92af6fda13c0ce261e99ef6b50b395ceca416b8753e564f1fb20641122bc479"
+      },
+      "editable_text": true,
+      "embedded_raster": false
+    }
+  ],
+  "source": "frozen repository records and arithmetic-only derived CSVs",
+  "dimensions_inches": [
+    9,
+    4.2
+  ],
+  "dpi": 300
+}

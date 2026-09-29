@@ -1,0 +1,160 @@
+{
+  "generator_sha256": "081275a94877149a1b6892a9acb5636c4430281c2d002a19154b40baea6f2f82",
+  "figure_groups": 5,
+  "canvas_inches": [
+    9,
+    4.2
+  ],
+  "png_dpi": 300,
+  "files": [
+    {
+      "file": "figures/Figure_C1_Spin_Gates_english.png",
+      "sha256": "ce889223318dbd350b0243370673ca07d2bb49a864756239a1e449e49268eb30",
+      "source_sha256": {
+        "sources/posthoc_spin_gates.csv": "2ef8c44de6811cabcd404c3a5d5e9fe4b0376c888070c5da573daaa5b3a8e111"
+      }
+    },
+    {
+      "file": "figures/Figure_C1_Spin_Gates_english.svg",
+      "sha256": "ae6c2e1e21a906b426714372cde64a1eb5c9d422aa42a5200204b7c0d2bc9642",
+      "source_sha256": {
+        "sources/posthoc_spin_gates.csv": "2ef8c44de6811cabcd404c3a5d5e9fe4b0376c888070c5da573daaa5b3a8e111"
+      }
+    },
+    {
+      "file": "figures/Figure_C2_Spin_Quality_english.png",
+      "sha256": "353d0a78fe026275ad6cb7e8ff1297c8882bc55b0d660a7ac9a2e0e059ed4382",
+      "source_sha256": {
+        "sources/C04_spin_states.csv": "f20a1880411229080c9ac29ccccefe14f87a781ff655f36d010a559a29a5e413"
+      }
+    },
+    {
+      "file": "figures/Figure_C2_Spin_Quality_english.svg",
+      "sha256": "b86c6c6869dd3e465d4cec766cda5ff3032fa669888047b404ffdff2e848091c",
+      "source_sha256": {
+        "sources/C04_spin_states.csv": "f20a1880411229080c9ac29ccccefe14f87a781ff655f36d010a559a29a5e413"
+      }
+    },
+    {
+      "file": "figures/Figure_C3_EGNN_Baselines_english.png",
+      "sha256": "457036ce65b4d08907b55d96b393af7fa9e0d3b30457f74093321615f13e9973",
+      "source_sha256": {
+        "sources/posthoc_egnn_metrics.csv": "dd19ac90d40360ac169089f7455dc373badaca4cd23c1f20cabe60212f9af6e1"
+      }
+    },
+    {
+      "file": "figures/Figure_C3_EGNN_Baselines_english.svg",
+      "sha256": "4d57da2dac65407f9386bb8ff7b5c9a4e70a3ef20e5ceeb9b76f86ff06d23208",
+      "source_sha256": {
+        "sources/posthoc_egnn_metrics.csv": "dd19ac90d40360ac169089f7455dc373badaca4cd23c1f20cabe60212f9af6e1"
+      }
+    },
+    {
+      "file": "figures/Figure_C4_Unaccepted_Paths_english.png",
+      "sha256": "9b32e35bba74fbef7d88beaca5ddc4892a91c53398d72dde89124dfabcbbe389",
+      "source_sha256": {
+        "sources/posthoc_proton_wire.csv": "472bbecd7ab3397c65f4cc9f10010bcda9fc081bae86d619f809545906e7577c"
+      }
+    },
+    {
+      "file": "figures/Figure_C4_Unaccepted_Paths_english.svg",
+      "sha256": "83c2fc105bd0c8b1294e4c5ab562030647f582828070419e20d0faae5f406e51",
+      "source_sha256": {
+        "sources/posthoc_proton_wire.csv": "472bbecd7ab3397c65f4cc9f10010bcda9fc081bae86d619f809545906e7577c"
+      }
+    },
+    {
+      "file": "figures/Figure_C5_Molecular_Preflight_english.png",
+      "sha256": "17b92157ad06332db474eec3c707154e20e1f295a910dff7f382a0bef03e476b",
+      "source_sha256": {
+        "sources/C20_excerpt.json": "7d5d23cace87ad1761eb0921297e7c86cd759a193298be10ad777731bad70cad",
+        "sources/C21_excerpt.json": "d85c184ed255d99154cde01509e604e7248c3d89da906f6ab8e9816ad7a79790",
+        "sources/C23_excerpt.json": "8b480a28fd70fadd40fbc19fef2418796c889ef9ecae3f5205cbca45be85475d"
+      }
+    },
+    {
+      "file": "figures/Figure_C5_Molecular_Preflight_english.svg",
+      "sha256": "a0ff80d8a0ffb821ef42628345ec0a4904ee74fc0fb19f0ab9a1d6d45f1d611b",
+      "source_sha256": {
+        "sources/C20_excerpt.json": "7d5d23cace87ad1761eb0921297e7c86cd759a193298be10ad777731bad70cad",
+        "sources/C21_excerpt.json": "d85c184ed255d99154cde01509e604e7248c3d89da906f6ab8e9816ad7a79790",
+        "sources/C23_excerpt.json": "8b480a28fd70fadd40fbc19fef2418796c889ef9ecae3f5205cbca45be85475d"
+      }
+    },
+    {
+      "file": "figures/Figure_C1_Spin_Gates_chinese.png",
+      "sha256": "d03aaa93c6376ef21efac0316d1618d29b9328f16da0f8a8fd7c78fa428c90f8",
+      "source_sha256": {
+        "sources/posthoc_spin_gates.csv": "2ef8c44de6811cabcd404c3a5d5e9fe4b0376c888070c5da573daaa5b3a8e111"
+      }
+    },
+    {
+      "file": "figures/Figure_C1_Spin_Gates_chinese.svg",
+      "sha256": "a6a528bf5cb43ff9d7bef27e297105ecbdf4288c29769b4b74eb3086238c5d9e",
+      "source_sha256": {
+        "sources/posthoc_spin_gates.csv": "2ef8c44de6811cabcd404c3a5d5e9fe4b0376c888070c5da573daaa5b3a8e111"
+      }
+    },
+    {
+      "file": "figures/Figure_C2_Spin_Quality_chinese.png",
+      "sha256": "24af01752cbd33bf3d59aa90bf5da0afc896cf8d3bcedcdae70d24a1d7b3b5a5",
+      "source_sha256": {
+        "sources/C04_spin_states.csv": "f20a1880411229080c9ac29ccccefe14f87a781ff655f36d010a559a29a5e413"
+      }
+    },
+    {
+      "file": "figures/Figure_C2_Spin_Quality_chinese.svg",
+      "sha256": "cdc952c2b41b191b1f7d809e60bebe2cc5bdb73497b56ad039ececdbc5cd44e3",
+      "source_sha256": {
+        "sources/C04_spin_states.csv": "f20a1880411229080c9ac29ccccefe14f87a781ff655f36d010a559a29a5e413"
+      }
+    },
+    {
+      "file": "figures/Figure_C3_EGNN_Baselines_chinese.png",
+      "sha256": "7271346bfce300ed63aeb4182ea55e7c72861c0596ecd4356db30bd0347e0dd9",
+      "source_sha256": {
+        "sources/posthoc_egnn_metrics.csv": "dd19ac90d40360ac169089f7455dc373badaca4cd23c1f20cabe60212f9af6e1"
+      }
+    },
+    {
+      "file": "figures/Figure_C3_EGNN_Baselines_chinese.svg",
+      "sha256": "2e803aa7c87053c4bddf7b5c69a2fbca0ab5862c896de919247eb9cb4a6ec73b",
+      "source_sha256": {
+        "sources/posthoc_egnn_metrics.csv": "dd19ac90d40360ac169089f7455dc373badaca4cd23c1f20cabe60212f9af6e1"
+      }
+    },
+    {
+      "file": "figures/Figure_C4_Unaccepted_Paths_chinese.png",
+      "sha256": "6fcb195dfe0e12781b67dddea5157b0b03092bf62592ad5bc4483e8db182baa4",
+      "source_sha256": {
+        "sources/posthoc_proton_wire.csv": "472bbecd7ab3397c65f4cc9f10010bcda9fc081bae86d619f809545906e7577c"
+      }
+    },
+    {
+      "file": "figures/Figure_C4_Unaccepted_Paths_chinese.svg",
+      "sha256": "728338dcb616c756c0a972e2bc60ff17d6380f4629272b7397002c8843c9d800",
+      "source_sha256": {
+        "sources/posthoc_proton_wire.csv": "472bbecd7ab3397c65f4cc9f10010bcda9fc081bae86d619f809545906e7577c"
+      }
+    },
+    {
+      "file": "figures/Figure_C5_Molecular_Preflight_chinese.png",
+      "sha256": "ac5d9a7dfd434ccf27f019e6c1078e00ff642e9cdae5ed688487b606096eedbd",
+      "source_sha256": {
+        "sources/C20_excerpt.json": "7d5d23cace87ad1761eb0921297e7c86cd759a193298be10ad777731bad70cad",
+        "sources/C21_excerpt.json": "d85c184ed255d99154cde01509e604e7248c3d89da906f6ab8e9816ad7a79790",
+        "sources/C23_excerpt.json": "8b480a28fd70fadd40fbc19fef2418796c889ef9ecae3f5205cbca45be85475d"
+      }
+    },
+    {
+      "file": "figures/Figure_C5_Molecular_Preflight_chinese.svg",
+      "sha256": "30bd287236464de9ad6f926535c2524b1cc8d3222f88d38d1331432783d2b2a1",
+      "source_sha256": {
+        "sources/C20_excerpt.json": "7d5d23cace87ad1761eb0921297e7c86cd759a193298be10ad777731bad70cad",
+        "sources/C21_excerpt.json": "d85c184ed255d99154cde01509e604e7248c3d89da906f6ab8e9816ad7a79790",
+        "sources/C23_excerpt.json": "8b480a28fd70fadd40fbc19fef2418796c889ef9ecae3f5205cbca45be85475d"
+      }
+    }
+  ],
+  "scope": "Plots of fixed-commit historical records and lightweight arithmetic only."
+}

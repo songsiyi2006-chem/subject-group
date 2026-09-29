@@ -1,0 +1,16 @@
+setting_a,setting_b,common_molecules,pairs,rank_reversals,ties
+GFN1_acetonitrile,GFN1_dmf,12,66,0,0
+GFN1_acetonitrile,GFN1_gas,12,66,7,0
+GFN1_acetonitrile,GFN2_acetonitrile,12,66,4,0
+GFN1_acetonitrile,GFN2_dmf,12,66,4,0
+GFN1_acetonitrile,GFN2_gas,12,66,11,0
+GFN1_dmf,GFN1_gas,12,66,7,0
+GFN1_dmf,GFN2_acetonitrile,12,66,4,0
+GFN1_dmf,GFN2_dmf,12,66,4,0
+GFN1_dmf,GFN2_gas,12,66,11,0
+GFN1_gas,GFN2_acetonitrile,12,66,9,0
+GFN1_gas,GFN2_dmf,12,66,9,0
+GFN1_gas,GFN2_gas,12,66,6,0
+GFN2_acetonitrile,GFN2_dmf,12,66,0,0
+GFN2_acetonitrile,GFN2_gas,12,66,7,0
+GFN2_dmf,GFN2_gas,12,66,7,0

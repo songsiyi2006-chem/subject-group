@@ -1,0 +1,53 @@
+{
+  "task": 19,
+  "evidence_class": "experimental structure plus bounded all-atom simulation pilot",
+  "structure": {
+    "structure": "5T35",
+    "experimental_method": "X-ray diffraction",
+    "resolution_A": 2.7,
+    "assembly": "author chains A/B/C/D and ligand 759 author chain D",
+    "chain_identity": {
+      "A": "BRD4 BD2",
+      "B": "Elongin B",
+      "C": "Elongin C",
+      "D": "VHL"
+    },
+    "ligand": "MZ1; CCD 759",
+    "ligand_heavy_atoms": 69,
+    "VHL_heavy_atoms": 1215,
+    "BRD4_heavy_atoms": 885,
+    "PPI_atom_pairs_within_4_5_A": 112,
+    "PPI_residue_pairs_within_4_5_A": 14,
+    "closest_PPI_distance_A": 2.7983625569250323,
+    "source_sha256": {
+      "5T35.pdb": "d5bee17246fa783303c117e357c2f7b91a486fcd95d196b5099a9b88bc714947",
+      "759.cif": "6f792cc7cf1a7223a869c316fef2d614afb99f017d4123ff09b011a18ab93fa6",
+      "759_ideal.sdf": "1255130762272725737e801eae8624c491499cdda99cf843a61d1cb3e9b6d010"
+    }
+  },
+  "atomistic": {
+    "status": "completed_short_all_atom_explicit_solvent_engine_pilot",
+    "particles": 150838,
+    "equilibration_ps": 0.2,
+    "biased_time_ps": 1.0,
+    "hills": 20,
+    "initial_energy_kJ_mol": -1406165.7027321875,
+    "minimized_energy_kJ_mol": -2010957.5986066116,
+    "distance_range_nm": [
+      3.948635855453242,
+      3.972654027932055
+    ],
+    "orientation_range_rad": [
+      -1.0600346606700988,
+      -0.9890819310939298
+    ],
+    "finite_positions_and_energies": true,
+    "pmf_converged": false,
+    "cooperativity_alpha": null,
+    "cooperativity_delta_delta_G_kJ_mol": null,
+    "free_energy_status": "unconverged bias diagnostic only; no basin populations or binding free energy",
+    "forcefield": "Amber14 protein / TIP3P / Sage 2.3 MZ1 with NAGL AM1-BCC surrogate charges",
+    "openmm_version": "8.6"
+  },
+  "publication_claims_supported": false
+}

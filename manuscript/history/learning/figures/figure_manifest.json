@@ -1,0 +1,301 @@
+{
+  "schema_version": "1.0",
+  "font_families": [
+    "DejaVu Sans",
+    "Microsoft YaHei"
+  ],
+  "script_sha256": "5070e6637a24a0453b9ee83e9250428f80d634496f72728022724ba1bdd76a41",
+  "figures": [
+    {
+      "path": "figures/Figure_L1_Conformer_english.png",
+      "sha256": "b21b5e71c216e96c29cf4171287204f10725f1f9331bd3e320c46323aa6d2721",
+      "language": "english",
+      "width_px": 2700,
+      "height_px": 1260,
+      "dpi": 300,
+      "width_inches": 9,
+      "height_inches": 4.2,
+      "inputs_sha256": {
+        "sources/derived_conformers.csv": "ca760ed0e7288d96a5dfa1f5238fe52a24a784fc1bee6ef0f48392bdaa9deb3b"
+      },
+      "caption_note": "500 optimization records, not 500 independent minima. M09 failed parsing; M09R is a repaired reference."
+    },
+    {
+      "path": "figures/Figure_L1_Conformer_english.svg",
+      "sha256": "60fab2137e0fa39d4a495b40d4156cb144fa18df311363a9b89574550373a5af",
+      "language": "english",
+      "width_px": null,
+      "height_px": null,
+      "dpi": null,
+      "width_inches": 9,
+      "height_inches": 4.2,
+      "inputs_sha256": {
+        "sources/derived_conformers.csv": "ca760ed0e7288d96a5dfa1f5238fe52a24a784fc1bee6ef0f48392bdaa9deb3b"
+      },
+      "caption_note": "500 optimization records, not 500 independent minima. M09 failed parsing; M09R is a repaired reference."
+    },
+    {
+      "path": "figures/Figure_L2_VMC_english.png",
+      "sha256": "37aba04fdd0f7a19be95ab05c8f2a09e85d1e2ec520783a7c0e90ac398b9d7e2",
+      "language": "english",
+      "width_px": 2700,
+      "height_px": 1260,
+      "dpi": 300,
+      "width_inches": 9,
+      "height_inches": 4.2,
+      "inputs_sha256": {
+        "sources/derived_vmc.csv": "244bdebcc2973c5dcd8d3fd15febcb288117737e67530c585b21129d110c119e"
+      },
+      "caption_note": "Bars: ±1 SE from 20 saved block means. Reference: computed FCI CBS extrapolation; reference uncertainty excluded."
+    },
+    {
+      "path": "figures/Figure_L2_VMC_english.svg",
+      "sha256": "3079da1b193c25cfc8fa07649958dfd25b62f7e42927a722059be1d59acc053b",
+      "language": "english",
+      "width_px": null,
+      "height_px": null,
+      "dpi": null,
+      "width_inches": 9,
+      "height_inches": 4.2,
+      "inputs_sha256": {
+        "sources/derived_vmc.csv": "244bdebcc2973c5dcd8d3fd15febcb288117737e67530c585b21129d110c119e"
+      },
+      "caption_note": "Bars: ±1 SE from 20 saved block means. Reference: computed FCI CBS extrapolation; reference uncertainty excluded."
+    },
+    {
+      "path": "figures/Figure_L3_Trace_Windows_english.png",
+      "sha256": "99508908d547b07e8c81476d6237617062c03d298998875d09bf060d2645f0b3",
+      "language": "english",
+      "width_px": 2700,
+      "height_px": 1260,
+      "dpi": 300,
+      "width_inches": 9,
+      "height_inches": 4.2,
+      "inputs_sha256": {
+        "sources/phase28_window_robustness.csv": "dd5109cc6c9f83817cc6ec23432712d462d3774d6336f4bc5666e108aeee490a"
+      },
+      "caption_note": "Cells: timestamp-balanced endpoint median differences, not independent experiments or intervals. Voltage panels share a scale."
+    },
+    {
+      "path": "figures/Figure_L3_Trace_Windows_english.svg",
+      "sha256": "5ca7936ec7135637caee1b80cdc4233d72313eed5219457cf80528d95e9ebc23",
+      "language": "english",
+      "width_px": null,
+      "height_px": null,
+      "dpi": null,
+      "width_inches": 9,
+      "height_inches": 4.2,
+      "inputs_sha256": {
+        "sources/phase28_window_robustness.csv": "dd5109cc6c9f83817cc6ec23432712d462d3774d6336f4bc5666e108aeee490a"
+      },
+      "caption_note": "Cells: timestamp-balanced endpoint median differences, not independent experiments or intervals. Voltage panels share a scale."
+    },
+    {
+      "path": "figures/Figure_L4_Reference_Alignment_english.png",
+      "sha256": "bc2b97e5596512205dd3c3798cb9526dcc0861e64be1678c61c32efb11dcdfb6",
+      "language": "english",
+      "width_px": 2700,
+      "height_px": 1260,
+      "dpi": 300,
+      "width_inches": 9,
+      "height_inches": 4.2,
+      "inputs_sha256": {
+        "sources/derived_reference_alignment.csv": "6660f535b08bb0bf349ef47caac39cc1a54f879045ba1625bbd64c6601318614"
+      },
+      "caption_note": "Fixed nuclei; gas phase; PBE0/def2-SVP. PBE0 is not experimental truth; raw offsets are not physical prediction errors."
+    },
+    {
+      "path": "figures/Figure_L4_Reference_Alignment_english.svg",
+      "sha256": "7a6ed9783e652d39f9ad188defdc9836dae17f65e7db2ae9c338ebfca8c7ba3b",
+      "language": "english",
+      "width_px": null,
+      "height_px": null,
+      "dpi": null,
+      "width_inches": 9,
+      "height_inches": 4.2,
+      "inputs_sha256": {
+        "sources/derived_reference_alignment.csv": "6660f535b08bb0bf349ef47caac39cc1a54f879045ba1625bbd64c6601318614"
+      },
+      "caption_note": "Fixed nuclei; gas phase; PBE0/def2-SVP. PBE0 is not experimental truth; raw offsets are not physical prediction errors."
+    },
+    {
+      "path": "figures/Figure_L5_Rank_Reversals_english.png",
+      "sha256": "5f3bdb9dcee0e4a92d16bd597ec3a992379b4dd667761e04555c3298b556a4c8",
+      "language": "english",
+      "width_px": 2700,
+      "height_px": 1260,
+      "dpi": 300,
+      "width_inches": 9,
+      "height_inches": 4.2,
+      "inputs_sha256": {
+        "sources/derived_rank_reversals.csv": "851b3ac447fab133d5c712af49dc98801b6955e9d281f0597a6aae865287cc76"
+      },
+      "caption_note": "15 method/environment comparisons; diagonal is self-comparison. MeCN = acetonitrile. No external accuracy is evaluated."
+    },
+    {
+      "path": "figures/Figure_L5_Rank_Reversals_english.svg",
+      "sha256": "f52225689258c3ab5498a32d916b668feab62fc657cf40242d3352f168d15e91",
+      "language": "english",
+      "width_px": null,
+      "height_px": null,
+      "dpi": null,
+      "width_inches": 9,
+      "height_inches": 4.2,
+      "inputs_sha256": {
+        "sources/derived_rank_reversals.csv": "851b3ac447fab133d5c712af49dc98801b6955e9d281f0597a6aae865287cc76"
+      },
+      "caption_note": "15 method/environment comparisons; diagonal is self-comparison. MeCN = acetonitrile. No external accuracy is evaluated."
+    },
+    {
+      "path": "figures/Figure_L1_Conformer_chinese.png",
+      "sha256": "c212ccfe3a785205776758e6aec5b9863b4e16c93eff498e14e3d867fa8b7701",
+      "language": "chinese",
+      "width_px": 2700,
+      "height_px": 1260,
+      "dpi": 300,
+      "width_inches": 9,
+      "height_inches": 4.2,
+      "inputs_sha256": {
+        "sources/derived_conformers.csv": "ca760ed0e7288d96a5dfa1f5238fe52a24a784fc1bee6ef0f48392bdaa9deb3b"
+      },
+      "caption_note": "500 条优化记录；不是 500 个独立极小点。M09 解析失败；M09R 为修复参考。"
+    },
+    {
+      "path": "figures/Figure_L1_Conformer_chinese.svg",
+      "sha256": "091a37cc778f70c33f3794191882a433b1d2dbcfae1bf131c118bf9d33dd1f43",
+      "language": "chinese",
+      "width_px": null,
+      "height_px": null,
+      "dpi": null,
+      "width_inches": 9,
+      "height_inches": 4.2,
+      "inputs_sha256": {
+        "sources/derived_conformers.csv": "ca760ed0e7288d96a5dfa1f5238fe52a24a784fc1bee6ef0f48392bdaa9deb3b"
+      },
+      "caption_note": "500 条优化记录；不是 500 个独立极小点。M09 解析失败；M09R 为修复参考。"
+    },
+    {
+      "path": "figures/Figure_L2_VMC_chinese.png",
+      "sha256": "07b7689001893848bdaa02efaf5a72ffe5093d6e97b7f8563888022838af1f00",
+      "language": "chinese",
+      "width_px": 2700,
+      "height_px": 1260,
+      "dpi": 300,
+      "width_inches": 9,
+      "height_inches": 4.2,
+      "inputs_sha256": {
+        "sources/derived_vmc.csv": "244bdebcc2973c5dcd8d3fd15febcb288117737e67530c585b21129d110c119e"
+      },
+      "caption_note": "误差棒：20 个保存块均值的 ±1 SE；参考为计算的 FCI CBS 外推；未计参考不确定性。"
+    },
+    {
+      "path": "figures/Figure_L2_VMC_chinese.svg",
+      "sha256": "9ddf0e26d52f73d6fd0c3101c9ebde7c95216a8ee67bd61d839adb8bc5292b87",
+      "language": "chinese",
+      "width_px": null,
+      "height_px": null,
+      "dpi": null,
+      "width_inches": 9,
+      "height_inches": 4.2,
+      "inputs_sha256": {
+        "sources/derived_vmc.csv": "244bdebcc2973c5dcd8d3fd15febcb288117737e67530c585b21129d110c119e"
+      },
+      "caption_note": "误差棒：20 个保存块均值的 ±1 SE；参考为计算的 FCI CBS 外推；未计参考不确定性。"
+    },
+    {
+      "path": "figures/Figure_L3_Trace_Windows_chinese.png",
+      "sha256": "ce3849fb01c34c567ff4d5bdddb32d334bc492d027a5fd11180a1b09accbbfa8",
+      "language": "chinese",
+      "width_px": 2700,
+      "height_px": 1260,
+      "dpi": 300,
+      "width_inches": 9,
+      "height_inches": 4.2,
+      "inputs_sha256": {
+        "sources/phase28_window_robustness.csv": "dd5109cc6c9f83817cc6ec23432712d462d3774d6336f4bc5666e108aeee490a"
+      },
+      "caption_note": "每格为时间戳平衡的端点中位数差；不是独立实验或置信区间。电位两图共用色标范围。"
+    },
+    {
+      "path": "figures/Figure_L3_Trace_Windows_chinese.svg",
+      "sha256": "ee7e08f7344a957d4a97f8e309973a6544007c502d7c3a0857f6b1354211914f",
+      "language": "chinese",
+      "width_px": null,
+      "height_px": null,
+      "dpi": null,
+      "width_inches": 9,
+      "height_inches": 4.2,
+      "inputs_sha256": {
+        "sources/phase28_window_robustness.csv": "dd5109cc6c9f83817cc6ec23432712d462d3774d6336f4bc5666e108aeee490a"
+      },
+      "caption_note": "每格为时间戳平衡的端点中位数差；不是独立实验或置信区间。电位两图共用色标范围。"
+    },
+    {
+      "path": "figures/Figure_L4_Reference_Alignment_chinese.png",
+      "sha256": "64d42803d8eeefb23b278e5570e2d293df05412c2eb1c20db0fa6499180271bf",
+      "language": "chinese",
+      "width_px": 2700,
+      "height_px": 1260,
+      "dpi": 300,
+      "width_inches": 9,
+      "height_inches": 4.2,
+      "inputs_sha256": {
+        "sources/derived_reference_alignment.csv": "6660f535b08bb0bf349ef47caac39cc1a54f879045ba1625bbd64c6601318614"
+      },
+      "caption_note": "固定核坐标、气相、PBE0/def2-SVP。PBE0 不是实验真值；原始偏移不是物理预测误差。"
+    },
+    {
+      "path": "figures/Figure_L4_Reference_Alignment_chinese.svg",
+      "sha256": "67b704b3ea460b0ce4b3daa7eeef40f6c569baec738dbe53b59f4fe40d8cf76f",
+      "language": "chinese",
+      "width_px": null,
+      "height_px": null,
+      "dpi": null,
+      "width_inches": 9,
+      "height_inches": 4.2,
+      "inputs_sha256": {
+        "sources/derived_reference_alignment.csv": "6660f535b08bb0bf349ef47caac39cc1a54f879045ba1625bbd64c6601318614"
+      },
+      "caption_note": "固定核坐标、气相、PBE0/def2-SVP。PBE0 不是实验真值；原始偏移不是物理预测误差。"
+    },
+    {
+      "path": "figures/Figure_L5_Rank_Reversals_chinese.png",
+      "sha256": "63109d027ab8b5ff6647496d770a623016f1a1ec667432e01123fc8e37223913",
+      "language": "chinese",
+      "width_px": 2700,
+      "height_px": 1260,
+      "dpi": 300,
+      "width_inches": 9,
+      "height_inches": 4.2,
+      "inputs_sha256": {
+        "sources/derived_rank_reversals.csv": "851b3ac447fab133d5c712af49dc98801b6955e9d281f0597a6aae865287cc76"
+      },
+      "caption_note": "15 组方法/环境比较；对角线为自身比较。MeCN = 乙腈；没有用此矩阵评估外部准确率。"
+    },
+    {
+      "path": "figures/Figure_L5_Rank_Reversals_chinese.svg",
+      "sha256": "91a06e9a247590f26d490f778f2864ecd232c4c1b9200f96d2283969f95afdc8",
+      "language": "chinese",
+      "width_px": null,
+      "height_px": null,
+      "dpi": null,
+      "width_inches": 9,
+      "height_inches": 4.2,
+      "inputs_sha256": {
+        "sources/derived_rank_reversals.csv": "851b3ac447fab133d5c712af49dc98801b6955e9d281f0597a6aae865287cc76"
+      },
+      "caption_note": "15 组方法/环境比较；对角线为自身比较。MeCN = 乙腈；没有用此矩阵评估外部准确率。"
+    }
+  ],
+  "visual_qa": {
+    "status": "passed_sampled_render_review",
+    "reviewed_pngs": [
+      "Figure_L1_Conformer_chinese.png",
+      "Figure_L2_VMC_english.png",
+      "Figure_L3_Trace_Windows_chinese.png",
+      "Figure_L4_Reference_Alignment_english.png",
+      "Figure_L5_Rank_Reversals_chinese.png"
+    ],
+    "scope": "One rendered language per figure inspected for units, clipping, labels and scientific meaning. All20 files hash/dimension checked; bilingual numeric tables share inputs. No claim of full PDF review."
+  }
+}

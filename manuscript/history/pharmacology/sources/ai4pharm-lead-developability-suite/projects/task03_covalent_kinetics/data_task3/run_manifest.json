@@ -1,0 +1,224 @@
+{
+  "created_utc": "2026-09-10T06:25:05.644478+00:00",
+  "python": "3.14.6 | packaged by Anaconda, Inc. | (main, Jul  9 2026, 14:29:05) [MSC v.1942 64 bit (AMD64)]",
+  "versions": {
+    "numpy": "2.5.2",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.1",
+    "rdkit": "2026.03.5",
+    "pillow": "12.3.0"
+  },
+  "arguments": {
+    "output_dir": "outputs",
+    "quantum": "eht",
+    "xtb": "xtb",
+    "xtb_timeout": 600,
+    "conformers": 5,
+    "seed": 20260910,
+    "concentrations": 25,
+    "parameters": null,
+    "temperature": 310.15,
+    "ph": 7.4,
+    "gsh_pka": 8.7,
+    "gsh_mM": 5.0,
+    "target_nM": 10.0,
+    "pulse_uM": 1.0,
+    "drug_half_life_h": 1.0,
+    "turnover_hours": [
+      8.0,
+      24.0,
+      72.0
+    ],
+    "washout_hours": 120.0,
+    "self_test_only": false,
+    "git_sync": true
+  },
+  "panel_parameters": [
+    {
+      "id": "W01",
+      "name": "Acrylamide",
+      "smiles": "[CH2:901]=[CH:902]C(=O)Nc1ccc(Nc2ncccn2)cc1",
+      "mechanism": "Michael",
+      "kon_M_inv_s": 1000000.0,
+      "koff_s": 0.1,
+      "kinact_s": 0.003,
+      "krev_s": 0,
+      "barrier_baseline_kJ_mol": 77,
+      "kgsh_reverse_s": 0.0,
+      "kgsh_M_inv_s": null,
+      "provenance": "Illustrative scenario; no experimental calibration"
+    },
+    {
+      "id": "W02",
+      "name": "Dimethylaminomethyl acrylamide",
+      "smiles": "CN(C)C/[CH:901]=[CH:902]/C(=O)Nc1ccc(Nc2ncccn2)cc1",
+      "mechanism": "Michael",
+      "kon_M_inv_s": 800000.0,
+      "koff_s": 0.08,
+      "kinact_s": 0.002,
+      "krev_s": 0,
+      "barrier_baseline_kJ_mol": 80,
+      "kgsh_reverse_s": 0.0,
+      "kgsh_M_inv_s": null,
+      "provenance": "Illustrative scenario; no experimental calibration"
+    },
+    {
+      "id": "W03",
+      "name": "Alpha-cyanoacrylamide",
+      "smiles": "[CH2:901]=[C:902](C#N)C(=O)Nc1ccc(Nc2ncccn2)cc1",
+      "mechanism": "reversible Michael",
+      "kon_M_inv_s": 600000.0,
+      "koff_s": 0.12,
+      "kinact_s": 0.012,
+      "krev_s": 0.0002,
+      "barrier_baseline_kJ_mol": 70,
+      "kgsh_reverse_s": 0.0003,
+      "kgsh_M_inv_s": null,
+      "provenance": "Illustrative scenario; no experimental calibration"
+    },
+    {
+      "id": "W04",
+      "name": "Chloroacetamide",
+      "smiles": "Cl[CH2:901]C(=O)Nc1ccc(Nc2ncccn2)cc1",
+      "mechanism": "SN2",
+      "kon_M_inv_s": 500000.0,
+      "koff_s": 0.2,
+      "kinact_s": 0.018,
+      "krev_s": 0,
+      "barrier_baseline_kJ_mol": 69,
+      "kgsh_reverse_s": 0.0,
+      "kgsh_M_inv_s": null,
+      "provenance": "Illustrative scenario; no experimental calibration"
+    },
+    {
+      "id": "W05",
+      "name": "Vinyl sulfone",
+      "smiles": "[CH2:901]=[CH:902]S(=O)(=O)c1ccc(Nc2ncccn2)cc1",
+      "mechanism": "Michael",
+      "kon_M_inv_s": 400000.0,
+      "koff_s": 0.3,
+      "kinact_s": 0.008,
+      "krev_s": 0,
+      "barrier_baseline_kJ_mol": 72,
+      "kgsh_reverse_s": 0.0,
+      "kgsh_M_inv_s": null,
+      "provenance": "Illustrative scenario; no experimental calibration"
+    },
+    {
+      "id": "W06",
+      "name": "Methacrylamide",
+      "smiles": "[CH2:901]=[C:902](C)C(=O)Nc1ccc(Nc2ncccn2)cc1",
+      "mechanism": "Michael",
+      "kon_M_inv_s": 200000.0,
+      "koff_s": 0.4,
+      "kinact_s": 0.0008,
+      "krev_s": 0,
+      "barrier_baseline_kJ_mol": 83,
+      "kgsh_reverse_s": 0.0,
+      "kgsh_M_inv_s": null,
+      "provenance": "Illustrative scenario; no experimental calibration"
+    },
+    {
+      "id": "W07",
+      "name": "Beta-methyl cyanoacrylamide",
+      "smiles": "C/[CH:901]=[C:902](C#N)/C(=O)Nc1ccc(Nc2ncccn2)cc1",
+      "mechanism": "reversible Michael",
+      "kon_M_inv_s": 900000.0,
+      "koff_s": 0.06,
+      "kinact_s": 0.006,
+      "krev_s": 3e-05,
+      "barrier_baseline_kJ_mol": 76,
+      "kgsh_reverse_s": 0.0001,
+      "kgsh_M_inv_s": null,
+      "provenance": "Illustrative scenario; no experimental calibration"
+    },
+    {
+      "id": "W08",
+      "name": "Beta-isopropyl cyanoacrylamide",
+      "smiles": "CC(C)/[CH:901]=[C:902](C#N)/C(=O)Nc1ccc(Nc2ncccn2)cc1",
+      "mechanism": "reversible Michael",
+      "kon_M_inv_s": 1200000.0,
+      "koff_s": 0.03,
+      "kinact_s": 0.003,
+      "krev_s": 5e-06,
+      "barrier_baseline_kJ_mol": 79,
+      "kgsh_reverse_s": 4e-05,
+      "kgsh_M_inv_s": null,
+      "provenance": "Illustrative scenario; no experimental calibration"
+    }
+  ],
+  "references": [
+    [
+      "Flanagan et al. (2014), experimental GSH reactivity and computational methods",
+      "https://doi.org/10.1021/jm501412a"
+    ],
+    [
+      "Bradshaw et al. (2015), reversible covalent inhibitors and tunable residence",
+      "https://doi.org/10.1038/nchembio.1817"
+    ],
+    [
+      "RDKit: rdEHTTools / YAeHMOP API",
+      "https://www.rdkit.org/docs/source/rdkit.Chem.rdEHTTools.html"
+    ],
+    [
+      "xTB: orbital properties and machine-readable JSON output",
+      "https://xtb-docs.readthedocs.io/en/latest/properties.html"
+    ],
+    [
+      "Assay Guidance Manual: mechanism-of-action assays",
+      "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    ]
+  ],
+  "evidence_status": "Computed orbitals; illustrative default kinetics and uncalibrated barrier surrogate",
+  "sha256": {
+    "COVALENT_DRUG_KINETICS_REPORT_EN.md": "4838b2a1e25ae89222f8944d9a758f2402aa05fbfe7fe4513f4c567e1f429974",
+    "COVALENT_DRUG_KINETICS_REPORT_ZH.md": "c7f387b6e76a20cdde7232648bdbba80c5b0fb699df4119158f1fa571113bf68",
+    "data_task3/atomic_frontier_descriptors.csv": "63264e5012c43a5eda831344e42181a540414c60804df9c723832dc6b39dfa9f",
+    "data_task3/clamped_concentration_trajectories.csv": "b94ce835b13d1b958dc4b45a8b0dafc51223d096ad760f01b66354d5c6fdf11c",
+    "data_task3/dynamic_drug_exposure.csv": "b61f1d29c2756a65af9b39afac301c2dbff21e8bc0bcc93e95f112d303030504",
+    "data_task3/gsh_conjugation.csv": "5199204828ffc8c6be183ea6e8720fce45e74bac6a6b3a9581b829ce4c6abf25",
+    "data_task3/kobs_concentration.csv": "a711603e19a91734da10cda1ce51ef001b2160f5565fa8446c29f36bd4e6542f",
+    "data_task3/lfer_regression.json": "ff5853c4a054ecd0047e7ce19cdaa8ebfa9f28f47fe56ffcb717bbd6e33eabd9",
+    "data_task3/parameters_template.json": "d5ee6db5be0bea923e2eba6f3e870dceef66e4800fbe97bcd550be8401bac71e",
+    "data_task3/reduced_turnover_trajectories.csv": "585c6631308e6c4ae541a33301330999e67ad49fed42fdef023247059c204897",
+    "data_task3/residence_summary.csv": "92eedd7e964716dfcb1308810ea464572dd5be851ee1d62057595e7cb80130da",
+    "data_task3/structures/W01.xyz": "e7433181c58bcea4190386d483458c0c3d25311e602b789d0dec0f855bea059f",
+    "data_task3/structures/W02.xyz": "d83df1856cd742d1d27ada57e295036b6529bf86ab479562c7af1ebb42a6a0e0",
+    "data_task3/structures/W03.xyz": "30a044bd94f0fd8d7f67e14d3897a8cab1232340aeafd8cc77427c764776a9b0",
+    "data_task3/structures/W04.xyz": "26415b4c1e842e3024616da071fb70ba7cacd83ac7e475087a53ea5d534d0451",
+    "data_task3/structures/W05.xyz": "53f52c1f78a52cebefbbe21c90fe2c895f359a09dcc5e9b06e7cef4e0f77353b",
+    "data_task3/structures/W06.xyz": "8589d450ec2eca1ea0b6b9b2de4865e405c27822022adeb4bdd0790277fc8aa9",
+    "data_task3/structures/W07.xyz": "42b53a11a27910d3062e862d328bf93c17c70e9a6a4a0827fbbefbbd79f1344f",
+    "data_task3/structures/W08.xyz": "b25ae045aa91d4a5009cf462eb82f4d82a25d91cab030439536c6b17414c3d01",
+    "data_task3/structures/warhead_panel.sdf": "1fe639c91d32cad1db8ef6c81a34578c0d5f5513ab4077fb88c16bf678ab0bb0",
+    "data_task3/validation.json": "2429a69f08620d14506968c1a4d29403279306b92b7069aa281276f13d93d1ce",
+    "data_task3/warhead_results.csv": "6cbf65faa4361709998c3ed4e1bd9196c5d7f5f2d997591fe83647a7a9e30289",
+    "data_task3/washout_trajectories.csv": "c0b204f0a51051dfdbe0a795df4068aa96a129408ba5340624555a291fd81c05",
+    "figures_task3/fig1_kobs_concentration_hyperbola.png": "a0cd62b273be16651f2d979c443ccb1eebfa9fce1d12f845d01cf861633fac3b",
+    "figures_task3/fig2_target_recovery_washout.png": "0c535d4a8295c03223a214c54052cbcb7a8bd71f882679b0ed0856d2257f7eee",
+    "figures_task3/fig3_gsh_reactivity_safety_radar.png": "712d12490124283df6ae25d0d57bfce8725536f0b0b816bb78378b6f23544f56",
+    "figures_task3/fig4_warhead_lumo_reactivity_correlation.png": "b190fc6462dff8b819febc9ce63ada68f31192a420f9090642ede344145392ce",
+    "README.md": "187a20b7249630ca4660893bf939f144868c3fe3b087f8b6bfb23bcd72385159",
+    "run_task3_covalent_kinetics_residence_time.py": "a3e59f8c8b66b2bb72c0525bcbe2b8a7df486d5440b6c8566cf0c682f77bc056"
+  },
+  "repository_integration": {
+    "repository": "https://github.com/songsiyi2006-chem/ai4pharm-lead-developability-suite",
+    "base_commit": "aa7c77f790a285250c8b635739f4eabdc2324fc8",
+    "note": "Validated scientific outputs retained unchanged. Shared README now indexes Tasks 1-4; its checksum was refreshed during Task 4 integration.",
+    "original_generated_README_sha256": "ecffc306b115f9cb7b400d65eef7f95cc1fa22246c696a29011b38f7e651cca1"
+  },
+  "layout_migration": {
+    "baseline_commit": "3785df88d244bf276de7f9b6e4d1d74995b530b9",
+    "original_manifest_path": "data_task3/run_manifest.json",
+    "current_sources_sha256": {
+      "projects/task03_covalent_kinetics/run_task3_covalent_kinetics_residence_time.py": "a3e59f8c8b66b2bb72c0525bcbe2b8a7df486d5440b6c8566cf0c682f77bc056"
+    },
+    "previous_file_hashes": {
+      "COVALENT_DRUG_KINETICS_REPORT_EN.md": "2bac93cf225b2c95e658806f30109eab128eae33391a3e68c3dd13f86aaae0eb",
+      "COVALENT_DRUG_KINETICS_REPORT_ZH.md": "96412a0df22fe5ef2d0f1350f17a96833c0e9b1425fc701e78254156ea120f65",
+      "README.md": "007e9ab7dbc63809c6b0318e93d0e00bd8a8c67bf3f7f563b72d225268917f4e",
+      "run_task3_covalent_kinetics_residence_time.py": "df145e9ef74e1b6f24cdbf3868b315484392e5d06d14f3014d19436d9cf046c4"
+    },
+    "note": "Directory/import/default-output and navigation changes only. Original script_sha256/run metadata retain scientific-execution provenance; current source hashes are not evidence of a full scientific rerun. Existing scientific results and figures are preserved byte-for-byte."
+  }
+}

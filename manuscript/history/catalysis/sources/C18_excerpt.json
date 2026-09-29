@@ -1,0 +1,52 @@
+{
+  "source": {
+    "source_id": "C18",
+    "repository": "https://github.com/songsiyi2006-chem/pincer-catmech-ai",
+    "commit": "2edffb123791bd61acbfdeff763f603ee50c2287",
+    "path": "data/phase4/solvation_sensitivity_001/summary.json",
+    "sha256": "8969be34ebaaa8c977202adfaee5e6b3e6f18596ea39b5c136a5e3493a617201",
+    "bytes": 4476,
+    "git_blob_sha1": "981fb9513ac57d301d428b8cb910afd2b246248e",
+    "url": "https://github.com/songsiyi2006-chem/pincer-catmech-ai/blob/2edffb123791bd61acbfdeff763f603ee50c2287/data/phase4/solvation_sensitivity_001/summary.json"
+  },
+  "selected_values": {
+    "/rows": 405,
+    "/new_quantum_jobs": 0,
+    "/baseline_rows_checked": 27,
+    "/baseline_max_error_kcal_mol": 0.0,
+    "/baseline_temperature_K": 383.15,
+    "/cutoff_sensitivity_at_baseline": [
+      {
+        "n_alcohol": 1,
+        "temperature_K": 383.15,
+        "cutoff_min_kcal_mol": 3.175923152357427,
+        "cutoff_max_kcal_mol": 3.9691352485278912,
+        "cutoff_range_kcal_mol": 0.7932120961704641
+      },
+      {
+        "n_alcohol": 2,
+        "temperature_K": 383.15,
+        "cutoff_min_kcal_mol": 8.404477226569725,
+        "cutoff_max_kcal_mol": 10.702983504539588,
+        "cutoff_range_kcal_mol": 2.2985062779698637
+      },
+      {
+        "n_alcohol": 3,
+        "temperature_K": 383.15,
+        "cutoff_min_kcal_mol": 10.958427877332724,
+        "cutoff_max_kcal_mol": 14.423586066564894,
+        "cutoff_range_kcal_mol": 3.46515818923217
+      }
+    ],
+    "/scientific_status": "conditional_thermochemical_sensitivity_only",
+    "/assumptions": [
+      "One selected certified minimum per cluster size; incomplete conformer ensemble",
+      "ALPB electronic solvent contribution held fixed across temperature",
+      "Neutral tBuOH activity relative to 1 M is an independent hypothetical input",
+      "Alcohol activity is not tBuOK equivalents or a measured solution activity",
+      "Association equilibrium only; not catalytic rates, bulk populations or a TS barrier"
+    ],
+    "/physical_kinetics_validated": false,
+    "/bulk_speciation_validated": false
+  }
+}

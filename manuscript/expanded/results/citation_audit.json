@@ -1,0 +1,553 @@
+{
+  "schema_version": 1,
+  "scope": "Bibliographic identity and rendering integrity, not scientific or journal-tier validation.",
+  "numbering_rule": "First appearance in expanded English main text; any Chinese-only keys are diagnosed. Uncited registry entries follow registry order in the complete bibliography only.",
+  "no_new_scientific_calculations": true,
+  "failures": [],
+  "warnings": [],
+  "registry_sha256": "0e1102980577e78c11ad78b26e009d7ad4f667638693727955ac7ddc472fc489",
+  "script_sha256": "123ded7254febbce0b16bc5984012fbb7c8da66ba55b5690e42585a20c21eac3",
+  "registry_references": 41,
+  "globally_cited_references": 38,
+  "unused_verified_keys": [
+    "bond_dissociation",
+    "moleculenet",
+    "digital_twin"
+  ],
+  "dangling_keys": [],
+  "duplicate_citation_groups": {
+    "manuscript_english.md": [],
+    "manuscript_chinese.md": []
+  },
+  "unverified_publication_keys": [],
+  "journal_classifications": {
+    "unke2021": "unverified",
+    "batzner2022": "unverified",
+    "evaluation": "unverified",
+    "uncertainty": "unverified",
+    "leakage": "unverified",
+    "datasail": "unverified",
+    "kamath2018": "unverified",
+    "bond_dissociation": "unverified",
+    "psi4": "unverified",
+    "dunning": "unverified",
+    "morse": "unverified",
+    "neb": "unverified",
+    "neb_tangent": "unverified",
+    "gillespie": "unverified",
+    "berendsen": "unverified",
+    "freesolv": "unverified",
+    "moleculenet": "unverified",
+    "digital_twin": "unverified",
+    "tang1": "unverified",
+    "tang2": "unverified",
+    "tang3": "unverified",
+    "tang4": "unverified",
+    "mpnn": "not_applicable",
+    "schnet": "unverified",
+    "datasail_addendum": "unverified",
+    "esol2004": null,
+    "cns_mpo": null,
+    "chem_mllm": null,
+    "cu_data_driven": null,
+    "single_atom_review": null,
+    "yang2023": null,
+    "yang2026": null,
+    "aqsoldb": null,
+    "etkdg": null,
+    "etkdg2020": null,
+    "gfn2": null,
+    "pyscf2020": null,
+    "openmm": null,
+    "wtmeta": null,
+    "vina": null,
+    "qrrho": null
+  },
+  "partial_author_list_keys": [
+    "batzner2022",
+    "psi4",
+    "schnet",
+    "chem_mllm",
+    "etkdg",
+    "etkdg2020",
+    "pyscf2020"
+  ],
+  "null_doi_keys": [
+    "evaluation",
+    "mpnn"
+  ],
+  "global_numbering": [
+    {
+      "number": 1,
+      "key": "unke2021",
+      "registry_id": "R01",
+      "cited": true
+    },
+    {
+      "number": 2,
+      "key": "batzner2022",
+      "registry_id": "R02",
+      "cited": true
+    },
+    {
+      "number": 3,
+      "key": "tang1",
+      "registry_id": "R19",
+      "cited": true
+    },
+    {
+      "number": 4,
+      "key": "tang2",
+      "registry_id": "R20",
+      "cited": true
+    },
+    {
+      "number": 5,
+      "key": "uncertainty",
+      "registry_id": "R04",
+      "cited": true
+    },
+    {
+      "number": 6,
+      "key": "evaluation",
+      "registry_id": "R03",
+      "cited": true
+    },
+    {
+      "number": 7,
+      "key": "psi4",
+      "registry_id": "R09",
+      "cited": true
+    },
+    {
+      "number": 8,
+      "key": "dunning",
+      "registry_id": "R10",
+      "cited": true
+    },
+    {
+      "number": 9,
+      "key": "mpnn",
+      "registry_id": "R23",
+      "cited": true
+    },
+    {
+      "number": 10,
+      "key": "schnet",
+      "registry_id": "R24",
+      "cited": true
+    },
+    {
+      "number": 11,
+      "key": "morse",
+      "registry_id": "R11",
+      "cited": true
+    },
+    {
+      "number": 12,
+      "key": "etkdg",
+      "registry_id": "R34",
+      "cited": true
+    },
+    {
+      "number": 13,
+      "key": "etkdg2020",
+      "registry_id": "R35",
+      "cited": true
+    },
+    {
+      "number": 14,
+      "key": "gfn2",
+      "registry_id": "R36",
+      "cited": true
+    },
+    {
+      "number": 15,
+      "key": "pyscf2020",
+      "registry_id": "R37",
+      "cited": true
+    },
+    {
+      "number": 16,
+      "key": "esol2004",
+      "registry_id": "R26",
+      "cited": true
+    },
+    {
+      "number": 17,
+      "key": "cns_mpo",
+      "registry_id": "R27",
+      "cited": true
+    },
+    {
+      "number": 18,
+      "key": "openmm",
+      "registry_id": "R38",
+      "cited": true
+    },
+    {
+      "number": 19,
+      "key": "wtmeta",
+      "registry_id": "R39",
+      "cited": true
+    },
+    {
+      "number": 20,
+      "key": "vina",
+      "registry_id": "R40",
+      "cited": true
+    },
+    {
+      "number": 21,
+      "key": "qrrho",
+      "registry_id": "R41",
+      "cited": true
+    },
+    {
+      "number": 22,
+      "key": "aqsoldb",
+      "registry_id": "R33",
+      "cited": true
+    },
+    {
+      "number": 23,
+      "key": "yang2023",
+      "registry_id": "R31",
+      "cited": true
+    },
+    {
+      "number": 24,
+      "key": "yang2026",
+      "registry_id": "R32",
+      "cited": true
+    },
+    {
+      "number": 25,
+      "key": "chem_mllm",
+      "registry_id": "R28",
+      "cited": true
+    },
+    {
+      "number": 26,
+      "key": "cu_data_driven",
+      "registry_id": "R29",
+      "cited": true
+    },
+    {
+      "number": 27,
+      "key": "single_atom_review",
+      "registry_id": "R30",
+      "cited": true
+    },
+    {
+      "number": 28,
+      "key": "freesolv",
+      "registry_id": "R16",
+      "cited": true
+    },
+    {
+      "number": 29,
+      "key": "leakage",
+      "registry_id": "R05",
+      "cited": true
+    },
+    {
+      "number": 30,
+      "key": "datasail",
+      "registry_id": "R06",
+      "cited": true
+    },
+    {
+      "number": 31,
+      "key": "datasail_addendum",
+      "registry_id": "R25",
+      "cited": true
+    },
+    {
+      "number": 32,
+      "key": "gillespie",
+      "registry_id": "R14",
+      "cited": true
+    },
+    {
+      "number": 33,
+      "key": "berendsen",
+      "registry_id": "R15",
+      "cited": true
+    },
+    {
+      "number": 34,
+      "key": "neb",
+      "registry_id": "R12",
+      "cited": true
+    },
+    {
+      "number": 35,
+      "key": "neb_tangent",
+      "registry_id": "R13",
+      "cited": true
+    },
+    {
+      "number": 36,
+      "key": "tang3",
+      "registry_id": "R21",
+      "cited": true
+    },
+    {
+      "number": 37,
+      "key": "tang4",
+      "registry_id": "R22",
+      "cited": true
+    },
+    {
+      "number": 38,
+      "key": "kamath2018",
+      "registry_id": "R07",
+      "cited": true
+    },
+    {
+      "number": 39,
+      "key": "bond_dissociation",
+      "registry_id": "R08",
+      "cited": false
+    },
+    {
+      "number": 40,
+      "key": "moleculenet",
+      "registry_id": "R17",
+      "cited": false
+    },
+    {
+      "number": 41,
+      "key": "digital_twin",
+      "registry_id": "R18",
+      "cited": false
+    }
+  ],
+  "language_parity": {
+    "manuscript_english.md": {
+      "chinese_source": "manuscript_chinese.md",
+      "same_group_order": true,
+      "same_unique_keys": true
+    }
+  },
+  "documents": {
+    "manuscript_english.md": {
+      "source_sha256": "9c832fd85ec5bd2cf56c9b622bb0ca68170ad8b98579be86ece5eee11390f287",
+      "citation_groups": 31,
+      "citation_occurrences": 50,
+      "unique_cited_references": 38,
+      "reference_keys": [
+        "unke2021",
+        "batzner2022",
+        "tang1",
+        "tang2",
+        "uncertainty",
+        "evaluation",
+        "psi4",
+        "dunning",
+        "mpnn",
+        "schnet",
+        "morse",
+        "etkdg",
+        "etkdg2020",
+        "gfn2",
+        "pyscf2020",
+        "esol2004",
+        "cns_mpo",
+        "openmm",
+        "wtmeta",
+        "vina",
+        "qrrho",
+        "aqsoldb",
+        "yang2023",
+        "yang2026",
+        "chem_mllm",
+        "cu_data_driven",
+        "single_atom_review",
+        "freesolv",
+        "leakage",
+        "datasail",
+        "datasail_addendum",
+        "gillespie",
+        "berendsen",
+        "neb",
+        "neb_tangent",
+        "tang3",
+        "tang4",
+        "kamath2018"
+      ],
+      "reference_numbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38
+      ],
+      "rendered_file": "manuscript/expanded/rendered/manuscript_english.md",
+      "local_link_count": 52,
+      "local_link_failures": []
+    },
+    "manuscript_chinese.md": {
+      "source_sha256": "a120d00969373b506cb9b619310625b52c5e0402a46e80c1ce65d5d3661d6761",
+      "citation_groups": 31,
+      "citation_occurrences": 50,
+      "unique_cited_references": 38,
+      "reference_keys": [
+        "unke2021",
+        "batzner2022",
+        "tang1",
+        "tang2",
+        "uncertainty",
+        "evaluation",
+        "psi4",
+        "dunning",
+        "mpnn",
+        "schnet",
+        "morse",
+        "etkdg",
+        "etkdg2020",
+        "gfn2",
+        "pyscf2020",
+        "esol2004",
+        "cns_mpo",
+        "openmm",
+        "wtmeta",
+        "vina",
+        "qrrho",
+        "aqsoldb",
+        "yang2023",
+        "yang2026",
+        "chem_mllm",
+        "cu_data_driven",
+        "single_atom_review",
+        "freesolv",
+        "leakage",
+        "datasail",
+        "datasail_addendum",
+        "gillespie",
+        "berendsen",
+        "neb",
+        "neb_tangent",
+        "tang3",
+        "tang4",
+        "kamath2018"
+      ],
+      "reference_numbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38
+      ],
+      "rendered_file": "manuscript/expanded/rendered/manuscript_chinese.md",
+      "local_link_count": 52,
+      "local_link_failures": []
+    }
+  },
+  "source_markdown_unchanged_by_renderer": true,
+  "utf8_checks": {
+    "manuscript_english.md": {
+      "strict_utf8_decode": true,
+      "suspicious_sequences": []
+    },
+    "manuscript_chinese.md": {
+      "strict_utf8_decode": true,
+      "suspicious_sequences": []
+    },
+    "manuscript/expanded/rendered/manuscript_english.md": {
+      "strict_utf8_decode": true,
+      "suspicious_sequences": []
+    },
+    "manuscript/expanded/rendered/manuscript_chinese.md": {
+      "strict_utf8_decode": true,
+      "suspicious_sequences": []
+    },
+    "manuscript/expanded/bibliography.md": {
+      "strict_utf8_decode": true,
+      "suspicious_sequences": []
+    },
+    "manuscript/expanded/references.bib": {
+      "strict_utf8_decode": true,
+      "suspicious_sequences": []
+    },
+    "references_verified.json": {
+      "strict_utf8_decode": true,
+      "suspicious_sequences": []
+    }
+  },
+  "output_sha256": {
+    "manuscript/expanded/rendered/manuscript_english.md": "25ebdded8295d09a1706e81fb085a8d85f9d3d3a8c5dc43ea02e219f7285bba1",
+    "manuscript/expanded/rendered/manuscript_chinese.md": "4f6957b4d49351782bd81ea8b5182132b604e0980b9809566fd0ba6aca1db207",
+    "manuscript/expanded/bibliography.md": "1d93e6ba384548261a80cb0dce8066d9dcf8042701638f06a39ab2205113bc11",
+    "manuscript/expanded/references.bib": "ac762b1703a4813cfa88682959b75b82b8bbd0845de3f445ca95fc1c62c99a52"
+  },
+  "passed": true,
+  "failure_count": 0
+}

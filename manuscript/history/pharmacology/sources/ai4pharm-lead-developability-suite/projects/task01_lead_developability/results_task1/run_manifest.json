@@ -1,0 +1,46 @@
+{
+  "version": "1.0.0",
+  "created_utc": "2026-09-10T06:05:43.284147+00:00",
+  "python": "3.14.6 | packaged by Anaconda, Inc. | (main, Jul  9 2026, 14:29:05) [MSC v.1942 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.22631-SP0",
+  "dependencies": {
+    "rdkit": "2026.03.5",
+    "numpy": "2.5.2",
+    "pandas": "3.0.5",
+    "matplotlib": "3.11.1",
+    "seaborn": "0.13.2"
+  },
+  "seed": 20260910,
+  "conformers_requested": 6,
+  "conformer_timeout_seconds": 120.0,
+  "embedding_attempt_timeout_seconds": 36,
+  "panel_sha256": "97bcea5fcb819adc3089c6d8392b81cab2b852b8957a990caacc38ee104c4c0c",
+  "ionization_overrides": {},
+  "script_sha256": "429581dd4f1d33961ff790ef63114a1145b0958ee7bc5009a0522b78a3ae7f09",
+  "geometry_status_counts": {
+    "ok": 26,
+    "partial_convergence": 4
+  },
+  "applicability_statement": "Illustrative benchmark, not external validation. pKa/logD and ADMET surrogates are uncalibrated; hERG is not overall safety. 3D geometry does not establish solvent exposure or absolute chameleonicity.",
+  "score_semantics": "original_CNS_MPO_transforms_with_approximate_inputs",
+  "artifacts": {
+    "results_task1/developability_results.json": "7c0f7b9ab724b0e9b4858e9f2cdaa71618fa3db847ce20c56fc691ab22b25f12",
+    "results_task1/developability_results.csv": "b2e80c8bcc41ef288003890521e7195a805f759aad304100551d2f4dca857f06",
+    "results_task1/group_summary.csv": "69ce0d31ac0d68d7820356576f4c8bf886273e85c497ec86f9333262999d727c",
+    "figures_task1/fig1_mpo_distribution_violin.png": "017abb3c3d45609beef6e092e71feca0d8c1aa44b0eb0c7dfedc65565f02aff1",
+    "figures_task1/fig2_admet_radar_profiles.png": "0fabf47564350569767839d2f20ed3eb0f7d0ef95a48cfb00d08582ce368d1be",
+    "figures_task1/fig3_bro5_chemical_space_landscape.png": "9df46710f31d1522616ffc064bc1ef55f9a8ffdab98e075c6dac6cdcb5938c42",
+    "figures_task1/fig1_mpo_distribution_violin.svg": "6cdf70d3ab32c50556cb0e2a9d2e481319a72ca3ef5d23c34649c7ad2f382168",
+    "figures_task1/fig2_admet_radar_profiles.svg": "227f07f54b8722f8db445a9a7d7fd0d86d05936e4ea6d37abaa45e5453349699",
+    "figures_task1/fig3_bro5_chemical_space_landscape.svg": "d48a1f6c0504207c3dd5c19b11460effc8dc740e6dc1f891a15b9f0becf5aede"
+  },
+  "layout_migration": {
+    "baseline_commit": "3785df88d244bf276de7f9b6e4d1d74995b530b9",
+    "original_manifest_path": "results_task1/run_manifest.json",
+    "current_sources_sha256": {
+      "projects/task01_lead_developability/run_task1_mpo_admet_developability.py": "2d8e74cc974764d74c97437d33ac96c44ebbef0bf51e23fd3c34e46ab65f0287"
+    },
+    "previous_file_hashes": {},
+    "note": "Directory/import/default-output and navigation changes only. Original script_sha256/run metadata retain scientific-execution provenance; current source hashes are not evidence of a full scientific rerun. Existing scientific results and figures are preserved byte-for-byte."
+  }
+}

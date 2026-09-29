@@ -1,0 +1,52 @@
+[
+  {
+    "commit": "d09706620475834fd536ecfb055dd1a95bd26018",
+    "author_date": "2026-09-13T00:47:44+08:00",
+    "subject": "feat(core): implement quasi-rrho thermodynamics, steric profiling, and bilingual docs"
+  },
+  {
+    "commit": "f26bc93814a0730386771c218ad0af19baeb86a1",
+    "author_date": "2026-09-13T04:28:07+08:00",
+    "subject": "feat(campaign): 24-catalyst GFN2-xTB screening, TS NEB search, stiff microkinetics, and bilingual monographs"
+  },
+  {
+    "commit": "ee026e96b8af9f463b3e242cc8dfd11682291afc",
+    "author_date": "2026-09-14T01:10:42+08:00",
+    "subject": "feat(phase3): add audited spin surfaces, microsolvation, analytic kinetics and native EGNN"
+  },
+  {
+    "commit": "7d1f6354ca777364b7bdae321d2ea8aa5652406c",
+    "author_date": "2026-09-14T01:20:34+08:00",
+    "subject": "fix(artifacts): preserve audited Phase 3 bytes on Windows"
+  },
+  {
+    "commit": "9aa9c08b15f2f64b3f108e4a90e0f8ec0a4352c0",
+    "author_date": "2026-09-16T15:04:22+08:00",
+    "subject": "feat(research): add falsifiable mechanism plan, precursor diagnostics and HPC bridge"
+  },
+  {
+    "commit": "6197929f41074cb4b21fb2792c7dcd55772a86c0",
+    "author_date": "2026-09-20T00:35:29+08:00",
+    "subject": "feat(electrocatalysis): add evidence-gated Cu-N-P audit and native pilot"
+  },
+  {
+    "commit": "e35c6a9dd2d10a60c60921d84258142ffc1b8b21",
+    "author_date": "2026-09-20T20:06:51+08:00",
+    "subject": "Add evidence-gated Cu operando local research and native DFT diagnostics"
+  },
+  {
+    "commit": "015acdaa03a0dfb20cfaa0af11b722b5e69cc5a9",
+    "author_date": "2026-09-20T20:08:58+08:00",
+    "subject": "Enable Windows long paths for native calculation archives in CI"
+  },
+  {
+    "commit": "e3163b418f072b15c65bb3f3cd77d14d7793b864",
+    "author_date": "2026-09-20T20:12:32+08:00",
+    "subject": "Install declared advanced test dependencies in CI"
+  },
+  {
+    "commit": "2edffb123791bd61acbfdeff763f603ee50c2287",
+    "author_date": "2026-09-20T20:19:05+08:00",
+    "subject": "Canonicalize Windows temporary paths used by legacy tests"
+  }
+]

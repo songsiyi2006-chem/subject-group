@@ -1,0 +1,21 @@
+{
+  "source": {
+    "source_id": "C06",
+    "repository": "https://github.com/songsiyi2006-chem/pincer-catmech-ai",
+    "commit": "2edffb123791bd61acbfdeff763f603ee50c2287",
+    "path": "data/phase3/spin/pincer_mecp_from_matrix_001/summary.json",
+    "sha256": "5c6f338267e5812fb668ff885349b3008977aa864df48a2486af17bcc0df2d2a",
+    "bytes": 8854,
+    "git_blob_sha1": "d654d698cae9457852fa0c6420543e4dd2191a34",
+    "url": "https://github.com/songsiyi2006-chem/pincer-catmech-ai/blob/2edffb123791bd61acbfdeff763f603ee50c2287/data/phase3/spin/pincer_mecp_from_matrix_001/summary.json"
+  },
+  "selected_values": {
+    "/status": "no_eligible_pair",
+    "/quantum_pair_evaluations": 0,
+    "/quantum_state_attempts": 0,
+    "/first_order_crossing": false,
+    "/minimum_verified": false,
+    "/validated_catalyst_label": false,
+    "/evidence": "prospective bounded pincer crossing search; no SOC, rate, experiment or global minimum claim"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "scope": "All eight standalone pharmacology PNG figures; SVG rendering not separately visually reviewed. P4 EN/CN were viewed before context compaction; P1-P3 EN/CN were viewed after it.",
+  "png_images_reviewed": 8,
+  "review_date": "2026-09-29",
+  "records": [
+    {
+      "file": "figures/Figure_P1_english.png",
+      "sha256": "8d5013498c1aca1cb1e38e73401a84123f65f4bebb01dd7d3190d50aa28bb57c",
+      "manifest_hash_matches": true,
+      "review_method": "Individual image displayed with view_image detail=original; visual AI assessment, not human peer review.",
+      "status": "pass",
+      "findings": [],
+      "pixels": [
+        2700,
+        1260
+      ]
+    },
+    {
+      "file": "figures/Figure_P2_english.png",
+      "sha256": "b2c9e0466c0e0d1f4cf2341c89d101ae6dc3d9fd241770765791f86adac7da0b",
+      "manifest_hash_matches": true,
+      "review_method": "Individual image displayed with view_image detail=original; visual AI assessment, not human peer review.",
+      "status": "pass",
+      "findings": [],
+      "pixels": [
+        2700,
+        1260
+      ]
+    },
+    {
+      "file": "figures/Figure_P3_english.png",
+      "sha256": "47d0e6f8e20964bacacfb8ef9898e2677798333d2f6aac0dfcfe152d487b87d8",
+      "manifest_hash_matches": true,
+      "review_method": "Individual image displayed with view_image detail=original; visual AI assessment, not human peer review.",
+      "status": "pass",
+      "findings": [],
+      "pixels": [
+        2700,
+        1260
+      ],
+      "previous_sha256": "e2e5bd0ad9b3767c4f90c5a076ca03300f9c5ddff5cf03926234d616bd79e96a",
+      "resolved_defect": "Legend moved to lower left; original-size reinspection confirms no data overlap."
+    },
+    {
+      "file": "figures/Figure_P4_english.png",
+      "sha256": "23a044f9e96b0ce7173720258839f6d9842414fba204e0977eaf10c7c3e2f03d",
+      "manifest_hash_matches": true,
+      "review_method": "Individual image displayed with view_image detail=original; visual AI assessment, not human peer review.",
+      "status": "pass",
+      "findings": [],
+      "pixels": [
+        2700,
+        1260
+      ]
+    },
+    {
+      "file": "figures/Figure_P1_chinese.png",
+      "sha256": "ca69c10f221021303bebaba4f8e85a26e1f800f25eac8399121f40f48c9744ec",
+      "manifest_hash_matches": true,
+      "review_method": "Individual image displayed with view_image detail=original; visual AI assessment, not human peer review.",
+      "status": "pass",
+      "findings": [],
+      "pixels": [
+        2700,
+        1260
+      ]
+    },
+    {
+      "file": "figures/Figure_P2_chinese.png",
+      "sha256": "2e63017946bcbaaaf3a0beca0e634aef23825ff3d465840e0a2fc8089508bbf9",
+      "manifest_hash_matches": true,
+      "review_method": "Individual image displayed with view_image detail=original; visual AI assessment, not human peer review.",
+      "status": "pass",
+      "findings": [],
+      "pixels": [
+        2700,
+        1260
+      ]
+    },
+    {
+      "file": "figures/Figure_P3_chinese.png",
+      "sha256": "77bbe784546c841a2a0a2d13c7211c96121117e0b13177b741a84846646006ee",
+      "manifest_hash_matches": true,
+      "review_method": "Individual image displayed with view_image detail=original; visual AI assessment, not human peer review.",
+      "status": "pass",
+      "findings": [],
+      "pixels": [
+        2700,
+        1260
+      ]
+    },
+    {
+      "file": "figures/Figure_P4_chinese.png",
+      "sha256": "f24f76d151233d3d13ee19117c5801d5a369cf8e6f8c08cc45c3a48d35db05ce",
+      "manifest_hash_matches": true,
+      "review_method": "Individual image displayed with view_image detail=original; visual AI assessment, not human peer review.",
+      "status": "pass",
+      "findings": [],
+      "pixels": [
+        2700,
+        1260
+      ]
+    }
+  ],
+  "unresolved_defects": [],
+  "individual_image_views": 9,
+  "all_16_manifest_hashes_match": true
+}

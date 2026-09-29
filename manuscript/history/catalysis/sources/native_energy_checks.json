@@ -1,0 +1,242 @@
+[
+  {
+    "name": "Fe_bipyridine_pnnoh_iPr_M1",
+    "source": {
+      "source_id": "N01",
+      "repository": "https://github.com/songsiyi2006-chem/pincer-catmech-ai",
+      "commit": "2edffb123791bd61acbfdeff763f603ee50c2287",
+      "path": "data/phase3/spin/pincer_vertical_diagnostic_003/Fe_bipyridine_pnnoh_iPr/multiplicity_1/c490f69208f2b95a31fb7853c3c21524c1ecc9c1ebe5c6fa1f6a9aa93df25335/attempt_c0dc45b78faf4633adecee91000eeab5/native/pair_dc3b8b231f824da2af13864099c77eb6/multiplicity_1/psi4.out",
+      "sha256": "9edea0ee550f92365fcfed4b430f011f98fb17ad08bcf94bef7ea6e76d4755a3",
+      "bytes": 33150,
+      "git_blob_sha1": "438e3e7c6092492f2275d2906fe0e236b0da267d",
+      "url": "https://github.com/songsiyi2006-chem/pincer-catmech-ai/blob/2edffb123791bd61acbfdeff763f603ee50c2287/data/phase3/spin/pincer_vertical_diagnostic_003/Fe_bipyridine_pnnoh_iPr/multiplicity_1/c490f69208f2b95a31fb7853c3c21524c1ecc9c1ebe5c6fa1f6a9aa93df25335/attempt_c0dc45b78faf4633adecee91000eeab5/native/pair_dc3b8b231f824da2af13864099c77eb6/multiplicity_1/psi4.out"
+    },
+    "selected_native_lines": [
+      {
+        "line": 363,
+        "text": "  @DF-RKS Final Energy: -2533.71224361485110"
+      }
+    ],
+    "expected_summary_energy_hartree": -2533.712243614851,
+    "native_final_energy_hartree": -2533.712243614851,
+    "energy_absolute_difference_hartree": 0.0,
+    "recorded_native_hash_matches": true,
+    "passed": true
+  },
+  {
+    "name": "Fe_bipyridine_pnnoh_iPr_M3",
+    "source": {
+      "source_id": "N02",
+      "repository": "https://github.com/songsiyi2006-chem/pincer-catmech-ai",
+      "commit": "2edffb123791bd61acbfdeff763f603ee50c2287",
+      "path": "data/phase3/spin/pincer_vertical_diagnostic_003/Fe_bipyridine_pnnoh_iPr/multiplicity_3/30e7885e2e8fa62b59451d539ac72be28bd7049895d350fd56315accb7d8dbbc/attempt_592722eb97da4c9da9ca729550e9f736/native/pair_b90810f6d6344621a3608a783a9b7f4f/multiplicity_3/psi4.out",
+      "sha256": "04edd0a264e55d1e323bd76cf6644c03dac1b0e3c0a2c1933a944e903215538b",
+      "bytes": 35562,
+      "git_blob_sha1": "458af4ba46d725ce4caf338c355b53cd838af294",
+      "url": "https://github.com/songsiyi2006-chem/pincer-catmech-ai/blob/2edffb123791bd61acbfdeff763f603ee50c2287/data/phase3/spin/pincer_vertical_diagnostic_003/Fe_bipyridine_pnnoh_iPr/multiplicity_3/30e7885e2e8fa62b59451d539ac72be28bd7049895d350fd56315accb7d8dbbc/attempt_592722eb97da4c9da9ca729550e9f736/native/pair_b90810f6d6344621a3608a783a9b7f4f/multiplicity_3/psi4.out"
+    },
+    "selected_native_lines": [
+      {
+        "line": 407,
+        "text": "  @DF-UKS Final Energy: -2533.74370274371358"
+      }
+    ],
+    "expected_summary_energy_hartree": -2533.7437027437136,
+    "native_final_energy_hartree": -2533.7437027437136,
+    "energy_absolute_difference_hartree": 0.0,
+    "recorded_native_hash_matches": true,
+    "passed": true
+  },
+  {
+    "name": "Fe_bipyridine_pnnoh_Ph_M1",
+    "source": {
+      "source_id": "N03",
+      "repository": "https://github.com/songsiyi2006-chem/pincer-catmech-ai",
+      "commit": "2edffb123791bd61acbfdeff763f603ee50c2287",
+      "path": "data/phase3/spin/pincer_vertical_diagnostic_003/Fe_bipyridine_pnnoh_Ph/multiplicity_1/ba95da2be40ce573d92cf2790208ff7ffd8ae4a765233704baa7edd268fc0ea4/attempt_abe263295ca5419ea93bcd82adc4b22f/native/pair_3509beca4b16452a964e96ca0083338c/multiplicity_1/psi4.out",
+      "sha256": "e2ff829f661d32ad54ad4b99e6a2a72d9a6496f2c5c68e4ee0234af202ae3107",
+      "bytes": 32270,
+      "git_blob_sha1": "f24378cafc0eeaf58c2275668a89b608ef6d17d7",
+      "url": "https://github.com/songsiyi2006-chem/pincer-catmech-ai/blob/2edffb123791bd61acbfdeff763f603ee50c2287/data/phase3/spin/pincer_vertical_diagnostic_003/Fe_bipyridine_pnnoh_Ph/multiplicity_1/ba95da2be40ce573d92cf2790208ff7ffd8ae4a765233704baa7edd268fc0ea4/attempt_abe263295ca5419ea93bcd82adc4b22f/native/pair_3509beca4b16452a964e96ca0083338c/multiplicity_1/psi4.out"
+    },
+    "selected_native_lines": [
+      {
+        "line": 349,
+        "text": "  @DF-RKS Final Energy: -2756.84223124016080"
+      }
+    ],
+    "expected_summary_energy_hartree": -2756.842231240161,
+    "native_final_energy_hartree": -2756.842231240161,
+    "energy_absolute_difference_hartree": 0.0,
+    "recorded_native_hash_matches": true,
+    "passed": true
+  },
+  {
+    "name": "Fe_macho_pnp_iPr_M5",
+    "source": {
+      "source_id": "N04",
+      "repository": "https://github.com/songsiyi2006-chem/pincer-catmech-ai",
+      "commit": "2edffb123791bd61acbfdeff763f603ee50c2287",
+      "path": "data/phase3/spin/pincer_vertical_diagnostic_003/Fe_macho_pnp_iPr/multiplicity_5/dd28946d6fe7a7d610c5527adc6aa65d822b1454b2fa2031c9417a9848939114/attempt_0fe918a50ab04ebb8269520d46b88a10/native/pair_6faed9aaf1624fcd8601dbb92400d4e5/multiplicity_5/psi4.out",
+      "sha256": "322cbdccdeda7c88057e0d5c4206736fc1038f7ce9df0d0475b32dca59ca69ad",
+      "bytes": 38806,
+      "git_blob_sha1": "9d2912619f6d4533d7bd0df71689c7792ef46f99",
+      "url": "https://github.com/songsiyi2006-chem/pincer-catmech-ai/blob/2edffb123791bd61acbfdeff763f603ee50c2287/data/phase3/spin/pincer_vertical_diagnostic_003/Fe_macho_pnp_iPr/multiplicity_5/dd28946d6fe7a7d610c5527adc6aa65d822b1454b2fa2031c9417a9848939114/attempt_0fe918a50ab04ebb8269520d46b88a10/native/pair_6faed9aaf1624fcd8601dbb92400d4e5/multiplicity_5/psi4.out"
+    },
+    "selected_native_lines": [
+      {
+        "line": 421,
+        "text": "  @DF-UKS Final Energy: -2713.70567523712589"
+      }
+    ],
+    "expected_summary_energy_hartree": -2713.705675237126,
+    "native_final_energy_hartree": -2713.705675237126,
+    "energy_absolute_difference_hartree": 0.0,
+    "recorded_native_hash_matches": true,
+    "passed": true
+  },
+  {
+    "name": "Mn_bipyridine_pnnoh_Ph_M1",
+    "source": {
+      "source_id": "N05",
+      "repository": "https://github.com/songsiyi2006-chem/pincer-catmech-ai",
+      "commit": "2edffb123791bd61acbfdeff763f603ee50c2287",
+      "path": "data/phase3/spin/pincer_vertical_diagnostic_003/Mn_bipyridine_pnnoh_Ph/multiplicity_1/60c237232cdc45a9d7928a06eedb1f1595d503a41b7068e03237deb75eb06744/attempt_9df423e73e9d47a997aaed076828f4b5/native/pair_9b13b19bb01f4567bf1dcfa475569bc2/multiplicity_1/psi4.out",
+      "sha256": "924856498ae3403d0df24f00da0c7f637552b07b425f553f790c950b397f8343",
+      "bytes": 34196,
+      "git_blob_sha1": "46dc5c6d201a77ee23d2f94fb8b2930d9358241a",
+      "url": "https://github.com/songsiyi2006-chem/pincer-catmech-ai/blob/2edffb123791bd61acbfdeff763f603ee50c2287/data/phase3/spin/pincer_vertical_diagnostic_003/Mn_bipyridine_pnnoh_Ph/multiplicity_1/60c237232cdc45a9d7928a06eedb1f1595d503a41b7068e03237deb75eb06744/attempt_9df423e73e9d47a997aaed076828f4b5/native/pair_9b13b19bb01f4567bf1dcfa475569bc2/multiplicity_1/psi4.out"
+    },
+    "selected_native_lines": [
+      {
+        "line": 370,
+        "text": "  @DF-RKS Final Energy: -2756.72588292047612"
+      }
+    ],
+    "expected_summary_energy_hartree": -2756.725882920476,
+    "native_final_energy_hartree": -2756.725882920476,
+    "energy_absolute_difference_hartree": 0.0,
+    "recorded_native_hash_matches": true,
+    "passed": true
+  },
+  {
+    "name": "Mn_bipyridine_pnnoh_iPr_M1",
+    "source": {
+      "source_id": "N06",
+      "repository": "https://github.com/songsiyi2006-chem/pincer-catmech-ai",
+      "commit": "2edffb123791bd61acbfdeff763f603ee50c2287",
+      "path": "data/phase3/spin/pincer_vertical_diagnostic_003/Mn_bipyridine_pnnoh_iPr/multiplicity_1/f5b894883ab46baf3d8b4356f174f4462e8bebdebddc8e9537abccc0ebaec927/attempt_811f9c22507a4d0eafb39b42a7ce35dd/native/pair_ff2c279b5b59406bb8e785e08e5a50f3/multiplicity_1/psi4.out",
+      "sha256": "794e6d75c96c1ed1ccecff2146036f75f8f04f9c4af31247a1aad2b70c22a21f",
+      "bytes": 35157,
+      "git_blob_sha1": "95b80210f2ec5fbef7c46b716ca94360fc32ab3c",
+      "url": "https://github.com/songsiyi2006-chem/pincer-catmech-ai/blob/2edffb123791bd61acbfdeff763f603ee50c2287/data/phase3/spin/pincer_vertical_diagnostic_003/Mn_bipyridine_pnnoh_iPr/multiplicity_1/f5b894883ab46baf3d8b4356f174f4462e8bebdebddc8e9537abccc0ebaec927/attempt_811f9c22507a4d0eafb39b42a7ce35dd/native/pair_ff2c279b5b59406bb8e785e08e5a50f3/multiplicity_1/psi4.out"
+    },
+    "selected_native_lines": [
+      {
+        "line": 385,
+        "text": "  @DF-RKS Final Energy: -2533.59018940932310"
+      }
+    ],
+    "expected_summary_energy_hartree": -2533.590189409323,
+    "native_final_energy_hartree": -2533.590189409323,
+    "energy_absolute_difference_hartree": 0.0,
+    "recorded_native_hash_matches": true,
+    "passed": true
+  },
+  {
+    "name": "Mn_pyridine_pnn_Ph_M1",
+    "source": {
+      "source_id": "N07",
+      "repository": "https://github.com/songsiyi2006-chem/pincer-catmech-ai",
+      "commit": "2edffb123791bd61acbfdeff763f603ee50c2287",
+      "path": "data/phase3/spin/pincer_vertical_diagnostic_003/Mn_pyridine_pnn_Ph/multiplicity_1/4cc3dfe37f53555a8ad918ec328be771cd6114f2bf6ea3728638910bbfeae64d/attempt_a072122147e94f2d888aa7d91776e957/native/pair_8cc1c1947bd34409a101de807d2284e8/multiplicity_1/psi4.out",
+      "sha256": "2fdac03aea9fdec8ab1bd663d3398a4ae375539c36a5ac5222ded448e1996be7",
+      "bytes": 35588,
+      "git_blob_sha1": "8aa680ec49f6076c55c6e3797a25e556075299cc",
+      "url": "https://github.com/songsiyi2006-chem/pincer-catmech-ai/blob/2edffb123791bd61acbfdeff763f603ee50c2287/data/phase3/spin/pincer_vertical_diagnostic_003/Mn_pyridine_pnn_Ph/multiplicity_1/4cc3dfe37f53555a8ad918ec328be771cd6114f2bf6ea3728638910bbfeae64d/attempt_a072122147e94f2d888aa7d91776e957/native/pair_8cc1c1947bd34409a101de807d2284e8/multiplicity_1/psi4.out"
+    },
+    "selected_native_lines": [
+      {
+        "line": 371,
+        "text": "  @DF-RKS Final Energy: -2687.25661695926419"
+      }
+    ],
+    "expected_summary_energy_hartree": -2687.256616959264,
+    "native_final_energy_hartree": -2687.256616959264,
+    "energy_absolute_difference_hartree": 0.0,
+    "recorded_native_hash_matches": true,
+    "passed": true
+  },
+  {
+    "name": "Mn_pyridine_pnn_iPr_M1",
+    "source": {
+      "source_id": "N08",
+      "repository": "https://github.com/songsiyi2006-chem/pincer-catmech-ai",
+      "commit": "2edffb123791bd61acbfdeff763f603ee50c2287",
+      "path": "data/phase3/spin/pincer_vertical_diagnostic_003/Mn_pyridine_pnn_iPr/multiplicity_1/95aaf8fed4033c834f3609e68a63458ac5b2d732a9f3f5d3ff4a9721dc80bcaf/attempt_d97d4ab4d17248bd8121887d40163cc5/native/pair_912d4e023b364246a603784efa3ac422/multiplicity_1/psi4.out",
+      "sha256": "63a4f032b681a903a66da7ad8f1b0d2aacb66289793947958f485711f03c8a4a",
+      "bytes": 34636,
+      "git_blob_sha1": "a4220851eb6e5ffe2f81b7065057a3e0c743effb",
+      "url": "https://github.com/songsiyi2006-chem/pincer-catmech-ai/blob/2edffb123791bd61acbfdeff763f603ee50c2287/data/phase3/spin/pincer_vertical_diagnostic_003/Mn_pyridine_pnn_iPr/multiplicity_1/95aaf8fed4033c834f3609e68a63458ac5b2d732a9f3f5d3ff4a9721dc80bcaf/attempt_d97d4ab4d17248bd8121887d40163cc5/native/pair_912d4e023b364246a603784efa3ac422/multiplicity_1/psi4.out"
+    },
+    "selected_native_lines": [
+      {
+        "line": 363,
+        "text": "  @DF-RKS Final Energy: -2464.11329284308113"
+      }
+    ],
+    "expected_summary_energy_hartree": -2464.113292843081,
+    "native_final_energy_hartree": -2464.113292843081,
+    "energy_absolute_difference_hartree": 0.0,
+    "recorded_native_hash_matches": true,
+    "passed": true
+  },
+  {
+    "name": "DFT001-pbe0-neutral",
+    "source": {
+      "source_id": "N09",
+      "repository": "https://github.com/songsiyi2006-chem/pincer-catmech-ai",
+      "commit": "2edffb123791bd61acbfdeff763f603ee50c2287",
+      "path": "projects/cu-np-operando/data/dft_pilot/runs/DFT001-pbe0-neutral/psi4.out",
+      "sha256": "64a9d93cede25d56fa4c0e84ce2249735decad03e8d0a02c4c69832b91297333",
+      "bytes": 18672,
+      "git_blob_sha1": "5f68107c57d0e0f9b280bdc825d9089fe9467b63",
+      "url": "https://github.com/songsiyi2006-chem/pincer-catmech-ai/blob/2edffb123791bd61acbfdeff763f603ee50c2287/projects/cu-np-operando/data/dft_pilot/runs/DFT001-pbe0-neutral/psi4.out"
+    },
+    "selected_native_lines": [
+      {
+        "line": 344,
+        "text": "  @DF-RKS Final Energy:  -531.56639741362392"
+      }
+    ],
+    "expected_summary_energy_hartree": -531.5663974136239,
+    "native_final_energy_hartree": -531.5663974136239,
+    "energy_absolute_difference_hartree": 0.0,
+    "recorded_native_hash_matches": null,
+    "passed": true
+  },
+  {
+    "name": "DFT003b-b3lyp-neutral",
+    "source": {
+      "source_id": "N10",
+      "repository": "https://github.com/songsiyi2006-chem/pincer-catmech-ai",
+      "commit": "2edffb123791bd61acbfdeff763f603ee50c2287",
+      "path": "projects/cu-np-operando/data/dft_pilot/runs/DFT003b-b3lyp-neutral/psi4.out",
+      "sha256": "aab36d62c7c04c37a7388053bd16dc347c63de9cc0d4c3aadd6703cc289eed11",
+      "bytes": 18772,
+      "git_blob_sha1": "b70f1ab3b77db6c7c4ede4158b7712f759442291",
+      "url": "https://github.com/songsiyi2006-chem/pincer-catmech-ai/blob/2edffb123791bd61acbfdeff763f603ee50c2287/projects/cu-np-operando/data/dft_pilot/runs/DFT003b-b3lyp-neutral/psi4.out"
+    },
+    "selected_native_lines": [
+      {
+        "line": 346,
+        "text": "  @DF-RKS Final Energy:  -532.17357816827007"
+      }
+    ],
+    "expected_summary_energy_hartree": -532.1735781682701,
+    "native_final_energy_hartree": -532.1735781682701,
+    "energy_absolute_difference_hartree": 0.0,
+    "recorded_native_hash_matches": null,
+    "passed": true
+  }
+]

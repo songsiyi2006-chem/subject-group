@@ -1,0 +1,4 @@
+archetype,n,cns_mpo_median,cns_mpo_mean,oral_score_median,herg_proxy_median,ro5_violation_median
+Oral Drugs,10,4.98985,4.8064409,81.049384,0.35154907,0
+Toxic Dropouts,10,3.64726,3.7550159,75.028315,0.57469418,0
+bRo5 Modalities,10,1.6174059,1.7267717,43.759364,0.45541962,2

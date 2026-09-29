@@ -1,0 +1,11 @@
+id,name,force_field,accepted_optimization_records,embedded,Emin_kcal_mol,Emax_kcal_mol,range_kcal_mol,geometric_IMHB_count,fragments,source_pointer
+M01,Macrocyclic chameleon peptidomimetic,MMFF94,50,50,67.37,110.42,43.06,2,1,/results/0/conformers
+M02,Strained azaspiro-cubane bioisostere,MMFF94,50,50,106.33,114.92,8.59,0,1,/results/1/conformers
+M03,Bivalent heterobifunctional degron (PROTAC prototype),MMFF94,50,50,29.16,41.33,12.17,1,2,/results/2/conformers
+M04,Axially + centrally chiral atropisomeric biaryl,MMFF94,50,50,71.34,82.83,11.48,1,1,/results/3/conformers
+M05,Perfluorinated polycyclic cage vector,MMFF94,50,50,-0.15,7.72,7.87,0,1,/results/4/conformers
+M06,Oxetane-fused polyketide NP mimic,MMFF94,50,50,38.04,65.47,27.43,1,1,/results/5/conformers
+M07,Zwitterionic B-N dative macrocycle,UFF,50,50,78.56,78.82,0.26,0,1,/results/6/conformers
+M08,Strained bicyclo-acrylamide covalent warhead,MMFF94,50,50,8.43,15.27,6.84,0,1,/results/7/conformers
+M09R,Aza-[5]-carbohelicene (repaired reference for M09),MMFF94,50,50,97.19,97.19,0.0,0,1,/results/9/conformers
+M10,Tetra-ortho hindered peptoid core,MMFF94,50,50,123.99,139.09,15.11,0,1,/results/10/conformers

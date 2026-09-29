@@ -1,0 +1,7 @@
+{
+  "slope_per_eV": -2.6855614139245185,
+  "intercept": -21.053877107218092,
+  "R_squared": 0.29918012726910964,
+  "n": 8,
+  "interpretation": "Exploratory only: independent illustrative kinetic inputs, mixed mechanisms"
+}

@@ -1,0 +1,149 @@
+{
+  "document": "manuscript_chinese",
+  "pdf_sha256": "91392a6a3672ba7c623ab73b8e262782979c44921605f57d8fbf742c13c024ba",
+  "pages_reviewed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23
+  ],
+  "page_notes": [
+    {
+      "page": 1,
+      "finding": "Title, author, abstract and opening prose clean.",
+      "passed": true
+    },
+    {
+      "page": 2,
+      "finding": "Figure 1 and caption legible; methods clean.",
+      "passed": true
+    },
+    {
+      "page": 3,
+      "finding": "Methods and first displayed equation clean.",
+      "passed": true
+    },
+    {
+      "page": 4,
+      "finding": "Remaining displayed equations and methods legible.",
+      "passed": true
+    },
+    {
+      "page": 5,
+      "finding": "Repository table and methodological prose legible.",
+      "passed": true
+    },
+    {
+      "page": 6,
+      "finding": "Reference discussion and electronic-energy table legible.",
+      "passed": true
+    },
+    {
+      "page": 7,
+      "finding": "Dissociation curves, caption and matched-error table clean.",
+      "passed": true
+    },
+    {
+      "page": 8,
+      "finding": "Paired improvements and signed cross-term plots legible.",
+      "passed": true
+    },
+    {
+      "page": 9,
+      "finding": "Vibrational-level plot and boundary discussion legible.",
+      "passed": true
+    },
+    {
+      "page": 10,
+      "finding": "Tail-convergence table and plot clean.",
+      "passed": true
+    },
+    {
+      "page": 11,
+      "finding": "Commit identifiers and historical-count table within margins.",
+      "passed": true
+    },
+    {
+      "page": 12,
+      "finding": "Dense prose and table start legible.",
+      "passed": true
+    },
+    {
+      "page": 13,
+      "finding": "Continued table repeats headers; prose clean.",
+      "passed": true
+    },
+    {
+      "page": 14,
+      "finding": "Reference-energy cells wrap digits but remain readable; VMC table and prose intact.",
+      "passed": true
+    },
+    {
+      "page": 15,
+      "finding": "Trace statistics table and reference-alignment prose intact.",
+      "passed": true
+    },
+    {
+      "page": 16,
+      "finding": "Matched-method and historical-gate tables legible.",
+      "passed": true
+    },
+    {
+      "page": 17,
+      "finding": "Conformer figure labels and caption legible.",
+      "passed": true
+    },
+    {
+      "page": 18,
+      "finding": "VMC error bars and time-window heatmaps legible.",
+      "passed": true
+    },
+    {
+      "page": 19,
+      "finding": "Reference-alignment plot and rank-inversion matrix clean.",
+      "passed": true
+    },
+    {
+      "page": 20,
+      "finding": "Catalytic-source prose and gate table within margins.",
+      "passed": true
+    },
+    {
+      "page": 21,
+      "finding": "Spin-gate and spin-contamination plots clean.",
+      "passed": true
+    },
+    {
+      "page": 22,
+      "finding": "Solvation table, units and prose intact.",
+      "passed": true
+    },
+    {
+      "page": 23,
+      "finding": "NEB table and paired panels legible; EGNN section starts cleanly.",
+      "passed": true
+    }
+  ],
+  "unresolved_defects": [],
+  "scope": "AI visual inspection of each rendered page at 918 x 1188 pixels; not human peer review or independent scientific validation.",
+  "render_directory_label": "expanded-paper-pages-v2"
+}

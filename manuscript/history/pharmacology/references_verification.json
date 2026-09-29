@@ -1,0 +1,62 @@
+{
+  "scope": "Primary-source metadata checks for the three background papers named in the pharmacology history chapter. These papers are not calculations performed in the present work.",
+  "verification_date": "2026-09-29",
+  "classification_policy": "No journal quartile inferred from impact factor, publisher, or title; CAS and JCR classifications remain unverified.",
+  "references": [
+    {
+      "key": "chem_mllm",
+      "title": "Developing ChemMLLM as a multimodal large language model for chemistry",
+      "authors_verified": ["Qian Tan", "Di Zhang", "Ben Gao"],
+      "authors_partial": true,
+      "author_list_note": "Only the first three authors were verified from the accessible publisher record; et al. must be retained.",
+      "journal": "Cell Reports Physical Science",
+      "year": 2026,
+      "volume": "7",
+      "issue": "5",
+      "article_number": "103310",
+      "doi": "10.1016/j.xcrp.2026.103310",
+      "publisher_url": "https://www.cell.com/cell-reports-physical-science/fulltext/S2666-3864(26)00216-X",
+      "access_scope": "Publisher article metadata and abstract retrieved through the DOI search record; open-access label observed. No journal PDF copied into this audit.",
+      "supported_claim": "Background on a published chemistry multimodal language model; does not supply a trained model or executed computation for this manuscript.",
+      "classification": {"CAS": "unverified", "JCR": "unverified"}
+    },
+    {
+      "key": "cu_data_driven",
+      "title": "Data-driven copper catalysis enables stereoselective fluorocyclopropanation",
+      "authors_verified": ["Chongyuan Yan", "Jiewen Liu", "Lin Tan", "Yating Chen", "Huw M. L. Davies", "Zhunzhun Yu", "Kuangbiao Liao"],
+      "authors_partial": false,
+      "journal": "Chem",
+      "year": 2026,
+      "volume": "12",
+      "issue": "6",
+      "article_number": "102922",
+      "doi": "10.1016/j.chempr.2025.102922",
+      "publisher_url": "https://www.sciencedirect.com/science/article/pii/S2451929425005133",
+      "author_verification_urls": ["https://www.daviesresearchgroup.com/publications"],
+      "access_scope": "Original publisher metadata, abstract, highlights and section snippets; complete author list cross-checked against an author laboratory publication list. No paywall bypass or paid full text accessed.",
+      "supported_claim": "External experimental data-driven copper catalysis background. The title does not describe photocatalysis; no catalyst discovery in this manuscript is inferred from this citation.",
+      "classification": {"CAS": "unverified", "JCR": "unverified"}
+    },
+    {
+      "key": "single_atom_review",
+      "title": "Advanced organic electrosynthesis empowered by single-atom catalysis",
+      "authors_verified": ["Zezhao Li", "Chang-Jie Yang", "Wan-Jie Wei", "Meiqi Zhu", "Tianyou Zhao", "Qixuan Zhang", "Yong-Zhou Pan", "Jiarui Yang", "Xin-Yu Wang", "Hai-Tao Tang", "Wen-Hao Li", "Dingsheng Wang"],
+      "authors_partial": false,
+      "journal": "Chem",
+      "year": 2026,
+      "volume": "12",
+      "issue": "4",
+      "article_number": "102838",
+      "doi": "10.1016/j.chempr.2025.102838",
+      "publisher_url": "https://www.sciencedirect.com/science/article/abs/pii/S2451929425004292",
+      "author_verification_urls": [
+        "https://scholars.cityu.edu.hk/en/publications/advanced-organic-electrosynthesis-empowered-by-single-atom-cataly/",
+        "https://pubs.rsc.org/en-us/content/forwardlinks?doi=10.1039%2Fd4cs00539b",
+        "https://www.chemsoc.org.cn/member/senior/101648.html"
+      ],
+      "access_scope": "Original publisher metadata and abstract/section snippets. Complete author list cross-checked against institutional and publisher citation records; Tang attribution supported by the Chinese Chemical Society profile. No paid full text accessed.",
+      "supported_claim": "Review context for single-atom organic electrosynthesis; not evidence for a validated atomistic catalytic mechanism or new electrochemical experiments in the present work.",
+      "classification": {"CAS": "unverified", "JCR": "unverified"}
+    }
+  ]
+}
