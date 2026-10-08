@@ -63,6 +63,9 @@ def main():
     expansion=subprocess.run([sys.executable,str(ROOT/'manuscript/expanded/scripts/validate_expansion.py')],capture_output=True,text=True,encoding='utf-8')
     check('expanded historical manuscript validation',expansion.returncode==0)
     if expansion.returncode:print(expansion.stdout,expansion.stderr)
+    dft=subprocess.run([sys.executable,'-m','dft_hpc.validate_release'],cwd=ROOT,capture_output=True,text=True,encoding='utf-8')
+    check('DFT supplement saved evidence validation',dft.returncode==0)
+    if dft.returncode:print(dft.stdout,dft.stderr)
     if manuscript.returncode:print(manuscript.stdout,manuscript.stderr)
     files=[p for d in ['results','provenance','data/original','production/results','production/source','research/results','research/source','closed_loop/results','closed_loop/source','closed_loop/inputs','toolkit/results','toolkit/source','electratwin/results','electratwin/source','electrograph/results','electrograph/source','electrograph/data','synthapore/results','synthapore/source','quantumequi/results','quantumequi/source','manuscript'] for p in (ROOT/d).rglob('*.json') if p.name!='release_validation.json']
     for f in files:

@@ -1,6 +1,6 @@
 {
   "passed": true,
-  "checks": 204,
+  "checks": 205,
   "scope": "Saved record and publication integrity, not chemical prediction accuracy or experimental validation.",
   "failed": [],
   "items": [
@@ -590,6 +590,10 @@
     },
     {
       "check": "README link ../provenance/SHA256SUMS.txt",
+      "passed": true
+    },
+    {
+      "check": "README link dft_hpc/README.md",
       "passed": true
     },
     {

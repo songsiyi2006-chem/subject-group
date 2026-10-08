@@ -48,3 +48,5 @@ manuscript/expanded/results/** -text -whitespace
 manuscript/expanded/figures/** -text -whitespace
 manuscript/expanded/assets/** -text -whitespace
 manuscript/expanded/*.json -text -whitespace
+dft_hpc/geometries/** -text -whitespace
+dft_hpc/results/** -text -whitespace

@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "job_id": "Q02_tzvp_cation",
+      "record": "runs/Q02_tzvp_cation/a1870a5e60fe4135a81ea2592ad26c63/result.json",
+      "reasons": []
+    }
+  ],
+  "pairs": [
+    {
+      "protocol": {
+        "basis": "def2-tzvp",
+        "energy_kind": "electronic",
+        "environment": "gas",
+        "geometry_sha256": "77586112303e2123356d1cbb3bec9fdae811265bd1eb4b657a03df4f4b4bb4cc",
+        "method": "pbe0",
+        "molecule_id": "Q02",
+        "options": {
+          "d_convergence": 1e-07,
+          "dft_radial_points": 75,
+          "dft_spherical_points": 302,
+          "e_convergence": 1e-09,
+          "maxiter": 150,
+          "scf_type": "df"
+        },
+        "symbols": [
+          "C",
+          "O",
+          "C",
+          "C",
+          "C",
+          "C",
+          "N",
+          "C",
+          "H",
+          "H",
+          "H",
+          "H",
+          "H",
+          "H",
+          "H",
+          "H"
+        ],
+        "task": "single_point"
+      },
+      "status": "incomplete",
+      "energy_difference_hartree": null,
+      "energy_difference_eV": null,
+      "states": [
+        {
+          "id": "Q02_tzvp_cation",
+          "status": "available"
+        },
+        {
+          "id": "Q02_tzvp_radical",
+          "status": "missing_or_failed"
+        }
+      ],
+      "interpretation": "Fixed-geometry electronic difference only; wavefunction stability, minimum, free energy and electrode potential not validated."
+    },
+    {
+      "protocol": {
+        "basis": "def2-tzvp",
+        "energy_kind": "electronic",
+        "environment": "gas",
+        "geometry_sha256": "d5f4921bbb3ee4a970dfd7d441f0516bff226685f902c889bc814430bf0adbe9",
+        "method": "pbe0",
+        "molecule_id": "Q03",
+        "options": {
+          "d_convergence": 1e-07,
+          "dft_radial_points": 75,
+          "dft_spherical_points": 302,
+          "e_convergence": 1e-09,
+          "maxiter": 150,
+          "scf_type": "df"
+        },
+        "symbols": [
+          "N",
+          "C",
+          "C",
+          "C",
+          "C",
+          "C",
+          "N",
+          "C",
+          "H",
+          "H",
+          "H",
+          "H",
+          "H"
+        ],
+        "task": "single_point"
+      },
+      "status": "incomplete",
+      "energy_difference_hartree": null,
+      "energy_difference_eV": null,
+      "states": [
+        {
+          "id": "Q03_tzvp_cation",
+          "status": "missing_or_failed"
+        },
+        {
+          "id": "Q03_tzvp_radical",
+          "status": "missing_or_failed"
+        }
+      ],
+      "interpretation": "Fixed-geometry electronic difference only; wavefunction stability, minimum, free energy and electrode potential not validated."
+    }
+  ],
+  "accepted_chemical_predictions": 0
+}

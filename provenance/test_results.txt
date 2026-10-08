@@ -15,6 +15,20 @@ test_parameter_changes_propagate (test_closed_loop.ClosedLoopTests.test_paramete
 test_partner_identity_not_interchangeable (test_closed_loop.ClosedLoopTests.test_partner_identity_not_interchangeable) ... ok
 test_quantum_identity_spin_and_geometry (test_closed_loop.ClosedLoopTests.test_quantum_identity_spin_and_geometry) ... ok
 test_two_electron_material_balance (test_closed_loop.ClosedLoopTests.test_two_electron_material_balance) ... ok
+test_different_protocols_never_pair (test_dft_hpc.DftHpcTests.test_different_protocols_never_pair) ... ok
+test_duplicate_success_is_ambiguous (test_dft_hpc.DftHpcTests.test_duplicate_success_is_ambiguous) ... ok
+test_empty_xyz_has_validation_error (test_dft_hpc.DftHpcTests.test_empty_xyz_has_validation_error) ... ok
+test_engine_versions_must_match (test_dft_hpc.DftHpcTests.test_engine_versions_must_match) ... ok
+test_invalid_records_rejected (test_dft_hpc.DftHpcTests.test_invalid_records_rejected) ... ok
+test_malformed_record_is_audited (test_dft_hpc.DftHpcTests.test_malformed_record_is_audited) ... ok
+test_missing_results_are_not_predictions (test_dft_hpc.DftHpcTests.test_missing_results_are_not_predictions) ... ok
+test_nonobject_json_record_is_audited (test_dft_hpc.DftHpcTests.test_nonobject_json_record_is_audited) ... ok
+test_prepare_four_jobs_and_refuse_overwrite (test_dft_hpc.DftHpcTests.test_prepare_four_jobs_and_refuse_overwrite) ... ok
+test_prepared_files_tampering_rejected (test_dft_hpc.DftHpcTests.test_prepared_files_tampering_rejected) ... ok
+test_raw_log_changed_or_missing_rejected (test_dft_hpc.DftHpcTests.test_raw_log_changed_or_missing_rejected) ... ok
+test_resources_rejected_before_creation (test_dft_hpc.DftHpcTests.test_resources_rejected_before_creation) ... ok
+test_synthetic_pair_is_only_diagnostic (test_dft_hpc.DftHpcTests.test_synthetic_pair_is_only_diagnostic) ... ok
+test_xyz_and_electron_parity (test_dft_hpc.DftHpcTests.test_xyz_and_electron_parity) ... ok
 test_budget_prefixes_do_not_change_selection (test_electratwin_benchmark_extension.BenchmarkBudgetTests.test_budget_prefixes_do_not_change_selection) ... ok
 test_cached_oracle_forbids_duplicates_and_budget_overrun (test_electratwin_benchmark_extension.BenchmarkBudgetTests.test_cached_oracle_forbids_duplicates_and_budget_overrun) ... ok
 test_descriptive_t_handles_identical_initial_differences (test_electratwin_benchmark_extension.BenchmarkBudgetTests.test_descriptive_t_handles_identical_initial_differences) ... ok
@@ -381,6 +395,6 @@ test_source_abnormal_yield_is_never_clipped (test_toolkit.ToolkitTests.test_sour
 test_synthetic_calibration_fit_has_normal_equation_residuals (test_toolkit.ToolkitTests.test_synthetic_calibration_fit_has_normal_equation_residuals) ... ok
 
 ----------------------------------------------------------------------
-Ran 381 tests in 11.808s
+Ran 395 tests in 16.198s
 
 OK

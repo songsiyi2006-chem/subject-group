@@ -1,5 +1,9 @@
 # AI4S Organic Electrosynthesis & Catalyst Informatics
 
+## DFT supplement workflow / DFT 补算工作流（2026-10-08）
+
+[使用说明](dft_hpc/README.md)：准备 Q02/Q03 四项气相 PBE0/def2-TZVP 配对单点，保留原始坐标哈希，生成有界 Slurm 数组，记录独立运行尝试并验收诊断能量配对。准备代码不会自动提交超算；单点成功不能升级为稳定最低点、自由能或电极电位。既有论文 PDF 与历史结果保持原版本。
+
 完整技术报告、可复现计算与证据审计。Updated 2026-09-29.
 
 ## Expanded research paper / 历史项目扩展论文

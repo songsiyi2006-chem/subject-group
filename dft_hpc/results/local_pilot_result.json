@@ -1,0 +1,71 @@
+{
+  "job": {
+    "id": "Q02_tzvp_cation",
+    "molecule_id": "Q02",
+    "state": "cation",
+    "charge": 1,
+    "multiplicity": 1,
+    "electrons": 58,
+    "geometry": "geometries/Q02.xyz",
+    "geometry_sha256": "77586112303e2123356d1cbb3bec9fdae811265bd1eb4b657a03df4f4b4bb4cc",
+    "symbols": [
+      "C",
+      "O",
+      "C",
+      "C",
+      "C",
+      "C",
+      "N",
+      "C",
+      "H",
+      "H",
+      "H",
+      "H",
+      "H",
+      "H",
+      "H",
+      "H"
+    ],
+    "method": "pbe0",
+    "basis": "def2-tzvp",
+    "environment": "gas",
+    "task": "single_point",
+    "energy_kind": "electronic",
+    "options": {
+      "scf_type": "df",
+      "e_convergence": 1e-09,
+      "d_convergence": 1e-07,
+      "maxiter": 150,
+      "dft_radial_points": 75,
+      "dft_spherical_points": 302
+    },
+    "source": {
+      "molecule_id": "Q02",
+      "file": "geometries/Q02.xyz",
+      "sha256": "77586112303e2123356d1cbb3bec9fdae811265bd1eb4b657a03df4f4b4bb4cc",
+      "source_repository": "songsiyi2006-chem/ai4chem-complex-scaffolds-benchmark",
+      "source_commit": "5e19c519dbd11430926828fddf5375b919af67f0",
+      "source_path": "projects/phase29/results/quantum_preflight/inputs/Q02.xyz"
+    }
+  },
+  "code_sha256": {
+    "runner.py": "1ea48962ca84ab1e73c80295d6b39b645a8709b58428ac1878642c232bb52e01",
+    "workflow.py": "eaf60c2f7fa121d727524abca6c67f40f48f373a9dc2b9cd50ccc3107d03f923"
+  },
+  "status": "completed",
+  "geometry_sha256": "77586112303e2123356d1cbb3bec9fdae811265bd1eb4b657a03df4f4b4bb4cc",
+  "started_utc": "2026-10-08T05:52:50.126263+00:00",
+  "scf_converged": true,
+  "wavefunction_stability": "not_checked",
+  "optimization": "not_performed",
+  "frequencies": "not_performed",
+  "energy_hartree": -362.89229397789865,
+  "engine_version": "1.11",
+  "nalpha": 29,
+  "nbeta": 29,
+  "basis_functions": 296,
+  "spin_squared": -7.815970093361102e-14,
+  "spin_diagnostic": "reported_not_used_as_universal_acceptance_threshold",
+  "finished_utc": "2026-10-08T05:54:06.070127+00:00",
+  "engine_output_sha256": "6e809c6e986d50b00a60a487cf90b2ab0866517d5fb59944f670f5da76def804"
+}

@@ -1,0 +1,62 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "frozen four-job preparation matches source",
+      "passed": true
+    },
+    {
+      "name": "pilot task matches frozen first task",
+      "passed": true
+    },
+    {
+      "name": "one local completed attempt, zero remote jobs",
+      "passed": true
+    },
+    {
+      "name": "native result bytes retained",
+      "passed": true
+    },
+    {
+      "name": "original log identity retained",
+      "passed": true
+    },
+    {
+      "name": "portable log hash",
+      "passed": true
+    },
+    {
+      "name": "independent native energy extraction",
+      "passed": true
+    },
+    {
+      "name": "SCF completed",
+      "passed": true
+    },
+    {
+      "name": "limitations preserved",
+      "passed": true
+    },
+    {
+      "name": "executed code matches shipped code runner.py",
+      "passed": true
+    },
+    {
+      "name": "executed code matches shipped code workflow.py",
+      "passed": true
+    },
+    {
+      "name": "missing partners not invented",
+      "passed": true
+    },
+    {
+      "name": "zero accepted chemical predictions",
+      "passed": true
+    },
+    {
+      "name": "portable log omits local paths",
+      "passed": true
+    }
+  ],
+  "scope": "Preparation and saved single-point record consistency, not independent physical validation."
+}

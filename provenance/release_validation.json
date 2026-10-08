@@ -1,7 +1,7 @@
 {
   "passed": true,
-  "checks": 2584,
-  "scientific_tests_run": 381,
+  "checks": 2601,
+  "scientific_tests_run": 395,
   "scientific_failures": 0,
   "scientific_errors": 0,
   "failed": [],
@@ -170,6 +170,10 @@
     },
     {
       "check": "expanded historical manuscript validation",
+      "passed": true
+    },
+    {
+      "check": "DFT supplement saved evidence validation",
       "passed": true
     },
     {
@@ -2274,6 +2278,66 @@
     },
     {
       "check": "SHA256 data/original/simulate_all_topics.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 dft_hpc/README.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 dft_hpc/__init__.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 dft_hpc/geometries/Q02.xyz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 dft_hpc/geometries/Q03.xyz",
+      "passed": true
+    },
+    {
+      "check": "SHA256 dft_hpc/geometries/UPSTREAM_LICENSE.txt",
+      "passed": true
+    },
+    {
+      "check": "SHA256 dft_hpc/geometry_sources.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 dft_hpc/results/local_pilot_collection.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 dft_hpc/results/local_pilot_engine_portable.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 dft_hpc/results/local_pilot_provenance.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 dft_hpc/results/local_pilot_result.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 dft_hpc/results/prepared_plan.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 dft_hpc/results/validation.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 dft_hpc/runner.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 dft_hpc/validate_release.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 dft_hpc/workflow.py",
       "passed": true
     },
     {
@@ -9990,6 +10054,10 @@
     },
     {
       "check": "SHA256 tests/test_closed_loop.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 tests/test_dft_hpc.py",
       "passed": true
     },
     {

@@ -1,0 +1,20 @@
+{
+  "scope": "One bounded real local Psi4 single point; no remote jobs, complete charge pairs, geometry optimizations or frequencies.",
+  "native_result_sha256": "b79a2a2136df2d561e6c87df730bbbee509d788b37632338f5943089dd925584",
+  "original_engine_output_sha256": "6e809c6e986d50b00a60a487cf90b2ab0866517d5fb59944f670f5da76def804",
+  "portable_engine_output_sha256": "1b6f0db0a79081c11023004474f5aab2bd2008378bd2ce33e7b58e2cb5bd4716",
+  "redacted_path_occurrences": 9,
+  "host_redacted": true,
+  "original_log_preserved_locally": true,
+  "local_attempts": 1,
+  "completed_single_points": 1,
+  "remote_submissions": 0,
+  "complete_charge_pairs": 0,
+  "resources": {
+    "cores": 2,
+    "memory_mb": 2000,
+    "hours": 1,
+    "concurrency": 1
+  },
+  "external_timeout_seconds": 180
+}

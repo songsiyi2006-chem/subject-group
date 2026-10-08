@@ -1,0 +1,202 @@
+{
+  "schema_version": 1,
+  "status": "prepared_not_executed",
+  "jobs": [
+    {
+      "id": "Q02_tzvp_cation",
+      "molecule_id": "Q02",
+      "state": "cation",
+      "charge": 1,
+      "multiplicity": 1,
+      "electrons": 58,
+      "geometry": "geometries/Q02.xyz",
+      "geometry_sha256": "77586112303e2123356d1cbb3bec9fdae811265bd1eb4b657a03df4f4b4bb4cc",
+      "symbols": [
+        "C",
+        "O",
+        "C",
+        "C",
+        "C",
+        "C",
+        "N",
+        "C",
+        "H",
+        "H",
+        "H",
+        "H",
+        "H",
+        "H",
+        "H",
+        "H"
+      ],
+      "method": "pbe0",
+      "basis": "def2-tzvp",
+      "environment": "gas",
+      "task": "single_point",
+      "energy_kind": "electronic",
+      "options": {
+        "scf_type": "df",
+        "e_convergence": 1e-09,
+        "d_convergence": 1e-07,
+        "maxiter": 150,
+        "dft_radial_points": 75,
+        "dft_spherical_points": 302
+      },
+      "source": {
+        "molecule_id": "Q02",
+        "file": "geometries/Q02.xyz",
+        "sha256": "77586112303e2123356d1cbb3bec9fdae811265bd1eb4b657a03df4f4b4bb4cc",
+        "source_repository": "songsiyi2006-chem/ai4chem-complex-scaffolds-benchmark",
+        "source_commit": "5e19c519dbd11430926828fddf5375b919af67f0",
+        "source_path": "projects/phase29/results/quantum_preflight/inputs/Q02.xyz"
+      }
+    },
+    {
+      "id": "Q02_tzvp_radical",
+      "molecule_id": "Q02",
+      "state": "radical",
+      "charge": 0,
+      "multiplicity": 2,
+      "electrons": 59,
+      "geometry": "geometries/Q02.xyz",
+      "geometry_sha256": "77586112303e2123356d1cbb3bec9fdae811265bd1eb4b657a03df4f4b4bb4cc",
+      "symbols": [
+        "C",
+        "O",
+        "C",
+        "C",
+        "C",
+        "C",
+        "N",
+        "C",
+        "H",
+        "H",
+        "H",
+        "H",
+        "H",
+        "H",
+        "H",
+        "H"
+      ],
+      "method": "pbe0",
+      "basis": "def2-tzvp",
+      "environment": "gas",
+      "task": "single_point",
+      "energy_kind": "electronic",
+      "options": {
+        "scf_type": "df",
+        "e_convergence": 1e-09,
+        "d_convergence": 1e-07,
+        "maxiter": 150,
+        "dft_radial_points": 75,
+        "dft_spherical_points": 302
+      },
+      "source": {
+        "molecule_id": "Q02",
+        "file": "geometries/Q02.xyz",
+        "sha256": "77586112303e2123356d1cbb3bec9fdae811265bd1eb4b657a03df4f4b4bb4cc",
+        "source_repository": "songsiyi2006-chem/ai4chem-complex-scaffolds-benchmark",
+        "source_commit": "5e19c519dbd11430926828fddf5375b919af67f0",
+        "source_path": "projects/phase29/results/quantum_preflight/inputs/Q02.xyz"
+      }
+    },
+    {
+      "id": "Q03_tzvp_cation",
+      "molecule_id": "Q03",
+      "state": "cation",
+      "charge": 1,
+      "multiplicity": 1,
+      "electrons": 54,
+      "geometry": "geometries/Q03.xyz",
+      "geometry_sha256": "d5f4921bbb3ee4a970dfd7d441f0516bff226685f902c889bc814430bf0adbe9",
+      "symbols": [
+        "N",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "N",
+        "C",
+        "H",
+        "H",
+        "H",
+        "H",
+        "H"
+      ],
+      "method": "pbe0",
+      "basis": "def2-tzvp",
+      "environment": "gas",
+      "task": "single_point",
+      "energy_kind": "electronic",
+      "options": {
+        "scf_type": "df",
+        "e_convergence": 1e-09,
+        "d_convergence": 1e-07,
+        "maxiter": 150,
+        "dft_radial_points": 75,
+        "dft_spherical_points": 302
+      },
+      "source": {
+        "molecule_id": "Q03",
+        "file": "geometries/Q03.xyz",
+        "sha256": "d5f4921bbb3ee4a970dfd7d441f0516bff226685f902c889bc814430bf0adbe9",
+        "source_repository": "songsiyi2006-chem/ai4chem-complex-scaffolds-benchmark",
+        "source_commit": "5e19c519dbd11430926828fddf5375b919af67f0",
+        "source_path": "projects/phase29/results/quantum_preflight/inputs/Q03.xyz"
+      }
+    },
+    {
+      "id": "Q03_tzvp_radical",
+      "molecule_id": "Q03",
+      "state": "radical",
+      "charge": 0,
+      "multiplicity": 2,
+      "electrons": 55,
+      "geometry": "geometries/Q03.xyz",
+      "geometry_sha256": "d5f4921bbb3ee4a970dfd7d441f0516bff226685f902c889bc814430bf0adbe9",
+      "symbols": [
+        "N",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "N",
+        "C",
+        "H",
+        "H",
+        "H",
+        "H",
+        "H"
+      ],
+      "method": "pbe0",
+      "basis": "def2-tzvp",
+      "environment": "gas",
+      "task": "single_point",
+      "energy_kind": "electronic",
+      "options": {
+        "scf_type": "df",
+        "e_convergence": 1e-09,
+        "d_convergence": 1e-07,
+        "maxiter": 150,
+        "dft_radial_points": 75,
+        "dft_spherical_points": 302
+      },
+      "source": {
+        "molecule_id": "Q03",
+        "file": "geometries/Q03.xyz",
+        "sha256": "d5f4921bbb3ee4a970dfd7d441f0516bff226685f902c889bc814430bf0adbe9",
+        "source_repository": "songsiyi2006-chem/ai4chem-complex-scaffolds-benchmark",
+        "source_commit": "5e19c519dbd11430926828fddf5375b919af67f0",
+        "source_path": "projects/phase29/results/quantum_preflight/inputs/Q03.xyz"
+      }
+    }
+  ],
+  "deferred": [
+    {
+      "id": "quinazolinone_anions",
+      "reason": "Original complete state and geometry inputs must be verified before preparation"
+    }
+  ]
+}

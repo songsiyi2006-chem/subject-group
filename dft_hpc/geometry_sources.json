@@ -1,0 +1,18 @@
+[
+  {
+    "molecule_id": "Q02",
+    "file": "geometries/Q02.xyz",
+    "sha256": "77586112303e2123356d1cbb3bec9fdae811265bd1eb4b657a03df4f4b4bb4cc",
+    "source_repository": "songsiyi2006-chem/ai4chem-complex-scaffolds-benchmark",
+    "source_commit": "5e19c519dbd11430926828fddf5375b919af67f0",
+    "source_path": "projects/phase29/results/quantum_preflight/inputs/Q02.xyz"
+  },
+  {
+    "molecule_id": "Q03",
+    "file": "geometries/Q03.xyz",
+    "sha256": "d5f4921bbb3ee4a970dfd7d441f0516bff226685f902c889bc814430bf0adbe9",
+    "source_repository": "songsiyi2006-chem/ai4chem-complex-scaffolds-benchmark",
+    "source_commit": "5e19c519dbd11430926828fddf5375b919af67f0",
+    "source_path": "projects/phase29/results/quantum_preflight/inputs/Q03.xyz"
+  }
+]
