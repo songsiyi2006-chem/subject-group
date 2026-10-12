@@ -50,3 +50,5 @@ manuscript/expanded/assets/** -text -whitespace
 manuscript/expanded/*.json -text -whitespace
 dft_hpc/geometries/** -text -whitespace
 dft_hpc/results/** -text -whitespace
+scientific_analysis/results/** -text -whitespace
+scientific_analysis/paired_budget.py -text

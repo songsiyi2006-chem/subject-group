@@ -1,5 +1,9 @@
 # AI4S Organic Electrosynthesis & Catalyst Informatics
 
+## Scientific analysis supplement / 科学分析补充（2026-10-12）
+
+[配对预算分析说明](scientific_analysis/README.md)：对已有 64 组随机种子记录补充配对 bootstrap、预算曲线面积、Holm 校正、留一敏感性和目标达成区间。仅使用 Python 标准库分析缓存数据，不运行求解器或超算。算法统计不等于化学验证。
+
 ## DFT supplement workflow / DFT 补算工作流（2026-10-08）
 
 [使用说明](dft_hpc/README.md)：准备 Q02/Q03 四项气相 PBE0/def2-TZVP 配对单点，保留原始坐标哈希，生成有界 Slurm 数组，记录独立运行尝试并验收诊断能量配对。准备代码不会自动提交超算；单点成功不能升级为稳定最低点、自由能或电极电位。既有论文 PDF 与历史结果保持原版本。
