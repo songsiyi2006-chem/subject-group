@@ -1,5 +1,9 @@
 # AI4S Organic Electrosynthesis & Catalyst Informatics
 
+## QM AutoBridge / 量化日志分析桥接（2026-10-13）
+
+[单文件代码](qm_autobridge.py) · [运行说明与适用范围](qm_autobridge/README.md)：Gaussian/ORCA 日志解析、热化学与加权 BEP 拟合、纯 PyTorch 三维连续滤波网络、合成自测和 LaTeX/300-DPI 图表导出。默认结果为明确标注的合成软件测试，网络未训练，无新增 DFT 或超算任务。
+
 ## Scientific analysis supplement / 科学分析补充（2026-10-12）
 
 [配对预算分析说明](scientific_analysis/README.md)：对已有 64 组随机种子记录补充配对 bootstrap、预算曲线面积、Holm 校正、留一敏感性和目标达成区间。仅使用 Python 标准库分析缓存数据，不运行求解器或超算。算法统计不等于化学验证。

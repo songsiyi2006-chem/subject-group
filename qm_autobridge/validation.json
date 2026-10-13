@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "checks": {
+    "source_hash": true,
+    "Gaussian_substrate": true,
+    "Gaussian_cation": true,
+    "Gaussian_R": true,
+    "Gaussian_PC": true,
+    "Gaussian_TS": true,
+    "Gaussian_INT": true,
+    "Gaussian_P": true,
+    "ORCA_substrate": true,
+    "ORCA_cation": true,
+    "ORCA_R": true,
+    "ORCA_PC": true,
+    "ORCA_TS": true,
+    "ORCA_INT": true,
+    "ORCA_P": true,
+    "pathway_recomputed": true,
+    "bep_recomputed": true,
+    "evidence_labels": true,
+    "untrained_inference_reproduced": true,
+    "figure_confidence_band": true,
+    "png_dimensions": true,
+    "png_300dpi": true,
+    "pdf_export": true,
+    "table_synthetic_label": true
+  },
+  "scope": "Software and saved-artifact integrity, not physical validation",
+  "visual_review": "Composite PNG inspected: axes, labels, legend and evidence labels readable",
+  "latex_compile": "Not confirmed: built-in compiler did not return; source provided"
+}

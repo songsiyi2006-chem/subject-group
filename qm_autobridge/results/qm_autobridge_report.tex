@@ -1,0 +1,24 @@
+\documentclass[10pt,landscape]{article}
+\usepackage[margin=1.5cm]{geometry}
+\usepackage{booktabs}
+\begin{document}
+\begin{table}[htbp]
+\centering
+\caption{SYNTHETIC software fixtures, not DFT results. Energies in hartree; activation energies relative to R in kcal mol$^{-1}$.}
+\label{tab:qm-autobridge}
+\begin{tabular}{lrrrrrr}
+\toprule
+State & $E_{\mathrm{SCF}}$ & ZPVE & $H$ & $G$ & $\Delta G^\ddagger$ & $\nu_{\mathrm{imag}}$/cm$^{-1}$ \\
+\midrule
+R & -650.12000000 & 0.10000000 & -649.97000000 & -650.00000000 & -- & -- \\
+PC & -650.12478080 & 0.10000000 & -649.97478080 & -650.00478080 & -- & -- \\
+TS & -650.09131518 & 0.10000000 & -649.94131518 & -649.97131518 & 18.00 & -342.5 \\
+INT & -650.12796801 & 0.10000000 & -649.97796801 & -650.00796801 & -- & -- \\
+P & -650.13434241 & 0.10000000 & -649.98434241 & -650.01434241 & -- & -- \\
+\bottomrule
+\end{tabular}
+\end{table}
+% Requires booktabs. H/G are TOTAL energies; do not add ZPVE again.
+% All states in this toy pathway have identical composition, +1 charge and doublet spin.
+\noindent Software demonstration only. One imaginary mode does not prove reaction connectivity. The neural network is untrained.
+\end{document}

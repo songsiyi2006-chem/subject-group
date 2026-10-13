@@ -1,6 +1,6 @@
 {
   "passed": true,
-  "checks": 206,
+  "checks": 208,
   "scope": "Saved record and publication integrity, not chemical prediction accuracy or experimental validation.",
   "failed": [],
   "items": [
@@ -590,6 +590,14 @@
     },
     {
       "check": "README link ../provenance/SHA256SUMS.txt",
+      "passed": true
+    },
+    {
+      "check": "README link qm_autobridge.py",
+      "passed": true
+    },
+    {
+      "check": "README link qm_autobridge/README.md",
       "passed": true
     },
     {

@@ -1,7 +1,7 @@
 {
   "passed": true,
-  "checks": 2610,
-  "scientific_tests_run": 408,
+  "checks": 2634,
+  "scientific_tests_run": 429,
   "scientific_failures": 0,
   "scientific_errors": 0,
   "failed": [],
@@ -178,6 +178,10 @@
     },
     {
       "check": "paired budget post-hoc analysis validation",
+      "passed": true
+    },
+    {
+      "check": "QM AutoBridge synthetic artifact validation",
       "passed": true
     },
     {
@@ -5429,6 +5433,94 @@
       "passed": true
     },
     {
+      "check": "SHA256 qm_autobridge.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 qm_autobridge/README.md",
+      "passed": true
+    },
+    {
+      "check": "SHA256 qm_autobridge/results/qm_autobridge_composite.pdf",
+      "passed": true
+    },
+    {
+      "check": "SHA256 qm_autobridge/results/qm_autobridge_composite.png",
+      "passed": true
+    },
+    {
+      "check": "SHA256 qm_autobridge/results/qm_autobridge_database.json",
+      "passed": true
+    },
+    {
+      "check": "SHA256 qm_autobridge/results/qm_autobridge_report.tex",
+      "passed": true
+    },
+    {
+      "check": "SHA256 qm_autobridge/results/qm_autobridge_table.tex",
+      "passed": true
+    },
+    {
+      "check": "SHA256 qm_autobridge/results/synthetic_logs/gaussian_INT.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 qm_autobridge/results/synthetic_logs/gaussian_P.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 qm_autobridge/results/synthetic_logs/gaussian_PC.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 qm_autobridge/results/synthetic_logs/gaussian_R.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 qm_autobridge/results/synthetic_logs/gaussian_TS.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 qm_autobridge/results/synthetic_logs/gaussian_cation.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 qm_autobridge/results/synthetic_logs/gaussian_substrate.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 qm_autobridge/results/synthetic_logs/orca_INT.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 qm_autobridge/results/synthetic_logs/orca_P.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 qm_autobridge/results/synthetic_logs/orca_PC.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 qm_autobridge/results/synthetic_logs/orca_R.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 qm_autobridge/results/synthetic_logs/orca_TS.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 qm_autobridge/results/synthetic_logs/orca_cation.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 qm_autobridge/results/synthetic_logs/orca_substrate.out",
+      "passed": true
+    },
+    {
+      "check": "SHA256 qm_autobridge/validation.json",
+      "passed": true
+    },
+    {
       "check": "SHA256 quantumequi/EXTENSIONS.md",
       "passed": true
     },
@@ -10138,6 +10230,10 @@
     },
     {
       "check": "SHA256 tests/test_production.py",
+      "passed": true
+    },
+    {
+      "check": "SHA256 tests/test_qm_autobridge.py",
       "passed": true
     },
     {

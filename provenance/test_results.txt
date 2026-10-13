@@ -198,6 +198,27 @@ test_source_bo_grid_and_observation_counts (test_production.ProductionEvidenceTe
 test_supplied_source_identity_and_failure_preserved (test_production.ProductionEvidenceTests.test_supplied_source_identity_and_failure_preserved) ... ok
 test_target_core_mapping_and_blocked_sites (test_production.ProductionEvidenceTests.test_target_core_mapping_and_blocked_sites) ... ok
 test_target_xtb_records_and_charge_sums (test_production.ProductionEvidenceTests.test_target_xtb_records_and_charge_sums) ... ok
+test_charge_condition_and_invalid_inputs (test_qm_autobridge.NetworkTests.test_charge_condition_and_invalid_inputs) ... ok
+test_coordinate_gradient_matches_finite_difference (test_qm_autobridge.NetworkTests.test_coordinate_gradient_matches_finite_difference) ... ok
+test_cutoff_zero_and_first_derivative (test_qm_autobridge.NetworkTests.test_cutoff_zero_and_first_derivative) ... ok
+test_no_bias_leakage_across_cutoff (test_qm_autobridge.NetworkTests.test_no_bias_leakage_across_cutoff) ... ok
+test_training_step_updates_parameters (test_qm_autobridge.NetworkTests.test_training_step_updates_parameters) ... ok
+test_translation_rotation_reflection_and_permutation (test_qm_autobridge.NetworkTests.test_translation_rotation_reflection_and_permutation) ... ok
+test_charge_table_mapping_and_modes_rejected (test_qm_autobridge.ParserTests.test_charge_table_mapping_and_modes_rejected) ... ok
+test_correction_only_no_double_count_zpve (test_qm_autobridge.ParserTests.test_correction_only_no_double_count_zpve) ... ok
+test_exactly_one_negative_and_mode_required (test_qm_autobridge.ParserTests.test_exactly_one_negative_and_mode_required) ... ok
+test_fractional_occupancy_and_repeated_thermo_rejected (test_qm_autobridge.ParserTests.test_fractional_occupancy_and_repeated_thermo_rejected) ... ok
+test_independent_gaussian_and_orca_totals (test_qm_autobridge.ParserTests.test_independent_gaussian_and_orca_totals) ... ok
+test_last_geometry_and_scf_cycle (test_qm_autobridge.ParserTests.test_last_geometry_and_scf_cycle) ... ok
+test_missing_optional_data_explicit (test_qm_autobridge.ParserTests.test_missing_optional_data_explicit) ... ok
+test_orca_displacement_and_open_shell_channels (test_qm_autobridge.ParserTests.test_orca_displacement_and_open_shell_channels) ... ok
+test_stale_thermochemistry_rejected (test_qm_autobridge.ParserTests.test_stale_thermochemistry_rejected) ... ok
+test_truncated_mixed_failed_and_multijob_rejected (test_qm_autobridge.ParserTests.test_truncated_mixed_failed_and_multijob_rejected) ... ok
+test_disk_pipeline_parity_and_no_overwrite (test_qm_autobridge.SandboxTests.test_disk_pipeline_parity_and_no_overwrite) ... ok
+test_known_weighted_regression_and_covariance (test_qm_autobridge.ThermochemistryTests.test_known_weighted_regression_and_covariance) ... ok
+test_pathway_independent_target_and_reference_choice (test_qm_autobridge.ThermochemistryTests.test_pathway_independent_target_and_reference_choice) ... ok
+test_protocol_and_unbalanced_pathway_rejected (test_qm_autobridge.ThermochemistryTests.test_protocol_and_unbalanced_pathway_rejected) ... ok
+test_unknown_variance_ols_and_invalid_fit (test_qm_autobridge.ThermochemistryTests.test_unknown_variance_ols_and_invalid_fit) ... ok
 test_branch_requires_energy_and_spin (test_quantumequi_correlation_extension.AnalyticChecks.test_branch_requires_energy_and_spin) ... ok
 test_five_point_quartic_derivatives (test_quantumequi_correlation_extension.AnalyticChecks.test_five_point_quartic_derivatives) ... ok
 test_fresh_study_aggregation_requires_no_recovery_directory (test_quantumequi_correlation_extension.AnalyticChecks.test_fresh_study_aggregation_requires_no_recovery_directory) ... ok
@@ -408,6 +429,6 @@ test_source_abnormal_yield_is_never_clipped (test_toolkit.ToolkitTests.test_sour
 test_synthetic_calibration_fit_has_normal_equation_residuals (test_toolkit.ToolkitTests.test_synthetic_calibration_fit_has_normal_equation_residuals) ... ok
 
 ----------------------------------------------------------------------
-Ran 408 tests in 7.642s
+Ran 429 tests in 7.316s
 
 OK

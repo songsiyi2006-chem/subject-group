@@ -69,6 +69,9 @@ def main():
     analysis=subprocess.run([sys.executable,'-m','scientific_analysis.validate_release'],cwd=ROOT,capture_output=True,text=True,encoding='utf-8')
     check('paired budget post-hoc analysis validation',analysis.returncode==0)
     if analysis.returncode:print(analysis.stdout,analysis.stderr)
+    bridge=subprocess.run([sys.executable,str(ROOT/'qm_autobridge.py'),'--validate-saved',str(ROOT/'qm_autobridge/results')],cwd=ROOT,capture_output=True,text=True,encoding='utf-8')
+    check('QM AutoBridge synthetic artifact validation',bridge.returncode==0)
+    if bridge.returncode:print(bridge.stdout,bridge.stderr)
     if manuscript.returncode:print(manuscript.stdout,manuscript.stderr)
     files=[p for d in ['results','provenance','data/original','production/results','production/source','research/results','research/source','closed_loop/results','closed_loop/source','closed_loop/inputs','toolkit/results','toolkit/source','electratwin/results','electratwin/source','electrograph/results','electrograph/source','electrograph/data','synthapore/results','synthapore/source','quantumequi/results','quantumequi/source','manuscript'] for p in (ROOT/d).rglob('*.json') if p.name!='release_validation.json']
     for f in files:

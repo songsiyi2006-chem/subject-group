@@ -52,3 +52,5 @@ dft_hpc/geometries/** -text -whitespace
 dft_hpc/results/** -text -whitespace
 scientific_analysis/results/** -text -whitespace
 scientific_analysis/paired_budget.py -text
+qm_autobridge.py -text
+qm_autobridge/results/** -text -whitespace
